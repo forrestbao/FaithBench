@@ -270,6 +270,20 @@
         "source_span": "feared to be extinct has been found washed up on a west australian beach",
         "source_start": 28,
         "source_end": 100
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 4,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "1. the species was \"feared to be extinct\" not \"thought to be extinct\". \n2. The whale's endangered status is not limited to \"Western Australia.\" The whale was washed up in west Australia. ",
+        "annotator_name": "forrest",
+        "summary_span": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia,",
+        "summary_start": 0,
+        "summary_end": 87
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -420,6 +434,23 @@
         "source_span": "it provoked an angry backlash in 2007",
         "source_start": 1421,
         "source_end": 1458
+      },
+      {
+        "annot_id": 101,
+        "sample_id": 6,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "over-generalization",
+        "annotator_name": "forrest",
+        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production.",
+        "summary_start": 115,
+        "summary_end": 204,
+        "source_span": "\nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics .",
+        "source_start": 197,
+        "source_end": 357
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -720,6 +751,23 @@
         "source_span": "\none user called catrin stewartwrite : ` you clearly know what you 're trying to sell with that offensive , unrealistic and sexist advert . '",
         "source_start": 2156,
         "source_end": 2297
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 7,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary over-generalized one user's view to many users view. ",
+        "annotator_name": "forrest",
+        "summary_span": "The advertisements have been placed on the London Underground and have received significant backlash from feminists, body image campaigners, and social media users who find the campaign offensive, unrealistic, and sexist. ",
+        "summary_start": 159,
+        "summary_end": 381,
+        "source_span": "\none user called catrin stewartwrite : ` you clearly know what you 're trying to sell with that offensive , unrealistic and sexist advert . '",
+        "source_start": 2156,
+        "source_end": 2297
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -867,6 +915,116 @@
         "source_span": "christian haug",
         "source_start": 1003,
         "source_end": 1017
+      },
+      {
+        "annot_id": 104,
+        "sample_id": 8,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "It seems the source span is an image caption. The source does not clearly say whether the game is Manchester Youth Cup Final. ",
+        "annotator_name": "forrest",
+        "summary_span": "Manchester Youth Cup",
+        "summary_start": 17,
+        "summary_end": 37,
+        "source_span": "christian haug goes up for the ball under pressure from chelsea forwards during the youth cup final\ncameron humphreys-grant :",
+        "source_start": 1003,
+        "source_end": 1128
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 8,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not say whether the opponent of Chelsea is Manchester City. ",
+        "annotator_name": "forrest",
+        "summary_span": "Manchester City",
+        "summary_start": 52,
+        "summary_end": 67
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 8,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Segmentation of the source is hard due to letter cases. But it seems that the source did not say whether Kjetil haug is the captain of Chelsea. ",
+        "annotator_name": "forrest",
+        "summary_span": "Manchester City's captain, Kjetil Haug",
+        "summary_start": 191,
+        "summary_end": 229,
+        "source_span": "kjetil haug : norwegian international has been on the bench for long periods but got the nod and looked shaky under the high ball ",
+        "source_start": 419,
+        "source_end": 549
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 8,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source seems quite messed up. ",
+        "annotator_name": "forrest",
+        "summary_span": "Chelsea's Tammy Abraham scored a double,",
+        "summary_start": 90,
+        "summary_end": 130,
+        "source_span": "\ndominic solanke scored late on to put a gloss on the scoreline after a tammy abraham double had seen chelsea take a first half lead .",
+        "source_start": 124,
+        "source_end": 258
+      },
+      {
+        "annot_id": 108,
+        "sample_id": 8,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "it is clear whether Dominic Solanke leveled the game.",
+        "annotator_name": "forrest",
+        "summary_span": " Dominic Solanke scored a late goal to level the game",
+        "summary_start": 136,
+        "summary_end": 189
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 8,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The last name was misspelled to Haag",
+        "annotator_name": "forrest",
+        "summary_span": "Christian Haag",
+        "summary_start": 286,
+        "summary_end": 300,
+        "source_span": "\nchristian haug",
+        "source_start": 1002,
+        "source_end": 1017
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 8,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Benign"
+        ],
+        "note": "It is reasonable to infer that the number of volleys from Abraham is two. ",
+        "annotator_name": "forrest",
+        "summary_span": "Abraham's two volleys",
+        "summary_start": 521,
+        "summary_end": 542,
+        "source_span": "dominic solanke scored late on to put a gloss on the scoreline after a tammy abraham double had seen chelsea take a first half lead . \nsportsmail was at the academy stadium to see how the youngsters got on ...\ntammy abraham smashes chelsea into the lead with a fierce drive into the top corner\nkjetil haug : norwegian international has been on the bench for long periods but got the nod and looked shaky under the high ball . \nthat said , powerless to stop abraham 's volleys and soalnke 's killer ",
+        "source_start": 125,
+        "source_end": 623
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1194,6 +1352,19 @@
         "source_span": "Facebook won't let him have more than that number. ",
         "source_start": 1174,
         "source_end": 1225
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 3,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not say that Ben Parkinson inspired people. But this sounds reasonable by common sense. ",
+        "annotator_name": "forrest",
+        "summary_span": " His story and positive attitude have inspired many",
+        "summary_start": 408,
+        "summary_end": 459
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1354,6 +1525,37 @@
         "source_span": " 8 December 1708 -- 18 August 1765",
         "source_start": 45,
         "source_end": 79
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 9,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "over-generalization from \"at the time\" to all time",
+        "annotator_name": "forrest",
+        "summary_span": "a controversial move for a Christian king",
+        "summary_start": 244,
+        "summary_end": 285,
+        "source_span": "a controversial move for a Christian king at the time .",
+        "source_start": 772,
+        "source_end": 827
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 9,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "from the notation and common sense, it seems this monarch did not reigned from 1708 to 1765 but lived from 1708 to 1765",
+        "annotator_name": "forrest",
+        "source_span": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) ",
+        "source_start": 0,
+        "source_end": 82
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
