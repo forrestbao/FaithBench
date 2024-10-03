@@ -5,37 +5,6 @@
     "summary": "The passage describes a crucial football match between Dagenham & Redbridge (The Daggers) and Leyton Orient (The O's) with significant implications for both teams. Dagenham, facing relegation, needed a win to maintain their League Two status, while Orient aimed to secure a play-off spot. The game saw a thrilling comeback from Dagenham, who initially conceded two goals but fought back to level the score. However, Armand Gnanduillet's winner for Orient sealed Dagenham's fate, relegating them to the National League. This result highlights Dagenham's struggles throughout the season, with a poor goal difference and a less productive attack compared to previous years. Despite the setback, Dagenham's manager, John Still, expressed his commitment to leading the team back to promotion next season. Meanwhile, Orient's interim manager, Andy Hessenthaler, acknowledged the challenges of losing two managers in a season but emphasized the team's professionalism and dedication to winning for their fans.",
     "annotations": [
       {
-        "annot_id": 1,
-        "sample_id": 0,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Dagenham's manager",
-        "summary_start": 692,
-        "summary_end": 710
-      },
-      {
-        "annot_id": 2,
-        "sample_id": 0,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Dagenham's manager",
-        "summary_start": 692,
-        "summary_end": 710,
-        "source_span": "Boss Still",
-        "source_start": 846,
-        "source_end": 856
-      },
-      {
         "annot_id": 3,
         "sample_id": 0,
         "annotator": "aa4665a09e3040cc92f79c7d32b14d50",
@@ -57,30 +26,13 @@
           "Unwanted.Instrinsic"
         ],
         "note": "not previous years but last term",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "This result highlights Dagenham's struggles throughout the season, with a poor goal difference and a less productive attack compared to previous years.",
         "summary_start": 519,
         "summary_end": 670,
         "source_span": "The Daggers have League Two's worst goal difference, and have conceded 20 goals more this season than they had at this point last term.",
         "source_start": 527,
         "source_end": 662
-      },
-      {
-        "annot_id": 40,
-        "sample_id": 0,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The summary contradict the fact from source.",
-        "annotator_name": "Weisi",
-        "summary_span": ", Andy Hessenthaler, acknowledged the challenges of losing two managers in a season but emphasized the team's professionalism and dedication to winning for their fans.",
-        "summary_start": 835,
-        "summary_end": 1002,
-        "source_span": "If you haven't got organisation and you haven't got the discipline to play 90 minutes, the outcome is inevitable. \"",
-        "source_start": 2018,
-        "source_end": 2133
       },
       {
         "annot_id": 43,
@@ -97,24 +49,6 @@
         "source_span": "Goals from Jamie Cureton and Clevid Dikamona gave them hope after Jay Simpson fired the O's into a 2-0 lead.",
         "source_start": 101,
         "source_end": 209
-      },
-      {
-        "annot_id": 62,
-        "sample_id": 0,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "It seems that the summary mistook \"league one\" in the source to \"league two\" in the summary. ",
-        "annotator_name": "forrest",
-        "summary_span": "Dagenham, facing relegation, needed a win to maintain their League Two status",
-        "summary_start": 164,
-        "summary_end": 241,
-        "source_span": "The Daggers, who reached League One in 2010, needed victory to keep their slim survival hopes alive.",
-        "source_start": 0,
-        "source_end": 100
       },
       {
         "annot_id": 63,
@@ -148,6 +82,85 @@
         "source_span": "The Daggers, who reached League One in 2010, needed victory to keep their slim survival hopes alive. Goals from Jamie Cureton and Clevid Dikamona gave them hope after Jay Simpson fired the O's into a 2-0 lead. But Armand Gnanduillet fired in the winner to relegate Dagenham and keep Orient's play-off hopes alive",
         "source_start": 0,
         "source_end": 312
+      },
+      {
+        "annot_id": 152,
+        "sample_id": 0,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Benign"
+        ],
+        "note": "External knowledge:\nLeague One > League Two > National League\n\nSubtle infer: Daggers relegated from League Two to National League.",
+        "annotator_name": "rogger",
+        "summary_span": "League Two status",
+        "summary_start": 224,
+        "summary_end": 241,
+        "source_span": "he is committed to helping the Daggers gain promotion from the National League next season.",
+        "source_start": 956,
+        "source_end": 1047
+      },
+      {
+        "annot_id": 154,
+        "sample_id": 0,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions \"last term\" instead of previous years",
+        "annotator_name": "Miaoran",
+        "summary_span": "compared to previous years",
+        "summary_start": 643,
+        "summary_end": 669,
+        "source_span": "last term.",
+        "source_start": 652,
+        "source_end": 662
+      },
+      {
+        "annot_id": 155,
+        "sample_id": 0,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Benign",
+          "Questionable"
+        ],
+        "note": "The source does not mention that Dagenham needs a win to maintain their *League Two* status, but might be reasoned from the following context \"The Daggers have League Two's ......\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Dagenham, facing relegation, needed a win to maintain their League Two status",
+        "summary_start": 164,
+        "summary_end": 241,
+        "source_span": "needed victory to keep their slim survival hopes alive.",
+        "source_start": 45,
+        "source_end": 100
+      },
+      {
+        "annot_id": 159,
+        "sample_id": 0,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary might include that the team is less productive because of a single striker scoring fewer goals than previous years, but what about the others?",
+        "annotator_name": "Manveer",
+        "summary_span": "less productive attack compared to previous years",
+        "summary_start": 620,
+        "summary_end": 669
+      },
+      {
+        "annot_id": 161,
+        "sample_id": 0,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "source: 2014-2015 campaign\nsummary: previous years",
+        "annotator_name": "forrest",
+        "summary_span": "a less productive attack compared to previous years.",
+        "summary_start": 618,
+        "summary_end": 670,
+        "source_span": "Still's side have also struggled in attack, with 40-year-old striker Jamie Cureton netting nine goals, compared to the 20 he scored as Dagenham finished 14th in the 2014-15 campaign.",
+        "source_start": 663,
+        "source_end": 845
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -241,20 +254,6 @@
         "source_end": 1801
       },
       {
-        "annot_id": 86,
-        "sample_id": 4,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86
-      },
-      {
         "annot_id": 87,
         "sample_id": 4,
         "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
@@ -284,6 +283,50 @@
         "summary_span": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia,",
         "summary_start": 0,
         "summary_end": 87
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 4,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text both mentions 53 and 60 vertebrae for omura's whales, it is not clear which one is correct.",
+        "annotator_name": "No Name",
+        "summary_span": "53 vertebrae ",
+        "summary_start": 803,
+        "summary_end": 816
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 4,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Extinct in Western Australia? The source doesn't explicitly mention it.",
+        "annotator_name": "Weisi",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 4,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention that the Omura's whale was extinct \"in Western Australia\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86,
+        "source_span": "a species of whale that was feared to be extinct",
+        "source_start": 0,
+        "source_end": 48
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -362,35 +405,6 @@
         "source_end": 1582
       },
       {
-        "annot_id": 74,
-        "sample_id": 6,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "\"no reports of casualities or toxic leaks\" does not mean \"no casualities or toxic leaks\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "The plant had a previous explosion in 2013 without casualties or toxic leaks.",
-        "summary_start": 421,
-        "summary_end": 498,
-        "source_span": "\nthe plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time .",
-        "source_start": 1000,
-        "source_end": 1128
-      },
-      {
-        "annot_id": 90,
-        "sample_id": 6,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "polyester production",
-        "summary_start": 183,
-        "summary_end": 203
-      },
-      {
         "annot_id": 91,
         "sample_id": 6,
         "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
@@ -405,35 +419,6 @@
         "source_span": "polyester films and fabrics",
         "source_start": 328,
         "source_end": 355
-      },
-      {
-        "annot_id": 92,
-        "sample_id": 6,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "The construction of PX plants has led to protests in China",
-        "summary_start": 499,
-        "summary_end": 557
-      },
-      {
-        "annot_id": 93,
-        "sample_id": 6,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "The construction of PX plants has led to protests in China",
-        "summary_start": 499,
-        "summary_end": 557,
-        "source_span": "it provoked an angry backlash in 2007",
-        "source_start": 1421,
-        "source_end": 1458
       },
       {
         "annot_id": 101,
@@ -451,6 +436,133 @@
         "source_span": "\nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics .",
         "source_start": 197,
         "source_end": 357
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 6,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source states production of polyester films and fabrics vs the polyester production.",
+        "annotator_name": "No Name",
+        "summary_span": "in polyester production",
+        "summary_start": 180,
+        "summary_end": 203
+      },
+      {
+        "annot_id": 118,
+        "sample_id": 6,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says the injured were sent to the hospital for treatment, this doesn't necessarily imply hospitalization.",
+        "annotator_name": "No Name",
+        "summary_span": "hospitalized",
+        "summary_start": 363,
+        "summary_end": 375
+      },
+      {
+        "annot_id": 132,
+        "sample_id": 6,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "and this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
+        "summary_start": 559,
+        "summary_end": 648
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 6,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that PX is used for the production of \"polyester films and fabrics\", but the summary generalizes it to \"polyester production\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production. ",
+        "summary_start": 115,
+        "summary_end": 205,
+        "source_span": "\nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics .",
+        "source_start": 197,
+        "source_end": 357
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 6,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"no reports of casualities or toxic leaks\" does not mean \"no casualities or toxic leaks\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "The plant had a previous explosion in 2013 without casualties or toxic leaks.",
+        "summary_start": 421,
+        "summary_end": 498,
+        "source_span": "\nthe plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time .",
+        "source_start": 1000,
+        "source_end": 1128
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 6,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions the plant was \"slated for Xiamen\" and \"relocated to Zhangzhou\", but does not mention that the plant was in Xiamen previously\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
+        "summary_start": 563,
+        "summary_end": 648,
+        "source_span": "the zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
+        "source_start": 1306,
+        "source_end": 1582
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 6,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"relocated from xiamen\" in the summary implies the plant was built in xiamen but \"slated for Xiamen\" in the summary implies that the plant was never built in Xiamen but planned for. ",
+        "annotator_name": "forrest",
+        "summary_span": " this plant was relocated from Xiamen ",
+        "summary_start": 562,
+        "summary_end": 600,
+        "source_span": "the zhangzhou plant was slated for xiamen ",
+        "source_start": 1306,
+        "source_end": 1348
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 6,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"no reports\" and \"at the time\" are missing in the summary. ",
+        "annotator_name": "forrest",
+        "summary_span": " without casualties or toxic leaks",
+        "summary_start": 463,
+        "summary_end": 497,
+        "source_span": "there were no reports of casualties or toxic leaks at the time . ",
+        "source_start": 1064,
+        "source_end": 1129
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -503,7 +615,7 @@
           "Benign"
         ],
         "note": "no clue about the scots == the scottish women's football team",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "The Scottish women's football team is on the cusp of qualifying for a major tournament, needing a win against Iceland to secure their spot.",
         "summary_start": 0,
         "summary_end": 139,
@@ -520,7 +632,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "have miss out but not near-misses",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "This is a significant opportunity after previous near-misses in play-offs. ",
         "summary_start": 140,
         "summary_end": 215,
@@ -630,20 +742,6 @@
         "source_end": 250
       },
       {
-        "annot_id": 81,
-        "sample_id": 1,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "previous near-misses in play-offs.",
-        "summary_start": 180,
-        "summary_end": 214
-      },
-      {
         "annot_id": 88,
         "sample_id": 1,
         "annotator": "b81826fd26f346188891ba1c3979adcf",
@@ -655,6 +753,135 @@
         "summary_span": "home",
         "summary_start": 440,
         "summary_end": 444
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 1,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Benign"
+        ],
+        "note": "Good reasoning, with 12 out of 20 being in international leagues, the rest are domestic",
+        "annotator_name": "No Name",
+        "summary_span": "The team is confident, with a strong record in qualifiers and a mix of domestic and international talent, including players from top leagues in England, Sweden, and the US",
+        "summary_start": 215,
+        "summary_end": 386
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 1,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Benign"
+        ],
+        "note": "Good reasoning connecting Bundesliga with Germany via Bayern.",
+        "annotator_name": "No Name",
+        "summary_span": " Germany's Bundesliga",
+        "summary_start": 518,
+        "summary_end": 539
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 1,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's already missed",
+        "annotator_name": "Weisi",
+        "summary_span": " near-misses in play-offs",
+        "summary_start": 188,
+        "summary_end": 213
+      },
+      {
+        "annot_id": 150,
+        "sample_id": 1,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only states that \"It would be fantastic to have a big crowd\" but does not make any prediction on a big crowd",
+        "annotator_name": "Miaoran",
+        "summary_span": "with a potential large home crowd at Falkirk Stadium",
+        "summary_start": 417,
+        "summary_end": 469,
+        "source_span": "\"It would be fantastic to have a big crowd at Falkirk.",
+        "source_start": 1431,
+        "source_end": 1485
+      },
+      {
+        "annot_id": 151,
+        "sample_id": 1,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "It's kind of subjective and not explicitly supported by the source.",
+        "annotator_name": "Miaoran",
+        "summary_span": "The squad's experience in foreign leagues, like Germany's Bundesliga, is seen as a boost to their competitiveness and a sign of the sport's growth in Scotland.",
+        "summary_start": 471,
+        "summary_end": 630
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 1,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "near-misses vs miss out again",
+        "annotator_name": "rogger",
+        "summary_span": "near-misses",
+        "summary_start": 189,
+        "summary_end": 200,
+        "source_span": "Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup.",
+        "source_start": 147,
+        "source_end": 251
+      },
+      {
+        "annot_id": 160,
+        "sample_id": 1,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Evans says \"we know we've got a really good chance to beam them\", but this was just evan's statement. Not the entire team's",
+        "annotator_name": "Manveer",
+        "summary_span": "The team is confident",
+        "summary_start": 215,
+        "summary_end": 236
+      },
+      {
+        "annot_id": 165,
+        "sample_id": 1,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "does \"improving\" in the source mean \"growth\" in the summary? ",
+        "annotator_name": "forrest",
+        "summary_span": " a sign of the sport's growth in Scotland.",
+        "summary_start": 588,
+        "summary_end": 630,
+        "source_span": "The league in Scotland is improving",
+        "source_start": 3225,
+        "source_end": 3260
+      },
+      {
+        "annot_id": 166,
+        "sample_id": 1,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source didn't cite anyone stating the potential size of the crowd. but it is common sense that home game usually have a large crowd. ",
+        "annotator_name": "forrest",
+        "summary_span": "with a potential large home crowd at Falkirk Stadium",
+        "summary_start": 417,
+        "summary_end": 469
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -696,7 +923,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "one user but not social media users",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "The advertisements have been placed on the London Underground and have received significant backlash from feminists, body image campaigners, and social media users who find the campaign offensive, unrealistic, and sexist.",
         "summary_start": 159,
         "summary_end": 380,
@@ -722,37 +949,6 @@
         "source_end": 983
       },
       {
-        "annot_id": 94,
-        "sample_id": 7,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "feminists, body image campaigners, and social media users who find the campaign offensive, unrealistic, and sexist.",
-        "summary_start": 265,
-        "summary_end": 380
-      },
-      {
-        "annot_id": 95,
-        "sample_id": 7,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Only one user specifically found the slogan offensive, unrealistic and sexist. Other groups might have different opinions.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "feminists, body image campaigners, and social media users who find the campaign offensive, unrealistic, and sexist.",
-        "summary_start": 265,
-        "summary_end": 380,
-        "source_span": "\none user called catrin stewartwrite : ` you clearly know what you 're trying to sell with that offensive , unrealistic and sexist advert . '",
-        "source_start": 2156,
-        "source_end": 2297
-      },
-      {
         "annot_id": 102,
         "sample_id": 7,
         "annotator": "b81826fd26f346188891ba1c3979adcf",
@@ -768,6 +964,135 @@
         "source_span": "\none user called catrin stewartwrite : ` you clearly know what you 're trying to sell with that offensive , unrealistic and sexist advert . '",
         "source_start": 2156,
         "source_end": 2297
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 7,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The advertising standards authority has received over 200 complaints, not the TFL",
+        "annotator_name": "No Name",
+        "summary_span": " TFL has also received over 200 complaints",
+        "summary_start": 683,
+        "summary_end": 725
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 7,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Richard Staveley, head of global marketing had this claim, it shouldn't be generalized to the Protein World",
+        "annotator_name": "No Name",
+        "summary_span": " Protein World",
+        "summary_start": 794,
+        "summary_end": 808
+      },
+      {
+        "annot_id": 129,
+        "sample_id": 7,
+        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Only one user specifically found the slogan offensive, unrealistic and sexist. Other groups might have different opinions.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "feminists, body image campaigners, and social media users who find the campaign offensive, unrealistic, and sexist.",
+        "summary_start": 265,
+        "summary_end": 380,
+        "source_span": "\none user called catrin stewartwrite : ` you clearly know what you 're trying to sell with that offensive , unrealistic and sexist advert .",
+        "source_start": 2156,
+        "source_end": 2295
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 7,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"the advertising standards authority\" received the complaints, not \"TFL\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "TFL has also received over 200 complaints from people saying that the adverts promote an unhealthy body image. ",
+        "summary_start": 684,
+        "summary_end": 795,
+        "source_span": "\nthe advertising standards authority has also received more than 200 complaints from people saying that the adverts promote an unhealthy body image .",
+        "source_start": 832,
+        "source_end": 981
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 7,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's just one user's statement.",
+        "annotator_name": "Miaoran",
+        "summary_span": "have received significant backlash from feminists, body image campaigners, and social media users who find the campaign offensive, unrealistic, and sexist.",
+        "summary_start": 225,
+        "summary_end": 380,
+        "source_span": "\none user called catrin stewartwrite : ` you clearly know what you 're trying to sell with that offensive , unrealistic and sexist advert . '",
+        "source_start": 2156,
+        "source_end": 2297
+      },
+      {
+        "annot_id": 156,
+        "sample_id": 7,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Adevertising Standards Authority vs TFL",
+        "annotator_name": "rogger",
+        "summary_span": "TFL has also received over 200 complaints",
+        "summary_start": 684,
+        "summary_end": 725,
+        "source_span": " \nthe advertising standards authority has also received more than 200 complaints",
+        "source_start": 831,
+        "source_end": 911
+      },
+      {
+        "annot_id": 157,
+        "sample_id": 7,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Benign"
+        ],
+        "note": "Probably over-generalization.",
+        "annotator_name": "rogger",
+        "summary_span": "social media users who find the campaign offensive, unrealistic, and sexist.",
+        "summary_start": 304,
+        "summary_end": 380,
+        "source_span": "one user",
+        "source_start": 2157,
+        "source_end": 2165
+      },
+      {
+        "annot_id": 167,
+        "sample_id": 7,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Source: Advertising Standards Authority received more than 200 complaints. \nSummary: TFL received 200 complaints. ",
+        "annotator_name": "forrest",
+        "summary_span": "TFL has also received over 200 complaints from people saying that the adverts promote an unhealthy body image.",
+        "summary_start": 684,
+        "summary_end": 794,
+        "source_span": "\nthe advertising standards authority has also received more than 200 complaints from people saying that the adverts promote an unhealthy body image .",
+        "source_start": 832,
+        "source_end": 981
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -848,7 +1173,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "no level the game",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "Chelsea's Tammy Abraham scored a double, while Dominic Solanke scored a late goal to level the game.",
         "summary_start": 90,
         "summary_end": 190,
@@ -864,7 +1189,7 @@
           "Benign"
         ],
         "note": "no evidence shows Kjetil Haug is the captain",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "Manchester City's captain, Kjetil Haug, and other players like Pablo Maffeo, Tosin Adarabioyo, Christian Haag, Kean Bryan, Aaron Nemane, Manu Garcia, Brandon Barker, Bradley Collins, Fikayo Tomori, Isaac Buckley-Ricketts, Ola Aina, Jake Clarke-Salter, Jay Dasilva, Ruben Sammut, and Charlie Colkett also contributed to the match.",
         "summary_start": 191,
         "summary_end": 520,
@@ -884,37 +1209,6 @@
         "summary_span": "Chelsea won the Manchester Youth Cup Final against Manchester City with a 3-1 scoreline. Chelsea's Tammy Abraham scored a double, while Dominic Solanke scored a late goal to level the game. Manchester City's captain, Kjetil Haug, and other players like Pablo Maffeo, Tosin Adarabioyo, Christian Haag, Kean Bryan, Aaron Nemane, Manu Garcia, Brandon Barker, Bradley Collins, Fikayo Tomori, Isaac Buckley-Ricketts, Ola Aina, Jake Clarke-Salter, Jay Dasilva, Ruben Sammut, and Charlie Colkett also contributed to the match. Abraham's two volleys and Solanke's goal were key moments in the game.",
         "summary_start": 1,
         "summary_end": 591
-      },
-      {
-        "annot_id": 57,
-        "sample_id": 8,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This sentence comes from multiple sentences from sources which is not accurate.",
-        "annotator_name": "Weisi",
-        "summary_span": " Manchester City's captain, Kjetil Haug, and other players like Pablo Maffeo, Tosin Adarabioyo, Christian Haag, Kean Bryan, Aaron Nemane, Manu Garcia, Brandon Barker, Bradley Collins, Fikayo Tomori, Isaac Buckley-Ricketts, Ola Aina, Jake Clarke-Salter, Jay Dasilva, Ruben Sammut, and Charlie Colkett also contributed to the match",
-        "summary_start": 190,
-        "summary_end": 519
-      },
-      {
-        "annot_id": 76,
-        "sample_id": 8,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "Christian Haag",
-        "summary_start": 286,
-        "summary_end": 300,
-        "source_span": "christian haug",
-        "source_start": 1003,
-        "source_end": 1017
       },
       {
         "annot_id": 104,
@@ -1025,6 +1319,77 @@
         "source_span": "dominic solanke scored late on to put a gloss on the scoreline after a tammy abraham double had seen chelsea take a first half lead . \nsportsmail was at the academy stadium to see how the youngsters got on ...\ntammy abraham smashes chelsea into the lead with a fierce drive into the top corner\nkjetil haug : norwegian international has been on the bench for long periods but got the nod and looked shaky under the high ball . \nthat said , powerless to stop abraham 's volleys and soalnke 's killer ",
         "source_start": 125,
         "source_end": 623
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 8,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Looks like Isaac Buckley leveled the game rather than Dominic Solanke?",
+        "annotator_name": "No Name",
+        "summary_span": "while Dominic Solanke scored a late goal to level the game",
+        "summary_start": 131,
+        "summary_end": 189
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 8,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Looks like Tosin Adarabioyo is the Manchester City's captain",
+        "annotator_name": "No Name",
+        "summary_span": "Kjetil Haug",
+        "summary_start": 218,
+        "summary_end": 229
+      },
+      {
+        "annot_id": 123,
+        "sample_id": 8,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Christian Haug? typo?",
+        "annotator_name": "No Name",
+        "summary_span": "Christian Haag",
+        "summary_start": 286,
+        "summary_end": 300
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 8,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Kjetil Haug is not the caption of Manchester City",
+        "annotator_name": "Weisi",
+        "summary_span": "Manchester City's captain, Kjetil Haug",
+        "summary_start": 191,
+        "summary_end": 229
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 8,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Christian Haag",
+        "summary_start": 286,
+        "summary_end": 300,
+        "source_span": "christian haug ",
+        "source_start": 1003,
+        "source_end": 1018
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1081,7 +1446,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "imposing sanctions in response to the downing of the jet",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "The incident has strained relations between Russia and Turkey, with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace.",
         "summary_start": 280,
         "summary_end": 456,
@@ -1137,22 +1502,6 @@
         "source_end": 637
       },
       {
-        "annot_id": 67,
-        "sample_id": 2,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "the source does not mention the causal relation",
-        "annotator_name": "Miaoran",
-        "summary_span": "resulting in ",
-        "summary_start": 554,
-        "summary_end": 567,
-        "source_span": "Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued.",
-        "source_start": 1183,
-        "source_end": 1305
-      },
-      {
         "annot_id": 89,
         "sample_id": 2,
         "annotator": "b81826fd26f346188891ba1c3979adcf",
@@ -1169,17 +1518,51 @@
         "source_end": 352
       },
       {
-        "annot_id": 97,
+        "annot_id": 126,
+        "sample_id": 2,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The death of pilot is not caused by incident.",
+        "annotator_name": "Weisi",
+        "summary_span": "resulting in the death of the pilot and a Russian marine, and has led to a war of words between the two countries.",
+        "summary_start": 554,
+        "summary_end": 668
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 2,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "the source does not mention the causal relation",
+        "annotator_name": "Miaoran",
+        "summary_span": " The incident occurred on November 24, resulting in the death of the pilot and a Russian marine",
+        "summary_start": 515,
+        "summary_end": 610,
+        "source_span": "A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground.",
+        "source_start": 1306,
+        "source_end": 1404
+      },
+      {
+        "annot_id": 168,
         "sample_id": 2,
         "annotator": "b81826fd26f346188891ba1c3979adcf",
         "label": [
-          "Benign"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
-        "note": "the source does not say this but the source overall hints that there is a dispute on whether the Russian jet entered the Turkey air space",
+        "note": "source: Russia impose sanctions in response to the downing of the jet\nSummary: Russia impose sanctions in response to Turkey's claim that xxx",
         "annotator_name": "forrest",
-        "summary_span": "may help resolve the dispute over the jet's location when it was hit",
-        "summary_start": 210,
-        "summary_end": 278
+        "summary_span": "Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace",
+        "summary_start": 348,
+        "summary_end": 455,
+        "source_span": "The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response.",
+        "source_start": 353,
+        "source_end": 476
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1233,7 +1616,7 @@
           "Benign"
         ],
         "note": "no information about a former soldier",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "Ben Parkinson, a former soldier, suffered a severe brain injury in Afghanistan in 2006, which affected his speech.",
         "summary_start": 0,
         "summary_end": 114,
@@ -1253,89 +1636,6 @@
         "summary_span": "showcasing his resilience and dedication",
         "summary_start": 618,
         "summary_end": 658
-      },
-      {
-        "annot_id": 68,
-        "sample_id": 3,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Benign"
-        ],
-        "note": "This name is not completely mentioned, but can be inferred from context",
-        "annotator_name": "Miaoran",
-        "summary_span": "Ben Parkinson",
-        "summary_start": 0,
-        "summary_end": 13
-      },
-      {
-        "annot_id": 69,
-        "sample_id": 3,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "the causal relation is not mentioned",
-        "annotator_name": "Miaoran",
-        "summary_span": "leading to",
-        "summary_start": 461,
-        "summary_end": 471
-      },
-      {
-        "annot_id": 70,
-        "sample_id": 3,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "showcasing his resilience and dedication.",
-        "summary_start": 618,
-        "summary_end": 659
-      },
-      {
-        "annot_id": 82,
-        "sample_id": 3,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Ben is not rehabbing for regaining his speech.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "regaining his speech",
-        "summary_start": 185,
-        "summary_end": 205,
-        "source_span": "He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits",
-        "source_start": 727,
-        "source_end": 933
-      },
-      {
-        "annot_id": 83,
-        "sample_id": 3,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "regaining his speech",
-        "summary_start": 185,
-        "summary_end": 205
-      },
-      {
-        "annot_id": 84,
-        "sample_id": 3,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "he reached the platform's limit.",
-        "summary_start": 376,
-        "summary_end": 408
       },
       {
         "annot_id": 85,
@@ -1365,6 +1665,90 @@
         "summary_span": " His story and positive attitude have inspired many",
         "summary_start": 408,
         "summary_end": 459
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 3,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "seriously injured vs severe brain injury, from the text (arm support, walking with crutches, etc) it seems like the injuries were not limited to the brain.",
+        "annotator_name": "No Name",
+        "summary_span": "suffered a severe brain injury",
+        "summary_start": 33,
+        "summary_end": 63
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 3,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not mentioned as a former soldier in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "a former soldier",
+        "summary_start": 15,
+        "summary_end": 31
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 3,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not explicitly mention that Ben was a soldier",
+        "annotator_name": "Miaoran",
+        "summary_span": "a former soldier,",
+        "summary_start": 15,
+        "summary_end": 32,
+        "source_span": "He was seriously injured in a bomb attack in Afghanistan in 2006.",
+        "source_start": 0,
+        "source_end": 65
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 3,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Benign"
+        ],
+        "note": "\"leading to\" is not explicitly mentioned, but it can be inferred.",
+        "annotator_name": "Miaoran",
+        "summary_span": "His story and positive attitude have inspired many, leading to an outpouring of support and messages.",
+        "summary_start": 409,
+        "summary_end": 510
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 3,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is not mentioned but can be reasoned from the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "showcasing his resilience and dedication.",
+        "summary_start": 618,
+        "summary_end": 659
+      },
+      {
+        "annot_id": 169,
+        "sample_id": 3,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Benign"
+        ],
+        "note": "A title \"L/Bdr\" hints he may be a soldier. But for people who are not familiar with that, such implying may not be clear ",
+        "annotator_name": "forrest",
+        "summary_span": "a former soldier",
+        "summary_start": 15,
+        "summary_end": 31
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1405,7 +1789,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "the put box but not pit box",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "Phillips, a front-outside tire changer for Dale Coyne Racing, was hit by Francesco Dracone's car as it spun while exiting the pit box on lap 25.",
         "summary_start": 157,
         "summary_end": 301,
@@ -1414,34 +1798,34 @@
         "source_end": 351
       },
       {
-        "annot_id": 54,
+        "annot_id": 131,
         "sample_id": 5,
         "annotator": "f65a4e5fc2a748439f2a276ae395281f",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "Not exiting lap 25, but in lap 25 based on source",
+        "note": "",
         "annotator_name": "Weisi",
-        "summary_span": " Phillips, a front-outside tire changer for Dale Coyne Racing, was hit by Francesco Dracone's car as it spun while exiting the pit box on lap 25",
-        "summary_start": 156,
-        "summary_end": 300,
-        "source_span": "\ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel .",
-        "source_start": 100,
-        "source_end": 283
+        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall,",
+        "summary_start": 391,
+        "summary_end": 472,
+        "source_span": "\nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag .",
+        "source_start": 683,
+        "source_end": 796
       },
       {
-        "annot_id": 73,
+        "annot_id": 135,
         "sample_id": 5,
         "annotator": "c95478fb4b954880a7cdd269e8e0d933",
         "label": [
-          "Unwanted"
+          "Benign"
         ],
-        "note": "",
+        "note": "source does not explicitly state the causal relation \"due to, \"but it can be inferred.",
         "annotator_name": "Miaoran",
-        "summary_span": "due to",
-        "summary_start": 447,
-        "summary_end": 453,
+        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall, which caused traction issues for many drivers. ",
+        "summary_start": 391,
+        "summary_end": 520,
         "source_span": "\nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag .",
         "source_start": 683,
         "source_end": 796
@@ -1471,7 +1855,7 @@
           "Benign"
         ],
         "note": "no information of king of france from 1515-1547",
-        "annotator_name": "No Name",
+        "annotator_name": "Yujia Tang",
         "summary_span": "Francis I, King of France from 1515-1547, was known as \"Francis of the Large Nose\" and the \"Knight-King\" for his involvement in wars against Holy Roman Emperor Charles V",
         "summary_start": 0,
         "summary_end": 169,
@@ -1511,22 +1895,6 @@
         "source_end": 163
       },
       {
-        "annot_id": 75,
-        "sample_id": 9,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "conflict",
-        "annotator_name": "Miaoran",
-        "summary_span": "reigned from 1708-1765",
-        "summary_start": 423,
-        "summary_end": 445,
-        "source_span": " 8 December 1708 -- 18 August 1765",
-        "source_start": 45,
-        "source_end": 79
-      },
-      {
         "annot_id": 111,
         "sample_id": 9,
         "annotator": "b81826fd26f346188891ba1c3979adcf",
@@ -1556,6 +1924,57 @@
         "source_span": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) ",
         "source_start": 0,
         "source_end": 82
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 9,
+        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Holy Roman Emperor named Francis I, who reigned from 1708-1765",
+        "summary_start": 383,
+        "summary_end": 445,
+        "source_span": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor",
+        "source_start": 0,
+        "source_end": 104
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 9,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It should be lived from 1708-1765",
+        "annotator_name": "Miaoran",
+        "summary_span": "who reigned from 1708-1765",
+        "summary_start": 419,
+        "summary_end": 445,
+        "source_span": "Francis I ( Franz Stefan , François Étienne 8 December 1708 -- 18 August 1765 ) was Holy Roman Emperor and Grand Duke of Tuscany , though his wife effectively ex",
+        "source_start": 0,
+        "source_end": 163
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 9,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reigned vs born/death",
+        "annotator_name": "rogger",
+        "summary_span": "who reigned from 1708-1765",
+        "summary_start": 419,
+        "summary_end": 445,
+        "source_span": " François Étienne 8 December 1708 -- 18 August 1765",
+        "source_start": 26,
+        "source_end": 79
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
