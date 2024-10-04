@@ -197,6 +197,39 @@
         "source_span": "It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
         "source_start": 1814,
         "source_end": 1973
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 0,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The show's previous pregnancy can happen in this season.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "This is reminiscent of the previous season",
+        "summary_start": 249,
+        "summary_end": 291,
+        "source_span": "It is reminiscent of the show’s previous pregnancy",
+        "source_start": 1814,
+        "source_end": 1864
+      },
+      {
+        "annot_id": 136,
+        "sample_id": 0,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "There is no mention of \"the previous season\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "This is reminiscent of the previous season, where Elizabeth, another character, also gave birth in a short amount of time.",
+        "summary_start": 249,
+        "summary_end": 371,
+        "source_span": "It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
+        "source_start": 1814,
+        "source_end": 1973
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -525,6 +558,68 @@
         "summary_span": "Despite his limited playing time at Euro 2016",
         "summary_start": 174,
         "summary_end": 219
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 2,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Benign",
+          "Questionable"
+        ],
+        "note": "The source didn't mention James' full name.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "James Milner",
+        "summary_start": 47,
+        "summary_end": 59,
+        "source_span": " Milner",
+        "source_start": 347,
+        "source_end": 354
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 2,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Benign"
+        ],
+        "note": "requires knowledge that \"most capped\" is a term that refers to the most appearances a player has made",
+        "annotator_name": "Miaoran",
+        "summary_span": "Despite his limited playing time at Euro 2016, he holds the record for the most appearances for the England Under-21 team with 46 caps",
+        "summary_start": 174,
+        "summary_end": 308,
+        "source_span": "Milner also holds the record for the most capped England Under-21 player",
+        "source_start": 361,
+        "source_end": 433
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 2,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Benign"
+        ],
+        "note": "There's no mention of the first name",
+        "annotator_name": "Miaoran",
+        "summary_span": "James Milner",
+        "summary_start": 47,
+        "summary_end": 59
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 2,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Fifa world cup qualifiers = world cup qualifiers?",
+        "annotator_name": "Miaoran",
+        "summary_span": "scored his only international goal during the 2014 World Cup qualifiers",
+        "summary_start": 313,
+        "summary_end": 384,
+        "source_span": "He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
+        "source_start": 497,
+        "source_end": 623
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -739,6 +834,62 @@
         "source_span": "About",
         "source_start": 144,
         "source_end": 149
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 3,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not mentioned in source but can be inferred",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "located nearby",
+        "summary_start": 135,
+        "summary_end": 149
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 3,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "No mention of UM's location",
+        "annotator_name": "Miaoran",
+        "summary_span": "The University of Mississippi, located nearby",
+        "summary_start": 104,
+        "summary_end": 149
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 3,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Questionable"
+        ],
+        "note": "nation = country?",
+        "annotator_name": "Miaoran",
+        "summary_span": "90 countries",
+        "summary_start": 288,
+        "summary_end": 300,
+        "source_span": "90 nations",
+        "source_start": 295,
+        "source_end": 305
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 3,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "has a diverse student body,",
+        "summary_start": 151,
+        "summary_end": 178
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -993,6 +1144,53 @@
         "source_span": "the pilot was killed, apparently by militants on the ground",
         "source_start": 1213,
         "source_end": 1272
+      },
+      {
+        "annot_id": 132,
+        "sample_id": 4,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "2015 is not mentioned in the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "November 24, 2015",
+        "summary_start": 546,
+        "summary_end": 563,
+        "source_span": "24 November",
+        "source_start": 1170,
+        "source_end": 1181
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 4,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There's no mention of 2015",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Su-24 was shot down by Turkish F-16 fighters on November 24, 2015,",
+        "summary_start": 494,
+        "summary_end": 564
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 4,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the pilot was killed apparently by militants on the ground. But the summary implies that the pilot was killed by the shoot-down",
+        "annotator_name": "Miaoran",
+        "summary_span": "killing one crew member and injuring the other",
+        "summary_start": 565,
+        "summary_end": 611,
+        "source_span": "Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued.",
+        "source_start": 1183,
+        "source_end": 1305
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1303,6 +1501,66 @@
         "source_span": "\"Iceland are top seeds in the group,\" Evans noted. \"",
         "source_start": 1246,
         "source_end": 1298
+      },
+      {
+        "annot_id": 133,
+        "sample_id": 5,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "First name is not mentioned in the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Lisa Evans",
+        "summary_start": 237,
+        "summary_end": 247,
+        "source_span": "Evans",
+        "source_start": 147,
+        "source_end": 152
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 5,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "4 / 4 != 5 / 5",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "with five wins from five",
+        "summary_start": 407,
+        "summary_end": 431,
+        "source_span": "four wins from four",
+        "source_start": 561,
+        "source_end": 580
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 5,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Benign"
+        ],
+        "note": "first name is not mentioned",
+        "annotator_name": "Miaoran",
+        "summary_span": "Lisa Evans",
+        "summary_start": 237,
+        "summary_end": 247
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 5,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "No mention that the Scotland women's national team is currently top of their group. ",
+        "annotator_name": "Miaoran",
+        "summary_span": "The team is currently top of their group",
+        "summary_start": 366,
+        "summary_end": 406
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1503,6 +1761,55 @@
         "summary_span": "initial",
         "summary_start": 370,
         "summary_end": 377
+      },
+      {
+        "annot_id": 129,
+        "sample_id": 1,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source didn't clearly mention that Mark wanted to return to Canada in 2018 but it can be inferred since the whole source is talking about Mark trying to seek work life balance.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "also wanted to return to Canada with his family in 2018.",
+        "summary_start": 674,
+        "summary_end": 730,
+        "source_span": "But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year.",
+        "source_start": 3799,
+        "source_end": 3918
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 1,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The decision should be driven by both the the economy situation and personal reasons. And it is not clear if the decision was driven by particularly his family's needs ",
+        "annotator_name": "Miaoran",
+        "summary_span": "This decision was primarily driven by personal reasons, particularly his family's needs. ",
+        "summary_start": 228,
+        "summary_end": 317,
+        "source_span": "And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. ",
+        "source_start": 1854,
+        "source_end": 2263
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 1,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Benign"
+        ],
+        "note": "The summary statement can be inferred from the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "Carney's extension to 2019 allows him to oversee the initial Brexit negotiations",
+        "summary_start": 317,
+        "summary_end": 397,
+        "source_span": " If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations.",
+        "source_start": 1567,
+        "source_end": 1672
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1723,6 +2030,40 @@
         "source_span": "omura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae",
         "source_start": 1314,
         "source_end": 1415
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 8,
+        "annotator": "f118cecbd2fb40ce84256f240926a5e1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Sleek body is not a unique feature.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "They have unique features, including a sleek body shape and 53 vertebrae.",
+        "summary_start": 629,
+        "summary_end": 702,
+        "source_span": "have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin ",
+        "source_start": 1330,
+        "source_end": 1453
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 8,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source does not mention that \"a sleek body shape\" is a unique feature",
+        "annotator_name": "Miaoran",
+        "summary_span": "including a sleek body shape",
+        "summary_start": 656,
+        "summary_end": 684,
+        "source_span": "\nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin .",
+        "source_start": 1313,
+        "source_end": 1454
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1855,6 +2196,39 @@
         "source_span": "mouscron are currently 23th in belgium 's pro league ",
         "source_start": 718,
         "source_end": 771
+      },
+      {
+        "annot_id": 150,
+        "sample_id": 9,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "conflict",
+        "annotator_name": "Miaoran",
+        "summary_span": "who are currently 13th in Belgium's Pro League",
+        "summary_start": 104,
+        "summary_end": 150,
+        "source_span": "mouscron are currently 23th in belgium 's pro league ",
+        "source_start": 718,
+        "source_end": 771
+      },
+      {
+        "annot_id": 151,
+        "sample_id": 9,
+        "annotator": "1b51d6de3cb94b4b8ef46297091c3496",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Mouscron's previous partnership with Lille is ending",
+        "summary_start": 152,
+        "summary_end": 204,
+        "source_span": "\nmouscron , in belgium 's pro league , had a partnership with lille but the french side are now poised to link up with another belgian club , ostend , leaving room for a new deal and chelsea are the preferred option .",
+        "source_start": 105,
+        "source_end": 322
       }
     ],
     "meta_model": "openai/gpt-4o",
