@@ -370,6 +370,282 @@
         "source_span": "It's an absolute hammering. It's as good a four days of cricket that you could wish for from an England point of view,\" Vaughan told Test Match Special.",
         "source_start": 234,
         "source_end": 386
+      },
+      {
+        "annot_id": 175,
+        "sample_id": 0,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"second biggest win\" -> \"second test\"",
+        "annotator_name": "forrest",
+        "summary_span": "England won the second Test against Pakistan ",
+        "summary_start": 43,
+        "summary_end": 88,
+        "source_span": "England made 589-8 declared and 173-1 declared to set up their second biggest win over Pakistan in terms of runs. \"",
+        "source_start": 118,
+        "source_end": 233
+      },
+      {
+        "annot_id": 176,
+        "sample_id": 0,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I don't know the meaning of \"bowl-out\" clearly after reading Wikipedia",
+        "annotator_name": "forrest",
+        "summary_span": "Pakistan were bowled out for 198 and 234",
+        "summary_start": 260,
+        "summary_end": 300,
+        "source_span": "He also took four catches in Pakistan's first-innings 198 and claimed a wicket in his only over as Pakistan were bowled out for 234 on Monday. \"",
+        "source_start": 562,
+        "source_end": 706
+      },
+      {
+        "annot_id": 177,
+        "sample_id": 0,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I am not sure about this either. ",
+        "annotator_name": "forrest",
+        "summary_span": "England's bowlers dominating on a pitch that offered little assistance.",
+        "summary_start": 307,
+        "summary_end": 378,
+        "source_span": "Media playback is not supported on this device Pakistan batted for only 63 overs in the first innings and 70 in the second on a pitch that offered the bowlers little assistance. \"",
+        "source_start": 1434,
+        "source_end": 1613
+      },
+      {
+        "annot_id": 178,
+        "sample_id": 0,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not say that Michael Vaughan was former England captain. But I confirmed it via Wikipedia.",
+        "annotator_name": "forrest",
+        "summary_span": "former England captain Michael Vaughan",
+        "summary_start": 452,
+        "summary_end": 490
+      },
+      {
+        "annot_id": 179,
+        "sample_id": 0,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source said nothing about how many tests are remaining. ",
+        "annotator_name": "forrest",
+        "summary_span": "with two Tests remaining",
+        "summary_start": 557,
+        "summary_end": 581
+      },
+      {
+        "annot_id": 180,
+        "sample_id": 0,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": "second Test",
+        "summary_start": 59,
+        "summary_end": 70,
+        "source_span": "second biggest win",
+        "source_start": 181,
+        "source_end": 199
+      },
+      {
+        "annot_id": 181,
+        "sample_id": 0,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Questionable"
+        ],
+        "note": "198 doesn't indicate bowled out, only 234 was bowled out, for 198 the match time might have ended.",
+        "annotator_name": "Suleman",
+        "summary_span": "were bowled out for 198",
+        "summary_start": 269,
+        "summary_end": 292,
+        "source_span": "He also took four catches in Pakistan's first-innings 198 and claimed a wicket in his only over as Pakistan were bowled out for 234 on Monday. \"",
+        "source_start": 562,
+        "source_end": 706
+      },
+      {
+        "annot_id": 182,
+        "sample_id": 0,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "First name of the England captain isn't mentioned.",
+        "annotator_name": "Suleman",
+        "summary_span": "England captain Michael Vaughan",
+        "summary_start": 459,
+        "summary_end": 490
+      },
+      {
+        "annot_id": 218,
+        "sample_id": 0,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "second biggest win does not mean win the second test",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "England won the second Test against Pakistan at Old Trafford with a day to spare, leveling the series.",
+        "summary_start": 43,
+        "summary_end": 145,
+        "source_span": "England made 589-8 declared and 173-1 declared to set up their second biggest win over Pakistan in terms of runs. \"",
+        "source_start": 118,
+        "source_end": 233
+      },
+      {
+        "annot_id": 219,
+        "sample_id": 0,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "bowled out only for 234",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Pakistan were bowled out for 198 and 234, with England's bowlers dominating on a pitch that offered little assistance. ",
+        "summary_start": 260,
+        "summary_end": 379,
+        "source_span": "He also took four catches in Pakistan's first-innings 198 and claimed a wicket in his only over as Pakistan were bowled out for 234 on Monday. \"",
+        "source_start": 562,
+        "source_end": 706
+      },
+      {
+        "annot_id": 220,
+        "sample_id": 0,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The name michael is inferred but not given.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The win was England's second biggest over Pakistan in terms of runs, and former England captain Michael Vaughan described it as \"an absolute hammering\".",
+        "summary_start": 379,
+        "summary_end": 531,
+        "source_span": "It's an absolute hammering. It's as good a four days of cricket that you could wish for from an England point of view,\" Vaughan told Test Match Special.",
+        "source_start": 234,
+        "source_end": 386
+      },
+      {
+        "annot_id": 246,
+        "sample_id": 0,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source said nothing whether the game levels",
+        "annotator_name": "forrest",
+        "summary_span": "The series is now level",
+        "summary_start": 532,
+        "summary_end": 555
+      },
+      {
+        "annot_id": 247,
+        "sample_id": 0,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source did not say who are(is) England's bowler(s), whether he(they) dominate, or whether there is or how much is the assistance.",
+        "annotator_name": "forrest",
+        "summary_span": "England's bowlers dominating on a pitch that offered little assistance.",
+        "summary_start": 307,
+        "summary_end": 378
+      },
+      {
+        "annot_id": 277,
+        "sample_id": 0,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "The first name is not mentioned in the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "Michael Vaughan ",
+        "summary_start": 475,
+        "summary_end": 491
+      },
+      {
+        "annot_id": 278,
+        "sample_id": 0,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"second biggest win\" is not the same as \"win the second test\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "England won the second Test against Pakistan",
+        "summary_start": 43,
+        "summary_end": 87,
+        "source_span": "England made 589-8 declared and 173-1 declared to set up their second biggest win over Pakistan in terms of runs. \"",
+        "source_start": 118,
+        "source_end": 233
+      },
+      {
+        "annot_id": 279,
+        "sample_id": 0,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "did not find evidence sentence for this statement",
+        "annotator_name": "Miaoran",
+        "summary_span": "The series is now level, with two Tests remaining.",
+        "summary_start": 532,
+        "summary_end": 582
+      },
+      {
+        "annot_id": 280,
+        "sample_id": 0,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": " England captain Michael Vaughan",
+        "summary_start": 458,
+        "summary_end": 490
+      },
+      {
+        "annot_id": 289,
+        "sample_id": 0,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The second biggest win != won the second test.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\nEngland won the second Test against Pakistan",
+        "summary_start": 42,
+        "summary_end": 87,
+        "source_span": "England made 589-8 declared and 173-1 declared to set up their second biggest win over Pakistan",
+        "source_start": 118,
+        "source_end": 213
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -708,6 +984,206 @@
         "source_span": "\npregnant women are advised by the government not to drink alcohol .",
         "source_start": 2203,
         "source_end": 2271
+      },
+      {
+        "annot_id": 184,
+        "sample_id": 2,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": " last year",
+        "summary_start": 282,
+        "summary_end": 292,
+        "source_span": "over the past 12 months",
+        "source_start": 266,
+        "source_end": 289
+      },
+      {
+        "annot_id": 192,
+        "sample_id": 2,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Benign"
+        ],
+        "note": "Only Miss Mitchell is mentioned, but one can reasonably assume other experts believe that too.",
+        "annotator_name": "Suleman",
+        "summary_span": "but some experts believe complete abstinence should be recommended.",
+        "summary_start": 985,
+        "summary_end": 1052,
+        "source_span": "\nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
+        "source_start": 2369,
+        "source_end": 2490
+      },
+      {
+        "annot_id": 206,
+        "sample_id": 2,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "Over-generalization: Source: \"272 youngsters left disabled by foetal alcohol syndrome\" summary: \"272 children with foetal alcohol syndrome\". Not all foetal alcohol syndrome patients are disabled. \t\t\nAlso, \"past 12 months\" --> \"last year\"",
+        "annotator_name": "forrest",
+        "summary_span": "272 children with foetal alcohol syndrome were hospitalized in England last year.",
+        "summary_start": 212,
+        "summary_end": 293,
+        "source_span": "272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months ",
+        "source_start": 181,
+        "source_end": 290
+      },
+      {
+        "annot_id": 208,
+        "sample_id": 2,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does say whether the condition can or cannot improve over time. But Google search seems to show that no cure is available. ",
+        "annotator_name": "forrest",
+        "summary_span": " that doesn't improve over time",
+        "summary_start": 582,
+        "summary_end": 613
+      },
+      {
+        "annot_id": 209,
+        "sample_id": 2,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the core advice from (UK) government is drinking no alcohol at all. So the summary was wrong. ",
+        "annotator_name": "forrest",
+        "summary_span": "Current UK government advice allows pregnant women to drink up to two units twice a week",
+        "summary_start": 895,
+        "summary_end": 983,
+        "source_span": " \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week ",
+        "source_start": 2202,
+        "source_end": 2367
+      },
+      {
+        "annot_id": 224,
+        "sample_id": 2,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "12 month -> last year",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Key points include:\n\n1. 272 children with foetal alcohol syndrome were hospitalized in England last year.",
+        "summary_start": 188,
+        "summary_end": 293,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      },
+      {
+        "annot_id": 225,
+        "sample_id": 2,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "without evidence about doesn't improve over time",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Foetal alcohol syndrome is described as an enormous, sad, and under-diagnosed problem that doesn't improve over time.",
+        "summary_start": 497,
+        "summary_end": 614,
+        "source_span": "\n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . '",
+        "source_start": 1142,
+        "source_end": 1230
+      },
+      {
+        "annot_id": 226,
+        "sample_id": 2,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "alcohol consumption != alcohol exposure",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Other medical issues associated with prenatal alcohol exposure are mentioned, including liver, kidney, and heart problems.",
+        "summary_start": 767,
+        "summary_end": 889,
+        "source_span": "\nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy .",
+        "source_start": 2031,
+        "source_end": 2202
+      },
+      {
+        "annot_id": 272,
+        "sample_id": 2,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "last year",
+        "summary_start": 283,
+        "summary_end": 292,
+        "source_span": "over the past 12 months ",
+        "source_start": 266,
+        "source_end": 290
+      },
+      {
+        "annot_id": 273,
+        "sample_id": 2,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions \"Mitchell\", not \"some experts\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "some experts believe complete abstinence should be recommended.",
+        "summary_start": 989,
+        "summary_end": 1052,
+        "source_span": "\nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
+        "source_start": 2369,
+        "source_end": 2490
+      },
+      {
+        "annot_id": 274,
+        "sample_id": 2,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Current UK government advice allows pregnant women to drink up to two units twice a week",
+        "summary_start": 895,
+        "summary_end": 983,
+        "source_span": "\npregnant women are advised by the government not to drink alcohol .",
+        "source_start": 2203,
+        "source_end": 2271
+      },
+      {
+        "annot_id": 282,
+        "sample_id": 2,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "last year is not same with past 12 months",
+        "annotator_name": "weisi",
+        "summary_span": "1. 272 children with foetal alcohol syndrome were hospitalized in England last year",
+        "summary_start": 209,
+        "summary_end": 292,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -909,6 +1385,207 @@
         "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
         "summary_start": 455,
         "summary_end": 539,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 183,
+        "sample_id": 1,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "players should take responsibility",
+        "annotator_name": "Rogger",
+        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
+        "summary_start": 454,
+        "summary_end": 577,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 186,
+        "sample_id": 1,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not clear if campaign means the same thing as a season.",
+        "annotator_name": "Suleman",
+        "summary_span": "could miss the rest of the season ",
+        "summary_start": 397,
+        "summary_end": 431,
+        "source_span": "\ncity will also face the hammers without captain vincent kompany , who could miss the rest of the campaign with a muscle injury .",
+        "source_start": 1406,
+        "source_end": 1535
+      },
+      {
+        "annot_id": 187,
+        "sample_id": 1,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Joe Hart said players should take responsbitilty not that he takes responsibility.",
+        "annotator_name": "Suleman",
+        "summary_span": "oe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini",
+        "summary_start": 456,
+        "summary_end": 576,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 201,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not explicitly say that Pellegrini is unhappy about Toure's performance in \"this season\". But from the context, we can infer that. ",
+        "annotator_name": "forrest",
+        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
+        "summary_start": 0,
+        "summary_end": 97,
+        "source_span": "manchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini . \n",
+        "source_start": 503,
+        "source_end": 794
+      },
+      {
+        "annot_id": 202,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"at least\" was dropped in the summary that causes subtle meaning change. ",
+        "annotator_name": "forrest",
+        "summary_span": "he will continue to support him until the end of the season",
+        "summary_start": 168,
+        "summary_end": 227,
+        "source_span": "vowed to back the manchester city midfielder -- at least until the end of the season ",
+        "source_start": 68,
+        "source_end": 153
+      },
+      {
+        "annot_id": 203,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is unclear whether \"campaign\" == 'season\"",
+        "annotator_name": "forrest",
+        "summary_span": "Vincent Kompany could miss the rest of the season due to a muscle injury",
+        "summary_start": 381,
+        "summary_end": 453,
+        "source_span": "captain vincent kompany , who could miss the rest of the campaign with a muscle injury ",
+        "source_start": 1447,
+        "source_end": 1534
+      },
+      {
+        "annot_id": 204,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source says that Joe Hart insisted that the players take the responsibility whereas the summary says that Joe Hart himself takes responsibility. ",
+        "annotator_name": "forrest",
+        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 454,
+        "summary_end": 539,
+        "source_span": "city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances ,",
+        "source_start": 1575,
+        "source_end": 1710
+      },
+      {
+        "annot_id": 221,
+        "sample_id": 1,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "for the ivorian not for Toure",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "It is revealed that Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad.",
+        "summary_start": 229,
+        "summary_end": 349,
+        "source_span": "\nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign .",
+        "source_start": 155,
+        "source_end": 297
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 1,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not joe hart but the players should take responsibility",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
+        "summary_start": 455,
+        "summary_end": 577,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 223,
+        "sample_id": 1,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this year but not this season",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
+        "summary_start": 0,
+        "summary_end": 97,
+        "source_span": "\nmanchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini .",
+        "source_start": 502,
+        "source_end": 792
+      },
+      {
+        "annot_id": 276,
+        "sample_id": 1,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 281,
+        "sample_id": 1,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini. ",
+        "summary_start": 454,
+        "summary_end": 578,
         "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
         "source_start": 1536,
         "source_end": 1649
@@ -1136,6 +1813,220 @@
         "source_span": "williams will face romania 's simona halep for a place in the final after the third-seed beat sloane stephens 6-1 , 7-5 .",
         "source_start": 1261,
         "source_end": 1382
+      },
+      {
+        "annot_id": 185,
+        "sample_id": 3,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Progress to semi-final (Source) vs simi-final win (summary)",
+        "annotator_name": "Rogger",
+        "summary_span": "following her semi-final win over Sabine Lisicki",
+        "summary_start": 181,
+        "summary_end": 229,
+        "source_span": "williams beat sabine lisicki in three sets on wednesday to progress to the semi-finals of the miami open .",
+        "source_start": 701,
+        "source_end": 807
+      },
+      {
+        "annot_id": 193,
+        "sample_id": 3,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Williams will face Simona for a place in the finals, not in the finals.",
+        "annotator_name": "Suleman",
+        "summary_span": "illiams will now face Simona Halep in the final",
+        "summary_start": 232,
+        "summary_end": 279,
+        "source_span": "williams will face romania 's simona halep for a place in the final after the third-seed beat sloane stephens 6-1 , 7-5 .",
+        "source_start": 1261,
+        "source_end": 1382
+      },
+      {
+        "annot_id": 210,
+        "sample_id": 3,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source does say \"nearest\" but it does not mean proximity to \"hometown.\"",
+        "annotator_name": "forrest",
+        "summary_span": "it is close to her hometown.",
+        "summary_start": 385,
+        "summary_end": 413,
+        "source_span": " but the world no 1 was intent on staying alive in what is the nearest thing she has to a hometown event ",
+        "source_start": 503,
+        "source_end": 608
+      },
+      {
+        "annot_id": 227,
+        "sample_id": 3,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "didn't mention williams' hometown",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The Miami Open has been a significant tournament for Williams, as it is close to her hometown.",
+        "summary_start": 319,
+        "summary_end": 413
+      },
+      {
+        "annot_id": 228,
+        "sample_id": 3,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "she achieved her 700th win before the miami open",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Serena Williams achieved her 700th career victory at the Miami Open, joining Andy Murray who recently celebrated his 500th win.",
+        "summary_start": 0,
+        "summary_end": 127,
+        "source_span": "the miami open is threatening to turn into national cake week , after serena williams became the latest recipient of a giant celebration present after she clocked her 700th career victory .",
+        "source_start": 0,
+        "source_end": 189
+      },
+      {
+        "annot_id": 229,
+        "sample_id": 3,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reaching semi-finals of the miami open but not win",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Williams received a giant cake to mark the occasion, following her semi-final win over Sabine Lisicki. ",
+        "summary_start": 128,
+        "summary_end": 231,
+        "source_span": "williams beat sabine lisicki in three sets on wednesday to progress to the semi-finals of the miami open .",
+        "source_start": 701,
+        "source_end": 807
+      },
+      {
+        "annot_id": 252,
+        "sample_id": 3,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: Williams beat Sabine Lisicki to progress to semi-finals. \nsummary: Williams won over Sabine Lisicki in the semi-final. ",
+        "annotator_name": "forrest",
+        "summary_span": "following her semi-final win over Sabine Lisicki",
+        "summary_start": 181,
+        "summary_end": 229,
+        "source_span": "williams beat sabine lisicki in three sets on wednesday to progress to the semi-finals of the miami open .",
+        "source_start": 701,
+        "source_end": 807
+      },
+      {
+        "annot_id": 253,
+        "sample_id": 3,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the causal relation \"as\" is not supported in the source. ",
+        "annotator_name": "forrest",
+        "summary_span": "as it is close to her hometown",
+        "summary_start": 382,
+        "summary_end": 412
+      },
+      {
+        "annot_id": 254,
+        "sample_id": 3,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"for a plan in the final\" meaning facing Simona in a semi-final (source) vs. \"in the final\" (summary).",
+        "annotator_name": "forrest",
+        "summary_span": "Williams will now face Simona Halep in the final",
+        "summary_start": 231,
+        "summary_end": 279,
+        "source_span": "williams will face romania 's simona halep for a place in the final ",
+        "source_start": 1261,
+        "source_end": 1329
+      },
+      {
+        "annot_id": 267,
+        "sample_id": 3,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It can be reasoned from the source that the Miami Open is significant for Williams",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Miami Open has been a significant tournament for Williams, as it is close to her hometown.",
+        "summary_start": 319,
+        "summary_end": 413,
+        "source_span": "but the world no 1 was intent on staying alive in what is the nearest thing she has to a hometown event ",
+        "source_start": 504,
+        "source_end": 608
+      },
+      {
+        "annot_id": 269,
+        "sample_id": 3,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, it should be that Williams gained a place in semi-finals after beating Sabine, instead of beating Sabine in semi-final",
+        "annotator_name": "Miaoran",
+        "summary_span": "following her semi-final win over Sabine Lisicki.",
+        "summary_start": 181,
+        "summary_end": 230,
+        "source_span": "williams beat sabine lisicki in three sets on wednesday to progress to the semi-finals of the miami open .",
+        "source_start": 701,
+        "source_end": 807
+      },
+      {
+        "annot_id": 271,
+        "sample_id": 3,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source implies that Williams will compete with Simona for the place in the final, which means their match would be before the final, not facing Simona in the final",
+        "annotator_name": "Miaoran",
+        "summary_span": "Williams will now face Simona Halep in the final",
+        "summary_start": 231,
+        "summary_end": 279,
+        "source_span": "williams will face romania 's simona halep for a place in the final after the third-seed beat sloane stephens 6-1 , 7-5 .",
+        "source_start": 1261,
+        "source_end": 1382
+      },
+      {
+        "annot_id": 283,
+        "sample_id": 3,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "Williams will now face Simona Halep in the final",
+        "summary_start": 231,
+        "summary_end": 279,
+        "source_span": "williams will face romania 's simona halep for a place in the final after the third-seed beat sloane stephens 6-1 , 7-5 .",
+        "source_start": 1261,
+        "source_end": 1382
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1355,6 +2246,85 @@
         "source_span": "Ipswich manager Mick McCarthy: \"The irony was that poor old Alex Smithies cost them the second goal which set us up to win as comprehensively as we did. He then kept it from being an embarrassing scoreline, but I'll take three. \" With Luke Varney and also Jonathan Douglas, I knew what I was going to get - even though I bet some people weren't thinking that when they saw the teamsheet. Luke epitomised everything what I want in this team. \" We have not been bristling with confidence. I have had a couple of rotten weekends after Rotherham and Nottingham Forest. But hopefully Ipswich can be a happier place than it has been.\" QPR boss Ian Holloway:  \"I am sure everyone will say everything hinged on the second goal, but it shouldn't have. \" The goal was a calamity and after that we were awful and it could have been four or five. \" Everyone will blame my keeper but I won't as my defenders should have made an angle for him. Even with my legs, I would have ran back and tried to help him. \" My players need to be mentally tougher as a group. I am disappointed with how we finished today. We have got to try and be a bigger, braver and more solid team.\"",
         "source_start": 834,
         "source_end": 1991
+      },
+      {
+        "annot_id": 216,
+        "sample_id": 4,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source talks about Ipswich's history in 10 games whereas the summary's scope is one game. ",
+        "annotator_name": "forrest",
+        "source_span": "Ipswich had failed to score in seven of their previous 10 Championship games",
+        "source_start": 362,
+        "source_end": 438
+      },
+      {
+        "annot_id": 217,
+        "sample_id": 4,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source said little about it. ",
+        "annotator_name": "forrest",
+        "summary_span": "defensive play.",
+        "summary_start": 656,
+        "summary_end": 671
+      },
+      {
+        "annot_id": 230,
+        "sample_id": 4,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "have no idea if it is scored",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The goals were scored by Grant Ward, Luke Varney (after a QPR keeper's miscue), and Tom Lawrence.",
+        "summary_start": 95,
+        "summary_end": 192,
+        "source_span": "Grant Ward (Ipswich Town) wins a free kick in the attacking half.",
+        "source_start": 4454,
+        "source_end": 4519
+      },
+      {
+        "annot_id": 231,
+        "sample_id": 4,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "did not see his praises for the team",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Mick McCarthy, Ipswich's manager, praised his team's performance, particularly Luke Varney, while Ian Holloway, QPR's manager, criticized his team's mental toughness and defensive play. ",
+        "summary_start": 486,
+        "summary_end": 672,
+        "source_span": "Ipswich manager Mick McCarthy: \"The irony was that poor old Alex Smithies cost them the second goal which set us up to win as comprehensively as we did.",
+        "source_start": 834,
+        "source_end": 986
+      },
+      {
+        "annot_id": 284,
+        "sample_id": 4,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "Mick McCarthy, Ipswich's manager, praised his team's performance, particularly Luke Varney, while Ian Holloway, QPR's manager, criticized his team's mental toughness and defensive play.",
+        "summary_start": 486,
+        "summary_end": 671,
+        "source_span": "Match ends, Ipswich Town 3, Queens Park Rangers 0.",
+        "source_start": 1992,
+        "source_end": 2042
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1602,6 +2572,238 @@
         "source_span": "nicklaus became the youngest person to wear a green jacket in 1963",
         "source_start": 1370,
         "source_end": 1436
+      },
+      {
+        "annot_id": 189,
+        "sample_id": 6,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the ace was nicklaus ' first on the hallowed turf of augusta",
+        "annotator_name": "Rogger",
+        "summary_span": "This was his first ace on the course.",
+        "summary_start": 100,
+        "summary_end": 137,
+        "source_span": "the ace was nicklaus ' first on the hallowed turf of augusta",
+        "source_start": 967,
+        "source_end": 1027
+      },
+      {
+        "annot_id": 190,
+        "sample_id": 6,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The 5 aces were made by another person camilo villegas alone.",
+        "annotator_name": "Rogger",
+        "summary_span": "Five aces were made during the contest",
+        "summary_start": 138,
+        "summary_end": 176,
+        "source_span": "camilo villegas on a day which saw five hole-in-ones",
+        "source_start": 1086,
+        "source_end": 1138
+      },
+      {
+        "annot_id": 195,
+        "sample_id": 6,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Five aces were made during the day, not during the whole contest, which may or may not have lasted a day.",
+        "annotator_name": "Suleman",
+        "summary_span": "Five aces were made during the contest,",
+        "summary_start": 138,
+        "summary_end": 177,
+        "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
+        "source_start": 966,
+        "source_end": 1173
+      },
+      {
+        "annot_id": 196,
+        "sample_id": 6,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Does wearing the green jacket mean winning the masters?",
+        "annotator_name": "Suleman",
+        "summary_span": " Nicklaus won his first Masters in 1963",
+        "summary_start": 324,
+        "summary_end": 363,
+        "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+        "source_start": 1368,
+        "source_end": 1472
+      },
+      {
+        "annot_id": 197,
+        "sample_id": 6,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "One of five men.",
+        "annotator_name": "Suleman",
+        "summary_span": "He is one of five golfers to complete the career grand slam, ",
+        "summary_start": 387,
+        "summary_end": 448
+      },
+      {
+        "annot_id": 235,
+        "sample_id": 6,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "on the hallowed turf of augusta, but not on the course",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "This was his first ace on the course.",
+        "summary_start": 100,
+        "summary_end": 137,
+        "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
+        "source_start": 966,
+        "source_end": 1173
+      },
+      {
+        "annot_id": 236,
+        "sample_id": 6,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "from 2002 not in 2002",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Five aces were made during the contest, tying the record set in 2002.",
+        "summary_start": 138,
+        "summary_end": 207,
+        "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
+        "source_start": 966,
+        "source_end": 1173
+      },
+      {
+        "annot_id": 237,
+        "sample_id": 6,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "green jacket is Masters",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Nicklaus won his first Masters in 1963 and his sixth in 1986.",
+        "summary_start": 325,
+        "summary_end": 386,
+        "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+        "source_start": 1368,
+        "source_end": 1472
+      },
+      {
+        "annot_id": 238,
+        "sample_id": 6,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "camilo villegas is inferred as colombian",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Camilo Villegas also aced the fourth hole and the eighth hole, but lost the contest to Kevin Streelman in a playoff.",
+        "summary_start": 208,
+        "summary_end": 324,
+        "source_span": "\nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off .",
+        "source_start": 1174,
+        "source_end": 1367
+      },
+      {
+        "annot_id": 255,
+        "sample_id": 6,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "Source does not mention \"Masters\" but mentions \"green jacket\". It can be inferred that \"Masters\" = \"green jacket\".",
+        "annotator_name": "Miaoran",
+        "summary_span": "Nicklaus won his first Masters in 1963",
+        "summary_start": 325,
+        "summary_end": 363,
+        "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+        "source_start": 1368,
+        "source_end": 1472
+      },
+      {
+        "annot_id": 256,
+        "sample_id": 6,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It may require related knowledge that \"ace\" = \"hole in ones\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Five aces were made during the contest, tying the record set in 2002",
+        "summary_start": 138,
+        "summary_end": 206,
+        "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
+        "source_start": 966,
+        "source_end": 1173
+      },
+      {
+        "annot_id": 257,
+        "sample_id": 6,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign"
+        ],
+        "note": "In Golf Masters, since the 1949 Masters, a green jacket has been awarded to the champion. But you need domain knowledge about golf to understand this. ",
+        "annotator_name": "forrest",
+        "summary_span": "Nicklaus won his first Masters in 1963 and his sixth in 1986.",
+        "summary_start": 325,
+        "summary_end": 386,
+        "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 .",
+        "source_start": 1368,
+        "source_end": 1472
+      },
+      {
+        "annot_id": 261,
+        "sample_id": 6,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "The intrinsic part: Five aces in a day (source) vs. five aces during the contest (summary). It is unclear whether the context lasted a day or more. \nThe questionable part: Whether all players aced five or Camino Villegas aced five? ",
+        "annotator_name": "forrest",
+        "summary_span": "Five aces were made during the contest",
+        "summary_start": 138,
+        "summary_end": 176,
+        "source_span": "by that of camilo villegas on a day which saw five hole-in-ones ",
+        "source_start": 1075,
+        "source_end": 1139
+      },
+      {
+        "annot_id": 286,
+        "sample_id": 6,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "This was his first ace on the course.",
+        "summary_start": 100,
+        "summary_end": 137,
+        "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
+        "source_start": 966,
+        "source_end": 1173
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1724,6 +2926,193 @@
         "summary_span": "Chelsea FC",
         "summary_start": 84,
         "summary_end": 94
+      },
+      {
+        "annot_id": 188,
+        "sample_id": 5,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Benign"
+        ],
+        "note": "FC, i.e. Football Club",
+        "annotator_name": "Rogger",
+        "summary_span": "Chelsea FC",
+        "summary_start": 84,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 194,
+        "sample_id": 5,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Questionable"
+        ],
+        "note": "FC is not mentioned in the passage.",
+        "annotator_name": "Suleman",
+        "summary_span": "Chelsea FC is in early discussions ",
+        "summary_start": 84,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 211,
+        "sample_id": 5,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says Mouscron are 21 in Belgium's Pro League whereas the summary says Mouscron is 13th in Belgian Pro League. ",
+        "annotator_name": "forrest",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League",
+        "summary_start": 192,
+        "summary_end": 244,
+        "source_span": "mouscron are currently 21th in belgium 's pro league ",
+        "source_start": 718,
+        "source_end": 771
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 5,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "Chelsea only, no FC provided",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Chelsea FC is in early discussions with Belgian club Royal Mouscron-Peruwelz about a potential partnership.",
+        "summary_start": 84,
+        "summary_end": 191,
+        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz .",
+        "source_start": 0,
+        "source_end": 104
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 5,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Chelsea only, no FC provided",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League and had a previous partnership with Lille, which is ending.",
+        "summary_start": 192,
+        "summary_end": 304,
+        "source_span": "\nthey are 13th in the table , two points above the relegation places .",
+        "source_start": 438,
+        "source_end": 508
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 5,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Chelsea only, no FC provided",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "This partnership would allow Chelsea to develop their squad and follows their existing agreement with Vitesse Arnhem in Holland, where several Chelsea players are currently on loan.",
+        "summary_start": 305,
+        "summary_end": 486,
+        "source_span": "\nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad .",
+        "source_start": 509,
+        "source_end": 969
+      },
+      {
+        "annot_id": 258,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It can be inferred that \"Chelsea FC\" = \"Chelsea\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Chelsea FC",
+        "summary_start": 84,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Questionable"
+        ],
+        "note": "Not sure if \"13th in the table\" means \"13th in the Belgian Pro League\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League",
+        "summary_start": 192,
+        "summary_end": 244,
+        "source_span": "they are 13th in the table ",
+        "source_start": 439,
+        "source_end": 466
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It implies that partnership with Lille is ending.",
+        "annotator_name": "Miaoran",
+        "summary_span": "which is ending",
+        "summary_start": 288,
+        "summary_end": 303,
+        "source_span": " the french side are now poised to link up with another belgian club",
+        "source_start": 176,
+        "source_end": 244
+      },
+      {
+        "annot_id": 263,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions that Chelsea \"have been looking at other link-ups across europe to help develop their squad\" which is a kind of hope or expectation. There is no clue that the partnership will \"allow\" Chelsea to develop their squad",
+        "annotator_name": "Miaoran",
+        "summary_span": "This partnership would allow Chelsea to develop their squad",
+        "summary_start": 305,
+        "summary_end": 364,
+        "source_span": "chelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad ",
+        "source_start": 821,
+        "source_end": 968
+      },
+      {
+        "annot_id": 264,
+        "sample_id": 5,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign"
+        ],
+        "note": "\"FC\" is not mentioned in the source but it means \"football club\".",
+        "annotator_name": "forrest",
+        "summary_span": "FC",
+        "summary_start": 92,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 285,
+        "sample_id": 5,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League ",
+        "summary_start": 192,
+        "summary_end": 245,
+        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad ",
+        "source_start": 510,
+        "source_end": 968
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -2012,6 +3401,209 @@
         "summary_span": "St Mirren, currently at the bottom of the Championship, are set to play Falkirk in their next match.",
         "summary_start": 494,
         "summary_end": 594
+      },
+      {
+        "annot_id": 191,
+        "sample_id": 8,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Benign"
+        ],
+        "note": "External Knowledge",
+        "annotator_name": "Rogger",
+        "summary_span": " loaned from Aberdeen to St Mirren",
+        "summary_start": 130,
+        "summary_end": 164
+      },
+      {
+        "annot_id": 198,
+        "sample_id": 8,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The Dons loaned him to United.",
+        "annotator_name": "Suleman",
+        "summary_span": "has been loaned from Aberdeen to St Mirren",
+        "summary_start": 122,
+        "summary_end": 164,
+        "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and h",
+        "source_start": 0,
+        "source_end": 145
+      },
+      {
+        "annot_id": 199,
+        "sample_id": 8,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "On saturday, not in their next match.",
+        "annotator_name": "Suleman",
+        "summary_span": "are set to play Falkirk in their next match.",
+        "summary_start": 550,
+        "summary_end": 594,
+        "source_span": "Championship bottom side St Mirren host Falkirk on Saturday.",
+        "source_start": 520,
+        "source_end": 580
+      },
+      {
+        "annot_id": 213,
+        "sample_id": 8,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Benign: Aberdeen is nicknamed The Dons.\nUnwanted: Smith is on loan to United, not St Mirren",
+        "annotator_name": "forrest",
+        "summary_span": "has been loaned from Aberdeen to St Mirren",
+        "summary_start": 122,
+        "summary_end": 164
+      },
+      {
+        "annot_id": 214,
+        "sample_id": 8,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This seems to be an image caption. From the tense, it seems the game involving Falkirk is over. ",
+        "annotator_name": "forrest",
+        "summary_span": "St Mirren, currently at the bottom of the Championship, are set to play Falkirk in their next match",
+        "summary_start": 494,
+        "summary_end": 593,
+        "source_span": "Championship bottom side St Mirren host Falkirk on Saturday.",
+        "source_start": 520,
+        "source_end": 580
+      },
+      {
+        "annot_id": 240,
+        "sample_id": 8,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "unclear them",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Smith, who has represented Scotland's Under-21 team, made his Aberdeen debut in 2012 and has scored four goals in 89 appearances for them.",
+        "summary_start": 238,
+        "summary_end": 376,
+        "source_span": "Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \"",
+        "source_start": 80,
+        "source_end": 209
+      },
+      {
+        "annot_id": 241,
+        "sample_id": 8,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no clue on saturday is the next match",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "St Mirren, currently at the bottom of the Championship, are set to play Falkirk in their next match.",
+        "summary_start": 494,
+        "summary_end": 594,
+        "source_span": "Championship bottom side St Mirren host Falkirk on Saturday.",
+        "source_start": 520,
+        "source_end": 580
+      },
+      {
+        "annot_id": 242,
+        "sample_id": 8,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no information about five goals in Dundee United",
+        "annotator_name": "Yujia Tang",
+        "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+        "source_start": 0,
+        "source_end": 79
+      },
+      {
+        "annot_id": 249,
+        "sample_id": 8,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The source mentions that \"The Dons loaned Smith, 21, to United\", but does not state Smith was loaded from Aberdeen ",
+        "annotator_name": "Miaoran",
+        "summary_span": "has been loaned from Aberdeen to St Mirren",
+        "summary_start": 122,
+        "summary_end": 164,
+        "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 ",
+        "source_start": 0,
+        "source_end": 140
+      },
+      {
+        "annot_id": 250,
+        "sample_id": 8,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "may infer that the next match is on Saturday",
+        "annotator_name": "Miaoran",
+        "summary_span": "St Mirren, currently at the bottom of the Championship, are set to play Falkirk in their next match.",
+        "summary_start": 494,
+        "summary_end": 594,
+        "source_span": "Championship bottom side St Mirren host Falkirk on Saturday.",
+        "source_start": 520,
+        "source_end": 580
+      },
+      {
+        "annot_id": 251,
+        "sample_id": 8,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Does the \"Pittodrie side\" represent \"Scotland Under-21 team\"?",
+        "annotator_name": "Miaoran",
+        "summary_span": " has scored four goals in 89 appearances for them. ",
+        "summary_start": 326,
+        "summary_end": 377
+      },
+      {
+        "annot_id": 266,
+        "sample_id": 8,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Even from the context we cannot infer that Smith is (being) acquired by St Mirren and thus we cannot infer that Jack Ross is the boss of St Mirren. ",
+        "annotator_name": "forrest",
+        "summary_span": "St Mirren's manager, Jack Ross",
+        "summary_start": 377,
+        "summary_end": 407
+      },
+      {
+        "annot_id": 287,
+        "sample_id": 8,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": ":\n\nCammy Smith, a 21-year-old footballer, has been loaned from Aberdeen to St Mirren.",
+        "summary_start": 80,
+        "summary_end": 165,
+        "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and h",
+        "source_start": 0,
+        "source_end": 145
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2184,6 +3776,104 @@
         "summary_span": "Ipswich had struggled to score in recent matches but showed improved form.",
         "summary_start": 139,
         "summary_end": 213
+      },
+      {
+        "annot_id": 215,
+        "sample_id": 9,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I cannot decide but I think it is quite hallucinated. The source is very messed up itself. ",
+        "annotator_name": "forrest",
+        "summary_span": "Ipswich Town defeated Queens Park Rangers 3-0 in a Championship match. Key goals were scored by Grant Ward, Luke Varney, and Tom Lawrence. Ipswich had struggled to score in recent matches but showed improved form. QPR's Alex Smithies made errors that contributed to the loss. Ipswich's manager Mick McCarthy praised his team's performance, while QPR's Ian Holloway expressed disappointment and frustration with his team's defense and mental toughness.",
+        "summary_start": 0,
+        "summary_end": 451
+      },
+      {
+        "annot_id": 243,
+        "sample_id": 9,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no clue for Grant scored",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Key goals were scored by Grant Ward, Luke Varney, and Tom Lawrence.",
+        "summary_start": 71,
+        "summary_end": 138,
+        "source_span": "Grant Ward (Ipswich Town) right footed shot from the centre of the box is saved in the bottom left corner. Assisted by Freddie Sears with a through ball. Alex Smithies (Queens Park Rangers) wins a free kick in the defensive half. Foul by Jonathan Douglas (Ipswich Town). Corner,  Ipswich Town. Conceded by Alex Smithies. Attempt saved. David McGoldrick (Ipswich Town) right footed shot from the right side of the box is saved in the bottom left corner. Assisted by Grant Ward. Attempt missed. David McGoldrick (Ipswich Town) right footed shot from more than 35 yards misses to the left. Assisted by Cole Skuse following a set piece situation. Substitution, Ipswich Town. Leon Best replaces Tom Lawrence. Foul by Nedum Onuoha (Queens Park Rangers). Grant Ward (Ipswich Town) wins a free kick in the attacking half. Corner,  Queens Park Rangers. Conceded by Grant Ward.",
+        "source_start": 3706,
+        "source_end": 4573
+      },
+      {
+        "annot_id": 244,
+        "sample_id": 9,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no information about the improved form",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Ipswich had struggled to score in recent matches but showed improved form.",
+        "summary_start": 139,
+        "summary_end": 213,
+        "source_span": "Ipswich had failed to score in seven of their previous 10 Championship games, but could have had plenty more, with Christophe Berra heading wide from six yards, and Skuse firing a volley straight at Smithies.",
+        "source_start": 362,
+        "source_end": 570
+      },
+      {
+        "annot_id": 245,
+        "sample_id": 9,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no information about the improved form",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Ipswich's manager Mick McCarthy praised his team's performance, while QPR's Ian Holloway expressed disappointment and frustration with his team's defense and mental toughness.",
+        "summary_start": 276,
+        "summary_end": 451,
+        "source_span": "Ipswich manager Mick McCarthy: \"The irony was that poor old Alex Smithies cost them the second goal which set us up to win as comprehensively as we did. He then kept it from being an embarrassing scoreline, but I'll take three. \" With Luke Varney and also Jonathan Douglas, I knew what I was going to get - even though I bet some people weren't thinking that when they saw the teamsheet. Luke epitomised everything what I want in this team. \" We have not been bristling with confidence. I have had a couple of rotten weekends after Rotherham and Nottingham Forest. But hopefully Ipswich can be a happier place than it has been.\" QPR boss Ian Holloway:  \"I am sure everyone will say everything hinged on the second goal, but it shouldn't have. \" The goal was a calamity and after that we were awful and it could have been four or five. \" Everyone will blame my keeper but I won't as my defenders should have made an angle for him. Even with my legs, I would have ran back and tried to help him. \" My players need to be mentally tougher as a group. I am disappointed with how we finished today. We have got to try and be a bigger, braver and more solid team.\"",
+        "source_start": 834,
+        "source_end": 1991
+      },
+      {
+        "annot_id": 248,
+        "sample_id": 9,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It might be able to imply from the words of Mick McCarthy that Alex Smithies made errors and led Ipswich win ",
+        "annotator_name": "Miaoran",
+        "summary_span": " QPR's Alex Smithies made errors that contributed to the loss.",
+        "summary_start": 213,
+        "summary_end": 275,
+        "source_span": "Ipswich manager Mick McCarthy: \"The irony was that poor old Alex Smithies cost them the second goal which set us up to win as comprehensively as we did.",
+        "source_start": 834,
+        "source_end": 986
+      },
+      {
+        "annot_id": 288,
+        "sample_id": 9,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "Key goals were scored by Grant Ward, Luke Varney, and Tom Lawrence",
+        "summary_start": 71,
+        "summary_end": 137,
+        "source_span": "Grant Ward (Ipswich Town) right footed shot from the centre of the box is saved in the bottom left corner. Assisted by Freddie Sears with a through ball. Alex Smithies (Queens Park Rangers) wins a free kick in the defensive half. Foul by Jonathan Douglas (Ipswich Town). Corner,  Ipswich Town. Conceded by Alex Smithies. Attempt saved. David McGoldrick (Ipswich Town) right footed shot from the right side of the box is saved in the bottom left corner. Assisted by Grant Ward. Attempt missed. David McGoldrick (Ipswich Town) right footed shot from more than 35 yards misses to the left. Assisted by Cole Skuse following a set piece situation. Substitution, Ipswich Town. Leon Best replaces Tom Lawrence. Foul by Nedum Onuoha (Queens Park Rangers). Grant Ward (Ipswich Town) wins a free kick in the attacking half. Corner,  Queens Park Rangers. Conceded by Grant Ward.",
+        "source_start": 3706,
+        "source_end": 4573
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2233,6 +3923,22 @@
         "source_span": "eugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships ",
         "source_start": 383,
         "source_end": 608
+      },
+      {
+        "annot_id": 239,
+        "sample_id": 7,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Benign"
+        ],
+        "note": "world knowledge to infer doha in Qatar",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
+        "summary_start": 306,
+        "summary_end": 405,
+        "source_span": "\neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships .",
+        "source_start": 382,
+        "source_end": 609
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
