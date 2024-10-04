@@ -132,6 +132,71 @@
         "source_span": "Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
         "source_start": 1874,
         "source_end": 1973
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 0,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no gave birth but pregnancy mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "This is reminiscent of the previous season, where Elizabeth, another character, also gave birth in a short amount of time.",
+        "summary_start": 249,
+        "summary_end": 371,
+        "source_span": "One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
+        "source_start": 1711,
+        "source_end": 1973
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 0,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "next episode is questionable for latest addition",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Demelza Poldark, played by Eleanor Tomlinson, gives birth to a baby girl in the next episode of Poldark.",
+        "summary_start": 0,
+        "summary_end": 104,
+        "source_span": "Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter.",
+        "source_start": 110,
+        "source_end": 247
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 0,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "This is reminiscent of the previous season, where Elizabeth, another character, also gave birth in a short amount of time.",
+        "summary_start": 249,
+        "summary_end": 371
+      },
+      {
+        "annot_id": 118,
+        "sample_id": 0,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention whether previous season is the time when Elizabeth got pregnant. ",
+        "annotator_name": "forrest",
+        "summary_span": "This is reminiscent of the previous season, where Elizabeth, another character, also gave birth in a short amount of time. ",
+        "summary_start": 249,
+        "summary_end": 372,
+        "source_span": "It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
+        "source_start": 1814,
+        "source_end": 1973
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -336,6 +401,130 @@
         "summary_span": "Milner's decision to retire from international football was a pragmatic one, and he wished the team well for the future.",
         "summary_start": 386,
         "summary_end": 506
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 2,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not most appearances but the most capped",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Despite his limited playing time at Euro 2016, he holds the record for the most appearances for the England Under-21 team with 46 caps and scored his only international goal during the 2014 World Cup qualifiers.",
+        "summary_start": 174,
+        "summary_end": 385,
+        "source_span": "Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004.",
+        "source_start": 361,
+        "source_end": 496
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 2,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "No info about retire",
+        "annotator_name": "weisi",
+        "summary_span": "Milner's decision to retire from international football was a pragmatic one, and he wished the team well for the future.",
+        "summary_start": 386,
+        "summary_end": 506
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 2,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Benign"
+        ],
+        "note": "James Milner is the only \"Milner\" that I can find  with Google",
+        "annotator_name": "forrest",
+        "summary_span": " James Milner",
+        "summary_start": 46,
+        "summary_end": 59,
+        "source_span": " Milner ",
+        "source_start": 347,
+        "source_end": 355
+      },
+      {
+        "annot_id": 108,
+        "sample_id": 2,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "In the source, Milner says his retirement is \"about common sense\". But the summary sounds like an objective judgement. People usually make excuses about their quits. ",
+        "annotator_name": "forrest",
+        "summary_span": " Milner's decision to retire from international football was a pragmatic one",
+        "summary_start": 385,
+        "summary_end": 461,
+        "source_span": "The decision we've reached is about common sense.",
+        "source_start": 216,
+        "source_end": 265
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 2,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It takes googling to understand capped  means appearance in soccer.",
+        "annotator_name": "forrest",
+        "summary_span": "the most appearances",
+        "summary_start": 245,
+        "summary_end": 265,
+        "source_span": "the most capped",
+        "source_start": 394,
+        "source_end": 409
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 2,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There was no mentioning of Milner's retirement. ",
+        "annotator_name": "forrest",
+        "summary_span": "Milner's decision to retire",
+        "summary_start": 386,
+        "summary_end": 413
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 2,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Benign"
+        ],
+        "note": "FIFA World Cup vs. World Cup",
+        "annotator_name": "forrest",
+        "summary_span": "2014 World Cup",
+        "summary_start": 359,
+        "summary_end": 373,
+        "source_span": "2014 Fifa World Cup",
+        "source_start": 592,
+        "source_end": 611
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 2,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "\"Despite\" casts a negative feeling which is not reflected in the source. ",
+        "annotator_name": "forrest",
+        "summary_span": "Despite his limited playing time at Euro 2016",
+        "summary_start": 174,
+        "summary_end": 219
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -476,6 +665,80 @@
         "summary_span": "located nearby",
         "summary_start": 135,
         "summary_end": 149
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 3,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "dont know the location",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The University of Mississippi, located nearby, has a diverse student body, with 55% of undergraduates and 60% overall from Mississippi, 23% minorities, and international students from 90 countries.",
+        "summary_start": 104,
+        "summary_end": 301
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 3,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": " located nearby,",
+        "summary_start": 134,
+        "summary_end": 150
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 3,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not mention diversity but is reasonable to infer what the summary says. ",
+        "annotator_name": "forrest",
+        "summary_span": "has a diverse student body",
+        "summary_start": 151,
+        "summary_end": 177,
+        "source_span": "About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+        "source_start": 144,
+        "source_end": 307
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 3,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentioned nothing about the distance between the University of Mississippi and the town Lake Providence. Google Maps shows that they are 3 hours apart by driving, which would not be considered \"nearby\" in the US context. ",
+        "annotator_name": "forrest",
+        "summary_span": "located nearby",
+        "summary_start": 135,
+        "summary_end": 149,
+        "source_span": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi ",
+        "source_start": 0,
+        "source_end": 142
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 3,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"about\" was missed out in the summary. ",
+        "annotator_name": "forrest",
+        "source_span": "About",
+        "source_start": 144,
+        "source_end": 149
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -666,6 +929,70 @@
         "summary_span": "2015",
         "summary_start": 559,
         "summary_end": 563
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 4,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "no 2015 using external knowledge",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The Su-24 was shot down by Turkish F-16 fighters on November 24, 2015, killing one crew member and injuring the other, who was later rescued.",
+        "summary_start": 494,
+        "summary_end": 635,
+        "source_span": "The Su-24 was shot down by F-16 fighters on 24 November.",
+        "source_start": 1126,
+        "source_end": 1182
+      },
+      {
+        "annot_id": 101,
+        "sample_id": 4,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": " revealing potentially missing flight information.",
+        "summary_start": 54,
+        "summary_end": 104,
+        "source_span": "Nikolai Primak, head of the Russian investigation, said flight information appeared to be missing.",
+        "source_start": 114,
+        "source_end": 212
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 4,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source mentions nothing about the year but Google search showed this incident happened in 2015. ",
+        "annotator_name": "forrest",
+        "summary_span": "2015",
+        "summary_start": 559,
+        "summary_end": 563
+      },
+      {
+        "annot_id": 123,
+        "sample_id": 4,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"Killing\" implies that the pilot was killed by the weapon that downed the plane. But the source says that pilot was killed by militants on the ground.",
+        "annotator_name": "forrest",
+        "summary_span": " killing",
+        "summary_start": 564,
+        "summary_end": 572,
+        "source_span": "the pilot was killed, apparently by militants on the ground",
+        "source_start": 1213,
+        "source_end": 1272
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -864,6 +1191,118 @@
         "summary_span": "European Championship finals",
         "summary_start": 116,
         "summary_end": 144
+      },
+      {
+        "annot_id": 93,
+        "sample_id": 5,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "four wins from four, not five",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The team is currently top of their group with five wins from five, while Iceland is also unbeaten.",
+        "summary_start": 366,
+        "summary_end": 464,
+        "source_span": "\"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group.",
+        "source_start": 467,
+        "source_end": 707
+      },
+      {
+        "annot_id": 94,
+        "sample_id": 5,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not mentioned herself and Kim who improved the chances of success",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Evans believes that having players in top leagues abroad, such as herself and Kim Little, has improved the national team's chances of success.",
+        "summary_start": 561,
+        "summary_end": 703,
+        "source_span": "\"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals.",
+        "source_start": 2542,
+        "source_end": 2829
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 5,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no evidence for european championship",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The Scotland women's national team is on the verge of qualifying for the European Championship finals, with a win over Iceland at Falkirk Stadium on Friday likely to secure their place.",
+        "summary_start": 43,
+        "summary_end": 228,
+        "source_span": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place.",
+        "source_start": 0,
+        "source_end": 142
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 5,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": " The team is currently top of their group with five wins from five, while Iceland is also unbeaten. ",
+        "summary_start": 365,
+        "summary_end": 465,
+        "source_span": "\"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group.",
+        "source_start": 467,
+        "source_end": 707
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 5,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source mentioned nothing about what game the news is about. ",
+        "annotator_name": "forrest",
+        "summary_span": " European Championship",
+        "summary_start": 115,
+        "summary_end": 137
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 5,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Benign"
+        ],
+        "note": "the first name is not mentioned in the source. ",
+        "annotator_name": "forrest",
+        "summary_span": "Lisa",
+        "summary_start": 237,
+        "summary_end": 241
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 5,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Source: iceland is top of the group\nSummary: the team [Scots] is top of the group",
+        "annotator_name": "forrest",
+        "summary_span": "The team is currently top of their group",
+        "summary_start": 366,
+        "summary_end": 406,
+        "source_span": "\"Iceland are top seeds in the group,\" Evans noted. \"",
+        "source_start": 1246,
+        "source_end": 1298
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1006,6 +1445,64 @@
         "source_span": "If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations.",
         "source_start": 1568,
         "source_end": 1672
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 1,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no clue for oversee the negotiation",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Carney's extension to 2019 allows him to oversee the initial Brexit negotiations while also accommodating his daughters' education plans. ",
+        "summary_start": 317,
+        "summary_end": 455,
+        "source_span": "Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations.",
+        "source_start": 3077,
+        "source_end": 3798
+      },
+      {
+        "annot_id": 98,
+        "sample_id": 1,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": " Carney's extension to 2019 allows him to oversee the initial Brexit negotiations while also accommodating his daughters' education plans",
+        "summary_start": 316,
+        "summary_end": 453
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 1,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\n\"oversee\" is not mentioned in the source. But since he is the Governor of the Bank of England, the head of the  central bank in England, he is the one or one of the top figures to oversee Brexit. ",
+        "annotator_name": "forrest",
+        "summary_span": "oversee",
+        "summary_start": 358,
+        "summary_end": 365
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 1,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "it's unclear how \"initial\" the negotiation was. Brexit negotiation happened between 2017 and 2019. So maybe 2019 is not \"initial\" any more. ",
+        "annotator_name": "forrest",
+        "summary_span": "initial",
+        "summary_start": 370,
+        "summary_end": 377
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1049,6 +1546,20 @@
         "annotator_name": null,
         "summary_span": "also refers to the fourteenth studio album by singer-songwriter James Taylor.",
         "summary_start": 91,
+        "summary_end": 168
+      },
+      {
+        "annot_id": 103,
+        "sample_id": 6,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\tThe \"Hourglass\" and Hourglass with and without \"\" is not same in the source, but summary mix them together.",
+        "annotator_name": "weisi",
+        "summary_span": "The passage states that \"Hourglass\" is a song by the British electronic duo Disclosure and also refers to the fourteenth studio album by singer-songwriter James Taylor.",
+        "summary_start": 0,
         "summary_end": 168
       }
     ],
@@ -1165,6 +1676,53 @@
         "source_span": "\nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin .",
         "source_start": 1313,
         "source_end": 1454
+      },
+      {
+        "annot_id": 104,
+        "sample_id": 8,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "sleek body shape is not counted as unique features",
+        "annotator_name": "weisi",
+        "summary_span": " including a sleek body shape ",
+        "summary_start": 655,
+        "summary_end": 685,
+        "source_span": "\nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin .",
+        "source_start": 1313,
+        "source_end": 1454
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 8,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source is inconsistent on the number of vertebrae itself. Both 53 and 67 are mentioned in the source. The summary span is consistent to one of them. ",
+        "annotator_name": "forrest",
+        "summary_span": "53 vertebrae.",
+        "summary_start": 689,
+        "summary_end": 702
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 8,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source does not consider \"a sleek body shape\" as a \"unique\" feature whereas the summary does. ",
+        "annotator_name": "forrest",
+        "summary_span": "They have unique features, including a sleek body shape and 53 vertebrae",
+        "summary_start": 629,
+        "summary_end": 701,
+        "source_span": "omura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae",
+        "source_start": 1314,
+        "source_end": 1415
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1229,6 +1787,74 @@
         "source_span": " \nthey are 13th in the table , two points above the relegation places . \nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 23th",
         "source_start": 437,
         "source_end": 745
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 9,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Source: Mouscron ranks 23rd (typo 23td) in Belgium's Pro League.\nSummary: Mouscron ranks 13th in Belgium's Pro League. ",
+        "annotator_name": "forrest",
+        "summary_span": "Mouscron-Peruwelz, who are currently 13th in Belgium's Pro League",
+        "summary_start": 85,
+        "summary_end": 150,
+        "source_span": "mouscron are currently 23th in belgium 's pro league",
+        "source_start": 718,
+        "source_end": 770
+      },
+      {
+        "annot_id": 96,
+        "sample_id": 9,
+        "annotator": "4a2b75cc25154ab1965424ba24da66da",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not 13th in Belgium's Pro Leagure but 23th",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Chelsea are in early discussions for a potential partnership with Belgian club Royal Mouscron-Peruwelz, who are currently 13th in Belgium's Pro League.",
+        "summary_start": 0,
+        "summary_end": 151,
+        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz . \nmouscron , in belgium 's pro league , had a partnership with lille but the french side are now poised to link up with another belgian club , ostend , leaving room for a new deal and chelsea are the preferred option . \nthe belgian club have been in the top flight for a season since winning promotion via the play-offs last summer . \nthey are 13th in the table , two points above the relegation places . \nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 23th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad .",
+        "source_start": 0,
+        "source_end": 969
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 9,
+        "annotator": "63c1095245dc46b68c90af3365a83d20",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "who are currently 13th in Belgium's Pro League",
+        "summary_start": 104,
+        "summary_end": 150,
+        "source_span": " currently 23th in belgium 's pro league ",
+        "source_start": 730,
+        "source_end": 771
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 9,
+        "annotator": "f7b4ba105fd64191bb722ad46916b23d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Source: 23th. \nSummary: 13th. ",
+        "annotator_name": "forrest",
+        "summary_span": "Mouscron-Peruwelz, who are currently 13th in Belgium's Pro League.",
+        "summary_start": 85,
+        "summary_end": 151,
+        "source_span": "mouscron are currently 23th in belgium 's pro league ",
+        "source_start": 718,
+        "source_end": 771
       }
     ],
     "meta_model": "openai/gpt-4o",
