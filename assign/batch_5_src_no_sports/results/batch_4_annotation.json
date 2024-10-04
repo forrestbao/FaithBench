@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": 0,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": " In the passage, a hockey game between the Giants and the Panthers is described. The Giants scored first through Derrick Walser, but the Panthers equalized through Jeff Dimmen. In the second period, Mike Forney scored a powerplay breakaway goal for the Giants, making it 2-1. Andy Bohmback equalized for the Panthers again. Mike Radja scored from an acute angle for the Giants, and James Desmarais made it 4-2. Nottingham scored one back through David Ling. The teams will meet again on Saturday night for their second match of a double-header. As of the game, Nottingham leads the league with 28 points, followed by Sheffield Steelers with 27 points and Belfast with 25 points.",
+    "annotations": [
+      {
+        "annot_id": 1,
+        "sample_id": 0,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage doesn't mention which team the goal scorers belonged to",
+        "annotator_name": "Suleman",
+        "summary_span": "Mike Forney scored a powerplay breakaway goal for the Giants, making it 2-1. Andy Bohmback equalized for the Panthers again. Mike Radja scored from an acute angle for the Giants, ",
+        "summary_start": 199,
+        "summary_end": 378,
+        "source_span": "In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising.",
+        "source_start": 116,
+        "source_end": 218
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.91462,
+    "meta_hhem-2.1": 0.93565,
+    "meta_hhem-2.1-english": 0.99222,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 26
+  },
+  {
+    "sample_id": 2,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes a hockey game between the Giants and the Panthers. The Giants initially took the lead, but the Panthers equalized. The second period saw the Giants score twice more, while the Panthers managed one goal. The final score was 4-3 in favor of the Giants. The passage mentions that the teams will play again the following night. It concludes by stating the current league standings, with Nottingham leading, followed by Sheffield Steelers and Belfast.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 2,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage does not mention who scored for which team.",
+        "annotator_name": "Suleman",
+        "summary_span": " The second period saw the Giants score twice more, while the Panthers managed one goal. The final score was 4-3 in favor of the Giants. ",
+        "summary_start": 219,
+        "summary_end": 356,
+        "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+        "source_start": 219,
+        "source_end": 333
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.67678,
+    "meta_hhem-2.1": 0.20311,
+    "meta_hhem-2.1-english": 0.56081,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 256
+  },
+  {
+    "sample_id": 3,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "The Giants and the Panthers played a close game, with the Giants taking the lead multiple times but the Panthers equalising. The game ended 4-2 to the Giants. The teams will play again on Saturday in a double-header. Nottingham currently leads the league with 28 points, closely followed by Sheffield and Belfast.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 3,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Benign"
+        ],
+        "note": "The game being close is subjective, but true.",
+        "annotator_name": "Suleman",
+        "summary_span": "The Giants and the Panthers played a close game",
+        "summary_start": 0,
+        "summary_end": 47
+      },
+      {
+        "annot_id": 5,
+        "sample_id": 3,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Passage does not explicitly mention which team was in the lead.",
+        "annotator_name": "Suleman",
+        "summary_span": "game ended 4-2 to the Giants",
+        "summary_start": 129,
+        "summary_end": 157
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.85781,
+    "meta_hhem-2.1": 0.32852,
+    "meta_hhem-2.1-english": 0.93676,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 371
+  },
+  {
+    "sample_id": 4,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "The passage describes a hockey game between the Giants and the Panthers. Key events include goals from Derrick Walser, Jeff Dimmen, Mike Forney, Andy Bohmback, Mike Radja, and David Ling. The score oscillated throughout the game, ending at 4-2 in favor of the Giants. Additionally, it mentions that the teams will play each other again in a double-header, with Nottingham leading the league with 28 points.",
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 4,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The passage does not state what sport was being played.",
+        "annotator_name": "Suleman",
+        "summary_span": "The passage describes a hockey game ",
+        "summary_start": 0,
+        "summary_end": 36
+      },
+      {
+        "annot_id": 7,
+        "sample_id": 4,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Passage does not state which team had the lead at the end.",
+        "annotator_name": "Suleman",
+        "summary_span": "ending at 4-2 in favor of the Giants.",
+        "summary_start": 230,
+        "summary_end": 267,
+        "source_span": "Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back.",
+        "source_start": 219,
+        "source_end": 333
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.86735,
+    "meta_hhem-2.1": 0.53055,
+    "meta_hhem-2.1-english": 0.87959,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 486
+  },
+  {
+    "sample_id": 5,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "Here is a concise summary of the passage:\n\nThe Giants and Panthers played a close game, with each team scoring multiple goals. The Giants took the lead, but the Panthers equalized several times, with the final score being 4-3 in favor of the Giants. The teams will meet again on Saturday night.",
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 5,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Benign"
+        ],
+        "note": "The game being close is subjective but true.",
+        "annotator_name": "Suleman",
+        "summary_span": "The Giants and Panthers played a close game",
+        "summary_start": 43,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 9,
+        "sample_id": 5,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage does not explicitly state which team had the lead",
+        "annotator_name": "Suleman",
+        "summary_span": "with the final score being 4-3 in favor of the Giants",
+        "summary_start": 195,
+        "summary_end": 248
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.55459,
+    "meta_hhem-2.1": 0.0866,
+    "meta_hhem-2.1-english": 0.22712,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 601
+  },
+  {
+    "sample_id": 6,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "Here is a concise summary of the passage:\n\nThe Giants and Panthers played a match, with the Giants initially taking the lead through Derrick Walser, but the Panthers equalizing through Jeff Dimmen. The Giants then took a 4-2 lead with goals from Mike Forney, Mike Radja, and James Desmarais, before the Panthers' David Ling scored to make it 4-3. The teams will meet again on Saturday night.",
+    "annotations": [
+      {
+        "annot_id": 10,
+        "sample_id": 6,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage does not mention which team the players scoring belonged to.",
+        "annotator_name": "Suleman",
+        "summary_span": "The Giants then took a 4-2 lead with goals from Mike Forney, Mike Radja, and James Desmarais, before the Panthers' David Ling scored to make it 4-3. ",
+        "summary_start": 198,
+        "summary_end": 347
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.75215,
+    "meta_hhem-2.1": 0.19332,
+    "meta_hhem-2.1-english": 0.44832,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 716
+  },
+  {
+    "sample_id": 7,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "The Nottingham Panthers and the Sheffield Giants played a close game, with the Giants winning 4-3. The Giants were short-handed for the opener, but Jeff Dimmen tied the game for the Panthers. Mike Forney scored a powerplay breakaway goal to put the Panthers ahead, but Andy Bohmback tied the game again. Mike Radja and James Desmarais scored for the Giants, while David Ling scored for the Panthers. The teams will play again on Saturday night. Nottingham leads the league with 28 points, followed by Sheffield Steelers with 27 and Belfast with 25. \n",
+    "annotations": [
+      {
+        "annot_id": 11,
+        "sample_id": 7,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "1. The passage does not mention whether Nottingham was Panthers or Sheffield was Giants, the game being close is also subjective.",
+        "annotator_name": "Suleman",
+        "summary_span": "The Nottingham Panthers and the Sheffield Giants played a close game",
+        "summary_start": 0,
+        "summary_end": 68
+      },
+      {
+        "annot_id": 12,
+        "sample_id": 7,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage does not mention whether Giants won or Panthers.",
+        "annotator_name": "Suleman",
+        "summary_span": " with the Giants winning 4-3",
+        "summary_start": 69,
+        "summary_end": 97
+      },
+      {
+        "annot_id": 13,
+        "sample_id": 7,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage does not state which player scored for which team.",
+        "annotator_name": "Suleman",
+        "summary_span": " Mike Forney scored a powerplay breakaway goal to put the Panthers ahead, but Andy Bohmback tied the game again. Mike Radja and James Desmarais scored for the Giants, while David Ling scored for the Panthers. T",
+        "summary_start": 191,
+        "summary_end": 401
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.20683,
+    "meta_hhem-2.1": 0.15597,
+    "meta_hhem-2.1-english": 0.53439,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 831
+  },
+  {
+    "sample_id": 8,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "The passage describes a hockey game between the Giants and the Panthers. The Giants had a short-handed opener by Derrick Walser, but the Panthers managed to equalize through Jeff Dimmen. In the second period, Mike Forney scored a powerplay breakaway goal to give the Giants a 2-1 lead, which was later equalized by Andy Bohmback. The Giants then scored two more goals through Mike Radja and James Desmarais, making it 4-2. Nottingham's David Ling scored a goal to bring the score to 4-3. The teams will meet again for a second match on Saturday night. Nottingham currently leads the league with 28 points, followed by Sheffield Steelers with 27 points and Belfast with 25 points.",
+    "annotations": [
+      {
+        "annot_id": 14,
+        "sample_id": 8,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The passage does not mention which sport is being played.",
+        "annotator_name": "Suleman",
+        "summary_span": "The passage describes a hockey game ",
+        "summary_start": 0,
+        "summary_end": 36
+      },
+      {
+        "annot_id": 15,
+        "sample_id": 8,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage does not explicitly mention which team the scorers were from.",
+        "annotator_name": "Suleman",
+        "summary_span": "n the second period, Mike Forney scored a powerplay breakaway goal to give the Giants a 2-1 lead, which was later equalized by Andy Bohmback. The Giants then scored two more goals through Mike Radja and James Desmarais, making it 4-2. Nottingham's David Ling scored a goal to bring the score to 4-3. ",
+        "summary_start": 188,
+        "summary_end": 488
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.82796,
+    "meta_hhem-2.1": 0.55754,
+    "meta_hhem-2.1-english": 0.98734,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 973
+  },
+  {
+    "sample_id": 9,
+    "source": "The Giants got a short-handed opener through player-coach Derrick Walser but Jeff Dimmen pulled the Panthers level. In the second period Mike Forney's powerplay breakaway goal make it 2-1 with Andy Bohmback equalising. Mike Radja scored from an acute angle and James Desmarais made it 4-2 before Nottingham's David Ling got one back. The teams meet again on Saturday night in the second match of their double-header. Nottingham lead the league on 28 points, with Sheffield Steelers on 27 and Belfast 25.",
+    "summary": "The Giants initially led through Derrick Walser, but Jeff Dimmen equalized for the Panthers. In the second period, Mike Forney scored for the Giants, followed by an equalizer from Andy Bohmback. Mike Radja and James Desmarais then extended the Giants' lead to 4-2 before David Ling scored for Nottingham. The teams will play again on Saturday. Nottingham leads the league with 28 points, followed by Sheffield Steelers with 27 and Belfast with 25.",
+    "annotations": [
+      {
+        "annot_id": 16,
+        "sample_id": 9,
+        "annotator": "62d9bb022a0a4fa590c17e1ae961a9b8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage does not explicitly mention which teams the scorers scored goals for.",
+        "annotator_name": "Suleman",
+        "summary_span": " In the second period, Mike Forney scored for the Giants, followed by an equalizer from Andy Bohmback. Mike Radja and James Desmarais then extended the Giants' lead to 4-2 before David Ling scored for Nottingham. ",
+        "summary_start": 92,
+        "summary_end": 305
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.81128,
+    "meta_hhem-2.1": 0.82013,
+    "meta_hhem-2.1-english": 0.98989,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1061
+  }
+]

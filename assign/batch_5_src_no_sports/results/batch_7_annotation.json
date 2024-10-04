@@ -1,0 +1,101 @@
+[
+  {
+    "sample_id": 0,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": " In the provided passage, the core pieces of information are campaign expenditures for several political parties in the UK's May election for the European Parliament. UKIP spent the most at £2,956,737, followed by the Conservatives at £2,980,815, Labour at £1,027,339, Lib Dems at £1,580,575, and the Green Party at £534,249. The Lib Dems lost all but one of their MEPs, while Labour came second. The spending per vote for each party was UKIP at 68p, Labour at 26p, Conservatives at 79p, Lib Dems at £1.45, and the Green Party at 43p. The six highest-spending parties collectively spent £9,347,087 on campaigning, and all but Labour spent more than they did during the 2009 European election campaign.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 0,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "world knowledge for the conservative part torie",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP spent the most at £2,956,737, followed by the Conservatives at £2,980,815, Labour at £1,027,339, Lib Dems at £1,580,575, and the Green Party at £534,249.",
+        "summary_start": 167,
+        "summary_end": 325,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.67967,
+    "meta_hhem-2.1": 0.95119,
+    "meta_hhem-2.1-english": 0.98363,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 62
+  },
+  {
+    "sample_id": 1,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": " UKIP, the winning party in May's election, spent £2,956,737, while the Conservatives spent £2,980,815. The Liberal Democrats spent £1,580,575 and lost all but one of their MEPs. Labour, the second-place party, spent £1,027,339. UKIP's campaign spending was 68p per vote, Labour's was 26p, the Conservatives' was 79p, and the Lib Dems' was £1.45 per vote. The Green Party spent £534,249 (43p per vote) and the SNP spent £267,372. The six highest-spending parties spent a total of £9,347,087, with all but Labour spending more than in the 2009 European election campaign. The campaign period was from 23 January to polling day, 22 May.",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 1,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "world knowledge for the conservative party",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP, the winning party in May's election, spent £2,956,737, while the Conservatives spent £2,980,815. The Liberal Democrats spent £1,580,575 and lost all but one of their MEPs. ",
+        "summary_start": 1,
+        "summary_end": 179,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99551,
+    "meta_hhem-2.1": 0.96806,
+    "meta_hhem-2.1-english": 0.99444,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 177
+  },
+  {
+    "sample_id": 2,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "Here's a concise summary of the passage:\n\nThe passage details campaign spending for the May European Parliament elections in the UK. UKIP, the winning party, spent £2,956,737, slightly less than the Conservatives at £2,980,815. Labour, which came second, spent £1,027,339, while the Liberal Democrats spent £1,580,575 but lost all but one of their MEPs. The Green Party, finishing fourth, spent £534,249. When calculated per vote received, UKIP spent 68p, Labour 26p, Conservatives 79p, and Lib Dems £1.45. The top six highest-spending parties, including the SNP, spent a total of £9,347,087. All parties except Labour increased their spending compared to the 2009 European election campaign.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 2,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about the conservatives",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP, the winning party, spent £2,956,737, slightly less than the Conservatives at £2,980,815.",
+        "summary_start": 133,
+        "summary_end": 227,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.80157,
+    "meta_hhem-2.1": 0.72288,
+    "meta_hhem-2.1-english": 0.92387,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 292
+  }
+]
