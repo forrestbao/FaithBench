@@ -1184,6 +1184,35 @@
         "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
         "source_start": 169,
         "source_end": 371
+      },
+      {
+        "annot_id": 291,
+        "sample_id": 2,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "past 12 month could span over this year and the last year ",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "last year.",
+        "summary_start": 283,
+        "summary_end": 293
+      },
+      {
+        "annot_id": 292,
+        "sample_id": 2,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "From the source, UK government is obviously against pregnant women drinking, while the summary is not clearly stressing the government's opposing tone.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Current UK government advice allows pregnant women to drink up to two units twice a week,",
+        "summary_start": 895,
+        "summary_end": 984,
+        "source_span": "\nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
+        "source_start": 2369,
+        "source_end": 2490
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1589,6 +1618,23 @@
         "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
         "source_start": 1536,
         "source_end": 1649
+      },
+      {
+        "annot_id": 290,
+        "sample_id": 1,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Joe blamed the poor performance on the whole team, not just himself.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539,
+        "source_span": "city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances , '",
+        "source_start": 1575,
+        "source_end": 1712
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -2325,6 +2371,36 @@
         "source_span": "Match ends, Ipswich Town 3, Queens Park Rangers 0.",
         "source_start": 1992,
         "source_end": 2042
+      },
+      {
+        "annot_id": 293,
+        "sample_id": 4,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "boss != manager",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Ian Holloway, QPR's manager",
+        "summary_start": 584,
+        "summary_end": 611,
+        "source_span": "QPR boss Ian Holloway",
+        "source_start": 1463,
+        "source_end": 1484
+      },
+      {
+        "annot_id": 294,
+        "sample_id": 4,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "They seem involved in scoring but uncertain whether if the goals were actually secured by them.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The goals were scored by Grant Ward, Luke Varney (after a QPR keeper's miscue), and Tom Lawrence.",
+        "summary_start": 95,
+        "summary_end": 192
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2804,6 +2880,22 @@
         "source_span": "\nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 .",
         "source_start": 966,
         "source_end": 1173
+      },
+      {
+        "annot_id": 296,
+        "sample_id": 6,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I'm not sure whether \"a green jacket\" = \"Master\"",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Nicklaus won his first Masters in 1963",
+        "summary_start": 325,
+        "summary_end": 363,
+        "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963",
+        "source_start": 1368,
+        "source_end": 1436
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3113,6 +3205,22 @@
         "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad ",
         "source_start": 510,
         "source_end": 968
+      },
+      {
+        "annot_id": 295,
+        "sample_id": 5,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Lille is linking up with a new club. However this doesn't necessarily mean that the existing partnership will end.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "had a previous partnership with Lille, which is ending.",
+        "summary_start": 249,
+        "summary_end": 304,
+        "source_span": "had a partnership with lille but the french side are now poised to link up with another belgian club",
+        "source_start": 144,
+        "source_end": 244
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -3604,6 +3712,38 @@
         "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and h",
         "source_start": 0,
         "source_end": 145
+      },
+      {
+        "annot_id": 297,
+        "sample_id": 8,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Benign"
+        ],
+        "note": "United is St Mirren. However, this can cause confusion for readers who are not familiar with soccer.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\nCammy Smith, a 21-year-old footballer, has been loaned from Aberdeen to St Mirren.",
+        "summary_start": 82,
+        "summary_end": 165,
+        "source_span": "The Dons loaned Smith, 21, to United",
+        "source_start": 0,
+        "source_end": 36
+      },
+      {
+        "annot_id": 298,
+        "sample_id": 8,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "boss != manager",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": " St Mirren's manager, Jack Ross",
+        "summary_start": 376,
+        "summary_end": 407,
+        "source_span": "boss Jack Ross",
+        "source_start": 248,
+        "source_end": 262
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -3874,6 +4014,22 @@
         "source_span": "Grant Ward (Ipswich Town) right footed shot from the centre of the box is saved in the bottom left corner. Assisted by Freddie Sears with a through ball. Alex Smithies (Queens Park Rangers) wins a free kick in the defensive half. Foul by Jonathan Douglas (Ipswich Town). Corner,  Ipswich Town. Conceded by Alex Smithies. Attempt saved. David McGoldrick (Ipswich Town) right footed shot from the right side of the box is saved in the bottom left corner. Assisted by Grant Ward. Attempt missed. David McGoldrick (Ipswich Town) right footed shot from more than 35 yards misses to the left. Assisted by Cole Skuse following a set piece situation. Substitution, Ipswich Town. Leon Best replaces Tom Lawrence. Foul by Nedum Onuoha (Queens Park Rangers). Grant Ward (Ipswich Town) wins a free kick in the attacking half. Corner,  Queens Park Rangers. Conceded by Grant Ward.",
         "source_start": 3706,
         "source_end": 4573
+      },
+      {
+        "annot_id": 299,
+        "sample_id": 9,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's unclear whether those three scored the goals or just being involved in scoring.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Key goals were scored by Grant Ward, Luke Varney, and Tom Lawrence.",
+        "summary_start": 71,
+        "summary_end": 138,
+        "source_span": "Match ends, Ipswich Town 3, Queens Park Rangers 0. Second Half ends, Ipswich Town 3, Queens Park Rangers 0. Attempt saved. Yeni N'Gbakoto (Queens Park Rangers) right footed shot from outside the box is saved in the bottom left corner. Yeni N'Gbakoto (Queens Park Rangers) wins a free kick in the attacking half. Foul by Luke Chambers (Ipswich Town). Attempt saved. Freddie Sears (Ipswich Town) right footed shot from the centre of the box is saved in the bottom left corner. Assisted by Jonathan Douglas. Offside, Ipswich Town. Leon Best tries a through ball, but Jonathan Douglas is caught offside. Attempt saved. David McGoldrick (Ipswich Town) right footed shot from the centre of the box is saved in the top centre of the goal. Assisted by Leon Best. Attempt saved. Freddie Sears (Ipswich Town) right footed shot from outside the box is saved in the centre of the goal. Assisted by Cole Skuse. Karl Henry (Queens Park Rangers) wins a free kick in the defensive half. Foul by Jonathan Douglas (Ipswich Town). Offside, Queens Park Rangers. Alex Smithies tries a through ball, but Idrissa Sylla is caught offside. Sandro (Queens Park Rangers) wins a free kick in the defensive half. Foul by David McGoldrick (Ipswich Town). Attempt blocked. Cole Skuse (Ipswich Town) right footed shot from outside the box is blocked. Corner,  Ipswich Town. Conceded by Grant Hall. Karl Henry (Queens Park Rangers) wins a free kick in the attacking half. Foul by Cole Skuse (Ipswich Town). Attempt missed. Jonathan Douglas (Ipswich Town) header from the centre of the box is close, but misses to the left. Assisted by Freddie Sears with a cross following a corner. Corner,  Ipswich Town. Conceded by Alex Smithies. Attempt saved. Grant Ward (Ipswich Town) right footed shot from the centre of the box is saved in the bottom left corner. Assisted by Freddie Sears with a through ball. Alex Smithies (Queens Park Rangers) wins a free kick in the defensive half. Foul by Jonathan Douglas (Ipswich Town). Corner,  Ipswich Town. Conceded by Alex Smithies. Attempt saved. David McGoldrick (Ipswich Town) right footed shot from the right side of the box is saved in the bottom left corner. Assisted by Grant Ward. Attempt missed. David McGoldrick (Ipswich Town) right footed shot from more than 35 yards misses to the left. Assisted by Cole Skuse following a set piece situation. Substitution, Ipswich Town. Leon Best replaces Tom Lawrence. Foul by Nedum Onuoha (Queens Park Rangers). Grant Ward (Ipswich Town) wins a free kick in the attacking half. Corner,  Queens Park Rangers. Conceded by Grant Ward. Corner,  Queens Park Rangers. Conceded by Adam Webster. Sandro (Queens Park Rangers) wins a free kick in the defensive half. Foul by Jonathan Douglas (Ipswich Town). Sandro (Queens Park Rangers) hits the right post with a header from the right side of the six yard box. Assisted by Tjaronn Chery with a cross following a corner. Corner,  Queens Park Rangers. Conceded by Christophe Berra. Attempt missed. David McGoldrick (Ipswich Town) right footed shot from outside the box misses to the right. Assisted by Tom Lawrence. Foul by Sandro (Queens Park Rangers). Jonathan Douglas (Ipswich Town) wins a free kick in the defensive half. Foul by Karl Henry (Queens Park Rangers). Cole Skuse (Ipswich Town) wins a free kick on the left wing.",
+        "source_start": 1992,
+        "source_end": 5309
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
