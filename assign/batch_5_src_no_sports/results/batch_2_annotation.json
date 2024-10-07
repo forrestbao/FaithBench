@@ -1,1 +1,1570 @@
-[]
+[
+  {
+    "sample_id": 0,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": " The passage describes two different films:\n\n1. Veeram (Valour), a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions. \n\n2. Veeram (another unspecified year, possibly 2016), an Indian epic historical drama film written and directed by Jayaraj. However, the passage does not provide any details about the plot, cast, or setting for either of these films.",
+    "annotations": [
+      {
+        "annot_id": 1,
+        "sample_id": 0,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the second Veeram is a 2014 film",
+        "annotator_name": "Miaoran",
+        "summary_span": "(another unspecified year, possibly 2016),",
+        "summary_start": 162,
+        "summary_end": 204,
+        "source_span": "Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+        "source_start": 107,
+        "source_end": 202
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 0,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The year is specified as 2016 as in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " Veeram (another unspecified year, possibly 2016), an Indian epic historical drama film written and directed by Jayaraj",
+        "summary_start": 154,
+        "summary_end": 273,
+        "source_span": "Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+        "source_start": 107,
+        "source_end": 202
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.20417,
+    "meta_hhem-2.1": 0.48637,
+    "meta_hhem-2.1-english": 0.59316,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 7
+  },
+  {
+    "sample_id": 2,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "Based on the provided passage, here is a concise summary covering the core information:\n\nThe passage describes two different Indian films, both titled \"Veeram\" (meaning \"Valour\"):\n\n1. A 2014 Tamil action film directed by Siva and produced by Vijaya Productions. \n2. A 2016 epic historical drama film written and directed by Jayaraj. \n\nThe summary highlights that despite sharing the same title, these are two distinct films from different years and genres.",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 2,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "The source just makes statements about 2 films, but it does not highlight or emphasize their differences",
+        "annotator_name": "Miaoran",
+        "summary_span": "The summary highlights that despite sharing the same title, these are two distinct films from different years and genres.",
+        "summary_start": 335,
+        "summary_end": 456,
+        "source_span": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+        "source_start": 0,
+        "source_end": 202
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.65116,
+    "meta_hhem-2.1": 0.51533,
+    "meta_hhem-2.1-english": 0.52961,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 237
+  },
+  {
+    "sample_id": 10,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": " The passage provides information about two different individuals, Sheryl Lee and Sheryl Lee Ralph. Sheryl Lee, in 2016, appeared in the film Cafe Society and also completed a revival of Twin Peaks in 2017, reprising her role of Laura Palmer. On the other hand, Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 10,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There is no mention that Cafe Society is a film",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film Cafe Society",
+        "summary_start": 133,
+        "summary_end": 154
+      },
+      {
+        "annot_id": 8,
+        "sample_id": 10,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source implies that the revival of Twin Peaks was released in 2017, but Sheryl Lee completed it in 2016",
+        "annotator_name": "Miaoran",
+        "summary_span": " in 2017",
+        "summary_start": 197,
+        "summary_end": 205,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
+      },
+      {
+        "annot_id": 58,
+        "sample_id": 10,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not have same meaning with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "On the other hand, Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
+        "summary_start": 243,
+        "summary_end": 347,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.87591,
+    "meta_hhem-2.1": 0.9321,
+    "meta_hhem-2.1-english": 0.99183,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 9
+  },
+  {
+    "sample_id": 11,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": " Sheryl Lee and Sheryl Ralph are actresses who appeared in notable productions in 2016. Sheryl Lee starred in Café Society and reprised her role as Laura Palmer in the Showtime revival of Twin Peaks in 2017. Sheryl Ralph played Madame Morrible in the Broadway production of Wicked.",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that Sheryl Lee appeared in Cafe Society and completed the Showtime revival of Twin Peaks in 2016. 2017 should be the release year of the Showtime revival of Twin Peaks",
+        "annotator_name": "Miaoran",
+        "summary_span": "in 2017.",
+        "summary_start": 200,
+        "summary_end": 208,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
+      },
+      {
+        "annot_id": 11,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Lee and Sheryl Ralph are actresses who appeared in notable productions in 2016.",
+        "summary_start": 1,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 59,
+        "sample_id": 11,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheryl Ralph played Madame Morrible in the Broadway production of Wicked.",
+        "summary_start": 209,
+        "summary_end": 282,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.92931,
+    "meta_hhem-2.1": 0.91411,
+    "meta_hhem-2.1-english": 0.98501,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 124
+  },
+  {
+    "sample_id": 15,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "Here is a concise summary of the passage:\n\nSheryl Lee and Sheryl Lee Ralph are two separate individuals who have worked in the entertainment industry. In 2016, Sheryl Lee appeared in Café Society and completed the revival of Twin Peaks. In the same year, Sheryl Lee Ralph played Madame Morrible in Wicked on Broadway.",
+    "annotations": [
+      {
+        "annot_id": 12,
+        "sample_id": 15,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Lee and Sheryl Lee Ralph are two separate individuals who have worked in the entertainment industry. ",
+        "summary_start": 43,
+        "summary_end": 151
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 15,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Twin Peaks is in 2017, same year is not correct based on source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "In 2016, Sheryl Lee appeared in Café Society and completed the revival of Twin Peaks.",
+        "summary_start": 151,
+        "summary_end": 237,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.44255,
+    "meta_hhem-2.1": 0.81925,
+    "meta_hhem-2.1-english": 0.95698,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 584
+  },
+  {
+    "sample_id": 17,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "Sheryl Lee appeared in the film *Café Society* in 2016 and reprised her role as Laura Palmer in the Showtime revival of *Twin Peaks* in 2017. Sheryl Lee Ralph played Madame Morrible in the Broadway production of *Wicked* in 2016. \n",
+    "annotations": [
+      {
+        "annot_id": 15,
+        "sample_id": 17,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There's no mention that Cafe Society is a film",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film *Café Society",
+        "summary_start": 23,
+        "summary_end": 46
+      },
+      {
+        "annot_id": 16,
+        "sample_id": 17,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"in 2017\" causes confusion. 2017 should be the release year of the Showtime revival of Twin Peaks. Sheryl Lee played her role in 2016",
+        "annotator_name": "Miaoran",
+        "summary_span": "reprised her role as Laura Palmer in the Showtime revival of *Twin Peaks* in 2017",
+        "summary_start": 60,
+        "summary_end": 141,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 17,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheryl Lee Ralph played Madame Morrible in the Broadway production of *Wicked* in 2016.",
+        "summary_start": 143,
+        "summary_end": 230,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.78355,
+    "meta_hhem-2.1": 0.86419,
+    "meta_hhem-2.1-english": 0.98689,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 814
+  },
+  {
+    "sample_id": 18,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "The passage mentions two actresses, Sheryl Lee and Sheryl Lee Ralph. In 2016, Sheryl Lee appeared in the film Café Society and reprised her role as Laura Palmer in the Showtime revival of Twin Peaks. Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
+    "annotations": [
+      {
+        "annot_id": 18,
+        "sample_id": 18,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There's no mention that Cafe Society is a film",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film Café Society",
+        "summary_start": 101,
+        "summary_end": 123
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 18,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
+        "summary_start": 201,
+        "summary_end": 286,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 18,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Twin Peaks is in 2017.",
+        "annotator_name": "Weisi",
+        "summary_span": "In 2016, Sheryl Lee appeared in the film Café Society and reprised her role as Laura Palmer in the Showtime revival of Twin Peaks.",
+        "summary_start": 69,
+        "summary_end": 200,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.84997,
+    "meta_hhem-2.1": 0.93297,
+    "meta_hhem-2.1-english": 0.99338,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 968
+  },
+  {
+    "sample_id": 20,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": " Albert Lawrence Brooks, originally named Albert Lawrence Einstein, is an American actor, filmmaker, author, and comedian. He is known for co-directing and co-writing the movie \"Finding Dory\" with Andrew Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 20,
+        "sample_id": 20,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There is no mention of Albert's co-directing or co-writing",
+        "annotator_name": "Miaoran",
+        "summary_span": "co-directing and co-writing",
+        "summary_start": 139,
+        "summary_end": 166
+      },
+      {
+        "annot_id": 25,
+        "sample_id": 20,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Need external knowledge that \"Finding Dory\" is a movie",
+        "annotator_name": "Miaoran",
+        "summary_span": "the movie",
+        "summary_start": 167,
+        "summary_end": 176
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 20,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "He is known for co-directing and co-writing the movie \"Finding Dory\" with Andrew Stanton and Victoria Strouse.",
+        "summary_start": 123,
+        "summary_end": 233,
+        "source_span": "Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+        "source_start": 146,
+        "source_end": 270
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.80824,
+    "meta_hhem-2.1": 0.32366,
+    "meta_hhem-2.1-english": 0.62246,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 10
+  },
+  {
+    "sample_id": 21,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": " Albert Lawrence Brooks, born as Albert Lawrence Einstein on July 22, 1947, is an American actor, filmmaker, author, and comedian. He starred in the film \"Finding Dory,\" directed by Andrew Stanton and co-directed by Angus MacLane, with a screenplay written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 21,
+        "sample_id": 21,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From the source, we can only infer that \"Finding Dory\" is related to Albert, but we do not know if Albert starred in \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "He starred in the film \"Finding Dory,\"",
+        "summary_start": 131,
+        "summary_end": 169
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 21,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source it cannot be inferred he play in this movie.",
+        "annotator_name": "Weisi",
+        "summary_span": "He starred in the film \"Finding Dory,\"",
+        "summary_start": 131,
+        "summary_end": 169,
+        "source_span": "Finding Dory .",
+        "source_start": 131,
+        "source_end": 145
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.98255,
+    "meta_hhem-2.1": 0.91823,
+    "meta_hhem-2.1-english": 0.99112,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 125
+  },
+  {
+    "sample_id": 22,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "Based solely on the information provided in the passage, here is a concise summary covering the core pieces of information:\n\nAlbert Lawrence Brooks is an American entertainer born on July 22, 1947. His birth name was Albert Lawrence Einstein. He has worked as an actor, filmmaker, author, and comedian. The passage also mentions the movie \"Finding Dory,\" which was directed by Andrew Stanton with Angus MacLane as co-director. The screenplay for this film was written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 22,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "American entertainer",
+        "summary_start": 154,
+        "summary_end": 174
+      },
+      {
+        "annot_id": 23,
+        "sample_id": 22,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Need external knowledge that \"Finding Dory\" is a movie",
+        "annotator_name": "Miaoran",
+        "summary_span": " the movie ",
+        "summary_start": 328,
+        "summary_end": 339
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.86032,
+    "meta_hhem-2.1": 0.95058,
+    "meta_hhem-2.1-english": 0.98975,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 240
+  },
+  {
+    "sample_id": 23,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "Albert Brooks, an American actor, filmmaker, author, and comedian, was born on July 22, 1947. He is known for his work in the film 'Finding Dory', which was directed by Andrew Stanton and co-directed by Angus MacLane, with the screenplay written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 27,
+        "sample_id": 23,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Albert is known for \"Finding Dory\" and not sure if it is his work\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is known for his work in the film 'Finding Dory',",
+        "summary_start": 94,
+        "summary_end": 146
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.97417,
+    "meta_hhem-2.1": 0.95279,
+    "meta_hhem-2.1-english": 0.99646,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 355
+  },
+  {
+    "sample_id": 24,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "The passage provides information about Albert Lawrence Brooks, an American actor, filmmaker, author, and comedian, who was born on July 22, 1947, originally named Albert Lawrence Einstein. It also mentions that he was involved in the film \"Finding Dory,\" which was directed by Andrew Stanton with co-direction by Angus MacLane, and the screenplay was written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 29,
+        "sample_id": 24,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source just mentions \"Finding Dory\", but does not tell if Albert is involved in \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "he was involved in the film \"Finding Dory,\"",
+        "summary_start": 211,
+        "summary_end": 254
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 24,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source it cannot be inferred he was involved in the file \"Finding Dory\".",
+        "annotator_name": "Weisi",
+        "summary_span": "It also mentions that he was involved in the film \"Finding Dory,",
+        "summary_start": 189,
+        "summary_end": 253
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.98348,
+    "meta_hhem-2.1": 0.97474,
+    "meta_hhem-2.1-english": 0.99331,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 470
+  },
+  {
+    "sample_id": 25,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "There is no information about Albert Lawrence Brooks in the passage, but rather a mention of Albert Lawrence Einstein. The passage actually appears to be discussing the movie \"Finding Dory\". Here is a concise summary:\n\nThe movie \"Finding Dory\" was directed by Andrew Stanton and Angus MacLane, with a screenplay written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 30,
+        "sample_id": 25,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions both Albert Lawrence Brooks and Albert Lawrence Einstein. Albert Lawrence Einstein is an used name of Albert Lawrence Brooks",
+        "annotator_name": "Miaoran",
+        "summary_span": "There is no information about Albert Lawrence Brooks in the passage, but rather a mention of Albert Lawrence Einstein. ",
+        "summary_start": 0,
+        "summary_end": 119,
+        "source_span": "Albert Lawrence Brooks ( born Albert Lawrence Einstein",
+        "source_start": 0,
+        "source_end": 54
+      },
+      {
+        "annot_id": 31,
+        "sample_id": 25,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Need world knowledge that \"Finding Dory\" is a movie",
+        "annotator_name": "Miaoran",
+        "summary_span": " the movie",
+        "summary_start": 164,
+        "summary_end": 174
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 25,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "There is no information about Albert Lawrence Brooks in the passage, but rather a mention of Albert Lawrence Einstein.",
+        "summary_start": 0,
+        "summary_end": 118,
+        "source_span": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian .",
+        "source_start": 0,
+        "source_end": 130
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.54137,
+    "meta_hhem-2.1": 0.63129,
+    "meta_hhem-2.1-english": 0.93698,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 585
+  },
+  {
+    "sample_id": 26,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage provides information about two individuals. Albert Lawrence Brooks is an American actor, filmmaker, author, and comedian, born on July 22, 1947, as Albert Lawrence Einstein. Additionally, it mentions the film \"Finding Dory\", directed by Andrew Stanton and Angus MacLane, with a screenplay written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 32,
+        "sample_id": 26,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Albert Lawrence Einstein and Albert Lawrence Brooks are two names of a single person",
+        "annotator_name": "Miaoran",
+        "summary_span": "The passage provides information about two individuals",
+        "summary_start": 43,
+        "summary_end": 97,
+        "source_span": "Albert Lawrence Brooks ( born Albert Lawrence Einstein",
+        "source_start": 0,
+        "source_end": 54
+      },
+      {
+        "annot_id": 33,
+        "sample_id": 26,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Need world knowledge that \"Finding Dory\" is a film",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film ",
+        "summary_start": 255,
+        "summary_end": 264
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.9452,
+    "meta_hhem-2.1": 0.94903,
+    "meta_hhem-2.1-english": 0.99274,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 700
+  },
+  {
+    "sample_id": 27,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "Albert Brooks, born Albert Lawrence Einstein, is an American actor, filmmaker, author, and comedian. He is known for his work in the film \"Finding Dory,\" which was directed by Andrew Stanton and co-directed by Angus MacLane. The screenplay was written by Stanton and Victoria Strouse. \n",
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 27,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is known for his work in the film \"Finding Dory,\"",
+        "summary_start": 101,
+        "summary_end": 153
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 27,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This sentence cannot be inferred from source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "He is known for his work in the film \"Finding Dory,\"",
+        "summary_start": 101,
+        "summary_end": 153
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99092,
+    "meta_hhem-2.1": 0.93943,
+    "meta_hhem-2.1-english": 0.994,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 815
+  },
+  {
+    "sample_id": 28,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "The passage provides information about Albert Lawrence Brooks, an American actor, filmmaker, author, and comedian. It also mentions the film \"Finding Dory,\" which was directed by Andrew Stanton with co-direction by Angus MacLane. The screenplay for the film was written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 35,
+        "sample_id": 28,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Need world knowledge that \"Finding Dory\" is a film",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film",
+        "summary_start": 132,
+        "summary_end": 140
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.98964,
+    "meta_hhem-2.1": 0.9745,
+    "meta_hhem-2.1-english": 0.99588,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 926
+  },
+  {
+    "sample_id": 29,
+    "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
+    "summary": "Albert Lawrence Brooks, born Albert Lawrence Einstein on July 22, 1947, is an American actor, filmmaker, author, and comedian. He was involved in the film \"Finding Dory,\" which was directed by Andrew Stanton with co-direction by Angus MacLane, and the screenplay was written by Stanton and Victoria Strouse.",
+    "annotations": [
+      {
+        "annot_id": 36,
+        "sample_id": 29,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Albert was involved in \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "He was involved in the film \"Finding Dory,\"",
+        "summary_start": 127,
+        "summary_end": 170
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 29,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This fact cannot be inferred from source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "He was involved in the film \"Finding Dory,\"",
+        "summary_start": 127,
+        "summary_end": 170,
+        "source_span": "Finding Dory .",
+        "source_start": 131,
+        "source_end": 145
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.98692,
+    "meta_hhem-2.1": 0.93899,
+    "meta_hhem-2.1-english": 0.99503,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 1045
+  },
+  {
+    "sample_id": 30,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": " The passage provides information about two individuals with similar names but different professions and nationalities. Timothy Simon Roth, born May 14, 1961, is an English actor and director. On the other hand, Tim Roth, born December 6, 1975, is a Canadian musician, serving as the guitarist, backing vocalist, and the only remaining founding member of the Canadian melodic death metal and progressive metal band, Into Eternity.",
+    "annotations": [
+      {
+        "annot_id": 37,
+        "sample_id": 30,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention the nationality of Tim Roth",
+        "annotator_name": "Miaoran",
+        "summary_span": "nationalities",
+        "summary_start": 105,
+        "summary_end": 118
+      },
+      {
+        "annot_id": 38,
+        "sample_id": 30,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention if Tim Roth is a Canadian",
+        "annotator_name": "Miaoran",
+        "summary_span": "Canadian",
+        "summary_start": 250,
+        "summary_end": 258
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.92717,
+    "meta_hhem-2.1": 0.83625,
+    "meta_hhem-2.1-english": 0.97821,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 11
+  },
+  {
+    "sample_id": 32,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes two different individuals named Tim Roth:\n\n1. Timothy Simon Roth: An English actor and director born on May 14, 1961. \n\n2. Tim Roth: A Canadian musician born on December 6, 1975. He is the guitarist, backing vocalist, and only remaining founding member of the melodic death metal and progressive metal band Into Eternity.",
+    "annotations": [
+      {
+        "annot_id": 39,
+        "sample_id": 32,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The sources does not mention if Tim Roth is a Canadian",
+        "annotator_name": "Miaoran",
+        "summary_span": "Canadian",
+        "summary_start": 240,
+        "summary_end": 248
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.64647,
+    "meta_hhem-2.1": 0.80705,
+    "meta_hhem-2.1-english": 0.88578,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 241
+  },
+  {
+    "sample_id": 36,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions two individuals named Tim Roth. One is an English actor and director, Timothy Simon Roth, born on May 14, 1961. The other is a Canadian musician, Tim Roth, born on December 6, 1975, who is the guitarist and vocalist of the band Into Eternity.",
+    "annotations": [
+      {
+        "annot_id": 40,
+        "sample_id": 36,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Tim Roth is a Canadian",
+        "annotator_name": "Miaoran",
+        "summary_span": "Canadian",
+        "summary_start": 191,
+        "summary_end": 199
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.73836,
+    "meta_hhem-2.1": 0.7686,
+    "meta_hhem-2.1-english": 0.87825,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 701
+  },
+  {
+    "sample_id": 40,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": " The passage describes an incident that occurred on the A9 north of Berriedale in Caithness at around 14:00. This incident resulted in a crash, and several people received minor injuries. The road was closed, and diversions were set up via the A897 Helmsdale to Melvich road. Police Scotland is currently conducting ongoing inquiries into the incident.",
+    "annotations": [
+      {
+        "annot_id": 41,
+        "sample_id": 40,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"is currently conducing\" in the summary can cause confusion",
+        "annotator_name": "Miaoran",
+        "summary_span": "is currently conducting",
+        "summary_start": 292,
+        "summary_end": 315,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.99958,
+    "meta_hhem-2.1": 0.92023,
+    "meta_hhem-2.1-english": 0.99334,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 34
+  },
+  {
+    "sample_id": 41,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": " A car crash on the A9 north of Berriedale in Caithness happened around 14:00, resulting in several minor injuries. The road was closed, and diversions were established via the A897 Helmsdale to Melvich route. Police Scotland is conducting ongoing investigations into the incident.",
+    "annotations": [
+      {
+        "annot_id": 43,
+        "sample_id": 41,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"is conducing\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "is conducting ongoing investigations",
+        "summary_start": 226,
+        "summary_end": 262,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      },
+      {
+        "annot_id": 44,
+        "sample_id": 41,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "A car crash",
+        "summary_start": 1,
+        "summary_end": 12
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 41,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source doc doesn't mention the number of car involved in the crash.",
+        "annotator_name": "Weisi",
+        "summary_span": "A car crash on the A9 north of Berriedale in Caithness happened around 14:00",
+        "summary_start": 1,
+        "summary_end": 77
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99954,
+    "meta_hhem-2.1": 0.80183,
+    "meta_hhem-2.1-english": 0.99179,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 149
+  },
+  {
+    "sample_id": 42,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nA crash occurred on the A9 north of Berriedale in Caithness around 2:00 PM. One person died, and several others sustained minor injuries. The road was closed, with diversions set up via the A897 Helmsdale to Melvich road. Police Scotland is currently investigating the incident.",
+    "annotations": [
+      {
+        "annot_id": 45,
+        "sample_id": 42,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There is no mention of death in the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "One person died",
+        "summary_start": 159,
+        "summary_end": 174
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 42,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"is investigating\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "is currently investigating",
+        "summary_start": 321,
+        "summary_end": 347,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 42,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source doesn't mention this fact.",
+        "annotator_name": "Weisi",
+        "summary_span": " One person died, ",
+        "summary_start": 158,
+        "summary_end": 176
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.20516,
+    "meta_hhem-2.1": 0.16458,
+    "meta_hhem-2.1-english": 0.03595,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 264
+  },
+  {
+    "sample_id": 43,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "A crash on the A9 in Caithness resulted in one person being taken to hospital with serious injuries and several others sustaining minor injuries. The incident led to a road closure, with diversions via the A897 Helmsdale to Melvich route. Police Scotland is investigating the incident.",
+    "annotations": [
+      {
+        "annot_id": 47,
+        "sample_id": 43,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention the situation of serious injuries",
+        "annotator_name": "Miaoran",
+        "summary_span": "one person being taken to hospital with serious injuries",
+        "summary_start": 43,
+        "summary_end": 99
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 43,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"is investigating\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "is investigating",
+        "summary_start": 255,
+        "summary_end": 271,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 43,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The fact one person with serious injuries is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "A crash on the A9 in Caithness resulted in one person being taken to hospital with serious injuries and several others sustaining minor injuries.",
+        "summary_start": 0,
+        "summary_end": 145
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.506,
+    "meta_hhem-2.1": 0.17902,
+    "meta_hhem-2.1-english": 0.55931,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 379
+  },
+  {
+    "sample_id": 44,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "A crash occurred on the A9 north of Berriedale in Caithness around 2 pm, resulting in several people sustaining minor injuries. The road was closed, and diversions were set up via the A897 Helmsdale to Melvich road. Police Scotland is conducting further investigations into the incident.",
+    "annotations": [
+      {
+        "annot_id": 49,
+        "sample_id": 44,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"is conducing\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "is conducting further investigations",
+        "summary_start": 232,
+        "summary_end": 268,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.62134,
+    "meta_hhem-2.1": 0.27641,
+    "meta_hhem-2.1-english": 0.57358,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 494
+  },
+  {
+    "sample_id": 45,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "Here is a concise summary of the passage:\n\nA multi-vehicle crash occurred on the A9 north of Berriedale in Caithness at around 14:00, resulting in minor injuries to several people. The road was closed with diversions put in place, and police investigations are ongoing.",
+    "annotations": [
+      {
+        "annot_id": 50,
+        "sample_id": 45,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source only mentions an incident/crash, but does not say it was a multi-vehicle crash",
+        "annotator_name": "Miaoran",
+        "summary_span": "A multi-vehicle crash",
+        "summary_start": 43,
+        "summary_end": 64
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 45,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"are ongoing\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "police investigations are ongoing",
+        "summary_start": 235,
+        "summary_end": 268,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 45,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The fact multi-vehicle crash is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "\n\nA multi-vehicle crash occurred on the A9 north of Berriedale in Caithness at around 14:00, resulting in minor injuries to several people",
+        "summary_start": 41,
+        "summary_end": 179
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.76521,
+    "meta_hhem-2.1": 0.51425,
+    "meta_hhem-2.1-english": 0.88178,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 609
+  },
+  {
+    "sample_id": 46,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "Here is a concise summary of the passage:\n\nA road incident occurred on the A9 in Caithness at 14:00, resulting in multiple minor injuries and one fatality (implied, but not explicitly stated). The road was closed, with diversions in place, and police inquiries are ongoing.",
+    "annotations": [
+      {
+        "annot_id": 52,
+        "sample_id": 46,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary mentions that it is implied not explicitly stated. Not sure if it should be considered hallucination",
+        "annotator_name": "Miaoran",
+        "summary_span": "and one fatality (implied, but not explicitly stated)",
+        "summary_start": 138,
+        "summary_end": 191
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 46,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"are ongoing\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "police inquiries are ongoing.",
+        "summary_start": 244,
+        "summary_end": 273,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 46,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " at 14:00",
+        "summary_start": 90,
+        "summary_end": 99,
+        "source_span": "at about 14:00",
+        "source_start": 65,
+        "source_end": 79
+      },
+      {
+        "annot_id": 80,
+        "sample_id": 46,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The fact fatality may not be inferred from source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "A road incident occurred on the A9 in Caithness at 14:00, resulting in multiple minor injuries and one fatality (implied, but not explicitly stated)",
+        "summary_start": 43,
+        "summary_end": 191
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.55847,
+    "meta_hhem-2.1": 0.08028,
+    "meta_hhem-2.1-english": 0.01689,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 724
+  },
+  {
+    "sample_id": 47,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "A car crash occurred on the A9 north of Berriedale in Caithness at approximately 2:00 PM. Several people sustained minor injuries, and the road was closed with diversions in place via the A897 Helmsdale to Melvich road. Police Scotland is currently investigating the incident. \n",
+    "annotations": [
+      {
+        "annot_id": 54,
+        "sample_id": 47,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"is currently investigating\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "Police Scotland is currently investigating the incident.",
+        "summary_start": 220,
+        "summary_end": 276,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.42049,
+    "meta_hhem-2.1": 0.16704,
+    "meta_hhem-2.1-english": 0.16808,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 839
+  },
+  {
+    "sample_id": 48,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "The passage describes an incident that took place on the A9 north of Berriedale in Caithness at around 14:00. Multiple individuals sustained minor injuries in the crash. As a result, the road was closed and alternative routes were established via the A897 Helmsdale to Melvich road. Police Scotland is currently conducting investigations into the incident.",
+    "annotations": [
+      {
+        "annot_id": 55,
+        "sample_id": 48,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From the source, we can know it is a description of a past situation. \"is currently conducing\" in the summary can cause confusion\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "Police Scotland is currently conducting investigations into the incident.",
+        "summary_start": 283,
+        "summary_end": 356,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99971,
+    "meta_hhem-2.1": 0.92429,
+    "meta_hhem-2.1-english": 0.9949,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 982
+  },
+  {
+    "sample_id": 12,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "Based on the provided passage, here is a concise summary covering the core information:\n\nThe passage mentions two different actresses named Sheryl:\n\n1. Sheryl Lee:\n- Appeared in the film \"Café Society\" in 2016\n- Reprised her role as Laura Palmer in the 2017 Showtime revival of \"Twin Peaks\"\n\n2. Sheryl Lee Ralph:\n- Played the role of Madame Morrible in the Broadway production of \"Wicked\" in 2016",
+    "annotations": [
+      {
+        "annot_id": 60,
+        "sample_id": 12,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheryl Lee Ralph:\n- Played the role of Madame Morrible in the Broadway production of \"Wicked\" in 2016",
+        "summary_start": 295,
+        "summary_end": 396,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.65835,
+    "meta_hhem-2.1": 0.88476,
+    "meta_hhem-2.1-english": 0.96409,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 239
+  },
+  {
+    "sample_id": 13,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "In 2016, Sheryl Lee appeared in the film 'Café Society' and the Showtime revival of 'Twin Peaks' (2017), reprising her role as Laura Palmer. That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
+    "annotations": [
+      {
+        "annot_id": 61,
+        "sample_id": 13,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "(1) That same year is not clear based on context, could be 2016 or 2017. But the source clearly mentioned 2016.\n(2) Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
+        "summary_start": 141,
+        "summary_end": 236
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.70588,
+    "meta_hhem-2.1": 0.87193,
+    "meta_hhem-2.1-english": 0.9769,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 354
+  },
+  {
+    "sample_id": 14,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "In 2016, Sheryl Lee appeared in the film \"Café Society\" and reprised her role as Laura Palmer in the Showtime revival of \"Twin Peaks.\" Additionally, Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in the same year.",
+    "annotations": [
+      {
+        "annot_id": 62,
+        "sample_id": 14,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The she completed the Twin Peaks in 2017, not 2016, so the same year is not correct based on source.",
+        "annotator_name": "Weisi",
+        "summary_span": "In 2016, Sheryl Lee appeared in the film \"Café Society\" and reprised her role as Laura Palmer in the Showtime revival of \"Twin Peaks.\"",
+        "summary_start": 0,
+        "summary_end": 134,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 14,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Additionally, Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in the same year.",
+        "summary_start": 135,
+        "summary_end": 245
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.72882,
+    "meta_hhem-2.1": 0.88938,
+    "meta_hhem-2.1-english": 0.97851,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 469
+  },
+  {
+    "sample_id": 16,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions two actresses, Sheryl Lee and Sheryl Lee Ralph. Sheryl Lee appeared in \"Café Society\" (2016) and reprised her role as Laura Palmer in the \"Twin Peaks\" revival (2017). Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in 2016.",
+    "annotations": [
+      {
+        "annot_id": 65,
+        "sample_id": 16,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in 2016.",
+        "summary_start": 232,
+        "summary_end": 319,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.91307,
+    "meta_hhem-2.1": 0.90403,
+    "meta_hhem-2.1-english": 0.99082,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 699
+  }
+]

@@ -1,1 +1,2223 @@
-[]
+[
+  {
+    "sample_id": 0,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": " Anderson, a 27-year-old center-back, has left Barrow by mutual consent to join their National League rivals. He has previously played for Aldershot, Exeter, and in Italy. He could debut against his former club on February 18. Keating, a 21-year-old striker, is joining Torquay United, subject to international clearance. Gulls boss Kevin Nicholson recommended Keating, who has played for Sligo Rovers, Galway United, Finn Harps, and Port Vale. Nicholson believes Keating is the leader-type he has been seeking. Torquay United is currently four points above the relegation zone and has won only one of their last six games.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 0,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Keating was recommended to Kevin by Micky. It's not that Kevin recommended Keating",
+        "annotator_name": "Miaoran",
+        "summary_span": "Gulls boss Kevin Nicholson recommended Keating",
+        "summary_start": 322,
+        "summary_end": 368,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 3,
+        "sample_id": 0,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that Keating was recommended to Kevin by ex-Port Vale manager, but does not mention that Keating played for Port Vale",
+        "annotator_name": "Miaoran",
+        "summary_span": "and Port Vale",
+        "summary_start": 430,
+        "summary_end": 443,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 4,
+        "sample_id": 0,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Requires the external knowledge that \"The Gulls\" is the nickname for Torquay United",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United",
+        "summary_start": 270,
+        "summary_end": 284
+      },
+      {
+        "annot_id": 13,
+        "sample_id": 0,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Nicholson praised Myles Anderson's leader-type feature, not Keating's",
+        "annotator_name": "Miaoran",
+        "summary_span": "Nicholson believes Keating is the leader-type he has been seeking.",
+        "summary_start": 445,
+        "summary_end": 511,
+        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 467,
+        "source_end": 603
+      },
+      {
+        "annot_id": 29,
+        "sample_id": 0,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if 18 February game would be Anderson's debut.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "He could debut against his former club on February 18.",
+        "summary_start": 172,
+        "summary_end": 226,
+        "source_span": "The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February.",
+        "source_start": 116,
+        "source_end": 232
+      },
+      {
+        "annot_id": 30,
+        "sample_id": 0,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source didn't mention Torquay United. Uncertain if Torquay United = Gulls. And the source only mentioned that Keating was recommended to the new club, didn't make it certain that he was gonna join the new club.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Keating, a 21-year-old striker, is joining Torquay United",
+        "summary_start": 227,
+        "summary_end": 284,
+        "source_span": "He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"",
+        "source_start": 337,
+        "source_end": 466
+      },
+      {
+        "annot_id": 31,
+        "sample_id": 0,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The leader type player is Myles Anderson by the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Nicholson believes Keating is the leader-type he has been seeking.",
+        "summary_start": 445,
+        "summary_end": 511,
+        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 467,
+        "source_end": 603
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.80464,
+    "meta_hhem-2.1": 0.73812,
+    "meta_hhem-2.1-english": 0.51569,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 49
+  },
+  {
+    "sample_id": 2,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Here's a concise summary of the passage:\n\nThe passage describes two player transfers in football:\n\n1. Anderson, a 27-year-old centre-back, has left Barrow to join their National League rivals. He previously played for Aldershot, Exeter, and in Italy. \n\n2. Keating, a 21-year-old striker from Ireland, is joining the team pending international clearance. He was recommended by former Port Vale manager Micky Adams. \n\nTorquay United's manager, Kevin Nicholson, comments on both players, describing Anderson as a leader and Keating as young and eager. The team is currently struggling, sitting just above the relegation zone with only one win in their last six games.",
+    "annotations": [
+      {
+        "annot_id": 7,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"the team\" in the summary is ambiguous. It's not clear what \"the team\" refers to.",
+        "annotator_name": "Miaoran",
+        "summary_span": "joining the team",
+        "summary_start": 304,
+        "summary_end": 320,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 8,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "It requires the external knowledge that \"The Gull\" is the nickname for Torquay United.",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United's manager",
+        "summary_start": 416,
+        "summary_end": 440
+      },
+      {
+        "annot_id": 9,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "It can reasoned from the source that Myles is the first name of Anderson and Ruairi is the first name of Keating",
+        "annotator_name": "Miaoran",
+        "summary_span": "comments on both players, describing Anderson as a leader and Keating as young and eager. ",
+        "summary_start": 459,
+        "summary_end": 549,
+        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\"",
+        "source_start": 467,
+        "source_end": 720
+      },
+      {
+        "annot_id": 17,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Requires external knowledge",
+        "annotator_name": "Miaoran",
+        "summary_span": "from Ireland,",
+        "summary_start": 287,
+        "summary_end": 300
+      },
+      {
+        "annot_id": 18,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "This can be inferred from the context as the Gull seems to be close to the relegation zone now",
+        "annotator_name": "Miaoran",
+        "summary_span": "The team is currently struggling, sitting just above the relegation zone with only one win in their last six games.",
+        "summary_start": 549,
+        "summary_end": 664
+      },
+      {
+        "annot_id": 33,
+        "sample_id": 2,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Keating is from Ireland.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Keating, a 21-year-old striker from Ireland",
+        "summary_start": 256,
+        "summary_end": 299,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals.",
+        "source_start": 0,
+        "source_end": 115
+      },
+      {
+        "annot_id": 34,
+        "sample_id": 2,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Torquay United = Gulls. ",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\n\nTorquay United's manager, Kevin Nicholson",
+        "summary_start": 414,
+        "summary_end": 457,
+        "source_span": "Gulls boss Kevin Nicholson",
+        "source_start": 273,
+        "source_end": 299
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.92823,
+    "meta_hhem-2.1": 0.63089,
+    "meta_hhem-2.1-english": 0.82745,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 279
+  },
+  {
+    "sample_id": 1,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": " Centre-back Anderson, 27, has left Barrow by mutual consent to join National League rivals, potentially playing against his former club on 18 February. Striker Keating, 21, recommended by Micky Adams, has played for Sligo Rovers, Galway United, and Finn Harps, pending international clearance. Gulls manager Kevin Nicholson praises Keating's stature, leadership qualities, and hunger to prove himself, as the team currently sits four points above the relegation zone with only one win in their last six games.",
+    "annotations": [
+      {
+        "annot_id": 12,
+        "sample_id": 1,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It can be inferred that Kevin praised Myles Anderson's stature and leadership qualities, not Keating's",
+        "annotator_name": "Miaoran",
+        "summary_span": "Gulls manager Kevin Nicholson praises Keating's stature, leadership qualities",
+        "summary_start": 295,
+        "summary_end": 372,
+        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.",
+        "source_start": 467,
+        "source_end": 602
+      },
+      {
+        "annot_id": 32,
+        "sample_id": 1,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The lear is Myles Anderson, not Keating.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Gulls manager Kevin Nicholson praises Keating's stature, leadership qualities, and hunger to prove himself",
+        "summary_start": 295,
+        "summary_end": 401,
+        "source_span": "Nicholson told BBC Radio Devon. \"",
+        "source_start": 604,
+        "source_end": 637
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.999,
+    "meta_hhem-2.1": 0.96981,
+    "meta_hhem-2.1-english": 0.98876,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 164
+  },
+  {
+    "sample_id": 3,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Anderson, a 27-year-old centre-back, has left Barrow to join a rival National League club, potentially facing his former team on February 18th. Meanwhile, 21-year-old striker Keating, with experience in Ireland, joins the Gulls, who are seeking reinforcement as they sit just above the relegation zone with recent poor form.",
+    "annotations": [
+      {
+        "annot_id": 14,
+        "sample_id": 3,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Requires external knowledge that Sligo Rovers, Galway United and Finn Harps are Irish football teams",
+        "annotator_name": "Miaoran",
+        "summary_span": "with experience in Ireland",
+        "summary_start": 184,
+        "summary_end": 210
+      },
+      {
+        "annot_id": 16,
+        "sample_id": 3,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "This can be inferred from the context as the Gull seems to be close to the relegation zone now",
+        "annotator_name": "Miaoran",
+        "summary_span": "who are seeking reinforcement as they sit just above the relegation zone with recent poor form.",
+        "summary_start": 229,
+        "summary_end": 324
+      },
+      {
+        "annot_id": 35,
+        "sample_id": 3,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Keating is from Ireland.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Keating, with experience in Ireland",
+        "summary_start": 175,
+        "summary_end": 210,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99333,
+    "meta_hhem-2.1": 0.87942,
+    "meta_hhem-2.1-english": 0.88133,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 394
+  },
+  {
+    "sample_id": 4,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "The passage discusses two new signings for Torquay United, a National League football club. Anderson, 27, a centre-back, is joining from Barrow, where he has cancelled his contract by mutual agreement. He has previous experience playing in Italy and could face his former club on February 18th. Keating, 21, a striker, is moving to Torquay United based on a recommendation from Micky Adams; his transfer is pending international clearance. Manager Kevin Nicholson expresses that Anderson brings leadership qualities, while Keating is described as eager to prove himself. Torquay United is currently struggling, sitting just above the relegation zone and having won only one of their last six matches.",
+    "annotations": [
+      {
+        "annot_id": 19,
+        "sample_id": 4,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Requires external knowledge that \"the Gull\" is the nickname for Torquay United",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United",
+        "summary_start": 43,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 20,
+        "sample_id": 4,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "It can be inferred from the following context that Anderson is joining the gull",
+        "annotator_name": "Miaoran",
+        "summary_span": "two new signings for Torquay United",
+        "summary_start": 22,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 21,
+        "sample_id": 4,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "Can be reasoned from the context",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United is currently struggling, sitting just above the relegation zone",
+        "summary_start": 571,
+        "summary_end": 649,
+        "source_span": "The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
+        "source_start": 721,
+        "source_end": 830
+      },
+      {
+        "annot_id": 36,
+        "sample_id": 4,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Intrinsic: The signing of Anderson is sealed. But the signing of Keating is subject to international clearance.\n2) Uncertain if Gulls = Torquay United.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The passage discusses two new signings for Torquay United",
+        "summary_start": 0,
+        "summary_end": 57,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance.",
+        "source_start": 0,
+        "source_end": 464
+      },
+      {
+        "annot_id": 37,
+        "sample_id": 4,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Gulls = Torquay United.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Torquay United",
+        "summary_start": 332,
+        "summary_end": 346,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      },
+      {
+        "annot_id": 38,
+        "sample_id": 4,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Torquay United = Gulls.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Torquay United",
+        "summary_start": 571,
+        "summary_end": 585,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.57176,
+    "meta_hhem-2.1": 0.79583,
+    "meta_hhem-2.1-english": 0.92436,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 509
+  },
+  {
+    "sample_id": 5,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Here is a concise summary of the passage:\n\nThe Plymouth Argyle (Gulls) team has made two new signings: centre-back Anderson and striker Keating. Anderson, 27, joins from Barrow and has a possible return to face his old club on 18 February. Keating, 21, joins from Ireland and is subject to international clearance. Manager Kevin Nicholson is optimistic about the new signings, describing Anderson as a leader and Keating as young and hungry to prove himself.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 5,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "It is an extrinsic false statement. Plymouth Argyle is not called \"the Gull.\" Plymouth Argyle is a football club based in Plymouth, England, and their nickname is \"the Pilgrims.\" The nickname \"the Gulls\" actually refers to Torquay United",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Plymouth Argyle (Gulls)",
+        "summary_start": 43,
+        "summary_end": 70
+      },
+      {
+        "annot_id": 23,
+        "sample_id": 5,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Requires external knowledge that Sligo Rovers, Galway United and Finn Harps are Irish teams",
+        "annotator_name": "Miaoran",
+        "summary_span": "joins from Ireland",
+        "summary_start": 253,
+        "summary_end": 271
+      },
+      {
+        "annot_id": 24,
+        "sample_id": 5,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "Can be reasoned form Kevin's comments",
+        "annotator_name": "Miaoran",
+        "summary_span": "Manager Kevin Nicholson is optimistic about the new signings",
+        "summary_start": 315,
+        "summary_end": 375
+      },
+      {
+        "annot_id": 39,
+        "sample_id": 5,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Gulls + Plymouth Argyle.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\nThe Plymouth Argyle (Gulls) team",
+        "summary_start": 42,
+        "summary_end": 75,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      },
+      {
+        "annot_id": 40,
+        "sample_id": 5,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The signing of Keating is still questionable because of international clearance.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\nThe Plymouth Argyle (Gulls) team has made two new signings",
+        "summary_start": 42,
+        "summary_end": 101,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance.",
+        "source_start": 0,
+        "source_end": 464
+      },
+      {
+        "annot_id": 41,
+        "sample_id": 5,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Keating is from Ireland.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Keating, 21, joins from Ireland",
+        "summary_start": 240,
+        "summary_end": 271,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.81535,
+    "meta_hhem-2.1": 0.65566,
+    "meta_hhem-2.1-english": 0.72422,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 624
+  },
+  {
+    "sample_id": 6,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Here is a concise summary of the passage:\n\nTwo new players have joined Torquay United (the Gulls): centre-back Anderson, 27, who has cancelled his contract with Barrow, and striker Keating, 21, who was recommended by ex-Port Vale manager Micky Adams. Anderson brings leadership experience, while Keating is young and hungry to prove himself. The signings come as the Gulls aim to improve their form, currently sitting four points above the relegation zone.",
+    "annotations": [
+      {
+        "annot_id": 25,
+        "sample_id": 6,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Requires external knowledge",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United (the Gulls)",
+        "summary_start": 71,
+        "summary_end": 97
+      },
+      {
+        "annot_id": 26,
+        "sample_id": 6,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Kevin praised that Anderson is the leader-type he's been looking after, but the source does not mention Anderson's leadership experience",
+        "annotator_name": "Miaoran",
+        "summary_span": "leadership experience",
+        "summary_start": 267,
+        "summary_end": 288,
+        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 467,
+        "source_end": 603
+      },
+      {
+        "annot_id": 27,
+        "sample_id": 6,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "It might be reasoned from the context",
+        "annotator_name": "Miaoran",
+        "summary_span": "The signings come as the Gulls aim to improve their form",
+        "summary_start": 342,
+        "summary_end": 398
+      },
+      {
+        "annot_id": 42,
+        "sample_id": 6,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Gulls = Torquay United.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Torquay United (the Gulls)",
+        "summary_start": 71,
+        "summary_end": 97,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.88067,
+    "meta_hhem-2.1": 0.75182,
+    "meta_hhem-2.1-english": 0.85601,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 739
+  },
+  {
+    "sample_id": 7,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Barrow centre-back Anderson, 27, has joined Torquay United, while striker Keating, 21, has also joined the club. Anderson has played for Aldershot, Exeter, and in Italy, while Keating has played for Sligo Rovers, Galway United, and Finn Harps. Torquay manager Kevin Nicholson described Anderson as a leader and Keating as hungry to prove himself. Torquay is currently four points above the relegation zone. \n",
+    "annotations": [
+      {
+        "annot_id": 28,
+        "sample_id": 7,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Needs external knowledge that \"The Gull\" is the nickname for Torquay United",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United",
+        "summary_start": 44,
+        "summary_end": 58
+      },
+      {
+        "annot_id": 43,
+        "sample_id": 7,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Keating hasn't joined the club because of the international clearance.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "while striker Keating, 21, has also joined the club.",
+        "summary_start": 60,
+        "summary_end": 112,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance.",
+        "source_start": 233,
+        "source_end": 464
+      },
+      {
+        "annot_id": 44,
+        "sample_id": 7,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Torquay United = gulls.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Torquay United",
+        "summary_start": 44,
+        "summary_end": 58,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      },
+      {
+        "annot_id": 45,
+        "sample_id": 7,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Torquay United = gulls.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Torquay",
+        "summary_start": 244,
+        "summary_end": 251,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 7,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Uncertain if Torquay United = gulls.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Torquay",
+        "summary_start": 347,
+        "summary_end": 354,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+        "source_start": 0,
+        "source_end": 892
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.69686,
+    "meta_hhem-2.1": 0.39596,
+    "meta_hhem-2.1-english": 0.45762,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 854
+  },
+  {
+    "sample_id": 11,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": " West Ham is in talks to sign Jamaican starlet Deshane Beckford, who impressed during a trial. Beckford, a 17-year-old forward from Montego Bay United, trained with West Ham's academy and received positive feedback from coaches. He also has offers from Belgian clubs. West Ham aims to secure Beckford's signature, and they have announced affordable season tickets at the Olympic Stadium to attract fans for the 2016-2020 Premier League season.",
+    "annotations": [
+      {
+        "annot_id": 48,
+        "sample_id": 11,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham aims to secure Beckford's signature, ",
+        "summary_start": 268,
+        "summary_end": 314,
+        "source_span": " \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 475,
+        "source_end": 576
+      },
+      {
+        "annot_id": 49,
+        "sample_id": 11,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "affordable season tickets",
+        "summary_start": 338,
+        "summary_end": 363,
+        "source_span": "season tickets at the olympic stadium will cost as little as £ 289",
+        "source_start": 612,
+        "source_end": 678
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.62272,
+    "meta_hhem-2.1": 0.97353,
+    "meta_hhem-2.1-english": 0.9948,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 209
+  },
+  {
+    "sample_id": 21,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": " West Ham is in talks to sign Jamaican starlet Deshane Beckford, who impressed during a trial. Beckford, a 17-year-old forward from Montego Bay United, trained with West Ham's academy and received positive feedback from coaches. He also has offers from Belgian clubs. West Ham aims to secure Beckford's signature, and they have announced affordable season tickets at the Olympic Stadium, priced as low as £289, to attract fans for the 2016-17 Premier League season. \n\nNote: The passage provided does not contain information about Beckford's offers from Belgian clubs, so it was not included in the summary.",
+    "annotations": [
+      {
+        "annot_id": 50,
+        "sample_id": 21,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The information of Beckford's offer from Belgian clubs is explicitly stated in the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\n\nNote: The passage provided does not contain information about Beckford's offers from Belgian clubs, so it was not included in the summary.",
+        "summary_start": 466,
+        "summary_end": 606,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 21,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham aims to secure Beckford's signature",
+        "summary_start": 268,
+        "summary_end": 312,
+        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 477,
+        "source_end": 576
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.34455,
+    "meta_hhem-2.1": 0.95395,
+    "meta_hhem-2.1-english": 0.98796,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 199
+  },
+  {
+    "sample_id": 12,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": "Here's a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford from Montego Bay United. Beckford recently completed a two-week trial with West Ham's academy, impressing the coaches. He is considered one of the top prospects from the Caribbean and has attracted interest from other European clubs, including some in Belgium. Separately, West Ham announced that season tickets for their new Olympic Stadium will start at £289, making them the cheapest in the Premier League. This pricing strategy aims to fill the 54,000-seat stadium when the team moves there for the 2016-20 season.",
+    "annotations": [
+      {
+        "annot_id": 51,
+        "sample_id": 12,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "a two-week trial",
+        "summary_start": 178,
+        "summary_end": 194,
+        "source_span": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial .",
+        "source_start": 0,
+        "source_end": 98
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 12,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "has attracted interest from other European clubs, including some in Belgium.",
+        "summary_start": 309,
+        "summary_end": 385,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 12,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's unclear what does the source mean by \"they make the switch\". The \"switch\" could be anything including they moved there.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "when the team moves there for the 2016-20 season.",
+        "summary_start": 594,
+        "summary_end": 643,
+        "source_span": "when they make the switch for the 2016-20 season .",
+        "source_start": 810,
+        "source_end": 860
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 12,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 512,
+        "summary_end": 533,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.42027,
+    "meta_hhem-2.1": 0.933,
+    "meta_hhem-2.1-english": 0.98273,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 324
+  },
+  {
+    "sample_id": 10,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": " West Ham United is in discussions to sign 17-year-old Jamaican forward Deshane Beckford, who impressed during a two-week trial with their academy. Beckford, from Montego Bay United, has also received offers from Belgian clubs and is considered one of the hottest prospects to emerge from the Caribbean. Additionally, West Ham has announced that season tickets for their Olympic Stadium will cost as little as £289, making it the club with the cheapest pricing strategy in the Barclays Premier League for the 2016-2017 season.",
+    "annotations": [
+      {
+        "annot_id": 54,
+        "sample_id": 10,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "a two-week trial with their academy.",
+        "summary_start": 111,
+        "summary_end": 147,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 10,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "for the 2016-2017 season",
+        "summary_start": 501,
+        "summary_end": 525,
+        "source_span": "for the 2016-20 season ",
+        "source_start": 836,
+        "source_end": 859
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.12471,
+    "meta_hhem-2.1": 0.55472,
+    "meta_hhem-2.1-english": 0.9341,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 94
+  },
+  {
+    "sample_id": 13,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": "West Ham United are in negotiations to sign Jamaican forward Deshane Beckford, who has attracted interest from various European clubs due to his impressive trial at the club's academy. Beckford, aged 17, is considered a top prospect from the Caribbean. Additionally, West Ham has announced that season tickets for the Olympic Stadium will start from £289, aiming to fill the venue's 54,000 capacity for the 2016-2020 season with the lowest ticket prices in the Premier League.",
+    "annotations": [
+      {
+        "annot_id": 55,
+        "sample_id": 13,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"various European clubs\" might be overgeneralized as the source only mentions west ham and clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "various European clubs",
+        "summary_start": 111,
+        "summary_end": 133,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 13,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions that beckford impressed coaches in west ham due to his impressive performance on trail. But the source does not mention how beckford attracted other clubs.",
+        "annotator_name": "Miaoran",
+        "summary_span": "due to his impressive trial at the club's academy",
+        "summary_start": 134,
+        "summary_end": 183,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 13,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 454,
+        "summary_end": 475,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.19949,
+    "meta_hhem-2.1": 0.95213,
+    "meta_hhem-2.1-english": 0.99306,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 439
+  },
+  {
+    "sample_id": 28,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": "The passage discusses West Ham's interest in signing Jamaican starlet Deshane Beckford after he impressed during a trial with the club. Beckford, a 17-year-old forward from Montego Bay United, has also received offers from clubs in Belgium. He is considered one of the top prospects from the Caribbean. Additionally, West Ham has announced that season tickets for the Olympic Stadium will be priced as low as £289, making it the cheapest pricing strategy in the Premier League. The club hopes this will help fill the 54,000 capacity stadium when they move there for the 2016-17 season.",
+    "annotations": [
+      {
+        "annot_id": 57,
+        "sample_id": 28,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's unclear what does the source mean by \"they make the switch\". The \"switch\" could be anything including they moved there.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "when they move there for the 2016-17 season.",
+        "summary_start": 541,
+        "summary_end": 585,
+        "source_span": "when they make the switch for the 2016-17 season .",
+        "source_start": 810,
+        "source_end": 860
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 28,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": " during a trial with the club.",
+        "summary_start": 105,
+        "summary_end": 135,
+        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
+        "source_start": 100,
+        "source_end": 201
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 28,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Premier League",
+        "summary_start": 454,
+        "summary_end": 476,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.22819,
+    "meta_hhem-2.1": 0.96096,
+    "meta_hhem-2.1-english": 0.98993,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1032
+  },
+  {
+    "sample_id": 22,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": "Here's a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford from Montego Bay United. Beckford recently impressed during a two-week trial with West Ham's academy. He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium. Separately, West Ham announced that season tickets for their new Olympic Stadium will start at £289, making them the cheapest in the Premier League. This pricing strategy aims to fill the 54,000-seat stadium when the team moves there for the 2016-17 season.",
+    "annotations": [
+      {
+        "annot_id": 58,
+        "sample_id": 22,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's unclear what does the source mean by \"they make the switch\". The \"switch\" could be anything including they moved there.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "when the team moves there for the 2016-17 season.",
+        "summary_start": 567,
+        "summary_end": 616,
+        "source_span": "when they make the switch for the 2016-17 season .",
+        "source_start": 810,
+        "source_end": 860
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 22,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "has attracted interest from other European clubs, including some in Belgium.",
+        "summary_start": 282,
+        "summary_end": 358,
+        "source_span": "\nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean .",
+        "source_start": 338,
+        "source_end": 475
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 22,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Premier League.",
+        "summary_start": 484,
+        "summary_end": 507,
+        "source_span": " in the barclays premier league",
+        "source_start": 733,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.39587,
+    "meta_hhem-2.1": 0.92042,
+    "meta_hhem-2.1-english": 0.98017,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 314
+  },
+  {
+    "sample_id": 18,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": "The passage discusses West Ham's interest in signing Jamaican starlet Deshane Beckford after he impressed during a trial with the club. Beckford, a 17-year-old forward from Montego Bay United, has also received offers from clubs in Belgium. He is considered one of the top prospects from the Caribbean. Additionally, West Ham has announced that season tickets at the Olympic Stadium will be priced as low as £289, making it the cheapest pricing strategy in the Premier League. The club hopes this will help fill the 54,000 capacity stadium when they move there in the 2016-2017 season.",
+    "annotations": [
+      {
+        "annot_id": 59,
+        "sample_id": 18,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's unclear what does the source mean by \"they make the switch\". The \"switch\" could be anything including they moved there.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "when they move there in the 2016-2017 season.",
+        "summary_start": 540,
+        "summary_end": 585,
+        "source_span": "when they make the switch for the 2016-20 season .",
+        "source_start": 810,
+        "source_end": 860
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 18,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that beckford trained with west ham's academy but the summary implies that beckford trained with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": "a trial with the club",
+        "summary_start": 113,
+        "summary_end": 134,
+        "source_span": "train with west ham 's academy",
+        "source_start": 171,
+        "source_end": 201
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 18,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 454,
+        "summary_end": 475,
+        "source_span": " in the barclays premier league",
+        "source_start": 733,
+        "source_end": 764
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 18,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says the switch for the 2016-20 season, but the summary states the switch is for 2016-17 season",
+        "annotator_name": "Miaoran",
+        "summary_span": "move there in the 2016-2017 season.",
+        "summary_start": 550,
+        "summary_end": 585,
+        "source_span": "when they make the switch for the 2016-20 season",
+        "source_start": 810,
+        "source_end": 858
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.17311,
+    "meta_hhem-2.1": 0.66313,
+    "meta_hhem-2.1-english": 0.95453,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1033
+  },
+  {
+    "sample_id": 31,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": " West Ham is in talks to sign Jamaican starlet Deshane Beckford, who impressed during a trial. Beckford, a 17-year-old forward from Montego Bay United, trained with West Ham's academy and received positive feedback from coaches. He has also received offers from Belgian clubs. West Ham aims to secure Beckford's signature and has announced affordable season tickets at the Olympic Stadium, with the cheapest pricing strategy in the Barclays Premier League. \n\nNote: The passage provided does not contain information about the pricing of season tickets for Beckford's potential transfer or the specifics of the deal with West Ham. The summary focuses on the main points related to Beckford's trial, his impressive performance, and West Ham's interest in signing him. The information about season ticket pricing is included as it is part of the passage, but it is not directly related to the core pieces of information about Beckford and West Ham's potential deal.",
+    "annotations": [
+      {
+        "annot_id": 61,
+        "sample_id": 31,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This highlighted sentences shouldn't be contained as part of the summary. They are reflecting on the existing summary rather than summarizing the source passage. ",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\n\nNote: The passage provided does not contain information about the pricing of season tickets for Beckford's potential transfer or the specifics of the deal with West Ham. The summary focuses on the main points related to Beckford's trial, his impressive performance, and West Ham's interest in signing him. The information about season ticket pricing is included as it is part of the passage, but it is not directly related to the core pieces of information about Beckford and West Ham's potential deal.",
+        "summary_start": 457,
+        "summary_end": 961,
+        "source_span": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+        "source_start": 0,
+        "source_end": 860
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 31,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham aims to secure Beckford's signature ",
+        "summary_start": 277,
+        "summary_end": 322,
+        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 477,
+        "source_end": 576
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.04032,
+    "meta_hhem-2.1": 0.95096,
+    "meta_hhem-2.1-english": 0.99162,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 192
+  },
+  {
+    "sample_id": 34,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "Deshane Beckford, a 17-year-old Jamaican forward from Montego Bay United, has impressed West Ham during his trial, leading to discussions for a potential transfer. Beckford has also received offers from Belgian clubs and is considered one of the top prospects from the Caribbean. West Ham plans to offer season tickets at their Olympic Stadium for as little as £289, aiming to be the cheapest in the Premier League to help fill the stadium for the upcoming season.",
+    "annotations": [
+      {
+        "annot_id": 62,
+        "sample_id": 34,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "2016 -24 should be multiple upcoming seasonS.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": " for the upcoming season.",
+        "summary_start": 439,
+        "summary_end": 464,
+        "source_span": "for the 2016-24 season .",
+        "source_start": 836,
+        "source_end": 860
+      },
+      {
+        "annot_id": 101,
+        "sample_id": 34,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not sure if the upcoming season is the 2016-2024 season",
+        "annotator_name": "Miaoran",
+        "summary_span": "for the upcoming season",
+        "summary_start": 440,
+        "summary_end": 463,
+        "source_span": "when they make the switch for the 2016-24 season",
+        "source_start": 810,
+        "source_end": 858
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.70621,
+    "meta_hhem-2.1": 0.979,
+    "meta_hhem-2.1-english": 0.99625,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 537
+  },
+  {
+    "sample_id": 14,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": "Deshane Beckford, a 17-year-old Jamaican forward from Montego Bay United, is impressing West Ham United during his trial with their academy. Beckford has also received interest from Belgian clubs and is considered one of the top prospects from the Caribbean. West Ham is close to signing him. Additionally, West Ham has announced that season tickets for their new Olympic Stadium will start at £289, making them the cheapest in the Premier League for the 2016-2017 season.",
+    "annotations": [
+      {
+        "annot_id": 63,
+        "sample_id": 14,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says \"2016-2020 season\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "for the 2016-2017 season",
+        "summary_start": 447,
+        "summary_end": 471,
+        "source_span": "when they make the switch for the 2016-20 season",
+        "source_start": 810,
+        "source_end": 858
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 14,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": "Premier League",
+        "summary_start": 432,
+        "summary_end": 446,
+        "source_span": " in the barclays premier league",
+        "source_start": 733,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.45822,
+    "meta_hhem-2.1": 0.66408,
+    "meta_hhem-2.1-english": 0.81231,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 554
+  },
+  {
+    "sample_id": 37,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "West Ham is in talks to sign Jamaican forward Deshane Beckford after he impressed during a trial with the club's academy. Beckford, who has also received offers from clubs in Belgium, is considered one of the top prospects from the Caribbean. Meanwhile, West Ham has announced that season tickets for the 2016-24 season at the Olympic Stadium will cost as little as £289, making them the cheapest in the Premier League. \n",
+    "annotations": [
+      {
+        "annot_id": 64,
+        "sample_id": 37,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "The source only mentioned that \"they make the switch for the 2016-24 season\". I'm uncertain whether this switch is specifically the ticket price change or something else.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "West Ham has announced that season tickets for the 2016-24 season at the Olympic Stadium will cost as little as £289,",
+        "summary_start": 254,
+        "summary_end": 371,
+        "source_span": "west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+        "source_start": 589,
+        "source_end": 860
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 37,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 397,
+        "summary_end": 418,
+        "source_span": " in the barclays premier league ",
+        "source_start": 733,
+        "source_end": 765
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.02741,
+    "meta_hhem-2.1": 0.96169,
+    "meta_hhem-2.1-english": 0.97522,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 882
+  },
+  {
+    "sample_id": 38,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "The passage discusses West Ham's interest in signing Jamaican starlet Deshane Beckford after he impressed during a trial with the club. Beckford, a 17-year-old forward from Montego Bay United, has also received offers from clubs in Belgium. He is considered one of the top prospects from the Caribbean. Additionally, West Ham has announced that season tickets at the Olympic Stadium will be priced as low as £289, making it the cheapest pricing strategy in the Premier League. The club hopes this will help fill the 54,000 capacity stadium when they move there in the 2016-2017 season.",
+    "annotations": [
+      {
+        "annot_id": 65,
+        "sample_id": 38,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "in the 2016-2017 season.",
+        "summary_start": 561,
+        "summary_end": 585,
+        "source_span": " for the 2016-24 season .",
+        "source_start": 835,
+        "source_end": 860
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 38,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team\n",
+        "annotator_name": "Miaoran",
+        "summary_span": "during a trial with the club",
+        "summary_start": 106,
+        "summary_end": 134,
+        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month",
+        "source_start": 100,
+        "source_end": 220
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 38,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 454,
+        "summary_end": 475,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      },
+      {
+        "annot_id": 108,
+        "sample_id": 38,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " when they move there in the 2016-2017 season.",
+        "summary_start": 539,
+        "summary_end": 585,
+        "source_span": " when they make the switch for the 2016-24 season",
+        "source_start": 809,
+        "source_end": 858
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.23036,
+    "meta_hhem-2.1": 0.63975,
+    "meta_hhem-2.1-english": 0.95967,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1034
+  },
+  {
+    "sample_id": 15,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": "Here is a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford, who has impressed on trial and has offers from clubs in Belgium. Meanwhile, the club has announced that season tickets for the Olympic Stadium will cost from £289, the lowest price in the Premier League.",
+    "annotations": [
+      {
+        "annot_id": 68,
+        "sample_id": 15,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Premier League.",
+        "summary_start": 307,
+        "summary_end": 330,
+        "source_span": " in the barclays premier league",
+        "source_start": 733,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.37088,
+    "meta_hhem-2.1": 0.92458,
+    "meta_hhem-2.1-english": 0.98219,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 669
+  },
+  {
+    "sample_id": 17,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
+    "summary": "West Ham is in talks to sign Jamaican forward Deshane Beckford after he impressed during a trial with the club. Beckford, 17, is considered one of the top prospects from the Caribbean and has also received offers from clubs in Belgium. West Ham is also planning to offer the cheapest season tickets in the Premier League to fill their new 54,000-capacity stadium at the Olympic Stadium. \n",
+    "annotations": [
+      {
+        "annot_id": 72,
+        "sample_id": 17,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 299,
+        "summary_end": 320,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.64405,
+    "meta_hhem-2.1": 0.97083,
+    "meta_hhem-2.1-english": 0.99535,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 899
+  },
+  {
+    "sample_id": 43,
+    "source": "mr mole , ap mccoy 's mount in the grade one celebration chase at sandown on saturday , has been installed as one of three 7-2 co-favourites in the seven-runner line-up . \npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race . \nhis book of rides for his final day as a professional jockey will not be finalised until friday morning . \nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding . \nother runners in the celebration chase include mick channon 's somersby .",
+    "summary": "AP McCoy will ride Mr Mole in the Grade One Celebration Chase at Sandown on Saturday, marking his final ride in a Grade One race. Mr Mole is one of the favourites, alongside Special Tiara and Sprinter Sacre, in a field of seven runners. McCoy's decision to retire came as a surprise after he rode Mr Mole to victory at Newbury in February. The full line-up for the Celebration Chase will be confirmed on Friday morning.",
+    "annotations": [
+      {
+        "annot_id": 78,
+        "sample_id": 43,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source didn't mention anything about confirming full line-up.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The full line-up for the Celebration Chase will be confirmed on Friday morning.",
+        "summary_start": 340,
+        "summary_end": 419,
+        "source_span": "mr mole , ap mccoy 's mount in the grade one celebration chase at sandown on saturday , has been installed as one of three 7-2 co-favourites in the seven-runner line-up . \npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race . \nhis book of rides for his final day as a professional jockey will not be finalised until friday morning . \nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding . \nother runners in the celebration chase include mick channon 's somersby .",
+        "source_start": 0,
+        "source_end": 893
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.5844,
+    "meta_hhem-2.1": 0.94579,
+    "meta_hhem-2.1-english": 0.9807,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 414
+  },
+  {
+    "sample_id": 48,
+    "source": "mr mole , ap mccoy 's mount in the grade one celebration chase at sandown on saturday , has been installed as one of three 7-2 co-favourites in the seven-runner line-up . \npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race . \nhis book of rides for his final day as a professional jockey will not be finalised until friday morning . \nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding . \nother runners in the celebration chase include mick channon 's somersby .",
+    "summary": "The passage discusses the upcoming Grade One Celebration Chase at Sandown on Saturday. Mr Mole, trained by Paul Nicholls and ridden by AP McCoy, is one of the three co-favorites at odds of 7-2. The other two co-favorites are Special Tiara and Sprinter Sacre, ridden by Nico de Boinville. Mr Mole will be McCoy's last ride in a Grade One race. The final lineup of McCoy's rides for his last day as a professional jockey will be determined on Friday morning. Other runners in the race include Somersby, trained by Mick Channon.",
+    "annotations": [
+      {
+        "annot_id": 80,
+        "sample_id": 48,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "Somersby seems owned by Mick Channon. It's unclear if Mick also trained Somersby.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Other runners in the race include Somersby, trained by Mick Channon.",
+        "summary_start": 457,
+        "summary_end": 525,
+        "source_span": "\nother runners in the celebration chase include mick channon 's somersby .",
+        "source_start": 819,
+        "source_end": 893
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.23096,
+    "meta_hhem-2.1": 0.89955,
+    "meta_hhem-2.1-english": 0.98228,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1019
+  },
+  {
+    "sample_id": 49,
+    "source": "mr mole , ap mccoy 's mount in the grade one celebration chase at sandown on saturday , has been installed as one of three 7-2 co-favourites in the seven-runner line-up . \npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race . \nhis book of rides for his final day as a professional jockey will not be finalised until friday morning . \nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding . \nother runners in the celebration chase include mick channon 's somersby .",
+    "summary": "Mr. Mole, ridden by AP McCoy, is one of three 7-2 co-favourites in the Grade One Celebration Chase at Sandown on Saturday. Trained by Paul Nicholls, Mr. Mole is competing against Irish raider Special Tiara and Nicky Henderson's Sprinter Sacre, who will be ridden by Nico de Boinville due to Barry Geraghty's injury. This race will be McCoy's last Grade One race, with his final day of professional riding set for Saturday. McCoy announced his retirement after winning on Mr. Mole at Newbury in February. Other competitors include Mick Channon's Somersby.",
+    "annotations": [
+      {
+        "annot_id": 83,
+        "sample_id": 49,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary puts it as McCoy announced retirement right after the ride with Mr. Mole in February. However, the February ride was simply a context of how surprising McCoy's retirement announcement was.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "McCoy announced his retirement after winning on Mr. Mole at Newbury in February.",
+        "summary_start": 423,
+        "summary_end": 503,
+        "source_span": "\nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding .",
+        "source_start": 662,
+        "source_end": 818
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.43207,
+    "meta_hhem-2.1": 0.94272,
+    "meta_hhem-2.1-english": 0.98733,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1104
+  },
+  {
+    "sample_id": 23,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": "West Ham are in negotiations to sign Jamaican forward Deshane Beckford, who has attracted interest from numerous European clubs. The 17-year-old talent impressed during a trial with West Ham's academy. Additionally, West Ham has announced that season tickets for the Olympic Stadium will start at £289, aiming to fill the venue for the 2016-17 season.",
+    "annotations": [
+      {
+        "annot_id": 84,
+        "sample_id": 23,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [],
+        "note": "The summary might be overstated. \"numerous\" implies a large number. Form the source, we can only know that beckford receives offers from west ham and some clubs in belgium. We do not know how many clubs in Belgium provide offers",
+        "annotator_name": "Miaoran",
+        "summary_span": "who has attracted interest from numerous European clubs",
+        "summary_start": 72,
+        "summary_end": 127,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.3403,
+    "meta_hhem-2.1": 0.96845,
+    "meta_hhem-2.1-english": 0.99694,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 429
+  },
+  {
+    "sample_id": 24,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": "West Ham United are considering signing Deshane Beckford, a talented 17-year-old Jamaican forward who impressed during a trial with their academy. Beckford has also received interest from Belgian clubs and is considered one of the promising talents to come out of the Caribbean. Additionally, West Ham announced that their season tickets for the upcoming season at the Olympic Stadium will start at £289, making them the cheapest in the Premier League.",
+    "annotations": [
+      {
+        "annot_id": 85,
+        "sample_id": 24,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"the upcoming season\" might be confusing. From the source, it can be reasoned that the cheapest pricing strategy is for the 2016-17 season",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham announced that their season tickets for the upcoming season",
+        "summary_start": 293,
+        "summary_end": 361,
+        "source_span": "\nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+        "source_start": 681,
+        "source_end": 860
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 24,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "the \"Barclays Premier League\" and the \"Premier League\" refer to the same professional football league in England.",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 430,
+        "summary_end": 451,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.05106,
+    "meta_hhem-2.1": 0.9667,
+    "meta_hhem-2.1-english": 0.98169,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 544
+  },
+  {
+    "sample_id": 25,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": "Here is a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford, who impressed on trial with the club. Beckford, considered one of the top prospects from the Caribbean, also has offers from Belgian clubs. Meanwhile, West Ham has announced that season tickets for the 2016-17 season will start at £289, the cheapest in the Premier League.",
+    "annotations": [
+      {
+        "annot_id": 88,
+        "sample_id": 25,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": "who impressed on trial with the club",
+        "summary_start": 127,
+        "summary_end": 163,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 25,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 377,
+        "summary_end": 398,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.01545,
+    "meta_hhem-2.1": 0.95605,
+    "meta_hhem-2.1-english": 0.99078,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 659
+  },
+  {
+    "sample_id": 27,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": "West Ham is in talks to sign 17-year-old Jamaican forward Deshane Beckford after he impressed during a trial with the club. Beckford, who has also received offers from clubs in Belgium, is considered one of the top prospects from the Caribbean. West Ham is also planning to offer the cheapest season tickets in the Premier League in an effort to fill their new 54,000-capacity stadium at the Olympic Stadium. \n",
+    "annotations": [
+      {
+        "annot_id": 90,
+        "sample_id": 27,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": " he impressed during a trial with the club",
+        "summary_start": 80,
+        "summary_end": 122,
+        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 100,
+        "source_end": 287
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.58229,
+    "meta_hhem-2.1": 0.97483,
+    "meta_hhem-2.1-english": 0.99662,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 889
+  },
+  {
+    "sample_id": 29,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+    "summary": "West Ham are negotiating a deal for 17-year-old Jamaican forward Deshane Beckford after he impressed during a trial with their academy. Beckford, from Montego Bay United, has also attracted interest from Belgian clubs and other European teams. West Ham are close to signing him, recognizing him as a top Caribbean prospect. Additionally, West Ham announced that season tickets at the Olympic Stadium will start at £289, the lowest in the Premier League, to fill the 54,000-seat venue for the 2016-17 season.",
+    "annotations": [
+      {
+        "annot_id": 93,
+        "sample_id": 29,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source only mentions that beckford receives offers from west ham and some clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "and other European teams",
+        "summary_start": 218,
+        "summary_end": 242
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 29,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source implies that it is public consensus that beckford is a top prospect from caribbean. But the summary implies that beckford is only recognized a top prospect by west ham",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham are close to signing him, recognizing him as a top Caribbean prospect.",
+        "summary_start": 244,
+        "summary_end": 323,
+        "source_span": "\nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean .",
+        "source_start": 338,
+        "source_end": 475
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.38345,
+    "meta_hhem-2.1": 0.96826,
+    "meta_hhem-2.1-english": 0.98926,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1119
+  },
+  {
+    "sample_id": 30,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": " West Ham United is in discussions to sign 17-year-old Jamaican forward Deshane Beckford, who impressed during a two-week trial with their academy. Beckford, from Montego Bay United, has also received offers from Belgian clubs and is considered one of the hottest prospects to emerge from the Caribbean. Additionally, West Ham has announced that season tickets for their Olympic Stadium will cost as little as £289, making it the club with the cheapest pricing strategy in the Barclays Premier League for the 2016-24 season.",
+    "annotations": [
+      {
+        "annot_id": 96,
+        "sample_id": 30,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " a two-week trial",
+        "summary_start": 110,
+        "summary_end": 127,
+        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 100,
+        "source_end": 287
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.15323,
+    "meta_hhem-2.1": 0.9631,
+    "meta_hhem-2.1-english": 0.99578,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 77
+  },
+  {
+    "sample_id": 32,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "Here's a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford from Montego Bay United. Beckford recently impressed during a two-week trial with West Ham's academy. He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium. Separately, West Ham announced that season tickets for their new Olympic Stadium will start at £289, making them the cheapest in the Premier League. This pricing strategy aims to fill the 54,000-seat stadium when the team moves there for the 2016-24 season.",
+    "annotations": [
+      {
+        "annot_id": 98,
+        "sample_id": 32,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "from other European clubs, including some in Belgium",
+        "summary_start": 305,
+        "summary_end": 357,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.39474,
+    "meta_hhem-2.1": 0.92013,
+    "meta_hhem-2.1-english": 0.98054,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 307
+  },
+  {
+    "sample_id": 33,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "Deshane Beckford, a 17-year-old Jamaican forward, is close to signing with West Ham United after a successful trial with their academy. Beckford, a highly-rated prospect from the Caribbean, has attracted interest from various European clubs, including those in Belgium. West Ham, a Premier League club, aims to secure his signature. In other news, West Ham has announced that season tickets for the Olympic Stadium will start at £289, making it the most affordable in the league. This pricing strategy is intended to ensure a full house when they move to their new stadium for the 2016-24 season.",
+    "annotations": [
+      {
+        "annot_id": 99,
+        "sample_id": 33,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary is a little overstated. The sources only mentions that beckford receives offers from west ham and some clubs in belgium, and does not mention if there are other clubs in Europe interested in him",
+        "annotator_name": "Miaoran",
+        "summary_span": "has attracted interest from various European clubs, including those in Belgium",
+        "summary_start": 190,
+        "summary_end": 268,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 33,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
+        "annotator_name": "Miaoran",
+        "summary_span": "aims to secure his signature.",
+        "summary_start": 303,
+        "summary_end": 332,
+        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 477,
+        "source_end": 576
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.65466,
+    "meta_hhem-2.1": 0.95907,
+    "meta_hhem-2.1-english": 0.98828,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 422
+  },
+  {
+    "sample_id": 35,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "Here is a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford, who has impressed on trial with the club. Beckford has also been linked with clubs in Belgium and is considered one of the top prospects from the Caribbean. Meanwhile, West Ham has announced that season tickets for the 2016-24 season will cost as little as £289, the cheapest in the Premier League.",
+    "annotations": [
+      {
+        "annot_id": 102,
+        "sample_id": 35,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team\n",
+        "annotator_name": "Miaoran",
+        "summary_span": "who has impressed on trial with the club",
+        "summary_start": 127,
+        "summary_end": 167,
+        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month",
+        "source_start": 100,
+        "source_end": 220
+      },
+      {
+        "annot_id": 103,
+        "sample_id": 35,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Premier League",
+        "summary_start": 402,
+        "summary_end": 424,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.01783,
+    "meta_hhem-2.1": 0.94826,
+    "meta_hhem-2.1-english": 0.99085,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 652
+  },
+  {
+    "sample_id": 36,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "Here is a concise summary of the passage:\n\nWest Ham is discussing a deal with 17-year-old Jamaican forward Deshane Beckford after he impressed on trial with the club's academy. Beckford, a highly sought-after prospect, also has offers from Belgian clubs. Meanwhile, West Ham has announced that season tickets at the Olympic Stadium will start at £289, the cheapest in the Premier League, as the club aims to fill the 54,000 capacity stadium.",
+    "annotations": [
+      {
+        "annot_id": 104,
+        "sample_id": 36,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 365,
+        "summary_end": 386,
+        "source_span": "in the barclays premier league",
+        "source_start": 734,
+        "source_end": 764
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.15844,
+    "meta_hhem-2.1": 0.95402,
+    "meta_hhem-2.1-english": 0.99081,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 767
+  },
+  {
+    "sample_id": 39,
+    "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+    "summary": "West Ham are negotiating a deal for 17-year-old Jamaican forward Deshane Beckford after he impressed during a two-week trial with their academy. Beckford, from Montego Bay United, is considered a top Caribbean prospect and has offers from Belgian clubs. Additionally, West Ham announced that season tickets at the Olympic Stadium will start at £289, the lowest in the Premier League, to fill the 54,000-seat venue for the 2016-24 season.",
+    "annotations": [
+      {
+        "annot_id": 109,
+        "sample_id": 39,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Premier League",
+        "summary_start": 361,
+        "summary_end": 382,
+        "source_span": "in the barclays premier league ",
+        "source_start": 734,
+        "source_end": 765
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.30207,
+    "meta_hhem-2.1": 0.97575,
+    "meta_hhem-2.1-english": 0.99153,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1112
+  },
+  {
+    "sample_id": 41,
+    "source": "mr mole , ap mccoy 's mount in the grade one celebration chase at sandown on saturday , has been installed as one of three 7-2 co-favourites in the seven-runner line-up . \npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race . \nhis book of rides for his final day as a professional jockey will not be finalised until friday morning . \nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding . \nother runners in the celebration chase include mick channon 's somersby .",
+    "summary": " Mr. Mole, trained by Paul Nicholls, is one of three 7-2 co-favourites in the seven-runner line-up for the Grade One Celebration Chase at Sandown on Saturday. Mr. Mole, ridden by Nicky Henderson's sprinter Sacre due to Barry Geraghty's injury, will compete against six rivals. This race marks Mr. Mole's last ride in a Grade One race, and his final book of rides will be finalized on Friday morning. Interestingly, jockey AP McCoy rode Mr. Mole to victory at Newbury in February before announcing his retirement. Other runners include Mick Channon's Somersby.",
+    "annotations": [
+      {
+        "annot_id": 110,
+        "sample_id": 41,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Nicky Henderson's Sprinter Sacre will be ridden by Nico due to Barry Geraghty's injury. Mr. Mole and AP Mccoy will face six rivals in the chase",
+        "annotator_name": "Miaoran",
+        "summary_span": "Mr. Mole, ridden by Nicky Henderson's sprinter Sacre due to Barry Geraghty's injury, will compete against six rivals.",
+        "summary_start": 159,
+        "summary_end": 276,
+        "source_span": "nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase",
+        "source_start": 251,
+        "source_end": 474
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 41,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This race will be Mccoy's last ride",
+        "annotator_name": "Miaoran",
+        "summary_span": "This race marks Mr. Mole's last ride in a Grade One race,",
+        "summary_start": 277,
+        "summary_end": 334,
+        "source_span": "mr mole will be mccoy 's last ride in a grade one race ",
+        "source_start": 498,
+        "source_end": 553
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.59315,
+    "meta_hhem-2.1": 0.87518,
+    "meta_hhem-2.1-english": 0.97174,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 184
+  }
+]

@@ -19,6 +19,34 @@
         "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
         "source_start": 0,
         "source_end": 292
+      },
+      {
+        "annot_id": 58,
+        "sample_id": 0,
+        "annotator": "a304df93bb674faab4f73b38948fff75",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Tories spent 2,980,815 which is more that what UKIP spent",
+        "annotator_name": "New User",
+        "summary_span": "UKIP spent the most at £2,956,737",
+        "summary_start": 167,
+        "summary_end": 200
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 0,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The passage does not say this is for European Parliament",
+        "annotator_name": "Manveer",
+        "summary_span": "UK's May election for the European Parliament",
+        "summary_start": 120,
+        "summary_end": 165
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -85,6 +113,20 @@
         "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
         "source_start": 0,
         "source_end": 292
+      },
+      {
+        "annot_id": 61,
+        "sample_id": 2,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source doesn't mention the european parliament",
+        "annotator_name": "Manveer",
+        "summary_span": "May European Parliament elections in the UK",
+        "summary_start": 88,
+        "summary_end": 131
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -116,6 +158,60 @@
         "summary_span": "The passage details the campaign expenditure of several UK political parties during the 2014 European Parliament election.",
         "summary_start": 0,
         "summary_end": 122
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't give the year",
+        "annotator_name": "Manveer",
+        "summary_span": "2014",
+        "summary_start": 88,
+        "summary_end": 92
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "although true, it is a bit changed",
+        "annotator_name": "Manveer",
+        "summary_span": " £3 million",
+        "summary_start": 160,
+        "summary_end": 171
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the tories spent more, not less",
+        "annotator_name": "Manveer",
+        "summary_span": "closely followed by the Tories",
+        "summary_start": 173,
+        "summary_end": 203
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "signifcantly less is subjective, the green party spent more per vote than labour",
+        "annotator_name": "Manveer",
+        "summary_span": "spent significantly less ",
+        "summary_start": 432,
+        "summary_end": 457
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -149,6 +245,20 @@
         "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
         "source_start": 0,
         "source_end": 292
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 4,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the values are off. Conservatives spent more, not less",
+        "annotator_name": "Manveer",
+        "summary_span": "at £2,956,737, followed by the Conservatives (£2,980,815)",
+        "summary_start": 142,
+        "summary_end": 199
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -213,6 +323,34 @@
         "summary_span": "The UKIP, Tories, Lib Dems, Labour, Green Party, and SNP spent a total of £9,347,087 on campaigning for the 2014 European election.",
         "summary_start": 0,
         "summary_end": 131
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 7,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "2014 is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "2014",
+        "summary_start": 108,
+        "summary_end": 112
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 7,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Incorrect and mathematically wrong. 2980815 is greater",
+        "annotator_name": "Manveer",
+        "summary_span": "The UKIP spent the most at £2,956,737, followed by the Tories at £2,980,815.",
+        "summary_start": 132,
+        "summary_end": 208
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -262,6 +400,60 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't suggest that casting is for a live-action remake",
+        "annotator_name": "Manveer",
+        "summary_span": "The passage describes a live-action remake",
+        "summary_start": 1,
+        "summary_end": 43
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this can be inferred, but the source doesn't mention the name of the film",
+        "annotator_name": "Manveer",
+        "summary_span": "of the Disney film \"Beauty and the Beast.\" ",
+        "summary_start": 44,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "this name seems to be made up from emma watson, it is not clear who is playing mrs potts",
+        "annotator_name": "Manveer",
+        "summary_span": "and Harry Potter star Emma Thompson will play Mrs. Potts",
+        "summary_start": 227,
+        "summary_end": 283
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 10,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "will he voice lefou or play lefou?",
+        "annotator_name": "Manveer",
+        "summary_span": "will voice Gaston's sidekick LeFou",
+        "summary_start": 376,
+        "summary_end": 410
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -311,6 +503,33 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 12,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source does not say this ",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson will play Mrs Potts",
+        "summary_start": 133,
+        "summary_end": 166
+      },
+      {
+        "annot_id": 80,
+        "sample_id": 12,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.\"",
+        "summary_start": 109,
+        "summary_end": 132
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -360,6 +579,46 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 13,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say it's a live action remake",
+        "annotator_name": "Manveer",
+        "summary_span": " live-action remake",
+        "summary_start": 37,
+        "summary_end": 56
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 13,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": " Beauty and the Beast,",
+        "summary_start": 59,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 83,
+        "sample_id": 13,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs. Potts",
+        "summary_start": 161,
+        "summary_end": 188
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -409,6 +668,45 @@
         "source_span": "Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
         "source_start": 671,
         "source_end": 813
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 14,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.\"",
+        "summary_start": 90,
+        "summary_end": 113
+      },
+      {
+        "annot_id": 85,
+        "sample_id": 14,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say its a live action remake",
+        "annotator_name": "Manveer",
+        "summary_span": "new live-action adaptation ",
+        "summary_start": 60,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 14,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is just the US cinema release date",
+        "annotator_name": "Manveer",
+        "summary_span": "with a release date of March 17, 2017",
+        "summary_start": 412,
+        "summary_end": 449
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -458,6 +756,59 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action film adaptation",
+        "summary_start": 47,
+        "summary_end": 74
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 78,
+        "summary_end": 98
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": " Emma Thompson (as Mrs. Potts) ",
+        "summary_start": 333,
+        "summary_end": 364
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 15,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is just the US cinema release date",
+        "annotator_name": "Manveer",
+        "summary_span": "he film will be released on March 17, 2017",
+        "summary_start": 232,
+        "summary_end": 274
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -491,6 +842,32 @@
         "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
         "source_start": 269,
         "source_end": 412
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 16,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 69,
+        "summary_end": 90
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 16,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "\n\nThe live-action remake o",
+        "summary_start": 41,
+        "summary_end": 67
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -540,6 +917,46 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 93,
+        "sample_id": 17,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation o",
+        "summary_start": 4,
+        "summary_end": 28
+      },
+      {
+        "annot_id": 94,
+        "sample_id": 17,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 39,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 17,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": " Emma Thompson as Mrs. Potts",
+        "summary_start": 217,
+        "summary_end": 245
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -573,6 +990,32 @@
         "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
         "source_start": 269,
         "source_end": 412
+      },
+      {
+        "annot_id": 96,
+        "sample_id": 18,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 73,
+        "summary_end": 95
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 18,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.",
+        "summary_start": 108,
+        "summary_end": 130
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -606,6 +1049,32 @@
         "source_span": "The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle.",
         "source_start": 269,
         "source_end": 412
+      },
+      {
+        "annot_id": 98,
+        "sample_id": 19,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "a live-action adaptation",
+        "summary_start": 57,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 19,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast.\" ",
+        "summary_start": 86,
+        "summary_end": 109
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -637,6 +1106,20 @@
         "summary_span": " The passage also mentions that Ann Richards, likely Dorothy's mother or another individual with the same name,",
         "summary_start": 439,
         "summary_end": 550
+      },
+      {
+        "annot_id": 103,
+        "sample_id": 24,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this is nonsense. this ann richards was born after the first one",
+        "annotator_name": "Manveer",
+        "summary_span": "likely Dorothy's mother",
+        "summary_start": 485,
+        "summary_end": 508
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -670,6 +1153,32 @@
         "source_span": "The film will be released in US cinemas on 17 March 2017.",
         "source_start": 269,
         "source_end": 326
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 30,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 35,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 30,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": " Disney film \"Beauty and the Beast.\"",
+        "summary_start": 64,
+        "summary_end": 100
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -719,6 +1228,33 @@
         "source_span": "Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle.",
         "source_start": 157,
         "source_end": 268
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 32,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "\"Beauty and the Beast.\"",
+        "summary_start": 109,
+        "summary_end": 132
+      },
+      {
+        "annot_id": 108,
+        "sample_id": 32,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't mention emma thompson",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson will play Mrs Potts",
+        "summary_start": 133,
+        "summary_end": 166
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -768,6 +1304,46 @@
         "source_span": "Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle.",
         "source_start": 157,
         "source_end": 268
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 33,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": " live-action remake ",
+        "summary_start": 37,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 33,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast,",
+        "summary_start": 60,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 33,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't mention emma thompson",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs. Potts.",
+        "summary_start": 161,
+        "summary_end": 189
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -817,6 +1393,58 @@
         "source_span": "Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
         "source_start": 672,
         "source_end": 814
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "new live-action adaptation",
+        "summary_start": 60,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast.\"",
+        "summary_start": 91,
+        "summary_end": 113
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say 2016",
+        "annotator_name": "Manveer",
+        "summary_span": "Filming starts in May 2016,",
+        "summary_start": 384,
+        "summary_end": 411
+      },
+      {
+        "annot_id": 118,
+        "sample_id": 34,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this is just the US release date",
+        "annotator_name": "Manveer",
+        "summary_span": "with a release date of March 17, 2017",
+        "summary_start": 412,
+        "summary_end": 449
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -866,6 +1494,59 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action film adaptation ",
+        "summary_start": 47,
+        "summary_end": 75
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 78,
+        "summary_end": 99
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't name emma thompson",
+        "annotator_name": "Manveer",
+        "summary_span": " Emma Thompson will play Mrs Potts,",
+        "summary_start": 276,
+        "summary_end": 311
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 35,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this is just the US release date",
+        "annotator_name": "Manveer",
+        "summary_span": "he film will be released on March 17, 2017,",
+        "summary_start": 356,
+        "summary_end": 399
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -915,6 +1596,46 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 36,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 47,
+        "summary_end": 69
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 36,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast ",
+        "summary_start": 73,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 36,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't mention emma thompson",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson as Mrs Potts",
+        "summary_start": 205,
+        "summary_end": 231
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -964,6 +1685,59 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 123,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation ",
+        "summary_start": 4,
+        "summary_end": 27
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Disney's Beauty and the Beast ",
+        "summary_start": 30,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "this is the US release date",
+        "annotator_name": "Manveer",
+        "summary_span": "ill be released on March 17, 2017.",
+        "summary_start": 61,
+        "summary_end": 95
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 37,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't mention thompson",
+        "annotator_name": "Manveer",
+        "summary_span": " Emma Thompson as Mrs. Potts",
+        "summary_start": 264,
+        "summary_end": 292
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1013,6 +1787,46 @@
         "source_span": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film.",
         "source_start": 0,
         "source_end": 156
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 38,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action adaptation",
+        "summary_start": 70,
+        "summary_end": 92
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 38,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast.",
+        "summary_start": 106,
+        "summary_end": 127
+      },
+      {
+        "annot_id": 129,
+        "sample_id": 38,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't mention thompson",
+        "annotator_name": "Manveer",
+        "summary_span": "Emma Thompson will play Mrs. Potts",
+        "summary_start": 262,
+        "summary_end": 296
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1046,6 +1860,32 @@
         "source_span": "The film will be released in US cinemas on 17 March 2017.",
         "source_start": 269,
         "source_end": 326
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 39,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say this",
+        "annotator_name": "Manveer",
+        "summary_span": "live-action",
+        "summary_start": 64,
+        "summary_end": 75
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 39,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't name the film",
+        "annotator_name": "Manveer",
+        "summary_span": "Beauty and the Beast",
+        "summary_start": 77,
+        "summary_end": 97
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1080,6 +1920,20 @@
         "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. ",
         "source_start": 465,
         "source_end": 718
+      },
+      {
+        "annot_id": 133,
+        "sample_id": 40,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary assumes both myles and ruairi refers to keating, which doesn't make sense",
+        "annotator_name": "Manveer",
+        "summary_span": "Nicholson describes Keating as a leader-type he has been seeking, while Keating is described as young, raw, but hungry to prove himself.",
+        "summary_start": 519,
+        "summary_end": 655
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1145,6 +1999,61 @@
         "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
         "source_start": 718,
         "source_end": 828
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "torquay united is not mentioned in the source at all",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United",
+        "summary_start": 66,
+        "summary_end": 80
+      },
+      {
+        "annot_id": 136,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say anything about keating being from ireland",
+        "annotator_name": "Manveer",
+        "summary_span": "from Ireland",
+        "summary_start": 188,
+        "summary_end": 200
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Anderson is described as a leader-type player, while Keating is young and eager to prove himself. ",
+        "summary_start": 202,
+        "summary_end": 300
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 42,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this team name is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United",
+        "summary_start": 318,
+        "summary_end": 332
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1194,6 +2103,61 @@
         "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
         "source_start": 718,
         "source_end": 828
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say keating is from ireland",
+        "annotator_name": "Manveer",
+        "summary_span": "with experience in Ireland",
+        "summary_start": 184,
+        "summary_end": 210
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't name this team",
+        "annotator_name": "Manveer",
+        "summary_span": " Torquay United ",
+        "summary_start": 217,
+        "summary_end": 233
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Manager Kevin Nicholson values Anderson's leadership and Keating's potential",
+        "summary_start": 273,
+        "summary_end": 349
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 43,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't name this team",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay's",
+        "summary_start": 359,
+        "summary_end": 368
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1227,6 +2191,20 @@
         "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals.",
         "source_start": 0,
         "source_end": 115
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 45,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this team is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United",
+        "summary_start": 135,
+        "summary_end": 149
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1260,6 +2238,33 @@
         "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
         "source_start": 233,
         "source_end": 336
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 46,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't name the team",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United (also known as the Gulls)",
+        "summary_start": 71,
+        "summary_end": 111
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 46,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't explicitly say this",
+        "annotator_name": "Manveer",
+        "summary_span": "Both players are expected to bolster the team",
+        "summary_start": 283,
+        "summary_end": 328
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1311,6 +2316,46 @@
         "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
         "source_start": 718,
         "source_end": 828
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make it clear that keating is currently at finn harps",
+        "annotator_name": "Manveer",
+        "summary_span": "has joined Barrow from Finn Harps,",
+        "summary_start": 110,
+        "summary_end": 144
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "kevin does not seem to be the manager of barrow",
+        "annotator_name": "Manveer",
+        "summary_span": "Barrow manager Kevin Nicholson ",
+        "summary_start": 182,
+        "summary_end": 213
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary is assuming myles refers to anderson and ruairi to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "described Anderson as a leader and Keating as hungry to prove himself.",
+        "summary_start": 213,
+        "summary_end": 283
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1409,6 +2454,90 @@
         "source_span": "\"The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
         "source_start": 718,
         "source_end": 828
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this team is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United,",
+        "summary_start": 113,
+        "summary_end": 128
+      },
+      {
+        "annot_id": 150,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the assumption that the players are transferring to rivals of torquay is not supported by the source at all.",
+        "annotator_name": "Manveer",
+        "summary_span": " to National League rivals of Barrow and Torquay United,",
+        "summary_start": 72,
+        "summary_end": 128
+      },
+      {
+        "annot_id": 152,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "team not mentioned in source",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United ",
+        "summary_start": 365,
+        "summary_end": 380
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "it is contradictory to say that the player is joining torquay united, but that the players are transferring to rivals of torquay",
+        "annotator_name": "Manveer",
+        "summary_span": "he passage discusses the transfer of two players, Anderson and Keating, to National League rivals of Barrow and Torquay United, respectively. Anderson, a 27-year-old centre-back, has cancelled his contract with Barrow to join Torquay United",
+        "summary_start": 1,
+        "summary_end": 241
+      },
+      {
+        "annot_id": 154,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "it is being assumed that myles refers to anderson and ruairi to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Nicholson describes Anderson as a leader-type player and Keating as young and hungry to prove himself.",
+        "summary_start": 512,
+        "summary_end": 614
+      },
+      {
+        "annot_id": 155,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "again team not named in source",
+        "annotator_name": "Manveer",
+        "summary_span": "Torquay United ",
+        "summary_start": 615,
+        "summary_end": 630
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1421,5 +2550,198 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 935
+  },
+  {
+    "sample_id": 11,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": " The upcoming film features Emma Watson as Belle, with Harry Potter star Emma Watson, Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles. Kevin Kline will play Maurice, and the star will portray Mrs. Potts, a character previously voiced by Dame Angela Lansbury in the 1991 animated version. The film, directed by Bill Condon, will be released in US cinemas on March 17, 2017, and will begin filming at Shepperton Studios in May.",
+    "annotations": [
+      {
+        "annot_id": 73,
+        "sample_id": 11,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "is the beast a supporting role?",
+        "annotator_name": "Manveer",
+        "summary_span": "Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles",
+        "summary_start": 86,
+        "summary_end": 162
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 11,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this line is missing some context. The star being referred to was likely mentioned in a cut-off line before the source began",
+        "annotator_name": "Manveer",
+        "summary_span": " the star will portray Mrs. Potts",
+        "summary_start": 198,
+        "summary_end": 231
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.93369,
+    "meta_hhem-2.1": 0.88214,
+    "meta_hhem-2.1-english": 0.98412,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 179
+  },
+  {
+    "sample_id": 20,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": " Ann Richards, born September 1, 1933, served as the 45th Governor of Texas from 1991 to 1995. She was a Democrat and the second female governor of Texas. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election in 1994 by George W. Bush. Ann Richards is not the same person as the governor; Ann Richards, born October 1, 1935, was an American jazz singer and the wife of pianist Stan Kenton. The latter Ann Richards passed away in April 1982.",
+    "annotations": [
+      {
+        "annot_id": 100,
+        "sample_id": 20,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not sure if it is appropriate to shorten her name this way",
+        "annotator_name": "Manveer",
+        "summary_span": "Ann Richards,",
+        "summary_start": 1,
+        "summary_end": 14
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.4193,
+    "meta_hhem-2.1": 0.93139,
+    "meta_hhem-2.1-english": 0.93347,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 5
+  },
+  {
+    "sample_id": 23,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Dorothy Ann Willis Richards, an American politician, served as the 45th Governor of Texas from 1991 to 1995. She was the second female governor of Texas and known for her feminism and wit. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election by George W. Bush in 1994. Another Ann Richards, an American jazz singer, was married to pianist Stan Kenton and passed away in 1982.",
+    "annotations": [
+      {
+        "annot_id": 101,
+        "sample_id": 23,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "she was known for her one-liners. Not exactly her wit",
+        "annotator_name": "Manveer",
+        "summary_span": " and wit",
+        "summary_start": 179,
+        "summary_end": 187
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99844,
+    "meta_hhem-2.1": 0.88481,
+    "meta_hhem-2.1-english": 0.96098,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 350
+  },
+  {
+    "sample_id": 28,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "The passage provides information about two different individuals named Ann Richards. The first Ann Richards mentioned is Dorothy Ann Willis Richards, who was an American politician and the 45th Governor of Texas from 1991 to 1995. She gained national attention as the state treasurer of Texas and was known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. The second Ann Richards mentioned is an American jazz singer and the wife of pianist Stan Kenton.",
+    "annotations": [
+      {
+        "annot_id": 104,
+        "sample_id": 28,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is questionable to shorten the name of the first person to Ann Richards",
+        "annotator_name": "Manveer",
+        "summary_span": "two different individuals named Ann Richards",
+        "summary_start": 39,
+        "summary_end": 83
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.96935,
+    "meta_hhem-2.1": 0.93737,
+    "meta_hhem-2.1-english": 0.98361,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 939
+  },
+  {
+    "sample_id": 41,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": " Centre-back Anderson, 27, has left Barrow by mutual consent to join National League rivals, potentially playing against his former club on 18 February. Striker Keating, 21, recommended by Micky Adams, former Port Vale manager, is under international clearance and could join Gulls. Gulls manager Kevin Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself. Gulls are four points above the relegation zone with only one win in their last six games. For the latest football transfers, visit the dedicated page.",
+    "annotations": [
+      {
+        "annot_id": 134,
+        "sample_id": 41,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 303,
+        "summary_end": 391
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99851,
+    "meta_hhem-2.1": 0.89509,
+    "meta_hhem-2.1-english": 0.96192,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 178
+  },
+  {
+    "sample_id": 49,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Centre-back Anderson, 27, has mutually terminated his contract with Barrow to join a National League rival and may play against his former club on 18 February. Striker Keating, 21, recommended by Micky Adams, is moving to the Gulls pending international clearance, having previously played for Sligo Rovers, Galway United, and Finn Harps. Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself. The Gulls are currently four points above the relegation zone with only one win in their last six games.",
+    "annotations": [
+      {
+        "annot_id": 156,
+        "sample_id": 49,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary is assuming myles refers to anderson and ruairi to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself. ",
+        "summary_start": 339,
+        "summary_end": 445
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99926,
+    "meta_hhem-2.1": 0.90429,
+    "meta_hhem-2.1-english": 0.98616,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1098
   }
 ]

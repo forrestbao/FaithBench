@@ -48,6 +48,19 @@
         "summary_span": "production",
         "summary_start": 184,
         "summary_end": 194
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 2,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This sentence is correct, but I'm not sure whether we want this sentence to appear in the summary. When a reader sees this sentence, he/she probably will assume that this passage is longer than one sentence and provides more details on the financial information of \"Poseidon\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The passage provides financial information about the film \"Poseidon.\"",
+        "summary_start": 83,
+        "summary_end": 152
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -95,6 +108,19 @@
         "source_span": "a budget",
         "source_start": 80,
         "source_end": 88
+      },
+      {
+        "annot_id": 45,
+        "sample_id": 3,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source text implies a net positive profit. However, the word \"moderate\" is a subjective opinion that the source text did not mention. It depends on perspectives and reference points for comparison.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "moderate financial success",
+        "summary_start": 24,
+        "summary_end": 50
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -238,6 +264,20 @@
         "summary_span": "This song is featured on singer-songwriter James Taylor's fourteenth studio album.",
         "summary_start": 92,
         "summary_end": 174
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 10,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is false. Hourglass refers to 2 entities: a song from Disclosure, and an album from James Taylor. The 2 entities are not related. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "This song is featured on singer-songwriter James Taylor's fourteenth studio album.",
+        "summary_start": 92,
+        "summary_end": 174
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -267,6 +307,34 @@
         "annotator_name": "forrest",
         "summary_span": "The song \"Hourglass\" is indeed by Disclosure, but it is not mentioned in the passage that it is part of James Taylor's album. The correct information should be that \"Hourglass\" is a song by Disclosure, and it is not directly related to James Taylor's album.",
         "summary_start": 293,
+        "summary_end": 550
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 11,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The 2 entities are not related. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "It is associated with singer-songwriter James Taylor's fourteenth studio album. ",
+        "summary_start": 61,
+        "summary_end": 141
+      },
+      {
+        "annot_id": 49,
+        "sample_id": 11,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This is hallucination. This LLM couldn't figure out the fact that \"Hourglass\" refers to two independent entities.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "However, the passage does not directly link the song \"Hourglass\" to James Taylor's album. The information provided seems to be incorrect or misleading. The song \"Hourglass\" is indeed by Disclosure, but it is not mentioned in the passage that it is part of James Taylor's album. The correct information should be that \"Hourglass\" is a song by Disclosure, and it is not directly related to James Taylor's album.",
+        "summary_start": 141,
         "summary_end": 550
       }
     ],
@@ -298,6 +366,20 @@
         "summary_span": "hese are two separate pieces of information about different musical works that happen to share the same title. ",
         "summary_start": 340,
         "summary_end": 451
+      },
+      {
+        "annot_id": 50,
+        "sample_id": 12,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "While the source text needs a better structure, the LLM should NOT say stuff like this when generating a summary.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "I apologize, but there appears to be some confusion in the passage provided. ",
+        "summary_start": 0,
+        "summary_end": 77
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -448,6 +530,20 @@
         "summary_span": "\"Hourglass\" is a song by British electronic duo Disclosure, and it is featured on singer-songwriter James Taylor's fourteenth studio album. \n",
         "summary_start": 0,
         "summary_end": 141
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 17,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "They are 2 separate entities.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": ", and it is featured on singer-songwriter James Taylor's fourteenth studio album. \n",
+        "summary_start": 58,
+        "summary_end": 141
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -509,6 +605,47 @@
         "summary_span": "10 million cases of COVID-19 have been reported in more than 190 countries and 200 territories, leading to over 500,000",
         "summary_start": 56,
         "summary_end": 175
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 20,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "There is missing information in the source text. I wouldn't call this a hallucination, but I would like to point out the source text is unusable.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "as of a certain point,",
+        "summary_start": 28,
+        "summary_end": 50
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 20,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Since the source text never mentioned how many cases, this number is fake.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "over 10 million cases",
+        "summary_start": 51,
+        "summary_end": 72
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 20,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Since the source text never mentioned the exact number, this number is fake.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "leading to over 500,000 deaths",
+        "summary_start": 152,
+        "summary_end": 182
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -621,6 +758,20 @@
         "source_span": "two dozen",
         "source_start": 110,
         "source_end": 119
+      },
+      {
+        "annot_id": 55,
+        "sample_id": 32,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source text states \"more than two dozen other countries\". \"Two dozen\" means 24. \"more than 24\" is not the same as \"over 25\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Cases have been confirmed in over 25 other countries outside of China",
+        "summary_start": 191,
+        "summary_end": 260
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -669,6 +820,20 @@
         "summary_span": " of an illness",
         "summary_start": 57,
         "summary_end": 71
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 35,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Again, \"two dozen\" is 24, not 25.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "over 25 other countries.",
+        "summary_start": 114,
+        "summary_end": 138
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -734,6 +899,20 @@
         "source_span": "more than two dozen",
         "source_start": 100,
         "source_end": 119
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 42,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Again, 24, not 25.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "over 25 other countries",
+        "summary_start": 220,
+        "summary_end": 243
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -765,6 +944,20 @@
         "summary_span": "of the disease ",
         "summary_start": 45,
         "summary_end": 60
+      },
+      {
+        "annot_id": 58,
+        "sample_id": 43,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not \"nearly\", but \"exactly\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "nearly",
+        "summary_start": 25,
+        "summary_end": 31
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -796,6 +989,20 @@
         "summary_span": "of an unknown illness,",
         "summary_start": 59,
         "summary_end": 81
+      },
+      {
+        "annot_id": 59,
+        "sample_id": 45,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "24. Not 26.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "26",
+        "summary_start": 106,
+        "summary_end": 108
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
