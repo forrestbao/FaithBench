@@ -1,0 +1,397 @@
+[
+  {
+    "sample_id": 11,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": " Lake Providence is a town in northeastern Louisiana, serving as the parish seat of East Carroll Parish. The University of Mississippi, located in Lake Providence, has approximately 55% of its undergraduates and 60% of its overall student population from Mississippi. Additionally, 23% of the students are minorities, with international students hailing from 90 different nations.",
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 11,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the university is not located in Lake Provindence",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The University of Mississippi, located in Lake Providence, has approximately 55% of its undergraduates and 60% of its overall student population from Mississippi.",
+        "summary_start": 105,
+        "summary_end": 267,
+        "source_span": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+        "source_start": 0,
+        "source_end": 307
+      },
+      {
+        "annot_id": 11,
+        "sample_id": 11,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": " located in Lake Providence",
+        "summary_start": 135,
+        "summary_end": 162
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99643,
+    "meta_hhem-2.1": 0.92989,
+    "meta_hhem-2.1-english": 0.97355,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 135
+  },
+  {
+    "sample_id": 13,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Lake Providence is a town in northeastern Louisiana, serving as the parish seat of East Carroll Parish. The University of Mississippi, located nearby, has a diverse student body, with 55% of undergraduates and 60% overall from Mississippi, 23% minorities, and international students from 90 countries.",
+    "annotations": [
+      {
+        "annot_id": 3,
+        "sample_id": 13,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no information about the location of the university",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The University of Mississippi, located nearby, has a diverse student body, with 55% of undergraduates and 60% overall from Mississippi, 23% minorities, and international students from 90 countries.",
+        "summary_start": 104,
+        "summary_end": 301,
+        "source_span": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+        "source_start": 0,
+        "source_end": 307
+      },
+      {
+        "annot_id": 12,
+        "sample_id": 13,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": " located nearby",
+        "summary_start": 134,
+        "summary_end": 149
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99269,
+    "meta_hhem-2.1": 0.90627,
+    "meta_hhem-2.1-english": 0.90909,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 365
+  },
+  {
+    "sample_id": 14,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "Lake Providence is the parish seat of East Carroll Parish in northeastern Louisiana. It has a university with about 55% of undergraduates and 60% overall coming from Mississippi, 23% minority students, and international students from 90 countries.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 14,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not mentioned about lake providence's university",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " It has a university with about 55% of undergraduates and 60% overall coming from Mississippi, 23% minority students, and international students from 90 countries.",
+        "summary_start": 84,
+        "summary_end": 247,
+        "source_span": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+        "source_start": 0,
+        "source_end": 307
+      },
+      {
+        "annot_id": 13,
+        "sample_id": 14,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": "It has a university",
+        "summary_start": 85,
+        "summary_end": 104
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.98166,
+    "meta_hhem-2.1": 0.94976,
+    "meta_hhem-2.1-english": 0.98215,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 480
+  },
+  {
+    "sample_id": 23,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "Morton defeated Alloa in a football match with a final score of 4-1. McManus and Johnstone scored two goals each for Morton, while McAusland scored Alloa's only goal.",
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 23,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Mcmanus 2, Ross 1, Denny 1",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "McManus and Johnstone scored two goals each for Morton, while McAusland scored Alloa's only goal.",
+        "summary_start": 69,
+        "summary_end": 166,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+        "source_start": 0,
+        "source_end": 319
+      },
+      {
+        "annot_id": 15,
+        "sample_id": 23,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "McManus scored 2\nForbes scores 1\nJohnstone scored 1",
+        "annotator_name": "Rogger",
+        "summary_span": "McManus and Johnstone scored two goals each for Morton",
+        "summary_start": 69,
+        "summary_end": 123
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.16219,
+    "meta_hhem-2.1": 0.05278,
+    "meta_hhem-2.1-english": 0.06489,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 385
+  },
+  {
+    "sample_id": 25,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "Here is a concise summary of the passage:\n\nMorton scored twice in the first half, with McManus netting twice and Ross Forbes also scoring, before Alloa pulled back with a shot by Kyle McAusland. Morton then scored again in the second half to seal a comfortable win.",
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 25,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "McManus scored only 1 in the first half",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Morton scored twice in the first half, with McManus netting twice and Ross Forbes also scoring, before Alloa pulled back with a shot by Kyle McAusland.",
+        "summary_start": 43,
+        "summary_end": 194,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead.",
+        "source_start": 0,
+        "source_end": 141
+      },
+      {
+        "annot_id": 17,
+        "sample_id": 25,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [],
+        "note": "McManus net once first half\nthen another goal in the second half",
+        "annotator_name": "Rogger",
+        "summary_span": "McManus netting twice",
+        "summary_start": 87,
+        "summary_end": 108,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+        "source_start": 0,
+        "source_end": 319
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.76635,
+    "meta_hhem-2.1": 0.56951,
+    "meta_hhem-2.1-english": 0.97449,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 615
+  },
+  {
+    "sample_id": 3,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "The Millers, a multi-camera sitcom, aired for two seasons on CBS, premiering in October 2013 and concluding in July 2015. It consisted of 34 episodes, but CBS cancelled the show in November 2014 during its second season.",
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 3,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "external knowledge",
+        "annotator_name": "Rogger",
+        "summary_span": "sitcom",
+        "summary_start": 28,
+        "summary_end": 34
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.94708,
+    "meta_hhem-2.1": 0.81778,
+    "meta_hhem-2.1-english": 0.97379,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 349
+  },
+  {
+    "sample_id": 7,
+    "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
+    "summary": "The Millers was a multi-camera sitcom that aired on CBS for two seasons, from October 3, 2013 to July 18, 2015. The show was canceled by CBS on November 14, 2014, after only four episodes of its second season. \n",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 7,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "External knowledge",
+        "annotator_name": "Rogger",
+        "summary_span": "sitcom ",
+        "summary_start": 31,
+        "summary_end": 38
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.90967,
+    "meta_hhem-2.1": 0.75794,
+    "meta_hhem-2.1-english": 0.86862,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 809
+  },
+  {
+    "sample_id": 10,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": " Lake Providence is a town located in East Carroll Parish, northeastern Louisiana, USA. The passage mentions that the University of Mississippi, which has a significant presence in the area, has a majority of its undergraduate and overall students originating from Mississippi (55% and 60% respectively). Additionally, 23% of the students are minorities, and international students hail from 90 different countries.",
+    "annotations": [
+      {
+        "annot_id": 10,
+        "sample_id": 10,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Subjective",
+        "annotator_name": "Rogger",
+        "summary_span": "which has a significant presence in the area",
+        "summary_start": 145,
+        "summary_end": 189
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.97387,
+    "meta_hhem-2.1": 0.96092,
+    "meta_hhem-2.1-english": 0.93227,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 20
+  },
+  {
+    "sample_id": 15,
+    "source": "Lake Providence is a town in and the parish seat of East Carroll Parish in northeastern Louisiana , United States . University of Mississippi . About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "summary": "There is no passage provided. You asked me to summarize a passage, but you didn't provide one.",
+    "annotations": [
+      {
+        "annot_id": 14,
+        "sample_id": 15,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "No summary",
+        "annotator_name": "Rogger",
+        "summary_span": "There is no passage provided. You asked me to summarize a passage, but you didn't provide one.",
+        "summary_start": 0,
+        "summary_end": 94
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.05844,
+    "meta_hhem-2.1": 0.63865,
+    "meta_hhem-2.1-english": 0.73733,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 595
+  },
+  {
+    "sample_id": 24,
+    "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+    "summary": "The passage describes a football match where Morton scored first through McManus's goal, followed by a second goal for Morton due to a deflection. Alloa briefly reduced the deficit with a goal by McAusland before half-time. Morton secured their victory with additional goals from McManus and Johnstone in the latter part of the game.",
+    "annotations": [
+      {
+        "annot_id": 16,
+        "sample_id": 24,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Questionable"
+        ],
+        "note": "due to a deflection sounds vague.",
+        "annotator_name": "Rogger",
+        "summary_span": "due to a deflection",
+        "summary_start": 126,
+        "summary_end": 145,
+        "source_span": " Ross Forbes' deflected strike",
+        "source_start": 80,
+        "source_end": 110
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.98619,
+    "meta_hhem-2.1": 0.48264,
+    "meta_hhem-2.1-english": 0.84074,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 500
+  }
+]
