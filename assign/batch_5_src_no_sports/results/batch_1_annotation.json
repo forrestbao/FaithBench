@@ -17,6 +17,20 @@
         "summary_span": "production",
         "summary_start": 78,
         "summary_end": 88
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 0,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary) The budget for a movie may also include non-production budget such as distribution, advertising. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 78,
+        "summary_end": 88
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -29,6 +43,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 15
+  },
+  {
+    "sample_id": 1,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": " Poseidon, a film, grossed $181,674,817 worldwide from a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99971,
+    "meta_hhem-2.1": 0.8193,
+    "meta_hhem-2.1-english": 0.99252,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 130
   },
   {
     "sample_id": 2,
@@ -61,6 +91,20 @@
         "summary_span": "The passage provides financial information about the film \"Poseidon.\"",
         "summary_start": 83,
         "summary_end": 152
+      },
+      {
+        "annot_id": 61,
+        "sample_id": 2,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 184,
+        "summary_end": 194
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -121,6 +165,20 @@
         "summary_span": "moderate financial success",
         "summary_start": 24,
         "summary_end": 50
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 3,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"budget\" (source) vs. \"production budget\" (summary)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 123,
+        "summary_end": 133
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -170,6 +228,19 @@
         "source_span": "grossed ",
         "source_start": 27,
         "source_end": 35
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 4,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not compare the budget over the income. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "exceeding",
+        "summary_start": 49,
+        "summary_end": 58
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -182,6 +253,38 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 475
+  },
+  {
+    "sample_id": 5,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "The film Poseidon grossed $181,674,817 at the worldwide box office on a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.99947,
+    "meta_hhem-2.1": 0.72865,
+    "meta_hhem-2.1-english": 0.98402,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 590
+  },
+  {
+    "sample_id": 6,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "Here is a concise summary of the passage:\n\nThe film \"Poseidon\" grossed $181,674,817 worldwide on a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.99169,
+    "meta_hhem-2.1": 0.7752,
+    "meta_hhem-2.1-english": 0.98362,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 705
   },
   {
     "sample_id": 7,
@@ -197,6 +300,19 @@
         ],
         "note": "the source does not compare the budget and the earning. ",
         "annotator_name": "forrest",
+        "summary_span": "exceeding",
+        "summary_start": 49,
+        "summary_end": 58
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 7,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not compare the budget and the earning. ",
+        "annotator_name": "Renyi Qu",
         "summary_span": "exceeding",
         "summary_start": 49,
         "summary_end": 58
@@ -234,6 +350,20 @@
         "source_span": "budget ",
         "source_start": 82,
         "source_end": 89
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 8,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "budget (source) vs. production budget (summary)",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "production",
+        "summary_start": 76,
+        "summary_end": 86
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -246,6 +376,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 965
+  },
+  {
+    "sample_id": 9,
+    "source": "Poseidon (film) . Poseidon grossed $ 181,674,817 at the worldwide box office on a budget of $ 160 million .",
+    "summary": "\"Poseidon\" grossed $181,674,817 worldwide on a budget of $160 million.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99955,
+    "meta_hhem-2.1": 0.7828,
+    "meta_hhem-2.1-english": 0.9873,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1050
   },
   {
     "sample_id": 10,
@@ -588,6 +734,22 @@
     "meta_sample_id": 990
   },
   {
+    "sample_id": 19,
+    "source": "`` Hourglass '' is a song by British electronic duo Disclosure . Hourglass is singer-songwriter James Taylor 's fourteenth studio album .",
+    "summary": "\"Hourglass\" is a song by the British electronic duo Disclosure. Additionally, \"Hourglass\" is the fourteenth studio album by singer-songwriter James Taylor.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.0158,
+    "meta_hhem-2.1": 0.8886,
+    "meta_hhem-2.1-english": 0.99376,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1041
+  },
+  {
     "sample_id": 20,
     "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
     "summary": " The passage indicates that as of a certain point, over 10 million cases of COVID-19 have been reported in more than 190 countries and 200 territories, leading to over 500,000 deaths.",
@@ -660,6 +822,22 @@
     "meta_sample_id": 112
   },
   {
+    "sample_id": 21,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": " As of the date mentioned, over 190 countries and 200 territories have reported more than cases of COVID-19, leading to over deaths. ( Note: The actual numbers for cases and deaths are missing in the provided passage and should be replaced with the specific figures.)",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.71401,
+    "meta_hhem-2.1": 0.53845,
+    "meta_hhem-2.1-english": 0.95383,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 227
+  },
+  {
     "sample_id": 22,
     "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
     "summary": "Based solely on the information provided in the passage, here is a concise summary covering the core pieces of information:\n\nCOVID-19 has spread globally, with cases reported in over 190 countries and 200 territories. The pandemic has resulted in more than deaths. However, the passage does not provide specific numbers for total cases or deaths, nor does it give a precise date for when this information was current.",
@@ -688,6 +866,118 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 342
+  },
+  {
+    "sample_id": 23,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "\"The COVID-19 pandemic has affected over 190 countries and 200 territories, with a global case count surpassing an unspecified number and a death toll exceeding an unspecified amount.\"",
+    "annotations": [],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.80032,
+    "meta_hhem-2.1": 0.42381,
+    "meta_hhem-2.1-english": 0.79355,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 457
+  },
+  {
+    "sample_id": 24,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "As of the given time point, over 190 countries and 200 territories have reported more than a certain number of COVID-19 cases, with the total exceeding a specific death count.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.98682,
+    "meta_hhem-2.1": 0.73012,
+    "meta_hhem-2.1-english": 0.97192,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 572
+  },
+  {
+    "sample_id": 25,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "Here is a concise summary of the passage:\n\nAs of an unspecified date, there have been over  cases of COVID-19 reported in over 190 countries and 200 territories, resulting in over deaths.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.78207,
+    "meta_hhem-2.1": 0.18209,
+    "meta_hhem-2.1-english": 0.88661,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 687
+  },
+  {
+    "sample_id": 26,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "Here is a concise summary of the passage:\n\n* More than cases of COVID-19 have been reported\n* Cases have been reported in more than 190 countries and 200 territories\n* More than deaths have resulted from COVID-19",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.94081,
+    "meta_hhem-2.1": 0.83235,
+    "meta_hhem-2.1-english": 0.98715,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 802
+  },
+  {
+    "sample_id": 27,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "As of the time of this writing, over 190 countries and 200 territories have reported more than  cases of COVID-19, resulting in more than  deaths. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99443,
+    "meta_hhem-2.1": 0.65749,
+    "meta_hhem-2.1-english": 0.99395,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 917
+  },
+  {
+    "sample_id": 28,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "The passage states that there have been numerous cases of COVID-19 reported in over 190 countries and 200 territories. It also mentions that there have been deaths as a result of the virus.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.98512,
+    "meta_hhem-2.1": 0.93502,
+    "meta_hhem-2.1-english": 0.99527,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 929
+  },
+  {
+    "sample_id": 29,
+    "source": "As of , more than cases of COVID-19 have been reported in more than 190 countries and 200 territories , resulting in more than deaths .",
+    "summary": "As of [date], more than [number] cases of COVID-19 have been reported in over 190 countries and 200 territories, resulting in more than [number] deaths.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.98723,
+    "meta_hhem-2.1": 0.56885,
+    "meta_hhem-2.1-english": 0.95542,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1147
   },
   {
     "sample_id": 30,
@@ -724,6 +1014,34 @@
         "summary_span": "a virus",
         "summary_start": 60,
         "summary_end": 67
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 30,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "As of (source) vs. On (summary) ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "On",
+        "summary_start": 1,
+        "summary_end": 3
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 30,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not say whether the cases are of a virus. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "a virus",
+        "summary_start": 60,
+        "summary_end": 67
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -736,6 +1054,51 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 113
+  },
+  {
+    "sample_id": 31,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": " As of February 22, 2020, there have been 77,984 confirmed cases of a certain disease, spreading across all provinces of China and more than 24 other countries.",
+    "annotations": [
+      {
+        "annot_id": 43,
+        "sample_id": 31,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 31,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.9799,
+    "meta_hhem-2.1": 0.56879,
+    "meta_hhem-2.1-english": 0.85591,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 228
   },
   {
     "sample_id": 32,
@@ -786,6 +1149,96 @@
     "meta_sample_id": 343
   },
   {
+    "sample_id": 33,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of February 22, 2020, nearly 78,000 cases of the disease were confirmed, spreading across all of China's provinces and over 24 other countries worldwide.",
+    "annotations": [
+      {
+        "annot_id": 42,
+        "sample_id": 33,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of the disease ",
+        "summary_start": 45,
+        "summary_end": 60
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 33,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": " of the disease",
+        "summary_start": 44,
+        "summary_end": 59
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.93212,
+    "meta_hhem-2.1": 0.72305,
+    "meta_hhem-2.1-english": 0.92361,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 458
+  },
+  {
+    "sample_id": 34,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, there were 77,984 confirmed cases of the disease, present in all Chinese provinces and over two dozen other countries.",
+    "annotations": [
+      {
+        "annot_id": 41,
+        "sample_id": 34,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of the disease",
+        "summary_start": 58,
+        "summary_end": 72
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 34,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the disease",
+        "summary_start": 58,
+        "summary_end": 72
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99732,
+    "meta_hhem-2.1": 0.72086,
+    "meta_hhem-2.1-english": 0.98571,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 573
+  },
+  {
     "sample_id": 35,
     "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
     "summary": "As of 22 February 2020, there were 77,984 confirmed cases of an illness, spread across all provinces of China and over 25 other countries.",
@@ -834,6 +1287,20 @@
         "summary_span": "over 25 other countries.",
         "summary_start": 114,
         "summary_end": 138
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 35,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an illness",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of an illness,",
+        "summary_start": 58,
+        "summary_end": 72
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -846,6 +1313,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 688
+  },
+  {
+    "sample_id": 36,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "Here is a concise summary of the passage:\n\nAs of February 22, 2020, there were 77,984 confirmed cases, spanning all provinces of China and over two dozen other countries.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.98942,
+    "meta_hhem-2.1": 0.77467,
+    "meta_hhem-2.1-english": 0.99131,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 803
   },
   {
     "sample_id": 37,
@@ -865,6 +1348,20 @@
         "summary_span": "of the virus",
         "summary_start": 59,
         "summary_end": 71
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 37,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not mention any virus",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the virus",
+        "summary_start": 59,
+        "summary_end": 71
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -877,6 +1374,128 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 918
+  },
+  {
+    "sample_id": 38,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "The passage states that as of 22 February 2020, there have been 77,984 confirmed cases of a certain issue. These cases have been reported in all provinces of China as well as in more than two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.9987,
+    "meta_hhem-2.1": 0.88377,
+    "meta_hhem-2.1-english": 0.98553,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 930
+  },
+  {
+    "sample_id": 39,
+    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, 77,984 cases have been confirmed, including cases in all provinces of China and in more than two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99946,
+    "meta_hhem-2.1": 0.75456,
+    "meta_hhem-2.1-english": 0.99302,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1148
+  },
+  {
+    "sample_id": 40,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": " On February 22, 2020, there were 78,629 confirmed cases of a virus, with infections reported in all provinces of China and over two dozen other countries.",
+    "annotations": [
+      {
+        "annot_id": 39,
+        "sample_id": 40,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a virus",
+        "annotator_name": "forrest",
+        "summary_span": "of a virus",
+        "summary_start": 57,
+        "summary_end": 67
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 40,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a virus",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of a virus",
+        "summary_start": 57,
+        "summary_end": 67
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.9971,
+    "meta_hhem-2.1": 0.73738,
+    "meta_hhem-2.1-english": 0.98219,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 114
+  },
+  {
+    "sample_id": 41,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": " As of February 22, 2020, there have been 78,629 confirmed cases of a certain disease, spreading across all provinces of China and more than 24 other countries.",
+    "annotations": [
+      {
+        "annot_id": 38,
+        "sample_id": 41,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 41,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of a certain disease",
+        "summary_start": 65,
+        "summary_end": 85
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.98468,
+    "meta_hhem-2.1": 0.54835,
+    "meta_hhem-2.1-english": 0.84439,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 229
   },
   {
     "sample_id": 42,
@@ -958,6 +1577,20 @@
         "summary_span": "nearly",
         "summary_start": 25,
         "summary_end": 31
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 43,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are of a disease.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the disease",
+        "summary_start": 45,
+        "summary_end": 59
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -970,6 +1603,51 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 459
+  },
+  {
+    "sample_id": 44,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "As of 22 February 2020, there were 78,629 confirmed cases of the disease, present in all Chinese provinces and over two dozen other countries.",
+    "annotations": [
+      {
+        "annot_id": 37,
+        "sample_id": 44,
+        "annotator": "a3ac21668e6249b7978617da547f2708",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a disease",
+        "annotator_name": "forrest",
+        "summary_span": " of the disease",
+        "summary_start": 57,
+        "summary_end": 72
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 44,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an disease",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the disease",
+        "summary_start": 58,
+        "summary_end": 72
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99775,
+    "meta_hhem-2.1": 0.71975,
+    "meta_hhem-2.1-english": 0.98457,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 574
   },
   {
     "sample_id": 45,
@@ -1003,6 +1681,20 @@
         "summary_span": "26",
         "summary_start": 106,
         "summary_end": 108
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 45,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about an illness",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of an unknown illness",
+        "summary_start": 59,
+        "summary_end": 80
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1015,6 +1707,22 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
     "meta_sample_id": 689
+  },
+  {
+    "sample_id": 46,
+    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
+    "summary": "Here is a concise summary of the passage:\n\nAs of 22 February 2020, there were 78,629 confirmed cases of a certain condition, affecting all provinces of China and over two dozen other countries.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.984,
+    "meta_hhem-2.1": 0.67676,
+    "meta_hhem-2.1-english": 0.97077,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 804
   },
   {
     "sample_id": 47,
@@ -1034,6 +1742,20 @@
         "summary_span": "of the virus",
         "summary_start": 59,
         "summary_end": 71
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 47,
+        "annotator": "69a785fa7f454e7da5eef3c608b2133a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source does not say the cases are about a virus",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "of the virus",
+        "summary_start": 59,
+        "summary_end": 71
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1048,189 +1770,35 @@
     "meta_sample_id": 919
   },
   {
-    "sample_id": 44,
+    "sample_id": 48,
     "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
-    "summary": "As of 22 February 2020, there were 78,629 confirmed cases of the disease, present in all Chinese provinces and over two dozen other countries.",
-    "annotations": [
-      {
-        "annot_id": 37,
-        "sample_id": 44,
-        "annotator": "a3ac21668e6249b7978617da547f2708",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the source does not say the cases are about a disease",
-        "annotator_name": "forrest",
-        "summary_span": " of the disease",
-        "summary_start": 57,
-        "summary_end": 72
-      }
-    ],
-    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
-    "meta_hhemv1": 0.99775,
-    "meta_hhem-2.1": 0.71975,
-    "meta_hhem-2.1-english": 0.98457,
+    "summary": "The passage states that as of 22 February 2020, there have been 78,629 confirmed cases of a certain issue. These cases have been reported in all provinces of China as well as in more than two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99884,
+    "meta_hhem-2.1": 0.88337,
+    "meta_hhem-2.1-english": 0.98534,
     "meta_trueteacher": 1,
     "meta_true_nli": 1,
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 574
+    "meta_sample_id": 931
   },
   {
-    "sample_id": 41,
+    "sample_id": 49,
     "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
-    "summary": " As of February 22, 2020, there have been 78,629 confirmed cases of a certain disease, spreading across all provinces of China and more than 24 other countries.",
-    "annotations": [
-      {
-        "annot_id": 38,
-        "sample_id": 41,
-        "annotator": "a3ac21668e6249b7978617da547f2708",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the source does not say the cases are about a disease",
-        "annotator_name": "forrest",
-        "summary_span": "of a certain disease",
-        "summary_start": 65,
-        "summary_end": 85
-      }
-    ],
-    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
-    "meta_hhemv1": 0.98468,
-    "meta_hhem-2.1": 0.54835,
-    "meta_hhem-2.1-english": 0.84439,
-    "meta_trueteacher": 0,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 229
-  },
-  {
-    "sample_id": 40,
-    "source": "As of 22 February 2020 , 78,629 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
-    "summary": " On February 22, 2020, there were 78,629 confirmed cases of a virus, with infections reported in all provinces of China and over two dozen other countries.",
-    "annotations": [
-      {
-        "annot_id": 39,
-        "sample_id": 40,
-        "annotator": "a3ac21668e6249b7978617da547f2708",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the source does not say the cases are about a virus",
-        "annotator_name": "forrest",
-        "summary_span": "of a virus",
-        "summary_start": 57,
-        "summary_end": 67
-      }
-    ],
-    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
-    "meta_hhemv1": 0.9971,
-    "meta_hhem-2.1": 0.73738,
-    "meta_hhem-2.1-english": 0.98219,
-    "meta_trueteacher": 0,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 114
-  },
-  {
-    "sample_id": 34,
-    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
-    "summary": "As of 22 February 2020, there were 77,984 confirmed cases of the disease, present in all Chinese provinces and over two dozen other countries.",
-    "annotations": [
-      {
-        "annot_id": 41,
-        "sample_id": 34,
-        "annotator": "a3ac21668e6249b7978617da547f2708",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the source does not say the cases are about a disease",
-        "annotator_name": "forrest",
-        "summary_span": "of the disease",
-        "summary_start": 58,
-        "summary_end": 72
-      }
-    ],
-    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
-    "meta_hhemv1": 0.99732,
-    "meta_hhem-2.1": 0.72086,
-    "meta_hhem-2.1-english": 0.98571,
+    "summary": "As of 22 February 2020, there have been 78,629 confirmed cases, including in all provinces of China and over two dozen other countries.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.9996,
+    "meta_hhem-2.1": 0.79969,
+    "meta_hhem-2.1-english": 0.99608,
     "meta_trueteacher": 1,
     "meta_true_nli": 1,
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 573
-  },
-  {
-    "sample_id": 33,
-    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
-    "summary": "As of February 22, 2020, nearly 78,000 cases of the disease were confirmed, spreading across all of China's provinces and over 24 other countries worldwide.",
-    "annotations": [
-      {
-        "annot_id": 42,
-        "sample_id": 33,
-        "annotator": "a3ac21668e6249b7978617da547f2708",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the source does not say the cases are about a disease",
-        "annotator_name": "forrest",
-        "summary_span": "of the disease ",
-        "summary_start": 45,
-        "summary_end": 60
-      }
-    ],
-    "meta_model": "cohere/command-r-08-2024",
-    "meta_hhemv1": 0.93212,
-    "meta_hhem-2.1": 0.72305,
-    "meta_hhem-2.1-english": 0.92361,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 458
-  },
-  {
-    "sample_id": 31,
-    "source": "As of 22 February 2020 , 77,984 cases have been confirmed , including in all provinces of China and more than two dozen other countries .",
-    "summary": " As of February 22, 2020, there have been 77,984 confirmed cases of a certain disease, spreading across all provinces of China and more than 24 other countries.",
-    "annotations": [
-      {
-        "annot_id": 43,
-        "sample_id": 31,
-        "annotator": "a3ac21668e6249b7978617da547f2708",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the source does not say the cases are about a disease",
-        "annotator_name": "forrest",
-        "summary_span": "of a certain disease",
-        "summary_start": 65,
-        "summary_end": 85
-      }
-    ],
-    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
-    "meta_hhemv1": 0.9799,
-    "meta_hhem-2.1": 0.56879,
-    "meta_hhem-2.1-english": 0.85591,
-    "meta_trueteacher": 0,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 228
+    "meta_sample_id": 1149
   }
 ]

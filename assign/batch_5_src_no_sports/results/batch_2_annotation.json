@@ -51,26 +51,38 @@
     "meta_sample_id": 7
   },
   {
+    "sample_id": 1,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": " Veeram (Valour) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions. Additionally, a 2016 Indian epic historical drama film with the same name, Veeram (Valour), was written and directed by Jayaraj.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.88347,
+    "meta_hhem-2.1": 0.66172,
+    "meta_hhem-2.1-english": 0.96399,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 122
+  },
+  {
     "sample_id": 2,
     "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
     "summary": "Based on the provided passage, here is a concise summary covering the core information:\n\nThe passage describes two different Indian films, both titled \"Veeram\" (meaning \"Valour\"):\n\n1. A 2014 Tamil action film directed by Siva and produced by Vijaya Productions. \n2. A 2016 epic historical drama film written and directed by Jayaraj. \n\nThe summary highlights that despite sharing the same title, these are two distinct films from different years and genres.",
     "annotations": [
       {
-        "annot_id": 3,
+        "annot_id": 81,
         "sample_id": 2,
         "annotator": "f2e5c33a660b4c32a036c572e4d40831",
         "label": [
-          "Unwanted.Instrinsic",
           "Benign"
         ],
-        "note": "The source just makes statements about 2 films, but it does not highlight or emphasize their differences",
+        "note": "The source just makes statements about 2 films. It might be reasoned from the source.",
         "annotator_name": "Miaoran",
         "summary_span": "The summary highlights that despite sharing the same title, these are two distinct films from different years and genres.",
         "summary_start": 335,
-        "summary_end": 456,
-        "source_span": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
-        "source_start": 0,
-        "source_end": 202
+        "summary_end": 456
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -85,24 +97,122 @@
     "meta_sample_id": 237
   },
   {
+    "sample_id": 3,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "Veeram is an Indian film title used for two different movies. The first is a 2014 Tamil action film directed by Siva, and the second is a 2016 epic historical drama directed by Jayaraj.",
+    "annotations": [],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.9293,
+    "meta_hhem-2.1": 0.81322,
+    "meta_hhem-2.1-english": 0.90269,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 352
+  },
+  {
+    "sample_id": 4,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "The passage describes two different films titled \"Veeram\" (Valour). The first is an Indian Tamil action film from 2014, directed by Siva and produced by Vijaya Productions. The second is an Indian epic historical drama film from 2016, also titled \"Veeram,\" written and directed by Jayaraj.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.40612,
+    "meta_hhem-2.1": 0.85867,
+    "meta_hhem-2.1-english": 0.97438,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 467
+  },
+  {
+    "sample_id": 5,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "There is no passage to provide a summary of. The provided text appears to be a list of two different films, each with their own details. \n\nHowever, if I were to extract a summary, it would be:\n\nTwo films are mentioned: Veeram (Valour), a 2014 Indian Tamil action film and a 2016 Indian epic historical drama film.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.87082,
+    "meta_hhem-2.1": 0.69145,
+    "meta_hhem-2.1-english": 0.77379,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 0,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 582
+  },
+  {
+    "sample_id": 6,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "Here is a concise summary of the passage:\n\nThere are two Indian films named \"Veeram\" (meaning \"Valour\"): one is a 2014 Tamil action film directed by Siva, and the other is a 2016 epic historical drama film written and directed by Jayaraj.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.95952,
+    "meta_hhem-2.1": 0.62348,
+    "meta_hhem-2.1-english": 0.73752,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 697
+  },
+  {
+    "sample_id": 7,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "There are two films titled \"Veeram (Valour)\": one is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions, and the other is a 2016 Indian epic historical drama film written and directed by Jayaraj. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.98545,
+    "meta_hhem-2.1": 0.88362,
+    "meta_hhem-2.1-english": 0.96279,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 812
+  },
+  {
+    "sample_id": 8,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "The passage describes two different films titled \"Veeram.\" The first one is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions. The second one is a 2016 Indian epic historical drama film written and directed by Jayaraj.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.66062,
+    "meta_hhem-2.1": 0.90041,
+    "meta_hhem-2.1-english": 0.96311,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 989
+  },
+  {
+    "sample_id": 9,
+    "source": "Veeram ( Valour ) is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions . Veeram ( Valour ) is a 2016 Indian epic historical drama film written and directed by Jayaraj .",
+    "summary": "The passage describes two different films titled \"Veeram.\" The first is a 2014 Indian Tamil action film directed by Siva and produced by Vijaya Productions. The second is a 2016 Indian epic historical drama film written and directed by Jayaraj.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.58332,
+    "meta_hhem-2.1": 0.89338,
+    "meta_hhem-2.1-english": 0.96336,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1042
+  },
+  {
     "sample_id": 10,
     "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
     "summary": " The passage provides information about two different individuals, Sheryl Lee and Sheryl Lee Ralph. Sheryl Lee, in 2016, appeared in the film Cafe Society and also completed a revival of Twin Peaks in 2017, reprising her role of Laura Palmer. On the other hand, Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
     "annotations": [
-      {
-        "annot_id": 5,
-        "sample_id": 10,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "There is no mention that Cafe Society is a film",
-        "annotator_name": "Miaoran",
-        "summary_span": "the film Cafe Society",
-        "summary_start": 133,
-        "summary_end": 154
-      },
       {
         "annot_id": 8,
         "sample_id": 10,
@@ -136,6 +246,19 @@
         "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
         "source_start": 176,
         "source_end": 234
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 10,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film Cafe Society",
+        "summary_start": 133,
+        "summary_end": 154
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -214,6 +337,119 @@
     "meta_sample_id": 124
   },
   {
+    "sample_id": 12,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "Based on the provided passage, here is a concise summary covering the core information:\n\nThe passage mentions two different actresses named Sheryl:\n\n1. Sheryl Lee:\n- Appeared in the film \"Café Society\" in 2016\n- Reprised her role as Laura Palmer in the 2017 Showtime revival of \"Twin Peaks\"\n\n2. Sheryl Lee Ralph:\n- Played the role of Madame Morrible in the Broadway production of \"Wicked\" in 2016",
+    "annotations": [
+      {
+        "annot_id": 60,
+        "sample_id": 12,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheryl Lee Ralph:\n- Played the role of Madame Morrible in the Broadway production of \"Wicked\" in 2016",
+        "summary_start": 295,
+        "summary_end": 396,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.65835,
+    "meta_hhem-2.1": 0.88476,
+    "meta_hhem-2.1-english": 0.96409,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 239
+  },
+  {
+    "sample_id": 13,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "In 2016, Sheryl Lee appeared in the film 'Café Society' and the Showtime revival of 'Twin Peaks' (2017), reprising her role as Laura Palmer. That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
+    "annotations": [
+      {
+        "annot_id": 61,
+        "sample_id": 13,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "(1) That same year is not clear based on context, could be 2016 or 2017. But the source clearly mentioned 2016.\n(2) Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
+        "summary_start": 141,
+        "summary_end": 236
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.70588,
+    "meta_hhem-2.1": 0.87193,
+    "meta_hhem-2.1-english": 0.9769,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 354
+  },
+  {
+    "sample_id": 14,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "In 2016, Sheryl Lee appeared in the film \"Café Society\" and reprised her role as Laura Palmer in the Showtime revival of \"Twin Peaks.\" Additionally, Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in the same year.",
+    "annotations": [
+      {
+        "annot_id": 62,
+        "sample_id": 14,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The she completed the Twin Peaks in 2017, not 2016, so the same year is not correct based on source.",
+        "annotator_name": "Weisi",
+        "summary_span": "In 2016, Sheryl Lee appeared in the film \"Café Society\" and reprised her role as Laura Palmer in the Showtime revival of \"Twin Peaks.\"",
+        "summary_start": 0,
+        "summary_end": 134,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 14,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Additionally, Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in the same year.",
+        "summary_start": 135,
+        "summary_end": 245
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.72882,
+    "meta_hhem-2.1": 0.88938,
+    "meta_hhem-2.1-english": 0.97851,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 469
+  },
+  {
     "sample_id": 15,
     "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
     "summary": "Here is a concise summary of the passage:\n\nSheryl Lee and Sheryl Lee Ralph are two separate individuals who have worked in the entertainment industry. In 2016, Sheryl Lee appeared in Café Society and completed the revival of Twin Peaks. In the same year, Sheryl Lee Ralph played Madame Morrible in Wicked on Broadway.",
@@ -261,24 +497,44 @@
     "meta_sample_id": 584
   },
   {
+    "sample_id": 16,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions two actresses, Sheryl Lee and Sheryl Lee Ralph. Sheryl Lee appeared in \"Café Society\" (2016) and reprised her role as Laura Palmer in the \"Twin Peaks\" revival (2017). Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in 2016.",
+    "annotations": [
+      {
+        "annot_id": 65,
+        "sample_id": 16,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in 2016.",
+        "summary_start": 232,
+        "summary_end": 319,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.91307,
+    "meta_hhem-2.1": 0.90403,
+    "meta_hhem-2.1-english": 0.99082,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 699
+  },
+  {
     "sample_id": 17,
     "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
     "summary": "Sheryl Lee appeared in the film *Café Society* in 2016 and reprised her role as Laura Palmer in the Showtime revival of *Twin Peaks* in 2017. Sheryl Lee Ralph played Madame Morrible in the Broadway production of *Wicked* in 2016. \n",
     "annotations": [
-      {
-        "annot_id": 15,
-        "sample_id": 17,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "There's no mention that Cafe Society is a film",
-        "annotator_name": "Miaoran",
-        "summary_span": "the film *Café Society",
-        "summary_start": 23,
-        "summary_end": 46
-      },
       {
         "annot_id": 16,
         "sample_id": 17,
@@ -312,6 +568,19 @@
         "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
         "source_start": 176,
         "source_end": 234
+      },
+      {
+        "annot_id": 83,
+        "sample_id": 17,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film *Café Society*",
+        "summary_start": 23,
+        "summary_end": 47
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -330,20 +599,6 @@
     "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
     "summary": "The passage mentions two actresses, Sheryl Lee and Sheryl Lee Ralph. In 2016, Sheryl Lee appeared in the film Café Society and reprised her role as Laura Palmer in the Showtime revival of Twin Peaks. Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
     "annotations": [
-      {
-        "annot_id": 18,
-        "sample_id": 18,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "There's no mention that Cafe Society is a film",
-        "annotator_name": "Miaoran",
-        "summary_span": "the film Café Society",
-        "summary_start": 101,
-        "summary_end": 123
-      },
       {
         "annot_id": 67,
         "sample_id": 18,
@@ -377,6 +632,19 @@
         "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
         "source_start": 13,
         "source_end": 156
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 18,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film Café Society",
+        "summary_start": 101,
+        "summary_end": 123
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -389,6 +657,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 968
+  },
+  {
+    "sample_id": 19,
+    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
+    "summary": "Sheryl Lee appeared in Café Society in 2016 and reprised her role as Laura Palmer in the 2017 Showtime revival of Twin Peaks. Sheryl Lee Ralph played Madame Morrible in Wicked on Broadway in 2016.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99063,
+    "meta_hhem-2.1": 0.89542,
+    "meta_hhem-2.1-english": 0.98658,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1044
   },
   {
     "sample_id": 20,
@@ -688,23 +972,6 @@
     "summary": "Here is a concise summary of the passage:\n\nThe passage provides information about two individuals. Albert Lawrence Brooks is an American actor, filmmaker, author, and comedian, born on July 22, 1947, as Albert Lawrence Einstein. Additionally, it mentions the film \"Finding Dory\", directed by Andrew Stanton and Angus MacLane, with a screenplay written by Stanton and Victoria Strouse.",
     "annotations": [
       {
-        "annot_id": 32,
-        "sample_id": 26,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Albert Lawrence Einstein and Albert Lawrence Brooks are two names of a single person",
-        "annotator_name": "Miaoran",
-        "summary_span": "The passage provides information about two individuals",
-        "summary_start": 43,
-        "summary_end": 97,
-        "source_span": "Albert Lawrence Brooks ( born Albert Lawrence Einstein",
-        "source_start": 0,
-        "source_end": 54
-      },
-      {
         "annot_id": 33,
         "sample_id": 26,
         "annotator": "f2e5c33a660b4c32a036c572e4d40831",
@@ -716,6 +983,37 @@
         "summary_span": "the film ",
         "summary_start": 255,
         "summary_end": 264
+      },
+      {
+        "annot_id": 85,
+        "sample_id": 26,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Only one individual, Albert is mentioned",
+        "annotator_name": "Weisi",
+        "summary_span": "The passage provides information about two individuals. ",
+        "summary_start": 43,
+        "summary_end": 99
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 26,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not sure why the summary says \"two individuals\". If \"two individual\" refers to Albert Lawrence Einstein and Albert Lawrence Brooks, they are actually two names of a single person. If taking people related to \"Finding Dory\" into consideration, there are more than two individuals",
+        "annotator_name": "Miaoran",
+        "summary_span": "The passage provides information about two individuals. ",
+        "summary_start": 43,
+        "summary_end": 99,
+        "source_span": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian .",
+        "source_start": 0,
+        "source_end": 130
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -884,6 +1182,34 @@
         "summary_span": "Canadian",
         "summary_start": 250,
         "summary_end": 258
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 30,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From source we don't know if they have different nationalities.",
+        "annotator_name": "Weisi",
+        "summary_span": "nationalities.",
+        "summary_start": 105,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 30,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From source we don't know his nationality.",
+        "annotator_name": "Weisi",
+        "summary_span": " Canadian musician",
+        "summary_start": 249,
+        "summary_end": 267
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -896,6 +1222,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 11
+  },
+  {
+    "sample_id": 31,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": " Timothy Simon Roth, born on May 14, 1961, is an English actor and director. Tim Roth, born on December 6, 1975, is the guitarist, backing vocalist, and the only remaining founding member of the Canadian melodic death metal and progressive metal band, Into Eternity.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99721,
+    "meta_hhem-2.1": 0.92433,
+    "meta_hhem-2.1-english": 0.99658,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 126
   },
   {
     "sample_id": 32,
@@ -915,6 +1257,20 @@
         "summary_span": "Canadian",
         "summary_start": 240,
         "summary_end": 248
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 32,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From source we don't know his nationality.",
+        "annotator_name": "Weisi",
+        "summary_span": "Canadian",
+        "summary_start": 240,
+        "summary_end": 248
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -927,6 +1283,54 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 241
+  },
+  {
+    "sample_id": 33,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "Timothy Simon Roth, born May 14, 1961, is an English actor and director. Another Tim Roth, born December 6, 1975, is a musician and the last original member of the Canadian metal band, Into Eternity.",
+    "annotations": [],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.9137,
+    "meta_hhem-2.1": 0.90005,
+    "meta_hhem-2.1-english": 0.98998,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 356
+  },
+  {
+    "sample_id": 34,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "The passage contains two separate pieces of information about individuals named Tim Roth. The first is an English actor and director born on May 14, 1961. The second is a guitarist and founding member of the Canadian band Into Eternity, born on December 6, 1975.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.88952,
+    "meta_hhem-2.1": 0.92103,
+    "meta_hhem-2.1-english": 0.99276,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 471
+  },
+  {
+    "sample_id": 35,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "Here is a concise summary of the passage:\n\nThe passage describes two individuals with the name Tim Roth: one is an English actor and director born on May 14, 1961, and the other is a musician born on December 6, 1975, who is a founding member of the Canadian band Into Eternity.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.94598,
+    "meta_hhem-2.1": 0.92305,
+    "meta_hhem-2.1-english": 0.9946,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 586
   },
   {
     "sample_id": 36,
@@ -946,6 +1350,20 @@
         "summary_span": "Canadian",
         "summary_start": 191,
         "summary_end": 199
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 36,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From the source we don't know his nationality.",
+        "annotator_name": "Weisi",
+        "summary_span": "Canadian",
+        "summary_start": 191,
+        "summary_end": 199
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -958,6 +1376,54 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 701
+  },
+  {
+    "sample_id": 37,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "Timothy Simon Roth, born May 14, 1961, is an English actor and director. Tim Roth, born December 6, 1975, is the guitarist, backing vocalist, and only remaining founding member of the Canadian metal band Into Eternity. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99735,
+    "meta_hhem-2.1": 0.78472,
+    "meta_hhem-2.1-english": 0.99409,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 816
+  },
+  {
+    "sample_id": 38,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "The passage describes two individuals named Timothy Simon Roth and Tim Roth. Timothy Simon Roth is an English actor and director, born on May 14, 1961. Tim Roth, on the other hand, is a guitarist, backing vocalist, and the only remaining founding member of the Canadian melodic death metal and progressive metal band, Into Eternity.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99186,
+    "meta_hhem-2.1": 0.92496,
+    "meta_hhem-2.1-english": 0.99458,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 986
+  },
+  {
+    "sample_id": 39,
+    "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
+    "summary": "The passage describes two individuals named Tim Roth. The first, Timothy Simon Roth, born on May 14, 1961, is an English actor and director. The second, Tim Roth, born on December 6, 1975, is the guitarist, backing vocalist, and only remaining founding member of the Canadian melodic death metal and progressive metal band, Into Eternity.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.90198,
+    "meta_hhem-2.1": 0.94003,
+    "meta_hhem-2.1-english": 0.99497,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1046
   },
   {
     "sample_id": 40,
@@ -977,6 +1443,23 @@
         "summary_span": "is currently conducting",
         "summary_start": 292,
         "summary_end": 315,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 40,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It already happened, so it is not currently ongoing.",
+        "annotator_name": "Weisi",
+        "summary_span": "Police Scotland is currently conducting ongoing inquiries into the incident.",
+        "summary_start": 276,
+        "summary_end": 352,
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
@@ -1041,6 +1524,23 @@
         "summary_span": "A car crash on the A9 north of Berriedale in Caithness happened around 14:00",
         "summary_start": 1,
         "summary_end": 77
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 41,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It is happened from the past, so currently ongoing is not correct.",
+        "annotator_name": "Weisi",
+        "summary_span": "Police Scotland is conducting ongoing investigations into the incident",
+        "summary_start": 210,
+        "summary_end": 280,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1103,6 +1603,23 @@
         "summary_span": " One person died, ",
         "summary_start": 158,
         "summary_end": 176
+      },
+      {
+        "annot_id": 93,
+        "sample_id": 42,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It happened from past, so currently ongoing is not correct.",
+        "annotator_name": "Weisi",
+        "summary_span": "Police Scotland is currently investigating the incident.",
+        "summary_start": 305,
+        "summary_end": 361,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1199,6 +1716,23 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
+      },
+      {
+        "annot_id": 94,
+        "sample_id": 44,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's happened from past, currently ongoing is not correct.",
+        "annotator_name": "Weisi",
+        "summary_span": "Police Scotland is conducting further investigations into the incident.",
+        "summary_start": 216,
+        "summary_end": 287,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1261,6 +1795,23 @@
         "summary_span": "\n\nA multi-vehicle crash occurred on the A9 north of Berriedale in Caithness at around 14:00, resulting in minor injuries to several people",
         "summary_start": 41,
         "summary_end": 179
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 45,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions the accident from past, so currently ongoing is not correct.",
+        "annotator_name": "Weisi",
+        "summary_span": " and police investigations are ongoing.",
+        "summary_start": 230,
+        "summary_end": 269,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1373,6 +1924,23 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 47,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The investigation at that time was ongoing, currently  investigating is no consistent with source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Police Scotland is currently investigating the incident.",
+        "summary_start": 220,
+        "summary_end": 276,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1407,6 +1975,23 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
+      },
+      {
+        "annot_id": 98,
+        "sample_id": 48,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The investigation at that time was ongoing, currently  investigating is no consistent with source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Police Scotland is currently conducting investigations into the incident.",
+        "summary_start": 283,
+        "summary_end": 356,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1421,150 +2006,34 @@
     "meta_sample_id": 982
   },
   {
-    "sample_id": 12,
-    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
-    "summary": "Based on the provided passage, here is a concise summary covering the core information:\n\nThe passage mentions two different actresses named Sheryl:\n\n1. Sheryl Lee:\n- Appeared in the film \"Café Society\" in 2016\n- Reprised her role as Laura Palmer in the 2017 Showtime revival of \"Twin Peaks\"\n\n2. Sheryl Lee Ralph:\n- Played the role of Madame Morrible in the Broadway production of \"Wicked\" in 2016",
+    "sample_id": 49,
+    "source": "The incident occurred on the A9 north of Berriedale in Caithness at about 14:00. Several other people received minor injuries in the crash. The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road. Police Scotland said inquiries into the incident were ongoing.",
+    "summary": "The incident happened on the A9 north of Berriedale in Caithness at around 14:00, resulting in several people sustaining minor injuries. The road was closed, and diversions were set up via the A897 Helmsdale to Melvich road. Police Scotland stated that investigations into the incident are ongoing.",
     "annotations": [
       {
-        "annot_id": 60,
-        "sample_id": 12,
+        "annot_id": 99,
+        "sample_id": 49,
         "annotator": "5fddd5f671c349668d712192d090e867",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
+        "note": "The investigation at that time was ongoing, are ongoing is no consistent with source.",
         "annotator_name": "Weisi",
-        "summary_span": "Sheryl Lee Ralph:\n- Played the role of Madame Morrible in the Broadway production of \"Wicked\" in 2016",
-        "summary_start": 295,
-        "summary_end": 396,
-        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
-        "source_start": 176,
-        "source_end": 234
+        "summary_span": " Police Scotland stated that investigations into the incident are ongoing.",
+        "summary_start": 224,
+        "summary_end": 298
       }
     ],
-    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
-    "meta_hhemv1": 0.65835,
-    "meta_hhem-2.1": 0.88476,
-    "meta_hhem-2.1-english": 0.96409,
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99973,
+    "meta_hhem-2.1": 0.92361,
+    "meta_hhem-2.1-english": 0.99627,
     "meta_trueteacher": 1,
     "meta_true_nli": 1,
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 239
-  },
-  {
-    "sample_id": 13,
-    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
-    "summary": "In 2016, Sheryl Lee appeared in the film 'Café Society' and the Showtime revival of 'Twin Peaks' (2017), reprising her role as Laura Palmer. That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
-    "annotations": [
-      {
-        "annot_id": 61,
-        "sample_id": 13,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "(1) That same year is not clear based on context, could be 2016 or 2017. But the source clearly mentioned 2016.\n(2) Broadway production of Wicked may not be same with Wicked on Broadway.",
-        "annotator_name": "Weisi",
-        "summary_span": "That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
-        "summary_start": 141,
-        "summary_end": 236
-      }
-    ],
-    "meta_model": "cohere/command-r-08-2024",
-    "meta_hhemv1": 0.70588,
-    "meta_hhem-2.1": 0.87193,
-    "meta_hhem-2.1-english": 0.9769,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 354
-  },
-  {
-    "sample_id": 14,
-    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
-    "summary": "In 2016, Sheryl Lee appeared in the film \"Café Society\" and reprised her role as Laura Palmer in the Showtime revival of \"Twin Peaks.\" Additionally, Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in the same year.",
-    "annotations": [
-      {
-        "annot_id": 62,
-        "sample_id": 14,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The she completed the Twin Peaks in 2017, not 2016, so the same year is not correct based on source.",
-        "annotator_name": "Weisi",
-        "summary_span": "In 2016, Sheryl Lee appeared in the film \"Café Society\" and reprised her role as Laura Palmer in the Showtime revival of \"Twin Peaks.\"",
-        "summary_start": 0,
-        "summary_end": 134,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
-      },
-      {
-        "annot_id": 63,
-        "sample_id": 14,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
-        "annotator_name": "Weisi",
-        "summary_span": "Additionally, Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in the same year.",
-        "summary_start": 135,
-        "summary_end": 245
-      }
-    ],
-    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
-    "meta_hhemv1": 0.72882,
-    "meta_hhem-2.1": 0.88938,
-    "meta_hhem-2.1-english": 0.97851,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 469
-  },
-  {
-    "sample_id": 16,
-    "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
-    "summary": "Here is a concise summary of the passage:\n\nThe passage mentions two actresses, Sheryl Lee and Sheryl Lee Ralph. Sheryl Lee appeared in \"Café Society\" (2016) and reprised her role as Laura Palmer in the \"Twin Peaks\" revival (2017). Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in 2016.",
-    "annotations": [
-      {
-        "annot_id": 65,
-        "sample_id": 16,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Broadway production of Wicked may not be same with Wicked on Broadway.",
-        "annotator_name": "Weisi",
-        "summary_span": "Sheryl Lee Ralph played Madame Morrible in the Broadway production of \"Wicked\" in 2016.",
-        "summary_start": 232,
-        "summary_end": 319,
-        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
-        "source_start": 176,
-        "source_end": 234
-      }
-    ],
-    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-    "meta_hhemv1": 0.91307,
-    "meta_hhem-2.1": 0.90403,
-    "meta_hhem-2.1-english": 0.99082,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 699
+    "meta_sample_id": 1069
   }
 ]
