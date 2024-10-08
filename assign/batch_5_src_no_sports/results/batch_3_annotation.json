@@ -147,6 +147,22 @@
         "summary_span": "but CBS cancelled the show in November 2014 during its second season.",
         "summary_start": 151,
         "summary_end": 220
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 3,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Benign"
+        ],
+        "note": "using external knowledge",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "sitcom",
+        "summary_start": 28,
+        "summary_end": 34,
+        "source_span": "The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS .",
+        "source_start": 14,
+        "source_end": 129
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -308,6 +324,22 @@
         "source_span": "CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
         "source_start": 130,
         "source_end": 246
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 7,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Benign"
+        ],
+        "note": "external knowledge",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "sitcom",
+        "summary_start": 31,
+        "summary_end": 37,
+        "source_span": "The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS .",
+        "source_start": 14,
+        "source_end": 129
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -398,6 +430,20 @@
         "annotator_name": "Vivek",
         "summary_span": " has a significant presence in the area",
         "summary_start": 150,
+        "summary_end": 189
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 10,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "which has a significant presence in the area",
+        "summary_start": 145,
         "summary_end": 189
       }
     ],
@@ -772,7 +818,21 @@
     "sample_id": 22,
     "source": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes a football match between Morton and Alloa. Morton won the game 4-1. McManus scored two goals for Morton, while Forbes and Johnstone each scored one. McAusland scored the only goal for Alloa. Morton took an early 2-0 lead, Alloa pulled one back before halftime, but Morton secured the win with two more goals in the second half.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 63,
+        "sample_id": 22,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": "football match",
+        "summary_start": 107,
+        "summary_end": 121
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.57524,
     "meta_hhem-2.1": 0.09842,
@@ -845,6 +905,19 @@
         "summary_span": "football match",
         "summary_start": 27,
         "summary_end": 41
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 23,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Rogger",
+        "summary_span": "football match",
+        "summary_start": 27,
+        "summary_end": 41
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -864,22 +937,6 @@
     "summary": "The passage describes a football match where Morton scored first through McManus's goal, followed by a second goal for Morton due to a deflection. Alloa briefly reduced the deficit with a goal by McAusland before half-time. Morton secured their victory with additional goals from McManus and Johnstone in the latter part of the game.",
     "annotations": [
       {
-        "annot_id": 16,
-        "sample_id": 24,
-        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
-        "label": [
-          "Questionable"
-        ],
-        "note": "due to a deflection sounds vague.",
-        "annotator_name": "Rogger",
-        "summary_span": "due to a deflection",
-        "summary_start": 126,
-        "summary_end": 145,
-        "source_span": " Ross Forbes' deflected strike",
-        "source_start": 80,
-        "source_end": 110
-      },
-      {
         "annot_id": 49,
         "sample_id": 24,
         "annotator": "1612324899bf4cdb8108aa6a26aa285c",
@@ -891,6 +948,23 @@
         "summary_span": "football match",
         "summary_start": 24,
         "summary_end": 38
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 24,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "due to a deflection is vague",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "due to a deflection",
+        "summary_start": 126,
+        "summary_end": 145,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead.",
+        "source_start": 0,
+        "source_end": 141
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1370,13 +1444,13 @@
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage mentions three distinct topics:\n\n1. \" Excuse My French\" is the debut studio album by American rapper French Montana. \n\n2. \" Excuse My French\" is also the title of a 2014 Egyptian comedy film directed by Amr Salama, based on his personal experiences in an Egyptian public middle school after returning from Saudi Arabia. \n\n3. Benjamin Paul Ballance-Drew, born on October 22, 1983, is a British artist known professionally as Plan B or Ben Drew. He is a hip hop recording artist, actor, film director, and producer.",
     "annotations": [
       {
-        "annot_id": 21,
+        "annot_id": 61,
         "sample_id": 42,
         "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
         "label": [
-          "Questionable"
+          "Benign"
         ],
-        "note": "professionally =?= professionally",
+        "note": "primarily ~ professionally",
         "annotator_name": "Rogger",
         "summary_span": "professionally ",
         "summary_start": 501,

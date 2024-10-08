@@ -47,6 +47,37 @@
         "summary_span": "UK's May election for the European Parliament",
         "summary_start": 120,
         "summary_end": 165
+      },
+      {
+        "annot_id": 157,
+        "sample_id": 0,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the European Parliament is not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "the European Parliament",
+        "summary_start": 142,
+        "summary_end": 165
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 0,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the Tories spent the most",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP spent the most at £2,956,737",
+        "summary_start": 167,
+        "summary_end": 200,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -212,6 +243,23 @@
         "summary_span": "spent significantly less ",
         "summary_start": 432,
         "summary_end": 457
+      },
+      {
+        "annot_id": 159,
+        "sample_id": 3,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Tories spent more",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "closely followed by the Tories",
+        "summary_start": 173,
+        "summary_end": 203,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -259,6 +307,23 @@
         "summary_span": "at £2,956,737, followed by the Conservatives (£2,980,815)",
         "summary_start": 142,
         "summary_end": 199
+      },
+      {
+        "annot_id": 160,
+        "sample_id": 4,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Torie spent the most",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "UKIP spent the most at £2,956,737",
+        "summary_start": 122,
+        "summary_end": 155,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May.",
+        "source_start": 0,
+        "source_end": 292
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -304,6 +369,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 637
+  },
+  {
+    "sample_id": 6,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe passage reports on the campaign expenditure of major UK parties in the May European election. The spending figures are: UKIP (£2,956,737), Tories (£2,980,815), Lib Dems (£1,580,575), Labour (£1,027,339), and Green Party (£534,249). The figures translate to a cost per vote of 68p for UKIP, 26p for Labour, 79p for the Conservatives, and £1.45 for the Lib Dems. The six highest-spending parties spent a total of £9,347,087, with all but Labour spending more than in the 2009 European election campaign.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.95245,
+    "meta_hhem-2.1": 0.88443,
+    "meta_hhem-2.1-english": 0.97759,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 752
   },
   {
     "sample_id": 7,
@@ -363,6 +444,38 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 867
+  },
+  {
+    "sample_id": 8,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "The passage provides information on the campaign expenditures of various political parties in the UK for the European election. UKIP spent £2,956,737, the Tories spent £2,980,815, the Lib Dems spent £1,580,575, Labour spent £1,027,339, and the Green Party spent £534,249. The figures cover the campaign period from 23 January to polling day, 22 May. The passage also mentions the cost per vote for each party, with UKIP spending 68p per vote, Labour spending 26p per vote, the Conservatives spending 79p per vote, and the Lib Dems spending £1.45 per vote. The six highest-spending parties, including the SNP, spent a total of £9,347,087 on campaigning, with all parties except Labour spending more than they did in the 2009 European election campaign.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.94403,
+    "meta_hhem-2.1": 0.95248,
+    "meta_hhem-2.1-english": 0.98879,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 988
+  },
+  {
+    "sample_id": 9,
+    "source": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,The Lib Dems spent £1,580,575 and lost all but one of their MEPs - Labour, which came second, spent £1,027,339.The figures cover the campaign period from 23 January to polling day, 22 May. UKIP's campaign spending works out at 68p for each of their 4,376,635 votes. For Labour it is 26p per vote, the Conservatives 79p and the Lib Dems, who lost 11 of their 12 MEPs, £1.45. The Green Party, which came fourth, spent £534,249 on its campaign - 43p for each of its 1,255,573 votes. Including the SNP's £267,372, the six highest-spending parties spent a total of £9,347,087 on campaigning, the Electoral Commission said. All but Labour spent more than they did during the 2009 European election campaign.",
+    "summary": "In the recent election, UKIP, which won, spent £2,956,737, while the Tories spent £2,980,815. The Lib Dems spent £1,580,575 and lost all but one of their MEPs, and Labour, which came second, spent £1,027,339. The campaign period was from 23 January to 22 May. UKIP's spending was 68p per vote, Labour's 26p, the Conservatives' 79p, and the Lib Dems' £1.45. The Green Party spent £534,249, or 43p per vote. Including the SNP's £267,372, the top six parties spent a total of £9,347,087. All but Labour spent more than in the 2009 European election campaign.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.98989,
+    "meta_hhem-2.1": 0.94177,
+    "meta_hhem-2.1-english": 0.99305,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1097
   },
   {
     "sample_id": 10,
@@ -454,6 +567,20 @@
         "summary_span": "will voice Gaston's sidekick LeFou",
         "summary_start": 376,
         "summary_end": 410
+      },
+      {
+        "annot_id": 161,
+        "sample_id": 10,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned about live-action remake",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 25,
+        "summary_end": 43
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -466,6 +593,63 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 64
+  },
+  {
+    "sample_id": 11,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": " The upcoming film features Emma Watson as Belle, with Harry Potter star Emma Watson, Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles. Kevin Kline will play Maurice, and the star will portray Mrs. Potts, a character previously voiced by Dame Angela Lansbury in the 1991 animated version. The film, directed by Bill Condon, will be released in US cinemas on March 17, 2017, and will begin filming at Shepperton Studios in May.",
+    "annotations": [
+      {
+        "annot_id": 73,
+        "sample_id": 11,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "is the beast a supporting role?",
+        "annotator_name": "Manveer",
+        "summary_span": "Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles",
+        "summary_start": 86,
+        "summary_end": 162
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 11,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this line is missing some context. The star being referred to was likely mentioned in a cut-off line before the source began",
+        "annotator_name": "Manveer",
+        "summary_span": " the star will portray Mrs. Potts",
+        "summary_start": 198,
+        "summary_end": 231
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 11,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned in supporting roles",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "in supporting roles",
+        "summary_start": 143,
+        "summary_end": 162
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.93369,
+    "meta_hhem-2.1": 0.88214,
+    "meta_hhem-2.1-english": 0.98412,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 179
   },
   {
     "sample_id": 12,
@@ -619,6 +803,20 @@
         "summary_span": "Emma Thompson as Mrs. Potts",
         "summary_start": 161,
         "summary_end": 188
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 13,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 38,
+        "summary_end": 56
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -707,6 +905,20 @@
         "summary_span": "with a release date of March 17, 2017",
         "summary_start": 412,
         "summary_end": 449
+      },
+      {
+        "annot_id": 164,
+        "sample_id": 14,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 64,
+        "summary_end": 86
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -809,6 +1021,20 @@
         "summary_span": "he film will be released on March 17, 2017",
         "summary_start": 232,
         "summary_end": 274
+      },
+      {
+        "annot_id": 166,
+        "sample_id": 15,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action film",
+        "summary_start": 47,
+        "summary_end": 63
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -868,6 +1094,20 @@
         "summary_span": "\n\nThe live-action remake o",
         "summary_start": 41,
         "summary_end": 67
+      },
+      {
+        "annot_id": 167,
+        "sample_id": 16,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 47,
+        "summary_end": 65
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -957,6 +1197,20 @@
         "summary_span": " Emma Thompson as Mrs. Potts",
         "summary_start": 217,
         "summary_end": 245
+      },
+      {
+        "annot_id": 168,
+        "sample_id": 17,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " live-action adaptation ",
+        "summary_start": 3,
+        "summary_end": 27
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1016,6 +1270,20 @@
         "summary_span": "\"Beauty and the Beast.",
         "summary_start": 108,
         "summary_end": 130
+      },
+      {
+        "annot_id": 169,
+        "sample_id": 18,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 73,
+        "summary_end": 95
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1075,6 +1343,20 @@
         "summary_span": "Beauty and the Beast.\" ",
         "summary_start": 86,
         "summary_end": 109
+      },
+      {
+        "annot_id": 170,
+        "sample_id": 19,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 59,
+        "summary_end": 81
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1087,6 +1369,115 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 1099
+  },
+  {
+    "sample_id": 20,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": " Ann Richards, born September 1, 1933, served as the 45th Governor of Texas from 1991 to 1995. She was a Democrat and the second female governor of Texas. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election in 1994 by George W. Bush. Ann Richards is not the same person as the governor; Ann Richards, born October 1, 1935, was an American jazz singer and the wife of pianist Stan Kenton. The latter Ann Richards passed away in April 1982.",
+    "annotations": [
+      {
+        "annot_id": 100,
+        "sample_id": 20,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not sure if it is appropriate to shorten her name this way",
+        "annotator_name": "Manveer",
+        "summary_span": "Ann Richards,",
+        "summary_start": 1,
+        "summary_end": 14
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.4193,
+    "meta_hhem-2.1": 0.93139,
+    "meta_hhem-2.1-english": 0.93347,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 5
+  },
+  {
+    "sample_id": 21,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": " Dorothy Ann Willis Richards (September 1, 1933 - September 13, 2006) was an American politician and the 45th Governor of Texas from 1991 to 1995. A Democrat, she gained national attention as the state treasurer of Texas and delivered the keynote address at the 1988 Democratic National Convention. Richards was the second female governor of Texas, known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. Ann Richards (October 1, 1935 - April 1, 1982) was an American jazz singer and the wife of pianist Stan Kenton. The passage does not seem to connect Ann Richards to Dorothy Ann Willis Richards.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.557,
+    "meta_hhem-2.1": 0.75262,
+    "meta_hhem-2.1-english": 0.97079,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 120
+  },
+  {
+    "sample_id": 22,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nDorothy Ann Willis Richards was an American Democratic politician who served as the 45th Governor of Texas from 1991 to 1995. She gained national attention as the state treasurer of Texas when she delivered the keynote address at the 1988 Democratic National Convention. Richards was the second female governor of Texas and was known for her outspoken feminism and memorable one-liners. She lost her re-election bid in 1994 to George W. Bush. The passage also briefly mentions another Ann Richards, an American jazz singer who was married to pianist Stan Kenton.",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.91679,
+    "meta_hhem-2.1": 0.83349,
+    "meta_hhem-2.1-english": 0.95268,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 235
+  },
+  {
+    "sample_id": 23,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Dorothy Ann Willis Richards, an American politician, served as the 45th Governor of Texas from 1991 to 1995. She was the second female governor of Texas and known for her feminism and wit. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election by George W. Bush in 1994. Another Ann Richards, an American jazz singer, was married to pianist Stan Kenton and passed away in 1982.",
+    "annotations": [
+      {
+        "annot_id": 101,
+        "sample_id": 23,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "she was known for her one-liners. Not exactly her wit",
+        "annotator_name": "Manveer",
+        "summary_span": " and wit",
+        "summary_start": 179,
+        "summary_end": 187
+      },
+      {
+        "annot_id": 171,
+        "sample_id": 23,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "one-liners not wit",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "and wit",
+        "summary_start": 180,
+        "summary_end": 187,
+        "source_span": "Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners .",
+        "source_start": 445,
+        "source_end": 581
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.99844,
+    "meta_hhem-2.1": 0.88481,
+    "meta_hhem-2.1-english": 0.96098,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 350
   },
   {
     "sample_id": 24,
@@ -1134,6 +1525,100 @@
     "meta_sample_id": 465
   },
   {
+    "sample_id": 25,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Here is a concise summary of the passage:\n\nDorothy Ann Willis Richards was a Democrat who served as the 45th Governor of Texas from 1991 to 1995, becoming the second female governor of Texas. She was known for her outspoken feminism and one-liners, and was defeated in re-election by George W. Bush in 1994.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.99541,
+    "meta_hhem-2.1": 0.93393,
+    "meta_hhem-2.1-english": 0.98054,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 580
+  },
+  {
+    "sample_id": 26,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Here is a concise summary of the passage:\n\nDorothy Ann Willis Richards was a Democrat who served as the 45th Governor of Texas from 1991 to 1995. She first gained national attention as state treasurer with her keynote address at the 1988 Democratic National Convention. Richards was defeated by George W. Bush in 1994 and was known for her outspoken feminism and notable one-liners.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.9903,
+    "meta_hhem-2.1": 0.89575,
+    "meta_hhem-2.1-english": 0.99583,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 695
+  },
+  {
+    "sample_id": 27,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Dorothy Ann Willis Richards was the 45th Governor of Texas from 1991 to 1995. She was a Democrat who gained national attention as the state treasurer of Texas when she delivered the keynote address at the 1988 Democratic National Convention. She was defeated for re-election in 1994 by George W. Bush. Richards was the second female governor of Texas and was known for her outspoken feminism and her one-liners. \n",
+    "annotations": [],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99947,
+    "meta_hhem-2.1": 0.93872,
+    "meta_hhem-2.1-english": 0.99675,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 810
+  },
+  {
+    "sample_id": 28,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "The passage provides information about two different individuals named Ann Richards. The first Ann Richards mentioned is Dorothy Ann Willis Richards, who was an American politician and the 45th Governor of Texas from 1991 to 1995. She gained national attention as the state treasurer of Texas and was known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. The second Ann Richards mentioned is an American jazz singer and the wife of pianist Stan Kenton.",
+    "annotations": [
+      {
+        "annot_id": 104,
+        "sample_id": 28,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is questionable to shorten the name of the first person to Ann Richards",
+        "annotator_name": "Manveer",
+        "summary_span": "two different individuals named Ann Richards",
+        "summary_start": 39,
+        "summary_end": 83
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.96935,
+    "meta_hhem-2.1": 0.93737,
+    "meta_hhem-2.1-english": 0.98361,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 939
+  },
+  {
+    "sample_id": 29,
+    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
+    "summary": "Dorothy Ann Willis Richards (1933-2006) was an American politician and the 45th Governor of Texas from 1991 to 1995. A Democrat, she gained national attention as the state treasurer of Texas and delivered the keynote address at the 1988 Democratic National Convention. She was the second female governor of Texas and was known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. Ann Richards (1935-1982) was an American jazz singer and the wife of pianist Stan Kenton.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99866,
+    "meta_hhem-2.1": 0.91616,
+    "meta_hhem-2.1-english": 0.9909,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1040
+  },
+  {
     "sample_id": 30,
     "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
     "summary": " The passage describes an upcoming live-action adaptation of the Disney film \"Beauty and the Beast.\" Emma Watson has been cast as Belle, Dan Stevens as the Beast, Luke Evans as Gaston, and Josh Gad as Gaston's sidekick LeFou. Kevin Kline will play Maurice, the father of Belle, and the star will portray Mrs. Potts, the housekeeper magically transformed into a teapot. The film is set to be released in US cinemas on 17 March 2017, and Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which will begin filming at Shepperton Studios in May.",
@@ -1179,6 +1664,20 @@
         "summary_span": " Disney film \"Beauty and the Beast.\"",
         "summary_start": 64,
         "summary_end": 100
+      },
+      {
+        "annot_id": 172,
+        "sample_id": 30,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " live-action adaptation",
+        "summary_start": 34,
+        "summary_end": 57
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1191,6 +1690,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 41
+  },
+  {
+    "sample_id": 31,
+    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017. It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
+    "summary": " The upcoming film features Emma Watson as Belle, Dan Stevens as the Beast, and Luke Evans as Gaston, with Harry Potter star Emma Watson, Downton Abbey's Dan Stevens, and Frozen's Josh Gad in supporting roles. Oscar-winner Kevin Kline will play Maurice, and the film will be directed by Bill Condon. The movie, based on the 1991 animated version, will be released in US cinemas on March 17, 2017.",
+    "annotations": [],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.97867,
+    "meta_hhem-2.1": 0.87093,
+    "meta_hhem-2.1-english": 0.9672,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 0,
+    "meta_sample_id": 156
   },
   {
     "sample_id": 32,
@@ -1344,6 +1859,20 @@
         "summary_span": "Emma Thompson as Mrs. Potts.",
         "summary_start": 161,
         "summary_end": 189
+      },
+      {
+        "annot_id": 173,
+        "sample_id": 33,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action remake",
+        "summary_start": 38,
+        "summary_end": 56
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1445,6 +1974,20 @@
         "summary_span": "with a release date of March 17, 2017",
         "summary_start": 412,
         "summary_end": 449
+      },
+      {
+        "annot_id": 174,
+        "sample_id": 34,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 64,
+        "summary_end": 86
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1547,6 +2090,20 @@
         "summary_span": "he film will be released on March 17, 2017,",
         "summary_start": 356,
         "summary_end": 399
+      },
+      {
+        "annot_id": 175,
+        "sample_id": 35,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action film adaptation",
+        "summary_start": 47,
+        "summary_end": 74
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1636,6 +2193,20 @@
         "summary_span": "Emma Thompson as Mrs Potts",
         "summary_start": 205,
         "summary_end": 231
+      },
+      {
+        "annot_id": 176,
+        "sample_id": 36,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 47,
+        "summary_end": 69
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1827,6 +2398,20 @@
         "summary_span": "Emma Thompson will play Mrs. Potts",
         "summary_start": 262,
         "summary_end": 296
+      },
+      {
+        "annot_id": 177,
+        "sample_id": 38,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "live-action adaptation",
+        "summary_start": 70,
+        "summary_end": 92
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1886,6 +2471,20 @@
         "summary_span": "Beauty and the Beast",
         "summary_start": 77,
         "summary_end": 97
+      },
+      {
+        "annot_id": 178,
+        "sample_id": 39,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "the live-action",
+        "summary_start": 60,
+        "summary_end": 75
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1946,6 +2545,52 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
     "meta_sample_id": 63
+  },
+  {
+    "sample_id": 41,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": " Centre-back Anderson, 27, has left Barrow by mutual consent to join National League rivals, potentially playing against his former club on 18 February. Striker Keating, 21, recommended by Micky Adams, former Port Vale manager, is under international clearance and could join Gulls. Gulls manager Kevin Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself. Gulls are four points above the relegation zone with only one win in their last six games. For the latest football transfers, visit the dedicated page.",
+    "annotations": [
+      {
+        "annot_id": 134,
+        "sample_id": 41,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
+        "annotator_name": "Manveer",
+        "summary_span": "Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 303,
+        "summary_end": 391
+      },
+      {
+        "annot_id": 179,
+        "sample_id": 41,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no idea about given name and the family name",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Gulls manager Kevin Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 283,
+        "summary_end": 391,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.99851,
+    "meta_hhem-2.1": 0.89509,
+    "meta_hhem-2.1-english": 0.96192,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 178
   },
   {
     "sample_id": 42,
@@ -2158,6 +2803,22 @@
         "summary_span": "Torquay's",
         "summary_start": 359,
         "summary_end": 368
+      },
+      {
+        "annot_id": 180,
+        "sample_id": 43,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no idea about the given name and surname",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Manager Kevin Nicholson values Anderson's leadership and Keating's potential, despite Torquay's recent struggles,",
+        "summary_start": 273,
+        "summary_end": 386,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2170,6 +2831,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 408
+  },
+  {
+    "sample_id": 44,
+    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
+    "summary": "Anderson, 27, has left his contract with Barrow to join National League rivals, while Striker Keating, 21, is set to join the same team after being recommended by Micky Adams. Anderson brings experience from Italy and previous clubs, while Keating has had stints at Sligo Rovers, Galway United, and Finn Harps. The team, managed by Kevin Nicholson, is struggling, currently four points above the relegation zone and having won only one of their last six games.",
+    "annotations": [],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.99601,
+    "meta_hhem-2.1": 0.96663,
+    "meta_hhem-2.1-english": 0.97306,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 523
   },
   {
     "sample_id": 45,
@@ -2356,6 +3033,20 @@
         "summary_span": "described Anderson as a leader and Keating as hungry to prove himself.",
         "summary_start": 213,
         "summary_end": 283
+      },
+      {
+        "annot_id": 181,
+        "sample_id": 47,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not mentioned “joined Barrow from Finn Harps\"",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "joined Barrow from Finn Harps",
+        "summary_start": 114,
+        "summary_end": 143
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2538,6 +3229,22 @@
         "summary_span": "Torquay United ",
         "summary_start": 615,
         "summary_end": 630
+      },
+      {
+        "annot_id": 182,
+        "sample_id": 48,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info about surname and given name",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Torquay United manager Kevin Nicholson describes Anderson as a leader-type player and Keating as young and hungry to prove himself.",
+        "summary_start": 483,
+        "summary_end": 614,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -2550,169 +3257,6 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 935
-  },
-  {
-    "sample_id": 11,
-    "source": "The star will play Mrs Potts, the housekeeper magically transformed into a teapot whom Dame Angela Lansbury voiced in the 1991 animated version of the film. Fellow Oscar-winner Kevin Kline has also signed on to play Maurice, the father of the 'Beauty' character Belle. The film will be released in US cinemas on 17 March 2017.It was announced in January that Harry Potter star Emma Watson had been cast as Belle. It was subsequently confirmed that Downton Abbey's Dan Stevens will play the Beast and that Luke Evans will co-star as the villainous Gaston. Josh Gad, who voiced Olaf the snowman in Disney's animated hit Frozen, is also on board as Gaston's sidekick LeFou. Bill Condon, director of Dreamgirls and the last two Twilight films, will direct the movie, which begins filming at Shepperton Studios in May.",
-    "summary": " The upcoming film features Emma Watson as Belle, with Harry Potter star Emma Watson, Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles. Kevin Kline will play Maurice, and the star will portray Mrs. Potts, a character previously voiced by Dame Angela Lansbury in the 1991 animated version. The film, directed by Bill Condon, will be released in US cinemas on March 17, 2017, and will begin filming at Shepperton Studios in May.",
-    "annotations": [
-      {
-        "annot_id": 73,
-        "sample_id": 11,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Questionable"
-        ],
-        "note": "is the beast a supporting role?",
-        "annotator_name": "Manveer",
-        "summary_span": "Dan Stevens from Downton Abbey, Luke Evans, and Josh Gad in supporting roles",
-        "summary_start": 86,
-        "summary_end": 162
-      },
-      {
-        "annot_id": 74,
-        "sample_id": 11,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Questionable"
-        ],
-        "note": "this line is missing some context. The star being referred to was likely mentioned in a cut-off line before the source began",
-        "annotator_name": "Manveer",
-        "summary_span": " the star will portray Mrs. Potts",
-        "summary_start": 198,
-        "summary_end": 231
-      }
-    ],
-    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
-    "meta_hhemv1": 0.93369,
-    "meta_hhem-2.1": 0.88214,
-    "meta_hhem-2.1-english": 0.98412,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 179
-  },
-  {
-    "sample_id": 20,
-    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
-    "summary": " Ann Richards, born September 1, 1933, served as the 45th Governor of Texas from 1991 to 1995. She was a Democrat and the second female governor of Texas. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election in 1994 by George W. Bush. Ann Richards is not the same person as the governor; Ann Richards, born October 1, 1935, was an American jazz singer and the wife of pianist Stan Kenton. The latter Ann Richards passed away in April 1982.",
-    "annotations": [
-      {
-        "annot_id": 100,
-        "sample_id": 20,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Benign"
-        ],
-        "note": "Not sure if it is appropriate to shorten her name this way",
-        "annotator_name": "Manveer",
-        "summary_span": "Ann Richards,",
-        "summary_start": 1,
-        "summary_end": 14
-      }
-    ],
-    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
-    "meta_hhemv1": 0.4193,
-    "meta_hhem-2.1": 0.93139,
-    "meta_hhem-2.1-english": 0.93347,
-    "meta_trueteacher": 0,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 0,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 5
-  },
-  {
-    "sample_id": 23,
-    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
-    "summary": "Dorothy Ann Willis Richards, an American politician, served as the 45th Governor of Texas from 1991 to 1995. She was the second female governor of Texas and known for her feminism and wit. Prior to her governorship, she gained national attention as the state treasurer of Texas, delivering the keynote address at the 1988 Democratic National Convention. She was defeated for re-election by George W. Bush in 1994. Another Ann Richards, an American jazz singer, was married to pianist Stan Kenton and passed away in 1982.",
-    "annotations": [
-      {
-        "annot_id": 101,
-        "sample_id": 23,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Questionable"
-        ],
-        "note": "she was known for her one-liners. Not exactly her wit",
-        "annotator_name": "Manveer",
-        "summary_span": " and wit",
-        "summary_start": 179,
-        "summary_end": 187
-      }
-    ],
-    "meta_model": "cohere/command-r-08-2024",
-    "meta_hhemv1": 0.99844,
-    "meta_hhem-2.1": 0.88481,
-    "meta_hhem-2.1-english": 0.96098,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 350
-  },
-  {
-    "sample_id": 28,
-    "source": "Dorothy Ann Willis Richards ( September 1 , 1933 -- September 13 , 2006 ) was an American politician and the 45th Governor of Texas from 1991 to 1995 . A Democrat , she first came to national attention as the state treasurer of Texas , when she delivered the keynote address at the 1988 Democratic National Convention . Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush . Richards was the second female governor of Texas , and was frequently noted in the media for her outspoken feminism and her one-liners . Ann Richards ( October 1 , 1935 -- April 1 , 1982 ) was an American jazz singer and the wife of pianist Stan Kenton .",
-    "summary": "The passage provides information about two different individuals named Ann Richards. The first Ann Richards mentioned is Dorothy Ann Willis Richards, who was an American politician and the 45th Governor of Texas from 1991 to 1995. She gained national attention as the state treasurer of Texas and was known for her outspoken feminism and one-liners. She was defeated for re-election in 1994 by George W. Bush. The second Ann Richards mentioned is an American jazz singer and the wife of pianist Stan Kenton.",
-    "annotations": [
-      {
-        "annot_id": 104,
-        "sample_id": 28,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Questionable"
-        ],
-        "note": "it is questionable to shorten the name of the first person to Ann Richards",
-        "annotator_name": "Manveer",
-        "summary_span": "two different individuals named Ann Richards",
-        "summary_start": 39,
-        "summary_end": 83
-      }
-    ],
-    "meta_model": "openai/GPT-3.5-Turbo",
-    "meta_hhemv1": 0.96935,
-    "meta_hhem-2.1": 0.93737,
-    "meta_hhem-2.1-english": 0.98361,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 939
-  },
-  {
-    "sample_id": 41,
-    "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
-    "summary": " Centre-back Anderson, 27, has left Barrow by mutual consent to join National League rivals, potentially playing against his former club on 18 February. Striker Keating, 21, recommended by Micky Adams, former Port Vale manager, is under international clearance and could join Gulls. Gulls manager Kevin Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself. Gulls are four points above the relegation zone with only one win in their last six games. For the latest football transfers, visit the dedicated page.",
-    "annotations": [
-      {
-        "annot_id": 134,
-        "sample_id": 41,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Benign"
-        ],
-        "note": "the summary assumes myles refers to anderson and ruairi refers to keating",
-        "annotator_name": "Manveer",
-        "summary_span": "Nicholson praises Anderson's leadership qualities and Keating's hunger to prove himself.",
-        "summary_start": 303,
-        "summary_end": 391
-      }
-    ],
-    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
-    "meta_hhemv1": 0.99851,
-    "meta_hhem-2.1": 0.89509,
-    "meta_hhem-2.1-english": 0.96192,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 178
   },
   {
     "sample_id": 49,
@@ -2731,6 +3275,22 @@
         "summary_span": "Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself. ",
         "summary_start": 339,
         "summary_end": 445
+      },
+      {
+        "annot_id": 183,
+        "sample_id": 49,
+        "annotator": "3544025977b544ca81aeefefa0c554c4",
+        "label": [
+          "Benign"
+        ],
+        "note": "no info about given name and surname",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 339,
+        "summary_end": 444,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 465,
+        "source_end": 602
       }
     ],
     "meta_model": "openai/gpt-4o",

@@ -90,6 +90,40 @@
     "meta_sample_id": 29
   },
   {
+    "sample_id": 1,
+    "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
+    "summary": " Former Manchester City player, 30, won 61 caps for England, making his debut in 2009. He participated in two World Cups and two European Championships, but only played three minutes at Euro 2016. Milner, who holds the record for most capped England Under-21 player with 46 caps, scored his only international goal in England's 5-0 win over Moldova during the 2014 Fifa World Cup qualifiers. He expressed his support for Sam Allardyce, players, staff, and supporters. \n\nNote: The summary provided covers the core pieces of information from the passage, including the player's career highlights, his record with England Under-21, and his statement regarding Sam Allardyce and the team.",
+    "annotations": [
+      {
+        "annot_id": 132,
+        "sample_id": 1,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"after making his senior debut in 2009\" is missing in the summary. ",
+        "annotator_name": "forrest",
+        "summary_span": "won 61 caps for England",
+        "summary_start": 36,
+        "summary_end": 59,
+        "source_span": "won 61 caps for England after making his senior debut in 2009",
+        "source_start": 36,
+        "source_end": 97
+      }
+    ],
+    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
+    "meta_hhemv1": 0.98414,
+    "meta_hhem-2.1": 0.91831,
+    "meta_hhem-2.1-english": 0.98251,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 144
+  },
+  {
     "sample_id": 2,
     "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
     "summary": "Here's a concise summary of the passage:\n\nJames Milner, a 30-year-old former Manchester City player, has retired from international football after earning 61 caps for England. He made his senior debut in 2009 and was part of the squad for two World Cups and two European Championships. Milner holds the record for most caps in England's Under-21 team with 46 appearances. He scored one international goal during the 2014 World Cup qualifiers against Moldova. Milner expressed his well-wishes for the future of the England team under manager Sam Allardyce.",
@@ -591,6 +625,79 @@
     "meta_sample_id": 489
   },
   {
+    "sample_id": 5,
+    "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
+    "summary": "Here is a concise summary of the passage:\n\nJames Milner, a 30-year-old former Manchester City player, won 61 England caps, including appearances at two World Cups and two European Championships, and holds the record for most capped England Under-21 player with 46 caps.",
+    "annotations": [
+      {
+        "annot_id": 12,
+        "sample_id": 5,
+        "annotator": "42f79e792e37498397ca7b05ea1a16ec",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Milner's first name, James, is not mentioned in the source.",
+        "annotator_name": "Amin Ahmad",
+        "summary_span": "\nJames ",
+        "summary_start": 42,
+        "summary_end": 49
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 5,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
+        "annotator_name": "Manveer",
+        "summary_span": "James Milner, a 30-year-old former Manchester City player,",
+        "summary_start": 43,
+        "summary_end": 101
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 5,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Benign"
+        ],
+        "note": "first name not mentioned in source but can be supported by world knowledge",
+        "annotator_name": "forrest",
+        "summary_span": "\nJames",
+        "summary_start": 42,
+        "summary_end": 48
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 5,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"after making his senior debut in 2009\" is missing in the summary. He may have more caps/appearances before it. ",
+        "annotator_name": "forrest",
+        "summary_span": "won 61 England caps",
+        "summary_start": 102,
+        "summary_end": 121,
+        "source_span": "won 61 caps for England after making his senior debut in 2009",
+        "source_start": 36,
+        "source_end": 97
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.9714,
+    "meta_hhem-2.1": 0.91117,
+    "meta_hhem-2.1-english": 0.98495,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 604
+  },
+  {
     "sample_id": 6,
     "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
     "summary": "Here is a concise summary of the passage:\n\nJames Milner, a 30-year-old former Manchester City player, has announced his retirement from international football. He earned 61 caps for England, participating in two World Cups and two European Championships, and also holds the record for most capped England Under-21 player with 46 caps.",
@@ -851,77 +958,79 @@
     "meta_sample_id": 834
   },
   {
-    "sample_id": 5,
+    "sample_id": 8,
     "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
-    "summary": "Here is a concise summary of the passage:\n\nJames Milner, a 30-year-old former Manchester City player, won 61 England caps, including appearances at two World Cups and two European Championships, and holds the record for most capped England Under-21 player with 46 caps.",
+    "summary": "The passage discusses the retirement of a former Manchester City player, who won 61 caps for England. He was a part of the squad for two World Cups and two European Championships but only played three minutes at Euro 2016. Milner expressed his decision to retire as a matter of common sense and wished success to Sam Allardyce, the players, staff, and supporters. Additionally, Milner holds the record for the most capped England Under-21 player, earning 46 caps and scoring his only international goal in a match against Moldova during the 2014 FIFA World Cup qualifiers.",
     "annotations": [
       {
-        "annot_id": 12,
-        "sample_id": 5,
-        "annotator": "42f79e792e37498397ca7b05ea1a16ec",
+        "annot_id": 57,
+        "sample_id": 8,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
-          "Unwanted"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
-        "note": "Milner's first name, James, is not mentioned in the source.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "\nJames ",
-        "summary_start": 42,
-        "summary_end": 49
+        "note": "the source doesn't talk about retiring",
+        "annotator_name": "Manveer",
+        "summary_span": "The passage discusses the retirement of a former Manchester City player,",
+        "summary_start": 0,
+        "summary_end": 72
       },
       {
-        "annot_id": 52,
-        "sample_id": 5,
+        "annot_id": 58,
+        "sample_id": 8,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
           "Questionable"
         ],
         "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
         "annotator_name": "Manveer",
-        "summary_span": "James Milner, a 30-year-old former Manchester City player,",
-        "summary_start": 43,
+        "summary_span": "The passage discusses the retirement of a former Manchester City player, who won 61 caps for England.",
+        "summary_start": 0,
         "summary_end": 101
       },
       {
-        "annot_id": 131,
-        "sample_id": 5,
+        "annot_id": 145,
+        "sample_id": 8,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
         "label": [
-          "Benign"
+          "Unwanted",
+          "Unwanted.Extrinsic"
         ],
-        "note": "first name not mentioned in source but can be supported by world knowledge",
+        "note": "the retirement was not mentioned in the source",
         "annotator_name": "forrest",
-        "summary_span": "\nJames",
-        "summary_start": 42,
-        "summary_end": 48
+        "summary_span": "retirement",
+        "summary_start": 26,
+        "summary_end": 36
       },
       {
-        "annot_id": 137,
-        "sample_id": 5,
+        "annot_id": 146,
+        "sample_id": 8,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "\"after making his senior debut in 2009\" is missing in the summary. He may have more caps/appearances before it. ",
+        "note": "\"after making his senior debut in 2009\" is missing in the summary. He could have had more caps/appearances than 61. ",
         "annotator_name": "forrest",
-        "summary_span": "won 61 England caps",
-        "summary_start": 102,
-        "summary_end": 121,
-        "source_span": "won 61 caps for England after making his senior debut in 2009",
+        "summary_span": "won 61 caps for England",
+        "summary_start": 77,
+        "summary_end": 100,
+        "source_span": "won 61 caps for England after making his senior debut in 2009.",
         "source_start": 36,
-        "source_end": 97
+        "source_end": 98
       }
     ],
-    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "meta_hhemv1": 0.9714,
-    "meta_hhem-2.1": 0.91117,
-    "meta_hhem-2.1-english": 0.98495,
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.82247,
+    "meta_hhem-2.1": 0.92895,
+    "meta_hhem-2.1-english": 0.98733,
     "meta_trueteacher": 1,
     "meta_true_nli": 1,
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 604
+    "meta_sample_id": 980
   },
   {
     "sample_id": 9,
@@ -1496,6 +1605,22 @@
     "meta_sample_id": 463
   },
   {
+    "sample_id": 15,
+    "source": "Brad Wilk . He is best known as the drummer of the rock bands Rage Against the Machine ( 1991 -- 2000 ; 2007 -- 11 ) and Audioslave ( 2001 -- 07 ) . Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 . As of 2016 , he is playing in the band Prophets of Rage , with Commerford , Morello , Chuck D , B-Real and DJ Lord . Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
+    "summary": "Here is a concise summary of the passage:\n\nBrad Wilk is a drummer known for his work in rock bands Rage Against the Machine (1991-2000, 2007-2011) and Audioslave (2001-2007). He co-founded Rage with Tom Morello and Zack de la Rocha in 1991. As of 2016, he is playing in the band Prophets of Rage.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.98954,
+    "meta_hhem-2.1": 0.96103,
+    "meta_hhem-2.1-english": 0.99741,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 578
+  },
+  {
     "sample_id": 16,
     "source": "Brad Wilk . He is best known as the drummer of the rock bands Rage Against the Machine ( 1991 -- 2000 ; 2007 -- 11 ) and Audioslave ( 2001 -- 07 ) . Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 . As of 2016 , he is playing in the band Prophets of Rage , with Commerford , Morello , Chuck D , B-Real and DJ Lord . Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
     "summary": "Here is a concise summary of the passage:\n\nBrad Wilk is a drummer best known for his work with Rage Against the Machine (1991-2000, 2007-2011) and Audioslave (2001-2007). He co-founded Rage Against the Machine in 1991 and currently plays in Prophets of Rage. Note: The passage also mentions a separate band called Rage, a German heavy metal band formed in 1984, but this is unrelated to Brad Wilk's work.",
@@ -1586,6 +1711,55 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 693
+  },
+  {
+    "sample_id": 17,
+    "source": "Brad Wilk . He is best known as the drummer of the rock bands Rage Against the Machine ( 1991 -- 2000 ; 2007 -- 11 ) and Audioslave ( 2001 -- 07 ) . Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 . As of 2016 , he is playing in the band Prophets of Rage , with Commerford , Morello , Chuck D , B-Real and DJ Lord . Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
+    "summary": "Brad Wilk is a drummer best known for his work with Rage Against the Machine and Audioslave. He began his career with the band Greta in 1990 and co-founded Rage Against the Machine in 1991. As of 2016, he is a member of Prophets of Rage. \n",
+    "annotations": [
+      {
+        "annot_id": 184,
+        "sample_id": 17,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Benign"
+        ],
+        "note": "It takes world knowledge to know that Rage Against the Machine is nicknamed Rage. ",
+        "annotator_name": "forrest",
+        "summary_span": "co-founded Rage Against the Machine",
+        "summary_start": 145,
+        "summary_end": 180,
+        "source_span": " co-found Rage",
+        "source_start": 216,
+        "source_end": 230
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.99874,
+    "meta_hhem-2.1": 0.97808,
+    "meta_hhem-2.1-english": 0.99777,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 808
+  },
+  {
+    "sample_id": 18,
+    "source": "Brad Wilk . He is best known as the drummer of the rock bands Rage Against the Machine ( 1991 -- 2000 ; 2007 -- 11 ) and Audioslave ( 2001 -- 07 ) . Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 . As of 2016 , he is playing in the band Prophets of Rage , with Commerford , Morello , Chuck D , B-Real and DJ Lord . Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
+    "summary": "The passage describes Brad Wilk, who is best known as the drummer of the rock bands Rage Against the Machine and Audioslave. He started his career as a drummer for Greta in 1990 and co-founded Rage with Tom Morello and Zack de la Rocha in 1991. As of 2016, he is playing in the band Prophets of Rage.",
+    "annotations": [],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99682,
+    "meta_hhem-2.1": 0.98422,
+    "meta_hhem-2.1-english": 0.998,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 933
   },
   {
     "sample_id": 19,
@@ -1996,6 +2170,169 @@
     "meta_sample_id": 538
   },
   {
+    "sample_id": 25,
+    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
+    "summary": "Here is a concise summary of the passage:\n\nGary Locke, the 41-year-old former Hearts boss, has been appointed as Kilmarnock's permanent manager on a three-year deal after a successful interim spell, during which he has lost only once in seven games.",
+    "annotations": [
+      {
+        "annot_id": 192,
+        "sample_id": 25,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Benign"
+        ],
+        "note": "By common sense and the sentiment of the source, we can infer that Locke has a successful interim spell and that is the reason his interim role is prompted to a permanent one. ",
+        "annotator_name": "forrest",
+        "summary_span": " after a successful interim spell",
+        "summary_start": 164,
+        "summary_end": 197,
+        "source_span": "\nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park .",
+        "source_start": 299,
+        "source_end": 442
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.95146,
+    "meta_hhem-2.1": 0.94646,
+    "meta_hhem-2.1-english": 0.99052,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 653
+  },
+  {
+    "sample_id": 26,
+    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
+    "summary": "Here is a concise summary of the passage:\n\nGary Locke, Kilmarnock's interim manager, has been appointed to the role on a permanent basis, signing a three-year deal. He took over the team in February after Allan Johnston quit, and has since lost only one game in seven matches.",
+    "annotations": [
+      {
+        "annot_id": 76,
+        "sample_id": 26,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say johnston quit explicity, but is very likely talking about him quitting.",
+        "annotator_name": "Manveer",
+        "summary_span": "in February after Allan Johnston quit",
+        "summary_start": 187,
+        "summary_end": 224
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.95279,
+    "meta_hhem-2.1": 0.94288,
+    "meta_hhem-2.1-english": 0.98614,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 768
+  },
+  {
+    "sample_id": 27,
+    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
+    "summary": "Gary Locke, former assistant manager of Kilmarnock, has been appointed as the permanent manager after a successful interim period. He joined the club last summer as assistant to Allan Johnston, but took over as manager in February when Johnston resigned. Locke has a three-year contract and has only lost one game in seven since taking over. \n",
+    "annotations": [
+      {
+        "annot_id": 77,
+        "sample_id": 27,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say johnston quit explicity, but is very likely talking about him quitting.",
+        "annotator_name": "Manveer",
+        "summary_span": " February when Johnston resigned.",
+        "summary_start": 221,
+        "summary_end": 254
+      },
+      {
+        "annot_id": 193,
+        "sample_id": 27,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Benign"
+        ],
+        "note": "By common sense and the sentiment of the source, we can infer that Locke's interim period is successful and that is the reason his interim role is prompted to a permanent one. ",
+        "annotator_name": "forrest",
+        "summary_span": "after a successful interim period.",
+        "summary_start": 96,
+        "summary_end": 130
+      },
+      {
+        "annot_id": 194,
+        "sample_id": 27,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The order of the two clauses hinted that Locke's previous contract was 3-year which is not supported by the source. ",
+        "annotator_name": "forrest",
+        "summary_span": "Locke has a three-year contract and has only lost one game in seven since taking over. \n",
+        "summary_start": 255,
+        "summary_end": 343
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.94892,
+    "meta_hhem-2.1": 0.95768,
+    "meta_hhem-2.1-english": 0.98753,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 883
+  },
+  {
+    "sample_id": 28,
+    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
+    "summary": "Gary Locke, the interim manager of Kilmarnock, has been appointed as the permanent manager after signing a three-year contract. He initially joined the club as an assistant manager last summer but took over as the manager when Allan Johnston left in February. Locke has only lost one game out of seven since taking charge.",
+    "annotations": [
+      {
+        "annot_id": 78,
+        "sample_id": 28,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say johnston left, but is very likely talking about him leaving.",
+        "annotator_name": "Manveer",
+        "summary_span": " when Allan Johnston left in February",
+        "summary_start": 221,
+        "summary_end": 258
+      },
+      {
+        "annot_id": 195,
+        "sample_id": 28,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Questionable"
+        ],
+        "note": "one may argue that \"interim manager\" is not the same as \"manager\" especially under the context about Lockes role transitioning from interim to permanent. ",
+        "annotator_name": "forrest",
+        "summary_span": "took over as the manager ",
+        "summary_start": 197,
+        "summary_end": 222
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.99026,
+    "meta_hhem-2.1": 0.97117,
+    "meta_hhem-2.1-english": 0.99307,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1014
+  },
+  {
     "sample_id": 29,
     "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
     "summary": "Gary Locke, who previously served as interim manager of Kilmarnock, has been appointed as the permanent manager with a three-year contract. Locke, a former Hearts manager, initially joined Kilmarnock as an assistant to Allan Johnston last summer and took over as interim manager in February after Johnston resigned. Since taking charge, Locke has led the team to six wins out of seven games. He will discuss his new role at a press conference on Friday morning.",
@@ -2068,6 +2405,53 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 1113
+  },
+  {
+    "sample_id": 30,
+    "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
+    "summary": " The passage discusses the business roles of two individuals, Rupert Murdoch and James Murdoch. Rupert Murdoch is the current chairman and acting CEO of Fox News. James Murdoch, born on December 13, 1972, is an Australian-British-American businessman who is the younger son of media mogul Rupert Murdoch. James is the CEO of 21st Century Fox and the chairman of Sky plc. Rupert Murdoch had full control as Chairman and CEO of News Corporation, now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox, following the conglomerate's split on June 28, 2013.",
+    "annotations": [
+      {
+        "annot_id": 89,
+        "sample_id": 30,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Rupert does not have full control of 21st century fox if James is the ceo",
+        "annotator_name": "Manveer",
+        "summary_span": "Rupert Murdoch had full control as Chairman and CEO of News Corporation, now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox,",
+        "summary_start": 371,
+        "summary_end": 546
+      },
+      {
+        "annot_id": 197,
+        "sample_id": 30,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Benign"
+        ],
+        "note": "The document wasn't clear which Murdoch is here. But world knowledge supports that he is the Rupert Murdoch.",
+        "annotator_name": "forrest",
+        "summary_span": "Rupert Murdoch had full control as Chairman and CEO of News Corporation,",
+        "summary_start": 371,
+        "summary_end": 443,
+        "source_span": "Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation ",
+        "source_start": 346,
+        "source_end": 445
+      }
+    ],
+    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "meta_hhemv1": 0.96685,
+    "meta_hhem-2.1": 0.96474,
+    "meta_hhem-2.1-english": 0.99096,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 14
   },
   {
     "sample_id": 31,
@@ -2207,6 +2591,22 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 129
+  },
+  {
+    "sample_id": 32,
+    "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
+    "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage primarily discusses Rupert Murdoch and his son James Murdoch in relation to their roles in media companies. Key points include:\n\n1. Rupert Murdoch is the current chairman and acting CEO of Fox News. \n\n2. James Rupert Jacob Murdoch, born on December 13, 1972, is Rupert Murdoch's younger son. \n\n3. James Murdoch is the CEO of 21st Century Fox and chairman of Sky plc. \n\n4. Rupert Murdoch previously had full control as Chairman and CEO of News Corporation, which was the world's second-largest media conglomerate. \n\n5. News Corporation split on June 28, 2013, into News Corp and 21st Century Fox. \n\nThis summary covers the main individuals mentioned and their roles in various media companies, as well as a significant corporate event (the split of News Corporation).",
+    "annotations": [],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.89452,
+    "meta_hhem-2.1": 0.73707,
+    "meta_hhem-2.1-english": 0.96833,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 244
   },
   {
     "sample_id": 33,
@@ -2401,6 +2801,53 @@
     "meta_sample_id": 589
   },
   {
+    "sample_id": 36,
+    "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
+    "summary": "Here is a concise summary of the passage:\n\nRupert Murdoch is the chairman and acting CEO of Fox News. He is the father of James Murdoch, a businessman who serves as CEO of 21st Century Fox and chairman of Sky plc. Rupert Murdoch previously had full control of News Corporation, which split into News Corp and 21st Century Fox in 2013.",
+    "annotations": [],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.90643,
+    "meta_hhem-2.1": 0.82824,
+    "meta_hhem-2.1-english": 0.94646,
+    "meta_trueteacher": 0,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 704
+  },
+  {
+    "sample_id": 37,
+    "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
+    "summary": "James Murdoch is the CEO of 21st Century Fox and the chairman of Sky plc. He is the son of Rupert Murdoch, the chairman and acting CEO of Fox News and former chairman and CEO of News Corporation, the world's second-largest media conglomerate. \n",
+    "annotations": [
+      {
+        "annot_id": 97,
+        "sample_id": 37,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary should mention that the company split, so it is not clear if this is still true",
+        "annotator_name": "Manveer",
+        "summary_span": "and CEO of News Corporation, the world's second-largest media conglomerate.",
+        "summary_start": 167,
+        "summary_end": 242
+      }
+    ],
+    "meta_model": "google/gemini-1.5-flash-001",
+    "meta_hhemv1": 0.97292,
+    "meta_hhem-2.1": 0.94949,
+    "meta_hhem-2.1-english": 0.96368,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 819
+  },
+  {
     "sample_id": 38,
     "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
     "summary": "The passage provides information about Rupert Murdoch, who is the current chairman and acting CEO of Fox News. He is an Australian, British, and American businessman and the younger son of media mogul Rupert Murdoch. Rupert Murdoch had full control as Chairman and CEO of global media holding company News Corporation, which is now the world's second-largest media conglomerate. The conglomerate split on June 28, 2013, resulting in the creation of News Corp and 21st Century Fox.",
@@ -2462,6 +2909,22 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 943
+  },
+  {
+    "sample_id": 39,
+    "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
+    "summary": "Rupert Murdoch is the current chairman and acting CEO of Fox News. His younger son, James Rupert Jacob Murdoch, born on December 13, 1972, is an Australian, British, and American businessman who serves as the CEO of 21st Century Fox and chairman of Sky plc. Rupert Murdoch had full control as Chairman and CEO of News Corporation, the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox, after the conglomerate split on June 28, 2013.",
+    "annotations": [],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.99317,
+    "meta_hhem-2.1": 0.94971,
+    "meta_hhem-2.1-english": 0.99741,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1049
   },
   {
     "sample_id": 40,
@@ -2550,289 +3013,6 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 85
-  },
-  {
-    "sample_id": 8,
-    "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
-    "summary": "The passage discusses the retirement of a former Manchester City player, who won 61 caps for England. He was a part of the squad for two World Cups and two European Championships but only played three minutes at Euro 2016. Milner expressed his decision to retire as a matter of common sense and wished success to Sam Allardyce, the players, staff, and supporters. Additionally, Milner holds the record for the most capped England Under-21 player, earning 46 caps and scoring his only international goal in a match against Moldova during the 2014 FIFA World Cup qualifiers.",
-    "annotations": [
-      {
-        "annot_id": 57,
-        "sample_id": 8,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't talk about retiring",
-        "annotator_name": "Manveer",
-        "summary_span": "The passage discusses the retirement of a former Manchester City player,",
-        "summary_start": 0,
-        "summary_end": 72
-      },
-      {
-        "annot_id": 58,
-        "sample_id": 8,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "The passage discusses the retirement of a former Manchester City player, who won 61 caps for England.",
-        "summary_start": 0,
-        "summary_end": 101
-      },
-      {
-        "annot_id": 145,
-        "sample_id": 8,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the retirement was not mentioned in the source",
-        "annotator_name": "forrest",
-        "summary_span": "retirement",
-        "summary_start": 26,
-        "summary_end": 36
-      },
-      {
-        "annot_id": 146,
-        "sample_id": 8,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"after making his senior debut in 2009\" is missing in the summary. He could have had more caps/appearances than 61. ",
-        "annotator_name": "forrest",
-        "summary_span": "won 61 caps for England",
-        "summary_start": 77,
-        "summary_end": 100,
-        "source_span": "won 61 caps for England after making his senior debut in 2009.",
-        "source_start": 36,
-        "source_end": 98
-      }
-    ],
-    "meta_model": "openai/GPT-3.5-Turbo",
-    "meta_hhemv1": 0.82247,
-    "meta_hhem-2.1": 0.92895,
-    "meta_hhem-2.1-english": 0.98733,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 980
-  },
-  {
-    "sample_id": 26,
-    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
-    "summary": "Here is a concise summary of the passage:\n\nGary Locke, Kilmarnock's interim manager, has been appointed to the role on a permanent basis, signing a three-year deal. He took over the team in February after Allan Johnston quit, and has since lost only one game in seven matches.",
-    "annotations": [
-      {
-        "annot_id": 76,
-        "sample_id": 26,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't say johnston quit explicity, but is very likely talking about him quitting.",
-        "annotator_name": "Manveer",
-        "summary_span": "in February after Allan Johnston quit",
-        "summary_start": 187,
-        "summary_end": 224
-      }
-    ],
-    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-    "meta_hhemv1": 0.95279,
-    "meta_hhem-2.1": 0.94288,
-    "meta_hhem-2.1-english": 0.98614,
-    "meta_trueteacher": 0,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 768
-  },
-  {
-    "sample_id": 27,
-    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
-    "summary": "Gary Locke, former assistant manager of Kilmarnock, has been appointed as the permanent manager after a successful interim period. He joined the club last summer as assistant to Allan Johnston, but took over as manager in February when Johnston resigned. Locke has a three-year contract and has only lost one game in seven since taking over. \n",
-    "annotations": [
-      {
-        "annot_id": 77,
-        "sample_id": 27,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't say johnston quit explicity, but is very likely talking about him quitting.",
-        "annotator_name": "Manveer",
-        "summary_span": " February when Johnston resigned.",
-        "summary_start": 221,
-        "summary_end": 254
-      },
-      {
-        "annot_id": 193,
-        "sample_id": 27,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Benign"
-        ],
-        "note": "By common sense and the sentiment of the source, we can infer that Locke's interim period is successful and that is the reason his interim role is prompted to a permanent one. ",
-        "annotator_name": "forrest",
-        "summary_span": "after a successful interim period.",
-        "summary_start": 96,
-        "summary_end": 130
-      },
-      {
-        "annot_id": 194,
-        "sample_id": 27,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The order of the two clauses hinted that Locke's previous contract was 3-year which is not supported by the source. ",
-        "annotator_name": "forrest",
-        "summary_span": "Locke has a three-year contract and has only lost one game in seven since taking over. \n",
-        "summary_start": 255,
-        "summary_end": 343
-      }
-    ],
-    "meta_model": "google/gemini-1.5-flash-001",
-    "meta_hhemv1": 0.94892,
-    "meta_hhem-2.1": 0.95768,
-    "meta_hhem-2.1-english": 0.98753,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 883
-  },
-  {
-    "sample_id": 28,
-    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
-    "summary": "Gary Locke, the interim manager of Kilmarnock, has been appointed as the permanent manager after signing a three-year contract. He initially joined the club as an assistant manager last summer but took over as the manager when Allan Johnston left in February. Locke has only lost one game out of seven since taking charge.",
-    "annotations": [
-      {
-        "annot_id": 78,
-        "sample_id": 28,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't say johnston left, but is very likely talking about him leaving.",
-        "annotator_name": "Manveer",
-        "summary_span": " when Allan Johnston left in February",
-        "summary_start": 221,
-        "summary_end": 258
-      },
-      {
-        "annot_id": 195,
-        "sample_id": 28,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Questionable"
-        ],
-        "note": "one may argue that \"interim manager\" is not the same as \"manager\" especially under the context about Lockes role transitioning from interim to permanent. ",
-        "annotator_name": "forrest",
-        "summary_span": "took over as the manager ",
-        "summary_start": 197,
-        "summary_end": 222
-      }
-    ],
-    "meta_model": "openai/GPT-3.5-Turbo",
-    "meta_hhemv1": 0.99026,
-    "meta_hhem-2.1": 0.97117,
-    "meta_hhem-2.1-english": 0.99307,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 1014
-  },
-  {
-    "sample_id": 30,
-    "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
-    "summary": " The passage discusses the business roles of two individuals, Rupert Murdoch and James Murdoch. Rupert Murdoch is the current chairman and acting CEO of Fox News. James Murdoch, born on December 13, 1972, is an Australian-British-American businessman who is the younger son of media mogul Rupert Murdoch. James is the CEO of 21st Century Fox and the chairman of Sky plc. Rupert Murdoch had full control as Chairman and CEO of News Corporation, now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox, following the conglomerate's split on June 28, 2013.",
-    "annotations": [
-      {
-        "annot_id": 89,
-        "sample_id": 30,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Rupert does not have full control of 21st century fox if James is the ceo",
-        "annotator_name": "Manveer",
-        "summary_span": "Rupert Murdoch had full control as Chairman and CEO of News Corporation, now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox,",
-        "summary_start": 371,
-        "summary_end": 546
-      },
-      {
-        "annot_id": 197,
-        "sample_id": 30,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Benign"
-        ],
-        "note": "The document wasn't clear which Murdoch is here. But world knowledge supports that he is the Rupert Murdoch.",
-        "annotator_name": "forrest",
-        "summary_span": "Rupert Murdoch had full control as Chairman and CEO of News Corporation,",
-        "summary_start": 371,
-        "summary_end": 443,
-        "source_span": "Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation ",
-        "source_start": 346,
-        "source_end": 445
-      }
-    ],
-    "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
-    "meta_hhemv1": 0.96685,
-    "meta_hhem-2.1": 0.96474,
-    "meta_hhem-2.1-english": 0.99096,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 14
-  },
-  {
-    "sample_id": 37,
-    "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
-    "summary": "James Murdoch is the CEO of 21st Century Fox and the chairman of Sky plc. He is the son of Rupert Murdoch, the chairman and acting CEO of Fox News and former chairman and CEO of News Corporation, the world's second-largest media conglomerate. \n",
-    "annotations": [
-      {
-        "annot_id": 97,
-        "sample_id": 37,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Benign",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the summary should mention that the company split, so it is not clear if this is still true",
-        "annotator_name": "Manveer",
-        "summary_span": "and CEO of News Corporation, the world's second-largest media conglomerate.",
-        "summary_start": 167,
-        "summary_end": 242
-      }
-    ],
-    "meta_model": "google/gemini-1.5-flash-001",
-    "meta_hhemv1": 0.97292,
-    "meta_hhem-2.1": 0.94949,
-    "meta_hhem-2.1-english": 0.96368,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 0,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 819
   },
   {
     "sample_id": 41,
@@ -2933,6 +3113,22 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 315
+  },
+  {
+    "sample_id": 43,
+    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 39-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
+    "summary": "Gary Locke, the interim manager of Kilmarnock, has been appointed as the permanent manager after a successful stint. He signed a three-year contract with the club, having initially joined as an assistant to Allan Johnston last year. Locke took over as manager in February and has since led the team to an impressive record of only one loss in seven games.",
+    "annotations": [],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.93981,
+    "meta_hhem-2.1": 0.90183,
+    "meta_hhem-2.1-english": 0.97458,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 430
   },
   {
     "sample_id": 44,
@@ -3114,105 +3310,5 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 1120
-  },
-  {
-    "sample_id": 1,
-    "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
-    "summary": " Former Manchester City player, 30, won 61 caps for England, making his debut in 2009. He participated in two World Cups and two European Championships, but only played three minutes at Euro 2016. Milner, who holds the record for most capped England Under-21 player with 46 caps, scored his only international goal in England's 5-0 win over Moldova during the 2014 Fifa World Cup qualifiers. He expressed his support for Sam Allardyce, players, staff, and supporters. \n\nNote: The summary provided covers the core pieces of information from the passage, including the player's career highlights, his record with England Under-21, and his statement regarding Sam Allardyce and the team.",
-    "annotations": [
-      {
-        "annot_id": 132,
-        "sample_id": 1,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"after making his senior debut in 2009\" is missing in the summary. ",
-        "annotator_name": "forrest",
-        "summary_span": "won 61 caps for England",
-        "summary_start": 36,
-        "summary_end": 59,
-        "source_span": "won 61 caps for England after making his senior debut in 2009",
-        "source_start": 36,
-        "source_end": 97
-      }
-    ],
-    "meta_model": "microsoft/Phi-3-mini-4k-instruct",
-    "meta_hhemv1": 0.98414,
-    "meta_hhem-2.1": 0.91831,
-    "meta_hhem-2.1-english": 0.98251,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 144
-  },
-  {
-    "sample_id": 17,
-    "source": "Brad Wilk . He is best known as the drummer of the rock bands Rage Against the Machine ( 1991 -- 2000 ; 2007 -- 11 ) and Audioslave ( 2001 -- 07 ) . Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 . As of 2016 , he is playing in the band Prophets of Rage , with Commerford , Morello , Chuck D , B-Real and DJ Lord . Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
-    "summary": "Brad Wilk is a drummer best known for his work with Rage Against the Machine and Audioslave. He began his career with the band Greta in 1990 and co-founded Rage Against the Machine in 1991. As of 2016, he is a member of Prophets of Rage. \n",
-    "annotations": [
-      {
-        "annot_id": 184,
-        "sample_id": 17,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Benign"
-        ],
-        "note": "It takes world knowledge to know that Rage Against the Machine is nicknamed Rage. ",
-        "annotator_name": "forrest",
-        "summary_span": "co-founded Rage Against the Machine",
-        "summary_start": 145,
-        "summary_end": 180,
-        "source_span": " co-found Rage",
-        "source_start": 216,
-        "source_end": 230
-      }
-    ],
-    "meta_model": "google/gemini-1.5-flash-001",
-    "meta_hhemv1": 0.99874,
-    "meta_hhem-2.1": 0.97808,
-    "meta_hhem-2.1-english": 0.99777,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 808
-  },
-  {
-    "sample_id": 25,
-    "source": "kilmarnock interim manager gary locke has been given the role on a permanent basis after signing a three-year deal . \nthe former hearts boss joined the club as assistant boss to allan johnston last summer\nbut took control of the team when his ex-tynecastle team-mate quit at the start of february . \nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park . \ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
-    "summary": "Here is a concise summary of the passage:\n\nGary Locke, the 41-year-old former Hearts boss, has been appointed as Kilmarnock's permanent manager on a three-year deal after a successful interim spell, during which he has lost only once in seven games.",
-    "annotations": [
-      {
-        "annot_id": 192,
-        "sample_id": 25,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Benign"
-        ],
-        "note": "By common sense and the sentiment of the source, we can infer that Locke has a successful interim spell and that is the reason his interim role is prompted to a permanent one. ",
-        "annotator_name": "forrest",
-        "summary_span": " after a successful interim spell",
-        "summary_start": 164,
-        "summary_end": 197,
-        "source_span": "\nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park .",
-        "source_start": 299,
-        "source_end": 442
-      }
-    ],
-    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "meta_hhemv1": 0.95146,
-    "meta_hhem-2.1": 0.94646,
-    "meta_hhem-2.1-english": 0.99052,
-    "meta_trueteacher": 0,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 653
   }
 ]
