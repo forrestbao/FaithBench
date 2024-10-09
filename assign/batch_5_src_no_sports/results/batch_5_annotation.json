@@ -34,20 +34,6 @@
         "summary_end": 223
       },
       {
-        "annot_id": 43,
-        "sample_id": 0,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't say this",
-        "annotator_name": "Manveer",
-        "summary_span": "Milner has announced his decision to step away from the England team,",
-        "summary_start": 503,
-        "summary_end": 572
-      },
-      {
         "annot_id": 118,
         "sample_id": 0,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -76,6 +62,46 @@
         "source_span": "won 61 caps for England ",
         "source_start": 36,
         "source_end": 60
+      },
+      {
+        "annot_id": 203,
+        "sample_id": 0,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "summary omits Fifa, which perhaps should be kept for clarity",
+        "annotator_name": "Manveer",
+        "summary_span": "2014 World Cup qualifiers",
+        "summary_start": 476,
+        "summary_end": 501
+      },
+      {
+        "annot_id": 204,
+        "sample_id": 0,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say that he's departing or that he's departing from team England",
+        "annotator_name": "Manveer",
+        "summary_span": "Milner has announced his decision to step away from the England team",
+        "summary_start": 503,
+        "summary_end": 571
+      },
+      {
+        "annot_id": 208,
+        "sample_id": 0,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "some assumptions are made that a cap is an appearance in an international match",
+        "annotator_name": "Manveer",
+        "summary_span": "He has represented England in 61 senior matches,",
+        "summary_start": 78,
+        "summary_end": 126
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -170,20 +196,6 @@
         "summary_span": "James Milner, a 30-year-old former Manchester City player,",
         "summary_start": 42,
         "summary_end": 100
-      },
-      {
-        "annot_id": 45,
-        "sample_id": 2,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't say this",
-        "annotator_name": "Manveer",
-        "summary_span": "has retired from international football",
-        "summary_start": 101,
-        "summary_end": 140
       },
       {
         "annot_id": 46,
@@ -317,6 +329,34 @@
         "source_span": "won",
         "source_start": 36,
         "source_end": 39
+      },
+      {
+        "annot_id": 205,
+        "sample_id": 2,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say Milner retired",
+        "annotator_name": "Manveer",
+        "summary_span": "has retired from international football ",
+        "summary_start": 101,
+        "summary_end": 141
+      },
+      {
+        "annot_id": 207,
+        "sample_id": 2,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't give the first name of Milner as James",
+        "annotator_name": "Manveer",
+        "summary_span": "James",
+        "summary_start": 42,
+        "summary_end": 47
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -611,6 +651,19 @@
         "source_span": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said.",
         "source_start": 0,
         "source_end": 360
+      },
+      {
+        "annot_id": 209,
+        "sample_id": 4,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "some assumptions are made that a cap is an appearance in an international match",
+        "annotator_name": "Manveer",
+        "summary_span": "England Under-21 player with 46 appearances",
+        "summary_start": 370,
+        "summary_end": 413
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",

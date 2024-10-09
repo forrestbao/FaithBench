@@ -39,20 +39,6 @@
         "source_end": 336
       },
       {
-        "annot_id": 4,
-        "sample_id": 0,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Requires the external knowledge that \"The Gulls\" is the nickname for Torquay United",
-        "annotator_name": "Miaoran",
-        "summary_span": "Torquay United",
-        "summary_start": 270,
-        "summary_end": 284
-      },
-      {
         "annot_id": 13,
         "sample_id": 0,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
@@ -198,6 +184,19 @@
         "summary_span": "Torquay United is currently four points above the relegation zone and has won only one of their last six games.",
         "summary_start": 512,
         "summary_end": 623
+      },
+      {
+        "annot_id": 178,
+        "sample_id": 0,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " Torquay United",
+        "summary_start": 269,
+        "summary_end": 284
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -307,80 +306,6 @@
     "summary": "Here's a concise summary of the passage:\n\nThe passage describes two player transfers in football:\n\n1. Anderson, a 27-year-old centre-back, has left Barrow to join their National League rivals. He previously played for Aldershot, Exeter, and in Italy. \n\n2. Keating, a 21-year-old striker from Ireland, is joining the team pending international clearance. He was recommended by former Port Vale manager Micky Adams. \n\nTorquay United's manager, Kevin Nicholson, comments on both players, describing Anderson as a leader and Keating as young and eager. The team is currently struggling, sitting just above the relegation zone with only one win in their last six games.",
     "annotations": [
       {
-        "annot_id": 7,
-        "sample_id": 2,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"the team\" in the summary is ambiguous. It's not clear what \"the team\" refers to.",
-        "annotator_name": "Miaoran",
-        "summary_span": "joining the team",
-        "summary_start": 304,
-        "summary_end": 320,
-        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
-        "source_start": 233,
-        "source_end": 336
-      },
-      {
-        "annot_id": 8,
-        "sample_id": 2,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "It requires the external knowledge that \"The Gull\" is the nickname for Torquay United.",
-        "annotator_name": "Miaoran",
-        "summary_span": "Torquay United's manager",
-        "summary_start": 416,
-        "summary_end": 440
-      },
-      {
-        "annot_id": 9,
-        "sample_id": 2,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Benign"
-        ],
-        "note": "It can reasoned from the source that Myles is the first name of Anderson and Ruairi is the first name of Keating",
-        "annotator_name": "Miaoran",
-        "summary_span": "comments on both players, describing Anderson as a leader and Keating as young and eager. ",
-        "summary_start": 459,
-        "summary_end": 549,
-        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\"",
-        "source_start": 467,
-        "source_end": 720
-      },
-      {
-        "annot_id": 17,
-        "sample_id": 2,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Requires external knowledge",
-        "annotator_name": "Miaoran",
-        "summary_span": "from Ireland,",
-        "summary_start": 287,
-        "summary_end": 300
-      },
-      {
-        "annot_id": 18,
-        "sample_id": 2,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Benign"
-        ],
-        "note": "This can be inferred from the context as the Gull seems to be close to the relegation zone now",
-        "annotator_name": "Miaoran",
-        "summary_span": "The team is currently struggling, sitting just above the relegation zone with only one win in their last six games.",
-        "summary_start": 549,
-        "summary_end": 664
-      },
-      {
         "annot_id": 33,
         "sample_id": 2,
         "annotator": "4d772c3676894756870c89b2ab4d37f0",
@@ -476,6 +401,35 @@
         "summary_span": "The team is currently struggling, sitting just above the relegation zone with only one win in their last six games.",
         "summary_start": 549,
         "summary_end": 664
+      },
+      {
+        "annot_id": 180,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Keating, a 21-year-old striker from Ireland",
+        "summary_start": 256,
+        "summary_end": 299
+      },
+      {
+        "annot_id": 182,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source only mentions some football teams that Keating played for, but does not mention is they are in Ireland",
+        "annotator_name": "Miaoran",
+        "summary_span": "Keating, a 21-year-old striker from Ireland,",
+        "summary_start": 256,
+        "summary_end": 300,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -495,32 +449,6 @@
     "summary": "Anderson, a 27-year-old centre-back, has left Barrow to join a rival National League club, potentially facing his former team on February 18th. Meanwhile, 21-year-old striker Keating, with experience in Ireland, joins the Gulls, who are seeking reinforcement as they sit just above the relegation zone with recent poor form.",
     "annotations": [
       {
-        "annot_id": 14,
-        "sample_id": 3,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Requires external knowledge that Sligo Rovers, Galway United and Finn Harps are Irish football teams",
-        "annotator_name": "Miaoran",
-        "summary_span": "with experience in Ireland",
-        "summary_start": 184,
-        "summary_end": 210
-      },
-      {
-        "annot_id": 16,
-        "sample_id": 3,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Benign"
-        ],
-        "note": "This can be inferred from the context as the Gull seems to be close to the relegation zone now",
-        "annotator_name": "Miaoran",
-        "summary_span": "who are seeking reinforcement as they sit just above the relegation zone with recent poor form.",
-        "summary_start": 229,
-        "summary_end": 324
-      },
-      {
         "annot_id": 35,
         "sample_id": 3,
         "annotator": "4d772c3676894756870c89b2ab4d37f0",
@@ -535,6 +463,87 @@
         "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
         "source_start": 0,
         "source_end": 892
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 3,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "27 is not explicitly called out as Anderson's age but this summary adds appropriate, additional context that makes it more clear and explicit.",
+        "annotator_name": "New User",
+        "summary_span": "Anderson, a 27-year-old centre-back",
+        "summary_start": 0,
+        "summary_end": 35
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 3,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think this is benign because it summarizes similarly in that the outcome is the same: Anderson is leaving, has left, or is no longer part of the Barrow team.\n\nIt does, however, seem less accurate because leaving doesn't imply any of the context that comes with cancelling a contract. Cancelling a contract has more implication than simply leaving a team or relationship.\n\nDepending on the application of this summary this (lack of) accuracy may be important.",
+        "annotator_name": "New User",
+        "summary_span": "left Barrow to join a rival National League club",
+        "summary_start": 41,
+        "summary_end": 89
+      },
+      {
+        "annot_id": 136,
+        "sample_id": 3,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Similar to the label for Anderson, clarifying \"21\" as the age with \"year-old\" is helpful here and removes any ambiguity even though the source didn't contain this context",
+        "annotator_name": "New User",
+        "summary_span": "Meanwhile, 21-year-old striker Keating",
+        "summary_start": 144,
+        "summary_end": 182
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 3,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "I'm not sure where this information is coming from since it's seemingly not in the source material",
+        "annotator_name": "New User",
+        "summary_span": "with experience in Ireland",
+        "summary_start": 184,
+        "summary_end": 210
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 3,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is a reasonable summary of the source material but leaves out information that I think makes it more credible, such as the context about sitting just four points above the relegation zone and having a recent loss-heavy record.\n\nIt's reasonable to infer that the team is \"seeking reinforcement\", but it's unclear how close to the relegation zone they are and what \"poor form\" means here.\n\nThis could be more descriptive but I think this is ultimately an acceptable summary based on the source",
+        "annotator_name": "New User",
+        "summary_span": "who are seeking reinforcement as they sit just above the relegation zone with recent poor form.",
+        "summary_start": 229,
+        "summary_end": 324
+      },
+      {
+        "annot_id": 183,
+        "sample_id": 3,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Requires external knowledge that Sligo Rovers, Galway United and Finn Harps are Irish football teams\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "with experience in Ireland",
+        "summary_start": 184,
+        "summary_end": 210,
+        "source_span": "He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"",
+        "source_start": 337,
+        "source_end": 466
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -553,49 +562,6 @@
     "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
     "summary": "The passage discusses two new signings for Torquay United, a National League football club. Anderson, 27, a centre-back, is joining from Barrow, where he has cancelled his contract by mutual agreement. He has previous experience playing in Italy and could face his former club on February 18th. Keating, 21, a striker, is moving to Torquay United based on a recommendation from Micky Adams; his transfer is pending international clearance. Manager Kevin Nicholson expresses that Anderson brings leadership qualities, while Keating is described as eager to prove himself. Torquay United is currently struggling, sitting just above the relegation zone and having won only one of their last six matches.",
     "annotations": [
-      {
-        "annot_id": 19,
-        "sample_id": 4,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Requires external knowledge that \"the Gull\" is the nickname for Torquay United",
-        "annotator_name": "Miaoran",
-        "summary_span": "Torquay United",
-        "summary_start": 43,
-        "summary_end": 57
-      },
-      {
-        "annot_id": 20,
-        "sample_id": 4,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Benign"
-        ],
-        "note": "It can be inferred from the following context that Anderson is joining the gull",
-        "annotator_name": "Miaoran",
-        "summary_span": "two new signings for Torquay United",
-        "summary_start": 22,
-        "summary_end": 57
-      },
-      {
-        "annot_id": 21,
-        "sample_id": 4,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Benign"
-        ],
-        "note": "Can be reasoned from the context",
-        "annotator_name": "Miaoran",
-        "summary_span": "Torquay United is currently struggling, sitting just above the relegation zone",
-        "summary_start": 571,
-        "summary_end": 649,
-        "source_span": "The Gulls are currently four points above the relegation zone, and have won only one of their last six games.",
-        "source_start": 721,
-        "source_end": 830
-      },
       {
         "annot_id": 36,
         "sample_id": 4,
@@ -645,6 +611,104 @@
         "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
         "source_start": 0,
         "source_end": 892
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This contains multiple errors:\n\n1. Torquay United seems made up\n2. The source doesn't mention what team Anderson is signing with, only that it's a \"National League rival\"\n3. Striker Keating is signing for the Gulls\n4. This summary combines Anderson and Keating as signing with the same, made-up team: Torquay United",
+        "annotator_name": "New User",
+        "summary_span": "The passage discusses two new signings for Torquay United, a National League football club",
+        "summary_start": 0,
+        "summary_end": 90
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "While it's accurate that Anderson has cancelled his Barrow contract and is joining a rival National League club, this summary follows the first sentence which now implies Anderson is joining Torquay United, which is not in the source.\n\nWe also don't know the name of the team Anderson is joining to begin with.",
+        "annotator_name": "New User",
+        "summary_span": "Anderson, 27, a centre-back, is joining from Barrow,",
+        "summary_start": 92,
+        "summary_end": 144
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "This sentence has a few problems:\n\n1. Keating is not moving to Torquay United because it doesn't (seemingly) exist\n2. Micky Adams did not recommend Keating to join Torquay United because it does not exist in the source",
+        "annotator_name": "New User",
+        "summary_span": "Keating, 21, a striker, is moving to Torquay United based on a recommendation from Micky Adams",
+        "summary_start": 295,
+        "summary_end": 389
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "Nicholson said this about Myles, not Anderson. \n\nAdditionally, \"leadership qualities\" is benign in that it appropriately infers and summarizes what was said about Myles.",
+        "annotator_name": "New User",
+        "summary_span": "Manager Kevin Nicholson expresses that Anderson brings leadership qualities",
+        "summary_start": 440,
+        "summary_end": 515
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "Nicholson said this about Ruairi, not Keating.\n\nThis is also benign because it appropriately summarizes the source context as \"eager to prove himself\"",
+        "annotator_name": "New User",
+        "summary_span": "while Keating is described as eager to prove himself",
+        "summary_start": 517,
+        "summary_end": 569
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Torquay United does not exist and is being used in place of \"Gulls\"",
+        "annotator_name": "New User",
+        "summary_span": "Torquay United is currently struggling, sitting just above the relegation zone and having won only one of their last six matches.",
+        "summary_start": 571,
+        "summary_end": 700
+      },
+      {
+        "annot_id": 184,
+        "sample_id": 4,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United",
+        "summary_start": 43,
+        "summary_end": 57
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -663,34 +727,6 @@
     "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
     "summary": "Here is a concise summary of the passage:\n\nThe Plymouth Argyle (Gulls) team has made two new signings: centre-back Anderson and striker Keating. Anderson, 27, joins from Barrow and has a possible return to face his old club on 18 February. Keating, 21, joins from Ireland and is subject to international clearance. Manager Kevin Nicholson is optimistic about the new signings, describing Anderson as a leader and Keating as young and hungry to prove himself.",
     "annotations": [
-      {
-        "annot_id": 22,
-        "sample_id": 5,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "It is an extrinsic false statement. Plymouth Argyle is not called \"the Gull.\" Plymouth Argyle is a football club based in Plymouth, England, and their nickname is \"the Pilgrims.\" The nickname \"the Gulls\" actually refers to Torquay United",
-        "annotator_name": "Miaoran",
-        "summary_span": "The Plymouth Argyle (Gulls)",
-        "summary_start": 43,
-        "summary_end": 70
-      },
-      {
-        "annot_id": 23,
-        "sample_id": 5,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Requires external knowledge that Sligo Rovers, Galway United and Finn Harps are Irish teams",
-        "annotator_name": "Miaoran",
-        "summary_span": "joins from Ireland",
-        "summary_start": 253,
-        "summary_end": 271
-      },
       {
         "annot_id": 24,
         "sample_id": 5,
@@ -752,6 +788,89 @@
         "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
         "source_start": 0,
         "source_end": 892
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 5,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "I don't know where \"The Plymouth Argyle\" connection is made to Gulls within the source.\n\nAdditionally, it's unclear from the source if both Anderson and Keating are going to the same team since Anderson's statement only mentions going to a rival.",
+        "annotator_name": "New User",
+        "summary_span": "The Plymouth Argyle (Gulls) team has made two new signings:",
+        "summary_start": 43,
+        "summary_end": 102
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 5,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "It's unclear how the summary is deriving \"Ireland\" from the source context.\n\nThis may be benign in that it's deriving this information from the club name(s), but that's not clear here",
+        "annotator_name": "New User",
+        "summary_span": "joins from Ireland",
+        "summary_start": 253,
+        "summary_end": 271
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 5,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It seems like all of these players are related to the Gulls and Nicholson as the manager, but it's not immediately clear from the source.\n\nThis statement might be slightly inaccurate if Anderson isn't joining the Gulls because it seems all other mentioned players are joining or are already part of Gulls",
+        "annotator_name": "New User",
+        "summary_span": "Manager Kevin Nicholson is optimistic about the new signings",
+        "summary_start": 315,
+        "summary_end": 375
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 5,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "Myles is described as the \"leader-type\", not Anderson and Ruairi is described as \"young and hungry to prove himself\" though the last part of this summary is benign since it rephrases the original context but in a way that doesn't change the intent",
+        "annotator_name": "New User",
+        "summary_span": "describing Anderson as a leader and Keating as young and hungry to prove himself.",
+        "summary_start": 377,
+        "summary_end": 458
+      },
+      {
+        "annot_id": 185,
+        "sample_id": 5,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not sure if Plymouth Argyle and Gulls refer to the same team",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Plymouth Argyle (Gulls) team",
+        "summary_start": 43,
+        "summary_end": 75
+      },
+      {
+        "annot_id": 186,
+        "sample_id": 5,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source only mentions the team names",
+        "annotator_name": "Miaoran",
+        "summary_span": " joins from Ireland ",
+        "summary_start": 252,
+        "summary_end": 272,
+        "source_span": "He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"",
+        "source_start": 337,
+        "source_end": 466
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -770,37 +889,6 @@
     "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
     "summary": "Here is a concise summary of the passage:\n\nTwo new players have joined Torquay United (the Gulls): centre-back Anderson, 27, who has cancelled his contract with Barrow, and striker Keating, 21, who was recommended by ex-Port Vale manager Micky Adams. Anderson brings leadership experience, while Keating is young and hungry to prove himself. The signings come as the Gulls aim to improve their form, currently sitting four points above the relegation zone.",
     "annotations": [
-      {
-        "annot_id": 25,
-        "sample_id": 6,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Requires external knowledge",
-        "annotator_name": "Miaoran",
-        "summary_span": "Torquay United (the Gulls)",
-        "summary_start": 71,
-        "summary_end": 97
-      },
-      {
-        "annot_id": 26,
-        "sample_id": 6,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Kevin praised that Anderson is the leader-type he's been looking after, but the source does not mention Anderson's leadership experience",
-        "annotator_name": "Miaoran",
-        "summary_span": "leadership experience",
-        "summary_start": 267,
-        "summary_end": 288,
-        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
-        "source_start": 467,
-        "source_end": 603
-      },
       {
         "annot_id": 27,
         "sample_id": 6,
@@ -829,6 +917,102 @@
         "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
         "source_start": 0,
         "source_end": 892
+      },
+      {
+        "annot_id": 187,
+        "sample_id": 6,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United (the Gulls)",
+        "summary_start": 71,
+        "summary_end": 97
+      },
+      {
+        "annot_id": 188,
+        "sample_id": 6,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Kevin praised that Anderson is the leader-type he's been looking after, but the source does not mention Anderson's leadership experience\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "Anderson brings leadership experience",
+        "summary_start": 251,
+        "summary_end": 288,
+        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 467,
+        "source_end": 603
+      },
+      {
+        "annot_id": 199,
+        "sample_id": 6,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Torquay United is not mentioned in the source",
+        "annotator_name": "New User",
+        "summary_span": "Two new players have joined Torquay United (the Gulls)",
+        "summary_start": 43,
+        "summary_end": 97
+      },
+      {
+        "annot_id": 200,
+        "sample_id": 6,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's not clear from the source if Anderson is also joining the Gulls so this summary seems questionable because it lumps both players into the same context: joining the Gulls.\n\nI could see how this summary could make sense because it may be implied by the broader (not shown) context, but given the limited source context this seems like a hallucination that may be misleading without more context to validate",
+        "annotator_name": "New User",
+        "summary_span": "centre-back Anderson, 27, who has cancelled his contract with Barrow, and striker Keating, 21, who was recommended by ex-Port Vale manager Micky Adams",
+        "summary_start": 99,
+        "summary_end": 249
+      },
+      {
+        "annot_id": 201,
+        "sample_id": 6,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This summary describes Myles, not Anderson",
+        "annotator_name": "New User",
+        "summary_span": " Anderson brings leadership experience",
+        "summary_start": 250,
+        "summary_end": 288
+      },
+      {
+        "annot_id": 202,
+        "sample_id": 6,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This summary describes Ruairi, not Keating.",
+        "annotator_name": "New User",
+        "summary_span": "while Keating is young and hungry to prove himself",
+        "summary_start": 290,
+        "summary_end": 340
+      },
+      {
+        "annot_id": 203,
+        "sample_id": 6,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is an acceptable summary of the original context because it correctly infers that the Gulls are trying to improve.\n\nI'd prefer to see language that doesn't soften the tone of the original context because \"improve their form\" doesn't quite convey the severity of the team's position (sitting just above relegation zone and recently losing 5 of 6 recent games)",
+        "annotator_name": "New User",
+        "summary_span": "The signings come as the Gulls aim to improve their form",
+        "summary_start": 342,
+        "summary_end": 398
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -847,20 +1031,6 @@
     "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
     "summary": "Barrow centre-back Anderson, 27, has joined Torquay United, while striker Keating, 21, has also joined the club. Anderson has played for Aldershot, Exeter, and in Italy, while Keating has played for Sligo Rovers, Galway United, and Finn Harps. Torquay manager Kevin Nicholson described Anderson as a leader and Keating as hungry to prove himself. Torquay is currently four points above the relegation zone. \n",
     "annotations": [
-      {
-        "annot_id": 28,
-        "sample_id": 7,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Needs external knowledge that \"The Gull\" is the nickname for Torquay United",
-        "annotator_name": "Miaoran",
-        "summary_span": "Torquay United",
-        "summary_start": 44,
-        "summary_end": 58
-      },
       {
         "annot_id": 43,
         "sample_id": 7,
@@ -925,6 +1095,88 @@
         "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
         "source_start": 0,
         "source_end": 892
+      },
+      {
+        "annot_id": 189,
+        "sample_id": 7,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United",
+        "summary_start": 44,
+        "summary_end": 58
+      },
+      {
+        "annot_id": 204,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This doesn't seem to exist in the source context",
+        "annotator_name": "New User",
+        "summary_span": "has joined Torquay United",
+        "summary_start": 33,
+        "summary_end": 58
+      },
+      {
+        "annot_id": 205,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's not obvious to me from the source context that both Anderson and Keating are joining the same club. Since it only mentions Anderson joining a \"rival\", this logic seems like a jump to me and not what I'd expect in a summary.\n\nI can also see how this may be implied, however, so this seems questionable to me.",
+        "annotator_name": "New User",
+        "summary_span": "has also joined the club",
+        "summary_start": 87,
+        "summary_end": 111
+      },
+      {
+        "annot_id": 206,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Kevin Nicholson is a manager but for the Gulls, not Torquay based on the source context",
+        "annotator_name": "New User",
+        "summary_span": "Torquay manager Kevin Nicholson",
+        "summary_start": 244,
+        "summary_end": 275
+      },
+      {
+        "annot_id": 207,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Myles is described as a leader-type, not Anderson.\n\nRuairi is described as \"hungry to prove himself\", not Keating.",
+        "annotator_name": "New User",
+        "summary_span": "described Anderson as a leader and Keating as hungry to prove himself",
+        "summary_start": 276,
+        "summary_end": 345
+      },
+      {
+        "annot_id": 208,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The Gulls are four points above the relegation zone, not Torquay, which is not present in the source context",
+        "annotator_name": "New User",
+        "summary_span": "Torquay is currently four points above the relegation zone.",
+        "summary_start": 347,
+        "summary_end": 406
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -942,7 +1194,35 @@
     "sample_id": 8,
     "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
     "summary": "The passage discusses the transfer of two players, Anderson and Keating, to a National League team. Anderson, a 27-year-old centre-back, has left Barrow by mutual consent to join their rivals. He may face his former club on February 18th. Keating, a 21-year-old striker, was recommended to the team's manager by Micky Adams. Keating's move is subject to international clearance. The manager describes Anderson as a leader-type player and Keating as young and hungry. The team is currently four points above the relegation zone and has won only one of their last six games.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 209,
+        "sample_id": 8,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's not clear from the source context if both players are going to the same team, but I can see how this may be implied or understood when reading the source.",
+        "annotator_name": "New User",
+        "summary_span": "The passage discusses the transfer of two players, Anderson and Keating, to a National League team",
+        "summary_start": 0,
+        "summary_end": 98
+      },
+      {
+        "annot_id": 210,
+        "sample_id": 8,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "These descriptions are made of Myles and Ruairi, respectively",
+        "annotator_name": "New User",
+        "summary_span": "The manager describes Anderson as a leader-type player and Keating as young and hungry",
+        "summary_start": 379,
+        "summary_end": 465
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.98953,
     "meta_hhem-2.1": 0.95803,
@@ -958,7 +1238,35 @@
     "sample_id": 9,
     "source": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals. The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February. Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams. He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \" Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \" Ruairi is young, a little bit raw, but incredibly hungry to show what he's about.\" The Gulls are currently four points above the relegation zone, and have won only one of their last six games. Find all the latest football transfers on our dedicated page.",
     "summary": "Centre-back Anderson, 27, has mutually terminated his contract with Barrow to join a National League rival and may play against his former team on 18 February. Striker Keating, 21, recommended by ex-Port Vale manager Micky Adams, is moving subject to international clearance, having previously played for Sligo Rovers, Galway United, and Finn Harps. Gulls boss Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself. The Gulls are currently four points above the relegation zone with only one win in their last six games.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 211,
+        "sample_id": 9,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "These descriptions were made of Myles and Ruairi, respectively. Not Anderson and Keating.",
+        "annotator_name": "New User",
+        "summary_span": "Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself.",
+        "summary_start": 361,
+        "summary_end": 455
+      },
+      {
+        "annot_id": 212,
+        "sample_id": 9,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"moving\" could be interpreted differently here depending on the reader, in my opinion.\n\nIt's not as clear as the source context that Keating is moving teams vs relocating where he lives.\n\nThe source context creates a better understanding by preceding \"his move\" with the clubs he used to play on and, without that context, this summary is less credible to me",
+        "annotator_name": "New User",
+        "summary_span": " is moving subject to international clearance",
+        "summary_start": 229,
+        "summary_end": 274
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.99933,
     "meta_hhem-2.1": 0.91527,
@@ -976,21 +1284,63 @@
     "summary": " West Ham United is in discussions to sign 17-year-old Jamaican forward Deshane Beckford, who impressed during a two-week trial with their academy. Beckford, from Montego Bay United, has also received offers from Belgian clubs and is considered one of the hottest prospects to emerge from the Caribbean. Additionally, West Ham has announced that season tickets for their Olympic Stadium will cost as little as £289, making it the club with the cheapest pricing strategy in the Barclays Premier League for the 2016-2017 season.",
     "annotations": [
       {
-        "annot_id": 71,
+        "annot_id": 150,
         "sample_id": 10,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "for the 2016-2017 season.",
+        "summary_start": 501,
+        "summary_end": 526,
+        "source_span": "for the 2016-20 season .",
+        "source_start": 836,
+        "source_end": 860
+      },
+      {
+        "annot_id": 190,
+        "sample_id": 10,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
         ],
         "note": "",
         "annotator_name": "Miaoran",
         "summary_span": "for the 2016-2017 season",
         "summary_start": 501,
         "summary_end": 525,
-        "source_span": "for the 2016-20 season ",
-        "source_start": 836,
+        "source_span": "when they make the switch for the 2016-20 season ",
+        "source_start": 810,
         "source_end": 859
+      },
+      {
+        "annot_id": 213,
+        "sample_id": 10,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "I think this is benign because the summary is adding 'United' even though it doesn't exist in connection with West Ham in the source.\n\nIt adds some clarity but is unexpected to me",
+        "annotator_name": "New User",
+        "summary_span": "West Ham United is in discussions to sign 17-year-old Jamaican forward Deshane Beckford",
+        "summary_start": 1,
+        "summary_end": 88
+      },
+      {
+        "annot_id": 231,
+        "sample_id": 10,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think the interpreted and corrected dat of '2017' is likely appropriate here but could be misunderstood by someone unfamiliar with football season lengths.",
+        "annotator_name": "New User",
+        "summary_span": "Barclays Premier League for the 2016-2017 season.",
+        "summary_start": 477,
+        "summary_end": 526
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1010,37 +1360,46 @@
     "summary": " West Ham is in talks to sign Jamaican starlet Deshane Beckford, who impressed during a trial. Beckford, a 17-year-old forward from Montego Bay United, trained with West Ham's academy and received positive feedback from coaches. He also has offers from Belgian clubs. West Ham aims to secure Beckford's signature, and they have announced affordable season tickets at the Olympic Stadium to attract fans for the 2016-2020 Premier League season.",
     "annotations": [
       {
-        "annot_id": 48,
+        "annot_id": 151,
         "sample_id": 11,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
-        "annotator_name": "Miaoran",
-        "summary_span": "West Ham aims to secure Beckford's signature, ",
-        "summary_start": 268,
-        "summary_end": 314,
-        "source_span": " \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
-        "source_start": 475,
-        "source_end": 576
-      },
-      {
-        "annot_id": 49,
-        "sample_id": 11,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Benign"
         ],
         "note": "",
-        "annotator_name": "Miaoran",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "affordable season tickets",
         "summary_start": 338,
         "summary_end": 363,
         "source_span": "season tickets at the olympic stadium will cost as little as £ 289",
         "source_start": 612,
         "source_end": 678
+      },
+      {
+        "annot_id": 215,
+        "sample_id": 11,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source context says Beckford \"impressed\" coaches so modifying this to \"received positive feedback\" changes the context but still maintains clarity, in my opinion",
+        "annotator_name": "New User",
+        "summary_span": "trained with West Ham's academy and received positive feedback from coaches",
+        "summary_start": 152,
+        "summary_end": 227
+      },
+      {
+        "annot_id": 230,
+        "sample_id": 11,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I believe this should be 2016-2017 but the summary is understandably extrapolating '2020' from the seeming type of '20' in the source context",
+        "annotator_name": "New User",
+        "summary_span": "attract fans for the 2016-2020 Premier League season",
+        "summary_start": 390,
+        "summary_end": 442
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1060,23 +1419,6 @@
     "summary": "Here's a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford from Montego Bay United. Beckford recently completed a two-week trial with West Ham's academy, impressing the coaches. He is considered one of the top prospects from the Caribbean and has attracted interest from other European clubs, including some in Belgium. Separately, West Ham announced that season tickets for their new Olympic Stadium will start at £289, making them the cheapest in the Premier League. This pricing strategy aims to fill the 54,000-seat stadium when the team moves there for the 2016-20 season.",
     "annotations": [
       {
-        "annot_id": 53,
-        "sample_id": 12,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
-        "annotator_name": "Miaoran",
-        "summary_span": "has attracted interest from other European clubs, including some in Belgium.",
-        "summary_start": 309,
-        "summary_end": 385,
-        "source_span": "\nbeckford also has offers from clubs in belgium .",
-        "source_start": 288,
-        "source_end": 337
-      },
-      {
         "annot_id": 60,
         "sample_id": 12,
         "annotator": "4d772c3676894756870c89b2ab4d37f0",
@@ -1091,6 +1433,65 @@
         "source_span": "when they make the switch for the 2016-20 season .",
         "source_start": 810,
         "source_end": 860
+      },
+      {
+        "annot_id": 152,
+        "sample_id": 12,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "has attracted interest from other European clubs, including some in Belgium.",
+        "summary_start": 309,
+        "summary_end": 385,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
+      },
+      {
+        "annot_id": 191,
+        "sample_id": 12,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is considered one of the top prospects from the Caribbean and has attracted interest from other European clubs, including some in Belgium",
+        "summary_start": 244,
+        "summary_end": 384,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      },
+      {
+        "annot_id": 216,
+        "sample_id": 12,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source context implies, to me, that he's \"linked\" with other European clubs but that doesn't necessarily mean he has interest.\n\nThe only explicit \"interest\" mentioned in the source is from the Belgium clubs.\n\nThat makes this summary questionable to me because it seems like \"links\" to other European clubs and \"interest from\" other clubs concepts are being conflated.",
+        "annotator_name": "New User",
+        "summary_span": "has attracted interest from other European clubs, including some in Belgium",
+        "summary_start": 309,
+        "summary_end": 384
+      },
+      {
+        "annot_id": 229,
+        "sample_id": 12,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This summary is technically faithful to the source but seemingly inaccurate due to a potential typo in the source context.\n\nI'd expect this to say 2016-2017 based on what I know of football seasons",
+        "annotator_name": "New User",
+        "summary_span": "when the team moves there for the 2016-20 season",
+        "summary_start": 594,
+        "summary_end": 642
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1110,15 +1511,15 @@
     "summary": "West Ham United are in negotiations to sign Jamaican forward Deshane Beckford, who has attracted interest from various European clubs due to his impressive trial at the club's academy. Beckford, aged 17, is considered a top prospect from the Caribbean. Additionally, West Ham has announced that season tickets for the Olympic Stadium will start from £289, aiming to fill the venue's 54,000 capacity for the 2016-2020 season with the lowest ticket prices in the Premier League.",
     "annotations": [
       {
-        "annot_id": 55,
+        "annot_id": 153,
         "sample_id": 13,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "\"various European clubs\" might be overgeneralized as the source only mentions west ham and clubs in belgium",
-        "annotator_name": "Miaoran",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "various European clubs",
         "summary_start": 111,
         "summary_end": 133,
@@ -1127,21 +1528,56 @@
         "source_end": 337
       },
       {
-        "annot_id": 56,
+        "annot_id": 217,
         "sample_id": 13,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
         "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
+          "Questionable"
         ],
-        "note": "The source only mentions that beckford impressed coaches in west ham due to his impressive performance on trail. But the source does not mention how beckford attracted other clubs.",
-        "annotator_name": "Miaoran",
-        "summary_span": "due to his impressive trial at the club's academy",
-        "summary_start": 134,
-        "summary_end": 183,
-        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
-        "source_start": 99,
-        "source_end": 287
+        "note": "This may be an appropriate summary but the source context, to me, sounds like the \"discussing\" is happening internally at West Ham and not necessarily with Beckford. \"Negotiations\" implies West Ham is discussing the deal with Beckford but it's unclear.",
+        "annotator_name": "New User",
+        "summary_span": "West Ham United are in negotiations to sign Jamaican forward Deshane Beckford",
+        "summary_start": 0,
+        "summary_end": 77
+      },
+      {
+        "annot_id": 218,
+        "sample_id": 13,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This summary is implying a correlation between Beckford's trial performance and the interest from \"various European clubs\". \n\nThe source context does not seem to imply that same connection, at least to me.\n\nThis could be an unwanted hallucination if the summary is connecting two disparate data points",
+        "annotator_name": "New User",
+        "summary_span": "who has attracted interest from various European clubs due to his impressive trial at the club's academy",
+        "summary_start": 79,
+        "summary_end": 183
+      },
+      {
+        "annot_id": 219,
+        "sample_id": 13,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I happen to know there's only one \"Premier League\", but for someone reading who doesn't know that (or maybe I'm wrong), this might leave out important context that it's specifically the Barclay's Premier League",
+        "annotator_name": "New User",
+        "summary_span": "the Premier League",
+        "summary_start": 457,
+        "summary_end": 475
+      },
+      {
+        "annot_id": 228,
+        "sample_id": 13,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think this is meant to say 2016-2017 but the summary has reasonably expanded '20' to '2020'. \n\nI think it's likely common knowledge that '20' here is a typo of '2017' so this hallucination is seemingly unwanted but also a bit ambiguous",
+        "annotator_name": "New User",
+        "summary_span": "for the 2016-2020 season",
+        "summary_start": 399,
+        "summary_end": 423
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1161,21 +1597,63 @@
     "summary": "Deshane Beckford, a 17-year-old Jamaican forward from Montego Bay United, is impressing West Ham United during his trial with their academy. Beckford has also received interest from Belgian clubs and is considered one of the top prospects from the Caribbean. West Ham is close to signing him. Additionally, West Ham has announced that season tickets for their new Olympic Stadium will start at £289, making them the cheapest in the Premier League for the 2016-2017 season.",
     "annotations": [
       {
-        "annot_id": 63,
+        "annot_id": 154,
         "sample_id": 14,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source says \"2016-2020 season\"",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "for the 2016-2017 season.",
+        "summary_start": 447,
+        "summary_end": 472,
+        "source_span": "for the 2016-20 season .",
+        "source_start": 836,
+        "source_end": 860
+      },
+      {
+        "annot_id": 192,
+        "sample_id": 14,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
         "annotator_name": "Miaoran",
         "summary_span": "for the 2016-2017 season",
         "summary_start": 447,
         "summary_end": 471,
-        "source_span": "when they make the switch for the 2016-20 season",
+        "source_span": "when they make the switch for the 2016-20 season ",
         "source_start": 810,
-        "source_end": 858
+        "source_end": 859
+      },
+      {
+        "annot_id": 220,
+        "sample_id": 14,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "This seems unwanted to me because it's written in the present tense when the source is written in past tense.\n\nSince this changes the intent of the content, I think it's unwanted.",
+        "annotator_name": "New User",
+        "summary_span": "is impressing West Ham United during his trial with their academy",
+        "summary_start": 74,
+        "summary_end": 139
+      },
+      {
+        "annot_id": 227,
+        "sample_id": 14,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "I think this is benign because it seems reasonable to autocorrect the seeming typo of 2016-20 when the source context likely means 2016-2017 since football seasons run for ~a year rather than 4 years (if we assume '20' means '2020')",
+        "annotator_name": "New User",
+        "summary_span": "cheapest in the Premier League for the 2016-2017 season",
+        "summary_start": 416,
+        "summary_end": 471
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1259,38 +1737,70 @@
         "source_end": 860
       },
       {
-        "annot_id": 75,
+        "annot_id": 156,
         "sample_id": 18,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source mentions that beckford trained with west ham's academy but the summary implies that beckford trained with the main team",
-        "annotator_name": "Miaoran",
-        "summary_span": "a trial with the club",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "a trial with the club.",
         "summary_start": 113,
-        "summary_end": 134,
+        "summary_end": 135,
         "source_span": "train with west ham 's academy",
         "source_start": 171,
         "source_end": 201
       },
       {
-        "annot_id": 77,
+        "annot_id": 157,
         "sample_id": 18,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source says the switch for the 2016-20 season, but the summary states the switch is for 2016-17 season",
-        "annotator_name": "Miaoran",
-        "summary_span": "move there in the 2016-2017 season.",
-        "summary_start": 550,
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "when they move there in the 2016-2017 season.",
+        "summary_start": 540,
         "summary_end": 585,
-        "source_span": "when they make the switch for the 2016-20 season",
+        "source_span": "when they make the switch for the 2016-20 season .",
         "source_start": 810,
-        "source_end": 858
+        "source_end": 860
+      },
+      {
+        "annot_id": 193,
+        "sample_id": 18,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "when they move there in the 2016-2017 season.",
+        "summary_start": 540,
+        "summary_end": 585,
+        "source_span": " when they make the switch for the 2016-20 season .",
+        "source_start": 809,
+        "source_end": 860
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 18,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I realize the source context may have a typo and may have meant 2016-2017 season rather than 2016-2020 season.\n\nIf that's the case, I think this may be a helpful, benign hallucination but without knowing what was meant in the source context I think it's questionable instead (though likely the former)",
+        "annotator_name": "New User",
+        "summary_span": "move there in the 2016-2017 season",
+        "summary_start": 550,
+        "summary_end": 584,
+        "source_span": " sea",
+        "source_start": 851,
+        "source_end": 855
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1308,7 +1818,21 @@
     "sample_id": 19,
     "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
     "summary": "West Ham are negotiating a deal for 17-year-old Jamaican forward Deshane Beckford after he impressed during a trial with their academy. Beckford, from Montego Bay United, has also attracted interest from Belgian clubs and is considered one of the top prospects from the Caribbean. Additionally, West Ham announced that season tickets at the Olympic Stadium will start at £289, making them the cheapest in the Barclays Premier League, as they aim to fill the 54,000-seat venue for the 2016-20 season.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 226,
+        "sample_id": 19,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I would expect the summary to correct what seems to be a typo in the source context (2016-20). This is probably technically faithful but not helpful",
+        "annotator_name": "New User",
+        "summary_span": "as they aim to fill the 54,000-seat venue for the 2016-20 season",
+        "summary_start": 434,
+        "summary_end": 498
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.33459,
     "meta_hhem-2.1": 0.97527,
@@ -1359,20 +1883,20 @@
         "source_end": 337
       },
       {
-        "annot_id": 79,
+        "annot_id": 158,
         "sample_id": 21,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
-        "annotator_name": "Miaoran",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "West Ham aims to secure Beckford's signature",
         "summary_start": 268,
         "summary_end": 312,
-        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
-        "source_start": 477,
+        "source_span": "\npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 476,
         "source_end": 576
       }
     ],
@@ -1409,21 +1933,50 @@
         "source_end": 860
       },
       {
-        "annot_id": 81,
+        "annot_id": 159,
         "sample_id": 22,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
-        "annotator_name": "Miaoran",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "has attracted interest from other European clubs, including some in Belgium.",
         "summary_start": 282,
         "summary_end": 358,
         "source_span": "\nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean .",
         "source_start": 338,
         "source_end": 475
+      },
+      {
+        "annot_id": 194,
+        "sample_id": 22,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium. ",
+        "summary_start": 227,
+        "summary_end": 359,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      },
+      {
+        "annot_id": 225,
+        "sample_id": 22,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's not clear from the source context that \"linked with a host of european clubs\" means Beckford has interest from those clubs.\n\nThis summary therefore seems questionable to me",
+        "annotator_name": "New User",
+        "summary_span": "has attracted interest from other European clubs",
+        "summary_start": 282,
+        "summary_end": 330
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1443,21 +1996,21 @@
     "summary": "West Ham are in negotiations to sign Jamaican forward Deshane Beckford, who has attracted interest from numerous European clubs. The 17-year-old talent impressed during a trial with West Ham's academy. Additionally, West Ham has announced that season tickets for the Olympic Stadium will start at £289, aiming to fill the venue for the 2016-17 season.",
     "annotations": [
       {
-        "annot_id": 119,
+        "annot_id": 160,
         "sample_id": 23,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The summary might be overstated. \"numerous\" implies a large number. Form the source, we can only know that beckford receives offers from west ham and some clubs in belgium. We do not know how many clubs in Belgium provide offers",
-        "annotator_name": "Miaoran",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "who has attracted interest from numerous European clubs",
         "summary_start": 72,
         "summary_end": 127,
-        "source_span": "\nbeckford also has offers from clubs in belgium .",
-        "source_start": 288,
-        "source_end": 337
+        "source_span": "\nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
+        "source_start": 681,
+        "source_end": 860
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1477,15 +2030,15 @@
     "summary": "West Ham United are considering signing Deshane Beckford, a talented 17-year-old Jamaican forward who impressed during a trial with their academy. Beckford has also received interest from Belgian clubs and is considered one of the promising talents to come out of the Caribbean. Additionally, West Ham announced that their season tickets for the upcoming season at the Olympic Stadium will start at £289, making them the cheapest in the Premier League.",
     "annotations": [
       {
-        "annot_id": 85,
+        "annot_id": 161,
         "sample_id": 24,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "\"the upcoming season\" might be confusing. From the source, it can be reasoned that the cheapest pricing strategy is for the 2016-17 season",
-        "annotator_name": "Miaoran",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "West Ham announced that their season tickets for the upcoming season",
         "summary_start": 293,
         "summary_end": 361,
@@ -1520,6 +2073,23 @@
         ],
         "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
         "annotator_name": "Miaoran",
+        "summary_span": "who impressed on trial with the club",
+        "summary_start": 127,
+        "summary_end": 163,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 25,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "who impressed on trial with the club",
         "summary_start": 127,
         "summary_end": 163,
@@ -1561,20 +2131,20 @@
     "summary": "West Ham is in talks to sign 17-year-old Jamaican forward Deshane Beckford after he impressed during a trial with the club. Beckford, who has also received offers from clubs in Belgium, is considered one of the top prospects from the Caribbean. West Ham is also planning to offer the cheapest season tickets in the Premier League in an effort to fill their new 54,000-capacity stadium at the Olympic Stadium. \n",
     "annotations": [
       {
-        "annot_id": 90,
+        "annot_id": 163,
         "sample_id": 27,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
-        "annotator_name": "Miaoran",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": " he impressed during a trial with the club",
         "summary_start": 80,
         "summary_end": 122,
-        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
-        "source_start": 100,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
         "source_end": 287
       }
     ],
@@ -1611,20 +2181,20 @@
         "source_end": 860
       },
       {
-        "annot_id": 91,
+        "annot_id": 164,
         "sample_id": 28,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
-        "annotator_name": "Miaoran",
-        "summary_span": " during a trial with the club.",
-        "summary_start": 105,
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "during a trial with the club.",
+        "summary_start": 106,
         "summary_end": 135,
-        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
-        "source_start": 100,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
+        "source_start": 99,
         "source_end": 201
       }
     ],
@@ -1645,35 +2215,54 @@
     "summary": "West Ham are negotiating a deal for 17-year-old Jamaican forward Deshane Beckford after he impressed during a trial with their academy. Beckford, from Montego Bay United, has also attracted interest from Belgian clubs and other European teams. West Ham are close to signing him, recognizing him as a top Caribbean prospect. Additionally, West Ham announced that season tickets at the Olympic Stadium will start at £289, the lowest in the Premier League, to fill the 54,000-seat venue for the 2016-17 season.",
     "annotations": [
       {
-        "annot_id": 93,
+        "annot_id": 165,
         "sample_id": 29,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "the source only mentions that beckford receives offers from west ham and some clubs in belgium",
-        "annotator_name": "Miaoran",
-        "summary_span": "and other European teams",
-        "summary_start": 218,
-        "summary_end": 242
-      },
-      {
-        "annot_id": 95,
-        "sample_id": 29,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source implies that it is public consensus that beckford is a top prospect from caribbean. But the summary implies that beckford is only recognized a top prospect by west ham",
-        "annotator_name": "Miaoran",
-        "summary_span": "West Ham are close to signing him, recognizing him as a top Caribbean prospect.",
-        "summary_start": 244,
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "and other European teams.",
+        "summary_start": 218,
+        "summary_end": 243,
+        "source_span": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . ",
+        "source_start": 0,
+        "source_end": 476
+      },
+      {
+        "annot_id": 166,
+        "sample_id": 29,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": " West Ham are close to signing him, recognizing him as a top Caribbean prospect.",
+        "summary_start": 243,
         "summary_end": 323,
         "source_span": "\nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean .",
         "source_start": 338,
         "source_end": 475
+      },
+      {
+        "annot_id": 195,
+        "sample_id": 29,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source only mentions that beckford receives offers from west ham and some clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "Beckford, from Montego Bay United, has also attracted interest from Belgian clubs and other European teams.",
+        "summary_start": 136,
+        "summary_end": 243,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1726,20 +2315,20 @@
         "source_end": 860
       },
       {
-        "annot_id": 97,
+        "annot_id": 167,
         "sample_id": 31,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
-        "annotator_name": "Miaoran",
-        "summary_span": "West Ham aims to secure Beckford's signature ",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "West Ham aims to secure Beckford's signature",
         "summary_start": 277,
-        "summary_end": 322,
-        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
-        "source_start": 477,
+        "summary_end": 321,
+        "source_span": "\npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 476,
         "source_end": 576
       }
     ],
@@ -1760,18 +2349,34 @@
     "summary": "Here's a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford from Montego Bay United. Beckford recently impressed during a two-week trial with West Ham's academy. He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium. Separately, West Ham announced that season tickets for their new Olympic Stadium will start at £289, making them the cheapest in the Premier League. This pricing strategy aims to fill the 54,000-seat stadium when the team moves there for the 2016-24 season.",
     "annotations": [
       {
-        "annot_id": 98,
+        "annot_id": 168,
         "sample_id": 32,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
-        "annotator_name": "Miaoran",
-        "summary_span": "from other European clubs, including some in Belgium",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "from other European clubs, including some in Belgium.",
         "summary_start": 305,
-        "summary_end": 357,
+        "summary_end": 358,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
+      },
+      {
+        "annot_id": 196,
+        "sample_id": 32,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium\t",
+        "annotator_name": "Miaoran",
+        "summary_span": " He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium.",
+        "summary_start": 226,
+        "summary_end": 358,
         "source_span": "\nbeckford also has offers from clubs in belgium .",
         "source_start": 288,
         "source_end": 337
@@ -1794,38 +2399,54 @@
     "summary": "Deshane Beckford, a 17-year-old Jamaican forward, is close to signing with West Ham United after a successful trial with their academy. Beckford, a highly-rated prospect from the Caribbean, has attracted interest from various European clubs, including those in Belgium. West Ham, a Premier League club, aims to secure his signature. In other news, West Ham has announced that season tickets for the Olympic Stadium will start at £289, making it the most affordable in the league. This pricing strategy is intended to ensure a full house when they move to their new stadium for the 2016-24 season.",
     "annotations": [
       {
-        "annot_id": 99,
+        "annot_id": 169,
         "sample_id": 33,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The summary is a little overstated. The sources only mentions that beckford receives offers from west ham and some clubs in belgium, and does not mention if there are other clubs in Europe interested in him",
-        "annotator_name": "Miaoran",
-        "summary_span": "has attracted interest from various European clubs, including those in Belgium",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "has attracted interest from various European clubs, including those in Belgium.",
         "summary_start": 190,
-        "summary_end": 268,
+        "summary_end": 269,
         "source_span": "\nbeckford also has offers from clubs in belgium .",
         "source_start": 288,
         "source_end": 337
       },
       {
-        "annot_id": 100,
+        "annot_id": 170,
         "sample_id": 33,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
-        "annotator_name": "Miaoran",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "aims to secure his signature.",
         "summary_start": 303,
         "summary_end": 332,
-        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
-        "source_start": 477,
+        "source_span": "\npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 476,
         "source_end": 576
+      },
+      {
+        "annot_id": 197,
+        "sample_id": 33,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary is a little overstated. The sources only mentions that beckford receives offers from west ham and some clubs in belgium, and does not mention if there are other clubs in Europe interested in him",
+        "annotator_name": "Miaoran",
+        "summary_span": "Beckford, a highly-rated prospect from the Caribbean, has attracted interest from various European clubs, including those in Belgium. ",
+        "summary_start": 136,
+        "summary_end": 270,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1860,23 +2481,6 @@
         "source_span": "for the 2016-24 season .",
         "source_start": 836,
         "source_end": 860
-      },
-      {
-        "annot_id": 101,
-        "sample_id": 34,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "not sure if the upcoming season is the 2016-2024 season",
-        "annotator_name": "Miaoran",
-        "summary_span": "for the upcoming season",
-        "summary_start": 440,
-        "summary_end": 463,
-        "source_span": "when they make the switch for the 2016-24 season",
-        "source_start": 810,
-        "source_end": 858
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1896,21 +2500,21 @@
     "summary": "Here is a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford, who has impressed on trial with the club. Beckford has also been linked with clubs in Belgium and is considered one of the top prospects from the Caribbean. Meanwhile, West Ham has announced that season tickets for the 2016-24 season will cost as little as £289, the cheapest in the Premier League.",
     "annotations": [
       {
-        "annot_id": 102,
+        "annot_id": 171,
         "sample_id": 35,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team\n",
-        "annotator_name": "Miaoran",
-        "summary_span": "who has impressed on trial with the club",
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "who has impressed on trial with the club.",
         "summary_start": 127,
-        "summary_end": 167,
-        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month",
-        "source_start": 100,
-        "source_end": 220
+        "summary_end": 168,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
+        "source_start": 99,
+        "source_end": 201
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1997,23 +2601,6 @@
         "source_end": 860
       },
       {
-        "annot_id": 106,
-        "sample_id": 38,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team\n",
-        "annotator_name": "Miaoran",
-        "summary_span": "during a trial with the club",
-        "summary_start": 106,
-        "summary_end": 134,
-        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month",
-        "source_start": 100,
-        "source_end": 220
-      },
-      {
         "annot_id": 108,
         "sample_id": 38,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
@@ -2029,6 +2616,23 @@
         "source_span": " when they make the switch for the 2016-24 season",
         "source_start": 809,
         "source_end": 858
+      },
+      {
+        "annot_id": 172,
+        "sample_id": 38,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "during a trial with the club.",
+        "summary_start": 106,
+        "summary_end": 135,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
+        "source_start": 99,
+        "source_end": 201
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -2112,6 +2716,23 @@
         "source_span": "mr mole will be mccoy 's last ride in a grade one race ",
         "source_start": 498,
         "source_end": 553
+      },
+      {
+        "annot_id": 173,
+        "sample_id": 41,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Mr. Mole, ridden by Nicky Henderson's sprinter Sacre due to Barry Geraghty's injury, will compete against six rivals.",
+        "summary_start": 159,
+        "summary_end": 276,
+        "source_span": "\npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty .",
+        "source_start": 171,
+        "source_end": 396
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2145,6 +2766,23 @@
         "summary_end": 604,
         "source_span": "\nother runners in the celebration chase include mick channon 's somersby .",
         "source_start": 819,
+        "source_end": 893
+      },
+      {
+        "annot_id": 174,
+        "sample_id": 42,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "include Somersby, trained by Mick Channon.",
+        "summary_start": 562,
+        "summary_end": 604,
+        "source_span": " include mick channon 's somersby .",
+        "source_start": 858,
         "source_end": 893
       }
     ],
@@ -2199,23 +2837,6 @@
     "summary": "Mr Mole, trained by Paul Nicholls and ridden by AP McCoy, is one of the co-favorites (7-2 odds) in the Grade One Celebration Chase at Sandown on Saturday. He faces six other runners, including Sprinter Sacre. This race marks McCoy's last in a Grade One event, with his final schedule not confirmed until Friday. McCoy surprised the racing world in February by announcing his retirement after winning with Mr Mole. Other runners include Somersby.",
     "annotations": [
       {
-        "annot_id": 114,
-        "sample_id": 44,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source mentions that the mccoy's book of rides will not be finalized until Friday morning, not his schedule.",
-        "annotator_name": "Miaoran",
-        "summary_span": "with his final schedule not confirmed until Friday.",
-        "summary_start": 260,
-        "summary_end": 311,
-        "source_span": "\nhis book of rides for his final day as a professional jockey will not be finalised until friday morning .",
-        "source_start": 555,
-        "source_end": 661
-      },
-      {
         "annot_id": 115,
         "sample_id": 44,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
@@ -2231,6 +2852,57 @@
         "source_span": "\nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding .",
         "source_start": 662,
         "source_end": 818
+      },
+      {
+        "annot_id": 175,
+        "sample_id": 44,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "with his final schedule not confirmed until Friday.",
+        "summary_start": 260,
+        "summary_end": 311,
+        "source_span": "\nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding .",
+        "source_start": 662,
+        "source_end": 818
+      },
+      {
+        "annot_id": 176,
+        "sample_id": 44,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "McCoy surprised the racing world in February by announcing his retirement after winning with Mr Mole.",
+        "summary_start": 312,
+        "summary_end": 413,
+        "source_span": "\nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding .",
+        "source_start": 662,
+        "source_end": 818
+      },
+      {
+        "annot_id": 198,
+        "sample_id": 44,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Should be \"his book of rides\" will not be confirmed until Friday, not his schedule",
+        "annotator_name": "Miaoran",
+        "summary_span": "This race marks McCoy's last in a Grade One event, with his final schedule not confirmed until Friday. ",
+        "summary_start": 209,
+        "summary_end": 312,
+        "source_span": "\nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race .",
+        "source_start": 397,
+        "source_end": 554
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2291,6 +2963,23 @@
         ],
         "note": "Inaccurate.",
         "annotator_name": "Miaoran",
+        "summary_span": "one of three co-favorites",
+        "summary_start": 33,
+        "summary_end": 58,
+        "source_span": "one of three 7-2 co-favourites",
+        "source_start": 110,
+        "source_end": 140
+      },
+      {
+        "annot_id": 177,
+        "sample_id": 47,
+        "annotator": "4d772c3676894756870c89b2ab4d37f0",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "one of three co-favorites",
         "summary_start": 33,
         "summary_end": 58,

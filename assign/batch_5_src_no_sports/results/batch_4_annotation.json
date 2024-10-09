@@ -47,6 +47,19 @@
         "summary_span": " a hockey game between the Giants and the Panthers is described. ",
         "summary_start": 16,
         "summary_end": 81
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 0,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "a hockey game",
+        "summary_start": 17,
+        "summary_end": 30
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -183,6 +196,49 @@
         "summary_span": "the teams will play again the following night. ",
         "summary_start": 382,
         "summary_end": 429
+      },
+      {
+        "annot_id": 104,
+        "sample_id": 2,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The final score was 4-3 in favor of the Giants.",
+        "summary_start": 308,
+        "summary_end": 355
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 2,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "a hockey game",
+        "summary_start": 105,
+        "summary_end": 118
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 2,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "the teams will play again the following night.",
+        "summary_start": 382,
+        "summary_end": 428,
+        "source_span": "The teams meet again on Saturday night",
+        "source_start": 334,
+        "source_end": 372
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -409,6 +465,19 @@
         "summary_span": " ending at 4-2 in favor of the Giants.",
         "summary_start": 229,
         "summary_end": 267
+      },
+      {
+        "annot_id": 108,
+        "sample_id": 4,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "a hockey game",
+        "summary_start": 22,
+        "summary_end": 35
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -646,6 +715,19 @@
         "summary_span": "The passage describes a hockey game between the Giants and the Panthers. The Giants had a short-handed opener by Derrick Walser, but the Panthers managed to equalize through Jeff Dimmen. In the second period, Mike Forney scored a powerplay breakaway goal to give the Giants a 2-1 lead, which was later equalized by Andy Bohmback. The Giants then scored two more goals through Mike Radja and James Desmarais, making it 4-2. Nottingham's David Ling scored a goal to bring the score to 4-3. The teams will meet again for a second match on Saturday night. Nottingham currently leads the league with 28 points, followed by Sheffield Steelers with 27 points and Belfast with 25 points.",
         "summary_start": 0,
         "summary_end": 679
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 8,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "a hockey game",
+        "summary_start": 22,
+        "summary_end": 35
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -817,6 +899,19 @@
         "summary_span": "an author born in New Orleans, ",
         "summary_start": 169,
         "summary_end": 200
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 16,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Anne Rice, an author",
+        "summary_start": 158,
+        "summary_end": 178
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -892,6 +987,20 @@
         ],
         "note": "This note is not a hallucination, but not asked for, either.",
         "annotator_name": "Amin Ahmad",
+        "summary_span": "However, the passage does not provide any details about the plot or content of either film.",
+        "summary_start": 569,
+        "summary_end": 660
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 20,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "However, the passage does not provide any details about the plot or content of either film.",
         "summary_start": 569,
         "summary_end": 660
@@ -1016,6 +1125,23 @@
         "summary_span": "Home for the Holidays is a horror film title used for two American films",
         "summary_start": 0,
         "summary_end": 72
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 23,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted.Extrinsic",
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Home for the Holidays is a horror film title used for two American films.",
+        "summary_start": 0,
+        "summary_end": 73,
+        "source_span": "Home for the Holidays is a 1972 American made-for-television horror film directed by John Llewellyn Moxey , produced by Aaron Spelling and starring Sally Field , Eleanor Parker , Julie Harris , Jessica Walter and Walter Brennan which premiered on ABC on November 28 , 1972 . Home for the Holidays (1995 film) . The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+        "source_start": 0,
+        "source_end": 526
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1254,6 +1380,37 @@
         "summary_span": "Cameron Smith, a 21-year-old football player",
         "summary_start": 44,
         "summary_end": 88
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 30,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Cameron Smith",
+        "summary_start": 44,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 30,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "on loan from Dundee United to United",
+        "summary_start": 133,
+        "summary_end": 169,
+        "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season.",
+        "source_start": 0,
+        "source_end": 79
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1364,6 +1521,23 @@
         "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \" Cammy is a really good player and someone I didn't think we'd be able to get because he was at Dundee United. \"",
         "source_start": 0,
         "source_end": 411
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 32,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "are set to play Falkirk in their next match.",
+        "summary_start": 550,
+        "summary_end": 594,
+        "source_span": "host Falkirk on Saturday.",
+        "source_start": 555,
+        "source_end": 580
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1494,6 +1668,68 @@
         "summary_span": "The 21-year-old has been in good form",
         "summary_start": 78,
         "summary_end": 115
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 33,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The 21-year-old has been in good form",
+        "summary_start": 78,
+        "summary_end": 115
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 33,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "as they prepare to face Falkirk",
+        "summary_start": 399,
+        "summary_end": 430
+      },
+      {
+        "annot_id": 118,
+        "sample_id": 33,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "upcoming Championship fixture.",
+        "summary_start": 440,
+        "summary_end": 470,
+        "source_span": "Championship bottom side St Mirren host Falkirk on Saturday.",
+        "source_start": 520,
+        "source_end": 580
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 33,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Aberdeen loanee Cammy Smith has joined St. Mirren on loan from Dundee United.",
+        "summary_start": 0,
+        "summary_end": 77,
+        "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side. \" It's a brilliant acquisition for us,\" boss Jack Ross told St Mirren's official website. \"",
+        "source_start": 0,
+        "source_end": 299
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1538,6 +1774,19 @@
         "summary_span": "transfer of Cammy Smith from Dundee United to St Mirren on loan",
         "summary_start": 26,
         "summary_end": 89
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 34,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The passage discusses the transfer of Cammy Smith from Dundee United to St Mirren on loan.",
+        "summary_start": 0,
+        "summary_end": 90
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1661,6 +1910,19 @@
         "summary_span": "Here is a concise summary of the passage:\n\nCammy Smith, a 21-year-old Scotland Under-21 cap, has joined St Mirren on loan from Aberdeen, having previously been loaned to Dundee United. He has scored 5 goals this season and 4 in 89 appearances for Aberdeen. St Mirren boss Jack Ross is pleased with the acquisition, believing Smith will be a good fit and provide another attacking option.",
         "summary_start": 0,
         "summary_end": 387
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 36,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "has joined St Mirren on loan from Aberdeen",
+        "summary_start": 93,
+        "summary_end": 135
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1722,6 +1984,20 @@
         "source_span": "The Dons loaned Smith, 21, to United in July and he has five goals this season. Scotland Under-21 cap Smith made his Aberdeen debut in 2012 and has scored four times in 89 appearances for the Pittodrie side.",
         "source_start": 0,
         "source_end": 207
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 37,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Cammy Smith, a 21-year-old forward",
+        "summary_start": 0,
+        "summary_end": 34
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1783,6 +2059,19 @@
         "summary_span": " St Mirren's manager, Jack Ross, ",
         "summary_start": 201,
         "summary_end": 234
+      },
+      {
+        "annot_id": 123,
+        "sample_id": 38,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "St Mirren's manager, Jack Ross",
+        "summary_start": 202,
+        "summary_end": 232
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1871,6 +2160,19 @@
         "summary_span": "required script adjustments to preserve its core concept of religious discrimination.",
         "summary_start": 516,
         "summary_end": 601
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 40,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\n\nIn summary, the passage discusses Billy Ray Cyrus's contributions to country music, introduces French Montana's debut album, and describes a sensitive Egyptian film titled Excuse My French, which was directed by Amr Salama and faced censorship issues.",
+        "summary_start": 719,
+        "summary_end": 972
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2145,6 +2447,37 @@
         "summary_span": "a 2014 album by American rapper French Montana",
         "summary_start": 159,
         "summary_end": 205
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 45,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "\nThe passage describes four different entities",
+        "summary_start": 42,
+        "summary_end": 88,
+        "source_span": "Billy Ray Cyrus is an American country music singer , songwriter , actor and philanthropist , who helped make country music a worldwide phenomenon . Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia . The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+        "source_start": 0,
+        "source_end": 598
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 45,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Excuse My French, a 2014 album by American rapper French Montana",
+        "summary_start": 141,
+        "summary_end": 205
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2221,6 +2554,23 @@
         ],
         "note": "While the source states that the film was deemed to sensitive by the censorship board, it doesn't say why. The summary claims that it was due to its focus on religious discrimination, which is unsupported by the source.",
         "annotator_name": "Amin Ahmad",
+        "summary_span": "The film faced censorship issues due to its sensitive content on religious discrimination",
+        "summary_start": 402,
+        "summary_end": 491,
+        "source_span": "The film was initially deemed too sensitive by the censorship board and Salama was forced to adjust the script while trying to preserve the film 's core concept of religious discrimination .",
+        "source_start": 408,
+        "source_end": 598
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 49,
+        "annotator": "f0a2b58d1adc41e389cc35a9829ebc1e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
         "summary_span": "The film faced censorship issues due to its sensitive content on religious discrimination",
         "summary_start": 402,
         "summary_end": 491,
