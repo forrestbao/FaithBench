@@ -33,24 +33,7 @@
     "sample_id": 1,
     "source": "The Millers . The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS . CBS announced the cancellation of The Millers on November 14 , 2014 , four episodes into the show 's second season .",
     "summary": " The Millers was a multi-camera series that aired on CBS from October 3, 2013, to July 18, 2015, with 34 episodes over two seasons. The show was canceled by CBS on November 14, 2014, after four episodes into its second season.",
-    "annotations": [
-      {
-        "annot_id": 35,
-        "sample_id": 1,
-        "annotator": "1612324899bf4cdb8108aa6a26aa285c",
-        "label": [
-          "Benign"
-        ],
-        "note": "The announcement to cancel the show was made",
-        "annotator_name": "Vivek",
-        "summary_span": "The show was canceled by CBS on November 14, 2014, after four episodes into its second season.",
-        "summary_start": 132,
-        "summary_end": 226,
-        "source_span": "The multi-camera series aired from October 3 , 2013 to July 18 , 2015 and ran 34 episodes over two seasons on CBS .",
-        "source_start": 14,
-        "source_end": 129
-      }
-    ],
+    "annotations": [],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.99937,
     "meta_hhem-2.1": 0.94381,

@@ -198,20 +198,6 @@
         "summary_end": 100
       },
       {
-        "annot_id": 46,
-        "sample_id": 2,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't say Sam is the manager of team england",
-        "annotator_name": "Manveer",
-        "summary_span": "the England team under manager Sam Allardyce",
-        "summary_start": 510,
-        "summary_end": 554
-      },
-      {
         "annot_id": 119,
         "sample_id": 2,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -331,32 +317,44 @@
         "source_end": 39
       },
       {
-        "annot_id": 205,
+        "annot_id": 210,
         "sample_id": 2,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't say Milner retired",
-        "annotator_name": "Manveer",
-        "summary_span": "has retired from international football ",
-        "summary_start": 101,
-        "summary_end": 141
-      },
-      {
-        "annot_id": 207,
-        "sample_id": 2,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
+          "Benign"
         ],
         "note": "the source doesn't give the first name of Milner as James",
         "annotator_name": "Manveer",
         "summary_span": "James",
         "summary_start": 42,
         "summary_end": 47
+      },
+      {
+        "annot_id": 211,
+        "sample_id": 2,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say Milner retired, but this is what is being referred to",
+        "annotator_name": "Manveer",
+        "summary_span": "James Milner, a 30-year-old former Manchester City player, has retired from international football",
+        "summary_start": 42,
+        "summary_end": 140
+      },
+      {
+        "annot_id": 213,
+        "sample_id": 2,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say sam was the manager of team england, and it is not clear if this is even true",
+        "annotator_name": "Manveer",
+        "summary_span": "the England team under manager Sam Allardyce.",
+        "summary_start": 510,
+        "summary_end": 555
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -431,20 +429,6 @@
         "summary_span": "The 30-year-old former Manchester City player, James Milner,",
         "summary_start": 0,
         "summary_end": 60
-      },
-      {
-        "annot_id": 48,
-        "sample_id": 3,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't say he retired",
-        "annotator_name": "Manveer",
-        "summary_span": "Milner's decision to retire from international football ",
-        "summary_start": 386,
-        "summary_end": 442
       },
       {
         "annot_id": 125,
@@ -532,6 +516,45 @@
         "source_span": "won",
         "source_start": 36,
         "source_end": 39
+      },
+      {
+        "annot_id": 214,
+        "sample_id": 3,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say Milner retired, but this is what is being referred to",
+        "annotator_name": "Manveer",
+        "summary_span": "Milner's decision to retire from international football was a pragmatic one",
+        "summary_start": 386,
+        "summary_end": 461
+      },
+      {
+        "annot_id": 215,
+        "sample_id": 3,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is questionable whether his career was successful. For example, he is retiring now and only scored one international goal",
+        "annotator_name": "Manveer",
+        "summary_span": "James Milner, had a successful international career with England",
+        "summary_start": 47,
+        "summary_end": 111
+      },
+      {
+        "annot_id": 216,
+        "sample_id": 3,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "This first name is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "James",
+        "summary_start": 47,
+        "summary_end": 52
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -608,20 +631,6 @@
         "summary_end": 45
       },
       {
-        "annot_id": 51,
-        "sample_id": 4,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't talk about milner retiring",
-        "annotator_name": "Manveer",
-        "summary_span": "Milner stated that the decision to retire",
-        "summary_start": 243,
-        "summary_end": 284
-      },
-      {
         "annot_id": 129,
         "sample_id": 4,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -664,6 +673,33 @@
         "summary_span": "England Under-21 player with 46 appearances",
         "summary_start": 370,
         "summary_end": 413
+      },
+      {
+        "annot_id": 217,
+        "sample_id": 4,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say Milner retired, but this is what is being referred to\n",
+        "annotator_name": "Manveer",
+        "summary_span": "Milner stated that the decision to retire",
+        "summary_start": 243,
+        "summary_end": 284
+      },
+      {
+        "annot_id": 218,
+        "sample_id": 4,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this sentence suggests that he was an under-21 player when he scored in the 2014 game, which is not true. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Additionally, he holds the record for the most caps as an England Under-21 player with 46 appearances, scoring once in a 2014 World Cup qualifier against Moldova.",
+        "summary_start": 312,
+        "summary_end": 474
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -737,6 +773,19 @@
         "source_span": "won 61 caps for England after making his senior debut in 2009",
         "source_start": 36,
         "source_end": 97
+      },
+      {
+        "annot_id": 219,
+        "sample_id": 5,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the first name James is not in the source.",
+        "annotator_name": "Manveer",
+        "summary_span": "James",
+        "summary_start": 43,
+        "summary_end": 48
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -798,20 +847,6 @@
         "summary_end": 101
       },
       {
-        "annot_id": 54,
-        "sample_id": 6,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't say he retired",
-        "annotator_name": "Manveer",
-        "summary_span": "has announced his retirement from international football",
-        "summary_start": 102,
-        "summary_end": 158
-      },
-      {
         "annot_id": 138,
         "sample_id": 6,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -853,6 +888,32 @@
         "source_span": "won",
         "source_start": 36,
         "source_end": 39
+      },
+      {
+        "annot_id": 220,
+        "sample_id": 6,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say Milner retired, but this is what is being referred to\n",
+        "annotator_name": "Manveer",
+        "summary_span": "has announced his retirement from international football",
+        "summary_start": 102,
+        "summary_end": 158
+      },
+      {
+        "annot_id": 221,
+        "sample_id": 6,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "This first name is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "James",
+        "summary_start": 43,
+        "summary_end": 48
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -912,20 +973,6 @@
         "summary_span": "James Milner, a 30-year-old former Manchester City player",
         "summary_start": 0,
         "summary_end": 57
-      },
-      {
-        "annot_id": 56,
-        "sample_id": 7,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't talk about retiring",
-        "annotator_name": "Manveer",
-        "summary_span": "has retired from international football",
-        "summary_start": 59,
-        "summary_end": 98
       },
       {
         "annot_id": 141,
@@ -997,6 +1044,32 @@
         "source_span": "won",
         "source_start": 36,
         "source_end": 39
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 7,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say Milner retired, but this is what is being referred to\n",
+        "annotator_name": "Manveer",
+        "summary_span": "James Milner, a 30-year-old former Manchester City player, has retired from international football",
+        "summary_start": 0,
+        "summary_end": 98
+      },
+      {
+        "annot_id": 223,
+        "sample_id": 7,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "This first name is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "James",
+        "summary_start": 0,
+        "summary_end": 5
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1015,20 +1088,6 @@
     "source": "The former Manchester City man, 30, won 61 caps for England after making his senior debut in 2009. He was a squad member at two World Cups and two European Championships but played just three minutes at Euro 2016. \" The decision we've reached is about common sense. I wish Sam [Allardyce], the players, staff and supporters success in the future,\" Milner said. Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers.",
     "summary": "The passage discusses the retirement of a former Manchester City player, who won 61 caps for England. He was a part of the squad for two World Cups and two European Championships but only played three minutes at Euro 2016. Milner expressed his decision to retire as a matter of common sense and wished success to Sam Allardyce, the players, staff, and supporters. Additionally, Milner holds the record for the most capped England Under-21 player, earning 46 caps and scoring his only international goal in a match against Moldova during the 2014 FIFA World Cup qualifiers.",
     "annotations": [
-      {
-        "annot_id": 57,
-        "sample_id": 8,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't talk about retiring",
-        "annotator_name": "Manveer",
-        "summary_span": "The passage discusses the retirement of a former Manchester City player,",
-        "summary_start": 0,
-        "summary_end": 72
-      },
       {
         "annot_id": 58,
         "sample_id": 8,
@@ -1072,6 +1131,19 @@
         "source_span": "won 61 caps for England after making his senior debut in 2009.",
         "source_start": 36,
         "source_end": 98
+      },
+      {
+        "annot_id": 224,
+        "sample_id": 8,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say Milner retired, but this is what is being referred to",
+        "annotator_name": "Manveer",
+        "summary_span": "he passage discusses the retirement of a former Manchester City player",
+        "summary_start": 1,
+        "summary_end": 71
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1131,20 +1203,6 @@
         "summary_end": 46
       },
       {
-        "annot_id": 60,
-        "sample_id": 9,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't talk about retiring",
-        "annotator_name": "Manveer",
-        "summary_span": "retired from international football at age 30 ",
-        "summary_start": 47,
-        "summary_end": 93
-      },
-      {
         "annot_id": 147,
         "sample_id": 9,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1200,6 +1258,32 @@
         "summary_span": "after",
         "summary_start": 93,
         "summary_end": 98
+      },
+      {
+        "annot_id": 225,
+        "sample_id": 9,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say Milner retired, but this is what is being referred to\n",
+        "annotator_name": "Manveer",
+        "summary_span": " retired from international football ",
+        "summary_start": 46,
+        "summary_end": 83
+      },
+      {
+        "annot_id": 226,
+        "sample_id": 9,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the first name is not mentioned in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "James",
+        "summary_start": 0,
+        "summary_end": 5
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1291,6 +1375,19 @@
         "source_span": "Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
         "source_start": 403,
         "source_end": 483
+      },
+      {
+        "annot_id": 227,
+        "sample_id": 10,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't exactly say greta is a band",
+        "annotator_name": "Manveer",
+        "summary_span": "band Greta",
+        "summary_start": 181,
+        "summary_end": 191
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1418,19 +1515,6 @@
         "summary_end": 364
       },
       {
-        "annot_id": 65,
-        "sample_id": 12,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Benign"
-        ],
-        "note": "the source doesn't say they're unrelated, but it probably is unrelated",
-        "annotator_name": "Manveer",
-        "summary_span": "but this information is not directly related to Brad Wilk's career.",
-        "summary_start": 492,
-        "summary_end": 559
-      },
-      {
         "annot_id": 170,
         "sample_id": 12,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1455,6 +1539,19 @@
         "summary_span": "Rage Against the Machine",
         "summary_start": 233,
         "summary_end": 257
+      },
+      {
+        "annot_id": 228,
+        "sample_id": 12,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say they're unrelated, but it probably is unrelated",
+        "annotator_name": "Manveer",
+        "summary_span": "but this information is not directly related to Brad Wilk's career.",
+        "summary_start": 492,
+        "summary_end": 559
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1545,6 +1642,19 @@
         "summary_span": "other notable musicians",
         "summary_start": 333,
         "summary_end": 356
+      },
+      {
+        "annot_id": 229,
+        "sample_id": 13,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say they're unrelated, but it probably is unrelated",
+        "annotator_name": "Manveer",
+        "summary_span": "but it is unclear if this is directly related to Rage Against the Machine.",
+        "summary_start": 432,
+        "summary_end": 506
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1591,19 +1701,6 @@
         "summary_end": 411
       },
       {
-        "annot_id": 67,
-        "sample_id": 14,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Benign"
-        ],
-        "note": "the information may be related, but it is probably not.",
-        "annotator_name": "Manveer",
-        "summary_span": " though this information is not directly related to Wilk's career.",
-        "summary_start": 345,
-        "summary_end": 411
-      },
-      {
         "annot_id": 178,
         "sample_id": 14,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1644,6 +1741,32 @@
         "summary_span": "notable",
         "summary_start": 49,
         "summary_end": 56
+      },
+      {
+        "annot_id": 230,
+        "sample_id": 14,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say they're unrelated, but it probably is unrelated",
+        "annotator_name": "Manveer",
+        "summary_span": "though this information is not directly related to Wilk's career.",
+        "summary_start": 346,
+        "summary_end": 411
+      },
+      {
+        "annot_id": 231,
+        "sample_id": 14,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is not clear if all the bands are actually notable",
+        "annotator_name": "Manveer",
+        "summary_span": " several notable rock bands including Rage Against the Machine, Audioslave, and Prophets of Rage.",
+        "summary_start": 40,
+        "summary_end": 137
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1695,19 +1818,6 @@
         "source_end": 482
       },
       {
-        "annot_id": 68,
-        "sample_id": 16,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Benign"
-        ],
-        "note": "it might be related, but probably not",
-        "annotator_name": "Manveer",
-        "summary_span": " but this is unrelated to Brad Wilk's work.",
-        "summary_start": 361,
-        "summary_end": 404
-      },
-      {
         "annot_id": 181,
         "sample_id": 16,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1752,6 +1862,32 @@
         "summary_span": "but this is unrelated to Brad Wilk's work.",
         "summary_start": 362,
         "summary_end": 404
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 16,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say they're unrelated, but it probably is unrelated",
+        "annotator_name": "Manveer",
+        "summary_span": "but this is unrelated to Brad Wilk's work",
+        "summary_start": 362,
+        "summary_end": 403
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 16,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make it clear if he still plays for this band. It was as of 2016, but the source might be outdated.",
+        "annotator_name": "Manveer",
+        "summary_span": "and currently plays ",
+        "summary_start": 218,
+        "summary_end": 238
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -2084,6 +2220,19 @@
         "summary_span": " when Johnston left",
         "summary_start": 345,
         "summary_end": 364
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 22,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't really say kilmarnock is a football club, but this is reasonable",
+        "annotator_name": "Manveer",
+        "summary_span": "Kilmarnock football club",
+        "summary_start": 141,
+        "summary_end": 165
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2163,6 +2312,19 @@
         "summary_span": "an impressive record",
         "summary_start": 349,
         "summary_end": 369
+      },
+      {
+        "annot_id": 235,
+        "sample_id": 23,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this might be subjective. We don't know how well the team was doing before",
+        "annotator_name": "Manveer",
+        "summary_span": "impressive record",
+        "summary_start": 352,
+        "summary_end": 369
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2209,6 +2371,35 @@
         "source_span": "\nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park .",
         "source_start": 299,
         "source_end": 442
+      },
+      {
+        "annot_id": 236,
+        "sample_id": 24,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't really say kilmarnock is a football club, but this is reasonable\n",
+        "annotator_name": "Manveer",
+        "summary_span": "Kilmarnock football club ",
+        "summary_start": 90,
+        "summary_end": 115
+      },
+      {
+        "annot_id": 237,
+        "sample_id": 24,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this might be subjective. We don't know how well the team was doing before",
+        "annotator_name": "Manveer",
+        "summary_span": "nd has performed well,",
+        "summary_start": 186,
+        "summary_end": 208,
+        "source_span": "\ngary locke has been given the job at kilmarnock on a permanent basis after a successful interim spell\nlocke shakes hands with chairman jim mann after signing a three-year deal at the club",
+        "source_start": 443,
+        "source_end": 631
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2242,6 +2433,19 @@
         "source_span": "\nthe 41-year-old - who will speak at a press conference on friday morning - has lost just once in seven games since taking over at rugby park .",
         "source_start": 299,
         "source_end": 442
+      },
+      {
+        "annot_id": 238,
+        "sample_id": 25,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this might be subjective. We don't know how well the team was doing before",
+        "annotator_name": "Manveer",
+        "summary_span": "after a successful interim spell",
+        "summary_start": 165,
+        "summary_end": 197
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2329,6 +2533,32 @@
         "summary_span": "Locke has a three-year contract and has only lost one game in seven since taking over. \n",
         "summary_start": 255,
         "summary_end": 343
+      },
+      {
+        "annot_id": 239,
+        "sample_id": 27,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this might be subjective. We don't know how well the team was doing before",
+        "annotator_name": "Manveer",
+        "summary_span": "successful interim period.",
+        "summary_start": 104,
+        "summary_end": 130
+      },
+      {
+        "annot_id": 241,
+        "sample_id": 27,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the language seems to suggest Locke had a three year contract prior to this new deal",
+        "annotator_name": "Manveer",
+        "summary_span": "Locke has a three-year contract and has only lost one game in seven since taking over.",
+        "summary_start": 255,
+        "summary_end": 341
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2446,6 +2676,19 @@
         "summary_span": " Since taking charge, Locke has led the team to six wins out of seven games.",
         "summary_start": 315,
         "summary_end": 391
+      },
+      {
+        "annot_id": 242,
+        "sample_id": 29,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't say he will be speaking about the new role, but this might be reasonable to say?",
+        "annotator_name": "Manveer",
+        "summary_span": "He will discuss his new role at a press conference on Friday morning.",
+        "summary_start": 392,
+        "summary_end": 461
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2465,20 +2708,6 @@
     "summary": " The passage discusses the business roles of two individuals, Rupert Murdoch and James Murdoch. Rupert Murdoch is the current chairman and acting CEO of Fox News. James Murdoch, born on December 13, 1972, is an Australian-British-American businessman who is the younger son of media mogul Rupert Murdoch. James is the CEO of 21st Century Fox and the chairman of Sky plc. Rupert Murdoch had full control as Chairman and CEO of News Corporation, now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox, following the conglomerate's split on June 28, 2013.",
     "annotations": [
       {
-        "annot_id": 89,
-        "sample_id": 30,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Rupert does not have full control of 21st century fox if James is the ceo",
-        "annotator_name": "Manveer",
-        "summary_span": "Rupert Murdoch had full control as Chairman and CEO of News Corporation, now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox,",
-        "summary_start": 371,
-        "summary_end": 546
-      },
-      {
         "annot_id": 197,
         "sample_id": 30,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -2493,6 +2722,19 @@
         "source_span": "Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation ",
         "source_start": 346,
         "source_end": 445
+      },
+      {
+        "annot_id": 243,
+        "sample_id": 30,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Rupert does not have full control of 21st century fox if James is the ceo. however the language in the source is confusing. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Rupert Murdoch had full control as Chairman and CEO of News Corporation, now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox",
+        "summary_start": 371,
+        "summary_end": 545
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2873,22 +3115,7 @@
     "sample_id": 37,
     "source": "Fox News . Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. . Rupert Murdoch . Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
     "summary": "James Murdoch is the CEO of 21st Century Fox and the chairman of Sky plc. He is the son of Rupert Murdoch, the chairman and acting CEO of Fox News and former chairman and CEO of News Corporation, the world's second-largest media conglomerate. \n",
-    "annotations": [
-      {
-        "annot_id": 97,
-        "sample_id": 37,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Benign",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the summary should mention that the company split, so it is not clear if this is still true",
-        "annotator_name": "Manveer",
-        "summary_span": "and CEO of News Corporation, the world's second-largest media conglomerate.",
-        "summary_start": 167,
-        "summary_end": 242
-      }
-    ],
+    "annotations": [],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.97292,
     "meta_hhem-2.1": 0.94949,
