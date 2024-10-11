@@ -112,7 +112,7 @@
           "Questionable"
         ],
         "note": "This seems to change the intent of the original use of the word 'feature'.\n\n'Feature' puts emphasis on 'playing an important part', and 'debut' focuses on 'for the first time'. \n\nWhile both intend to convey the player will play against his former club, the original context is conveying the significance of his role and not simply that it'll be his first time playing for the new team.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "He could debut against his former club on February 18",
         "summary_start": 172,
         "summary_end": 225
@@ -126,7 +126,7 @@
           "Unwanted.Extrinsic"
         ],
         "note": "I don't know where \"Torquay United\" is coming from and it doesn't seem to appear in the source",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Keating, a 21-year-old striker, is joining Torquay United, subject to international clearance",
         "summary_start": 227,
         "summary_end": 320
@@ -139,7 +139,7 @@
           "Unwanted"
         ],
         "note": "The source says that \"ex-Port Vale manager Micky Adams\" was the one who recommended Striker Keating.\n\nThis summary incorrectly attributes the recommendation to Kevin Nicholson.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Gulls boss Kevin Nicholson recommended Keating, who has played for Sligo Rovers, Galway United, Finn Harps, and Port Vale",
         "summary_start": 322,
         "summary_end": 443
@@ -152,7 +152,7 @@
           "Unwanted"
         ],
         "note": "\"Port Vale\" is mentioned to provide context about Micky Adams and is not a former team of Striker Keating",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "and Port Vale",
         "summary_start": 430,
         "summary_end": 443
@@ -166,7 +166,7 @@
           "Unwanted.Extrinsic"
         ],
         "note": "Nicholson said this about Myles, not Striker Keating.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Nicholson believes Keating is the leader-type he has been seeking",
         "summary_start": 445,
         "summary_end": 510
@@ -180,22 +180,38 @@
           "Unwanted.Extrinsic"
         ],
         "note": "Torquay United doesn't seem to exist in the source and is again being incorrectly applied here instead of \"The Gulls\".",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Torquay United is currently four points above the relegation zone and has won only one of their last six games.",
         "summary_start": 512,
         "summary_end": 623
       },
       {
-        "annot_id": 178,
+        "annot_id": 253,
         "sample_id": 0,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
         "label": [
           "Questionable"
         ],
-        "note": "",
+        "note": "Do \"debut\" and \"feature\" imply the same meaning?",
         "annotator_name": "Miaoran",
-        "summary_span": " Torquay United",
-        "summary_start": 269,
+        "summary_span": "He could debut against his former club on February 18.",
+        "summary_start": 172,
+        "summary_end": 226,
+        "source_span": "The ex-Aldershot and Exeter player, who has also played in Italy, could feature against his old club on 18 February.",
+        "source_start": 116,
+        "source_end": 232
+      },
+      {
+        "annot_id": 254,
+        "sample_id": 0,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This name is not mentioned in the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United",
+        "summary_start": 270,
         "summary_end": 284
       }
     ],
@@ -257,7 +273,7 @@
           "Unwanted"
         ],
         "note": "I lean towards Unwanted here because the missing \"their\" makes \"National League rivals\" sound like another absolute team vs relative team.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "has left Barrow by mutual consent to join National League rivals",
         "summary_start": 27,
         "summary_end": 91
@@ -270,7 +286,7 @@
           "Unwanted"
         ],
         "note": "Striker Keating's move to the Gulls team is contingent on international clearance but this summary makes it seem like Striker Keating playing for past teams is what's contingent on international clearance.\n\nIt's both inaccurate and also illogical",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "pending international clearance",
         "summary_start": 262,
         "summary_end": 293
@@ -283,7 +299,7 @@
           "Unwanted"
         ],
         "note": "This seems to be combining the spans about Myles and Ruairi and is not an accurate summary of the source.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Gulls manager Kevin Nicholson praises Keating's stature, leadership qualities, and hunger to prove himself",
         "summary_start": 295,
         "summary_end": 401
@@ -345,7 +361,7 @@
           "Unwanted"
         ],
         "note": "It's not clear to me how \"Ireland\" was derived from the source",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "a 21-year-old striker from Ireland",
         "summary_start": 265,
         "summary_end": 299
@@ -358,7 +374,7 @@
           "Unwanted"
         ],
         "note": "Torquay United is seemingly not in the source and inaccurately describes Kevin Nicholson who's the \"boss\" for Gulls (manager is used instead of boss here as well, which may carry different meaning)",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Torquay United's manager, Kevin Nicholson",
         "summary_start": 416,
         "summary_end": 457
@@ -371,7 +387,7 @@
           "Unwanted"
         ],
         "note": "This summary is inaccurate because Myles is described as a leader-type, not Anderson",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Anderson as a leader",
         "summary_start": 496,
         "summary_end": 516
@@ -384,7 +400,7 @@
           "Benign"
         ],
         "note": "Using \"eager\" here seems like a reasonable alternative to the source \"incredibly hungry to show what he's about\"",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Keating as young and eager.",
         "summary_start": 521,
         "summary_end": 548
@@ -397,23 +413,10 @@
           "Benign"
         ],
         "note": "This seems like a reasonable inference, given the context. The source describes a scenario that implies the team is at risk of relegation so suggesting the team \"is currently struggling\" seems appropriate though not present in the source",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "The team is currently struggling, sitting just above the relegation zone with only one win in their last six games.",
         "summary_start": 549,
         "summary_end": 664
-      },
-      {
-        "annot_id": 180,
-        "sample_id": 2,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Questionable"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "Keating, a 21-year-old striker from Ireland",
-        "summary_start": 256,
-        "summary_end": 299
       },
       {
         "annot_id": 182,
@@ -427,6 +430,36 @@
         "summary_span": "Keating, a 21-year-old striker from Ireland,",
         "summary_start": 256,
         "summary_end": 300,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
+      },
+      {
+        "annot_id": 242,
+        "sample_id": 2,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "A precursor to the actual summary and has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 40
+      },
+      {
+        "annot_id": 256,
+        "sample_id": 2,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "need to know that \"Gulls\" = \"Torquay United\"\nIn addition, team boss = team manager?",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay United's manager, Kevin Nicholson",
+        "summary_start": 416,
+        "summary_end": 457,
         "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
         "source_start": 233,
         "source_end": 336
@@ -472,7 +505,7 @@
           "Benign"
         ],
         "note": "27 is not explicitly called out as Anderson's age but this summary adds appropriate, additional context that makes it more clear and explicit.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Anderson, a 27-year-old centre-back",
         "summary_start": 0,
         "summary_end": 35
@@ -485,7 +518,7 @@
           "Questionable"
         ],
         "note": "I think this is benign because it summarizes similarly in that the outcome is the same: Anderson is leaving, has left, or is no longer part of the Barrow team.\n\nIt does, however, seem less accurate because leaving doesn't imply any of the context that comes with cancelling a contract. Cancelling a contract has more implication than simply leaving a team or relationship.\n\nDepending on the application of this summary this (lack of) accuracy may be important.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "left Barrow to join a rival National League club",
         "summary_start": 41,
         "summary_end": 89
@@ -498,7 +531,7 @@
           "Benign"
         ],
         "note": "Similar to the label for Anderson, clarifying \"21\" as the age with \"year-old\" is helpful here and removes any ambiguity even though the source didn't contain this context",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Meanwhile, 21-year-old striker Keating",
         "summary_start": 144,
         "summary_end": 182
@@ -511,7 +544,7 @@
           "Unwanted"
         ],
         "note": "I'm not sure where this information is coming from since it's seemingly not in the source material",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "with experience in Ireland",
         "summary_start": 184,
         "summary_end": 210
@@ -524,7 +557,7 @@
           "Benign"
         ],
         "note": "This is a reasonable summary of the source material but leaves out information that I think makes it more credible, such as the context about sitting just four points above the relegation zone and having a recent loss-heavy record.\n\nIt's reasonable to infer that the team is \"seeking reinforcement\", but it's unclear how close to the relegation zone they are and what \"poor form\" means here.\n\nThis could be more descriptive but I think this is ultimately an acceptable summary based on the source",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "who are seeking reinforcement as they sit just above the relegation zone with recent poor form.",
         "summary_start": 229,
         "summary_end": 324
@@ -621,7 +654,7 @@
           "Unwanted.Extrinsic"
         ],
         "note": "This contains multiple errors:\n\n1. Torquay United seems made up\n2. The source doesn't mention what team Anderson is signing with, only that it's a \"National League rival\"\n3. Striker Keating is signing for the Gulls\n4. This summary combines Anderson and Keating as signing with the same, made-up team: Torquay United",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "The passage discusses two new signings for Torquay United, a National League football club",
         "summary_start": 0,
         "summary_end": 90
@@ -635,7 +668,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "While it's accurate that Anderson has cancelled his Barrow contract and is joining a rival National League club, this summary follows the first sentence which now implies Anderson is joining Torquay United, which is not in the source.\n\nWe also don't know the name of the team Anderson is joining to begin with.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Anderson, 27, a centre-back, is joining from Barrow,",
         "summary_start": 92,
         "summary_end": 144
@@ -648,7 +681,7 @@
           "Unwanted"
         ],
         "note": "This sentence has a few problems:\n\n1. Keating is not moving to Torquay United because it doesn't (seemingly) exist\n2. Micky Adams did not recommend Keating to join Torquay United because it does not exist in the source",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Keating, 21, a striker, is moving to Torquay United based on a recommendation from Micky Adams",
         "summary_start": 295,
         "summary_end": 389
@@ -663,7 +696,7 @@
           "Benign"
         ],
         "note": "Nicholson said this about Myles, not Anderson. \n\nAdditionally, \"leadership qualities\" is benign in that it appropriately infers and summarizes what was said about Myles.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Manager Kevin Nicholson expresses that Anderson brings leadership qualities",
         "summary_start": 440,
         "summary_end": 515
@@ -678,7 +711,7 @@
           "Benign"
         ],
         "note": "Nicholson said this about Ruairi, not Keating.\n\nThis is also benign because it appropriately summarizes the source context as \"eager to prove himself\"",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "while Keating is described as eager to prove himself",
         "summary_start": 517,
         "summary_end": 569
@@ -692,7 +725,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "Torquay United does not exist and is being used in place of \"Gulls\"",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Torquay United is currently struggling, sitting just above the relegation zone and having won only one of their last six matches.",
         "summary_start": 571,
         "summary_end": 700
@@ -709,6 +742,35 @@
         "summary_span": "Torquay United",
         "summary_start": 43,
         "summary_end": 57
+      },
+      {
+        "annot_id": 257,
+        "sample_id": 4,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It can be reasoned from the source that Anderson and Keating are joining the Gull. But does \"will join\" mean \"signing\"? In addition, Keating's move is subject to international clearance, so the process hasn't completed yet",
+        "annotator_name": "Miaoran",
+        "summary_span": "two new signings",
+        "summary_start": 22,
+        "summary_end": 38
+      },
+      {
+        "annot_id": 262,
+        "sample_id": 4,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "manager = boss?",
+        "annotator_name": "Miaoran",
+        "summary_span": "Manager Kevin Nicholson",
+        "summary_start": 440,
+        "summary_end": 463,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -797,7 +859,7 @@
           "Unwanted"
         ],
         "note": "I don't know where \"The Plymouth Argyle\" connection is made to Gulls within the source.\n\nAdditionally, it's unclear from the source if both Anderson and Keating are going to the same team since Anderson's statement only mentions going to a rival.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "The Plymouth Argyle (Gulls) team has made two new signings:",
         "summary_start": 43,
         "summary_end": 102
@@ -810,7 +872,7 @@
           "Unwanted"
         ],
         "note": "It's unclear how the summary is deriving \"Ireland\" from the source context.\n\nThis may be benign in that it's deriving this information from the club name(s), but that's not clear here",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "joins from Ireland",
         "summary_start": 253,
         "summary_end": 271
@@ -823,7 +885,7 @@
           "Questionable"
         ],
         "note": "It seems like all of these players are related to the Gulls and Nicholson as the manager, but it's not immediately clear from the source.\n\nThis statement might be slightly inaccurate if Anderson isn't joining the Gulls because it seems all other mentioned players are joining or are already part of Gulls",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Manager Kevin Nicholson is optimistic about the new signings",
         "summary_start": 315,
         "summary_end": 375
@@ -838,7 +900,7 @@
           "Benign"
         ],
         "note": "Myles is described as the \"leader-type\", not Anderson and Ruairi is described as \"young and hungry to prove himself\" though the last part of this summary is benign since it rephrases the original context but in a way that doesn't change the intent",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "describing Anderson as a leader and Keating as young and hungry to prove himself.",
         "summary_start": 377,
         "summary_end": 458
@@ -871,6 +933,49 @@
         "source_span": "He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"",
         "source_start": 337,
         "source_end": 466
+      },
+      {
+        "annot_id": 241,
+        "sample_id": 5,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "A precursor to the actual summary and has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:\n",
+        "summary_start": 0,
+        "summary_end": 42
+      },
+      {
+        "annot_id": 258,
+        "sample_id": 5,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It can be reasoned from the source that Anderson and Keating are joining the Gull. But does \"will join\" mean \"signing\"?",
+        "annotator_name": "Miaoran",
+        "summary_span": "\n\nThe Plymouth Argyle (Gulls) team has made two new signings:",
+        "summary_start": 41,
+        "summary_end": 102
+      },
+      {
+        "annot_id": 261,
+        "sample_id": 5,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "manager = boss?",
+        "annotator_name": "Miaoran",
+        "summary_span": "Manager Kevin Nicholson",
+        "summary_start": 315,
+        "summary_end": 338,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -955,7 +1060,7 @@
           "Unwanted"
         ],
         "note": "Torquay United is not mentioned in the source",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Two new players have joined Torquay United (the Gulls)",
         "summary_start": 43,
         "summary_end": 97
@@ -968,7 +1073,7 @@
           "Questionable"
         ],
         "note": "It's not clear from the source if Anderson is also joining the Gulls so this summary seems questionable because it lumps both players into the same context: joining the Gulls.\n\nI could see how this summary could make sense because it may be implied by the broader (not shown) context, but given the limited source context this seems like a hallucination that may be misleading without more context to validate",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "centre-back Anderson, 27, who has cancelled his contract with Barrow, and striker Keating, 21, who was recommended by ex-Port Vale manager Micky Adams",
         "summary_start": 99,
         "summary_end": 249
@@ -982,7 +1087,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "This summary describes Myles, not Anderson",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": " Anderson brings leadership experience",
         "summary_start": 250,
         "summary_end": 288
@@ -996,7 +1101,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "This summary describes Ruairi, not Keating.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "while Keating is young and hungry to prove himself",
         "summary_start": 290,
         "summary_end": 340
@@ -1009,10 +1114,24 @@
           "Benign"
         ],
         "note": "This is an acceptable summary of the original context because it correctly infers that the Gulls are trying to improve.\n\nI'd prefer to see language that doesn't soften the tone of the original context because \"improve their form\" doesn't quite convey the severity of the team's position (sitting just above relegation zone and recently losing 5 of 6 recent games)",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "The signings come as the Gulls aim to improve their form",
         "summary_start": 342,
         "summary_end": 398
+      },
+      {
+        "annot_id": 240,
+        "sample_id": 6,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "A precursor to the actual summary and has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:\n",
+        "summary_start": 0,
+        "summary_end": 42
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1118,7 +1237,7 @@
           "Unwanted.Extrinsic"
         ],
         "note": "This doesn't seem to exist in the source context",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "has joined Torquay United",
         "summary_start": 33,
         "summary_end": 58
@@ -1131,7 +1250,7 @@
           "Questionable"
         ],
         "note": "It's not obvious to me from the source context that both Anderson and Keating are joining the same club. Since it only mentions Anderson joining a \"rival\", this logic seems like a jump to me and not what I'd expect in a summary.\n\nI can also see how this may be implied, however, so this seems questionable to me.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "has also joined the club",
         "summary_start": 87,
         "summary_end": 111
@@ -1145,7 +1264,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "Kevin Nicholson is a manager but for the Gulls, not Torquay based on the source context",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Torquay manager Kevin Nicholson",
         "summary_start": 244,
         "summary_end": 275
@@ -1159,7 +1278,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "Myles is described as a leader-type, not Anderson.\n\nRuairi is described as \"hungry to prove himself\", not Keating.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "described Anderson as a leader and Keating as hungry to prove himself",
         "summary_start": 276,
         "summary_end": 345
@@ -1173,10 +1292,43 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The Gulls are four points above the relegation zone, not Torquay, which is not present in the source context",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Torquay is currently four points above the relegation zone.",
         "summary_start": 347,
         "summary_end": 406
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 7,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that Keating's move is subject to international clearance, so it's not accurate to state that Keating \"has joined the club\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "while striker Keating, 21, has also joined the club.",
+        "summary_start": 60,
+        "summary_end": 112,
+        "source_span": "He has previously had spells with Sligo Rovers, Galway United and Finn Harps, with his move subject to international clearance. \"",
+        "source_start": 337,
+        "source_end": 466
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 7,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "manager = boss?",
+        "annotator_name": "Miaoran",
+        "summary_span": "Torquay manager",
+        "summary_start": 244,
+        "summary_end": 259,
+        "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
+        "source_start": 233,
+        "source_end": 336
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1203,7 +1355,7 @@
           "Questionable"
         ],
         "note": "It's not clear from the source context if both players are going to the same team, but I can see how this may be implied or understood when reading the source.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "The passage discusses the transfer of two players, Anderson and Keating, to a National League team",
         "summary_start": 0,
         "summary_end": 98
@@ -1217,7 +1369,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "These descriptions are made of Myles and Ruairi, respectively",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "The manager describes Anderson as a leader-type player and Keating as young and hungry",
         "summary_start": 379,
         "summary_end": 465
@@ -1248,7 +1400,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "These descriptions were made of Myles and Ruairi, respectively. Not Anderson and Keating.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Kevin Nicholson praised Anderson's leadership qualities and Keating's hunger to prove himself.",
         "summary_start": 361,
         "summary_end": 455
@@ -1261,7 +1413,7 @@
           "Questionable"
         ],
         "note": "\"moving\" could be interpreted differently here depending on the reader, in my opinion.\n\nIt's not as clear as the source context that Keating is moving teams vs relocating where he lives.\n\nThe source context creates a better understanding by preceding \"his move\" with the clubs he used to play on and, without that context, this summary is less credible to me",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": " is moving subject to international clearance",
         "summary_start": 229,
         "summary_end": 274
@@ -1324,7 +1476,7 @@
           "Benign"
         ],
         "note": "I think this is benign because the summary is adding 'United' even though it doesn't exist in connection with West Ham in the source.\n\nIt adds some clarity but is unexpected to me",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "West Ham United is in discussions to sign 17-year-old Jamaican forward Deshane Beckford",
         "summary_start": 1,
         "summary_end": 88
@@ -1337,7 +1489,7 @@
           "Questionable"
         ],
         "note": "I think the interpreted and corrected dat of '2017' is likely appropriate here but could be misunderstood by someone unfamiliar with football season lengths.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "Barclays Premier League for the 2016-2017 season.",
         "summary_start": 477,
         "summary_end": 526
@@ -1383,7 +1535,7 @@
           "Benign"
         ],
         "note": "The source context says Beckford \"impressed\" coaches so modifying this to \"received positive feedback\" changes the context but still maintains clarity, in my opinion",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "trained with West Ham's academy and received positive feedback from coaches",
         "summary_start": 152,
         "summary_end": 227
@@ -1396,10 +1548,26 @@
           "Questionable"
         ],
         "note": "I believe this should be 2016-2017 but the summary is understandably extrapolating '2020' from the seeming type of '20' in the source context",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "attract fans for the 2016-2020 Premier League season",
         "summary_start": 390,
         "summary_end": 442
+      },
+      {
+        "annot_id": 263,
+        "sample_id": 11,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "It can be inferred that 289 pounds is an affordable price",
+        "annotator_name": "Miaoran",
+        "summary_span": "and they have announced affordable season tickets ",
+        "summary_start": 314,
+        "summary_end": 364,
+        "source_span": "\npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 .",
+        "source_start": 476,
+        "source_end": 680
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1452,22 +1620,6 @@
         "source_end": 287
       },
       {
-        "annot_id": 191,
-        "sample_id": 12,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
-        "annotator_name": "Miaoran",
-        "summary_span": "He is considered one of the top prospects from the Caribbean and has attracted interest from other European clubs, including some in Belgium",
-        "summary_start": 244,
-        "summary_end": 384,
-        "source_span": "\nbeckford also has offers from clubs in belgium .",
-        "source_start": 288,
-        "source_end": 337
-      },
-      {
         "annot_id": 216,
         "sample_id": 12,
         "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
@@ -1475,7 +1627,7 @@
           "Questionable"
         ],
         "note": "The source context implies, to me, that he's \"linked\" with other European clubs but that doesn't necessarily mean he has interest.\n\nThe only explicit \"interest\" mentioned in the source is from the Belgium clubs.\n\nThat makes this summary questionable to me because it seems like \"links\" to other European clubs and \"interest from\" other clubs concepts are being conflated.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "has attracted interest from other European clubs, including some in Belgium",
         "summary_start": 309,
         "summary_end": 384
@@ -1488,10 +1640,42 @@
           "Questionable"
         ],
         "note": "This summary is technically faithful to the source but seemingly inaccurate due to a potential typo in the source context.\n\nI'd expect this to say 2016-2017 based on what I know of football seasons",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "when the team moves there for the 2016-20 season",
         "summary_start": 594,
         "summary_end": 642
+      },
+      {
+        "annot_id": 239,
+        "sample_id": 12,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "A precursor to the actual summary and has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 40
+      },
+      {
+        "annot_id": 265,
+        "sample_id": 12,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's a little distortion from the source. The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is considered one of the top prospects from the Caribbean and has attracted interest from other European clubs, including some in Belgium.",
+        "summary_start": 244,
+        "summary_end": 385,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1535,7 +1719,7 @@
           "Questionable"
         ],
         "note": "This may be an appropriate summary but the source context, to me, sounds like the \"discussing\" is happening internally at West Ham and not necessarily with Beckford. \"Negotiations\" implies West Ham is discussing the deal with Beckford but it's unclear.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "West Ham United are in negotiations to sign Jamaican forward Deshane Beckford",
         "summary_start": 0,
         "summary_end": 77
@@ -1548,7 +1732,7 @@
           "Questionable"
         ],
         "note": "This summary is implying a correlation between Beckford's trial performance and the interest from \"various European clubs\". \n\nThe source context does not seem to imply that same connection, at least to me.\n\nThis could be an unwanted hallucination if the summary is connecting two disparate data points",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "who has attracted interest from various European clubs due to his impressive trial at the club's academy",
         "summary_start": 79,
         "summary_end": 183
@@ -1561,7 +1745,7 @@
           "Questionable"
         ],
         "note": "I happen to know there's only one \"Premier League\", but for someone reading who doesn't know that (or maybe I'm wrong), this might leave out important context that it's specifically the Barclay's Premier League",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "the Premier League",
         "summary_start": 457,
         "summary_end": 475
@@ -1574,10 +1758,28 @@
           "Questionable"
         ],
         "note": "I think this is meant to say 2016-2017 but the summary has reasonably expanded '20' to '2020'. \n\nI think it's likely common knowledge that '20' here is a typo of '2017' so this hallucination is seemingly unwanted but also a bit ambiguous",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "for the 2016-2020 season",
         "summary_start": 399,
         "summary_end": 423
+      },
+      {
+        "annot_id": 271,
+        "sample_id": 13,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"\\\"various European clubs\\\" might be overgeneralized as the source only mentions west ham and clubs in belgium\" In addition, the source only mentions that beckford impressed coaches in west ham due to his impressive performance on trail. But the source does not mention how beckford attracted other clubs.",
+        "annotator_name": "Miaoran",
+        "summary_span": "who has attracted interest from various European clubs due to his impressive trial at the club's academy.",
+        "summary_start": 79,
+        "summary_end": 184,
+        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium .",
+        "source_start": 100,
+        "source_end": 337
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1637,7 +1839,7 @@
           "Unwanted"
         ],
         "note": "This seems unwanted to me because it's written in the present tense when the source is written in past tense.\n\nSince this changes the intent of the content, I think it's unwanted.",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "is impressing West Ham United during his trial with their academy",
         "summary_start": 74,
         "summary_end": 139
@@ -1650,7 +1852,7 @@
           "Benign"
         ],
         "note": "I think this is benign because it seems reasonable to autocorrect the seeming typo of 2016-20 when the source context likely means 2016-2017 since football seasons run for ~a year rather than 4 years (if we assume '20' means '2020')",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "cheapest in the Premier League for the 2016-2017 season",
         "summary_start": 416,
         "summary_end": 471
@@ -1671,7 +1873,22 @@
     "sample_id": 15,
     "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
     "summary": "Here is a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford, who has impressed on trial and has offers from clubs in Belgium. Meanwhile, the club has announced that season tickets for the Olympic Stadium will cost from £289, the lowest price in the Premier League.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 238,
+        "sample_id": 15,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "A precursor to the actual summary and has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.37088,
     "meta_hhem-2.1": 0.92458,
@@ -1687,7 +1904,22 @@
     "sample_id": 16,
     "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-20 season .",
     "summary": "Here is a concise summary of the passage:\n\nWest Ham is discussing a deal to sign 17-year-old Jamaican forward Deshane Beckford, who has impressed on trial with the club's academy. Beckford has also received offers from Belgian clubs and is considered one of the top prospects from the Caribbean. Separately, West Ham has announced that season tickets at the Olympic Stadium will start at £289, making them the cheapest in the Barclays Premier League.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 237,
+        "sample_id": 16,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "A precursor to the actual summary and has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.22398,
     "meta_hhem-2.1": 0.9417,
@@ -1794,13 +2026,31 @@
           "Questionable"
         ],
         "note": "I realize the source context may have a typo and may have meant 2016-2017 season rather than 2016-2020 season.\n\nIf that's the case, I think this may be a helpful, benign hallucination but without knowing what was meant in the source context I think it's questionable instead (though likely the former)",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "move there in the 2016-2017 season",
         "summary_start": 550,
         "summary_end": 584,
         "source_span": " sea",
         "source_start": 851,
         "source_end": 855
+      },
+      {
+        "annot_id": 272,
+        "sample_id": 18,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "The source mentions that beckford trained with west ham's academy but the summary implies that beckford trained with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": "after he impressed during a trial with the club.",
+        "summary_start": 87,
+        "summary_end": 135,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1827,7 +2077,7 @@
           "Questionable"
         ],
         "note": "I would expect the summary to correct what seems to be a typo in the source context (2016-20). This is probably technically faithful but not helpful",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "as they aim to fill the 54,000-seat venue for the 2016-20 season",
         "summary_start": 434,
         "summary_end": 498
@@ -1898,6 +2148,51 @@
         "source_span": "\npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
         "source_start": 476,
         "source_end": 576
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 21,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's likely a reasonable inference to make that \"impressed coaches\" is the same as \"received positive feedback from coaches\", but this seems questionable since the coaches may not have provided feedback and may have only stated they were impressed.\n\nI could see this being a benign or unwanted hallucination depending on the reader",
+        "annotator_name": "Matt",
+        "summary_span": "trained with West Ham's academy and received positive feedback from coaches",
+        "summary_start": 152,
+        "summary_end": 227
+      },
+      {
+        "annot_id": 243,
+        "sample_id": 21,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source context and is more administrative on the model's part",
+        "annotator_name": "Matt",
+        "summary_span": " \n\nNote: The passage provided does not contain information about Beckford's offers from Belgian clubs, so it was not included in the summary.",
+        "summary_start": 465,
+        "summary_end": 606
+      },
+      {
+        "annot_id": 274,
+        "sample_id": 21,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham aims to secure Beckford's signature,",
+        "summary_start": 268,
+        "summary_end": 313,
+        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 477,
+        "source_end": 576
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1950,22 +2245,6 @@
         "source_end": 475
       },
       {
-        "annot_id": 194,
-        "sample_id": 22,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium\t",
-        "annotator_name": "Miaoran",
-        "summary_span": "He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium. ",
-        "summary_start": 227,
-        "summary_end": 359,
-        "source_span": "\nbeckford also has offers from clubs in belgium .",
-        "source_start": 288,
-        "source_end": 337
-      },
-      {
         "annot_id": 225,
         "sample_id": 22,
         "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
@@ -1973,10 +2252,42 @@
           "Questionable"
         ],
         "note": "It's not clear from the source context that \"linked with a host of european clubs\" means Beckford has interest from those clubs.\n\nThis summary therefore seems questionable to me",
-        "annotator_name": "New User",
+        "annotator_name": "Matt",
         "summary_span": "has attracted interest from other European clubs",
         "summary_start": 282,
         "summary_end": 330
+      },
+      {
+        "annot_id": 236,
+        "sample_id": 22,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Unrelated since it's a precursor to the actual summary",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 40
+      },
+      {
+        "annot_id": 275,
+        "sample_id": 22,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium.",
+        "summary_start": 227,
+        "summary_end": 358,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2011,6 +2322,37 @@
         "source_span": "\nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
         "source_start": 681,
         "source_end": 860
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 23,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "We know Beckford has interest from multiple clubs in Belgium but to say \"European\" casts a wider net than the source material presents.\n\nThe source is also ambiguous about this in that we don't know what \"linked with a host of european clubs\" means, which means this could be an accurate statement (benign or faithful) or potentially unwanted if that's not the source context's original intent",
+        "annotator_name": "Matt",
+        "summary_span": "who has attracted interest from numerous European clubs",
+        "summary_start": 72,
+        "summary_end": 127
+      },
+      {
+        "annot_id": 277,
+        "sample_id": 23,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary might be overstated. \\\"numerous\\\" implies a large number. Form the source, we can only know that beckford receives offers from west ham and some clubs in belgium. We do not know how many clubs in Belgium provide offers",
+        "annotator_name": "Miaoran",
+        "summary_span": "who has attracted interest from numerous European clubs.",
+        "summary_start": 72,
+        "summary_end": 128,
+        "source_span": "\nbeckford also has offers from clubs in belgium .",
+        "source_start": 288,
+        "source_end": 337
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2045,6 +2387,19 @@
         "source_span": "\nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
         "source_start": 681,
         "source_end": 860
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 24,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Since Belgian is the appropriate description for people or entities within or from Belgium, this seems benign to me and offers a reasonable summary or interpretation.",
+        "annotator_name": "Matt",
+        "summary_span": "Beckford has also received interest from Belgian clubs",
+        "summary_start": 147,
+        "summary_end": 201
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2064,23 +2419,6 @@
     "summary": "Here is a concise summary of the passage:\n\nWest Ham United are in talks to sign 17-year-old Jamaican forward Deshane Beckford, who impressed on trial with the club. Beckford, considered one of the top prospects from the Caribbean, also has offers from Belgian clubs. Meanwhile, West Ham has announced that season tickets for the 2016-17 season will start at £289, the cheapest in the Premier League.",
     "annotations": [
       {
-        "annot_id": 88,
-        "sample_id": 25,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
-        "annotator_name": "Miaoran",
-        "summary_span": "who impressed on trial with the club",
-        "summary_start": 127,
-        "summary_end": 163,
-        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
-        "source_start": 99,
-        "source_end": 287
-      },
-      {
         "annot_id": 162,
         "sample_id": 25,
         "annotator": "4d772c3676894756870c89b2ab4d37f0",
@@ -2093,6 +2431,38 @@
         "summary_span": "who impressed on trial with the club",
         "summary_start": 127,
         "summary_end": 163,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
+      },
+      {
+        "annot_id": 235,
+        "sample_id": 25,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source and is a precursor for the actual summary",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:\n",
+        "summary_start": 0,
+        "summary_end": 42
+      },
+      {
+        "annot_id": 278,
+        "sample_id": 25,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": "who impressed on trial with the club.",
+        "summary_start": 127,
+        "summary_end": 164,
         "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
         "source_start": 99,
         "source_end": 287
@@ -2113,7 +2483,35 @@
     "sample_id": 26,
     "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-17 season .",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nWest Ham is in discussions to sign 17-year-old Jamaican forward Deshane Beckford, who impressed on trial with the club's academy. Beckford has also received offers from Belgian clubs. Meanwhile, West Ham has announced that season tickets at the Olympic Stadium will start at £289, making them the cheapest in the Barclays Premier League, as the club aims to fill the 54,000 capacity stadium for the 2016-17 season.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 244,
+        "sample_id": 26,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "A precursor to the actual summary and has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
+        "summary_start": 0,
+        "summary_end": 92
+      },
+      {
+        "annot_id": 245,
+        "sample_id": 26,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "This replaces \"clubs in Belgium\" with \"Belgian clubs\" which is an appropriate replacement since it's an accurate way to describe people, places, or things from Belgium and doesn't fundamentally change the intent of this span",
+        "annotator_name": "Matt",
+        "summary_span": "Beckford has also received offers from Belgian clubs.",
+        "summary_start": 224,
+        "summary_end": 277
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.27529,
     "meta_hhem-2.1": 0.96156,
@@ -2143,6 +2541,37 @@
         "summary_span": " he impressed during a trial with the club",
         "summary_start": 80,
         "summary_end": 122,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
+      },
+      {
+        "annot_id": 246,
+        "sample_id": 27,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think it's important to call out the trial was during West Ham's academy, but I don't think this is fundamentally wrong.\n\nI could see this as benign since it abstracts up one level or as unwanted if a reader was looking for more (semantic) accuracy in the summary.",
+        "annotator_name": "Matt",
+        "summary_span": "after he impressed during a trial with the club.",
+        "summary_start": 75,
+        "summary_end": 123
+      },
+      {
+        "annot_id": 280,
+        "sample_id": 27,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": "after he impressed during a trial with the club.",
+        "summary_start": 75,
+        "summary_end": 123,
         "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
         "source_start": 99,
         "source_end": 287
@@ -2196,6 +2625,24 @@
         "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
         "source_start": 99,
         "source_end": 201
+      },
+      {
+        "annot_id": 281,
+        "sample_id": 28,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": "after he impressed during a trial with the club.",
+        "summary_start": 87,
+        "summary_end": 135,
+        "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club .",
+        "source_start": 99,
+        "source_end": 287
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -2249,19 +2696,34 @@
         "source_end": 475
       },
       {
-        "annot_id": 195,
+        "annot_id": 247,
+        "sample_id": 29,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source material is ambiguous about whether Beckford has interest from \"other European teams\". The source material describes his relationship as \"linked with a host of European clubs\", which I think can be reasonably understood to mean interest in him as a player.\n\nHowever, I could see this being considered a hallucination depending on the reader.",
+        "annotator_name": "Matt",
+        "summary_span": "from Belgian clubs and other European teams",
+        "summary_start": 199,
+        "summary_end": 242
+      },
+      {
+        "annot_id": 282,
         "sample_id": 29,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
         "label": [
-          "Questionable"
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
         "note": "the source only mentions that beckford receives offers from west ham and some clubs in belgium",
         "annotator_name": "Miaoran",
         "summary_span": "Beckford, from Montego Bay United, has also attracted interest from Belgian clubs and other European teams.",
         "summary_start": 136,
         "summary_end": 243,
-        "source_span": "\nbeckford also has offers from clubs in belgium .",
-        "source_start": 288,
+        "source_span": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium .",
+        "source_start": 0,
         "source_end": 337
       }
     ],
@@ -2330,6 +2792,64 @@
         "source_span": "\npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
         "source_start": 476,
         "source_end": 576
+      },
+      {
+        "annot_id": 248,
+        "sample_id": 31,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think this is a reasonable summary of the source context: \"impressed coaches\" but it does change the meaning of the original statement.\n\nI think other readers could perceive this as an unwanted or maybe benign hallucination",
+        "annotator_name": "Matt",
+        "summary_span": "received positive feedback from coaches",
+        "summary_start": 188,
+        "summary_end": 227
+      },
+      {
+        "annot_id": 249,
+        "sample_id": 31,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This is a summary of the rationale behind the summary and doesn't summarize the source content.",
+        "annotator_name": "Matt",
+        "summary_span": "Note: The passage provided does not contain information about the pricing of season tickets for Beckford's potential transfer or the specifics of the deal with West Ham. The summary focuses on the main points related to Beckford's trial, his impressive performance, and West Ham's interest in signing him. The information about season ticket pricing is included as it is part of the passage, but it is not directly related to the core pieces of information about Beckford and West Ham's potential deal.",
+        "summary_start": 459,
+        "summary_end": 961
+      },
+      {
+        "annot_id": 284,
+        "sample_id": 31,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham aims to secure Beckford's signature",
+        "summary_start": 277,
+        "summary_end": 321,
+        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\n",
+        "source_start": 477,
+        "source_end": 577
+      },
+      {
+        "annot_id": 285,
+        "sample_id": 31,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The summary focuses on the main points related to Beckford's trial, his impressive performance, and West Ham's interest in signing him. The information about season ticket pricing is included as it is part of the passage, but it is not directly related to the core pieces of information about Beckford and West Ham's potential deal.",
+        "summary_start": 629,
+        "summary_end": 961
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2366,19 +2886,35 @@
         "source_end": 337
       },
       {
-        "annot_id": 196,
+        "annot_id": 250,
+        "sample_id": 32,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source content",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage:\n",
+        "summary_start": 0,
+        "summary_end": 41
+      },
+      {
+        "annot_id": 286,
         "sample_id": 32,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
         "label": [
-          "Questionable"
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
         "note": "The summary implies that there are other European clubs provide offers to beckford besides clubs in belgium. But the source only mentions that beckford receives offers from west ham and some clubs in belgium\t",
         "annotator_name": "Miaoran",
-        "summary_span": " He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium.",
-        "summary_start": 226,
+        "summary_span": "He is considered a top prospect from the Caribbean and has attracted interest from other European clubs, including some in Belgium.",
+        "summary_start": 227,
         "summary_end": 358,
-        "source_span": "\nbeckford also has offers from clubs in belgium .",
-        "source_start": 288,
+        "source_span": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium .",
+        "source_start": 0,
         "source_end": 337
       }
     ],
@@ -2433,11 +2969,39 @@
         "source_end": 576
       },
       {
-        "annot_id": 197,
+        "annot_id": 251,
+        "sample_id": 33,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source context describes Beckford as \"one of the hottest prospects\" so I think summarizing that as \"a highly-rated prospect\" is a reasonable alternative.",
+        "annotator_name": "Matt",
+        "summary_span": "a highly-rated prospect from the Caribbean",
+        "summary_start": 146,
+        "summary_end": 188
+      },
+      {
+        "annot_id": 252,
+        "sample_id": 33,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "This seems benign because while \"cheapest\" and \"most affordable\" can affect someone's perception of this statement, I think in this case it's essentially the same thing.\n\nSo since \"cheapest\" generally means something is \"more/most affordable\", I think this is a reasonable summary but diverts from the source in a noticeable way to me",
+        "annotator_name": "Matt",
+        "summary_span": "making it the most affordable in the league",
+        "summary_start": 435,
+        "summary_end": 478
+      },
+      {
+        "annot_id": 287,
         "sample_id": 33,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
         "label": [
-          "Questionable"
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
         "note": "The summary is a little overstated. The sources only mentions that beckford receives offers from west ham and some clubs in belgium, and does not mention if there are other clubs in Europe interested in him",
         "annotator_name": "Miaoran",
@@ -2447,6 +3011,24 @@
         "source_span": "\nbeckford also has offers from clubs in belgium .",
         "source_start": 288,
         "source_end": 337
+      },
+      {
+        "annot_id": 288,
+        "sample_id": 33,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says that west ham are closing in on the signature of beckford, implying that west ham almost succeed in the deal. But the summary states that west ham aims to secure the signature, implying it is just West Ham's goal or objective to sign the player, and they may be far from that goal",
+        "annotator_name": "Miaoran",
+        "summary_span": "West Ham, a Premier League club, aims to secure his signature.",
+        "summary_start": 270,
+        "summary_end": 332,
+        "source_span": "premier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford",
+        "source_start": 477,
+        "source_end": 576
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2480,6 +3062,35 @@
         "summary_end": 464,
         "source_span": "for the 2016-24 season .",
         "source_start": 836,
+        "source_end": 860
+      },
+      {
+        "annot_id": 266,
+        "sample_id": 34,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think this is a reasonable summary but it may be considered a hallucination considering how different from the source context it is.\n\nThe source discusses \"a deal\" and \"closing in on the signature\". Although a \"potential transfer\" is the same outcome it leaves out some important details which could lead a reader to perceive the summary differently",
+        "annotator_name": "Matt",
+        "summary_span": "leading to discussions for a potential transfer",
+        "summary_start": 115,
+        "summary_end": 162
+      },
+      {
+        "annot_id": 289,
+        "sample_id": 34,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not sure if \"the upcoming season\" is implied by 2016-24 season",
+        "annotator_name": "Miaoran",
+        "summary_span": "for the upcoming season.",
+        "summary_start": 440,
+        "summary_end": 464,
+        "source_span": "\nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+        "source_start": 681,
         "source_end": 860
       }
     ],
@@ -2515,6 +3126,38 @@
         "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
         "source_start": 99,
         "source_end": 201
+      },
+      {
+        "annot_id": 267,
+        "sample_id": 35,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source content",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      },
+      {
+        "annot_id": 291,
+        "sample_id": 35,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the trail was with west ham's academy, but the summary implies the trail was with the main team",
+        "annotator_name": "Miaoran",
+        "summary_span": "Deshane Beckford, who has impressed on trial with the club. ",
+        "summary_start": 109,
+        "summary_end": 169,
+        "source_span": "the skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month",
+        "source_start": 100,
+        "source_end": 220
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2532,7 +3175,35 @@
     "sample_id": 36,
     "source": "west ham are discussing a deal for jamaican starlet deshane beckford after he impressed on trial . \nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy earlier this month and has impressed coaches after spending two weeks with the club . \nbeckford also has offers from clubs in belgium . \nbeckford , who has been linked with a host of european clubs , is said to be one of the hottest prospects to emerge from the caribbean . \npremier league outfit west ham are closing in on the signature of jamaican starlet deshane beckford\nmeanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
     "summary": "Here is a concise summary of the passage:\n\nWest Ham is discussing a deal with 17-year-old Jamaican forward Deshane Beckford after he impressed on trial with the club's academy. Beckford, a highly sought-after prospect, also has offers from Belgian clubs. Meanwhile, West Ham has announced that season tickets at the Olympic Stadium will start at £289, the cheapest in the Premier League, as the club aims to fill the 54,000 capacity stadium.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 268,
+        "sample_id": 36,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      },
+      {
+        "annot_id": 270,
+        "sample_id": 36,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is a reasonable summary because Beckford is described as \"one of the hottest prospects\" and it's a reasonable inference to make that this also makes him \"highly sought-after\".\n\nIt's otherwise a deviation from the source material",
+        "annotator_name": "Matt",
+        "summary_span": "a highly sought-after prospect",
+        "summary_start": 187,
+        "summary_end": 217
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.15844,
     "meta_hhem-2.1": 0.95402,
@@ -2564,6 +3235,24 @@
         "summary_end": 371,
         "source_span": "west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
         "source_start": 589,
+        "source_end": 860
+      },
+      {
+        "annot_id": 292,
+        "sample_id": 37,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that west ham announced the season ticket will cost as little as 289 pounds, but it's not sure if the price applies to the entire 2016-24 season or just some seasons during the period of 2016-24",
+        "annotator_name": "Miaoran",
+        "summary_span": "Meanwhile, West Ham has announced that season tickets for the 2016-24 season at the Olympic Stadium will cost as little as £289",
+        "summary_start": 243,
+        "summary_end": 370,
+        "source_span": "meanwhile , west ham have revealed season tickets at the olympic stadium will cost as little as £ 289 . \nthe hammers will have the cheapest pricing strategy in the barclays premier league in a bid to fill the 54,000 capacity stadium when they make the switch for the 2016-24 season .",
+        "source_start": 577,
         "source_end": 860
       }
     ],
@@ -2601,23 +3290,6 @@
         "source_end": 860
       },
       {
-        "annot_id": 108,
-        "sample_id": 38,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": " when they move there in the 2016-2017 season.",
-        "summary_start": 539,
-        "summary_end": 585,
-        "source_span": " when they make the switch for the 2016-24 season",
-        "source_start": 809,
-        "source_end": 858
-      },
-      {
         "annot_id": 172,
         "sample_id": 38,
         "annotator": "4d772c3676894756870c89b2ab4d37f0",
@@ -2633,6 +3305,37 @@
         "source_span": "\nthe skilful 17-year-old forward from montego bay united was invited to train with west ham 's academy",
         "source_start": 99,
         "source_end": 201
+      },
+      {
+        "annot_id": 273,
+        "sample_id": 38,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The dates are incorrectly summarized as 2016-2017 despite the source showing 2016-24.\n\nThis may be an accurate correction but it seems like, technically, a deviation from the source",
+        "annotator_name": "Matt",
+        "summary_span": "when they move there in the 2016-2017 season",
+        "summary_start": 540,
+        "summary_end": 584
+      },
+      {
+        "annot_id": 293,
+        "sample_id": 38,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " when they move there in the 2016-2017 season.",
+        "summary_start": 539,
+        "summary_end": 585,
+        "source_span": "when they make the switch for the 2016-24 season .",
+        "source_start": 810,
+        "source_end": 860
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -2733,6 +3436,34 @@
         "source_span": "\npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty .",
         "source_start": 171,
         "source_end": 396
+      },
+      {
+        "annot_id": 279,
+        "sample_id": 41,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Mr Mole will be ridden by AP McCoy. This summary seems to be hallucinating about the content regarding Nico de Boinville",
+        "annotator_name": "Matt",
+        "summary_span": "Mr. Mole, ridden by Nicky Henderson's sprinter Sacre due to Barry Geraghty's injury,",
+        "summary_start": 159,
+        "summary_end": 243
+      },
+      {
+        "annot_id": 283,
+        "sample_id": 41,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This description applies to AP McCoy, the rider, and not Mr. Mole, the horse / mount. The source context explains that Mr. Mole will be McCoy's \"last ride\", meaning the last horse / mount that McCoy will ride in a Grade One race.",
+        "annotator_name": "Matt",
+        "summary_span": "This race marks Mr. Mole's last ride in a Grade One race, and his final book of rides will be finalized on Friday morning.",
+        "summary_start": 277,
+        "summary_end": 399
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2752,23 +3483,6 @@
     "summary": "Here's a concise summary of the passage:\n\nThe Grade One Celebration Chase at Sandown on Saturday features seven runners, with Mr Mole, Special Tiara, and Sprinter Sacre as co-favorites at 7-2 odds. AP McCoy will ride Mr Mole in what will be his last Grade One race before retirement. Sprinter Sacre will be ridden by Nico de Boinville due to Barry Geraghty's injury. McCoy's final day rides will be confirmed on Friday morning. Notably, it was after riding Mr Mole to victory at Newbury in February that McCoy announced his retirement. Other runners in the race include Somersby, trained by Mick Channon.",
     "annotations": [
       {
-        "annot_id": 113,
-        "sample_id": 42,
-        "annotator": "04e260cf65324e72bdfd53110b32fee4",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source just mention \"mick channon's somersby\" but does not specify if Mick is the trainer of Somersby",
-        "annotator_name": "Miaoran",
-        "summary_span": "include Somersby, trained by Mick Channon.",
-        "summary_start": 562,
-        "summary_end": 604,
-        "source_span": "\nother runners in the celebration chase include mick channon 's somersby .",
-        "source_start": 819,
-        "source_end": 893
-      },
-      {
         "annot_id": 174,
         "sample_id": 42,
         "annotator": "4d772c3676894756870c89b2ab4d37f0",
@@ -2784,6 +3498,65 @@
         "source_span": " include mick channon 's somersby .",
         "source_start": 858,
         "source_end": 893
+      },
+      {
+        "annot_id": 290,
+        "sample_id": 42,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 40
+      },
+      {
+        "annot_id": 294,
+        "sample_id": 42,
+        "annotator": "04e260cf65324e72bdfd53110b32fee4",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source just mention \"mick channon's somersby\" but does not specify if Mick is the trainer of Somersby",
+        "annotator_name": "Miaoran",
+        "summary_span": "Other runners in the race include Somersby, trained by Mick Channon.",
+        "summary_start": 536,
+        "summary_end": 604,
+        "source_span": "\nother runners in the celebration chase include mick channon 's somersby .",
+        "source_start": 819,
+        "source_end": 893
+      },
+      {
+        "annot_id": 297,
+        "sample_id": 42,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This summary is generally confusing because it's unclear who \"he\" is. If \"he\" is referring to McCoy then the summary is faithful; if it's referring to Mr Mole then it's an unwanted hallucination (intrinsic?)",
+        "annotator_name": "Matt",
+        "summary_span": "AP McCoy will ride Mr Mole in what will be his last Grade One race before retirement",
+        "summary_start": 198,
+        "summary_end": 282
+      },
+      {
+        "annot_id": 298,
+        "sample_id": 42,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I think this is unwanted because all other mentions of riders and mounts has been in the context of that relationship: a rider riding a mount.\n\nHere it uses \"trained by\", instead of \"ridden by\", which seems to be a hallucination, in my opinion.",
+        "annotator_name": "Matt",
+        "summary_span": "trained by Mick Channon.",
+        "summary_start": 580,
+        "summary_end": 604
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2888,21 +3661,20 @@
         "source_end": 818
       },
       {
-        "annot_id": 198,
+        "annot_id": 295,
         "sample_id": 44,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
         "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
+          "Questionable"
         ],
-        "note": "Should be \"his book of rides\" will not be confirmed until Friday, not his schedule",
+        "note": "Should be \"his book of rides\" will not be confirmed until Friday, not his schedule. Do \"book of rides\" and \"schedule\" have the same meaning?",
         "annotator_name": "Miaoran",
-        "summary_span": "This race marks McCoy's last in a Grade One event, with his final schedule not confirmed until Friday. ",
-        "summary_start": 209,
-        "summary_end": 312,
-        "source_span": "\nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race .",
-        "source_start": 397,
-        "source_end": 554
+        "summary_span": "with his final schedule not confirmed until Friday",
+        "summary_start": 260,
+        "summary_end": 310,
+        "source_span": "\nhis book of rides for his final day as a professional jockey will not be finalised until friday morning .",
+        "source_start": 555,
+        "source_end": 661
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2920,7 +3692,22 @@
     "sample_id": 45,
     "source": "mr mole , ap mccoy 's mount in the grade one celebration chase at sandown on saturday , has been installed as one of three 7-2 co-favourites in the seven-runner line-up . \npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race . \nhis book of rides for his final day as a professional jockey will not be finalised until friday morning . \nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding . \nother runners in the celebration chase include mick channon 's somersby .",
     "summary": "Here is a concise summary of the passage:\n\nAP McCoy's mount, Mr Mole, is a 7-2 co-favourite in the Grade One Celebration Chase at Sandown on Saturday, along with Special Tiara and Sprinter Sacre. This will be McCoy's last ride in a Grade One race before his retirement.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 299,
+        "sample_id": 45,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage",
+        "summary_start": 0,
+        "summary_end": 40
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.31954,
     "meta_hhem-2.1": 0.95733,
@@ -2936,7 +3723,22 @@
     "sample_id": 46,
     "source": "mr mole , ap mccoy 's mount in the grade one celebration chase at sandown on saturday , has been installed as one of three 7-2 co-favourites in the seven-runner line-up . \npaul nicholls-trained mr mole is bracketed with irish raider special tiara and nicky henderson 's sprinter sacre , who will be ridden by cheltenham gold cup winner nico de boinville in the absence of injured barry geraghty . \nap mccoy and mr mole will have six rivals in the grade one celebration chase at sandown on saturday\nmr mole will be mccoy 's last ride in a grade one race . \nhis book of rides for his final day as a professional jockey will not be finalised until friday morning . \nironically , it was after riding mr mole to victory at newbury in february that mccoy shocked the racing world by announcing his intention to quit riding . \nother runners in the celebration chase include mick channon 's somersby .",
     "summary": "Here is a concise summary of the passage:\n\nThe Grade One Celebration Chase at Sandown on Saturday has a seven-runner line-up, with Mr Mole (ridden by AP McCoy), Special Tiara, and Sprinter Sacre installed as 7-2 co-favourites. Mr Mole will be McCoy's last ride in a Grade One race, as he is set to retire after this event. The final book of rides for McCoy's last day as a professional jockey will be confirmed on Friday morning.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 300,
+        "sample_id": 46,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.37711,
     "meta_hhem-2.1": 0.64356,
@@ -3022,21 +3824,49 @@
         "source_end": 893
       },
       {
-        "annot_id": 118,
+        "annot_id": 296,
         "sample_id": 48,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
         "label": [
           "Unwanted",
+          "Questionable",
           "Unwanted.Instrinsic"
         ],
         "note": "The source does not specify whether mick channon is the trainer or the rider",
         "annotator_name": "Miaoran",
-        "summary_span": " trained by Mick Channon",
-        "summary_start": 500,
+        "summary_span": "Other runners in the race include Somersby, trained by Mick Channon",
+        "summary_start": 457,
         "summary_end": 524,
         "source_span": "\nother runners in the celebration chase include mick channon 's somersby .",
         "source_start": 819,
         "source_end": 893
+      },
+      {
+        "annot_id": 301,
+        "sample_id": 48,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think this is saying that only Sprinter Sacre will be ridden by Nico de Boinville, but it could be construed as Nico riding both Special Tiara and Sprinter Sacre.",
+        "annotator_name": "Matt",
+        "summary_span": "The other two co-favorites are Special Tiara and Sprinter Sacre, ridden by Nico de Boinville.",
+        "summary_start": 194,
+        "summary_end": 287
+      },
+      {
+        "annot_id": 302,
+        "sample_id": 48,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This may be the intent of the source content, but every other mount/rider relationship is in the context of riding and not training which makes this seem like a hallucination",
+        "annotator_name": "Matt",
+        "summary_span": "trained by",
+        "summary_start": 501,
+        "summary_end": 511
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
