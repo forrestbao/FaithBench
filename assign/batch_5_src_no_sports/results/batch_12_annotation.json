@@ -38,7 +38,7 @@
           "Questionable"
         ],
         "note": "the summary is assuming wa refers to Western Australia",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "Western Australia (WA)",
         "summary_start": 160,
         "summary_end": 182
@@ -51,7 +51,7 @@
           "Questionable"
         ],
         "note": "summary doesn't acknowledge that the source says both 53 and 60.",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "53 vertebrae ",
         "summary_start": 826,
         "summary_end": 839
@@ -124,23 +124,10 @@
           "Unwanted.Extrinsic"
         ],
         "note": "not sure what an eighty-eight beach is at all.",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "remote Eighty-Eight Beach",
         "summary_start": 61,
         "summary_end": 86
-      },
-      {
-        "annot_id": 16,
-        "sample_id": 1,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Questionable"
-        ],
-        "note": "perhaps this is suggesting some causality?",
-        "annotator_name": "New User",
-        "summary_span": "The discovery, made after Tropical Cyclone Olwyn,",
-        "summary_start": 184,
-        "summary_end": 233
       },
       {
         "annot_id": 17,
@@ -151,7 +138,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": " the species, which was only described in scientific journals in 2003",
         "summary_start": 293,
         "summary_end": 362
@@ -165,23 +152,23 @@
           "Unwanted.Extrinsic"
         ],
         "note": "a second summary is given. ",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "Summary:\nA previously feared extinct Omura's whale washed up on a remote beach in Western Australia, providing scientists with a chance to learn more about the species. This is the first sighting in the region and only the second in Australia.",
         "summary_start": 809,
         "summary_end": 1052
       },
       {
-        "annot_id": 19,
+        "annot_id": 58,
         "sample_id": 1,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
-          "Benign"
+          "Questionable"
         ],
-        "note": "the passage mentions both 60 and 53, vertebra. Perhaps this should be acknowledged too?",
-        "annotator_name": "New User",
-        "summary_span": " \n\nNote: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary.",
-        "summary_start": 693,
-        "summary_end": 806
+        "note": "summary doesn't acknowledge that the source says both 53 and 60.\n",
+        "annotator_name": "Manveer",
+        "summary_span": "Note: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. ",
+        "summary_start": 696,
+        "summary_end": 807
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -208,7 +195,7 @@
           "Questionable"
         ],
         "note": "the summary is assuming wa refers to Western Australia\n",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "This is the first sighting in Western Australia",
         "summary_start": 231,
         "summary_end": 278
@@ -222,7 +209,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "the source says it was first described in scientific papers in 2003. It may have been described otherwise before that",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "which was first described in 2003",
         "summary_start": 460,
         "summary_end": 493
@@ -253,7 +240,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "the source says feared to be extinct, not thought to be extinct",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "previously thought to be extinct",
         "summary_start": 22,
         "summary_end": 54
@@ -266,7 +253,7 @@
           "Questionable"
         ],
         "note": "the source says first sighting in wa, not first sighting in the state, but this probably means the same thing. ",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "his is a significant find as it is the first sighting in the state",
         "summary_start": 121,
         "summary_end": 187
@@ -279,7 +266,7 @@
           "Questionable"
         ],
         "note": "should add that this is talking about the scientific work on the whales.",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "only recently described in 2003",
         "summary_start": 393,
         "summary_end": 424
@@ -292,7 +279,7 @@
           "Questionable"
         ],
         "note": "True, but the source makes a slightly different point-that little is known about the species in general.",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "little is known about its biology and distribution",
         "summary_start": 430,
         "summary_end": 480
@@ -351,7 +338,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "two issues here\n\nFor one, the whale was feared to be extinct, not thought to be extinct\n\nFor two, this likely applies everywhere, not just western australia",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "previously thought to be extinct in Western Australia",
         "summary_start": 33,
         "summary_end": 86
@@ -364,10 +351,37 @@
           "Questionable"
         ],
         "note": "the source says its the first sighting in wa",
-        "annotator_name": "New User",
+        "annotator_name": "Manveer",
         "summary_span": "This is the first sighting of the species in Western Australia",
         "summary_start": 165,
         "summary_end": 227
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it was described for the first time in 2003. it might have been described afterwards.",
+        "annotator_name": "Manveer",
+        "summary_span": ", which was only described scientifically in 2003",
+        "summary_start": 441,
+        "summary_end": 490
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says both 53 and 60, which should be acknowledged?",
+        "annotator_name": "Manveer",
+        "summary_span": "such as 53 vertebra",
+        "summary_start": 795,
+        "summary_end": 814
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -385,7 +399,21 @@
     "sample_id": 5,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
     "summary": "Here is a concise summary of the passage:\n\nA juvenile female Omura's whale, a species previously feared to be extinct, was found washed up on a beach in Western Australia after a tropical cyclone. This is the first sighting of the species in Western Australia and only the second in Australia. The whale's DNA was used to confirm its identity, and its carcass has been buried with plans to recover the skeleton in a few years for further scientific study and possible public display. The find is significant for whale scientists, who know very little about the species, which is typically found in Indonesian waters, the Philippines, and the Sea of Japan.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 48,
+        "sample_id": 5,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia ",
+        "summary_start": 197,
+        "summary_end": 260
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.99668,
     "meta_hhem-2.1": 0.85949,
@@ -432,6 +460,19 @@
         "summary_span": "not 60 as mentioned in one sentence, which appears to be an error).",
         "summary_start": 525,
         "summary_end": 592
+      },
+      {
+        "annot_id": 49,
+        "sample_id": 6,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary mentions an error in the source, but the summary seems to be accurate here.",
+        "annotator_name": "Manveer",
+        "summary_span": " (not 60 as mentioned in one sentence, which appears to be an error)",
+        "summary_start": 523,
+        "summary_end": 591
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -449,7 +490,49 @@
     "sample_id": 7,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
     "summary": "An Omura's whale, a species rarely seen and thought to be extinct, was found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The whale was identified through DNA profiling and is a juvenile female. The discovery is significant because very little is known about the species, which was only scientifically described in 2003. The whale's carcass has been buried and will be recovered in a few years for further scientific investigation. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 50,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "a species rarely seen and thought to be extinct",
+        "summary_start": 18,
+        "summary_end": 65
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia",
+        "summary_start": 120,
+        "summary_end": 182
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says first described in 2003. It might have been described afterwards",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only scientifically described in 2003",
+        "summary_start": 367,
+        "summary_end": 414
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.9989,
     "meta_hhem-2.1": 0.93448,
@@ -465,7 +548,49 @@
     "sample_id": 8,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
     "summary": "A species of whale called the Omura's whale, which was thought to be extinct, has been found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The discovery is significant for scientists as very little is known about the species, which was only described in scientific journals in 2003. The whale has unique skeletal features and is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 53,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": " which was thought to be extinct",
+        "summary_start": 44,
+        "summary_end": 76
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia ",
+        "summary_start": 136,
+        "summary_end": 199
+      },
+      {
+        "annot_id": 55,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says first described in 2003. not only described in 2003",
+        "annotator_name": "Manveer",
+        "summary_span": " was only described in scientific journals in 2003",
+        "summary_start": 325,
+        "summary_end": 375
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.99937,
     "meta_hhem-2.1": 0.87988,
@@ -498,6 +623,32 @@
         "source_span": "\nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species .",
         "source_start": 683,
         "source_end": 905
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 9,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary is assuming wa refers to Western Australia\n",
+        "annotator_name": "Manveer",
+        "summary_span": "marks the first sighting in Western Australia ",
+        "summary_start": 185,
+        "summary_end": 231
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 9,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says first described scientifically",
+        "annotator_name": "Manveer",
+        "summary_span": "the species was first described in 2003 ",
+        "summary_start": 416,
+        "summary_end": 456
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -515,7 +666,21 @@
     "sample_id": 10,
     "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
     "summary": " Conor McGregor is preparing for a featherweight title challenge against Jose Aldo on July 11 in Las Vegas. Prior to this, McGregor has revealed a new tattoo of a tiger's face on his stomach, which he described as a warning that \"if you see the tiger, it's too late. You're food.\" McGregor claims Aldo lacks the same motivation as him for the title fight. During a promotional tour in Dublin, McGregor grabbed Aldo's belt and raised it in front of 5,000 home supporters, escalating their already fractious relationship. The title fight will mark the eighth defense of Aldo's belt, but McGregor believes he has greater motivation to win the title.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 59,
+        "sample_id": 10,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make it clear that this escalated trouble in their relationship, but it might be reasonable to say this.",
+        "annotator_name": "Manveer",
+        "summary_span": "McGregor grabbed Aldo's belt and raised it in front of 5,000 home supporters, escalating their already fractious relationship",
+        "summary_start": 393,
+        "summary_end": 518
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.02659,
     "meta_hhem-2.1": 0.98123,
@@ -543,6 +708,32 @@
         "annotator_name": "New User",
         "summary_span": "his strong motivation to win the title have been shared with his Instagram followers.",
         "summary_start": 499,
+        "summary_end": 584
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 11,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "mcgregor didn't exactly describe it as a warning to his appointment, just a warning for anyone who sees it in general.",
+        "annotator_name": "Manveer",
+        "summary_span": "McGregor has revealed a new tattoo of a tiger on his stomach, which he described as a warning to his opponent",
+        "summary_start": 125,
+        "summary_end": 234
+      },
+      {
+        "annot_id": 61,
+        "sample_id": 11,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make it clear that his motivation to win was shared, but it probably was?",
+        "annotator_name": "Manveer",
+        "summary_span": " McGregor's new tattoo and his strong motivation to win the title have been shared with his Instagram followers.",
+        "summary_start": 472,
         "summary_end": 584
       }
     ],
@@ -575,6 +766,45 @@
         "summary_span": " a 26-year-old Irish MMA fighter,",
         "summary_start": 57,
         "summary_end": 90
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 12,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say he's a MMA fighter, but this is true",
+        "annotator_name": "Manveer",
+        "summary_span": "MMA",
+        "summary_start": 78,
+        "summary_end": 81
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 12,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't necessarily say that this incident highlights their poor relationship.",
+        "annotator_name": "Manveer",
+        "summary_span": "The two fighters have a tense relationship, highlighted by an incident during a promotional tour in Dublin where McGregor grabbed Aldo's belt in front of 5,000 fans.",
+        "summary_start": 452,
+        "summary_end": 617
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 12,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "less than three months away as of the time of the source",
+        "annotator_name": "Manveer",
+        "summary_span": "The fight is less than three months away.",
+        "summary_start": 618,
+        "summary_end": 659
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -602,6 +832,45 @@
         ],
         "note": "A matter of opinion not explicitly mentioned in the passage.",
         "annotator_name": "New User",
+        "summary_span": "the highly anticipated match promises an intense battle for the championship belt.",
+        "summary_start": 594,
+        "summary_end": 676
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 13,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "It is not clear if this incident created a tense atmosphere, but maybe this is reasonable.",
+        "annotator_name": "Manveer",
+        "summary_span": " The fighters' rivalry was evident during a promotional tour in Dublin, where McGregor grabbed Aldo's belt, creating a tense atmosphere. ",
+        "summary_start": 422,
+        "summary_end": 559
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 13,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "less than three months to go as of the time of the source",
+        "annotator_name": "Manveer",
+        "summary_span": "With less than three months to go, ",
+        "summary_start": 559,
+        "summary_end": 594
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 13,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "although it may be true that the match is highly anticipated and the match will be intense, the source doesn't exactly say this",
+        "annotator_name": "Manveer",
         "summary_span": "the highly anticipated match promises an intense battle for the championship belt.",
         "summary_start": 594,
         "summary_end": 676
@@ -636,6 +905,20 @@
         "summary_span": "This is McGregor's eighth defense of the title,",
         "summary_start": 312,
         "summary_end": 359
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 14,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not true. it is aldo's eighth defense",
+        "annotator_name": "Manveer",
+        "summary_span": "This is McGregor's eighth defense of the title",
+        "summary_start": 312,
+        "summary_end": 358
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -667,6 +950,19 @@
         "summary_span": "and has already demonstrated his confidence by grabbing the belt from Aldo ",
         "summary_start": 364,
         "summary_end": 439
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 15,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "does this demonstrate confidence for winning? I'm not sure it does. The source doesn't suggest so either.",
+        "annotator_name": "Manveer",
+        "summary_span": "and has already demonstrated his confidence by grabbing the belt from Aldo during a promotional tour in Dublin.",
+        "summary_start": 364,
+        "summary_end": 475
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -684,7 +980,21 @@
     "sample_id": 16,
     "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
     "summary": "Here is a concise summary of the passage:\n\nConor McGregor is preparing to challenge Jose Aldo for the featherweight title on July 11. Ahead of the fight, McGregor has unveiled a new tattoo of a tiger's face on his stomach. McGregor claims he has greater motivation to win the title than Aldo has to defend it, saying Aldo \"doesn't want to be near me\" and \"can't hide the fact he doesn't want the belt in his presence\". The two fighters have a fractious relationship, which was evident during a promotional tour in Dublin where McGregor grabbed the belt from Aldo in front of 5,000 fans.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 70,
+        "sample_id": 16,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear that the source uses this incident as evidence of their poor relationship",
+        "annotator_name": "Manveer",
+        "summary_span": "he two fighters have a fractious relationship, which was evident during a promotional tour in Dublin where McGregor grabbed the belt from Aldo in front of 5,000 fans.",
+        "summary_start": 420,
+        "summary_end": 586
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.06836,
     "meta_hhem-2.1": 0.97677,
@@ -700,7 +1010,21 @@
     "sample_id": 17,
     "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
     "summary": "Conor McGregor is preparing to fight Jose Aldo for the featherweight title on July 11th. McGregor has a new tiger tattoo on his stomach and claims to have more motivation to win the title than Aldo has to defend it. The two fighters have a contentious relationship, which was highlighted when McGregor grabbed Aldo's belt during a promotional tour in Dublin. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 71,
+        "sample_id": 17,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear that this event highlights their poor relationship",
+        "annotator_name": "Manveer",
+        "summary_span": "he two fighters have a contentious relationship, which was highlighted when McGregor grabbed Aldo's belt during a promotional tour in Dublin.",
+        "summary_start": 217,
+        "summary_end": 358
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.02086,
     "meta_hhem-2.1": 0.98173,
@@ -729,6 +1053,19 @@
         "summary_span": "McGregor is determined to win the title and hold it in front of his supporters.",
         "summary_start": 423,
         "summary_end": 502
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 18,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear these two things are connected. Maybe mcgregor was told to do this to stir up viewer interest.",
+        "annotator_name": "Manveer",
+        "summary_span": "The two fighters have a tense relationship, and McGregor grabbed Aldo's belt during a promotional tour in Dublin.",
+        "summary_start": 309,
+        "summary_end": 422
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -746,7 +1083,21 @@
     "sample_id": 19,
     "source": "conor mcgregor is gearing up for a featherweight title challenge against jose aldo on july 11 and has unveiled a fearsome new tattoo ahead of the encounter . the 26-year-old irishman has already got a picture of a gorilla eating a heart inked upon his chest and ' the notorious ' has now revealed a tiger 's face tattooed onto his stomach . ' if you see the tiger , it 's too late . you 're food , ' mcgregor wrote next to the instagram post of his new artwork . conor mcgregor reveals his new tattoo of a tiger on his stomach to his instagram followers . mcgregor ( left ) poses in the shop with a fan shortly after having his tattoo on his stomach done . mcgregor is challenging jose aldo for his featherweight champion title in las vegas on july 11 . aldo makes the eighth defence of his belt against the irish fighter in las vegas , but mcgregor claimed last week that the man he is challenging lacks the same motivation as him . ' he does n't want to be near me , he does n't want this the way i want it , ' mcgregor said . ' he ca n't hide the fact he does n't want the belt in his presence . ' conor mcgregor grabbed aldo 's ( left ) belt when they took their promotional tour to dublin . mcgregor claims he has greater motivation to win the title than aldo has to defend it for the eighth time . at the end of march , the duo were undergoing a promotional tour in dublin when mcgregor grabbed the belt from aldo and raised it in front of 5,000 home supporters . the pair have a fractious relationship as it is , with a little under three months away until mcgregor has a chance to legitimately hold the belt before his supporters .",
     "summary": "Conor McGregor is preparing for a featherweight title challenge against Jose Aldo on July 11 and has revealed a new tiger tattoo on his stomach. McGregor, already known for his gorilla-eating-heart chest tattoo, shared the new artwork on Instagram, emphasizing its fierce symbolism. He believes he has more motivation to win the title than Aldo has to defend it, as evidenced by their contentious interactions, including McGregor grabbing Aldo's belt during a promotional tour in Dublin. The fight will be Aldo's eighth title defense, but McGregor claims Aldo lacks the same desire to retain the belt.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 73,
+        "sample_id": 19,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not clear that the source uses this incident as evidence for mcgregor believing he has more motivation.",
+        "annotator_name": "Manveer",
+        "summary_span": "He believes he has more motivation to win the title than Aldo has to defend it, as evidenced by their contentious interactions, including McGregor grabbing Aldo's belt during a promotional tour in Dublin.",
+        "summary_start": 283,
+        "summary_end": 487
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.0302,
     "meta_hhem-2.1": 0.94076,
@@ -963,6 +1314,61 @@
         "summary_span": "The quake struck at 15:48 GMT ",
         "summary_start": 333,
         "summary_end": 363
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Milan is repeated twice here",
+        "annotator_name": "Manveer",
+        "summary_span": "The quake was felt in cities such as Milan, Florence, and Milan,",
+        "summary_start": 102,
+        "summary_end": 166
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the year is hallucinated, no evidence for it in the source and it seems wrong",
+        "annotator_name": "Manveer",
+        "summary_span": "2021",
+        "summary_start": 304,
+        "summary_end": 308
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says in the immediate area, doesn't specify garfagnana, but this is reasonable",
+        "annotator_name": "Manveer",
+        "summary_span": " schools were evacuated in the Garfagnana area ",
+        "summary_start": 455,
+        "summary_end": 502
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says 14:48 GMT",
+        "annotator_name": "Manveer",
+        "summary_span": "15:48 GMT ",
+        "summary_start": 353,
+        "summary_end": 363
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1024,7 +1430,21 @@
     "sample_id": 32,
     "source": "The magnitude-4.8 quake struck at a depth of 15.5km (9.6 miles) 35km north of the city of Lucca, officials said. The tremor was felt as far away as Milan and Florence, Italian media say. There were no immediate reports of injuries or damage. Italy is prone to earthquakes. In 2009 almost 300 people died in a quake in L'Aquila in the central Abruzzo region. Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports. As a precaution, schools were said to have been evacuated in the immediate vicinity and were to be checked for any damage. In Milan, top floors of tall office blocks shook and the quake was also felt in the cities of Bologna and Modena. In Lucca, people poured out into the streets, Ansa said. Last May, two earthquakes in the same area left more than 20 people dead. The strongest tremor was magnitude-6 and caused significant damage. Alessandro Amato of the INGV said the latest tremor \"came out of nowhere\", and described it as a classic earthquake for the area - \"medium-strong\" and \"fairly shallow\". Italy is still trying to recover from the aftermath of the deadly earthquake in L'Aquila. Six scientists and an ex-official were convicted of multiple manslaughter in October 2012 for giving a falsely reassuring statement. The group, all members of the National Commission for the Forecast and Prevention of Serious Risks, were accused of having provided \"inaccurate, incomplete and contradictory\" information about the danger of the tremors felt ahead of the 6 April 2009 quake. At a meeting a few days before the deadly quake, they had told officials in L'Aquila that, while a major earthquake was not impossible, it was not likely. On the night of the quake, many people are said to have remained in their homes and died because of the advice, while others who had decided to remain outside in the street survived.",
     "summary": "Here's a concise summary of the passage:\n\nA magnitude-4.8 earthquake struck northern Italy, 35km north of Lucca, at a depth of 15.5km. The tremor was felt in cities as far as Milan and Florence. No immediate injuries or damage were reported. The quake's epicenter was in Garfagnana, with several aftershocks following. As a precaution, schools were evacuated and checked for damage. Phone lines and power supplies were affected in the area. The passage also mentions Italy's susceptibility to earthquakes, referencing a 2009 quake in L'Aquila that killed nearly 300 people. It concludes by discussing a controversial case where scientists were convicted of manslaughter for providing reassuring information before the L'Aquila earthquake, which may have influenced people's decisions to stay in their homes during the quake.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 80,
+        "sample_id": 32,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if this is an hallucination. the source doesn't exactly say northern italy.",
+        "annotator_name": "Manveer",
+        "summary_span": "struck northern Italy",
+        "summary_start": 69,
+        "summary_end": 90
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.90036,
     "meta_hhem-2.1": 0.91443,
@@ -1067,6 +1487,32 @@
         "summary_span": "The recent tremor caught experts by surprise, ",
         "summary_start": 465,
         "summary_end": 511
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 33,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't exactly say central italy",
+        "annotator_name": "Manveer",
+        "summary_span": "hit central Italy",
+        "summary_start": 27,
+        "summary_end": 44
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 33,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't make this point. It is not clear whether shallow earthquakes are felt over larger areas",
+        "annotator_name": "Manveer",
+        "summary_span": "and its shallow depth led to its impact being felt across a large area",
+        "summary_start": 166,
+        "summary_end": 236
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1192,6 +1638,19 @@
         "summary_span": " experienced significant quakes in 2009 and 2012,",
         "summary_start": 307,
         "summary_end": 356
+      },
+      {
+        "annot_id": 83,
+        "sample_id": 39,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say there was an earthquake in 2012, this is probably referring to the \"last May\" earthquake.",
+        "annotator_name": "Manveer",
+        "summary_span": "2012",
+        "summary_start": 351,
+        "summary_end": 355
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1225,7 +1684,48 @@
     "sample_id": 41,
     "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
     "summary": " Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has been diagnosed with global and irreversible brain damage. Despite no longer being in a medically induced coma, she remains unresponsive. Her grandmother, Cissy Houston, expressed sadness over the possibility of her living in this condition for a lifetime. Reports indicate that Brown's condition has improved, but the extent of her life remains uncertain. Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process. Bobby Brown's wife, Alicia Etheredge-Brown, described the situation as emotional and challenging.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 84,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "not exactly reports, but statements from the father and attorney suggested this",
+        "annotator_name": "Manveer",
+        "summary_span": "Reports indicate that Brown's condition has improved",
+        "summary_start": 328,
+        "summary_end": 380
+      },
+      {
+        "annot_id": 85,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it seems that the attorney stated she is undergoing rehab, not the father",
+        "annotator_name": "Manveer",
+        "summary_span": "obby Brown, her father, stated that she is awake and undergoing a long rehabilitation process",
+        "summary_start": 429,
+        "summary_end": 522
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "she said long and hard, not emotional and challenging. the meaning of emotional is different.",
+        "annotator_name": "Manveer",
+        "summary_span": " emotional and challenging",
+        "summary_start": 594,
+        "summary_end": 620
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.59657,
     "meta_hhem-2.1": 0.91603,
@@ -1271,6 +1771,33 @@
         "summary_span": "she was awake and watching him during a performance.",
         "summary_start": 386,
         "summary_end": 438
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 43,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says global but severe works too",
+        "annotator_name": "Manveer",
+        "summary_span": "severe",
+        "summary_start": 91,
+        "summary_end": 97
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 43,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says nothing about a performance",
+        "annotator_name": "Manveer",
+        "summary_span": "and watching him during a performance",
+        "summary_start": 400,
+        "summary_end": 437
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1288,7 +1815,22 @@
     "sample_id": 44,
     "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
     "summary": "Bobbi Kristina Brown, the daughter of Bobby Brown and Whitney Houston, has been diagnosed with global and irreversible brain damage. She remains unresponsive and is undergoing rehabilitation, though her condition has not significantly improved over nearly three months. Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources. Bobbi Kristina's grandmother, Cissy Houston, expressed hope for a miracle while acknowledging the possibility of a lifelong condition.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 89,
+        "sample_id": 44,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the contradiction came from the grandmother's comments and the attorney's clarification, not directly from medical sources.",
+        "annotator_name": "Manveer",
+        "summary_span": "Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources.",
+        "summary_start": 270,
+        "summary_end": 409
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.04867,
     "meta_hhem-2.1": 0.72876,
@@ -1304,7 +1846,21 @@
     "sample_id": 45,
     "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
     "summary": "Here is a concise summary of the passage covering the core pieces of information:\n\nBobbi Kristina Brown, the 22-year-old daughter of Bobby Brown and Whitney Houston, has suffered global and irreversible brain damage. Despite being taken out of a medically induced coma, she remains unresponsive and in a similar neurological state as three months ago. Her family, including her father Bobby Brown, have reported conflicting information about her condition, with some stating she is awake and watching them, while others describe her as unresponsive and in a rehabilitation process.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 90,
+        "sample_id": 45,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "three months ago as of the time of this source",
+        "annotator_name": "Manveer",
+        "summary_span": "as three months ago",
+        "summary_start": 331,
+        "summary_end": 350
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.27977,
     "meta_hhem-2.1": 0.53923,
@@ -1336,7 +1892,22 @@
     "sample_id": 47,
     "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
     "summary": "Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has suffered global and irreversible brain damage. Though she is no longer in a medically induced coma, she remains unresponsive and does not react to visitors or familiar voices. She has a tracheostomy in her throat and her condition has not changed in nearly three months. While her father, Bobby Brown, stated that she is awake and watching him, her grandmother, Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 91,
+        "sample_id": 47,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this was said by the attorney not cissy, although cissy had did contradict the father.",
+        "annotator_name": "Manveer",
+        "summary_span": "Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come.",
+        "summary_start": 433,
+        "summary_end": 579
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.26808,
     "meta_hhem-2.1": 0.95613,
@@ -1368,7 +1939,21 @@
     "sample_id": 49,
     "source": "( cnn ) bobbi kristina brown , the daughter of bobby brown and whitney houston , has \" global and irreversible brain damage , \" according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive , cissy houston said in a statement monday after visiting her granddaughter . \n\" meeting with the doctors and understanding that she can live in this condition for a lifetime truly saddens me , \" houston said . \n\" we can only trust in god for a miracle at this time . \" \nhouston 's statement matched that from a source with knowledge of brown 's condition , who told cnn on monday that she remained in the same neurological state she has been in for nearly three months . \nshe does not respond to visitors or familiar voices , and her eyes do not follow a person around the room , the source told cnn . \nshe also has a tracheostomy in her throat , the source said . \nthe reports come two days after brown 's father , bobby brown , said his daughter 's condition had improved . \n\" i can say today , bobbi is awake . \nshe 's watching me , \" brown told the audience at dallas ' verizon theatre . \nin a statement monday , an attorney for the brown family said that bobbi kristina brown 's condition has improved but that the kind of life she will lead remains to be seen . \n\" doctors have indicated that she will have a long life , \" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \" \nwho 's who in the bobbi kristina brown case ? \nbobby brown was in an \" emotional state \" on stage when he made the remarks about his daughter being awake , according to the statement . \n\" she has made it out of icu , opened her eyes and started a rehabilitation that will be long and hard , \" said bobby brown 's wife , alicia etheredge-brown .",
     "summary": "Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has \"global and irreversible brain damage,\" according to her grandmother, Cissy Houston. Although no longer in a medically induced coma, the 22-year-old remains unresponsive and does not react to visitors or familiar voices. She has a tracheostomy and her condition has been unchanged for nearly three months. Despite her father, Bobby Brown, claiming she is awake and showing signs of improvement, medical professionals and family attorneys indicate that while she may live a long life, the quality of her life remains uncertain and she faces a challenging rehabilitation process.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 92,
+        "sample_id": 49,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the comments don't come directly from medical professionals. just from family members and the attorney",
+        "annotator_name": "Manveer",
+        "summary_span": "medical professionals and family attorneys indicate that while she may live a long life, the quality of",
+        "summary_start": 466,
+        "summary_end": 569
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.3509,
     "meta_hhem-2.1": 0.97176,
