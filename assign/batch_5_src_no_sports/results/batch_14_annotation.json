@@ -16,6 +16,19 @@
         "summary_span": "The attack resulted in over 50 injuries",
         "summary_start": 309,
         "summary_end": 348
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 0,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "From Ashraf's words, it can be reasoned that Ashraf also condemned this attack",
+        "annotator_name": "Miaoran",
+        "summary_span": "The attack at the hospital was condemned by Afghanistan's de-facto deputy leader Abdullah Abdullah and President Ashraf Ghani.",
+        "summary_start": 916,
+        "summary_end": 1042
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -73,6 +86,57 @@
         "summary_span": "from bases in the east",
         "summary_start": 938,
         "summary_end": 960
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 1,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary mixed different pieces of information in the source. The source mentions that IS previously targeted civilian gathering and also that IS has mainly engaged with rival Taliban, but it does not state that IS targeted rival Taliban",
+        "annotator_name": "Miaoran",
+        "summary_span": "Previously, IS mainly targeted civilian gatherings and rival Taliban forces in the east",
+        "summary_start": 354,
+        "summary_end": 441,
+        "source_span": "In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border.",
+        "source_start": 1733,
+        "source_end": 1923
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 1,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "One hospital staff member saw an attacker, but it might not be the beginning of the attack",
+        "annotator_name": "Miaoran",
+        "summary_span": "The attack began at 09:00 local time (04:30 GMT) when an attacker wearing a white coat and carrying a Kalashnikov opened fire on hospital staff, patients, and guards.",
+        "summary_start": 626,
+        "summary_end": 792,
+        "source_span": "The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". ",
+        "source_start": 777,
+        "source_end": 1012
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 1,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Might be overstated. \"rooted out IS militants from bases in the east\" implies that the government has rooted out IS from all or most bases in the east, but the source only states \"from a number of bases\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Afghan government claims to have rooted out IS militants from bases in the east ",
+        "summary_start": 877,
+        "summary_end": 961,
+        "source_span": "The government claims it has rooted out IS militants from a number of bases in the east ",
+        "source_start": 2066,
+        "source_end": 2154
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -103,6 +167,84 @@
         "summary_span": "The Taliban is also mentioned as being active in the region, having conducted",
         "summary_start": 1150,
         "summary_end": 1227
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 2,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "can be reasoned that Sardar Daud is in Afghanistan",
+        "annotator_name": "Miaoran",
+        "summary_span": "on the Sardar Daud hospital in Afghanistan",
+        "summary_start": 123,
+        "summary_end": 165
+      },
+      {
+        "annot_id": 55,
+        "sample_id": 2,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " firing indiscriminately.",
+        "summary_start": 655,
+        "summary_end": 680,
+        "source_span": "opening fire on everyone,",
+        "source_start": 941,
+        "source_end": 966
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 2,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Sediq tweeted that special forces had ended the operation after more than six hours does not mean that the operation lasted more than six hours.",
+        "annotator_name": "Miaoran",
+        "summary_span": "Afghan security forces ended the operation after more than six hours. ",
+        "summary_start": 681,
+        "summary_end": 751,
+        "source_span": "More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead.",
+        "source_start": 2330,
+        "source_end": 2502
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 2,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The passage also mentions previous IS attacks in Afghanistan, including suicide bombings at rallies, religious festivals, and the Supreme Court",
+        "summary_start": 885,
+        "summary_end": 1028,
+        "source_span": "In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people",
+        "source_start": 2986,
+        "source_end": 3332
+      },
+      {
+        "annot_id": 58,
+        "sample_id": 2,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Taliban is also mentioned as being active in the region",
+        "summary_start": 1150,
+        "summary_end": 1209,
+        "source_span": "The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
+        "source_start": 3395,
+        "source_end": 3544
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -120,7 +262,82 @@
     "sample_id": 3,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Militants from the Islamic State (IS) group carried out a deadly attack on a hospital in Afghanistan, killing and wounding many. This incident marks a shift in IS strategy, as they directly engaged security forces in the capital for the first time. Previously, IS targeted civilian gatherings, particularly Shia Muslims, and have recently increased their activities in Afghanistan and Pakistan. The attack demonstrates IS's growing capabilities and resources, potentially leading to more assaults on security forces. President Ashraf Ghani strongly condemned the attack, emphasizing the sacred nature of hospitals across religions. The Taliban denied involvement, while the government claims to have eliminated IS from some eastern bases but struggles to control mountainous regions.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 60,
+        "sample_id": 3,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Militants from the Islamic State (IS) group carried out a deadly attack on a hospital in Afghanistan",
+        "summary_start": 0,
+        "summary_end": 100
+      },
+      {
+        "annot_id": 61,
+        "sample_id": 3,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Cannot know if there are people killed from the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "killing and wounding many",
+        "summary_start": 102,
+        "summary_end": 127,
+        "source_span": "More than 50 people were also wounded, the defence ministry said.",
+        "source_start": 362,
+        "source_end": 427
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 3,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "President Ashraf Ghani strongly condemned the attack, emphasizing the sacred nature of hospitals across religions",
+        "summary_start": 517,
+        "summary_end": 630,
+        "source_span": "Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said.",
+        "source_start": 525,
+        "source_end": 776
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 3,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The sentence is confusing. There is no obvious connection between Taliban's deny and government claims in the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Taliban denied involvement, while the government claims to have eliminated IS from some eastern bases but struggles to control mountainous regions.",
+        "summary_start": 632,
+        "summary_end": 783
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 3,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The attack demonstrates IS's growing capabilities and resources, potentially leading to more assaults on security forces.",
+        "summary_start": 395,
+        "summary_end": 516,
+        "source_span": "This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. ",
+        "source_start": 1548,
+        "source_end": 1733
+      }
+    ],
     "meta_model": "cohere/command-r-08-2024",
     "meta_hhemv1": 0.86275,
     "meta_hhem-2.1": 0.95707,
@@ -136,7 +353,73 @@
     "sample_id": 4,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "The passage describes a militant attack on Sardar Daud hospital in Kabul, Afghanistan, where attackers entered by detonating explosives at the gate and engaging in gunfire. The attack lasted several hours and resulted in the deaths of all four attackers, with over 50 others wounded. The Islamic State (IS) group claimed responsibility, marking a shift in their tactics from targeting civilians to engaging directly with security forces. The attack highlights IS's growing capabilities and potential for more assaults. The government has previously struggled to root out IS militants, particularly in eastern regions. The passage also mentions recent attacks by both IS and the Taliban in Afghanistan.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 65,
+        "sample_id": 4,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "can be inferred from this part. And Kabul is the capital of Afghanistan",
+        "annotator_name": "Miaoran",
+        "summary_span": "a militant attack on Sardar Daud hospital in Kabul, Afghanistan",
+        "summary_start": 22,
+        "summary_end": 85,
+        "source_span": "The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital.",
+        "source_start": 1094,
+        "source_end": 1277
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 4,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The attack highlights IS's growing capabilities and potential for more assaults. ",
+        "summary_start": 438,
+        "summary_end": 519,
+        "source_span": " This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. ",
+        "source_start": 1547,
+        "source_end": 1733
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 4,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"has previously struggled\" implies that the government does not struggle now. But the source mentions that the government just rooted out IS from a number of bases in the east and IS still controls the mountainous areas",
+        "annotator_name": "Miaoran",
+        "summary_span": "The government has previously struggled to root out IS militants, particularly in eastern regions.",
+        "summary_start": 519,
+        "summary_end": 617,
+        "source_span": "The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control.",
+        "source_start": 2066,
+        "source_end": 2221
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 4,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The passage also mentions recent attacks by both IS and the Taliban in Afghanistan.",
+        "summary_start": 618,
+        "summary_end": 701,
+        "source_span": "IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
+        "source_start": 3242,
+        "source_end": 3544
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.46532,
     "meta_hhem-2.1": 0.89149,
@@ -166,6 +449,55 @@
         "summary_span": "in recent months",
         "summary_start": 766,
         "summary_end": 782
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 5,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the Sardar Daud hospital in Kabul, Afghanistan",
+        "summary_start": 152,
+        "summary_end": 198,
+        "source_span": "The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital.",
+        "source_start": 1094,
+        "source_end": 1277
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 5,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It just the abdullah in the source, not the afghan government",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Afghan government has vowed to avenge the attack ",
+        "summary_start": 647,
+        "summary_end": 700,
+        "source_span": "Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\".",
+        "source_start": 2686,
+        "source_end": 2824
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 5,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "IS has been expanding its attacks in Afghanistan and Pakistan in recent months.",
+        "summary_start": 704,
+        "summary_end": 783,
+        "source_span": "IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan.",
+        "source_start": 3242,
+        "source_end": 3394
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -197,6 +529,53 @@
         "summary_span": "killing an unknown number of people",
         "summary_start": 143,
         "summary_end": 178
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 6,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "There is no mention of killing (except the 4 attackers)",
+        "annotator_name": "Miaoran",
+        "summary_span": "killing an unknown number of people",
+        "summary_start": 143,
+        "summary_end": 178
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 6,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The attack began at 09:00 local time with explosives and gunfire",
+        "summary_start": 201,
+        "summary_end": 265,
+        "source_span": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients.",
+        "source_start": 0,
+        "source_end": 145
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 6,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"President\" does not represent the entire government",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Afghan government has condemned the attack, with President Ashraf Ghani stating that it \"trampled all human values\".",
+        "summary_start": 598,
+        "summary_end": 718,
+        "source_span": "President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\"",
+        "source_start": 558,
+        "source_end": 648
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -255,6 +634,50 @@
         "summary_span": "resulted in the deaths of at least 16 people",
         "summary_start": 501,
         "summary_end": 545
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 7,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "On January 20, 2017",
+        "summary_start": 0,
+        "summary_end": 19
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 7,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "a hospital in Kabul, Afghanistan.",
+        "summary_start": 69,
+        "summary_end": 102,
+        "source_span": "The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital.",
+        "source_start": 1094,
+        "source_end": 1277
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 7,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The attack resulted in the deaths of at least 16 people",
+        "summary_start": 490,
+        "summary_end": 545
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -299,6 +722,36 @@
         "summary_span": "The government claims to have rooted out IS militants from some bases, but they still control mountainous areas.",
         "summary_start": 493,
         "summary_end": 605
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 8,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "a hospital in Kabul, Afghanistan",
+        "summary_start": 48,
+        "summary_end": 80,
+        "source_span": "The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital.",
+        "source_start": 1094,
+        "source_end": 1277
+      },
+      {
+        "annot_id": 80,
+        "sample_id": 8,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions \"open fire on staff and patients\", but does not mention if it caused death",
+        "annotator_name": "Miaoran",
+        "summary_span": "killing staff and patients.",
+        "summary_start": 82,
+        "summary_end": 109
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -328,6 +781,32 @@
         "annotator_name": "Renyi Qu",
         "summary_span": "highlights IS's growing capability and the ongoing threat to security forces.",
         "summary_start": 685,
+        "summary_end": 762
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 9,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sardar Daud hospital in Kabul",
+        "summary_start": 48,
+        "summary_end": 77
+      },
+      {
+        "annot_id": 85,
+        "sample_id": 9,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The attack, condemned by Afghan leaders, highlights IS's growing capability and the ongoing threat to security forces.",
+        "summary_start": 644,
         "summary_end": 762
       }
     ],
@@ -374,6 +853,114 @@
         "summary_span": "and will receive £50,000",
         "summary_start": 469,
         "summary_end": 493
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"46th year of the Booker Prize\" is not the same as \"the 46th annual Booker Prize\"",
+        "annotator_name": "Miaoran",
+        "summary_span": " 46th annual Booker Prize",
+        "summary_start": 44,
+        "summary_end": 69,
+        "source_span": "This year marks is 46th year of the Booker Prize.",
+        "source_start": 3372,
+        "source_end": 3421
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"5/2\" refers to betting odds provided by the bookmaking company William Hill. The odds of 5/2 mean that if you bet $2 and the outcome is successful, you would win $5 plus get your original $2 bet back, resulting in a total payout of $7.",
+        "annotator_name": "Miaoran",
+        "summary_span": "The favorite",
+        "summary_start": 120,
+        "summary_end": 132,
+        "source_span": "5/2 favourite",
+        "source_start": 82,
+        "source_end": 95
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"followed by\" is confusing",
+        "annotator_name": "Miaoran",
+        "summary_span": "followed by Richard Flanagan's The Narrow Road to the Deep North.",
+        "summary_start": 199,
+        "summary_end": 264
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " David Mitchell",
+        "summary_start": 384,
+        "summary_end": 399
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It's not mentioned in the source but can be confirmed by the information on Wikipedia",
+        "annotator_name": "Miaoran",
+        "summary_span": "will receive £50,000",
+        "summary_start": 473,
+        "summary_end": 493
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's just the David Brauner's opinion. Not a general comment.",
+        "annotator_name": "Miaoran",
+        "summary_span": "The passage also mentions that the shortlist has been criticized for being weak",
+        "summary_start": 495,
+        "summary_end": 574,
+        "source_span": "It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \"",
+        "source_start": 2594,
+        "source_end": 2790
+      },
+      {
+        "annot_id": 93,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's just the David Brauner's opinion. Not a general comment.",
+        "annotator_name": "Miaoran",
+        "summary_span": "The passage also mentions that the shortlist has been criticized for being weak and that there may be reluctance to make Howard Jacobson a two-time winner due to Hilary Mantel's recent double win.",
+        "summary_start": 495,
+        "summary_end": 691,
+        "source_span": "\" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \"",
+        "source_start": 2592,
+        "source_end": 3192
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -407,6 +994,90 @@
         "summary_end": 603,
         "source_span": "The shortlisted authors each receive £2,500 and a specially bound edition of their book",
         "source_start": 3681,
+        "source_end": 3768
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 11,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's the first year that the prize is open to all authors writing in English, which implies that this prize was not open to all English-writing authors previously.",
+        "annotator_name": "Miaoran",
+        "summary_span": "The prize is open to all English-writing authors, regardless of nationality.",
+        "summary_start": 108,
+        "summary_end": 184,
+        "source_span": "It is the first year that the prize is open to all authors writing in English, regardless of nationality.",
+        "source_start": 133,
+        "source_end": 238
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 11,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not sure if they are the same meaning. It can be reasoned with external knowledge that \"5/2\" is the betting odds. But not sure if it's appropriate to claim it's \"the favourite\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "The Lives of Others by Mukherjee is the favorite to win the Booker Prize, with a 5/2 odds at William Hill.",
+        "summary_start": 1,
+        "summary_end": 107,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
+      },
+      {
+        "annot_id": 98,
+        "sample_id": 11,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Mukherjee is also on the list. The summary implies that there are only 5 authors on the shortlist",
+        "annotator_name": "Miaoran",
+        "summary_span": "The shortlist includes Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan.",
+        "summary_start": 254,
+        "summary_end": 359,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1.",
+        "source_start": 0,
+        "source_end": 555
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 11,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It does not focuses on political activism. Political activism is just background of the story",
+        "annotator_name": "Miaoran",
+        "summary_span": "explores family secrets and political activism.",
+        "summary_start": 401,
+        "summary_end": 448,
+        "source_span": "Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism.",
+        "source_start": 835,
+        "source_end": 999
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 11,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "a specially bound edition of the winning book",
+        "summary_start": 558,
+        "summary_end": 603,
+        "source_span": " a specially bound edition of their book",
+        "source_start": 3728,
         "source_end": 3768
       }
     ],
@@ -466,6 +1137,98 @@
         "summary_span": "Neel",
         "summary_start": 144,
         "summary_end": 148
+      },
+      {
+        "annot_id": 101,
+        "sample_id": 12,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "can be confirmed with external knowledge",
+        "annotator_name": "Miaoran",
+        "summary_span": "2014",
+        "summary_start": 68,
+        "summary_end": 72
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 12,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Neel Mukherjee",
+        "summary_start": 144,
+        "summary_end": 158
+      },
+      {
+        "annot_id": 103,
+        "sample_id": 12,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Questionable",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"5/2 favorite\" = favorite?",
+        "annotator_name": "Miaoran",
+        "summary_span": "\"The Lives of Others\" is the bookmakers' favorite to win",
+        "summary_start": 161,
+        "summary_end": 217,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
+      },
+      {
+        "annot_id": 104,
+        "sample_id": 12,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "English-language authors",
+        "summary_start": 272,
+        "summary_end": 296,
+        "source_span": "It is the first year that the prize is open to all authors writing in English, regardless of nationality.",
+        "source_start": 133,
+        "source_end": 238
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 12,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not sure if it is appropriate to use \"BBC\" is summary.",
+        "annotator_name": "Miaoran",
+        "summary_span": "covered by BBC.",
+        "summary_start": 843,
+        "summary_end": 858,
+        "source_span": "will be on the BBC News Channel from 2130 BST and on BBC Arts.",
+        "source_start": 3868,
+        "source_end": 3930
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 12,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "best-selling of all the shortlisted novels = best-selling shortlisted book?",
+        "annotator_name": "Miaoran",
+        "summary_span": " Karen Joy Fowler's \"We Are All Completely Beside Ourselves\" is the best-selling shortlisted book",
+        "summary_start": 483,
+        "summary_end": 580,
+        "source_span": "Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling.",
+        "source_start": 2019,
+        "source_end": 2125
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -483,7 +1246,70 @@
     "sample_id": 13,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The Booker Prize, in its 46th year, has expanded its eligibility to all English-language authors. The favourite to win is The Lives of Others by Mukherjee, set in 1960s Calcutta. The shortlist includes former winner Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan. Fowler's We Are All Completely Beside Ourselves is the bestseller among the nominees. The winner will be revealed in London, with the shortlisted authors receiving a monetary prize and a special edition of their book.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 108,
+        "sample_id": 13,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "English-language authors",
+        "summary_start": 72,
+        "summary_end": 96,
+        "source_span": "all authors writing in English",
+        "source_start": 180,
+        "source_end": 210
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 13,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The favourite to win is The Lives of Others by Mukherjee",
+        "summary_start": 98,
+        "summary_end": 154,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 13,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Mukherjee is also on the list. The summary implies that there are only 5 authors on the shortlist",
+        "annotator_name": "Miaoran",
+        "summary_span": "The shortlist includes former winner Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan.",
+        "summary_start": 179,
+        "summary_end": 298,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. ",
+        "source_start": 0,
+        "source_end": 556
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 13,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "monetary prize",
+        "summary_start": 465,
+        "summary_end": 479
+      }
+    ],
     "meta_model": "cohere/command-r-08-2024",
     "meta_hhemv1": 0.58155,
     "meta_hhem-2.1": 0.94053,
@@ -527,6 +1353,68 @@
         "summary_span": "and four other members.",
         "summary_start": 832,
         "summary_end": 855
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 14,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "Can be validated with external knowledge",
+        "annotator_name": "Miaoran",
+        "summary_span": "the 2014 Booker Prize",
+        "summary_start": 40,
+        "summary_end": 61
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 14,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Mukherjee's \"The Lives of Others\" is the favorite to win.",
+        "summary_start": 135,
+        "summary_end": 192,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 14,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " Sales figures",
+        "summary_start": 587,
+        "summary_end": 601,
+        "source_span": "Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen.",
+        "source_start": 2126,
+        "source_end": 2229
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 14,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The judging panel includes AC Grayling and five other members",
+        "annotator_name": "Miaoran",
+        "summary_span": "The judging panel includes AC Grayling and four other members.",
+        "summary_start": 793,
+        "summary_end": 855,
+        "source_span": "The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner.",
+        "source_start": 3422,
+        "source_end": 3557
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -558,6 +1446,48 @@
         "summary_span": "Neel",
         "summary_start": 415,
         "summary_end": 419
+      },
+      {
+        "annot_id": 118,
+        "sample_id": 15,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "can be validated with external knowledge",
+        "annotator_name": "Miaoran",
+        "summary_span": "for 2014",
+        "summary_start": 162,
+        "summary_end": 170
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 15,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Neel Mukherjee",
+        "summary_start": 415,
+        "summary_end": 429
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 15,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Mukherjee's book currently the favourite to win",
+        "summary_start": 527,
+        "summary_end": 574,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -589,6 +1519,35 @@
         "summary_span": "Neel",
         "summary_start": 207,
         "summary_end": 211
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 16,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Neel Mukherjee",
+        "summary_start": 207,
+        "summary_end": 221
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 16,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The favourite to win is Neel Mukherjee's \"The Lives Of Others\"",
+        "summary_start": 183,
+        "summary_end": 245,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -634,6 +1593,36 @@
         "summary_span": "Jhumpa Lahiri",
         "summary_start": 82,
         "summary_end": 95
+      },
+      {
+        "annot_id": 123,
+        "sample_id": 17,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "can be validated with external information",
+        "annotator_name": "Miaoran",
+        "summary_span": " 2014 Man Booker Prize",
+        "summary_start": 3,
+        "summary_end": 25
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 17,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "*The Lives of Others* by Jhumpa Lahiri",
+        "summary_start": 57,
+        "summary_end": 95,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -651,7 +1640,25 @@
     "sample_id": 18,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The passage discusses the shortlist for the Booker Prize, which is open to all authors writing in English regardless of nationality. The favorite to win is Mukherjee's The Lives Of Others, a novel set in 1960s Calcutta. Other authors on the shortlist include Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan. The passage also mentions the best-selling novel on the shortlist, Fowler's We Are All Completely Beside Ourselves. The winner will be announced at London's Guildhall.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 125,
+        "sample_id": 18,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary implies that this prize is open to all English-writing authors all the time. But the source mentions that it's the first year that this prize is open to all authors writing in English",
+        "annotator_name": "Miaoran",
+        "summary_span": "which is open to all authors writing in English regardless of nationality. ",
+        "summary_start": 58,
+        "summary_end": 133,
+        "source_span": "It is the first year that the prize is open to all authors writing in English, regardless of nationality.",
+        "source_start": 133,
+        "source_end": 238
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.8184,
     "meta_hhem-2.1": 0.96688,
@@ -680,6 +1687,64 @@
         "summary_span": "The shortlist includes three British writers (Howard Jacobson, Ali Smith), two Americans (Joshua Ferris, Karen Joy Fowler), and one Australian (Richard Flanagan).",
         "summary_start": 295,
         "summary_end": 457
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 19,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "highlighting Mukherjee's \"The Lives Of Others\" as the favorite to win.",
+        "summary_start": 63,
+        "summary_end": 133,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
+        "source_start": 0,
+        "source_end": 132
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 19,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It says three British writers but only lists two. It can be reasoned from the context that Mukherjee is also a British writer, but based on search, he is an Indian English-language writer based in London.",
+        "annotator_name": "Miaoran",
+        "summary_span": "three British writers (Howard Jacobson, Ali Smith)",
+        "summary_start": 318,
+        "summary_end": 368
+      },
+      {
+        "annot_id": 132,
+        "sample_id": 19,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "several other notable figures",
+        "summary_start": 735,
+        "summary_end": 764
+      },
+      {
+        "annot_id": 133,
+        "sample_id": 19,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not sure if it is appropriate to use \"BBC\" instead of BBC News and BBC Arts",
+        "annotator_name": "Miaoran",
+        "summary_span": "BBC",
+        "summary_start": 866,
+        "summary_end": 869,
+        "source_span": "will be on the BBC News Channel from 2130 BST and on BBC Arts.",
+        "source_start": 3868,
+        "source_end": 3930
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -710,6 +1775,37 @@
         "summary_span": "The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May. Carney's decision was purely personal",
         "summary_start": 532,
         "summary_end": 715
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 20,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May.",
+        "summary_start": 532,
+        "summary_end": 677
+      },
+      {
+        "annot_id": 136,
+        "sample_id": 20,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable",
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the Article 50 process of decoupling British from the EU should be complete by his leaving, but the summary states that Carney will leave after the process is complete.",
+        "annotator_name": "Miaoran",
+        "summary_span": "and he will leave after the Article 50 process of decoupling Britain from the EU is complete",
+        "summary_start": 717,
+        "summary_end": 809,
+        "source_span": "By then the Article 50 process of decoupling Britain from the EU should be complete.",
+        "source_start": 3919,
+        "source_end": 4003
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -727,7 +1823,77 @@
     "sample_id": 21,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": " Mark Carney, the Governor of the Bank of England, surprised many by announcing a one-year extension to his term in 2018, instead of the originally planned departure in 2018 or the full eight-year term. This decision was influenced by personal reasons, including his family's education plans and his desire to give his full attention and devotion to the role. The extension was seen as a way to provide stability during the Brexit negotiations, which were expected to begin in 2018. Carney's decision was not influenced by political pressure or criticism of the Bank's pre-referendum economic forecasts. The extension allows Carney to leave the UK in 2019, after the Brexit negotiations are complete, and a new Governor will take over to plot Britain's economic future.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 137,
+        "sample_id": 21,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "including his family's education plans and his desire to give his full attention and devotion to the role.",
+        "summary_start": 253,
+        "summary_end": 359
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 21,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Carney's decision was not influenced by political pressure or criticism of the Bank's pre-referendum economic forecasts",
+        "summary_start": 483,
+        "summary_end": 602
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 21,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should be complete = will be complete?",
+        "annotator_name": "Miaoran",
+        "summary_span": "after the Brexit negotiations are complete",
+        "summary_start": 657,
+        "summary_end": 699,
+        "source_span": "By then the Article 50 process of decoupling Britain from the EU should be complete.",
+        "source_start": 3919,
+        "source_end": 4003
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 21,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The extension allows Carney to leave the UK in 2019",
+        "summary_start": 604,
+        "summary_end": 655
+      },
+      {
+        "annot_id": 157,
+        "sample_id": 21,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Formal Brexit negotiations started in 2017",
+        "annotator_name": "Miaoran",
+        "summary_span": "which were expected to begin in 2018.",
+        "summary_start": 445,
+        "summary_end": 482
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.91113,
     "meta_hhem-2.1": 0.25472,
@@ -770,6 +1936,82 @@
         "summary_span": "but also wanted to return to Canada",
         "summary_start": 670,
         "summary_end": 705
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 22,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Carney's extension to 2019",
+        "summary_start": 317,
+        "summary_end": 343
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 22,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "2019 is around the end of the Brexit negotiations, it's not the initial stage",
+        "annotator_name": "Miaoran",
+        "summary_span": " the initial Brexit negotiations",
+        "summary_start": 365,
+        "summary_end": 397,
+        "source_span": "But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete.",
+        "source_start": 3799,
+        "source_end": 4003
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 22,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "return to Canada with his family in 2018",
+        "summary_start": 689,
+        "summary_end": 729,
+        "source_span": "For his family, this was the perfect moment to return home to Canada and its much lauded education system.",
+        "source_start": 2551,
+        "source_end": 2657
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 22,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The one-year extension was seen as a compromise between his professional responsibilities and personal circumstances.",
+        "summary_start": 731,
+        "summary_end": 848
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 22,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "And also his desire to give his full attention and devotion to the role",
+        "annotator_name": "Miaoran",
+        "summary_span": "This decision was primarily driven by personal reasons, particularly his family's needs.",
+        "summary_start": 228,
+        "summary_end": 316,
+        "source_span": "Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. ",
+        "source_start": 3077,
+        "source_end": 3276
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -801,6 +2043,53 @@
         "summary_span": "and the family wishes to return to Canada for its education system.",
         "summary_start": 336,
         "summary_end": 403
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 23,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "his daughters will be completing important exams in 2018",
+        "summary_start": 278,
+        "summary_end": 334
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 23,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Carney did not explicitly mention that his decision was not influenced by  the criticism of the bank's pre-referendum forecasts. It was added by people around Carney",
+        "annotator_name": "Miaoran",
+        "summary_span": "Mr. Carney emphasized that his decision was personal and not influenced by political pressure or criticism of the Bank's pre-referendum forecasts.",
+        "summary_start": 584,
+        "summary_end": 730,
+        "source_span": "Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add.",
+        "source_start": 3518,
+        "source_end": 3688
+      },
+      {
+        "annot_id": 159,
+        "sample_id": 23,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "personal reasons include his family's education plans and his desire to give his full attention and devotion to the role",
+        "annotator_name": "Miaoran",
+        "summary_span": "This decision was influenced by personal factors, particularly his family's situation, as his daughters will be completing important exams in 2018, and the family wishes to return to Canada for its education system. ",
+        "summary_start": 188,
+        "summary_end": 404,
+        "source_span": "Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. ",
+        "source_start": 3077,
+        "source_end": 3276
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -832,6 +2121,65 @@
         "summary_span": "after his daughter's A-levels and GCSEs were completed",
         "summary_start": 282,
         "summary_end": 336
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 24,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Carney did not mention that \"family's situation is his primary consideration\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Despite initial speculation and the challenging economic environment post-Brexit, Carney maintained that his primary consideration was his family's situation.",
+        "summary_start": 434,
+        "summary_end": 592
+      },
+      {
+        "annot_id": 150,
+        "sample_id": 24,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Carney intended to return to Canada after his daughter's A-levels and GCSEs were completed",
+        "summary_start": 246,
+        "summary_end": 336,
+        "source_span": "In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system.",
+        "source_start": 2263,
+        "source_end": 2657
+      },
+      {
+        "annot_id": 155,
+        "sample_id": 24,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "not political pressure",
+        "summary_start": 410,
+        "summary_end": 432
+      },
+      {
+        "annot_id": 160,
+        "sample_id": 24,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "personal reasons include his family's education plans and his desire to give his full attention and devotion to the role",
+        "annotator_name": "Miaoran",
+        "summary_span": "This decision was influenced by personal reasons, specifically his daughters' educational needs.",
+        "summary_start": 149,
+        "summary_end": 245,
+        "source_span": "Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. ",
+        "source_start": 3077,
+        "source_end": 3276
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -849,7 +2197,70 @@
     "sample_id": 25,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nMark Carney, the Governor of the Bank of England, surprised many by announcing a one-year extension of his term, rather than staying until 2021 or leaving in 2018 as originally planned. The reason for the extension was personal: his daughters' education milestones in 2018, which coincided with the Brexit negotiations. Carney stated that his decision was entirely personal and not related to government policy, and that he wanted to devote his full attention to the role for as long as he could. He will now leave in 2019, allowing a new Governor to take over during the completion of the Article 50 process.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 151,
+        "sample_id": 25,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "his daughters' education milestones in 2018",
+        "summary_start": 323,
+        "summary_end": 366,
+        "source_span": "In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs.",
+        "source_start": 2263,
+        "source_end": 2379
+      },
+      {
+        "annot_id": 152,
+        "sample_id": 25,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "and that he wanted to devote his full attention to the role for as long as he could. ",
+        "summary_start": 506,
+        "summary_end": 591,
+        "source_span": "This is a role that requires total attention and devotion. I intend to give that for as long as I can",
+        "source_start": 3145,
+        "source_end": 3246
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 25,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "He will now leave in 2019",
+        "summary_start": 591,
+        "summary_end": 616
+      },
+      {
+        "annot_id": 154,
+        "sample_id": 25,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that the Article 50 process should be complete by his leave. ",
+        "annotator_name": "Miaoran",
+        "summary_span": "allowing a new Governor to take over during the completion of the Article 50 process.",
+        "summary_start": 618,
+        "summary_end": 703,
+        "source_span": "By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
+        "source_start": 3919,
+        "source_end": 4073
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.77171,
     "meta_hhem-2.1": 0.23485,
@@ -907,6 +2318,65 @@
         "summary_span": "but he will leave before the UK's exit from the EU is complete",
         "summary_start": 714,
         "summary_end": 776
+      },
+      {
+        "annot_id": 161,
+        "sample_id": 26,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " until 2019",
+        "summary_start": 199,
+        "summary_end": 210
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 26,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "specifically the need to balance his family life with the demands of the role.",
+        "summary_start": 330,
+        "summary_end": 408
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 26,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "he wants to return to Canada with his family at that time",
+        "summary_start": 484,
+        "summary_end": 541,
+        "source_span": "For his family, this was the perfect moment to return home to Canada and its much lauded education system.",
+        "source_start": 2551,
+        "source_end": 2657
+      },
+      {
+        "annot_id": 165,
+        "sample_id": 26,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The Article 50 process should be complete in his extension\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "he will leave before the UK's exit from the EU is complete, allowing a new Governor to plot Britain's economic future.",
+        "summary_start": 718,
+        "summary_end": 836,
+        "source_span": "By then the Article 50 process of decoupling Britain from the EU should be complete.",
+        "source_start": 3919,
+        "source_end": 4003
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -924,7 +2394,21 @@
     "sample_id": 27,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Mark Carney, Governor of the Bank of England, announced he would extend his term by one year, until 2019. This decision was driven by personal reasons, as his family is planning to return to Canada in 2018. Carney felt it would be difficult to leave during the Brexit negotiations, but he was not willing to extend his term to 2021. He felt that a one-year extension would allow him to see the Article 50 process through, while also allowing his family to return to Canada. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 166,
+        "sample_id": 27,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "until 2019",
+        "summary_start": 94,
+        "summary_end": 104
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.53741,
     "meta_hhem-2.1": 0.3002,

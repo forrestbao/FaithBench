@@ -1012,7 +1012,41 @@
     "sample_id": 10,
     "source": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant . As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with Poldark – but unfortunately it seems as if his heart is well and truly off the market . Their fast relationship didn't go unnoticed by fans. One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
     "summary": " The passage discusses the Poldark TV show and its latest addition, a new baby girl born to the character Demelza Poldark, played by Eleanor Tomlinson. The timeline of Demelza's pregnancy is questionable, as she goes from barely showing to eight months pregnant within a short timeframe in the show. Ross Poldark, played by Aidan Turner, is shown to be in love with Demelza, but it is mentioned that his heart seems to be off the market. The fast pace of pregnancies in the show has been noted by fans, who have commented on social media. The passage also mentions that Ross Poldark is a popular heartthrob among women.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 102,
+        "sample_id": 10,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "suggests his heart is off the market because of someone else",
+        "annotator_name": "Erana",
+        "summary_span": "Ross Poldark, played by Aidan Turner, is shown to be in love with Demelza, but it is mentioned that his heart seems to be off the market.",
+        "summary_start": 300,
+        "summary_end": 437,
+        "source_span": "Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. ",
+        "source_start": 39,
+        "source_end": 466
+      },
+      {
+        "annot_id": 103,
+        "sample_id": 10,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes twitter is social media, assumes multiple fans posting",
+        "annotator_name": "Erana",
+        "summary_span": "who have commented on social media",
+        "summary_start": 503,
+        "summary_end": 537,
+        "source_span": "One posted on Twitter:",
+        "source_start": 1711,
+        "source_end": 1733
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.95855,
     "meta_hhem-2.1": 0.49395,
@@ -1028,7 +1062,57 @@
     "sample_id": 11,
     "source": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant . As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with Poldark – but unfortunately it seems as if his heart is well and truly off the market . Their fast relationship didn't go unnoticed by fans. One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
     "summary": " The passage discusses the latest episode of the TV show Poldark, where Demelza Poldark, played by Eleanor Tomlinson, gives birth to her baby daughter. The episode jumps from the announcement of the pregnancy in the previous episode to Demelza being eight months pregnant in the current episode, with the birth occurring just minutes later. The show's fast-paced pregnancy plot has drawn comparisons to a previous pregnancy in the series, with fans expressing their anticipation for the next episode. Actor Aidan Turner's character, Ross Poldark, is also mentioned as a popular figure among viewers.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 105,
+        "sample_id": 11,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "assumes anticipation",
+        "annotator_name": "Erana",
+        "summary_span": "with fans expressing their anticipation for the next episode",
+        "summary_start": 439,
+        "summary_end": 499,
+        "source_span": "fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. ",
+        "source_start": 2002,
+        "source_end": 2086
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 11,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "relates the comment of fast paced pregnancies positively with anticipation of the next episode but in source it is more correlated negatively",
+        "annotator_name": "Erana",
+        "summary_span": "The show's fast-paced pregnancy plot has drawn comparisons to a previous pregnancy in the series, with fans expressing their anticipation for the next episode.",
+        "summary_start": 341,
+        "summary_end": 500,
+        "source_span": "It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
+        "source_start": 1814,
+        "source_end": 2172
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 11,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "heartthrob = popular",
+        "annotator_name": "Erana",
+        "summary_span": "popular",
+        "summary_start": 570,
+        "summary_end": 577,
+        "source_span": "Sunday night’s latest heartthrob",
+        "source_start": 251,
+        "source_end": 283
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.92066,
     "meta_hhem-2.1": 0.90368,
@@ -1708,7 +1792,36 @@
     "sample_id": 30,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": " The Scots are currently leading their qualifying group for a major soccer competition, with five wins in five matches. They are set to play Iceland at Falkirk Stadium on Friday, with a victory securing a near-guarantee of their place in the finals. Iceland, ranked one place above the Scots, are also unbeaten and the outcome of the match and the return fixture in Reykjavik on 20 September will likely decide who tops the group. The Scots have 12 players in their squad who play outside Scotland, including Bayern Munich forward Jane Ross, who recently won the women's Bundesliga in her first season at the club. Ross believes playing in top leagues benefits the national team as they close in on a first major finals.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 85,
+        "sample_id": 30,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "It is not mentioned Scots are leading.",
+        "annotator_name": "Weisi",
+        "summary_span": "The Scots are currently leading their qualifying group for a major soccer competition, with five wins in five matches.",
+        "summary_start": 1,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 30,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Ross is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Scots have 12 players in their squad who play outside Scotland, including Bayern Munich forward Jane Ross, who recently won the women's Bundesliga in her first season at the club",
+        "summary_start": 435,
+        "summary_end": 613
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.59284,
     "meta_hhem-2.1": 0.1816,
@@ -1724,7 +1837,25 @@
     "sample_id": 31,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": " The Scots have won all five qualifiers and will host Iceland at Falkirk Stadium, with victory almost securing their place in the next summer's Euro 2013 finals. However, Scotland's goalkeeper, Evans, is determined not to miss out again after previous play-off losses. Iceland, ranked number 20 in the world, are unbeaten with four wins from four, and the outcome of the upcoming match and the return fixture will decide the group leader. With the best six of the eight group runners-up also qualifying automatically, Scotland is in pole position to reach the finals without a play-off. Evans, a 24-year-old Bayern Munich forward, believes having more players in the world's top leagues benefits the national team. She also highlights the benefits of training with top players and the different culture and playing style of Scottish players abroad.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 87,
+        "sample_id": 31,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "They already lost the Euro 2013.",
+        "annotator_name": "Weisi",
+        "summary_span": "with victory almost securing their place in the next summer's Euro 2013 finals. ",
+        "summary_start": 82,
+        "summary_end": 162,
+        "source_span": "But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup.",
+        "source_start": 143,
+        "source_end": 251
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.0826,
     "meta_hhem-2.1": 0.83721,
@@ -1740,7 +1871,50 @@
     "sample_id": 32,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe Scottish women's national football team is close to qualifying for their first major tournament, the Euro 2017 finals in the Netherlands. They have won all five qualifiers so far and are preparing to host Iceland in a crucial match. Forward Lisa Evans emphasizes the importance of qualifying after previous near-misses. Iceland is also unbeaten in their group, and the upcoming matches between the two teams are likely to determine the group winner. \n\nThe Scottish team includes 12 players who play professionally outside of Scotland, including Evans, who recently won the Bundesliga with Bayern Munich. Evans believes that having players in top international leagues benefits the national team by exposing them to different playing styles and higher levels of competition. The team is hoping for strong fan support at their upcoming match in Falkirk as they aim to secure their place in the Euro 2017 finals.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 88,
+        "sample_id": 32,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "It is not mentioned they are close to qualify the Euro 2017 finals.",
+        "annotator_name": "Weisi",
+        "summary_span": "the Euro 2017 finals in the Netherlands",
+        "summary_start": 184,
+        "summary_end": 223
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 32,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted.Extrinsic",
+          "Benign"
+        ],
+        "note": "The name Lisa is not mentioned in the source.",
+        "annotator_name": "Weisi",
+        "summary_span": " Forward Lisa Evans emphasizes the importance of qualifying after previous near-misses.",
+        "summary_start": 319,
+        "summary_end": 406
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 32,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "It is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Euro 2017 finals.",
+        "summary_start": 979,
+        "summary_end": 996
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.49292,
     "meta_hhem-2.1": 0.48869,
@@ -1756,7 +1930,22 @@
     "sample_id": 33,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "The Scottish women's football team is on the cusp of qualifying for a major tournament, needing a win against Iceland to secure their spot. This is a significant opportunity after previous near-misses in play-offs. The team is confident, with a strong record in qualifiers and a mix of domestic and international talent, including players from top leagues in England, Sweden, and the US. The match will be emotional, with a potential large home crowd at Falkirk Stadium. The squad's experience in foreign leagues, like Germany's Bundesliga, is seen as a boost to their competitiveness and a sign of the sport's growth in Scotland.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 91,
+        "sample_id": 33,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It is not clear here the international and domestic means the nationality or the leagues' location.",
+        "annotator_name": "Weisi",
+        "summary_span": "The team is confident, with a strong record in qualifiers and a mix of domestic and international talent",
+        "summary_start": 215,
+        "summary_end": 319
+      }
+    ],
     "meta_model": "cohere/command-r-08-2024",
     "meta_hhemv1": 0.77064,
     "meta_hhem-2.1": 0.8671,
@@ -1772,7 +1961,22 @@
     "sample_id": 34,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "The Scots have won all five qualifiers and will host Iceland at Falkirk Stadium, where a win would almost guarantee their place in the finals. Despite previous play-off losses, the team is determined to avoid another heartbreak. Iceland, ranked 20th in the world, is also undefeated. The match on Friday and the return fixture in Reykjavik on September 20 could determine the group winner. Scotland is in a strong position to qualify for the 2017 Women's European Championship in the Netherlands without needing a play-off. The team includes 12 players from outside Scotland, with many playing in top leagues like England, Sweden, and the United States.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 92,
+        "sample_id": 34,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The 2017 Women's European Championship is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Scotland is in a strong position to qualify for the 2017 Women's European Championship in the Netherlands without needing a play-off.",
+        "summary_start": 390,
+        "summary_end": 523
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.29557,
     "meta_hhem-2.1": 0.95011,
@@ -1788,7 +1992,36 @@
     "sample_id": 35,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe Scottish women's national team is set to host Iceland at Falkirk Stadium on Friday, with victory likely to secure their place in the finals of the European Women's Championship. Captain and Bayern Munich forward, Erin Evans, is eager to avoid another play-off loss after two previous near-misses. Scotland are in pole position to qualify automatically, with the best six group runners-up also qualifying. Evans believes the team's experience playing in top leagues abroad, including her own success with Bayern Munich, has benefited the national team and will help them reach the finals.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 93,
+        "sample_id": 35,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "European Women's Championship is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "European Women's Championship",
+        "summary_start": 245,
+        "summary_end": 274
+      },
+      {
+        "annot_id": 94,
+        "sample_id": 35,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "It is not mentioned Evans is captain,",
+        "annotator_name": "Weisi",
+        "summary_span": "Captain",
+        "summary_start": 276,
+        "summary_end": 283
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.26247,
     "meta_hhem-2.1": 0.80933,
@@ -1804,7 +2037,22 @@
     "sample_id": 36,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "Here is a concise summary of the passage:\n\nThe Scotland women's national team is on the verge of qualifying for the European Championship finals, with a win over Iceland at Falkirk Stadium on Friday likely to secure their place. Forward Lisa Evans, who plays for Bayern Munich, is desperate to avoid missing out on a major tournament after previous play-off losses. The team is currently top of their group with five wins from five, while Iceland is also unbeaten. The outcome of the two teams' matches against each other will likely decide who tops the group. Evans believes that having players in top leagues abroad, such as herself and Kim Little, has improved the national team's chances of success.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 95,
+        "sample_id": 36,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "It is not mentioned the game is European Championship.",
+        "annotator_name": "Weisi",
+        "summary_span": "European Championship finals,",
+        "summary_start": 116,
+        "summary_end": 145
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.51603,
     "meta_hhem-2.1": 0.805,
@@ -1820,7 +2068,35 @@
     "sample_id": 37,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "Scotland's women's national football team is on the verge of qualifying for the 2017 European Championship. They have won all five of their qualifying matches and are in a strong position to reach the finals in the Netherlands. The team is led by Bayern Munich forward, Jane Evans, who believes that the experience of playing in top leagues abroad has helped the team improve. Scotland is set to face Iceland in a crucial match on Friday, with the winner likely to top the group. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 96,
+        "sample_id": 37,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "2017 European Championship is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "2017 European Championship",
+        "summary_start": 80,
+        "summary_end": 106
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 37,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Jane is not mentioned in source,",
+        "annotator_name": "Weisi",
+        "summary_span": "Jane Evans,",
+        "summary_start": 270,
+        "summary_end": 281
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.34351,
     "meta_hhem-2.1": 0.83271,
@@ -1868,7 +2144,39 @@
     "sample_id": 40,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": " A light general aviation aircraft, an Aerostar plane, made an emergency landing at Aero Acres Residential Airpark in Fort Pierce, Florida, without deploying its landing gear. The plane skidded along the runway on its belly, causing damage to the propellers and the undercarriage. The pilot, Chris Georgaklis, aged 85, managed to take off again and fly 100 miles to Fort Lauderdale, where he landed safely. The incident was caused by human error, as the pilot forgot to deploy the landing gear before touchdown. The FAA is investigating the incident.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 98,
+        "sample_id": 40,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Human error is just one reason.",
+        "annotator_name": "Weisi",
+        "summary_span": " The incident was caused by human error, as the pilot forgot to deploy the landing gear before touchdown.",
+        "summary_start": 406,
+        "summary_end": 511,
+        "source_span": "people look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails",
+        "source_start": 2745,
+        "source_end": 3153
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 40,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Based on the source, the \"emergency\" is not accurate as the pilot made a mistake. ",
+        "annotator_name": "Weisi",
+        "summary_span": "emergency",
+        "summary_start": 63,
+        "summary_end": 72
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.40474,
     "meta_hhem-2.1": 0.62517,
@@ -1916,7 +2224,22 @@
     "sample_id": 43,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "An 85-year-old pilot, Chris Georgaklis, made an emergency landing in Fort Pierce, Florida, without deploying his landing gear. The plane skidded along the runway, causing damage to the propellers. Despite the damage, Georgaklis managed to take off again and flew 100 miles to Fort Lauderdale, landing safely. The most common cause of such incidents is human error, when a pilot forgets to lower the landing gear, but mechanical faults can also be a factor. The FAA is investigating this particular incident.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 101,
+        "sample_id": 43,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Emergency is not accurate to describe this landing, unintended should be accurate. ",
+        "annotator_name": "Weisi",
+        "summary_span": "An 85-year-old pilot, Chris Georgaklis, made an emergency landing in Fort Pierce, Florida, without deploying his landing gear.",
+        "summary_start": 0,
+        "summary_end": 126
+      }
+    ],
     "meta_model": "cohere/command-r-08-2024",
     "meta_hhemv1": 0.47803,
     "meta_hhem-2.1": 0.98606,

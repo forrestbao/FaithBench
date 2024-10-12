@@ -330,23 +330,6 @@
     "summary": " The passage provides information about two different individuals, Sheryl Lee and Sheryl Lee Ralph. Sheryl Lee, in 2016, appeared in the film Cafe Society and also completed a revival of Twin Peaks in 2017, reprising her role of Laura Palmer. On the other hand, Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
     "annotations": [
       {
-        "annot_id": 8,
-        "sample_id": 10,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source implies that the revival of Twin Peaks was released in 2017, but Sheryl Lee completed it in 2016",
-        "annotator_name": "Miaoran",
-        "summary_span": " in 2017",
-        "summary_start": 197,
-        "summary_end": 205,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
-      },
-      {
         "annot_id": 103,
         "sample_id": 10,
         "annotator": "5fddd5f671c349668d712192d090e867",
@@ -452,6 +435,23 @@
         "summary_span": " in the Broadway production of Wicked",
         "summary_start": 301,
         "summary_end": 338
+      },
+      {
+        "annot_id": 318,
+        "sample_id": 10,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source implies that the revival of Twin Peaks was released in 2017, but Sheryl Lee completed it in 2016",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Lee, in 2016, appeared in the film Cafe Society and also completed a revival of Twin Peaks in 2017,",
+        "summary_start": 100,
+        "summary_end": 206,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -470,23 +470,6 @@
     "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
     "summary": " Sheryl Lee and Sheryl Ralph are actresses who appeared in notable productions in 2016. Sheryl Lee starred in Café Society and reprised her role as Laura Palmer in the Showtime revival of Twin Peaks in 2017. Sheryl Ralph played Madame Morrible in the Broadway production of Wicked.",
     "annotations": [
-      {
-        "annot_id": 9,
-        "sample_id": 11,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source mentions that Sheryl Lee appeared in Cafe Society and completed the Showtime revival of Twin Peaks in 2016. 2017 should be the release year of the Showtime revival of Twin Peaks",
-        "annotator_name": "Miaoran",
-        "summary_span": "in 2017.",
-        "summary_start": 200,
-        "summary_end": 208,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
-      },
       {
         "annot_id": 11,
         "sample_id": 11,
@@ -625,6 +608,50 @@
         "source_span": "Wicked on Broadway",
         "source_start": 214,
         "source_end": 232
+      },
+      {
+        "annot_id": 316,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Sheryl Lee is not a starring role in the film",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Lee starred in Café Society",
+        "summary_start": 88,
+        "summary_end": 123
+      },
+      {
+        "annot_id": 317,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Sheryl Ralph is short for Sheryl Lee Ralph",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Ralph played Madame Morrible",
+        "summary_start": 209,
+        "summary_end": 244
+      },
+      {
+        "annot_id": 319,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that Sheryl Lee appeared in Cafe Society and completed the Showtime revival of Twin Peaks in 2016. 2017 should be the release year of the Showtime revival of Twin Peaks",
+        "annotator_name": "Miaoran",
+        "summary_span": "reprised her role as Laura Palmer in the Showtime revival of Twin Peaks in 2017.",
+        "summary_start": 128,
+        "summary_end": 208,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -807,23 +834,6 @@
         "summary_span": "That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
         "summary_start": 141,
         "summary_end": 236
-      },
-      {
-        "annot_id": 106,
-        "sample_id": 13,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "She completed the revival of Twin Peaks in 2016, and its release time is 2017.",
-        "annotator_name": "Weisi",
-        "summary_span": "In 2016, Sheryl Lee appeared in the film 'Café Society' and the Showtime revival of 'Twin Peaks' (2017), reprising her role as Laura Palme",
-        "summary_start": 0,
-        "summary_end": 138,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
       },
       {
         "annot_id": 150,
@@ -1035,23 +1045,6 @@
         "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
         "source_start": 176,
         "source_end": 234
-      },
-      {
-        "annot_id": 107,
-        "sample_id": 16,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "She completed the revival of Twin Peaks in 2016, and its release time is 2017.",
-        "annotator_name": "Weisi",
-        "summary_span": "Sheryl Lee appeared in \"Café Society\" (2016) and reprised her role as Laura Palmer in the \"Twin Peaks\" revival (2017)",
-        "summary_start": 112,
-        "summary_end": 230,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
       },
       {
         "annot_id": 158,
@@ -1624,19 +1617,6 @@
     "summary": "Albert Brooks, an American actor, filmmaker, author, and comedian, was born on July 22, 1947. He is known for his work in the film 'Finding Dory', which was directed by Andrew Stanton and co-directed by Angus MacLane, with the screenplay written by Stanton and Victoria Strouse.",
     "annotations": [
       {
-        "annot_id": 205,
-        "sample_id": 23,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"\t",
-        "annotator_name": "Miaoran",
-        "summary_span": " He is known for his work in the film 'Finding Dory', ",
-        "summary_start": 93,
-        "summary_end": 147
-      },
-      {
         "annot_id": 261,
         "sample_id": 23,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -1646,6 +1626,20 @@
         ],
         "note": "source does not give relationship between brooks and finding dory",
         "annotator_name": "Erana",
+        "summary_span": "He is known for his work in the film 'Finding Dory',",
+        "summary_start": 94,
+        "summary_end": 146
+      },
+      {
+        "annot_id": 320,
+        "sample_id": 23,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"",
+        "annotator_name": "Miaoran",
         "summary_span": "He is known for his work in the film 'Finding Dory',",
         "summary_start": 94,
         "summary_end": 146
@@ -1806,6 +1800,19 @@
         "source_span": "Finding Dory .",
         "source_start": 131,
         "source_end": 145
+      },
+      {
+        "annot_id": 321,
+        "sample_id": 25,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " the movie \"Finding Dory\".",
+        "summary_start": 164,
+        "summary_end": 190
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1930,19 +1937,6 @@
         "summary_end": 153
       },
       {
-        "annot_id": 204,
-        "sample_id": 27,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"\t",
-        "annotator_name": "Miaoran",
-        "summary_span": "He is known for his work in the film \"Finding Dory,\" ",
-        "summary_start": 101,
-        "summary_end": 154
-      },
-      {
         "annot_id": 258,
         "sample_id": 27,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -1955,6 +1949,20 @@
         "summary_span": "He is known for his work in the film \"Finding Dory,\"",
         "summary_start": 101,
         "summary_end": 153
+      },
+      {
+        "annot_id": 322,
+        "sample_id": 27,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is known for his work in the film \"Finding Dory,\" ",
+        "summary_start": 101,
+        "summary_end": 154
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2138,30 +2146,30 @@
         "source_end": 240
       },
       {
-        "annot_id": 313,
+        "annot_id": 324,
         "sample_id": 30,
         "annotator": "f2e5c33a660b4c32a036c572e4d40831",
         "label": [
-          "Benign"
+          "Questionable"
         ],
-        "note": "Based on knowledge that Tim is canadian",
-        "annotator_name": "Miaoran",
-        "summary_span": "two individuals with similar names but different professions and nationalities.",
-        "summary_start": 40,
-        "summary_end": 119
-      },
-      {
-        "annot_id": 314,
-        "sample_id": 30,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Benign"
-        ],
-        "note": "based on world knowledge",
+        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention if Tim Roth is a Canadian",
         "annotator_name": "Miaoran",
         "summary_span": "Tim Roth, born December 6, 1975, is a Canadian musician,",
         "summary_start": 212,
         "summary_end": 268
+      },
+      {
+        "annot_id": 325,
+        "sample_id": 30,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention Tim Roth's nationality",
+        "annotator_name": "Miaoran",
+        "summary_span": "two individuals with similar names but different professions and nationalities.",
+        "summary_start": 40,
+        "summary_end": 119
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2227,13 +2235,13 @@
         "source_end": 258
       },
       {
-        "annot_id": 315,
+        "annot_id": 326,
         "sample_id": 32,
         "annotator": "f2e5c33a660b4c32a036c572e4d40831",
         "label": [
-          "Benign"
+          "Questionable"
         ],
-        "note": "",
+        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention if Tim Roth is a Canadian and cannot confirm with world knowledge",
         "annotator_name": "Miaoran",
         "summary_span": "Tim Roth: A Canadian musician",
         "summary_start": 228,
@@ -2607,6 +2615,19 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 327,
+        "sample_id": 40,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's not confusing. \"the incident\" = \"the crash\" or \"the incident resulted in a crash\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "This incident resulted in a crash",
+        "summary_start": 109,
+        "summary_end": 142
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2712,6 +2733,22 @@
         "summary_span": "resulting in several minor injuries.",
         "summary_start": 79,
         "summary_end": 115,
+        "source_span": "Several other people received minor injuries in the crash.",
+        "source_start": 81,
+        "source_end": 139
+      },
+      {
+        "annot_id": 328,
+        "sample_id": 41,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"several people received minor injuries\" = several minor injuries?",
+        "annotator_name": "Miaoran",
+        "summary_span": "resulting in several minor injuries",
+        "summary_start": 79,
+        "summary_end": 114,
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
@@ -3400,6 +3437,19 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 329,
+        "sample_id": 47,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "A car crash ",
+        "summary_start": 0,
+        "summary_end": 12
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3560,6 +3610,23 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 330,
+        "sample_id": 49,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Police Scotland stated that investigations into the incident are ongoing.",
+        "summary_start": 225,
+        "summary_end": 298,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "openai/gpt-4o",
