@@ -1144,6 +1144,23 @@
         "summary_span": "Greek author named Home",
         "summary_start": 184,
         "summary_end": 207
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 30,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The ancient Greeks ascribed the name Homer to the poems.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "They were attributed to a Greek author named Homer.",
+        "summary_start": 158,
+        "summary_end": 209,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1187,6 +1204,23 @@
         "summary_span": "Homer is the ancient Greek author ",
         "summary_start": 1,
         "summary_end": 35
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 31,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the name is ascribed by the Greeks",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Homer is the ancient Greek author credited with writing the Iliad and the Odyssey",
+        "summary_start": 1,
+        "summary_end": 82,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1236,6 +1270,23 @@
         "source_span": "suspense ",
         "source_start": 232,
         "source_end": 241
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 33,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The Greeks didn't attribute authorship to Homer. They ascribed.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The ancient Greeks attributed the authorship of the foundational epic poems",
+        "summary_start": 0,
+        "summary_end": 75,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1253,7 +1304,25 @@
     "sample_id": 34,
     "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
     "summary": "The passage provides information about Homer, credited by ancient Greeks as the author of the Iliad and Odyssey, which are central works of ancient Greek literature. It also mentions \"The Thicket,\" a mystery/suspense novel authored by Joe R. Lansdale.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 80,
+        "sample_id": 34,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "ascribed but not credited. ascribe equals to give the name to the author.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage provides information about Homer, credited by ancient Greeks as the author of the Iliad and Odyssey",
+        "summary_start": 0,
+        "summary_end": 111,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.99418,
     "meta_hhem-2.1": 0.97907,
@@ -1295,6 +1364,23 @@
         "summary_span": "an ancient Greek author",
         "summary_start": 71,
         "summary_end": 94
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 35,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "No evidence shows that Homer is an ancient Greek author.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage mentions Homer, an ancient Greek author",
+        "summary_start": 43,
+        "summary_end": 94,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1338,6 +1424,23 @@
         "summary_span": "the ancient Greek author",
         "summary_start": 129,
         "summary_end": 153
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 36,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Homer is just a name. No evidence shows that he was the ancient Greek author.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Firstly, it describes Homer, the ancient Greek author of the epic poems",
+        "summary_start": 100,
+        "summary_end": 171,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1355,7 +1458,25 @@
     "sample_id": 37,
     "source": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature . The Thicket is an mystery/suspense novel written by American author Joe R. Lansdale .",
     "summary": "Homer is credited with writing the Iliad and the Odyssey, two epic poems considered central to ancient Greek literature. The Thicket is a mystery/suspense novel written by American author Joe R. Lansdale. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 83,
+        "sample_id": 37,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not credited, the name Homer is ascribed or given by the ancient Greeks.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Homer is credited with writing the Iliad and the Odyssey",
+        "summary_start": 0,
+        "summary_end": 56,
+        "source_span": "Homer ( Ὅμηρος [ hómɛːros ] , Hómēros ) is the name ascribed by the ancient Greeks to the author of the Iliad and the Odyssey , two epic poems which are the central works of ancient Greek literature .",
+        "source_start": 0,
+        "source_end": 205
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.98264,
     "meta_hhem-2.1": 0.9685,
@@ -1416,6 +1537,55 @@
         "summary_span": "He is an American rapper and his debut studio album is titled Excuse My French.",
         "summary_start": 83,
         "summary_end": 162
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 40,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"He\" is questionable from the source.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "French Montana: He is an American rapper and his debut studio album is titled Excuse My French.",
+        "summary_start": 67,
+        "summary_end": 162,
+        "source_span": "Excuse My French is the debut studio album by American rapper French Montana .",
+        "source_start": 0,
+        "source_end": 78
+      },
+      {
+        "annot_id": 86,
+        "sample_id": 40,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "No evidence shows that Plan B is a male.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Plan B (Benjamin Paul Ballance-Drew): He is a British hip hop recording artist, actor, film director, and producer. No specific details about him were mentioned regarding an album or film.",
+        "summary_start": 168,
+        "summary_end": 356,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 40,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source has clearly showed the separate entity is the 2014 Egyptian film.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Additionally, there is a separate entity, Excuse My French, but it is unclear whether it refers to the album by French Montana or the 2014 Egyptian film directed by Amr Salama.",
+        "summary_start": 359,
+        "summary_end": 535,
+        "source_span": "Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia .",
+        "source_start": 79,
+        "source_end": 258
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1507,6 +1677,38 @@
         "summary_span": "professionally",
         "summary_start": 501,
         "summary_end": 515
+      },
+      {
+        "annot_id": 88,
+        "sample_id": 42,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the word \"professionally\" does not show in the source",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " is a British artist known professionally as Plan B or Ben Drew",
+        "summary_start": 474,
+        "summary_end": 537,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 42,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"He\" is questionable",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "He is a hip hop recording artist, actor, film director, and producer.",
+        "summary_start": 539,
+        "summary_end": 608,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1551,6 +1753,22 @@
         "summary_span": "prominent figure",
         "summary_start": 310,
         "summary_end": 326
+      },
+      {
+        "annot_id": 90,
+        "sample_id": 43,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Benign"
+        ],
+        "note": "prominent figure is from some external knowledge",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "is a prominent figure",
+        "summary_start": 305,
+        "summary_end": 326,
+        "source_span": "Benjamin Paul Ballance-Drew ( born 22 October 1983 ) , primarily known as Plan B or Ben Drew , is a British hip hop recording artist , actor , film director and producer .",
+        "source_start": 259,
+        "source_end": 430
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1595,6 +1813,23 @@
         "summary_span": "debut studio album released in 2014.",
         "summary_start": 109,
         "summary_end": 145
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 44,
+        "annotator": "d71bd7b676634bc89873d301ec8f7ed2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The year 2014 is  wrongly summarized for the album's release date.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "1. \" Excuse My French\" - an American rapper's debut studio album released in 2014.",
+        "summary_start": 63,
+        "summary_end": 145,
+        "source_span": "Excuse My French is the debut studio album by American rapper French Montana . Excuse My French is a 2014 Egyptian film Comedy directed by Amr Salama , based on Salama 's own experiences at a public middle school in Egypt after his return from Saudi Arabia .",
+        "source_start": 0,
+        "source_end": 258
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",

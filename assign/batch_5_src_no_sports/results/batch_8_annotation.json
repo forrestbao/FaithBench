@@ -118,20 +118,6 @@
         "summary_end": 225
       },
       {
-        "annot_id": 121,
-        "sample_id": 0,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "I don't know where \"Torquay United\" is coming from and it doesn't seem to appear in the source",
-        "annotator_name": "Matt",
-        "summary_span": "Keating, a 21-year-old striker, is joining Torquay United, subject to international clearance",
-        "summary_start": 227,
-        "summary_end": 320
-      },
-      {
         "annot_id": 122,
         "sample_id": 0,
         "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
@@ -172,20 +158,6 @@
         "summary_end": 510
       },
       {
-        "annot_id": 125,
-        "sample_id": 0,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Torquay United doesn't seem to exist in the source and is again being incorrectly applied here instead of \"The Gulls\".",
-        "annotator_name": "Matt",
-        "summary_span": "Torquay United is currently four points above the relegation zone and has won only one of their last six games.",
-        "summary_start": 512,
-        "summary_end": 623
-      },
-      {
         "annot_id": 253,
         "sample_id": 0,
         "annotator": "04e260cf65324e72bdfd53110b32fee4",
@@ -213,6 +185,35 @@
         "summary_span": "Torquay United",
         "summary_start": 270,
         "summary_end": 284
+      },
+      {
+        "annot_id": 303,
+        "sample_id": 0,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is adding additional, helpful context about \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "Keating, a 21-year-old striker, is joining Torquay United",
+        "summary_start": 227,
+        "summary_end": 284,
+        "source_span": "Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\"",
+        "source_start": 467,
+        "source_end": 603
+      },
+      {
+        "annot_id": 304,
+        "sample_id": 0,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is adding additional, helpful context about \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "Torquay United is currently four points",
+        "summary_start": 512,
+        "summary_end": 551
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -367,19 +368,6 @@
         "summary_end": 299
       },
       {
-        "annot_id": 130,
-        "sample_id": 2,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Torquay United is seemingly not in the source and inaccurately describes Kevin Nicholson who's the \"boss\" for Gulls (manager is used instead of boss here as well, which may carry different meaning)",
-        "annotator_name": "Matt",
-        "summary_span": "Torquay United's manager, Kevin Nicholson",
-        "summary_start": 416,
-        "summary_end": 457
-      },
-      {
         "annot_id": 131,
         "sample_id": 2,
         "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
@@ -463,6 +451,19 @@
         "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
         "source_start": 233,
         "source_end": 336
+      },
+      {
+        "annot_id": 305,
+        "sample_id": 2,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay United appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "Torquay United's manager",
+        "summary_start": 416,
+        "summary_end": 440
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -646,20 +647,6 @@
         "source_end": 892
       },
       {
-        "annot_id": 139,
-        "sample_id": 4,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This contains multiple errors:\n\n1. Torquay United seems made up\n2. The source doesn't mention what team Anderson is signing with, only that it's a \"National League rival\"\n3. Striker Keating is signing for the Gulls\n4. This summary combines Anderson and Keating as signing with the same, made-up team: Torquay United",
-        "annotator_name": "Matt",
-        "summary_span": "The passage discusses two new signings for Torquay United, a National League football club",
-        "summary_start": 0,
-        "summary_end": 90
-      },
-      {
         "annot_id": 140,
         "sample_id": 4,
         "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
@@ -672,19 +659,6 @@
         "summary_span": "Anderson, 27, a centre-back, is joining from Barrow,",
         "summary_start": 92,
         "summary_end": 144
-      },
-      {
-        "annot_id": 141,
-        "sample_id": 4,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "This sentence has a few problems:\n\n1. Keating is not moving to Torquay United because it doesn't (seemingly) exist\n2. Micky Adams did not recommend Keating to join Torquay United because it does not exist in the source",
-        "annotator_name": "Matt",
-        "summary_span": "Keating, 21, a striker, is moving to Torquay United based on a recommendation from Micky Adams",
-        "summary_start": 295,
-        "summary_end": 389
       },
       {
         "annot_id": 142,
@@ -715,20 +689,6 @@
         "summary_span": "while Keating is described as eager to prove himself",
         "summary_start": 517,
         "summary_end": 569
-      },
-      {
-        "annot_id": 144,
-        "sample_id": 4,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Torquay United does not exist and is being used in place of \"Gulls\"",
-        "annotator_name": "Matt",
-        "summary_span": "Torquay United is currently struggling, sitting just above the relegation zone and having won only one of their last six matches.",
-        "summary_start": 571,
-        "summary_end": 700
       },
       {
         "annot_id": 184,
@@ -771,6 +731,45 @@
         "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
         "source_start": 233,
         "source_end": 336
+      },
+      {
+        "annot_id": 306,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay United appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "The passage discusses two new signings for Torquay United",
+        "summary_start": 0,
+        "summary_end": 57
+      },
+      {
+        "annot_id": 307,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay United appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "is moving to Torquay United",
+        "summary_start": 319,
+        "summary_end": 346
+      },
+      {
+        "annot_id": 308,
+        "sample_id": 4,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay United appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "Torquay United is currently struggling",
+        "summary_start": 571,
+        "summary_end": 609
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1053,19 +1052,6 @@
         "source_end": 603
       },
       {
-        "annot_id": 199,
-        "sample_id": 6,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Torquay United is not mentioned in the source",
-        "annotator_name": "Matt",
-        "summary_span": "Two new players have joined Torquay United (the Gulls)",
-        "summary_start": 43,
-        "summary_end": 97
-      },
-      {
         "annot_id": 200,
         "sample_id": 6,
         "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
@@ -1132,6 +1118,19 @@
         "summary_span": "Here is a concise summary of the passage:\n",
         "summary_start": 0,
         "summary_end": 42
+      },
+      {
+        "annot_id": 309,
+        "sample_id": 6,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay United appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "Two new players have joined Torquay United (the Gulls)",
+        "summary_start": 43,
+        "summary_end": 97
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1229,20 +1228,6 @@
         "summary_end": 58
       },
       {
-        "annot_id": 204,
-        "sample_id": 7,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This doesn't seem to exist in the source context",
-        "annotator_name": "Matt",
-        "summary_span": "has joined Torquay United",
-        "summary_start": 33,
-        "summary_end": 58
-      },
-      {
         "annot_id": 205,
         "sample_id": 7,
         "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
@@ -1254,20 +1239,6 @@
         "summary_span": "has also joined the club",
         "summary_start": 87,
         "summary_end": 111
-      },
-      {
-        "annot_id": 206,
-        "sample_id": 7,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Kevin Nicholson is a manager but for the Gulls, not Torquay based on the source context",
-        "annotator_name": "Matt",
-        "summary_span": "Torquay manager Kevin Nicholson",
-        "summary_start": 244,
-        "summary_end": 275
       },
       {
         "annot_id": 207,
@@ -1282,20 +1253,6 @@
         "summary_span": "described Anderson as a leader and Keating as hungry to prove himself",
         "summary_start": 276,
         "summary_end": 345
-      },
-      {
-        "annot_id": 208,
-        "sample_id": 7,
-        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The Gulls are four points above the relegation zone, not Torquay, which is not present in the source context",
-        "annotator_name": "Matt",
-        "summary_span": "Torquay is currently four points above the relegation zone.",
-        "summary_start": 347,
-        "summary_end": 406
       },
       {
         "annot_id": 259,
@@ -1329,6 +1286,45 @@
         "source_span": "Striker Keating, 21, was recommended to Gulls boss Kevin Nicholson by ex-Port Vale manager Micky Adams.",
         "source_start": 233,
         "source_end": 336
+      },
+      {
+        "annot_id": 310,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay United appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "has joined Torquay United",
+        "summary_start": 33,
+        "summary_end": 58
+      },
+      {
+        "annot_id": 311,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "Torquay manager",
+        "summary_start": 244,
+        "summary_end": 259
+      },
+      {
+        "annot_id": 312,
+        "sample_id": 7,
+        "annotator": "c4ffe7cb92dc4b1fb92c5f3c85b31012",
+        "label": [
+          "Benign"
+        ],
+        "note": "Torquay appears to be additional context from outside the source material that is helpful for readers in understanding it's the formal team name for \"The Gulls\"",
+        "annotator_name": "Matt",
+        "summary_span": "Torquay",
+        "summary_start": 347,
+        "summary_end": 354
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",

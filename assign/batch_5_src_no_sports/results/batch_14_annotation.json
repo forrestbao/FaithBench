@@ -3,7 +3,21 @@
     "sample_id": 0,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": " In the provided passage, a hospital in Afghanistan was attacked by militants armed with guns and grenades, who gained entry by detonating explosives at the hospital gate and opening fire on staff and patients. The attack was claimed by the Islamic State (IS) group, while the Taliban denied any involvement. The attack resulted in over 50 injuries and several hours of fighting between the militants and commandos. This marks a change in approach by IS fighters in Afghanistan, as it's the first time they have engaged directly with security forces in the capital. Previously, they have targeted civilian gatherings, mainly of Shia Muslims. The government has claimed to have rooted out IS militants from several bases in the east, but they continue to control mountainous areas. The IS has failed so far to widen its base in the country, and it's suggested they may now be mounting more headline-grabbing attacks. The attack at the hospital was condemned by Afghanistan's de-facto deputy leader Abdullah Abdullah and President Ashraf Ghani.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 1,
+        "sample_id": 0,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This is a subjective statement from the defense ministry, not an objective fact. This statement may or may not be factual.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The attack resulted in over 50 injuries",
+        "summary_start": 309,
+        "summary_end": 348
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.5397,
     "meta_hhem-2.1": 0.9003,
@@ -19,7 +33,48 @@
     "sample_id": 1,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": " Militants armed with guns and grenades attacked a hospital in Afghanistan, killing all four attackers after a two-hour standoff with commandos. The attack, claimed by the Islamic State (IS) group, resulted in over 50 injuries. The hospital attack marks a shift in IS's approach, engaging directly with security forces in the capital for the first time. Previously, IS mainly targeted civilian gatherings and rival Taliban forces in the east. The attack highlights the potential for more such assaults in the future, as IS appears to be expanding its attacks and resources. The Taliban has denied involvement in the attack. \n\nThe attack began at 09:00 local time (04:30 GMT) when an attacker wearing a white coat and carrying a Kalashnikov opened fire on hospital staff, patients, and guards. The attacker's entry was facilitated by detonating explosives at the hospital gate. The Afghan government claims to have rooted out IS militants from bases in the east but has yet to dislodge them from mountainous areas they control. \n\nPresident Ash",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 2,
+        "sample_id": 1,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary didn't finish, likely due to max sequence length limit.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "President Ash",
+        "summary_start": 1029,
+        "summary_end": 1042
+      },
+      {
+        "annot_id": 3,
+        "sample_id": 1,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source said \"after several hours of fighting\", not \"two-hour\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "after a two-hour standoff",
+        "summary_start": 103,
+        "summary_end": 128
+      },
+      {
+        "annot_id": 4,
+        "sample_id": 1,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source said \"from a number of bases in the east\", which may not be equivalent to \"from bases in the east\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "from bases in the east",
+        "summary_start": 938,
+        "summary_end": 960
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.08586,
     "meta_hhem-2.1": 0.77058,
@@ -35,7 +90,21 @@
     "sample_id": 2,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes a militant attack on the Sardar Daud hospital in Afghanistan. Armed with guns and grenades, attackers detonated explosives at the hospital gate and opened fire on staff and patients. After several hours of fighting, commandos killed all four attackers. The Islamic State (IS) claimed responsibility for the attack, while the Taliban denied involvement. Over 50 people were wounded, and President Ashraf Ghani condemned the attack as trampling human values. \n\nThe attack began at 09:00 local time, with witnesses describing an attacker in a white coat firing indiscriminately. Afghan security forces ended the operation after more than six hours. This attack marks a change in IS tactics in Afghanistan, as it's their first direct engagement with security forces in the capital. \n\nThe passage also mentions previous IS attacks in Afghanistan, including suicide bombings at rallies, religious festivals, and the Supreme Court. It notes that IS announced its presence in Afghanistan and Pakistan in 2015 and has since carried out multiple attacks. The Taliban is also mentioned as being active in the region, having conducted",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 2,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary didn't finish, likely due to max sequence length limit.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The Taliban is also mentioned as being active in the region, having conducted",
+        "summary_start": 1150,
+        "summary_end": 1227
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.53146,
     "meta_hhem-2.1": 0.87867,
@@ -83,7 +152,22 @@
     "sample_id": 5,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nMilitants affiliated with the Islamic State (IS) attacked the Sardar Daud hospital in Kabul, Afghanistan, detonating explosives at the gate and opening fire on staff and patients. The attack, which began at 09:00 local time, killed four attackers and injured over 50 people. The IS group has claimed responsibility for the attack, which marks a change in approach for the group, as they have previously targeted civilian gatherings and have now engaged directly with security forces in the capital. The Taliban has denied any involvement in the attack. The Afghan government has vowed to avenge the attack and IS has been expanding its attacks in Afghanistan and Pakistan in recent months.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 6,
+        "sample_id": 5,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source said \"IS has stepped up activity in both Afghanistan and Pakistan\", but not \"in recent months\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "in recent months",
+        "summary_start": 766,
+        "summary_end": 782
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.4137,
     "meta_hhem-2.1": 0.82847,
@@ -99,7 +183,22 @@
     "sample_id": 6,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Here is a concise summary of the passage:\n\nMilitants affiliated with the Islamic State (IS) attacked a 400-bed hospital in Kabul, Afghanistan, killing an unknown number of people and wounding over 50. The attack began at 09:00 local time with explosives and gunfire, and commandos killed all four attackers after several hours of fighting. IS has claimed responsibility for the attack, while the Taliban has denied involvement. The attack marks a change in approach for IS, which has previously targeted civilian gatherings and now appears to have the resources and training to expand its attacks. The Afghan government has condemned the attack, with President Ashraf Ghani stating that it \"trampled all human values\".",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 7,
+        "sample_id": 6,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never said anything about killing, other than the 4 attackers. This statement is simply unnecessary. What if there's no one else getting killed in the attack?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "killing an unknown number of people",
+        "summary_start": 143,
+        "summary_end": 178
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.74956,
     "meta_hhem-2.1": 0.2157,
@@ -115,7 +214,49 @@
     "sample_id": 7,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "On January 20, 2017, militants armed with guns and grenades attacked a hospital in Kabul, Afghanistan. The attack began at 09:00 local time (04:30 GMT) when one militant detonated explosives at the hospital gate, allowing the others to enter and open fire on staff and patients. Commandos landed on the hospital roof and killed all four attackers after several hours of fighting. The Islamic State (IS) group claimed responsibility for the attack, while the Taliban denied any involvement. The attack resulted in the deaths of at least 16 people and wounded more than 50. This attack marks a change in approach by IS fighters in Afghanistan, as it is the first time they have directly engaged with security forces in the capital. Previously, they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. The attack suggests that IS now has the resources and military training to expand its attacks. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 8,
+        "sample_id": 7,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "On January 20, 2017, ",
+        "summary_start": 0,
+        "summary_end": 21
+      },
+      {
+        "annot_id": 9,
+        "sample_id": 7,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source said \"one detonated explosives at a hospital gate and then opened fire on staff and patients\". Though not directly stating \"allowing the others to enter\", it can be inferred. ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "allowing the others to enter",
+        "summary_start": 213,
+        "summary_end": 241
+      },
+      {
+        "annot_id": 10,
+        "sample_id": 7,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "resulted in the deaths of at least 16 people",
+        "summary_start": 501,
+        "summary_end": 545
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.57577,
     "meta_hhem-2.1": 0.09072,
@@ -131,7 +272,35 @@
     "sample_id": 8,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Militants armed with guns and grenades attacked a hospital in Kabul, Afghanistan, killing staff and patients. The attackers were eventually killed by commandos. The Islamic State (IS) group claimed responsibility for the attack, while the Taliban denied involvement. Over 50 people were wounded in the attack. This marks a change in approach for IS in Afghanistan, as they have previously targeted civilian gatherings and engaged with Afghan forces and the Taliban in the east of the country. The government claims to have rooted out IS militants from some bases, but they still control mountainous areas. The attack on the hospital suggests that IS now has the resources and military training to expand their attacks.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 12,
+        "sample_id": 8,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source said \"opened fire on staff and patients\" and did not say anything about killing them. They could have survived the wounds.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "killing staff and patients",
+        "summary_start": 82,
+        "summary_end": 108
+      },
+      {
+        "annot_id": 13,
+        "sample_id": 8,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "The \"they\" here could refer to the IS militants, and the sentence is correct. However, it could also refer to the government, and the sentence is wrong.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The government claims to have rooted out IS militants from some bases, but they still control mountainous areas.",
+        "summary_start": 493,
+        "summary_end": 605
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.48447,
     "meta_hhem-2.1": 0.41131,
@@ -147,7 +316,21 @@
     "sample_id": 9,
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Militants armed with guns and grenades attacked Sardar Daud hospital in Kabul, with one detonating explosives at the gate and opening fire on staff and patients. Commandos killed all four attackers after several hours. The Islamic State (IS) claimed responsibility, while the Taliban denied involvement. Over 50 people were wounded. This attack marks a shift in IS tactics in Afghanistan, directly engaging security forces in the capital for the first time. IS has previously targeted civilian gatherings and has been active in the east near the Pakistan border. The Afghan government has struggled to fully dislodge IS from mountainous areas. The attack, condemned by Afghan leaders, highlights IS's growing capability and the ongoing threat to security forces.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 14,
+        "sample_id": 9,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "The author of the source text suggested the growing capability of IS, but didn't highlight the \"ongoing\" threat to security forces.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "highlights IS's growing capability and the ongoing threat to security forces.",
+        "summary_start": 685,
+        "summary_end": 762
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.57963,
     "meta_hhem-2.1": 0.90642,
@@ -163,7 +346,36 @@
     "sample_id": 10,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": " The passage discusses the shortlist for the 46th annual Booker Prize, which is open to all authors writing in English. The favorite to win is Mukherjee's The Lives of Others, set in 1960s Calcutta, followed by Richard Flanagan's The Narrow Road to the Deep North. Other shortlisted authors include former Booker winner Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and David Mitchell. The winner will be announced at London's Guildhall on Tuesday night and will receive £50,000. The passage also mentions that the shortlist has been criticized for being weak and that there may be reluctance to make Howard Jacobson a two-time winner due to Hilary Mantel's recent double win. Each shortlisted author receives £2,500 and a specially bound edition of their book. The ceremony will be covered by the BBC News Channel and BBC Arts.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 15,
+        "sample_id": 10,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Who's David Mitchell?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "David Mitchell",
+        "summary_start": 385,
+        "summary_end": 399
+      },
+      {
+        "annot_id": 16,
+        "sample_id": 10,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not found in the source. I wish I will receive £50,000.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and will receive £50,000",
+        "summary_start": 469,
+        "summary_end": 493
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.79861,
     "meta_hhem-2.1": 0.06855,
@@ -179,7 +391,25 @@
     "sample_id": 11,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": " The Lives of Others by Mukherjee is the favorite to win the Booker Prize, with a 5/2 odds at William Hill. The prize is open to all English-writing authors, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. The shortlist includes Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan. Mukherjee's novel, set in 1967 Calcutta, explores family secrets and political activism. It has seen a sales spike after being shortlisted. The Booker Prize, now in its 46th year, awards £2,500 and a specially bound edition of the winning book to the shortlisted authors.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 17,
+        "sample_id": 11,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source said \"The shortlisted authors each receive £2,500 and a specially bound edition of their book\", but not \"a specially bound edition of the winning book\". The books of the shortlisted authors are not the same as the winning book.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "a specially bound edition of the winning book",
+        "summary_start": 558,
+        "summary_end": 603,
+        "source_span": "The shortlisted authors each receive £2,500 and a specially bound edition of their book",
+        "source_start": 3681,
+        "source_end": 3768
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.28182,
     "meta_hhem-2.1": 0.90438,
@@ -195,7 +425,49 @@
     "sample_id": 12,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "Here's a concise summary of the passage:\n\nThe passage discusses the 2014 Man Booker Prize shortlist and its contenders. Key points include:\n\n1. Neel Mukherjee's \"The Lives of Others\" is the bookmakers' favorite to win. \n\n2. This is the first year the prize is open to all English-language authors, regardless of nationality. \n\n3. The shortlist includes six authors: three British, two American, and one Australian. \n\n4. Brief descriptions of each shortlisted novel are provided. \n\n5. Karen Joy Fowler's \"We Are All Completely Beside Ourselves\" is the best-selling shortlisted book. \n\n6. The announcement of the shortlist caused a sales spike for all nominated books. \n\n7. Some controversy surrounds the selection, with a literature professor calling it a \"weak list.\" \n\n8. The winner will be announced at London's Guildhall, with the ceremony covered by BBC. \n\n9. This is the 46th year of the Booker Prize, with each shortlisted author receiving £2,500 and a special edition of their book. \n\nHuman",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 18,
+        "sample_id": 12,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary didn't finish.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Human",
+        "summary_start": 992,
+        "summary_end": 997
+      },
+      {
+        "annot_id": 19,
+        "sample_id": 12,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source is about \"Booker Prize\". No \"2014\". No \"Man\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "the 2014 Man Booker Prize",
+        "summary_start": 64,
+        "summary_end": 89
+      },
+      {
+        "annot_id": 20,
+        "sample_id": 12,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The first name is not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Neel",
+        "summary_start": 144,
+        "summary_end": 148
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.61923,
     "meta_hhem-2.1": 0.61682,
@@ -227,7 +499,36 @@
     "sample_id": 14,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The passage discusses the shortlist for the 2014 Booker Prize, which is open to all authors writing in English. Key points include:\n\n- Mukherjee's \"The Lives of Others\" is the favorite to win. \n- The prize winner will be announced at London's Guildhall. \n- Authors from Britain, America, and Australia are represented on the shortlist. \n- Notable books include Howard Jacobson's \"J\", Ali Smith's \"How To Be Both\", Joshua Ferris's \"To Rise Again at a Decent Hour\", Karen Joy Fowler's \"We Are All Completely Beside Ourselves\", and Richard Flanagan's \"The Narrow Road to the Deep North\". \n- Sales figures show \"We Are All Completely Beside Ourselves\" is the best-selling book on the list. \n- The prize has been running for 46 years, and last year's winner was Eleanor Catton from New Zealand. \n- The judging panel includes AC Grayling and four other members.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 14,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "\"2014\" is not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "2014",
+        "summary_start": 44,
+        "summary_end": 48
+      },
+      {
+        "annot_id": 23,
+        "sample_id": 14,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source said \"Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner\". That's 5 members.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and four other members.",
+        "summary_start": 832,
+        "summary_end": 855
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.71706,
     "meta_hhem-2.1": 0.57983,
@@ -243,7 +544,22 @@
     "sample_id": 15,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe Booker Prize, now in its 46th year, has announced its shortlist for 2014. The shortlisted authors are: Howard Jacobson (J), Ali Smith (How To Be Both), Joshua Ferris (To Rise Again at a Decent Hour), Karen Joy Fowler (We Are All Completely Beside Ourselves), Richard Flanagan (The Narrow Road to the Deep North), and Neel Mukherjee (The Lives of Others). The winner will be announced on Tuesday night at London's Guildhall, with Mukherjee's book currently the favourite to win. The prize is open to all authors writing in English, regardless of nationality, for the first time this year.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 24,
+        "sample_id": 15,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Neel",
+        "summary_start": 415,
+        "summary_end": 419
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.53218,
     "meta_hhem-2.1": 0.43098,
@@ -259,7 +575,22 @@
     "sample_id": 16,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe Booker Prize shortlist has been announced, with six authors competing for the award. The favourite to win is Neel Mukherjee's \"The Lives Of Others\", a novel set in 1960s Calcutta. The shortlist also includes Howard Jacobson's \"J\", Ali Smith's \"How To Be Both\", Joshua Ferris's \"To Rise Again at a Decent Hour\", Karen Joy Fowler's \"We Are All Completely Beside Ourselves\", and Richard Flanagan's \"The Narrow Road to the Deep North\". This is the first year the prize is open to all authors writing in English, regardless of nationality. The winner will be announced on Tuesday night at London's Guildhall, with each shortlisted author receiving £2,500 and a specially bound edition of their book.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 25,
+        "sample_id": 16,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Neel",
+        "summary_start": 207,
+        "summary_end": 211
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.54497,
     "meta_hhem-2.1": 0.76134,
@@ -275,7 +606,36 @@
     "sample_id": 17,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The 2014 Man Booker Prize shortlist includes six novels: *The Lives of Others* by Jhumpa Lahiri, *J* by Howard Jacobson, *How To Be Both* by Ali Smith, *To Rise Again at a Decent Hour* by Joshua Ferris, *We Are All Completely Beside Ourselves* by Karen Joy Fowler, and *The Narrow Road to the Deep North* by Richard Flanagan. The winner will be announced on Tuesday night at London's Guildhall. The prize is open to all authors writing in English, regardless of nationality. The shortlist includes three British writers, two Americans, and one Australian. The judging panel is chaired by AC Grayling and includes Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven, and Erica Wagner. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 26,
+        "sample_id": 17,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "\"2014\" and \"Man\" are not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "2014 Man Booker Prize",
+        "summary_start": 4,
+        "summary_end": 25
+      },
+      {
+        "annot_id": 27,
+        "sample_id": 17,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This book is by Mukherjee. Who's Jhumpa Lahiri?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Jhumpa Lahiri",
+        "summary_start": 82,
+        "summary_end": 95
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.50923,
     "meta_hhem-2.1": 0.02008,
@@ -307,7 +667,21 @@
     "sample_id": 19,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The passage discusses the Booker Prize shortlist for the year, highlighting Mukherjee's \"The Lives Of Others\" as the favorite to win. This year marks the first time the prize is open to all English-language authors, regardless of nationality. The winner will be announced at London's Guildhall. The shortlist includes three British writers (Howard Jacobson, Ali Smith), two Americans (Joshua Ferris, Karen Joy Fowler), and one Australian (Richard Flanagan). Each shortlisted author receives £2,500 and a special edition of their book. The passage provides brief summaries of the nominated works and mentions that Fowler's book is the best-selling among them. It also notes that the judging panel is chaired by AC Grayling and includes several other notable figures. Last year's winner was Eleanor Catton for \"The Luminaries.\" The announcement will be covered by the BBC.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 28,
+        "sample_id": 19,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The nationality of Ali Smith actually requires some inference or background knowledge to figure out. I didn't know which country \"Inverness\" belongs to. However, since the nationality of all other authors are explicitly stated, we can infer he is from Britain.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The shortlist includes three British writers (Howard Jacobson, Ali Smith), two Americans (Joshua Ferris, Karen Joy Fowler), and one Australian (Richard Flanagan).",
+        "summary_start": 295,
+        "summary_end": 457
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.58492,
     "meta_hhem-2.1": 0.85948,
@@ -323,7 +697,21 @@
     "sample_id": 20,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": " Mark Carney, the Governor of the Bank of England, announced an unexpected one-year extension of his term, which was set to end in 2018. Initially, it was speculated that he would either stay until 2021 or leave as planned. However, Carney chose a third option due to personal reasons. In 2018, one of his daughters will be finishing her A-levels, and another will be completing her GCSEs. He felt that this extension would allow him to return home to Canada and its renowned education system at an appropriate time for his family. The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May. Carney's decision was purely personal, and he will leave after the Article 50 process of decoupling Britain from the EU is complete, allowing a new Governor to plot Britain's economic future.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 29,
+        "sample_id": 20,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "This part is a subjective statement by Carney, but not necessarily an objective fact. Politicians lie all the time. This part should have been framed with a \"Carney said ...\"",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May. Carney's decision was purely personal",
+        "summary_start": 532,
+        "summary_end": 715
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.85798,
     "meta_hhem-2.1": 0.97006,
@@ -355,7 +743,35 @@
     "sample_id": 22,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Here's a concise summary of the passage:\n\nMark Carney, the Governor of the Bank of England, surprised many by announcing a one-year extension to his term, rather than staying until 2021 or leaving in 2018 as originally planned. This decision was primarily driven by personal reasons, particularly his family's needs. Carney's extension to 2019 allows him to oversee the initial Brexit negotiations while also accommodating his daughters' education plans. The passage emphasizes that this was a personal decision, not influenced by political pressure or criticism of the Bank's economic forecasts. Carney felt it was important not to leave during the Brexit negotiations but also wanted to return to Canada with his family in 2018. The one-year extension was seen as a compromise between his professional responsibilities and personal circumstances.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 30,
+        "sample_id": 22,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "I would argue the word \"particularly\" is unnecessary here. It shifts the weight of importance to family reasons. While family reasons are part of the driving factors for his decision as stated in the source, the source never framed it as a particularly important reason.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "particularly his family's needs",
+        "summary_start": 284,
+        "summary_end": 315
+      },
+      {
+        "annot_id": 31,
+        "sample_id": 22,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never said Carney wanted to return to Canada. The source only said it was the best moment for his family to return to Canada. It never stated Carney's preference on returning to Canada.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "but also wanted to return to Canada",
+        "summary_start": 670,
+        "summary_end": 705
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.76938,
     "meta_hhem-2.1": 0.53422,
@@ -371,7 +787,22 @@
     "sample_id": 23,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Mark Carney, the Governor of the Bank of England, surprised many by announcing a one-year extension to his term, rather than the expected options of staying until 2021 or leaving in 2018. This decision was influenced by personal factors, particularly his family's situation, as his daughters will be completing important exams in 2018, and the family wishes to return to Canada for its education system. The Brexit vote also complicated matters, as leaving in 2018 would coincide with Britain's exit negotiations, but a longer extension was not feasible due to family considerations. Mr. Carney emphasized that his decision was personal and not influenced by political pressure or criticism of the Bank's pre-referendum forecasts.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 32,
+        "sample_id": 23,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source said \"For his family, this was the perfect moment to return home to Canada and its much lauded education system\". This is a rational analysis of the decision, not necessarily the family's \"wishes\". What if the family loved UK more than Canada?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and the family wishes to return to Canada for its education system.",
+        "summary_start": 336,
+        "summary_end": 403
+      }
+    ],
     "meta_model": "cohere/command-r-08-2024",
     "meta_hhemv1": 0.93518,
     "meta_hhem-2.1": 0.96981,
@@ -387,7 +818,22 @@
     "sample_id": 24,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Mark Carney, the Governor of the Bank of England, announced he would extend his tenure by one year instead of leaving in 2018 as originally planned. This decision was influenced by personal reasons, specifically his daughters' educational needs. Carney intended to return to Canada after his daughter's A-levels and GCSEs were completed. He emphasized that his decision was based on personal circumstances and not political pressure. Despite initial speculation and the challenging economic environment post-Brexit, Carney maintained that his primary consideration was his family's situation.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 24,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "His daughters will complete A-levels and GCSEs in 2018, but the wording of the sentence seems to imply he will return right after the completion of exams, which is not true. He will return after another year.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "after his daughter's A-levels and GCSEs were completed",
+        "summary_start": 282,
+        "summary_end": 336
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.88244,
     "meta_hhem-2.1": 0.94679,
@@ -419,7 +865,50 @@
     "sample_id": 26,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nMark Carney, the Governor of the Bank of England, has announced that he will extend his term by one year, until 2019, rather than leaving in 2018 as originally planned or staying until 2021. The decision was driven by personal reasons, specifically the need to balance his family life with the demands of the role. Carney's daughters will be finishing their A-levels and GCSEs in 2018, and he wants to return to Canada with his family at that time. The decision was not influenced by politics or criticism of the Bank's pre-referendum economic forecasts. Carney's extension will see him through the Brexit negotiations, but he will leave before the UK's exit from the EU is complete, allowing a new Governor to plot Britain's economic future.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 35,
+        "sample_id": 26,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not supported by the source. He will return to Canada one year after. This decision does not imply his preference (\"wants\") or the time dependency (right after his daughters' completion of exams).",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and he wants to return to Canada with his family at that time",
+        "summary_start": 480,
+        "summary_end": 541
+      },
+      {
+        "annot_id": 36,
+        "sample_id": 26,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "That's what Carney said, not necessarily a fact.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The decision was not influenced by politics or criticism of the Bank's pre-referendum economic forecasts.",
+        "summary_start": 543,
+        "summary_end": 648
+      },
+      {
+        "annot_id": 37,
+        "sample_id": 26,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Neither found nor supported in the source. The source stated \"By then the Article 50 process of decoupling Britain from the EU should be complete\", indicating that his leaving time is around the same or probably after Brexit.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "but he will leave before the UK's exit from the EU is complete",
+        "summary_start": 714,
+        "summary_end": 776
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.56558,
     "meta_hhem-2.1": 0.3029,
@@ -451,7 +940,22 @@
     "sample_id": 28,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Mark Carney, the Governor of the Bank of England, surprised many by announcing that he would extend his term for just one more year instead of the expected full eight years. Speculation arose about whether Carney felt political pressure or was disillusioned by the economic predictions for the UK. However, the main reason for his decision was personal - his daughters would be finishing their exams in 2018, and he wanted to return to Canada and its education system. Carney's decision was not influenced by tension with the Prime Minister or criticism of the Bank's pre-referendum economic forecasts. He believed it would be difficult to leave during the Brexit negotiations, but with his family leaving in 2018, he could only extend his term by one year.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 38,
+        "sample_id": 28,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source never said he \"wanted\" to return to Canada.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and he wanted to return to Canada and its education system",
+        "summary_start": 409,
+        "summary_end": 467
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.96428,
     "meta_hhem-2.1": 0.97493,
@@ -499,7 +1003,22 @@
     "sample_id": 31,
     "source": "The columnist told the newspaper last month that he had been diagnosed with the \"full English\" of cancers. Gill, who had been having chemotherapy, said that he did not \"feel cheated\" and had been \"very lucky\" in his life. Sunday Times editor Martin Ivens said Gill had been \"a giant among journalists\" and the \"heart and soul\" of the paper he joined in 1993. The final column by Gill, about coming to terms with his diagnosis, will be featured in tomorrow's Sunday Times. In a statement sent to staff on Saturday, Mr Ivens said: \"It is with profound sadness that I must tell you that our much-loved colleague Adrian Gill died this morning. \" Adrian was stoical about his illness, but the suddenness of his death has shocked us all.\" He added: \"He was the heart and soul of the paper. His wit was incomparable, his writing was dazzling and fearless, his intelligence was matched by compassion. \" Adrian was a giant among journalists. He was also our friend. We will miss him.\" Writing about his illness in November, Gill had said he had \"an embarrassment of cancer, the full English. \" There is barely a morsel of offal not included. I have a trucker's gut-buster, gimpy, malevolent, meaty malignancy.\" Writers, broadcasters and journalists have paid tribute to the published author, who was known for dictating his copy over the telephone due to his dyslexia. Jay Rayner, the broadcaster and writer, tweeted that Gill had been a \"controversialist\" but also \"a kind man and a brilliant writer\". Sunday Times political editor Tim Shipman described Gill as \"the writer who first made me buy the Sunday Times\". \" The best of us for 30 years has died. Very sombre mood in the office,\" he added. Times Literary Supplement editor Stig Abell tweeted that Gill had been \"the first journalist I learned to recognise purely from his style\". John Witherow, editor of the Sunday Times from 1994 to 2012, said Gill had been extraordinary and unique. \" In all the years I was editor of The Sunday Times, he never once produced a boring sentence or a phrase that did not shine.\" Another former editor, Andrew Neil, added: \"Hired AA for Sunday Times in 1993. He never forgot what he saw as huge favour. As one of finest writers of our time, he was doing the favour.\" Former Daily Mirror editor and TV presenter Piers Morgan tweeted that Gill had \"trashed\" him for 20 years, but always did so \"with magnificently eloquent savagery\" as well as \"an irritating kernel of truth\". While his writing remained popular, Gill's articles often caused controversy. In October 2009, he described how he had shot a baboon while in Tanzania, prompting outrage from animal rights groups. In 1998, he described the Welsh as \"dark, ugly little trolls\" - a comment that was referred to the Commission for Racial Equality - while he once described Rhyl as \"a town only a man driving a crane with a demolition ball would visit with a smile\". In a critical review of a Norfolk pub, he referred to the county as the \"hernia on the end of England\", while in 2006 he upset residents of the Isle of Man by saying it \"smelled of boiled washing\". In 2010, he was censured by the former press watchdog having written a review of Clare Balding's 2010 Britain by Bike TV programme, in which he described her as a \"dyke on a bike\". He was also once thrown out of one of Gordon Ramsay's restaurants, along with his dining partner, actress Joan Collins. Born in Edinburgh in 1954, Gill had overcome dyslexia to forge a career as a writer. He went to the independent St Christopher School in Letchworth Garden City, Hertfordshire, and studied at the Central Saint Martins College of Art and Design and the Slade School of Fine Art, in London. He began his writing career in the 1980s with art reviews for magazines, before writing for Tatler and then the Sunday Times. His first marriage was to author Cressida Connolly in 1983. He married current Home Secretary Amber Rudd, who was then a venture capitalist, in 1991. They had two children together - Flora and Alistair - but later divorced. Gill's illness had prompted his engagement to his partner of 23 years, Nicola Formby, with whom he also had two children - twins Edith and Isaac. He said he had been \"surprisingly excited\" to be getting married to Ms Formby, who he often referred as \"The Blonde\" in his restaurant reviews.",
     "summary": " Adrian Gill, a renowned journalist and writer, was diagnosed with multiple cancers and passed away on a Sunday morning. He joined the Sunday Times in 1993 and was described as a \"giant among journalists\" and the \"heart and soul\" of the paper by its editor Martin Ivens. Gill's final column, about his cancer diagnosis, will be featured in the Sunday Times. Despite his illness, Gill remained positive and was described as \"very lucky\" in life. He was known for his wit, dazzling writing, and compassion. Gill's writing often caused controversy, but he was also praised for his unique style and contributions to journalism. He was born in Edinburgh in 1954 and overcame dyslexia to become a successful writer. Gill was married twice and had three children. He was engaged to his partner of 23 years, Nicola Formby, at the time of his passing.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 39,
+        "sample_id": 31,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not 3. 4, including 2 kids during the second marriage and 2 kids with the long-term partner.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "had three children",
+        "summary_start": 737,
+        "summary_end": 755
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.55605,
     "meta_hhem-2.1": 0.08599,
@@ -563,7 +1082,21 @@
     "sample_id": 35,
     "source": "The columnist told the newspaper last month that he had been diagnosed with the \"full English\" of cancers. Gill, who had been having chemotherapy, said that he did not \"feel cheated\" and had been \"very lucky\" in his life. Sunday Times editor Martin Ivens said Gill had been \"a giant among journalists\" and the \"heart and soul\" of the paper he joined in 1993. The final column by Gill, about coming to terms with his diagnosis, will be featured in tomorrow's Sunday Times. In a statement sent to staff on Saturday, Mr Ivens said: \"It is with profound sadness that I must tell you that our much-loved colleague Adrian Gill died this morning. \" Adrian was stoical about his illness, but the suddenness of his death has shocked us all.\" He added: \"He was the heart and soul of the paper. His wit was incomparable, his writing was dazzling and fearless, his intelligence was matched by compassion. \" Adrian was a giant among journalists. He was also our friend. We will miss him.\" Writing about his illness in November, Gill had said he had \"an embarrassment of cancer, the full English. \" There is barely a morsel of offal not included. I have a trucker's gut-buster, gimpy, malevolent, meaty malignancy.\" Writers, broadcasters and journalists have paid tribute to the published author, who was known for dictating his copy over the telephone due to his dyslexia. Jay Rayner, the broadcaster and writer, tweeted that Gill had been a \"controversialist\" but also \"a kind man and a brilliant writer\". Sunday Times political editor Tim Shipman described Gill as \"the writer who first made me buy the Sunday Times\". \" The best of us for 30 years has died. Very sombre mood in the office,\" he added. Times Literary Supplement editor Stig Abell tweeted that Gill had been \"the first journalist I learned to recognise purely from his style\". John Witherow, editor of the Sunday Times from 1994 to 2012, said Gill had been extraordinary and unique. \" In all the years I was editor of The Sunday Times, he never once produced a boring sentence or a phrase that did not shine.\" Another former editor, Andrew Neil, added: \"Hired AA for Sunday Times in 1993. He never forgot what he saw as huge favour. As one of finest writers of our time, he was doing the favour.\" Former Daily Mirror editor and TV presenter Piers Morgan tweeted that Gill had \"trashed\" him for 20 years, but always did so \"with magnificently eloquent savagery\" as well as \"an irritating kernel of truth\". While his writing remained popular, Gill's articles often caused controversy. In October 2009, he described how he had shot a baboon while in Tanzania, prompting outrage from animal rights groups. In 1998, he described the Welsh as \"dark, ugly little trolls\" - a comment that was referred to the Commission for Racial Equality - while he once described Rhyl as \"a town only a man driving a crane with a demolition ball would visit with a smile\". In a critical review of a Norfolk pub, he referred to the county as the \"hernia on the end of England\", while in 2006 he upset residents of the Isle of Man by saying it \"smelled of boiled washing\". In 2010, he was censured by the former press watchdog having written a review of Clare Balding's 2010 Britain by Bike TV programme, in which he described her as a \"dyke on a bike\". He was also once thrown out of one of Gordon Ramsay's restaurants, along with his dining partner, actress Joan Collins. Born in Edinburgh in 1954, Gill had overcome dyslexia to forge a career as a writer. He went to the independent St Christopher School in Letchworth Garden City, Hertfordshire, and studied at the Central Saint Martins College of Art and Design and the Slade School of Fine Art, in London. He began his writing career in the 1980s with art reviews for magazines, before writing for Tatler and then the Sunday Times. His first marriage was to author Cressida Connolly in 1983. He married current Home Secretary Amber Rudd, who was then a venture capitalist, in 1991. They had two children together - Flora and Alistair - but later divorced. Gill's illness had prompted his engagement to his partner of 23 years, Nicola Formby, with whom he also had two children - twins Edith and Isaac. He said he had been \"surprisingly excited\" to be getting married to Ms Formby, who he often referred as \"The Blonde\" in his restaurant reviews.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nAdrian Gill, a renowned journalist and writer, has died after a battle with cancer. He was a columnist for the Sunday Times, which he joined in 1993, and was known for his wit, fearless writing, and compassion. Gill had been diagnosed with multiple cancers, which he humorously referred to as the \"full English\". Despite his illness, he continued to write and had been engaged to his partner of 23 years, Nicola Formby, with whom he had two children. Tributes have poured in from fellow writers, broadcasters, and journalists, praising Gill's unique style, intelligence, and kind nature. He was a giant among journalists and will be deeply missed by his colleagues and readers.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 40,
+        "sample_id": 35,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "While this is factual, the way this sentence is structured seems to imply that Adrian Gill is a faithful guy with a healthy romantic relationship, which is not true. The fact that he divorced twice was not mentioned in the summary.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Despite his illness, he continued to write and had been engaged to his partner of 23 years, Nicola Formby, with whom he had two children.",
+        "summary_start": 407,
+        "summary_end": 544
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.71609,
     "meta_hhem-2.1": 0.78368,
@@ -627,7 +1160,36 @@
     "sample_id": 39,
     "source": "The columnist told the newspaper last month that he had been diagnosed with the \"full English\" of cancers. Gill, who had been having chemotherapy, said that he did not \"feel cheated\" and had been \"very lucky\" in his life. Sunday Times editor Martin Ivens said Gill had been \"a giant among journalists\" and the \"heart and soul\" of the paper he joined in 1993. The final column by Gill, about coming to terms with his diagnosis, will be featured in tomorrow's Sunday Times. In a statement sent to staff on Saturday, Mr Ivens said: \"It is with profound sadness that I must tell you that our much-loved colleague Adrian Gill died this morning. \" Adrian was stoical about his illness, but the suddenness of his death has shocked us all.\" He added: \"He was the heart and soul of the paper. His wit was incomparable, his writing was dazzling and fearless, his intelligence was matched by compassion. \" Adrian was a giant among journalists. He was also our friend. We will miss him.\" Writing about his illness in November, Gill had said he had \"an embarrassment of cancer, the full English. \" There is barely a morsel of offal not included. I have a trucker's gut-buster, gimpy, malevolent, meaty malignancy.\" Writers, broadcasters and journalists have paid tribute to the published author, who was known for dictating his copy over the telephone due to his dyslexia. Jay Rayner, the broadcaster and writer, tweeted that Gill had been a \"controversialist\" but also \"a kind man and a brilliant writer\". Sunday Times political editor Tim Shipman described Gill as \"the writer who first made me buy the Sunday Times\". \" The best of us for 30 years has died. Very sombre mood in the office,\" he added. Times Literary Supplement editor Stig Abell tweeted that Gill had been \"the first journalist I learned to recognise purely from his style\". John Witherow, editor of the Sunday Times from 1994 to 2012, said Gill had been extraordinary and unique. \" In all the years I was editor of The Sunday Times, he never once produced a boring sentence or a phrase that did not shine.\" Another former editor, Andrew Neil, added: \"Hired AA for Sunday Times in 1993. He never forgot what he saw as huge favour. As one of finest writers of our time, he was doing the favour.\" Former Daily Mirror editor and TV presenter Piers Morgan tweeted that Gill had \"trashed\" him for 20 years, but always did so \"with magnificently eloquent savagery\" as well as \"an irritating kernel of truth\". While his writing remained popular, Gill's articles often caused controversy. In October 2009, he described how he had shot a baboon while in Tanzania, prompting outrage from animal rights groups. In 1998, he described the Welsh as \"dark, ugly little trolls\" - a comment that was referred to the Commission for Racial Equality - while he once described Rhyl as \"a town only a man driving a crane with a demolition ball would visit with a smile\". In a critical review of a Norfolk pub, he referred to the county as the \"hernia on the end of England\", while in 2006 he upset residents of the Isle of Man by saying it \"smelled of boiled washing\". In 2010, he was censured by the former press watchdog having written a review of Clare Balding's 2010 Britain by Bike TV programme, in which he described her as a \"dyke on a bike\". He was also once thrown out of one of Gordon Ramsay's restaurants, along with his dining partner, actress Joan Collins. Born in Edinburgh in 1954, Gill had overcome dyslexia to forge a career as a writer. He went to the independent St Christopher School in Letchworth Garden City, Hertfordshire, and studied at the Central Saint Martins College of Art and Design and the Slade School of Fine Art, in London. He began his writing career in the 1980s with art reviews for magazines, before writing for Tatler and then the Sunday Times. His first marriage was to author Cressida Connolly in 1983. He married current Home Secretary Amber Rudd, who was then a venture capitalist, in 1991. They had two children together - Flora and Alistair - but later divorced. Gill's illness had prompted his engagement to his partner of 23 years, Nicola Formby, with whom he also had two children - twins Edith and Isaac. He said he had been \"surprisingly excited\" to be getting married to Ms Formby, who he often referred as \"The Blonde\" in his restaurant reviews.",
     "summary": "Adrian Gill, a renowned columnist diagnosed with multiple cancers, passed away recently. Despite his illness, he felt fortunate in life. Gill, who joined the Sunday Times in 1993, was celebrated for his exceptional writing and wit. His final column will be published in the Sunday Times. Colleagues and notable figures praised his unique style and contributions to journalism. Known for his controversial articles, Gill's career spanned art reviews, Tatler, and the Sunday Times. He overcame dyslexia, attended prestigious schools, and had two marriages, with four children. His illness led to his engagement to long-term partner Nicola Formby.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 41,
+        "sample_id": 39,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The word \"recently\" is context-dependent.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "recently",
+        "summary_start": 79,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 42,
+        "sample_id": 39,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source never stated that the schools are prestigious.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "attended prestigious schools",
+        "summary_start": 502,
+        "summary_end": 530
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.65732,
     "meta_hhem-2.1": 0.11173,
@@ -643,7 +1205,21 @@
     "sample_id": 40,
     "source": "Little is beyond their reach. Official documents and private communications are made public, and websites blocked. They hijack CCTV cameras, electronic billboards and network printers. The best known of the virtual warriors are the Ukrainian Cyber Troops, the Cyber Berkut and Anonymous International. All three present themselves as independent activists, separate from other, government-sponsored groups. The most prominent pro-Ukrainians hackers are the Ukrainian Cyber Troops, led by Kiev-based programmer Yevhen Dokukin. Most recently, he claimed to have hacked into two Russian interior ministry servers and an email account used by police in Russia's Rostov region - bordering Ukraine's eastern separatist regions. \" I gave all this data to Ukraine's security service, but they still can't get round to analysing it, so do it yourselves,\" he urged readers on Facebook. Volunteer activist group Inform Napalm sifted through more than 35 gigabytes of the data and found what looked like official reports confirming that Russian military servicemen were among the hundreds of people evacuated to Russia after being wounded in Ukraine. The Ukrainian Cyber Troops make extensive use of one of the most tried and tested tools in cyber warfare, the distributed denial-of-service (DDoS) attack. \" DDoS attacks are the Ukrainian Cyber Troops' artillery,\" Mr Dokukin likes saying. Scores of rebel websites were made inaccessible when the Ukrainian Cyber Troops relentlessly bombarded them with fake service requests. To disrupt separatist funding, they target accounts held by rebels in electronic payment systems such as PayPal and WebMoney. The Cyber Troops have also hacked into public CCTV systems in rebel-held areas of eastern Ukraine and monitor them for the movement of troops and military hardware. On 8 December, Yevhen Dokukin claimed to have hijacked network printers in eastern Ukraine and Crimea to print pro-Ukrainian messages and insults against Russian President Vladimir Putin. Some media reports suggest that Ukraine's security services have used information obtained by hackers to direct artillery fire. But officials deny this. \" We only use data obtained by people we trust and know,\" Ukrainian military spokesman Oleksiy Dmytrashkivsky told the BBC. On the other side of the conflict is Cyber Berkut, a staunchly anti-Western group which takes its name from the riot police used against protesters during the unrest in Kiev that led to the ousting of President Viktor Yanukovych. The group's declared goal is thwarting Ukraine's military plans and thus stopping the \"genocide\" that it accuses Kiev of unleashing at America's behest. Its motto is \"We won't forgive or forget\", and its rhetoric closely resembles that of Russian state media. During US Vice-President Joe Biden's visit to Kiev on 20-21 November, Cyber Berkut hacked several Ukrainian government websites, placing a message on their front pages which read: \"Joseph Biden is the fascists' master.\" Cyber Berkut claims to have retrieved confidential documents from a mobile device used by one member of Mr Biden's team while it was in Kiev. The documents appear to detail Washington's military assistance to Ukraine. Another stunt carried out by Cyber Berkut is the apparent hacking of electronic billboards in Kiev, which were made to show a video branding Ukrainian officials and activists \"war criminals\" and featuring highly graphic images of civilians killed in the current conflict. They also claim to have disrupted the electronic vote-counting systems ahead of October's parliamentary election in Ukraine, to have leaked Ukrainian defence ministry data on losses and desertions, and to have blocked President Petro Poroshenko's website. In addition, Russian tabloid Komsomolskaya Pravda quoted a Facebook conversation allegedly hacked by Cyber Berkut, in which Ukrainian officials appear to admit that their forces downed Malaysia Airlines flight MH17. The claim went largely ignored elsewhere and has never been verified. Russian activist group Anonymous International made its name by publishing leaked documents from the Kremlin. It is otherwise known as b0ltai or Shaltay Boltay, which translates as \"Humpty Dumpty\". What is not clear is whether it obtains material through hacking or are given it by Kremlin insiders. The group focuses on Russia's domestic affairs, but some of its material covers Ukraine. In  November it published a letter from a Russian fighter in eastern Ukraine suggesting that locals did not support the separatist forces. And in May it made headlines leaking what it said were emails to and from former Russian FSB colonel Igor Girkin, also known as Strelkov, who was then a key rebel commander in eastern Ukraine. Access to Anonymous International's website is currently blocked in Russia. BBC Monitoring reports and analyses news from TV, radio, web and print media around the world. For more reports from BBC Monitoring, click here. You can follow BBC Monitoring on Twitter and Facebook.",
     "summary": " The passage discusses cyber activities in the ongoing conflict between Ukraine and Russia. The Ukrainian Cyber Troops, led by Yevhen Dokukin, are highlighted as a group that uses DDoS attacks to make rebel websites inaccessible, targets accounts held by rebels in electronic payment systems, hacks into public CCTV systems, and hijacks network printers to print pro-Ukrainian messages. Inform Napalm, a volunteer activist group, has sifted through data obtained by the Ukrainian Cyber Troops and found evidence of Russian military involvement in Ukraine. \n\nOn the other side, Cyber Berkut, an anti-Western group, is known for hacking Ukrainian government websites, disrupting electronic vote-counting systems, leaking Ukrainian defence ministry data, and blocking President Petro Poroshenko's website. They have also been accused of hacking a device used by a member of Joe Biden's team during his visit to Kiev, allegedly obtaining documents detailing Washington's military assistance to Ukraine. \n\nRussian activist group Anonymous International, also known as b0ltai or Shaltay B",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 43,
+        "sample_id": 40,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary didn't finish.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Russian activist group Anonymous International, also known as b0ltai or Shaltay B",
+        "summary_start": 1001,
+        "summary_end": 1082
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.61705,
     "meta_hhem-2.1": 0.92411,
@@ -691,7 +1267,22 @@
     "sample_id": 43,
     "source": "Little is beyond their reach. Official documents and private communications are made public, and websites blocked. They hijack CCTV cameras, electronic billboards and network printers. The best known of the virtual warriors are the Ukrainian Cyber Troops, the Cyber Berkut and Anonymous International. All three present themselves as independent activists, separate from other, government-sponsored groups. The most prominent pro-Ukrainians hackers are the Ukrainian Cyber Troops, led by Kiev-based programmer Yevhen Dokukin. Most recently, he claimed to have hacked into two Russian interior ministry servers and an email account used by police in Russia's Rostov region - bordering Ukraine's eastern separatist regions. \" I gave all this data to Ukraine's security service, but they still can't get round to analysing it, so do it yourselves,\" he urged readers on Facebook. Volunteer activist group Inform Napalm sifted through more than 35 gigabytes of the data and found what looked like official reports confirming that Russian military servicemen were among the hundreds of people evacuated to Russia after being wounded in Ukraine. The Ukrainian Cyber Troops make extensive use of one of the most tried and tested tools in cyber warfare, the distributed denial-of-service (DDoS) attack. \" DDoS attacks are the Ukrainian Cyber Troops' artillery,\" Mr Dokukin likes saying. Scores of rebel websites were made inaccessible when the Ukrainian Cyber Troops relentlessly bombarded them with fake service requests. To disrupt separatist funding, they target accounts held by rebels in electronic payment systems such as PayPal and WebMoney. The Cyber Troops have also hacked into public CCTV systems in rebel-held areas of eastern Ukraine and monitor them for the movement of troops and military hardware. On 8 December, Yevhen Dokukin claimed to have hijacked network printers in eastern Ukraine and Crimea to print pro-Ukrainian messages and insults against Russian President Vladimir Putin. Some media reports suggest that Ukraine's security services have used information obtained by hackers to direct artillery fire. But officials deny this. \" We only use data obtained by people we trust and know,\" Ukrainian military spokesman Oleksiy Dmytrashkivsky told the BBC. On the other side of the conflict is Cyber Berkut, a staunchly anti-Western group which takes its name from the riot police used against protesters during the unrest in Kiev that led to the ousting of President Viktor Yanukovych. The group's declared goal is thwarting Ukraine's military plans and thus stopping the \"genocide\" that it accuses Kiev of unleashing at America's behest. Its motto is \"We won't forgive or forget\", and its rhetoric closely resembles that of Russian state media. During US Vice-President Joe Biden's visit to Kiev on 20-21 November, Cyber Berkut hacked several Ukrainian government websites, placing a message on their front pages which read: \"Joseph Biden is the fascists' master.\" Cyber Berkut claims to have retrieved confidential documents from a mobile device used by one member of Mr Biden's team while it was in Kiev. The documents appear to detail Washington's military assistance to Ukraine. Another stunt carried out by Cyber Berkut is the apparent hacking of electronic billboards in Kiev, which were made to show a video branding Ukrainian officials and activists \"war criminals\" and featuring highly graphic images of civilians killed in the current conflict. They also claim to have disrupted the electronic vote-counting systems ahead of October's parliamentary election in Ukraine, to have leaked Ukrainian defence ministry data on losses and desertions, and to have blocked President Petro Poroshenko's website. In addition, Russian tabloid Komsomolskaya Pravda quoted a Facebook conversation allegedly hacked by Cyber Berkut, in which Ukrainian officials appear to admit that their forces downed Malaysia Airlines flight MH17. The claim went largely ignored elsewhere and has never been verified. Russian activist group Anonymous International made its name by publishing leaked documents from the Kremlin. It is otherwise known as b0ltai or Shaltay Boltay, which translates as \"Humpty Dumpty\". What is not clear is whether it obtains material through hacking or are given it by Kremlin insiders. The group focuses on Russia's domestic affairs, but some of its material covers Ukraine. In  November it published a letter from a Russian fighter in eastern Ukraine suggesting that locals did not support the separatist forces. And in May it made headlines leaking what it said were emails to and from former Russian FSB colonel Igor Girkin, also known as Strelkov, who was then a key rebel commander in eastern Ukraine. Access to Anonymous International's website is currently blocked in Russia. BBC Monitoring reports and analyses news from TV, radio, web and print media around the world. For more reports from BBC Monitoring, click here. You can follow BBC Monitoring on Twitter and Facebook.",
     "summary": "A diverse group of hackers, including the Ukrainian Cyber Troops, Cyber Berkut, and Anonymous International, are actively involved in the ongoing conflict between Ukraine and Russia. These groups engage in various cyber activities, such as releasing official documents, hijacking electronic systems, and conducting DDoS attacks. The Ukrainian Cyber Troops, led by Yevhen Dokukin, have targeted Russian servers and email accounts, while Cyber Berkut, an anti-Western group, has disrupted Ukrainian government websites and claimed to possess sensitive information. Anonymous International, a Russian activist group, has published leaked Kremlin documents and focuses on domestic Russian affairs, with some coverage of Ukraine. The Ukrainian military denies using hacker-obtained data for artillery fire, while media reports suggest otherwise. The activities of these groups significantly impact the conflict, revealing sensitive information and potentially influencing public opinion.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 44,
+        "sample_id": 43,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This is a subjective opinion, not found in the source.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The activities of these groups significantly impact the conflict, revealing sensitive information and potentially influencing public opinion.",
+        "summary_start": 841,
+        "summary_end": 982
+      }
+    ],
     "meta_model": "cohere/command-r-08-2024",
     "meta_hhemv1": 0.86146,
     "meta_hhem-2.1": 0.91022,
@@ -707,7 +1298,22 @@
     "sample_id": 44,
     "source": "Little is beyond their reach. Official documents and private communications are made public, and websites blocked. They hijack CCTV cameras, electronic billboards and network printers. The best known of the virtual warriors are the Ukrainian Cyber Troops, the Cyber Berkut and Anonymous International. All three present themselves as independent activists, separate from other, government-sponsored groups. The most prominent pro-Ukrainians hackers are the Ukrainian Cyber Troops, led by Kiev-based programmer Yevhen Dokukin. Most recently, he claimed to have hacked into two Russian interior ministry servers and an email account used by police in Russia's Rostov region - bordering Ukraine's eastern separatist regions. \" I gave all this data to Ukraine's security service, but they still can't get round to analysing it, so do it yourselves,\" he urged readers on Facebook. Volunteer activist group Inform Napalm sifted through more than 35 gigabytes of the data and found what looked like official reports confirming that Russian military servicemen were among the hundreds of people evacuated to Russia after being wounded in Ukraine. The Ukrainian Cyber Troops make extensive use of one of the most tried and tested tools in cyber warfare, the distributed denial-of-service (DDoS) attack. \" DDoS attacks are the Ukrainian Cyber Troops' artillery,\" Mr Dokukin likes saying. Scores of rebel websites were made inaccessible when the Ukrainian Cyber Troops relentlessly bombarded them with fake service requests. To disrupt separatist funding, they target accounts held by rebels in electronic payment systems such as PayPal and WebMoney. The Cyber Troops have also hacked into public CCTV systems in rebel-held areas of eastern Ukraine and monitor them for the movement of troops and military hardware. On 8 December, Yevhen Dokukin claimed to have hijacked network printers in eastern Ukraine and Crimea to print pro-Ukrainian messages and insults against Russian President Vladimir Putin. Some media reports suggest that Ukraine's security services have used information obtained by hackers to direct artillery fire. But officials deny this. \" We only use data obtained by people we trust and know,\" Ukrainian military spokesman Oleksiy Dmytrashkivsky told the BBC. On the other side of the conflict is Cyber Berkut, a staunchly anti-Western group which takes its name from the riot police used against protesters during the unrest in Kiev that led to the ousting of President Viktor Yanukovych. The group's declared goal is thwarting Ukraine's military plans and thus stopping the \"genocide\" that it accuses Kiev of unleashing at America's behest. Its motto is \"We won't forgive or forget\", and its rhetoric closely resembles that of Russian state media. During US Vice-President Joe Biden's visit to Kiev on 20-21 November, Cyber Berkut hacked several Ukrainian government websites, placing a message on their front pages which read: \"Joseph Biden is the fascists' master.\" Cyber Berkut claims to have retrieved confidential documents from a mobile device used by one member of Mr Biden's team while it was in Kiev. The documents appear to detail Washington's military assistance to Ukraine. Another stunt carried out by Cyber Berkut is the apparent hacking of electronic billboards in Kiev, which were made to show a video branding Ukrainian officials and activists \"war criminals\" and featuring highly graphic images of civilians killed in the current conflict. They also claim to have disrupted the electronic vote-counting systems ahead of October's parliamentary election in Ukraine, to have leaked Ukrainian defence ministry data on losses and desertions, and to have blocked President Petro Poroshenko's website. In addition, Russian tabloid Komsomolskaya Pravda quoted a Facebook conversation allegedly hacked by Cyber Berkut, in which Ukrainian officials appear to admit that their forces downed Malaysia Airlines flight MH17. The claim went largely ignored elsewhere and has never been verified. Russian activist group Anonymous International made its name by publishing leaked documents from the Kremlin. It is otherwise known as b0ltai or Shaltay Boltay, which translates as \"Humpty Dumpty\". What is not clear is whether it obtains material through hacking or are given it by Kremlin insiders. The group focuses on Russia's domestic affairs, but some of its material covers Ukraine. In  November it published a letter from a Russian fighter in eastern Ukraine suggesting that locals did not support the separatist forces. And in May it made headlines leaking what it said were emails to and from former Russian FSB colonel Igor Girkin, also known as Strelkov, who was then a key rebel commander in eastern Ukraine. Access to Anonymous International's website is currently blocked in Russia. BBC Monitoring reports and analyses news from TV, radio, web and print media around the world. For more reports from BBC Monitoring, click here. You can follow BBC Monitoring on Twitter and Facebook.",
     "summary": "The passage describes various hacker groups active during the conflict in Ukraine, including the Ukrainian Cyber Troops, Cyber Berkut, and Anonymous International. The Ukrainian Cyber Troops, led by Yevhen Dokukin, engage in DDoS attacks, hack government and rebel websites, and monitor public CCTV systems. They claim to provide data to Ukraine's security services but often leave analysis to others. Cyber Berkut, an anti-Western group, targets Ukrainian government sites and accuses Kiev of a \"genocide.\" Anonymous International, known for publishing leaked Kremlin documents, occasionally covers Ukraine-related issues. All groups operate independently of government sponsorship and use hacking to influence the conflict.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 45,
+        "sample_id": 44,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source said \"All three present themselves as independent activists\". This is a subjective statement from the groups, not necessarily a fact.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "All groups operate independently of government sponsorship",
+        "summary_start": 624,
+        "summary_end": 682
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.84571,
     "meta_hhem-2.1": 0.96315,
@@ -739,7 +1345,22 @@
     "sample_id": 46,
     "source": "Little is beyond their reach. Official documents and private communications are made public, and websites blocked. They hijack CCTV cameras, electronic billboards and network printers. The best known of the virtual warriors are the Ukrainian Cyber Troops, the Cyber Berkut and Anonymous International. All three present themselves as independent activists, separate from other, government-sponsored groups. The most prominent pro-Ukrainians hackers are the Ukrainian Cyber Troops, led by Kiev-based programmer Yevhen Dokukin. Most recently, he claimed to have hacked into two Russian interior ministry servers and an email account used by police in Russia's Rostov region - bordering Ukraine's eastern separatist regions. \" I gave all this data to Ukraine's security service, but they still can't get round to analysing it, so do it yourselves,\" he urged readers on Facebook. Volunteer activist group Inform Napalm sifted through more than 35 gigabytes of the data and found what looked like official reports confirming that Russian military servicemen were among the hundreds of people evacuated to Russia after being wounded in Ukraine. The Ukrainian Cyber Troops make extensive use of one of the most tried and tested tools in cyber warfare, the distributed denial-of-service (DDoS) attack. \" DDoS attacks are the Ukrainian Cyber Troops' artillery,\" Mr Dokukin likes saying. Scores of rebel websites were made inaccessible when the Ukrainian Cyber Troops relentlessly bombarded them with fake service requests. To disrupt separatist funding, they target accounts held by rebels in electronic payment systems such as PayPal and WebMoney. The Cyber Troops have also hacked into public CCTV systems in rebel-held areas of eastern Ukraine and monitor them for the movement of troops and military hardware. On 8 December, Yevhen Dokukin claimed to have hijacked network printers in eastern Ukraine and Crimea to print pro-Ukrainian messages and insults against Russian President Vladimir Putin. Some media reports suggest that Ukraine's security services have used information obtained by hackers to direct artillery fire. But officials deny this. \" We only use data obtained by people we trust and know,\" Ukrainian military spokesman Oleksiy Dmytrashkivsky told the BBC. On the other side of the conflict is Cyber Berkut, a staunchly anti-Western group which takes its name from the riot police used against protesters during the unrest in Kiev that led to the ousting of President Viktor Yanukovych. The group's declared goal is thwarting Ukraine's military plans and thus stopping the \"genocide\" that it accuses Kiev of unleashing at America's behest. Its motto is \"We won't forgive or forget\", and its rhetoric closely resembles that of Russian state media. During US Vice-President Joe Biden's visit to Kiev on 20-21 November, Cyber Berkut hacked several Ukrainian government websites, placing a message on their front pages which read: \"Joseph Biden is the fascists' master.\" Cyber Berkut claims to have retrieved confidential documents from a mobile device used by one member of Mr Biden's team while it was in Kiev. The documents appear to detail Washington's military assistance to Ukraine. Another stunt carried out by Cyber Berkut is the apparent hacking of electronic billboards in Kiev, which were made to show a video branding Ukrainian officials and activists \"war criminals\" and featuring highly graphic images of civilians killed in the current conflict. They also claim to have disrupted the electronic vote-counting systems ahead of October's parliamentary election in Ukraine, to have leaked Ukrainian defence ministry data on losses and desertions, and to have blocked President Petro Poroshenko's website. In addition, Russian tabloid Komsomolskaya Pravda quoted a Facebook conversation allegedly hacked by Cyber Berkut, in which Ukrainian officials appear to admit that their forces downed Malaysia Airlines flight MH17. The claim went largely ignored elsewhere and has never been verified. Russian activist group Anonymous International made its name by publishing leaked documents from the Kremlin. It is otherwise known as b0ltai or Shaltay Boltay, which translates as \"Humpty Dumpty\". What is not clear is whether it obtains material through hacking or are given it by Kremlin insiders. The group focuses on Russia's domestic affairs, but some of its material covers Ukraine. In  November it published a letter from a Russian fighter in eastern Ukraine suggesting that locals did not support the separatist forces. And in May it made headlines leaking what it said were emails to and from former Russian FSB colonel Igor Girkin, also known as Strelkov, who was then a key rebel commander in eastern Ukraine. Access to Anonymous International's website is currently blocked in Russia. BBC Monitoring reports and analyses news from TV, radio, web and print media around the world. For more reports from BBC Monitoring, click here. You can follow BBC Monitoring on Twitter and Facebook.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\n* Three prominent groups of hackers are involved in the conflict in Ukraine: the Ukrainian Cyber Troops, Cyber Berkut, and Anonymous International. \n* The Ukrainian Cyber Troops, led by Yevhen Dokukin, have hacked into Russian interior ministry servers, email accounts, and CCTV cameras, and have used distributed denial-of-service (DDoS) attacks to disrupt rebel websites and funding. \n* Cyber Berkut, an anti-Western group, has hacked into Ukrainian government websites, electronic billboards, and mobile devices, and has leaked confidential documents and disrupted electronic vote-counting systems. \n* Anonymous International, a Russian activist group, has published leaked documents from the Kremlin and has focused on Russia's domestic affairs, but has also published material related to Ukraine. \n* The hackers' activities have included monitoring troop movements, disrupting funding, and leaking confidential documents, and have had significant impacts on the conflict. \n* Officials have denied using information obtained by hackers to direct artillery fire, but some media reports suggest otherwise.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 46,
+        "sample_id": 46,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted.Extrinsic",
+          "Benign"
+        ],
+        "note": "The source never stated the significance of these hacking activities, but it may be inferred depending on the audience.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and have had significant impacts on the conflict.",
+        "summary_start": 1021,
+        "summary_end": 1070
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.47517,
     "meta_hhem-2.1": 0.82053,
@@ -787,7 +1408,21 @@
     "sample_id": 49,
     "source": "Little is beyond their reach. Official documents and private communications are made public, and websites blocked. They hijack CCTV cameras, electronic billboards and network printers. The best known of the virtual warriors are the Ukrainian Cyber Troops, the Cyber Berkut and Anonymous International. All three present themselves as independent activists, separate from other, government-sponsored groups. The most prominent pro-Ukrainians hackers are the Ukrainian Cyber Troops, led by Kiev-based programmer Yevhen Dokukin. Most recently, he claimed to have hacked into two Russian interior ministry servers and an email account used by police in Russia's Rostov region - bordering Ukraine's eastern separatist regions. \" I gave all this data to Ukraine's security service, but they still can't get round to analysing it, so do it yourselves,\" he urged readers on Facebook. Volunteer activist group Inform Napalm sifted through more than 35 gigabytes of the data and found what looked like official reports confirming that Russian military servicemen were among the hundreds of people evacuated to Russia after being wounded in Ukraine. The Ukrainian Cyber Troops make extensive use of one of the most tried and tested tools in cyber warfare, the distributed denial-of-service (DDoS) attack. \" DDoS attacks are the Ukrainian Cyber Troops' artillery,\" Mr Dokukin likes saying. Scores of rebel websites were made inaccessible when the Ukrainian Cyber Troops relentlessly bombarded them with fake service requests. To disrupt separatist funding, they target accounts held by rebels in electronic payment systems such as PayPal and WebMoney. The Cyber Troops have also hacked into public CCTV systems in rebel-held areas of eastern Ukraine and monitor them for the movement of troops and military hardware. On 8 December, Yevhen Dokukin claimed to have hijacked network printers in eastern Ukraine and Crimea to print pro-Ukrainian messages and insults against Russian President Vladimir Putin. Some media reports suggest that Ukraine's security services have used information obtained by hackers to direct artillery fire. But officials deny this. \" We only use data obtained by people we trust and know,\" Ukrainian military spokesman Oleksiy Dmytrashkivsky told the BBC. On the other side of the conflict is Cyber Berkut, a staunchly anti-Western group which takes its name from the riot police used against protesters during the unrest in Kiev that led to the ousting of President Viktor Yanukovych. The group's declared goal is thwarting Ukraine's military plans and thus stopping the \"genocide\" that it accuses Kiev of unleashing at America's behest. Its motto is \"We won't forgive or forget\", and its rhetoric closely resembles that of Russian state media. During US Vice-President Joe Biden's visit to Kiev on 20-21 November, Cyber Berkut hacked several Ukrainian government websites, placing a message on their front pages which read: \"Joseph Biden is the fascists' master.\" Cyber Berkut claims to have retrieved confidential documents from a mobile device used by one member of Mr Biden's team while it was in Kiev. The documents appear to detail Washington's military assistance to Ukraine. Another stunt carried out by Cyber Berkut is the apparent hacking of electronic billboards in Kiev, which were made to show a video branding Ukrainian officials and activists \"war criminals\" and featuring highly graphic images of civilians killed in the current conflict. They also claim to have disrupted the electronic vote-counting systems ahead of October's parliamentary election in Ukraine, to have leaked Ukrainian defence ministry data on losses and desertions, and to have blocked President Petro Poroshenko's website. In addition, Russian tabloid Komsomolskaya Pravda quoted a Facebook conversation allegedly hacked by Cyber Berkut, in which Ukrainian officials appear to admit that their forces downed Malaysia Airlines flight MH17. The claim went largely ignored elsewhere and has never been verified. Russian activist group Anonymous International made its name by publishing leaked documents from the Kremlin. It is otherwise known as b0ltai or Shaltay Boltay, which translates as \"Humpty Dumpty\". What is not clear is whether it obtains material through hacking or are given it by Kremlin insiders. The group focuses on Russia's domestic affairs, but some of its material covers Ukraine. In  November it published a letter from a Russian fighter in eastern Ukraine suggesting that locals did not support the separatist forces. And in May it made headlines leaking what it said were emails to and from former Russian FSB colonel Igor Girkin, also known as Strelkov, who was then a key rebel commander in eastern Ukraine. Access to Anonymous International's website is currently blocked in Russia. BBC Monitoring reports and analyses news from TV, radio, web and print media around the world. For more reports from BBC Monitoring, click here. You can follow BBC Monitoring on Twitter and Facebook.",
     "summary": "The passage discusses the activities of various hacking groups involved in the Ukraine conflict. The Ukrainian Cyber Troops, led by Yevhen Dokukin, are known for hacking Russian servers and using DDoS attacks against rebel websites. They also disrupt separatist funding and monitor troop movements via hacked CCTV systems. Cyber Berkut, an anti-Western group, aims to thwart Ukraine's military plans and has hacked Ukrainian government websites and electronic billboards. They claim to have obtained confidential documents and disrupted electronic vote-counting systems. Anonymous International, also known as b0ltai, leaks documents from the Kremlin and focuses on Russia's domestic affairs, with some material related to Ukraine. The passage highlights the significant impact of these groups on the ongoing conflict.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 47,
+        "sample_id": 49,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source never stated the significance of these hacking activities, but it may be inferred depending on the audience.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The passage highlights the significant impact of these groups on the ongoing conflict.",
+        "summary_start": 732,
+        "summary_end": 818
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.65407,
     "meta_hhem-2.1": 0.95851,
