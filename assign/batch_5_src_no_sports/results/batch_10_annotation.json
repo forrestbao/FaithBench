@@ -119,7 +119,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 60
+    "meta_sample_id": 60,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 1,
@@ -230,7 +233,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 175
+    "meta_sample_id": 175,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 2,
@@ -260,7 +266,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 290
+    "meta_sample_id": 290,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 3,
@@ -368,7 +377,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 405
+    "meta_sample_id": 405,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 4,
@@ -498,7 +510,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 520
+    "meta_sample_id": 520,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 5,
@@ -593,7 +608,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 635
+    "meta_sample_id": 635,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 6,
@@ -673,7 +691,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 750
+    "meta_sample_id": 750,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 7,
@@ -706,7 +727,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 865
+    "meta_sample_id": 865,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 8,
@@ -739,7 +763,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 969
+    "meta_sample_id": 969,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 9,
@@ -817,7 +844,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1095
+    "meta_sample_id": 1095,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 10,
@@ -899,7 +929,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 106
+    "meta_sample_id": 106,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 11,
@@ -980,7 +1013,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 221
+    "meta_sample_id": 221,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 12,
@@ -1077,7 +1113,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 336
+    "meta_sample_id": 336,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 13,
@@ -1187,7 +1226,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 451
+    "meta_sample_id": 451,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 14,
@@ -1298,7 +1340,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 566
+    "meta_sample_id": 566,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 15,
@@ -1389,7 +1434,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 681
+    "meta_sample_id": 681,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 16,
@@ -1483,7 +1531,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 796
+    "meta_sample_id": 796,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 17,
@@ -1499,7 +1550,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 911
+    "meta_sample_id": 911,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 18,
@@ -1612,7 +1666,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 1002
+    "meta_sample_id": 1002,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 19,
@@ -1709,7 +1766,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1141
+    "meta_sample_id": 1141,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 20,
@@ -1841,7 +1901,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 88
+    "meta_sample_id": 88,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 21,
@@ -1954,7 +2017,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 203
+    "meta_sample_id": 203,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 22,
@@ -1987,7 +2053,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 318
+    "meta_sample_id": 318,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 23,
@@ -2037,7 +2106,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 433
+    "meta_sample_id": 433,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 24,
@@ -2134,7 +2206,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 548
+    "meta_sample_id": 548,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 25,
@@ -2202,7 +2277,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 663
+    "meta_sample_id": 663,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 26,
@@ -2251,7 +2329,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 778
+    "meta_sample_id": 778,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 27,
@@ -2300,7 +2381,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 893
+    "meta_sample_id": 893,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 28,
@@ -2367,7 +2451,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1011
+    "meta_sample_id": 1011,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 29,
@@ -2435,7 +2522,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1123
+    "meta_sample_id": 1123,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 30,
@@ -2499,7 +2589,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 32
+    "meta_sample_id": 32,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 31,
@@ -2561,7 +2654,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 147
+    "meta_sample_id": 147,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 32,
@@ -2684,7 +2780,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 262
+    "meta_sample_id": 262,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 33,
@@ -2793,7 +2892,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 377
+    "meta_sample_id": 377,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 34,
@@ -2870,7 +2972,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 492
+    "meta_sample_id": 492,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 35,
@@ -2915,7 +3020,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 607
+    "meta_sample_id": 607,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 36,
@@ -2995,7 +3103,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 722
+    "meta_sample_id": 722,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 37,
@@ -3058,7 +3169,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 837
+    "meta_sample_id": 837,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 38,
@@ -3092,7 +3206,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 981
+    "meta_sample_id": 981,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 39,
@@ -3125,7 +3242,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1067
+    "meta_sample_id": 1067,
+    "tags": [
+      "Crime and Social Issues"
+    ]
   },
   {
     "sample_id": 40,
@@ -3155,7 +3275,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 93
+    "meta_sample_id": 93,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 41,
@@ -3185,7 +3308,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 208
+    "meta_sample_id": 208,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 42,
@@ -3201,7 +3327,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 323
+    "meta_sample_id": 323,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 43,
@@ -3234,7 +3363,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 438
+    "meta_sample_id": 438,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 44,
@@ -3297,7 +3429,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 553
+    "meta_sample_id": 553,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 45,
@@ -3344,7 +3479,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 668
+    "meta_sample_id": 668,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 46,
@@ -3360,7 +3498,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 783
+    "meta_sample_id": 783,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 47,
@@ -3452,7 +3593,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 898
+    "meta_sample_id": 898,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 48,
@@ -3485,7 +3629,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1025
+    "meta_sample_id": 1025,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 49,
@@ -3531,6 +3678,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1128
+    "meta_sample_id": 1128,
+    "tags": [
+      "Sports and Athletics"
+    ]
   }
 ]

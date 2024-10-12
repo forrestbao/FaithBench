@@ -85,7 +85,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 82
+    "meta_sample_id": 82,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 1,
@@ -188,7 +191,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 197
+    "meta_sample_id": 197,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 2,
@@ -249,7 +255,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 312
+    "meta_sample_id": 312,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 3,
@@ -297,7 +306,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 427
+    "meta_sample_id": 427,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 4,
@@ -374,7 +386,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 542
+    "meta_sample_id": 542,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 5,
@@ -459,7 +474,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 657
+    "meta_sample_id": 657,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 6,
@@ -503,7 +521,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 772
+    "meta_sample_id": 772,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 7,
@@ -550,7 +571,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 887
+    "meta_sample_id": 887,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 8,
@@ -584,7 +608,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1007
+    "meta_sample_id": 1007,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 9,
@@ -631,7 +658,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1117
+    "meta_sample_id": 1117,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 10,
@@ -725,7 +755,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 70
+    "meta_sample_id": 70,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 11,
@@ -815,7 +848,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 185
+    "meta_sample_id": 185,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 12,
@@ -846,7 +882,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 300
+    "meta_sample_id": 300,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 13,
@@ -919,7 +958,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 415
+    "meta_sample_id": 415,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 14,
@@ -986,7 +1028,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 530
+    "meta_sample_id": 530,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 15,
@@ -1050,7 +1095,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 645
+    "meta_sample_id": 645,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 16,
@@ -1148,7 +1196,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 760
+    "meta_sample_id": 760,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 17,
@@ -1199,7 +1250,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 875
+    "meta_sample_id": 875,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 18,
@@ -1233,7 +1287,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1024
+    "meta_sample_id": 1024,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 19,
@@ -1277,7 +1334,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1105
+    "meta_sample_id": 1105,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 20,
@@ -1293,7 +1353,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 109
+    "meta_sample_id": 109,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 21,
@@ -1309,7 +1372,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 224
+    "meta_sample_id": 224,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 22,
@@ -1325,7 +1391,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 339
+    "meta_sample_id": 339,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 23,
@@ -1341,7 +1410,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 454
+    "meta_sample_id": 454,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 24,
@@ -1357,7 +1429,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 569
+    "meta_sample_id": 569,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 25,
@@ -1373,7 +1448,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 684
+    "meta_sample_id": 684,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 26,
@@ -1389,7 +1467,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 799
+    "meta_sample_id": 799,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 27,
@@ -1405,7 +1486,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 914
+    "meta_sample_id": 914,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 28,
@@ -1421,7 +1505,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1021
+    "meta_sample_id": 1021,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 29,
@@ -1437,7 +1524,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1144
+    "meta_sample_id": 1144,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 30,
@@ -1453,7 +1543,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 104
+    "meta_sample_id": 104,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 31,
@@ -1469,7 +1562,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 219
+    "meta_sample_id": 219,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 32,
@@ -1485,7 +1581,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 334
+    "meta_sample_id": 334,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 33,
@@ -1501,7 +1600,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 449
+    "meta_sample_id": 449,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 34,
@@ -1517,7 +1619,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 564
+    "meta_sample_id": 564,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 35,
@@ -1533,7 +1638,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 679
+    "meta_sample_id": 679,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 36,
@@ -1549,7 +1657,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 794
+    "meta_sample_id": 794,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 37,
@@ -1565,7 +1676,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 909
+    "meta_sample_id": 909,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 38,
@@ -1581,7 +1695,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1022
+    "meta_sample_id": 1022,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 39,
@@ -1597,7 +1714,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1139
+    "meta_sample_id": 1139,
+    "tags": [
+      "Travel and Adventure"
+    ]
   },
   {
     "sample_id": 40,
@@ -1613,7 +1733,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 81
+    "meta_sample_id": 81,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 41,
@@ -1629,7 +1752,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 196
+    "meta_sample_id": 196,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 42,
@@ -1645,7 +1771,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 311
+    "meta_sample_id": 311,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 43,
@@ -1661,7 +1790,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 426
+    "meta_sample_id": 426,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 44,
@@ -1677,7 +1809,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 541
+    "meta_sample_id": 541,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 45,
@@ -1693,7 +1828,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 656
+    "meta_sample_id": 656,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 46,
@@ -1709,7 +1847,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 771
+    "meta_sample_id": 771,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 47,
@@ -1725,7 +1866,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 886
+    "meta_sample_id": 886,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 48,
@@ -1741,7 +1885,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 995
+    "meta_sample_id": 995,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 49,
@@ -1757,6 +1904,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1116
+    "meta_sample_id": 1116,
+    "tags": [
+      "News and Journalism"
+    ]
   }
 ]

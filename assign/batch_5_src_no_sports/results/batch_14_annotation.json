@@ -27,7 +27,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 36
+    "meta_sample_id": 36,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 1,
@@ -84,7 +87,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 151
+    "meta_sample_id": 151,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 2,
@@ -114,7 +120,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 266
+    "meta_sample_id": 266,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 3,
@@ -130,7 +139,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 381
+    "meta_sample_id": 381,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 4,
@@ -146,7 +158,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 496
+    "meta_sample_id": 496,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 5,
@@ -177,7 +192,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 611
+    "meta_sample_id": 611,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 6,
@@ -208,7 +226,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 726
+    "meta_sample_id": 726,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 7,
@@ -266,7 +287,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 841
+    "meta_sample_id": 841,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 8,
@@ -310,7 +334,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 962
+    "meta_sample_id": 962,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 9,
@@ -340,7 +367,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1071
+    "meta_sample_id": 1071,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 10,
@@ -385,7 +415,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 47
+    "meta_sample_id": 47,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 11,
@@ -419,7 +452,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 162
+    "meta_sample_id": 162,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 12,
@@ -477,7 +513,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 277
+    "meta_sample_id": 277,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 13,
@@ -493,7 +532,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 392
+    "meta_sample_id": 392,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 14,
@@ -538,7 +580,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 507
+    "meta_sample_id": 507,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 15,
@@ -569,7 +614,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 622
+    "meta_sample_id": 622,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 16,
@@ -600,7 +648,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 737
+    "meta_sample_id": 737,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 17,
@@ -645,7 +696,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 852
+    "meta_sample_id": 852,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 18,
@@ -661,7 +715,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 963
+    "meta_sample_id": 963,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 19,
@@ -691,7 +748,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1082
+    "meta_sample_id": 1082,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 20,
@@ -721,7 +781,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 56
+    "meta_sample_id": 56,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 21,
@@ -737,7 +800,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 171
+    "meta_sample_id": 171,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 22,
@@ -781,7 +847,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 286
+    "meta_sample_id": 286,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 23,
@@ -812,7 +881,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 401
+    "meta_sample_id": 401,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 24,
@@ -843,7 +915,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 516
+    "meta_sample_id": 516,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 25,
@@ -859,7 +934,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 631
+    "meta_sample_id": 631,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 26,
@@ -918,7 +996,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 746
+    "meta_sample_id": 746,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 27,
@@ -934,7 +1015,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 861
+    "meta_sample_id": 861,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 28,
@@ -965,7 +1049,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 967
+    "meta_sample_id": 967,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 29,
@@ -981,7 +1068,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1091
+    "meta_sample_id": 1091,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 30,
@@ -997,7 +1087,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 42
+    "meta_sample_id": 42,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 31,
@@ -1028,7 +1121,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 157
+    "meta_sample_id": 157,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 32,
@@ -1044,7 +1140,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 272
+    "meta_sample_id": 272,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 33,
@@ -1060,7 +1159,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 387
+    "meta_sample_id": 387,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 34,
@@ -1076,7 +1178,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 502
+    "meta_sample_id": 502,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 35,
@@ -1106,7 +1211,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 617
+    "meta_sample_id": 617,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 36,
@@ -1122,7 +1230,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 732
+    "meta_sample_id": 732,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 37,
@@ -1138,7 +1249,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 847
+    "meta_sample_id": 847,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 38,
@@ -1154,7 +1268,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 979
+    "meta_sample_id": 979,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 39,
@@ -1199,7 +1316,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1077
+    "meta_sample_id": 1077,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 40,
@@ -1229,7 +1349,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 24
+    "meta_sample_id": 24,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 41,
@@ -1245,7 +1368,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 139
+    "meta_sample_id": 139,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 42,
@@ -1261,7 +1387,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 254
+    "meta_sample_id": 254,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 43,
@@ -1292,7 +1421,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 369
+    "meta_sample_id": 369,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 44,
@@ -1323,7 +1455,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 484
+    "meta_sample_id": 484,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 45,
@@ -1339,7 +1474,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 599
+    "meta_sample_id": 599,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 46,
@@ -1370,7 +1508,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 714
+    "meta_sample_id": 714,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 47,
@@ -1386,7 +1527,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 829
+    "meta_sample_id": 829,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 48,
@@ -1402,7 +1546,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 953
+    "meta_sample_id": 953,
+    "tags": [
+      "Politics and International Relations"
+    ]
   },
   {
     "sample_id": 49,
@@ -1432,6 +1579,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1059
+    "meta_sample_id": 1059,
+    "tags": [
+      "Politics and International Relations"
+    ]
   }
 ]
