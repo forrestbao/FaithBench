@@ -130,20 +130,6 @@
         "summary_end": 86
       },
       {
-        "annot_id": 17,
-        "sample_id": 1,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
-        "annotator_name": "Manveer",
-        "summary_span": " the species, which was only described in scientific journals in 2003",
-        "summary_start": 293,
-        "summary_end": 362
-      },
-      {
         "annot_id": 18,
         "sample_id": 1,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -169,6 +155,23 @@
         "summary_span": "Note: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. ",
         "summary_start": 696,
         "summary_end": 807
+      },
+      {
+        "annot_id": 93,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only described in scientific journals in 2003",
+        "summary_start": 307,
+        "summary_end": 362,
+        "source_span": " omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 908,
+        "source_end": 993
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -201,18 +204,21 @@
         "summary_end": 278
       },
       {
-        "annot_id": 21,
+        "annot_id": 94,
         "sample_id": 2,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the source says it was first described in scientific papers in 2003. It may have been described otherwise before that",
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
         "annotator_name": "Manveer",
         "summary_span": "which was first described in 2003",
         "summary_start": 460,
-        "summary_end": 493
+        "summary_end": 493,
+        "source_span": "omura 's whale was only described in scientific journals for the first time in 2003",
+        "source_start": 909,
+        "source_end": 992
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -231,20 +237,6 @@
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
     "summary": "A rare Omura's whale, previously thought to be extinct, was discovered on a beach in Western Australia after a cyclone. This is a significant find as it is the first sighting in the state and only the second in Australia. The juvenile female was initially difficult to identify due to its rarity, but DNA profiling confirmed the species. The whale is of great interest to scientists as it was only recently described in 2003, and little is known about its biology and distribution. The species is typically found in tropical and subtropical waters, and its unique features include a sleek body, 53-60 vertebrae, and four digits on each pectoral fin. The skeleton will be recovered for scientific study and potential public display.",
     "annotations": [
-      {
-        "annot_id": 22,
-        "sample_id": 3,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says feared to be extinct, not thought to be extinct",
-        "annotator_name": "Manveer",
-        "summary_span": "previously thought to be extinct",
-        "summary_start": 22,
-        "summary_end": 54
-      },
       {
         "annot_id": 23,
         "sample_id": 3,
@@ -283,6 +275,23 @@
         "summary_span": "little is known about its biology and distribution",
         "summary_start": 430,
         "summary_end": 480
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 3,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": " previously thought to be extinct",
+        "summary_start": 21,
+        "summary_end": 54,
+        "source_span": "feared to be extinct ",
+        "source_start": 28,
+        "source_end": 49
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -330,20 +339,6 @@
         "summary_end": 816
       },
       {
-        "annot_id": 26,
-        "sample_id": 4,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "two issues here\n\nFor one, the whale was feared to be extinct, not thought to be extinct\n\nFor two, this likely applies everywhere, not just western australia",
-        "annotator_name": "Manveer",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86
-      },
-      {
         "annot_id": 44,
         "sample_id": 4,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -357,20 +352,6 @@
         "summary_end": 227
       },
       {
-        "annot_id": 46,
-        "sample_id": 4,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "it was described for the first time in 2003. it might have been described afterwards.",
-        "annotator_name": "Manveer",
-        "summary_span": ", which was only described scientifically in 2003",
-        "summary_start": 441,
-        "summary_end": 490
-      },
-      {
         "annot_id": 47,
         "sample_id": 4,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -382,6 +363,40 @@
         "summary_span": "such as 53 vertebra",
         "summary_start": 795,
         "summary_end": 814
+      },
+      {
+        "annot_id": 96,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "two issues here For one, the whale was feared to be extinct, not thought to be extinct For two, this likely applies everywhere, not just western australia\t",
+        "annotator_name": "Manveer",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86,
+        "source_span": " feared to be extinct",
+        "source_start": 27,
+        "source_end": 48
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only described scientifically in 2003",
+        "summary_start": 443,
+        "summary_end": 490,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 907,
+        "source_end": 993
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -492,20 +507,6 @@
     "summary": "An Omura's whale, a species rarely seen and thought to be extinct, was found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The whale was identified through DNA profiling and is a juvenile female. The discovery is significant because very little is known about the species, which was only scientifically described in 2003. The whale's carcass has been buried and will be recovered in a few years for further scientific investigation. \n",
     "annotations": [
       {
-        "annot_id": 50,
-        "sample_id": 7,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says feared to be extinct, not thought to be extinct",
-        "annotator_name": "Manveer",
-        "summary_span": "a species rarely seen and thought to be extinct",
-        "summary_start": 18,
-        "summary_end": 65
-      },
-      {
         "annot_id": 51,
         "sample_id": 7,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -519,18 +520,38 @@
         "summary_end": 182
       },
       {
-        "annot_id": 52,
+        "annot_id": 98,
         "sample_id": 7,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the source says first described in 2003. It might have been described afterwards",
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "thought to be extinct",
+        "summary_start": 44,
+        "summary_end": 65,
+        "source_span": "feared to be extinct",
+        "source_start": 28,
+        "source_end": 48
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
         "annotator_name": "Manveer",
         "summary_span": "which was only scientifically described in 2003",
         "summary_start": 367,
-        "summary_end": 414
+        "summary_end": 414,
+        "source_span": " omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 908,
+        "source_end": 993
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -550,20 +571,6 @@
     "summary": "A species of whale called the Omura's whale, which was thought to be extinct, has been found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The discovery is significant for scientists as very little is known about the species, which was only described in scientific journals in 2003. The whale has unique skeletal features and is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums.",
     "annotations": [
       {
-        "annot_id": 53,
-        "sample_id": 8,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says feared to be extinct, not thought to be extinct",
-        "annotator_name": "Manveer",
-        "summary_span": " which was thought to be extinct",
-        "summary_start": 44,
-        "summary_end": 76
-      },
-      {
         "annot_id": 54,
         "sample_id": 8,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -577,18 +584,38 @@
         "summary_end": 199
       },
       {
-        "annot_id": 55,
+        "annot_id": 101,
         "sample_id": 8,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the source says first described in 2003. not only described in 2003",
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
         "annotator_name": "Manveer",
-        "summary_span": " was only described in scientific journals in 2003",
-        "summary_start": 325,
-        "summary_end": 375
+        "summary_span": "was only described in scientific journals in 2003.",
+        "summary_start": 326,
+        "summary_end": 376,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 907,
+        "source_end": 993
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "which was thought to be extinct,",
+        "summary_start": 45,
+        "summary_end": 77,
+        "source_span": "feared to be extinct",
+        "source_start": 28,
+        "source_end": 48
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -907,7 +934,7 @@
         "summary_end": 359
       },
       {
-        "annot_id": 68,
+        "annot_id": 103,
         "sample_id": 14,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
@@ -1330,20 +1357,6 @@
         "summary_end": 166
       },
       {
-        "annot_id": 76,
-        "sample_id": 30,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the year is hallucinated, no evidence for it in the source and it seems wrong",
-        "annotator_name": "Manveer",
-        "summary_span": "2021",
-        "summary_start": 304,
-        "summary_end": 308
-      },
-      {
         "annot_id": 77,
         "sample_id": 30,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -1357,7 +1370,21 @@
         "summary_end": 502
       },
       {
-        "annot_id": 78,
+        "annot_id": 104,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the year is hallucinated, no evidence for it in the source and it seems wrong",
+        "annotator_name": "Manveer",
+        "summary_span": "2021",
+        "summary_start": 304,
+        "summary_end": 308
+      },
+      {
+        "annot_id": 105,
         "sample_id": 30,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
@@ -1366,9 +1393,12 @@
         ],
         "note": "the source says 14:48 GMT",
         "annotator_name": "Manveer",
-        "summary_span": "15:48 GMT ",
+        "summary_span": "15:48 GMT",
         "summary_start": 353,
-        "summary_end": 363
+        "summary_end": 362,
+        "source_span": "15:48 (14:48 GMT),",
+        "source_start": 447,
+        "source_end": 465
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1699,20 +1729,6 @@
         "summary_end": 380
       },
       {
-        "annot_id": 85,
-        "sample_id": 41,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "it seems that the attorney stated she is undergoing rehab, not the father",
-        "annotator_name": "Manveer",
-        "summary_span": "obby Brown, her father, stated that she is awake and undergoing a long rehabilitation process",
-        "summary_start": 429,
-        "summary_end": 522
-      },
-      {
         "annot_id": 86,
         "sample_id": 41,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -1724,6 +1740,23 @@
         "summary_span": " emotional and challenging",
         "summary_start": 594,
         "summary_end": 620
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it seems that the attorney stated she is undergoing rehab, not the father",
+        "annotator_name": "Manveer",
+        "summary_span": "Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process",
+        "summary_start": 428,
+        "summary_end": 522,
+        "source_span": "\" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process ,",
+        "source_start": 1379,
+        "source_end": 1495
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1786,14 +1819,14 @@
         "summary_end": 97
       },
       {
-        "annot_id": 88,
+        "annot_id": 107,
         "sample_id": 43,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
-          "Unwanted.Instrinsic"
+          "Unwanted.Extrinsic"
         ],
-        "note": "the source says nothing about a performance",
+        "note": "the source says nothing about a performance\t",
         "annotator_name": "Manveer",
         "summary_span": "and watching him during a performance",
         "summary_start": 400,
@@ -1817,18 +1850,21 @@
     "summary": "Bobbi Kristina Brown, the daughter of Bobby Brown and Whitney Houston, has been diagnosed with global and irreversible brain damage. She remains unresponsive and is undergoing rehabilitation, though her condition has not significantly improved over nearly three months. Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources. Bobbi Kristina's grandmother, Cissy Houston, expressed hope for a miracle while acknowledging the possibility of a lifelong condition.",
     "annotations": [
       {
-        "annot_id": 89,
+        "annot_id": 108,
         "sample_id": 44,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the contradiction came from the grandmother's comments and the attorney's clarification, not directly from medical sources.",
+        "note": "the contradiction came from the grandmother's comments and the attorney's clarification, not directly from medical sources.\t",
         "annotator_name": "Manveer",
-        "summary_span": "Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources.",
+        "summary_span": "Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources. ",
         "summary_start": 270,
-        "summary_end": 409
+        "summary_end": 410,
+        "source_span": " according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive ",
+        "source_start": 127,
+        "source_end": 251
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1894,18 +1930,21 @@
     "summary": "Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has suffered global and irreversible brain damage. Though she is no longer in a medically induced coma, she remains unresponsive and does not react to visitors or familiar voices. She has a tracheostomy in her throat and her condition has not changed in nearly three months. While her father, Bobby Brown, stated that she is awake and watching him, her grandmother, Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come. \n",
     "annotations": [
       {
-        "annot_id": 91,
+        "annot_id": 110,
         "sample_id": 47,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "this was said by the attorney not cissy, although cissy had did contradict the father.",
+        "note": "this was said by the attorney not cissy, although cissy did contradict the father.",
         "annotator_name": "Manveer",
         "summary_span": "Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come.",
         "summary_start": 433,
-        "summary_end": 579
+        "summary_end": 579,
+        "source_span": "\" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \"",
+        "source_start": 1379,
+        "source_end": 1563
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",

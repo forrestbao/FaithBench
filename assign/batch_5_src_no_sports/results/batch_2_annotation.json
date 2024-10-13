@@ -1643,6 +1643,20 @@
         "summary_span": "He is known for his work in the film 'Finding Dory',",
         "summary_start": 94,
         "summary_end": 146
+      },
+      {
+        "annot_id": 331,
+        "sample_id": 23,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "He is known for his work in the film 'Finding Dory'",
+        "summary_start": 94,
+        "summary_end": 145
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1661,20 +1675,6 @@
     "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
     "summary": "The passage provides information about Albert Lawrence Brooks, an American actor, filmmaker, author, and comedian, who was born on July 22, 1947, originally named Albert Lawrence Einstein. It also mentions that he was involved in the film \"Finding Dory,\" which was directed by Andrew Stanton with co-direction by Angus MacLane, and the screenplay was written by Stanton and Victoria Strouse.",
     "annotations": [
-      {
-        "annot_id": 72,
-        "sample_id": 24,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "From the source it cannot be inferred he was involved in the file \"Finding Dory\".",
-        "annotator_name": "Weisi",
-        "summary_span": "It also mentions that he was involved in the film \"Finding Dory,",
-        "summary_start": 189,
-        "summary_end": 253
-      },
       {
         "annot_id": 262,
         "sample_id": 24,
@@ -1705,6 +1705,20 @@
         "source_span": "Finding Dory .",
         "source_start": 131,
         "source_end": 145
+      },
+      {
+        "annot_id": 332,
+        "sample_id": 24,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From the source it cannot be inferred he was involved in the file \"Finding Dory\".",
+        "annotator_name": "Weisi",
+        "summary_span": "It also mentions that he was involved in the film \"Finding Dory,\"",
+        "summary_start": 189,
+        "summary_end": 254
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1923,20 +1937,6 @@
     "summary": "Albert Brooks, born Albert Lawrence Einstein, is an American actor, filmmaker, author, and comedian. He is known for his work in the film \"Finding Dory,\" which was directed by Andrew Stanton and co-directed by Angus MacLane. The screenplay was written by Stanton and Victoria Strouse. \n",
     "annotations": [
       {
-        "annot_id": 74,
-        "sample_id": 27,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This sentence cannot be inferred from source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "He is known for his work in the film \"Finding Dory,\"",
-        "summary_start": 101,
-        "summary_end": 153
-      },
-      {
         "annot_id": 258,
         "sample_id": 27,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -1963,6 +1963,20 @@
         "summary_span": "He is known for his work in the film \"Finding Dory,\" ",
         "summary_start": 101,
         "summary_end": 154
+      },
+      {
+        "annot_id": 333,
+        "sample_id": 27,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This sentence cannot be inferred from source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "He is known for his work in the film \"Finding Dory,\"",
+        "summary_start": 101,
+        "summary_end": 153
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2028,23 +2042,6 @@
     "summary": "Albert Lawrence Brooks, born Albert Lawrence Einstein on July 22, 1947, is an American actor, filmmaker, author, and comedian. He was involved in the film \"Finding Dory,\" which was directed by Andrew Stanton with co-direction by Angus MacLane, and the screenplay was written by Stanton and Victoria Strouse.",
     "annotations": [
       {
-        "annot_id": 75,
-        "sample_id": 29,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This fact cannot be inferred from source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "He was involved in the film \"Finding Dory,\"",
-        "summary_start": 127,
-        "summary_end": 170,
-        "source_span": "Finding Dory .",
-        "source_start": 131,
-        "source_end": 145
-      },
-      {
         "annot_id": 263,
         "sample_id": 29,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -2070,6 +2067,20 @@
         "summary_span": " He was involved in the film \"Finding Dory,\" ",
         "summary_start": 126,
         "summary_end": 171
+      },
+      {
+        "annot_id": 334,
+        "sample_id": 29,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This fact cannot be inferred from source doc.\t",
+        "annotator_name": "Weisi",
+        "summary_span": "He was involved in the film \"Finding Dory,\"",
+        "summary_start": 127,
+        "summary_end": 170
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2088,34 +2099,6 @@
     "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
     "summary": " The passage provides information about two individuals with similar names but different professions and nationalities. Timothy Simon Roth, born May 14, 1961, is an English actor and director. On the other hand, Tim Roth, born December 6, 1975, is a Canadian musician, serving as the guitarist, backing vocalist, and the only remaining founding member of the Canadian melodic death metal and progressive metal band, Into Eternity.",
     "annotations": [
-      {
-        "annot_id": 86,
-        "sample_id": 30,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "From source we don't know if they have different nationalities.",
-        "annotator_name": "Weisi",
-        "summary_span": "nationalities.",
-        "summary_start": 105,
-        "summary_end": 119
-      },
-      {
-        "annot_id": 87,
-        "sample_id": 30,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "From source we don't know his nationality.",
-        "annotator_name": "Weisi",
-        "summary_span": " Canadian musician",
-        "summary_start": 249,
-        "summary_end": 267
-      },
       {
         "annot_id": 201,
         "sample_id": 30,
@@ -2170,6 +2153,34 @@
         "summary_span": "two individuals with similar names but different professions and nationalities.",
         "summary_start": 40,
         "summary_end": 119
+      },
+      {
+        "annot_id": 335,
+        "sample_id": 30,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From source we don't know if they have different nationalities.",
+        "annotator_name": "Weisi",
+        "summary_span": " nationalities.",
+        "summary_start": 104,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 336,
+        "sample_id": 30,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From source we don't know his nationality.\t",
+        "annotator_name": "Weisi",
+        "summary_span": " Canadian musician",
+        "summary_start": 249,
+        "summary_end": 267
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2802,20 +2813,6 @@
         "source_end": 295
       },
       {
-        "annot_id": 77,
-        "sample_id": 42,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source doesn't mention this fact.",
-        "annotator_name": "Weisi",
-        "summary_span": " One person died, ",
-        "summary_start": 158,
-        "summary_end": 176
-      },
-      {
         "annot_id": 93,
         "sample_id": 42,
         "annotator": "5fddd5f671c349668d712192d090e867",
@@ -2864,6 +2861,20 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
+      },
+      {
+        "annot_id": 337,
+        "sample_id": 42,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention this fact.",
+        "annotator_name": "Weisi",
+        "summary_span": "One person died, and several others sustained minor injuries",
+        "summary_start": 159,
+        "summary_end": 219
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2914,20 +2925,6 @@
         "source_end": 295
       },
       {
-        "annot_id": 78,
-        "sample_id": 43,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The fact one person with serious injuries is not mentioned in source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "A crash on the A9 in Caithness resulted in one person being taken to hospital with serious injuries and several others sustaining minor injuries.",
-        "summary_start": 0,
-        "summary_end": 145
-      },
-      {
         "annot_id": 231,
         "sample_id": 43,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -2972,6 +2969,20 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
+      },
+      {
+        "annot_id": 338,
+        "sample_id": 43,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact one person with serious injuries is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "A crash on the A9 in Caithness resulted in one person being taken to hospital with serious injuries and several others sustaining minor injuries.",
+        "summary_start": 0,
+        "summary_end": 145
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -3105,20 +3116,6 @@
         "source_end": 295
       },
       {
-        "annot_id": 79,
-        "sample_id": 45,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The fact multi-vehicle crash is not mentioned in source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "\n\nA multi-vehicle crash occurred on the A9 north of Berriedale in Caithness at around 14:00, resulting in minor injuries to several people",
-        "summary_start": 41,
-        "summary_end": 179
-      },
-      {
         "annot_id": 95,
         "sample_id": 45,
         "annotator": "5fddd5f671c349668d712192d090e867",
@@ -3197,6 +3194,20 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 339,
+        "sample_id": 45,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact multi-vehicle crash is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": ":\n\nA multi-vehicle crash occurred on the A9 north of Berriedale in Caithness at around 14:00, r",
+        "summary_start": 40,
+        "summary_end": 135
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -3263,20 +3274,6 @@
         "source_end": 79
       },
       {
-        "annot_id": 80,
-        "sample_id": 46,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The fact fatality may not be inferred from source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "A road incident occurred on the A9 in Caithness at 14:00, resulting in multiple minor injuries and one fatality (implied, but not explicitly stated)",
-        "summary_start": 43,
-        "summary_end": 191
-      },
-      {
         "annot_id": 242,
         "sample_id": 46,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -3341,6 +3338,20 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 340,
+        "sample_id": 46,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact fatality may not be inferred from source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "A road incident occurred on the A9 in Caithness at 14:00, resulting in multiple minor injuries and one fatality (implied, but not explicitly stated)",
+        "summary_start": 43,
+        "summary_end": 191
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",

@@ -1279,6 +1279,77 @@
         "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
         "summary_start": 959,
         "summary_end": 1008
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 22,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I might be nitpicking here. I feel like a auction starting from 100,000 does not necessarily mean that the whole collection is estimated to be worth 100,000.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "estimated to be worth £100,000",
+        "summary_start": 160,
+        "summary_end": 190,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
+        "source_end": 96
+      },
+      {
+        "annot_id": 103,
+        "sample_id": 22,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not mentioned in the source but can be referred.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "reflecting his interests in military history and medieval longbows",
+        "summary_start": 289,
+        "summary_end": 355
+      },
+      {
+        "annot_id": 104,
+        "sample_id": 22,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "“Notable” is not mentioned in the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Notable items",
+        "summary_start": 357,
+        "summary_end": 370
+      },
+      {
+        "annot_id": 105,
+        "sample_id": 22,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Nothing about those books being “rare” is mentioned.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Rare books",
+        "summary_start": 578,
+        "summary_end": 588
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 22,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This sentence is cutoff.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
+        "summary_start": 959,
+        "summary_end": 1008
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1309,6 +1380,23 @@
         "summary_span": "student of J.R.R. Tolkien",
         "summary_start": 341,
         "summary_end": 366
+      },
+      {
+        "annot_id": 107,
+        "sample_id": 23,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Valued at 100,000 != a 100,000 auction in my opinion. The later could be that the auction’s starting price is 100,000.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "valued at £100,000",
+        "summary_start": 100,
+        "summary_end": 118,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
+        "source_end": 96
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1340,6 +1428,34 @@
         "summary_span": "medieval longbow",
         "summary_start": 117,
         "summary_end": 133
+      },
+      {
+        "annot_id": 108,
+        "sample_id": 24,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "I labeled “features” as extrinsic following the same logic of labeling “notable” as extrinsic. I would take words as “including”. But I think words like “features” somehow stress the item detailed in the source are the important ones of the whole collection, but I don’t see hints of cut highlights from the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "features",
+        "summary_start": 217,
+        "summary_end": 225
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 24,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source mentioned his extensive collection and his interests separately. The summary put it in a way that the latter leads to the former which I think is a stretch.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "his extensive collection amassed through his interests in classic literature and military history.",
+        "summary_start": 237,
+        "summary_end": 335
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1357,7 +1473,21 @@
     "sample_id": 25,
     "source": "veteran actor robert hardy is selling his enormous collection of antiques in a £ 100,000 auction after deciding to downsize his home . \nthe star , known for appearing in all creatures great and small and playing winston churchill several times , is auctioning off more than 200 items he has collected over his career . \nmr hardy , 89 , is a keen military historian who studied english with j.r.r. tolkien and is now an expert on the medieval longbow . \nsale : actor robert hardy is selling off his collection of antiques including a diorama of the battle of agincourt\ncabinets : a pair of early victorian items of furniture made by gillows of lancaster which are set to fetch up to £ 4,000 at the auction on saturday\nportrait : a painting of mr hardy holding a longbow , reflecting his interest in medieval history\none of the most unusual items featured in the auction of his possessions is a hand-painted limewood diorama depicted the progress of the battle of agincourt in 3d . \nthe piece was created by artist l.m. rendall in the 1960s after being commissioned by mr hardy himself , and has an estimate of £ 4,000 to £ 6,000 . \nthere is also a longbow made from yew with a mother-of-pearl handle , as well as a portrait of mr hardy holding the bow , which is set to sell for up to £ 2,000 . \nthe actor is also selling paintings , furniture , swords , flintlock rifles , silverware and a fine collection of crystal chandeliers . \ndiorama : the 3d model was commissioned specially by mr hardy from artist l.m. rendall in the 1960s\nclose-up : the piece was rendered in amazing detail showing the progress of the battle in 1415\nluxurious : a view of many of the items of furniture and other antiques which are being sold\ndozens of books , some dating back to the 17th century , are included in the auction which is set to take place this saturday . \na total of 238 lots are being sold by dominic winter auctioneers at its saleroom in south cerney , gloucestershire . \nmr hardy , who lives in the cotswolds , said that he was sad to sell his collection . \n` downsizing and losing a great part of a treasured library makes for sadness , ' he said . \n` entrusting it all to dominic winter and co has taken away much of the pain , and through them i wish anyone who comes to possess anything that was mine as much joy and pleasure as it has given me through the years . ' \nhistorical : an early 20th-century painting of alfred the great rebuilding london , by frank owen salisbury\nauction : the objects are being sold at dominic winter in gloucestershire on saturday\npride : mr hardy pictured in 2012 with the longbow and other objects from his collection\nhe has built up the haul of antiques thanks to his interest in classic literature and military history . \nmr hardy was taught by tolkien and c.s. lewis when he studied english at magdalen college , oxford , and he has published two books on the history of the longbow . \nhe was also consulted as an expert during the raising of the tudor shipwreck the mary rose . \nmr hardy , a close friend of richard burton , worked with top actors including laurence olivier , john gielgud and judi dench during his early days as a shakespearean specialist . \nhe found national fame playing vet siegfried farnon in all creatures great and small , the hit bbc drama which aired between 1978 and 1996 and also starred lynda bellingham . \nstar : mr hardy , left , is known for his role as vet siegriein the bbc 's all creatures great and small\nrole : he has frequently played winston churchill in a series of television dramas\nnew generation : mr hardy appeared as minister for magic cornelius fudge in the harry potter films\nthe actor is well known for portraying winston churchill in a number of television performances , and has also played churchill 's fellow second world war leader franklin d. roosevelt . \nmore recently , he introduced himself to a younger generation of viewers with an appearance in the harry potter films , where he played cornelius fudge , the minister for magic . \nmr hardy was forced to retire from stage acting two years ago , when he suffered a fall while playing churchill again in the audience , a west end play about the queen which starred helen mirren . \nhowever , he has insisted that he will continue to do television work despite his advanced age .",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nRobert Hardy, a veteran actor known for his roles in \"All Creatures Great and Small\" and \"Harry Potter\" films, is selling his vast collection of antiques, including over 200 items, in a £100,000 auction. The collection, which spans centuries, includes a hand-painted diorama of the Battle of Agincourt, a pair of Victorian cabinets, a longbow, and numerous books, some dating back to the 17th century. Hardy, 89, is a keen military historian and expert on the medieval longbow, and has built up the collection over his career, which has spanned stage and television acting. The auction will take place on Saturday at Dominic Winter Auctioneers in Gloucestershire.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 110,
+        "sample_id": 25,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is not explicitly mentioned in the source but can be inferred.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "which spans centuries",
+        "summary_start": 314,
+        "summary_end": 335
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.35296,
     "meta_hhem-2.1": 0.9389,
@@ -1373,7 +1503,42 @@
     "sample_id": 26,
     "source": "veteran actor robert hardy is selling his enormous collection of antiques in a £ 100,000 auction after deciding to downsize his home . \nthe star , known for appearing in all creatures great and small and playing winston churchill several times , is auctioning off more than 200 items he has collected over his career . \nmr hardy , 89 , is a keen military historian who studied english with j.r.r. tolkien and is now an expert on the medieval longbow . \nsale : actor robert hardy is selling off his collection of antiques including a diorama of the battle of agincourt\ncabinets : a pair of early victorian items of furniture made by gillows of lancaster which are set to fetch up to £ 4,000 at the auction on saturday\nportrait : a painting of mr hardy holding a longbow , reflecting his interest in medieval history\none of the most unusual items featured in the auction of his possessions is a hand-painted limewood diorama depicted the progress of the battle of agincourt in 3d . \nthe piece was created by artist l.m. rendall in the 1960s after being commissioned by mr hardy himself , and has an estimate of £ 4,000 to £ 6,000 . \nthere is also a longbow made from yew with a mother-of-pearl handle , as well as a portrait of mr hardy holding the bow , which is set to sell for up to £ 2,000 . \nthe actor is also selling paintings , furniture , swords , flintlock rifles , silverware and a fine collection of crystal chandeliers . \ndiorama : the 3d model was commissioned specially by mr hardy from artist l.m. rendall in the 1960s\nclose-up : the piece was rendered in amazing detail showing the progress of the battle in 1415\nluxurious : a view of many of the items of furniture and other antiques which are being sold\ndozens of books , some dating back to the 17th century , are included in the auction which is set to take place this saturday . \na total of 238 lots are being sold by dominic winter auctioneers at its saleroom in south cerney , gloucestershire . \nmr hardy , who lives in the cotswolds , said that he was sad to sell his collection . \n` downsizing and losing a great part of a treasured library makes for sadness , ' he said . \n` entrusting it all to dominic winter and co has taken away much of the pain , and through them i wish anyone who comes to possess anything that was mine as much joy and pleasure as it has given me through the years . ' \nhistorical : an early 20th-century painting of alfred the great rebuilding london , by frank owen salisbury\nauction : the objects are being sold at dominic winter in gloucestershire on saturday\npride : mr hardy pictured in 2012 with the longbow and other objects from his collection\nhe has built up the haul of antiques thanks to his interest in classic literature and military history . \nmr hardy was taught by tolkien and c.s. lewis when he studied english at magdalen college , oxford , and he has published two books on the history of the longbow . \nhe was also consulted as an expert during the raising of the tudor shipwreck the mary rose . \nmr hardy , a close friend of richard burton , worked with top actors including laurence olivier , john gielgud and judi dench during his early days as a shakespearean specialist . \nhe found national fame playing vet siegfried farnon in all creatures great and small , the hit bbc drama which aired between 1978 and 1996 and also starred lynda bellingham . \nstar : mr hardy , left , is known for his role as vet siegriein the bbc 's all creatures great and small\nrole : he has frequently played winston churchill in a series of television dramas\nnew generation : mr hardy appeared as minister for magic cornelius fudge in the harry potter films\nthe actor is well known for portraying winston churchill in a number of television performances , and has also played churchill 's fellow second world war leader franklin d. roosevelt . \nmore recently , he introduced himself to a younger generation of viewers with an appearance in the harry potter films , where he played cornelius fudge , the minister for magic . \nmr hardy was forced to retire from stage acting two years ago , when he suffered a fall while playing churchill again in the audience , a west end play about the queen which starred helen mirren . \nhowever , he has insisted that he will continue to do television work despite his advanced age .",
     "summary": "Here is a concise summary of the passage:\n\nVeteran actor Robert Hardy, 89, is selling his collection of over 200 antiques, estimated to be worth £100,000, in an auction on Saturday. The collection includes items such as a hand-painted limewood diorama of the Battle of Agincourt, a longbow, paintings, furniture, swords, and crystal chandeliers. Hardy, a keen military historian and expert on the medieval longbow, has collected these items over his career and is downsizing his home in the Cotswolds. The auction, featuring 238 lots, will take place at Dominic Winter Auctioneers in Gloucestershire. Hardy has expressed sadness at parting with his collection, but hopes it will bring joy to its new owners.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 111,
+        "sample_id": 26,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Estimated worth 100,000 != a 100,000 auction.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "estimated to be worth £100,000",
+        "summary_start": 123,
+        "summary_end": 153,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
+        "source_end": 96
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 26,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Mr Hardy lives in the cotsworlds and he is downsizing his home. However, this does not necessarily mean that he is downsizing his cotsworlds home. He might have another home outside cotworlds which he is downsizing.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "is downsizing his home in the Cotswolds.",
+        "summary_start": 461,
+        "summary_end": 501,
+        "source_span": "who lives in the cotswolds",
+        "source_start": 1978,
+        "source_end": 2004
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.31621,
     "meta_hhem-2.1": 0.93095,
@@ -1421,7 +1586,25 @@
     "sample_id": 29,
     "source": "veteran actor robert hardy is selling his enormous collection of antiques in a £ 100,000 auction after deciding to downsize his home . \nthe star , known for appearing in all creatures great and small and playing winston churchill several times , is auctioning off more than 200 items he has collected over his career . \nmr hardy , 89 , is a keen military historian who studied english with j.r.r. tolkien and is now an expert on the medieval longbow . \nsale : actor robert hardy is selling off his collection of antiques including a diorama of the battle of agincourt\ncabinets : a pair of early victorian items of furniture made by gillows of lancaster which are set to fetch up to £ 4,000 at the auction on saturday\nportrait : a painting of mr hardy holding a longbow , reflecting his interest in medieval history\none of the most unusual items featured in the auction of his possessions is a hand-painted limewood diorama depicted the progress of the battle of agincourt in 3d . \nthe piece was created by artist l.m. rendall in the 1960s after being commissioned by mr hardy himself , and has an estimate of £ 4,000 to £ 6,000 . \nthere is also a longbow made from yew with a mother-of-pearl handle , as well as a portrait of mr hardy holding the bow , which is set to sell for up to £ 2,000 . \nthe actor is also selling paintings , furniture , swords , flintlock rifles , silverware and a fine collection of crystal chandeliers . \ndiorama : the 3d model was commissioned specially by mr hardy from artist l.m. rendall in the 1960s\nclose-up : the piece was rendered in amazing detail showing the progress of the battle in 1415\nluxurious : a view of many of the items of furniture and other antiques which are being sold\ndozens of books , some dating back to the 17th century , are included in the auction which is set to take place this saturday . \na total of 238 lots are being sold by dominic winter auctioneers at its saleroom in south cerney , gloucestershire . \nmr hardy , who lives in the cotswolds , said that he was sad to sell his collection . \n` downsizing and losing a great part of a treasured library makes for sadness , ' he said . \n` entrusting it all to dominic winter and co has taken away much of the pain , and through them i wish anyone who comes to possess anything that was mine as much joy and pleasure as it has given me through the years . ' \nhistorical : an early 20th-century painting of alfred the great rebuilding london , by frank owen salisbury\nauction : the objects are being sold at dominic winter in gloucestershire on saturday\npride : mr hardy pictured in 2012 with the longbow and other objects from his collection\nhe has built up the haul of antiques thanks to his interest in classic literature and military history . \nmr hardy was taught by tolkien and c.s. lewis when he studied english at magdalen college , oxford , and he has published two books on the history of the longbow . \nhe was also consulted as an expert during the raising of the tudor shipwreck the mary rose . \nmr hardy , a close friend of richard burton , worked with top actors including laurence olivier , john gielgud and judi dench during his early days as a shakespearean specialist . \nhe found national fame playing vet siegfried farnon in all creatures great and small , the hit bbc drama which aired between 1978 and 1996 and also starred lynda bellingham . \nstar : mr hardy , left , is known for his role as vet siegriein the bbc 's all creatures great and small\nrole : he has frequently played winston churchill in a series of television dramas\nnew generation : mr hardy appeared as minister for magic cornelius fudge in the harry potter films\nthe actor is well known for portraying winston churchill in a number of television performances , and has also played churchill 's fellow second world war leader franklin d. roosevelt . \nmore recently , he introduced himself to a younger generation of viewers with an appearance in the harry potter films , where he played cornelius fudge , the minister for magic . \nmr hardy was forced to retire from stage acting two years ago , when he suffered a fall while playing churchill again in the audience , a west end play about the queen which starred helen mirren . \nhowever , he has insisted that he will continue to do television work despite his advanced age .",
     "summary": "Veteran actor Robert Hardy, known for roles in \"All Creatures Great and Small\" and as Winston Churchill, is auctioning his extensive antique collection worth £100,000 due to downsizing. The 89-year-old, a military historian and expert on the medieval longbow, is selling over 200 items, including a detailed diorama of the Battle of Agincourt, Victorian furniture, a yew longbow, paintings, swords, rifles, silverware, and crystal chandeliers. The auction, managed by Dominic Winter Auctioneers, features 238 lots, including books from the 17th century. Hardy, who studied under J.R.R. Tolkien and C.S. Lewis, expressed sadness over parting with his collection but hopes new owners will find joy in the items. Despite retiring from stage acting after a fall, Hardy continues to pursue television work.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 113,
+        "sample_id": 29,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Worth 100,000 != a 100,000 auction.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "worth £100,000",
+        "summary_start": 152,
+        "summary_end": 166,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
+        "source_end": 96
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.26092,
     "meta_hhem-2.1": 0.97195,
@@ -1479,6 +1662,53 @@
         "summary_span": "Public health experts",
         "summary_start": 1090,
         "summary_end": 1111
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 30,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary misses “during the past month” which I think is an important factor to quantify the definition of heavy drinking.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Heavy drinking is defined as exceeding an average of one drink per day for women and two drinks per day for men",
+        "summary_start": 267,
+        "summary_end": 378,
+        "source_span": " heavy drinking as exceeding an average of one drink per day during the past month for women and two drinks per day for men ",
+        "source_start": 573,
+        "source_end": 697
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 30,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary misses “during the past month”.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "binge drinking is defined as four or more drinks for women and five or more drinks for men on a single occasion.",
+        "summary_start": 386,
+        "summary_end": 498,
+        "source_span": "\nbinge drinking is defined as four or more drinks for women and five or more drinks for men on a single occasion at least once during the past month .",
+        "source_start": 699,
+        "source_end": 849
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 30,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This sentence is cutoff.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Public health experts",
+        "summary_start": 1090,
+        "summary_end": 1111
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1510,6 +1740,33 @@
         "summary_span": "The study also noted that alcohol-related deaths and costs have been significant, with public health experts attributing the increase in excessive drinking to changing social norms, affluence, and weakened alcohol control policies.",
         "summary_start": 806,
         "summary_end": 1037
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 31,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source did mention that binge drinking rate among women increased more than 7 times the rate among men. But nothing about the how significantly that binge drinking rate among all people increased is mentioned through the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Binge drinking, defined as four or more drinks for women and five or more for men on a single occasion at least once a month, also increased significantly",
+        "summary_start": 276,
+        "summary_end": 430
+      },
+      {
+        "annot_id": 118,
+        "sample_id": 31,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "Death and cost being significant is not explicitly mentioned in the source but can be inferred.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "deaths and costs have been significant",
+        "summary_start": 848,
+        "summary_end": 886
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1539,6 +1796,33 @@
         "annotator_name": "Amin Ahmad",
         "summary_span": "and an estimated cost of over $220",
         "summary_start": 1038,
+        "summary_end": 1072
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 32,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Deaths and costs being significant is not mentioned but can be inferred.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Alcohol-related deaths and economic costs are significant",
+        "summary_start": 925,
+        "summary_end": 982
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 32,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This sentence seems cutoff.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "estimated cost of over $220",
+        "summary_start": 1045,
         "summary_end": 1072
       }
     ],
@@ -1574,6 +1858,45 @@
         "source_span": "\nin santa clara county , calif. , for example , women 's binge drinking rates rose by nearly 36 percent between 2002 and 2012 , compared with 23 percent among men .",
         "source_start": 957,
         "source_end": 1121
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 33,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "Increased “significantly” is not explicitly mentioned in the source but can be inferred.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "have increased significantly",
+        "summary_start": 50,
+        "summary_end": 78
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 33,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "“Concerning” is not explicitly mentioned but can be inferred.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The study's findings are concerning",
+        "summary_start": 806,
+        "summary_end": 841
+      },
+      {
+        "annot_id": 123,
+        "sample_id": 33,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is not explicitly mentioned in the source. The expert’s words might have hinted this. And this can also be inferred using common sense. So I labeled it as “benign”.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "as excessive drinking has severe health and economic consequences",
+        "summary_start": 843,
+        "summary_end": 908
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1605,6 +1928,19 @@
         "summary_span": "Factors contributing to this trend include changing social norms, increased affordability of alcohol, and more aggressive alcohol advertising. Public health experts suggest that these changes have led to more acceptable and frequent binge drinking, especially among women.",
         "summary_start": 499,
         "summary_end": 771
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 34,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "“Rising significantly” is not explicitly mentioned in the source, but since it is 7 times higher which I think can be counted as a “benign” hallucination.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "with women's rates rising significantly faster than men's.",
+        "summary_start": 251,
+        "summary_end": 309
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1653,6 +1989,57 @@
         "source_span": "\nbinge drinking is defined as four or more drinks for women and five or more drinks for men on a single occasion at least once during the past month ",
         "source_start": 699,
         "source_end": 848
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 35,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Summary misses “during the past month”.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "heavy drinking as exceeding one drink per day for women and two drinks per day for men.",
+        "summary_start": 296,
+        "summary_end": 383,
+        "source_span": "heavy drinking as exceeding an average of one drink per day during the past month for women and two drinks per day for men ",
+        "source_start": 574,
+        "source_end": 697
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 35,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Summary misses “during the past month”.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Binge drinking, defined as four or more drinks for women and five or more drinks for men on a single occasion",
+        "summary_start": 384,
+        "summary_end": 493,
+        "source_span": "\nbinge drinking is defined as four or more drinks for women and five or more drinks for men on a single occasion at least once during the past month",
+        "source_start": 699,
+        "source_end": 847
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 35,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary suggests that the overall binge drinking rate increased seven times the rate among men, which is incorrect according to the source.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "increased more than seven times the rate among men",
+        "summary_start": 495,
+        "summary_end": 545,
+        "source_span": "rate of binge drinking among women increased more than seven times the rate among men .",
+        "source_start": 1170,
+        "source_end": 1257
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1703,6 +2090,23 @@
         "source_span": "\nthe centers for disease control and prevention defines heavy drinking as exceeding an average of one drink per day during the past month for women and two drinks per day for men . \nbinge drinking is defined as four or more drinks for women and five or more drinks for men on a single occasion at least once during the past month . ",
         "source_start": 518,
         "source_end": 850
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 36,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary misses “during the past months”.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The study defined heavy drinking as exceeding an average of one drink per day for women and two drinks per day for men, and binge drinking as four or more drinks for women and five or more drinks for men on a single occasion.",
+        "summary_start": 344,
+        "summary_end": 569,
+        "source_span": "heavy drinking as exceeding an average of one drink per day during the past month for women and two drinks per day for men . \nbinge drinking is defined as four or more drinks for women and five or more drinks for men on a single occasion at least once during the past month ",
+        "source_start": 574,
+        "source_end": 848
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1795,6 +2199,23 @@
         "summary_span": "Factors contributing to this rise include changing social norms, increased alcohol advertising, and cheaper alcohol prices. ",
         "summary_start": 695,
         "summary_end": 819
+      },
+      {
+        "annot_id": 129,
+        "sample_id": 39,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Summary misses “during the past month”.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": " heavy drinking as more than one drink per day for women and two for men, while binge drinking is four or more drinks for women and five for men on a single occasion.",
+        "summary_start": 275,
+        "summary_end": 441,
+        "source_span": " heavy drinking as exceeding an average of one drink per day during the past month for women and two drinks per day for men . \nbinge drinking is defined as four or more drinks for women and five or more drinks for men on a single occasion at least once during the past month .",
+        "source_start": 573,
+        "source_end": 849
       }
     ],
     "meta_model": "openai/gpt-4o",

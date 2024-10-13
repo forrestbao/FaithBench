@@ -1045,6 +1045,22 @@
         "source_span": "One posted on Twitter:",
         "source_start": 1711,
         "source_end": 1733
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 10,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes Poldark is name of show",
+        "annotator_name": "Erana",
+        "summary_span": "the Poldark TV show",
+        "summary_start": 23,
+        "summary_end": 42,
+        "source_span": "‘Poldark is rather good,",
+        "source_start": 2031,
+        "source_end": 2055
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1111,6 +1127,22 @@
         "source_span": "Sunday night’s latest heartthrob",
         "source_start": 251,
         "source_end": 283
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 11,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes Poldark is name of show",
+        "annotator_name": "Erana",
+        "summary_span": " TV show Poldark",
+        "summary_start": 48,
+        "summary_end": 64,
+        "source_span": " ‘Poldark is rather good",
+        "source_start": 2030,
+        "source_end": 2054
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1128,7 +1160,89 @@
     "sample_id": 12,
     "source": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant . As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with Poldark – but unfortunately it seems as if his heart is well and truly off the market . Their fast relationship didn't go unnoticed by fans. One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
     "summary": "Here's a concise summary of the passage:\n\nThe TV show Poldark features a rapid progression of Demelza Poldark's pregnancy. In the upcoming episode, Ross Poldark is seen with his newborn daughter, despite Demelza barely showing in the previous episode. The timeline of the pregnancy is notably condensed, with Demelza going from announcing her pregnancy to being eight months pregnant and giving birth within a single episode. This quick progression of pregnancy is not new to the show, as a similar situation occurred with another character, Elizabeth, in a previous storyline. Fans have noticed and commented on social media about the unrealistically fast pregnancies in the show. Despite the timeline issues, the episode portrays Ross's deep affection for Demelza, suggesting their relationship has grown beyond duty.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 108,
+        "sample_id": 12,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "in two episodes, not one episode",
+        "annotator_name": "Erana",
+        "summary_span": "with Demelza going from announcing her pregnancy to being eight months pregnant and giving birth within a single episode.",
+        "summary_start": 304,
+        "summary_end": 425,
+        "source_span": "With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye",
+        "source_start": 842,
+        "source_end": 1236
+      },
+      {
+        "annot_id": 109,
+        "sample_id": 12,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "assumes a separate storyline",
+        "annotator_name": "Erana",
+        "summary_span": " in a previous storyline",
+        "summary_start": 552,
+        "summary_end": 576,
+        "source_span": " It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
+        "source_start": 1813,
+        "source_end": 1973
+      },
+      {
+        "annot_id": 110,
+        "sample_id": 12,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "assumes 10 minutes = unrealistically fast for a pregnancy",
+        "annotator_name": "Erana",
+        "summary_span": " unrealistically fast pregnancies",
+        "summary_start": 635,
+        "summary_end": 668,
+        "source_span": "Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.",
+        "source_start": 2086,
+        "source_end": 2171
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 12,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "assumes deep affection",
+        "annotator_name": "Erana",
+        "summary_span": "the episode portrays Ross's deep affection for Demelza",
+        "summary_start": 711,
+        "summary_end": 765,
+        "source_span": "He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings.",
+        "source_start": 601,
+        "source_end": 766
+      },
+      {
+        "annot_id": 123,
+        "sample_id": 12,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes Poldark is name of show",
+        "annotator_name": "Erana",
+        "summary_span": "TV show Poldark",
+        "summary_start": 46,
+        "summary_end": 61,
+        "source_span": " ‘Poldark is rather good",
+        "source_start": 2030,
+        "source_end": 2054
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.77326,
     "meta_hhem-2.1": 0.48495,
@@ -1169,6 +1283,56 @@
         ],
         "note": "",
         "annotator_name": "Weisi",
+        "summary_span": "Despite Ross's heart being taken, his character's popularity as a heartthrob has sparked a desire among female viewers to settle down with him.",
+        "summary_start": 326,
+        "summary_end": 469,
+        "source_span": "As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market.",
+        "source_start": 248,
+        "source_end": 465
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 13,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "barely showing her pregnancy may imply her action in the part of showing (eg concealing on purpose) rather than a pregnancy bump showing itself (commonly referred to as showing), also assumes the showing is of pregnancy",
+        "annotator_name": "Erana",
+        "summary_span": "who was barely showing her pregnancy last week",
+        "summary_start": 17,
+        "summary_end": 63,
+        "source_span": "Last week she was barely showing",
+        "source_start": 0,
+        "source_end": 32
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 13,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "discards the context of this being a show, suggests a real pregnancy may have progressed to birth in one week",
+        "annotator_name": "Erana",
+        "summary_span": "Demelza Poldark, who was barely showing her pregnancy last week, has given birth to a baby girl, making her husband Ross Poldark a father.",
+        "summary_start": 0,
+        "summary_end": 138,
+        "source_span": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. ",
+        "source_start": 0,
+        "source_end": 248
+      },
+      {
+        "annot_id": 114,
+        "sample_id": 13,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"despite\" assumes Ross's heart being taken occurring first but is the other way around in the source. also assumes the popularity as a heartthrob is what makes viewers want to settle down with him (questionable, not entirely clear which way the causation goes based on source)",
+        "annotator_name": "Erana",
         "summary_span": "Despite Ross's heart being taken, his character's popularity as a heartthrob has sparked a desire among female viewers to settle down with him.",
         "summary_start": 326,
         "summary_end": 469,
@@ -1226,6 +1390,82 @@
         "source_span": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition.",
         "source_start": 0,
         "source_end": 109
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 14,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "wife/ mother not daughter",
+        "annotator_name": "Erana",
+        "summary_span": " his newborn daughter Demelza Poldark",
+        "summary_start": 118,
+        "summary_end": 155
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 14,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "summary implies the show portrays that the actual pregnancy went fast, rather than that it passed quickly in terms of scenes",
+        "annotator_name": "Erana",
+        "summary_span": "The pregnancy is portrayed as moving very quickly",
+        "summary_start": 177,
+        "summary_end": 226,
+        "source_span": "What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye.",
+        "source_start": 767,
+        "source_end": 1237
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 14,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "assumes one episode to the next = short period",
+        "annotator_name": "Erana",
+        "summary_span": "with Demelza going from barely showing to eight months pregnant within a short period,",
+        "summary_start": 228,
+        "summary_end": 314
+      },
+      {
+        "annot_id": 120,
+        "sample_id": 14,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "implies fans commented on the comparison with previous pregnancy but it is the source text itself that provided that comparison, quote of the twitter post itself does not give a comparison but only makes indirect references to both",
+        "annotator_name": "Erana",
+        "summary_span": "Fans have noted this rapid progression and commented on it, comparing it to previous quick pregnancies in the show.",
+        "summary_start": 357,
+        "summary_end": 472,
+        "source_span": "It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
+        "source_start": 1814,
+        "source_end": 2172
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 14,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes Poldark is name of show",
+        "annotator_name": "Erana",
+        "summary_span": " the TV show Poldark",
+        "summary_start": 45,
+        "summary_end": 65,
+        "source_span": "Poldark is rather good",
+        "source_start": 2032,
+        "source_end": 2054
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1243,7 +1483,40 @@
     "sample_id": 15,
     "source": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant . As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with Poldark – but unfortunately it seems as if his heart is well and truly off the market . Their fast relationship didn't go unnoticed by fans. One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
     "summary": "Here is a concise summary of the passage:\n\nDemelza Poldark, played by Eleanor Tomlinson, has given birth to a baby daughter on the TV show Poldark. However, fans have pointed out that the timeline of her pregnancy appears to be unrealistic, with her going from announcing her pregnancy to giving birth in a short period of time. This is reminiscent of a similar plot point from a previous episode, where another character, Elizabeth, went to full term in the gap between two episodes.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 125,
+        "sample_id": 15,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes Poldark is name of show",
+        "annotator_name": "Erana",
+        "summary_span": "TV show Poldark",
+        "summary_start": 131,
+        "summary_end": 146,
+        "source_span": "Poldark is rather good",
+        "source_start": 2032,
+        "source_end": 2054
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 15,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes plot point",
+        "annotator_name": "Erana",
+        "summary_span": "reminiscent of a similar plot point from a previous episode",
+        "summary_start": 337,
+        "summary_end": 396,
+        "source_span": "It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
+        "source_start": 1814,
+        "source_end": 1973
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.65339,
     "meta_hhem-2.1": 0.95866,
@@ -1276,6 +1549,71 @@
         "source_span": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition.",
         "source_start": 0,
         "source_end": 109
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 16,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes Poldark is name of show",
+        "annotator_name": "Erana",
+        "summary_span": "in the latest episode of Poldark",
+        "summary_start": 175,
+        "summary_end": 207,
+        "source_span": "‘Poldark is rather good,",
+        "source_start": 2031,
+        "source_end": 2055
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 16,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "assumes 1 week/ 2 episodes is a short span of time",
+        "annotator_name": "Erana",
+        "summary_span": "with Demelza going from barely showing to giving birth in a short span of time",
+        "summary_start": 296,
+        "summary_end": 374,
+        "source_span": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. ",
+        "source_start": 0,
+        "source_end": 110
+      },
+      {
+        "annot_id": 129,
+        "sample_id": 16,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "assumes the birth of their daughter is what solidified his feelings for Demelza which is not supported in the source",
+        "annotator_name": "Erana",
+        "summary_span": "The episode shows Ross Poldark, played by Aidan Turner, gazing lovingly at his new daughter, solidifying his feelings for Demelza, whom he married out of duty.",
+        "summary_start": 376,
+        "summary_end": 535,
+        "source_span": "He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy",
+        "source_start": 601,
+        "source_end": 840
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 16,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if tweet counts as making a comparison",
+        "annotator_name": "Erana",
+        "summary_span": "Fans have noticed the rapid progression of the pregnancy, drawing comparisons to a previous pregnancy in the show.",
+        "summary_start": 536,
+        "summary_end": 650,
+        "source_span": " It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
+        "source_start": 1813,
+        "source_end": 2172
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1293,7 +1631,57 @@
     "sample_id": 17,
     "source": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant . As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with Poldark – but unfortunately it seems as if his heart is well and truly off the market . Their fast relationship didn't go unnoticed by fans. One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
     "summary": "Demelza Poldark, played by Eleanor Tomlinson, gives birth to a baby girl in the next episode of Poldark. Fans have commented on the show's fast-paced pregnancies, as Demelza goes from announcing her pregnancy to giving birth in a matter of minutes. This is reminiscent of the previous season, where Elizabeth, another character, also gave birth in a short amount of time. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 131,
+        "sample_id": 17,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes Poldark is name of show",
+        "annotator_name": "Erana",
+        "summary_span": "in the next episode of Poldark",
+        "summary_start": 73,
+        "summary_end": 103,
+        "source_span": "Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter",
+        "source_start": 110,
+        "source_end": 246
+      },
+      {
+        "annot_id": 132,
+        "sample_id": 17,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "announcement of pregnancy was in previous episode a week ago, plus there is no mention of how early in the episode so it is unclear how many show minutes are between the two events",
+        "annotator_name": "Erana",
+        "summary_span": "as Demelza goes from announcing her pregnancy to giving birth in a matter of minutes.",
+        "summary_start": 163,
+        "summary_end": 248,
+        "source_span": "With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye.",
+        "source_start": 842,
+        "source_end": 1237
+      },
+      {
+        "annot_id": 133,
+        "sample_id": 17,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source does not say she gave birth only that she went full term",
+        "annotator_name": "Erana",
+        "summary_span": " also gave birth in a short amount of time.",
+        "summary_start": 328,
+        "summary_end": 371,
+        "source_span": "go to full term in the gap between two episodes. ",
+        "source_start": 1925,
+        "source_end": 1974
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.97869,
     "meta_hhem-2.1": 0.95706,
@@ -1323,6 +1711,38 @@
         "summary_span": "It mentions that Ross Poldark, played by Aidan Turner, is in love with Demelza and that their relationship has progressed quickly",
         "summary_start": 125,
         "summary_end": 254
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 18,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes is name of show",
+        "annotator_name": "Erana",
+        "summary_span": "latest episode of the show Poldark,",
+        "summary_start": 26,
+        "summary_end": 61,
+        "source_span": "Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark",
+        "source_start": 110,
+        "source_end": 207
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 18,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes love",
+        "annotator_name": "Erana",
+        "summary_span": " is in love with Demelza",
+        "summary_start": 179,
+        "summary_end": 203,
+        "source_span": "as he tells her that she makes him a better man, audiences can have little doubt about his feelings",
+        "source_start": 666,
+        "source_end": 765
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1340,7 +1760,58 @@
     "sample_id": 19,
     "source": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition. Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant . As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with Poldark – but unfortunately it seems as if his heart is well and truly off the market . Their fast relationship didn't go unnoticed by fans. One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
     "summary": "In the latest episode of \"Poldark,\" Demelza Poldark, who was barely showing last week, has given birth to a baby daughter. The episode quickly transitions from the announcement of her pregnancy to her being eight months pregnant and then giving birth, which has drawn comments from fans about the unrealistic timeline. Aidan Turner's character, Ross Poldark, is shown lovingly with his new daughter, solidifying his commitment to Demelza despite their marriage initially being out of duty. Fans have noted the rapid progression of pregnancies in the show, with some humorously commenting on social media about the swift timelines.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 136,
+        "sample_id": 19,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes is name of show",
+        "annotator_name": "Erana",
+        "summary_span": "In the latest episode of \"Poldark,\"",
+        "summary_start": 0,
+        "summary_end": 35,
+        "source_span": "Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark",
+        "source_start": 110,
+        "source_end": 207
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 19,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "occurs in different episodes",
+        "annotator_name": "Erana",
+        "summary_span": "The episode quickly transitions from the announcement of her pregnancy to her being eight months pregnant",
+        "summary_start": 123,
+        "summary_end": 228,
+        "source_span": "With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnan",
+        "source_start": 842,
+        "source_end": 1062
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 19,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "assumes the birth of their daughter is what solidified his feelings for Demelza which is not supported in the source",
+        "annotator_name": "Erana",
+        "summary_span": "Ross Poldark, is shown lovingly with his new daughter, solidifying his commitment to Demelza",
+        "summary_start": 345,
+        "summary_end": 437,
+        "source_span": "as he tells her that she makes him a better man, audiences can have little doubt about his feelings",
+        "source_start": 666,
+        "source_end": 765
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.79512,
     "meta_hhem-2.1": 0.91992,
@@ -1389,6 +1860,89 @@
         "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week .",
         "source_start": 2204,
         "source_end": 2368
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "acronym not from source",
+        "annotator_name": "Erana",
+        "summary_span": "Foetal Alcohol Syndrome (FAS)",
+        "summary_start": 36,
+        "summary_end": 65
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "left out \"a year\"",
+        "annotator_name": "Erana",
+        "summary_span": " 7,500 babies",
+        "summary_start": 340,
+        "summary_end": 353
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "getting dressed -> daily activities",
+        "annotator_name": "Erana",
+        "summary_span": "requires assistance with daily activities,",
+        "summary_start": 536,
+        "summary_end": 578,
+        "source_span": "needs help getting dressed",
+        "source_start": 1530,
+        "source_end": 1556
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "struggles at playschool were noticed at 3 not 5",
+        "annotator_name": "Erana",
+        "summary_span": "She was diagnosed with FAS at the age of five, after her adoptive parents noticed her struggles at playschool. ",
+        "summary_start": 649,
+        "summary_end": 760
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "if they drink at all, excludes gov's advice not to drink",
+        "annotator_name": "Erana",
+        "summary_span": "Pregnant women are currently advised by the government not to exceed more than two units of alcohol twice a week",
+        "summary_start": 954,
+        "summary_end": 1066
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "summary cuts off",
+        "annotator_name": "Erana",
+        "summary_span": "but Elizabeth Mitchell, from",
+        "summary_start": 1068,
+        "summary_end": 1096
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1440,6 +1994,96 @@
         "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
         "source_start": 169,
         "source_end": 371
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 21,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "acronym not given in source",
+        "annotator_name": "Erana",
+        "summary_span": "foetal alcohol syndrome (FAS)",
+        "summary_start": 46,
+        "summary_end": 75
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 21,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "term not from source",
+        "annotator_name": "Erana",
+        "summary_span": "in-utero",
+        "summary_start": 144,
+        "summary_end": 152,
+        "source_span": "in the womb",
+        "source_start": 118,
+        "source_end": 129
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 21,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "term not in source",
+        "annotator_name": "Erana",
+        "summary_span": "prenatal",
+        "summary_start": 373,
+        "summary_end": 381,
+        "source_span": " in the womb",
+        "source_start": 1428,
+        "source_end": 1440
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 21,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not getting better implies lifelong, additionally severe is assumed",
+        "annotator_name": "Erana",
+        "summary_span": "FAS is a severe, lifelong condition",
+        "summary_start": 448,
+        "summary_end": 483,
+        "source_span": "children born with the syndrome do n't get better",
+        "source_start": 1090,
+        "source_end": 1139
+      },
+      {
+        "annot_id": 150,
+        "sample_id": 21,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Erana",
+        "summary_span": "in-utero",
+        "summary_start": 862,
+        "summary_end": 870,
+        "source_span": "in the womb ",
+        "source_start": 118,
+        "source_end": 130
+      },
+      {
+        "annot_id": 151,
+        "sample_id": 21,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "summary cuts off",
+        "annotator_name": "Erana",
+        "summary_span": "could suffer learning, behavioural,",
+        "summary_start": 1016,
+        "summary_end": 1051
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1507,6 +2151,78 @@
         "source_span": " \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week ",
         "source_start": 2202,
         "source_end": 2367
+      },
+      {
+        "annot_id": 152,
+        "sample_id": 22,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "could this imply all children in the UK?",
+        "annotator_name": "Erana",
+        "summary_span": "The passage discusses the alarming impact of alcohol consumption during pregnancy on children in the UK.",
+        "summary_start": 83,
+        "summary_end": 187
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 22,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "last year could imply last calendar year rather than previous span of 12 months",
+        "annotator_name": "Erana",
+        "summary_span": "last year.",
+        "summary_start": 283,
+        "summary_end": 293,
+        "source_span": "over the past 12 months",
+        "source_start": 266,
+        "source_end": 289
+      },
+      {
+        "annot_id": 154,
+        "sample_id": 22,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"doesn't improve over time\" here sounds like it refers to the foetal alcohol epedmic in total rather than individual cases not getting better. not true from source",
+        "annotator_name": "Erana",
+        "summary_span": "Foetal alcohol syndrome is described as an enormous, sad, and under-diagnosed problem that doesn't improve over time.",
+        "summary_start": 497,
+        "summary_end": 614
+      },
+      {
+        "annot_id": 155,
+        "sample_id": 22,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "excludes advice of not drinking alcohol",
+        "annotator_name": "Erana",
+        "summary_span": "Current UK government advice allows pregnant women to drink up to two units twice a week",
+        "summary_start": 895,
+        "summary_end": 983,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week .",
+        "source_start": 2204,
+        "source_end": 2368
+      },
+      {
+        "annot_id": 156,
+        "sample_id": 22,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes expert that others share her opinion",
+        "annotator_name": "Erana",
+        "summary_span": "some experts",
+        "summary_start": 989,
+        "summary_end": 1001
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1524,7 +2240,69 @@
     "sample_id": 23,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "Hundreds of children in England were hospitalized last year due to fetal alcohol syndrome, a condition caused by exposure to alcohol in the womb. The official number is 272, but experts believe the actual count could be higher. Research suggests that at least 1% of babies born in the UK may suffer from learning, behavioral, and physical disabilities due to prenatal alcohol exposure. This equates to around 7,500 babies annually. Fetal alcohol syndrome is a lifelong condition, and affected children often require assistance with daily tasks and struggle with cognitive and physical impairments. The World Health Organization's research highlights the severity of the issue, and experts advocate for stricter guidelines to discourage alcohol consumption during pregnancy.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 157,
+        "sample_id": 23,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "summary suggests number of children hospitalized is higher, source says number affected which is not the same",
+        "annotator_name": "Erana",
+        "summary_span": "but experts believe the actual count could be higher",
+        "summary_start": 174,
+        "summary_end": 226,
+        "source_span": "\nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned .",
+        "source_start": 372,
+        "source_end": 477
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 23,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "term not in source",
+        "annotator_name": "Erana",
+        "summary_span": "prenatal",
+        "summary_start": 359,
+        "summary_end": 367,
+        "source_span": "in the womb",
+        "source_start": 118,
+        "source_end": 129
+      },
+      {
+        "annot_id": 159,
+        "sample_id": 23,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "not in source, only one example but can be resoned",
+        "annotator_name": "Erana",
+        "summary_span": "affected children often require assistance with daily tasks",
+        "summary_start": 484,
+        "summary_end": 543
+      },
+      {
+        "annot_id": 160,
+        "sample_id": 23,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes expert, that others agree, and that they are advocating. all are reasonable",
+        "annotator_name": "Erana",
+        "summary_span": "experts advocate for ",
+        "summary_start": 681,
+        "summary_end": 702,
+        "source_span": "ms mitchell believes ",
+        "source_start": 2374,
+        "source_end": 2395
+      }
+    ],
     "meta_model": "cohere/command-r-08-2024",
     "meta_hhemv1": 0.99385,
     "meta_hhem-2.1": 0.4841,
@@ -1557,6 +2335,35 @@
         "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
         "source_start": 169,
         "source_end": 371
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 24,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "previous year could be calender year instead of any 12 month span",
+        "annotator_name": "Erana",
+        "summary_span": "previous year",
+        "summary_start": 180,
+        "summary_end": 193,
+        "source_span": "past 12 months",
+        "source_start": 275,
+        "source_end": 289
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 24,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "acronym not in source",
+        "annotator_name": "Erana",
+        "summary_span": "foetal alcohol syndrome (FAS)",
+        "summary_start": 43,
+        "summary_end": 72
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
