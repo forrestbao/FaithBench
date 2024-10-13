@@ -1943,6 +1943,40 @@
         "summary_span": "but Elizabeth Mitchell, from",
         "summary_start": 1068,
         "summary_end": 1096
+      },
+      {
+        "annot_id": 165,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "summary suggests number of hospitalizations are higher, source says number affected only",
+        "annotator_name": "Erana",
+        "summary_span": "However, experts warn that the actual number could be much higher.",
+        "summary_start": 213,
+        "summary_end": 279,
+        "source_span": "but the actual number affected by their mother ' s drinking could be far greater , experts have warned .",
+        "source_start": 373,
+        "source_end": 477
+      },
+      {
+        "annot_id": 170,
+        "sample_id": 20,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "equates the count in England to that in all of the UK",
+        "annotator_name": "Erana",
+        "summary_span": "According to the Official Health and Social Care Information Centre, 272 children were hospitalized due to FAS over the past 12 months",
+        "summary_start": 77,
+        "summary_end": 211,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2166,22 +2200,6 @@
         "summary_end": 187
       },
       {
-        "annot_id": 153,
-        "sample_id": 22,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "last year could imply last calendar year rather than previous span of 12 months",
-        "annotator_name": "Erana",
-        "summary_span": "last year.",
-        "summary_start": 283,
-        "summary_end": 293,
-        "source_span": "over the past 12 months",
-        "source_start": 266,
-        "source_end": 289
-      },
-      {
         "annot_id": 154,
         "sample_id": 22,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -2337,22 +2355,6 @@
         "source_end": 371
       },
       {
-        "annot_id": 162,
-        "sample_id": 24,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "previous year could be calender year instead of any 12 month span",
-        "annotator_name": "Erana",
-        "summary_span": "previous year",
-        "summary_start": 180,
-        "summary_end": 193,
-        "source_span": "past 12 months",
-        "source_start": 275,
-        "source_end": 289
-      },
-      {
         "annot_id": 163,
         "sample_id": 24,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -2364,6 +2366,53 @@
         "summary_span": "foetal alcohol syndrome (FAS)",
         "summary_start": 43,
         "summary_end": 72
+      },
+      {
+        "annot_id": 164,
+        "sample_id": 24,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "not true from source",
+        "annotator_name": "Erana",
+        "summary_span": "requires constant assistance",
+        "summary_start": 516,
+        "summary_end": 544
+      },
+      {
+        "annot_id": 167,
+        "sample_id": 24,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "summary suggests number of hospitalizations are higher, source says number affected only",
+        "annotator_name": "Erana",
+        "summary_span": "Experts warn that the actual number might be much higher,",
+        "summary_start": 195,
+        "summary_end": 252,
+        "source_span": "\nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned .",
+        "source_start": 372,
+        "source_end": 477
+      },
+      {
+        "annot_id": 168,
+        "sample_id": 24,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "suggested by ms mitchell not the passage itself",
+        "annotator_name": "Erana",
+        "summary_span": "advises pregnant women to avoid alcohol entirely",
+        "summary_start": 674,
+        "summary_end": 722,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
+        "source_start": 2204,
+        "source_end": 2490
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2415,6 +2464,67 @@
         "source_span": "\nthat equates to about 7,500 every year .",
         "source_start": 935,
         "source_end": 976
+      },
+      {
+        "annot_id": 169,
+        "sample_id": 25,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "acronym not in source",
+        "annotator_name": "Erana",
+        "summary_span": "Foetal Alcohol Syndrome (FAS)",
+        "summary_start": 170,
+        "summary_end": 199
+      },
+      {
+        "annot_id": 172,
+        "sample_id": 25,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "generalizes potential to need lifelong care to all children with FAS, assumes not being able to live independently equates to lifelong care",
+        "annotator_name": "Erana",
+        "summary_span": "may require lifelong care, as seen in the case of 15-year-old Niamh Brown.",
+        "summary_start": 572,
+        "summary_end": 646,
+        "source_span": "she needs help getting dressed , has no sense of danger and will never be able to live independently ",
+        "source_start": 1526,
+        "source_end": 1627
+      },
+      {
+        "annot_id": 173,
+        "sample_id": 25,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "unclear from source if these are issues of FAS or non FAS issues that can also occur ",
+        "annotator_name": "Erana",
+        "summary_span": "The condition can lead to a range of medical issues, including problems with the liver, kidneys, heart, and sight loss",
+        "summary_start": 647,
+        "summary_end": 765,
+        "source_span": "\nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy .",
+        "source_start": 2031,
+        "source_end": 2202
+      },
+      {
+        "annot_id": 174,
+        "sample_id": 25,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes experts",
+        "annotator_name": "Erana",
+        "summary_span": "some experts",
+        "summary_start": 907,
+        "summary_end": 919,
+        "source_span": "ms mitchell",
+        "source_start": 2374,
+        "source_end": 2385
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2449,6 +2559,54 @@
         "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy ",
         "source_start": 2204,
         "source_end": 2489
+      },
+      {
+        "annot_id": 175,
+        "sample_id": 26,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumed",
+        "annotator_name": "Erana",
+        "summary_span": "with no cure",
+        "summary_start": 590,
+        "summary_end": 602,
+        "source_span": "children born with the syndrome do n't get better ",
+        "source_start": 1090,
+        "source_end": 1140
+      },
+      {
+        "annot_id": 176,
+        "sample_id": 26,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "advice not to drink is ignored",
+        "annotator_name": "Erana",
+        "summary_span": "Pregnant women are currently advised to limit their alcohol consumption to 2 units, no more than twice a week,",
+        "summary_start": 719,
+        "summary_end": 829,
+        "source_span": "\npregnant women are advised by the government not to drink alcohol .",
+        "source_start": 2203,
+        "source_end": 2271
+      },
+      {
+        "annot_id": 177,
+        "sample_id": 26,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Erana",
+        "summary_span": "some experts",
+        "summary_start": 834,
+        "summary_end": 846,
+        "source_span": "ms mitchell",
+        "source_start": 2374,
+        "source_end": 2385
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -2497,6 +2655,52 @@
         "summary_span": "This number is likely much lower than the actual number of children affected, as research suggests that at least 1 in 100 babies born in the UK could suffer from learning, behavioral, and physical problems due to alcohol exposure",
         "summary_start": 150,
         "summary_end": 379
+      },
+      {
+        "annot_id": 178,
+        "sample_id": 27,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "acronym not given in source",
+        "annotator_name": "Erana",
+        "summary_span": "Fetal Alcohol Syndrome (FAS)",
+        "summary_start": 67,
+        "summary_end": 95
+      },
+      {
+        "annot_id": 179,
+        "sample_id": 27,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "left disabled by FAS = FAS is a disability?",
+        "annotator_name": "Erana",
+        "summary_span": "a disability",
+        "summary_start": 97,
+        "summary_end": 109,
+        "source_span": " left disabled",
+        "source_start": 195,
+        "source_end": 209
+      },
+      {
+        "annot_id": 180,
+        "sample_id": 27,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "leaves out government upper limit for those who do choose to drink, making the summary statement poorly formed and confusing",
+        "annotator_name": "Erana",
+        "summary_span": "The government advises pregnant women to avoid alcohol, but some experts believe that women should not drink at all during pregnancy.",
+        "summary_start": 652,
+        "summary_end": 785,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy",
+        "source_start": 2204,
+        "source_end": 2488
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2548,6 +2752,54 @@
         "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
         "source_start": 2204,
         "source_end": 2490
+      },
+      {
+        "annot_id": 181,
+        "sample_id": 28,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "getting dressed -> daily activities",
+        "annotator_name": "Erana",
+        "summary_span": "requires assistance with daily tasks",
+        "summary_start": 603,
+        "summary_end": 639,
+        "source_span": "she needs help getting dressed",
+        "source_start": 1526,
+        "source_end": 1556
+      },
+      {
+        "annot_id": 182,
+        "sample_id": 28,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "leaves out gov advice not to drink",
+        "annotator_name": "Erana",
+        "summary_span": "Pregnant women are advised by the government to limit alcohol consumption,",
+        "summary_start": 868,
+        "summary_end": 942,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . ",
+        "source_start": 2204,
+        "source_end": 2369
+      },
+      {
+        "annot_id": 183,
+        "sample_id": 28,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Erana",
+        "summary_span": "some experts ",
+        "summary_start": 947,
+        "summary_end": 960,
+        "source_span": "ms mitchell",
+        "source_start": 2374,
+        "source_end": 2385
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -2582,6 +2834,100 @@
         "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
         "source_start": 169,
         "source_end": 371
+      },
+      {
+        "annot_id": 184,
+        "sample_id": 29,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "acronym not in source",
+        "annotator_name": "Erana",
+        "summary_span": "foetal alcohol syndrome (FAS)",
+        "summary_start": 85,
+        "summary_end": 114
+      },
+      {
+        "annot_id": 185,
+        "sample_id": 29,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "summary suggests number of hospitalizations are higher, source says number affected only",
+        "annotator_name": "Erana",
+        "summary_span": "though the actual number may be higher",
+        "summary_start": 141,
+        "summary_end": 179,
+        "source_span": "but the actual number affected by their mother ' s drinking could be far greater ",
+        "source_start": 373,
+        "source_end": 454
+      },
+      {
+        "annot_id": 186,
+        "sample_id": 29,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "severe?",
+        "annotator_name": "Erana",
+        "summary_span": "has severe disabilities",
+        "summary_start": 564,
+        "summary_end": 587,
+        "source_span": " \nshe needs help getting dressed , has no sense of danger and will never be able to live independently",
+        "source_start": 1524,
+        "source_end": 1626
+      },
+      {
+        "annot_id": 187,
+        "sample_id": 29,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "ignores gov advice not to drink",
+        "annotator_name": "Erana",
+        "summary_span": "The government advises pregnant women to limit alcohol intake",
+        "summary_start": 600,
+        "summary_end": 661,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week ",
+        "source_start": 2204,
+        "source_end": 2367
+      },
+      {
+        "annot_id": 188,
+        "sample_id": 29,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes additional experts",
+        "annotator_name": "Erana",
+        "summary_span": "some experts, like Mitchell",
+        "summary_start": 667,
+        "summary_end": 694,
+        "source_span": "ms mitchell",
+        "source_start": 2374,
+        "source_end": 2385
+      },
+      {
+        "annot_id": 189,
+        "sample_id": 29,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "believe = advocate for?",
+        "annotator_name": "Erana",
+        "summary_span": "advocate for",
+        "summary_start": 696,
+        "summary_end": 708,
+        "source_span": "believes ",
+        "source_start": 2386,
+        "source_end": 2395
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2627,6 +2973,82 @@
         "summary_span": "Scots have 12 players in their squad who play outside Scotland, including Bayern Munich forward Jane Ross, who recently won the women's Bundesliga in her first season at the club",
         "summary_start": 435,
         "summary_end": 613
+      },
+      {
+        "annot_id": 192,
+        "sample_id": 30,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not clear if it is guaranteed or near-guaranteed",
+        "annotator_name": "Erana",
+        "summary_span": "a victory securing a near-guarantee of their place in the finals",
+        "summary_start": 184,
+        "summary_end": 248,
+        "source_span": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place.",
+        "source_start": 0,
+        "source_end": 142
+      },
+      {
+        "annot_id": 195,
+        "sample_id": 30,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Unrelated person",
+        "annotator_name": "Erana",
+        "summary_span": "Ross",
+        "summary_start": 615,
+        "summary_end": 619,
+        "source_span": "\"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals.",
+        "source_start": 2542,
+        "source_end": 2829
+      },
+      {
+        "annot_id": 196,
+        "sample_id": 30,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumed qualifiers = matches",
+        "annotator_name": "Erana",
+        "summary_span": "matches",
+        "summary_start": 111,
+        "summary_end": 118,
+        "source_span": "qualifiers",
+        "source_start": 28,
+        "source_end": 38
+      },
+      {
+        "annot_id": 199,
+        "sample_id": 30,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "wrong and unrelated person",
+        "annotator_name": "Erana",
+        "summary_span": "Jane Ross",
+        "summary_start": 531,
+        "summary_end": 540
+      },
+      {
+        "annot_id": 201,
+        "sample_id": 30,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes soccer",
+        "annotator_name": "Erana",
+        "summary_span": "major soccer competition",
+        "summary_start": 62,
+        "summary_end": 86
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2661,6 +3083,66 @@
         "source_span": "But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup.",
         "source_start": 143,
         "source_end": 251
+      },
+      {
+        "annot_id": 200,
+        "sample_id": 31,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "are these equal?",
+        "annotator_name": "Erana",
+        "summary_span": "almost securing",
+        "summary_start": 95,
+        "summary_end": 110,
+        "source_span": "would all but secure",
+        "source_start": 109,
+        "source_end": 129
+      },
+      {
+        "annot_id": 202,
+        "sample_id": 31,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "cannot be 2013 as source mentions play-off losses for Euro 2013",
+        "annotator_name": "Erana",
+        "summary_span": "in the next summer's Euro 2013 finals",
+        "summary_start": 123,
+        "summary_end": 160
+      },
+      {
+        "annot_id": 203,
+        "sample_id": 31,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source implies she is a forward and another player is goalkeeper",
+        "annotator_name": "Erana",
+        "summary_span": "Scotland's goalkeeper, Evans,",
+        "summary_start": 171,
+        "summary_end": 200
+      },
+      {
+        "annot_id": 204,
+        "sample_id": 31,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "desperate has slightly different connotation than determined",
+        "annotator_name": "Erana",
+        "summary_span": "determined",
+        "summary_start": 204,
+        "summary_end": 214,
+        "source_span": "desperate",
+        "source_start": 156,
+        "source_end": 165
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2720,6 +3202,161 @@
         "summary_span": "Euro 2017 finals.",
         "summary_start": 979,
         "summary_end": 996
+      },
+      {
+        "annot_id": 207,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "can infer?",
+        "annotator_name": "Erana",
+        "summary_span": "a crucial match",
+        "summary_start": 303,
+        "summary_end": 318,
+        "source_span": "would all but secure their place",
+        "source_start": 109,
+        "source_end": 141
+      },
+      {
+        "annot_id": 208,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "first name not given in source",
+        "annotator_name": "Erana",
+        "summary_span": "Lisa Evans",
+        "summary_start": 328,
+        "summary_end": 338
+      },
+      {
+        "annot_id": 209,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "misses, not near-misses",
+        "annotator_name": "Erana",
+        "summary_span": "previous near-misses",
+        "summary_start": 385,
+        "summary_end": 405,
+        "source_span": "play-off losses for Euro 2013 and last year's  World Cup",
+        "source_start": 194,
+        "source_end": 250
+      },
+      {
+        "annot_id": 210,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes professionally",
+        "annotator_name": "Erana",
+        "summary_span": "play professionally outside ",
+        "summary_start": 581,
+        "summary_end": 609,
+        "source_span": "play outside",
+        "source_start": 1600,
+        "source_end": 1612
+      },
+      {
+        "annot_id": 211,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "can assume from summary context it is womens but doesn't say explicitly",
+        "annotator_name": "Erana",
+        "summary_span": "Bundesliga",
+        "summary_start": 660,
+        "summary_end": 670,
+        "source_span": "women's Bundesliga ",
+        "source_start": 1864,
+        "source_end": 1883
+      },
+      {
+        "annot_id": 213,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes scottish, women's, and football",
+        "annotator_name": "Erana",
+        "summary_span": "The Scottish women's national football team",
+        "summary_start": 83,
+        "summary_end": 126,
+        "source_span": "the national team",
+        "source_start": 2770,
+        "source_end": 2787
+      },
+      {
+        "annot_id": 214,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "evans is hoping, not necessarily the team, but reasonable assumption",
+        "annotator_name": "Erana",
+        "summary_span": "The team is hoping for strong fan support",
+        "summary_start": 861,
+        "summary_end": 902,
+        "source_span": "\"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"",
+        "source_start": 1431,
+        "source_end": 1538
+      },
+      {
+        "annot_id": 216,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "year and specific tournament not mentioned in source",
+        "annotator_name": "Erana",
+        "summary_span": "the Euro 2017 finals.",
+        "summary_start": 975,
+        "summary_end": 996
+      },
+      {
+        "annot_id": 217,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "year and specific tournament not mentioned in source",
+        "annotator_name": "Erana",
+        "summary_span": "the Euro 2017 finals in the Netherlands",
+        "summary_start": 184,
+        "summary_end": 223,
+        "source_span": "next summer's finals in the Netherland",
+        "source_start": 1173,
+        "source_end": 1211
+      },
+      {
+        "annot_id": 219,
+        "sample_id": 32,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "does first major finals does mean first major tournament? not sure if tournament includes qualifying games and other pre-finals matches. tournament is not a term used in the source",
+        "annotator_name": "Erana",
+        "summary_span": "their first major tournament",
+        "summary_start": 154,
+        "summary_end": 182,
+        "source_span": "a first major finals",
+        "source_start": 2808,
+        "source_end": 2828
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2751,6 +3388,124 @@
         "summary_span": "The team is confident, with a strong record in qualifiers and a mix of domestic and international talent",
         "summary_start": 215,
         "summary_end": 319
+      },
+      {
+        "annot_id": 218,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes women's football team",
+        "annotator_name": "Erana",
+        "summary_span": "The Scottish women's football team",
+        "summary_start": 0,
+        "summary_end": 34,
+        "source_span": "The Scots",
+        "source_start": 0,
+        "source_end": 9
+      },
+      {
+        "annot_id": 221,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes major assumes tournament",
+        "annotator_name": "Erana",
+        "summary_span": "for a major tournament",
+        "summary_start": 64,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "misses, not near misses",
+        "annotator_name": "Erana",
+        "summary_span": "near-misses in play-offs",
+        "summary_start": 189,
+        "summary_end": 213,
+        "source_span": "play-off losses",
+        "source_start": 194,
+        "source_end": 209
+      },
+      {
+        "annot_id": 223,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "scottish players playing in international leagues does not make them international talent. strongly implies other nationalities",
+        "annotator_name": "Erana",
+        "summary_span": "and a mix of domestic and international talent",
+        "summary_start": 273,
+        "summary_end": 319,
+        "source_span": "Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. ",
+        "source_start": 1538,
+        "source_end": 1815
+      },
+      {
+        "annot_id": 224,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "assumed from multiple statements ",
+        "annotator_name": "Erana",
+        "summary_span": " The match will be emotional,",
+        "summary_start": 387,
+        "summary_end": 416
+      },
+      {
+        "annot_id": 225,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes potential, assumes home",
+        "annotator_name": "Erana",
+        "summary_span": "with a potential large home crowd at Falkirk Stadium",
+        "summary_start": 417,
+        "summary_end": 469,
+        "source_span": "\"It would be fantastic to have a big crowd at Falkirk.",
+        "source_start": 1431,
+        "source_end": 1485
+      },
+      {
+        "annot_id": 226,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes is league",
+        "annotator_name": "Erana",
+        "summary_span": "foreign leagues, like Germany's Bundesliga",
+        "summary_start": 497,
+        "summary_end": 539
+      },
+      {
+        "annot_id": 227,
+        "sample_id": 33,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if supported, growth could mean in size or in skill",
+        "annotator_name": "Erana",
+        "summary_span": "a sign of the sport's growth in Scotland",
+        "summary_start": 589,
+        "summary_end": 629
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2782,6 +3537,113 @@
         "summary_span": "Scotland is in a strong position to qualify for the 2017 Women's European Championship in the Netherlands without needing a play-off.",
         "summary_start": 390,
         "summary_end": 523
+      },
+      {
+        "annot_id": 228,
+        "sample_id": 34,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "all but secure slightly more implies guarantee than almost guarantee",
+        "annotator_name": "Erana",
+        "summary_span": "almost guarantee",
+        "summary_start": 99,
+        "summary_end": 115,
+        "source_span": "all but secure",
+        "source_start": 115,
+        "source_end": 129
+      },
+      {
+        "annot_id": 230,
+        "sample_id": 34,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes pole = strong",
+        "annotator_name": "Erana",
+        "summary_span": "a strong position",
+        "summary_start": 405,
+        "summary_end": 422,
+        "source_span": "pole position",
+        "source_start": 1150,
+        "source_end": 1163
+      },
+      {
+        "annot_id": 231,
+        "sample_id": 34,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes womens, assumes year, assumes European Championship",
+        "annotator_name": "Erana",
+        "summary_span": "the 2017 Women's European Championship in the Netherlands",
+        "summary_start": 438,
+        "summary_end": 495,
+        "source_span": "next summer's finals in the Netherlands",
+        "source_start": 1173,
+        "source_end": 1212
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 34,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "play outside scotland does not mean from outside scotland",
+        "annotator_name": "Erana",
+        "summary_span": "from outside Scotland",
+        "summary_start": 553,
+        "summary_end": 574,
+        "source_span": "play outside Scotland",
+        "source_start": 1600,
+        "source_end": 1621
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 34,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "scottish players being at top leagues is mentioned but assumes these 3 countries leagues are top leagues",
+        "annotator_name": "Erana",
+        "summary_span": "top leagues like England, Sweden, and the United States",
+        "summary_start": 597,
+        "summary_end": 652
+      },
+      {
+        "annot_id": 251,
+        "sample_id": 34,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "leaving out \"to date\" could imply there are only 5 qualifiers",
+        "annotator_name": "Erana",
+        "summary_span": "all five qualifiers",
+        "summary_start": 19,
+        "summary_end": 38,
+        "source_span": "all five qualifiers to date",
+        "source_start": 19,
+        "source_end": 46
+      },
+      {
+        "annot_id": 252,
+        "sample_id": 34,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure from sentence structure if it is clear to mean undefeated in the qualifiers",
+        "annotator_name": "Erana",
+        "summary_span": "Iceland, ranked 20th in the world, is also undefeated",
+        "summary_start": 229,
+        "summary_end": 282
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2827,6 +3689,90 @@
         "summary_span": "Captain",
         "summary_start": 276,
         "summary_end": 283
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 35,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes women's",
+        "annotator_name": "Erana",
+        "summary_span": "The Scottish women's national team",
+        "summary_start": 94,
+        "summary_end": 128
+      },
+      {
+        "annot_id": 236,
+        "sample_id": 35,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "should be Lisa",
+        "annotator_name": "Erana",
+        "summary_span": "Erin Evans",
+        "summary_start": 311,
+        "summary_end": 321
+      },
+      {
+        "annot_id": 237,
+        "sample_id": 35,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "misses, not near-misses",
+        "annotator_name": "Erana",
+        "summary_span": "near-misses",
+        "summary_start": 382,
+        "summary_end": 393,
+        "source_span": "losses",
+        "source_start": 203,
+        "source_end": 209
+      },
+      {
+        "annot_id": 238,
+        "sample_id": 35,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "they are in pole position, but source suggests it is to reach the finals",
+        "annotator_name": "Erana",
+        "summary_span": "Scotland are in pole position to qualify automatically",
+        "summary_start": 395,
+        "summary_end": 449
+      },
+      {
+        "annot_id": 239,
+        "sample_id": 35,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "somewhat implied",
+        "annotator_name": "Erana",
+        "summary_span": "will help them reach the finals",
+        "summary_start": 653,
+        "summary_end": 684
+      },
+      {
+        "annot_id": 248,
+        "sample_id": 35,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "false",
+        "annotator_name": "Erana",
+        "summary_span": "Captain ",
+        "summary_start": 276,
+        "summary_end": 284
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2858,6 +3804,88 @@
         "summary_span": "European Championship finals,",
         "summary_start": 116,
         "summary_end": 145
+      },
+      {
+        "annot_id": 240,
+        "sample_id": 36,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "does forward for bayern imply forward for Scotland women?",
+        "annotator_name": "Erana",
+        "summary_span": "Forward",
+        "summary_start": 229,
+        "summary_end": 236
+      },
+      {
+        "annot_id": 241,
+        "sample_id": 36,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "firsrt name not in source",
+        "annotator_name": "Erana",
+        "summary_span": "Lisa Evans",
+        "summary_start": 237,
+        "summary_end": 247
+      },
+      {
+        "annot_id": 242,
+        "sample_id": 36,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumed",
+        "annotator_name": "Erana",
+        "summary_span": "women's",
+        "summary_start": 56,
+        "summary_end": 63
+      },
+      {
+        "annot_id": 243,
+        "sample_id": 36,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "name never given in source",
+        "annotator_name": "Erana",
+        "summary_span": "European Championship finals",
+        "summary_start": 116,
+        "summary_end": 144
+      },
+      {
+        "annot_id": 244,
+        "sample_id": 36,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if scotland is already top of the group (5 wins vs 4 wins undefeated should put them above iceland?)",
+        "annotator_name": "Erana",
+        "summary_span": "The team is currently top of their group",
+        "summary_start": 366,
+        "summary_end": 406,
+        "source_span": "likely to decide who tops the group",
+        "source_start": 671,
+        "source_end": 706
+      },
+      {
+        "annot_id": 245,
+        "sample_id": 36,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "single match",
+        "annotator_name": "Erana",
+        "summary_span": "matches ",
+        "summary_start": 495,
+        "summary_end": 503
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -2902,6 +3930,48 @@
         "summary_span": "Jane Evans,",
         "summary_start": 270,
         "summary_end": 281
+      },
+      {
+        "annot_id": 246,
+        "sample_id": 37,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "source does not imply she leads the team",
+        "annotator_name": "Erana",
+        "summary_span": "The team is led by Bayern Munich forward, Jane Evans",
+        "summary_start": 228,
+        "summary_end": 280
+      },
+      {
+        "annot_id": 247,
+        "sample_id": 37,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "false name",
+        "annotator_name": "Erana",
+        "summary_span": "Jane Evans",
+        "summary_start": 270,
+        "summary_end": 280
+      },
+      {
+        "annot_id": 249,
+        "sample_id": 37,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "could imply the team joined different leagues instead of some of the players individually",
+        "annotator_name": "Erana",
+        "summary_span": "who believes that the experience of playing in top leagues abroad has helped the team improve",
+        "summary_start": 282,
+        "summary_end": 375
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2919,7 +3989,60 @@
     "sample_id": 38,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "The passage discusses the upcoming match between Scotland and Iceland in the women's football qualifiers. Both teams are unbeaten so far and the outcome of the match will likely determine who tops the group. Scotland is in a good position to qualify for the finals without a play-off. The passage also mentions that 12 players in the current squad play outside of Scotland, which is seen as beneficial for the national team. The passage also briefly mentions the experience of one player, Lisa Evans, who recently won the women's Bundesliga with Bayern Munich.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 250,
+        "sample_id": 38,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumed",
+        "annotator_name": "Erana",
+        "summary_span": "women's",
+        "summary_start": 77,
+        "summary_end": 84
+      },
+      {
+        "annot_id": 253,
+        "sample_id": 38,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "does not specify who the current squad is",
+        "annotator_name": "Erana",
+        "summary_span": " 12 players in the current squad play outside of Scotland",
+        "summary_start": 315,
+        "summary_end": 372
+      },
+      {
+        "annot_id": 254,
+        "sample_id": 38,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "quite a bit of the passage is about evans",
+        "annotator_name": "Erana",
+        "summary_span": "briefly mentions",
+        "summary_start": 442,
+        "summary_end": 458
+      },
+      {
+        "annot_id": 255,
+        "sample_id": 38,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "first name not in source",
+        "annotator_name": "Erana",
+        "summary_span": "Lisa Evans",
+        "summary_start": 489,
+        "summary_end": 499
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.66182,
     "meta_hhem-2.1": 0.88175,
@@ -2935,7 +4058,83 @@
     "sample_id": 39,
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "The Scots women's football team has won all five of their qualifiers and is set to host Iceland, knowing a victory would nearly secure their place in the finals. Forward Evans, who has experienced past play-off losses, emphasizes the importance of this opportunity. Iceland, ranked just above Scotland, is also unbeaten, making the upcoming matches crucial for determining the group leader. Evans, along with other players, highlights the emotional significance of reaching the finals and the advantage of having a strong fan presence. The team benefits from having players in top international leagues, which enhances their skills and competitiveness. Evans, who recently won the Bundesliga with Bayern Munich, notes the positive impact of international experience on the national team.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 256,
+        "sample_id": 39,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumed",
+        "annotator_name": "Erana",
+        "summary_span": "women's football team",
+        "summary_start": 10,
+        "summary_end": 31
+      },
+      {
+        "annot_id": 257,
+        "sample_id": 39,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "leaving out \"to date\" could imply there are only 5 qualifiers\t",
+        "annotator_name": "Erana",
+        "summary_span": "all five of their qualifiers",
+        "summary_start": 40,
+        "summary_end": 68,
+        "source_span": "all five qualifiers to date",
+        "source_start": 19,
+        "source_end": 46
+      },
+      {
+        "annot_id": 258,
+        "sample_id": 39,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "does being forward in bayern imply forward in Scotland team?",
+        "annotator_name": "Erana",
+        "summary_span": "Forward Evans",
+        "summary_start": 162,
+        "summary_end": 175,
+        "source_span": "Bayern Munich forward Evans",
+        "source_start": 776,
+        "source_end": 803
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 39,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source only quotes evans",
+        "annotator_name": "Erana",
+        "summary_span": "Evans, along with other players, highlights the emotional significance of reaching the finals",
+        "summary_start": 391,
+        "summary_end": 484
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 39,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "team benefits vs evans believes team benefits",
+        "annotator_name": "Erana",
+        "summary_span": "The team benefits from having players in top international leagues,",
+        "summary_start": 536,
+        "summary_end": 603,
+        "source_span": "Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team",
+        "source_start": 2543,
+        "source_end": 2787
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.81445,
     "meta_hhem-2.1": 0.94084,
@@ -2982,6 +4181,63 @@
         "summary_span": "emergency",
         "summary_start": 63,
         "summary_end": 72
+      },
+      {
+        "annot_id": 261,
+        "sample_id": 40,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "landing was not due to emergency",
+        "annotator_name": "Erana",
+        "summary_span": "made an emergency landing",
+        "summary_start": 55,
+        "summary_end": 80
+      },
+      {
+        "annot_id": 262,
+        "sample_id": 40,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "not from source",
+        "annotator_name": "Erana",
+        "summary_span": "undercarriage",
+        "summary_start": 266,
+        "summary_end": 279
+      },
+      {
+        "annot_id": 263,
+        "sample_id": 40,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "only suggested as a common reason in source",
+        "annotator_name": "Erana",
+        "summary_span": "The incident was caused by human error, as the pilot forgot to deploy the landing gear before touchdown",
+        "summary_start": 407,
+        "summary_end": 510
+      },
+      {
+        "annot_id": 264,
+        "sample_id": 40,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "is said to be vs is",
+        "annotator_name": "Erana",
+        "summary_span": "The FAA is investigating the incident.",
+        "summary_start": 512,
+        "summary_end": 550,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2999,7 +4255,22 @@
     "sample_id": 41,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": " A light general aviation aircraft, an Aerostar plane, made an unintended landing on a runway without deploying its landing gear in Fort Pierce, Florida. The video captured the shocking moment as the plane skidded along the runway, with its propellers hitting the ground and creating a distinctive sound. The pilot, Chris Georgaklis, 85, re-engaged the engines and managed to take off again, flying 100 miles to Fort Lauderdale safely. The incident, which is being investigated by the FAA, is attributed to human error, as the pilot forgot to deploy the landing gear before touchdown. Mechanical faults are another possible cause of such accidents.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 265,
+        "sample_id": 41,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "never given that the landing itself was unintentional only the lack of landing gear, presumably ",
+        "annotator_name": "Erana",
+        "summary_span": "made an unintended landing",
+        "summary_start": 55,
+        "summary_end": 81
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.4847,
     "meta_hhem-2.1": 0.97913,

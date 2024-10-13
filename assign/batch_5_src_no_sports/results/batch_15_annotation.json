@@ -2277,6 +2277,23 @@
         "summary_span": "This series of fights took place between 1974 and 1980 and marked the beginning of the golden age of boxing in the classic middleweights.",
         "summary_start": 333,
         "summary_end": 470
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 40,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It is the most significant fight of the century. Source also mentioned the sixth fight in a series of 12. “The sixth significant fight in boxing history” is simply ungrounded.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "the sixth significant fight in boxing history",
+        "summary_start": 21,
+        "summary_end": 66,
+        "source_span": "the most significant this century ",
+        "source_start": 88,
+        "source_end": 122
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",

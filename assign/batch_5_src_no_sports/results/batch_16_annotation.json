@@ -2108,6 +2108,20 @@
         "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
         "summary_start": 0,
         "summary_end": 92
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 35,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is their current or latest destination, not their next. Next implied they aren't there yet, which is not accurate according to the source",
+        "annotator_name": "Matt",
+        "summary_span": "Their next destination is Armenia",
+        "summary_start": 774,
+        "summary_end": 807
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2158,6 +2172,33 @@
         "source_span": "\nusually they pitch a tent under the stars and camp ( 161 nights of the 256 ) but also use hosting websites such as couchsurfing ( 66 nights ) and warmshowers ( 44 nights ) .",
         "source_start": 1592,
         "source_end": 1766
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 36,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material and is not necessary to summarize",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
+        "summary_start": 0,
+        "summary_end": 92
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 36,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Benign"
+        ],
+        "note": "I think this is a reasonable inference to make based on the source material. Since Pablo implies simplicity, the ingredients are simple, and many of the listed foods need to be cooked/prepared, it seems like a helpful clarification",
+        "annotator_name": "Matt",
+        "summary_span": "and cooking simple meals",
+        "summary_start": 490,
+        "summary_end": 514
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -2225,6 +2266,47 @@
         "source_span": "\nthey traversed the entire northern coast of turkey , before riding through georgia and their latest destination , armenia , and they plan to ` continue into asia , across the pacific with the idea to cycle all the length of the american continent . '",
         "source_start": 4501,
         "source_end": 4752
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 37,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I think \"each\" is a missing, important piece of information here",
+        "annotator_name": "Matt",
+        "summary_span": "they are living on less than three euros a day.",
+        "summary_start": 143,
+        "summary_end": 190
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 37,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I think it's important to clarify that couchsurfing and warmshowers are also names of websites used to find accommodations and are not accommodations only or by themselves",
+        "annotator_name": "Matt",
+        "summary_span": "They rely on free accommodation, such as camping, couchsurfing, and warmshowers",
+        "summary_start": 191,
+        "summary_end": 270
+      },
+      {
+        "annot_id": 127,
+        "sample_id": 37,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's not clear to me from the source if the \"length of the american continent\" means horizontal or vertically. \n\nSince North and South America are their own continents, I'm confused by \"American continent\" being singular.\n\nI think this is questionable but because the source material is unclear.",
+        "annotator_name": "Matt",
+        "summary_span": "down the length of the American continent.",
+        "summary_start": 657,
+        "summary_end": 699
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2309,6 +2391,19 @@
         "source_span": "one of the 16 countries they 've been through since leaving london last year\nlatvian ilze sets up camp",
         "source_start": 828,
         "source_end": 930
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 39,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Benign"
+        ],
+        "note": "This may be benign because I think it may be adding clarity to the source content.\n\nIn the source they use the singular form of \"American continent\" but I think it's reasonable to assume what's meant is: \"American continents\" inclusive of both North and South America",
+        "annotator_name": "Matt",
+        "summary_span": "across the Americas.",
+        "summary_start": 553,
+        "summary_end": 573
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2343,6 +2438,34 @@
         "source_span": "\nproperties do come up with very short leases like this every so often but it is very rare for somewhere like knightsbridge .",
         "source_start": 4444,
         "source_end": 4569
+      },
+      {
+        "annot_id": 129,
+        "sample_id": 40,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This sentence seems to be lacking proper capitalization or maybe N introductory words.",
+        "annotator_name": "Matt",
+        "summary_span": "three-bedroom apartment in Knightsbridge",
+        "summary_start": 1,
+        "summary_end": 41
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 40,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This sentence appears to be incomplete",
+        "annotator_name": "Matt",
+        "summary_span": "It is rare for properties with such short leases to come",
+        "summary_start": 846,
+        "summary_end": 902
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2377,6 +2500,20 @@
         "source_span": "\negerton place was built off michael 's grove by john grover and son to the designs of architect mervyn macartney around 1893 .",
         "source_start": 2966,
         "source_end": 3093
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 41,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Seems to be incomplete, maybe missing \"A\" a the beginning",
+        "annotator_name": "Matt",
+        "summary_span": "three-bedroom apartment in Knightsbridge",
+        "summary_start": 1,
+        "summary_end": 41
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2411,6 +2548,20 @@
         "source_span": "\n` let it be a warning to check your lease . '",
         "source_start": 4744,
         "source_end": 4790
+      },
+      {
+        "annot_id": 132,
+        "sample_id": 42,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material and isn't necessary to summarize it",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 40
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2478,7 +2629,22 @@
     "sample_id": 45,
     "source": "a three-bedroom apartment in one of the most expensive areas to live in britain has been put on the market for just £ 575,000 - but the ` bargain ' property comes with a catch . \nthe knightsbridge flat , london , which is on sale for a fraction of the price of neighbouring homes , has just three years left on the lease . \nthe cost would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area . \nthe entrance to the flats in one of the most expensive areas to live in britain where a three-bedroom apartment has been put on the market for just £ 575,000\nbut if any buyer decides to extend the lease , the property could be worth upwards of £ 6 million . \nthe ` unmodernised ' maisonette in the in exclusive egerton place , is described as ` bright and well proportioned ' property with 1,990 sq/ft of space . \nit boasts three bedrooms , two bathrooms , a reception room and utility room along with a lift , parking and a communal garden . \nthe property is being sold by russell simpson for £ 575,000 - the same price as a three-bedroom house in stanmore , middlesex . \nit is one of two maisonettes being sold with three years remaining on the lease . \nboth homes will need to be modernised , with the second , larger property - also on egerton place - on the market for £ 595,000 . \nthe next cheapest three-bedroom property in knightsbridge costs £ 1.5 million , and this flat is only offered with a 28-year lease . \nbut the property comes with a catch , not only is it in dire need of renovation , ( such as in one of its bedrooms , pictured ) the home has just three years left on the lease\nthe cost for £ 575,000 on a three year lease would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area , plus renovation works which are needed , such as in the living room ( pictured )\nbut if any buyer decides to extend the lease , the ` bright and well proportioned ' property with 1,990 sq/ft of space , could be worth upwards of £ 6 million\njake russell , from russell simpson , said : ` properties like this come up once in a blue moon and i think it is an outstanding opportunity . \n` to get properties like this in egerton place is very exciting and the phone has n't stopped ringing , which is quite unusual considering the time of the year with the election around the corner . \n` we have had interest from locals , developers and end users . \nin modernised condition , we would estimate they would sell for between £ 2,750 and £ 3,000 per sq/ft . ' \nthis gives the smaller property a £ 6 million prices tag , while the larger maisonette with 2,500 sq/ft of space could be worth £ 7.5 million . \nthe current freeholder is thought to be the welcome trust and any buyer would have to negotiate a lease extension with them and , for a 90-year lease , it is likely to cost between £ 3.35 and £ 4.5 million . \negerton place was built off michael 's grove by john grover and son to the designs of architect mervyn macartney around 1893 . \nthe properties introduced a higher quality of architecture to the egerton gardens area with each home featuring four main storeys with basements and garrets , finished in costly two-inch bricks of red and orange . \nestate agents said it was rare for properties with such short leases to come on the market and the phone ` has n't stopped ringing ' about the egerton place apartment\nbut alex newall , from hanover private office , had a warning to potential buyers : ` it looks cheap , but there will be a massive premium to pay to extend the lease '\nleases of all the homes were granted by the smith 's charity trustees in 1894 , and its first occupant was , sir evan macgregor , permanent secretary to the admiralty . \nother residents of high status included the dowager lady lawrence , probably the widow of the first baron lawrence , at no. 5 , and sir henry fielding dickens , q.c. , son of the novelist charles at no. 2 . \none property consultant said it was very rare for a pair of properties to come onto the market with such short leases . \nalex newall , from hanover private office , said : ` it looks cheap , but there will be a massive premium to pay to extend the lease . \n` a developer will probably buy it or someone might use it as a rental for three years and then give it back to the freeholder . \n` it is a very quirky situation . \nproperties do come up with very short leases like this every so often but it is very rare for somewhere like knightsbridge . \n` i know someone who let their lease run down to eight years and they thought ` right , i need to extend it ' , but by then it was too late and the extension was too much . \n` let it be a warning to check your lease . '",
     "summary": "Here is a concise summary of the passage:\n\nA three-bedroom apartment in Knightsbridge, London, is on the market for £575,000, a fraction of the price of neighboring homes. However, the property has only three years left on its lease, which would work out to £191,000 per year or £15,000 per month. If the buyer decides to extend the lease, the property could be worth upwards of £6 million. The property is described as \"bright and well-proportioned\" with 1,990 sq/ft of space, but is in need of renovation. The current freeholder is the Welcome Trust, and any buyer would need to negotiate a lease extension with them, which could cost between £3.35 and £4.5 million.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 133,
+        "sample_id": 45,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material and isn't necessary to summarize it",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.24434,
     "meta_hhem-2.1": 0.98279,
@@ -2494,7 +2660,22 @@
     "sample_id": 46,
     "source": "a three-bedroom apartment in one of the most expensive areas to live in britain has been put on the market for just £ 575,000 - but the ` bargain ' property comes with a catch . \nthe knightsbridge flat , london , which is on sale for a fraction of the price of neighbouring homes , has just three years left on the lease . \nthe cost would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area . \nthe entrance to the flats in one of the most expensive areas to live in britain where a three-bedroom apartment has been put on the market for just £ 575,000\nbut if any buyer decides to extend the lease , the property could be worth upwards of £ 6 million . \nthe ` unmodernised ' maisonette in the in exclusive egerton place , is described as ` bright and well proportioned ' property with 1,990 sq/ft of space . \nit boasts three bedrooms , two bathrooms , a reception room and utility room along with a lift , parking and a communal garden . \nthe property is being sold by russell simpson for £ 575,000 - the same price as a three-bedroom house in stanmore , middlesex . \nit is one of two maisonettes being sold with three years remaining on the lease . \nboth homes will need to be modernised , with the second , larger property - also on egerton place - on the market for £ 595,000 . \nthe next cheapest three-bedroom property in knightsbridge costs £ 1.5 million , and this flat is only offered with a 28-year lease . \nbut the property comes with a catch , not only is it in dire need of renovation , ( such as in one of its bedrooms , pictured ) the home has just three years left on the lease\nthe cost for £ 575,000 on a three year lease would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area , plus renovation works which are needed , such as in the living room ( pictured )\nbut if any buyer decides to extend the lease , the ` bright and well proportioned ' property with 1,990 sq/ft of space , could be worth upwards of £ 6 million\njake russell , from russell simpson , said : ` properties like this come up once in a blue moon and i think it is an outstanding opportunity . \n` to get properties like this in egerton place is very exciting and the phone has n't stopped ringing , which is quite unusual considering the time of the year with the election around the corner . \n` we have had interest from locals , developers and end users . \nin modernised condition , we would estimate they would sell for between £ 2,750 and £ 3,000 per sq/ft . ' \nthis gives the smaller property a £ 6 million prices tag , while the larger maisonette with 2,500 sq/ft of space could be worth £ 7.5 million . \nthe current freeholder is thought to be the welcome trust and any buyer would have to negotiate a lease extension with them and , for a 90-year lease , it is likely to cost between £ 3.35 and £ 4.5 million . \negerton place was built off michael 's grove by john grover and son to the designs of architect mervyn macartney around 1893 . \nthe properties introduced a higher quality of architecture to the egerton gardens area with each home featuring four main storeys with basements and garrets , finished in costly two-inch bricks of red and orange . \nestate agents said it was rare for properties with such short leases to come on the market and the phone ` has n't stopped ringing ' about the egerton place apartment\nbut alex newall , from hanover private office , had a warning to potential buyers : ` it looks cheap , but there will be a massive premium to pay to extend the lease '\nleases of all the homes were granted by the smith 's charity trustees in 1894 , and its first occupant was , sir evan macgregor , permanent secretary to the admiralty . \nother residents of high status included the dowager lady lawrence , probably the widow of the first baron lawrence , at no. 5 , and sir henry fielding dickens , q.c. , son of the novelist charles at no. 2 . \none property consultant said it was very rare for a pair of properties to come onto the market with such short leases . \nalex newall , from hanover private office , said : ` it looks cheap , but there will be a massive premium to pay to extend the lease . \n` a developer will probably buy it or someone might use it as a rental for three years and then give it back to the freeholder . \n` it is a very quirky situation . \nproperties do come up with very short leases like this every so often but it is very rare for somewhere like knightsbridge . \n` i know someone who let their lease run down to eight years and they thought ` right , i need to extend it ' , but by then it was too late and the extension was too much . \n` let it be a warning to check your lease . '",
     "summary": "Here is a concise summary of the passage:\n\nA three-bedroom apartment in Knightsbridge, London, is on the market for £575,000, significantly cheaper than neighboring homes. However, the property has only three years left on its lease, making it equivalent to renting a similar flat in the area for £15,000 per month. The property needs modernization and any buyer would have to negotiate a lease extension with the freeholder, the Welcome Trust, which could cost between £3.35 and £4.5 million. If extended, the property could be worth upwards of £6 million. The property is being sold by Russell Simpson, and despite its quirks, has generated significant interest from locals, developers, and end-users.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 134,
+        "sample_id": 46,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material and isn't necessary to summarize it",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.34238,
     "meta_hhem-2.1": 0.97688,
