@@ -218,7 +218,7 @@ class HaluEvaluator():
             "openai/GPT-3.5-Turbo": "GPT-3.5-Turbo",
             "openai/gpt-4o": "GPT-4o",
             "Qwen/Qwen2.5-7B-Instruct": "Qwen2.5-7B",
-            "microsoft/Phi-3-mini-4k-instruct": "Phi-3-mini",
+            "microsoft/Phi-3-mini-4k-instruct": "Phi-3-mini-4k",
             "cohere/command-r-08-2024": "Command-R",
             "meta-llama/Meta-Llama-3.1-8B-Instruct": "Llama-3.1-8B",
             "meta-llama/Meta-Llama-3.1-70B-Instruct":"Llama-3.1-70B",
@@ -322,22 +322,22 @@ class HaluEvaluator():
         # Set the model names as index for easier plotting
         halu_dist_df.index = halu_dist_df.index.map(lambda x: self.model_map[x])
         # halu_dist_df = halu_dist_df.sort_values(by='Unwanted', ascending=True)
-        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Claude-3.5-Sonnet", "Llama-3.1-70B", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini"])
+        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Llama-3.1-70B", "Claude-3.5-Sonnet", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini-4k"])
         colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
         
         # Plot the stacked bar chart
         ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 7), color=colors)
         # Add numbers on the stacks
         for container in ax.containers:
-            ax.bar_label(container, fmt='%.2f%%', label_type='center', rotation=90)
+            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=65, color='white', fontsize=13, padding=1)
     
     
         # Add labels and title
         # plt.xlabel('Model')
-        # plt.ylabel('Percentage (%)')
+        plt.ylabel('Distribution of labels (%)', fontsize=14)
         # plt.title('Distribution of hallucination types')
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize='small', title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=45, ha='right')
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize=14, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=13)
         plt.tight_layout()
         plt.show()
 
