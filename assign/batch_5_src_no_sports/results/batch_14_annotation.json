@@ -215,22 +215,6 @@
         "summary_end": 165
       },
       {
-        "annot_id": 55,
-        "sample_id": 2,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": " firing indiscriminately.",
-        "summary_start": 655,
-        "summary_end": 680,
-        "source_span": "opening fire on everyone,",
-        "source_start": 941,
-        "source_end": 966
-      },
-      {
         "annot_id": 56,
         "sample_id": 2,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -500,23 +484,6 @@
         "source_end": 1277
       },
       {
-        "annot_id": 71,
-        "sample_id": 5,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "It just the abdullah in the source, not the afghan government",
-        "annotator_name": "Miaoran",
-        "summary_span": "The Afghan government has vowed to avenge the attack ",
-        "summary_start": 647,
-        "summary_end": 700,
-        "source_span": "Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\".",
-        "source_start": 2686,
-        "source_end": 2824
-      },
-      {
         "annot_id": 72,
         "sample_id": 5,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -592,23 +559,6 @@
         "source_span": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients.",
         "source_start": 0,
         "source_end": 145
-      },
-      {
-        "annot_id": 75,
-        "sample_id": 6,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"President\" does not represent the entire government",
-        "annotator_name": "Miaoran",
-        "summary_span": "The Afghan government has condemned the attack, with President Ashraf Ghani stating that it \"trampled all human values\".",
-        "summary_start": 598,
-        "summary_end": 718,
-        "source_span": "President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\"",
-        "source_start": 558,
-        "source_end": 648
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -888,36 +838,6 @@
         "summary_end": 493
       },
       {
-        "annot_id": 86,
-        "sample_id": 10,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"46th year of the Booker Prize\" is not the same as \"the 46th annual Booker Prize\"",
-        "annotator_name": "Miaoran",
-        "summary_span": " 46th annual Booker Prize",
-        "summary_start": 44,
-        "summary_end": 69,
-        "source_span": "This year marks is 46th year of the Booker Prize.",
-        "source_start": 3372,
-        "source_end": 3421
-      },
-      {
-        "annot_id": 89,
-        "sample_id": 10,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Questionable"
-        ],
-        "note": "\"followed by\" is confusing",
-        "annotator_name": "Miaoran",
-        "summary_span": "followed by Richard Flanagan's The Narrow Road to the Deep North.",
-        "summary_start": 199,
-        "summary_end": 264
-      },
-      {
         "annot_id": 90,
         "sample_id": 10,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -977,6 +897,22 @@
         "source_span": "\" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \"",
         "source_start": 2592,
         "source_end": 3192
+      },
+      {
+        "annot_id": 264,
+        "sample_id": 10,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the 46th annual Booker Prize",
+        "summary_start": 41,
+        "summary_end": 69,
+        "source_span": "This year marks is 46th year of the Booker Prize.",
+        "source_start": 3372,
+        "source_end": 3421
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1013,23 +949,6 @@
         "source_end": 3768
       },
       {
-        "annot_id": 95,
-        "sample_id": 11,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "It's the first year that the prize is open to all authors writing in English, which implies that this prize was not open to all English-writing authors previously.",
-        "annotator_name": "Miaoran",
-        "summary_span": "The prize is open to all English-writing authors, regardless of nationality.",
-        "summary_start": 108,
-        "summary_end": 184,
-        "source_span": "It is the first year that the prize is open to all authors writing in English, regardless of nationality.",
-        "source_start": 133,
-        "source_end": 238
-      },
-      {
         "annot_id": 97,
         "sample_id": 11,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -1044,23 +963,6 @@
         "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
         "source_start": 0,
         "source_end": 132
-      },
-      {
-        "annot_id": 98,
-        "sample_id": 11,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Mukherjee is also on the list. The summary implies that there are only 5 authors on the shortlist",
-        "annotator_name": "Miaoran",
-        "summary_span": "The shortlist includes Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan.",
-        "summary_start": 254,
-        "summary_end": 359,
-        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1.",
-        "source_start": 0,
-        "source_end": 555
       },
       {
         "annot_id": 99,
@@ -1095,6 +997,22 @@
         "source_span": " a specially bound edition of their book",
         "source_start": 3728,
         "source_end": 3768
+      },
+      {
+        "annot_id": 266,
+        "sample_id": 11,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Mukherjee is also on the list. The summary implies that there are only 5 authors on the shortlist",
+        "annotator_name": "Miaoran",
+        "summary_span": " The shortlist includes Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan.",
+        "summary_start": 253,
+        "summary_end": 359,
+        "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1.",
+        "source_start": 0,
+        "source_end": 555
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1168,38 +1086,6 @@
         "summary_end": 158
       },
       {
-        "annot_id": 104,
-        "sample_id": 12,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "English-language authors",
-        "summary_start": 272,
-        "summary_end": 296,
-        "source_span": "It is the first year that the prize is open to all authors writing in English, regardless of nationality.",
-        "source_start": 133,
-        "source_end": 238
-      },
-      {
-        "annot_id": 134,
-        "sample_id": 12,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Questionable"
-        ],
-        "note": "best-selling of all the shortlisted novels = best-selling shortlisted book?",
-        "annotator_name": "Miaoran",
-        "summary_span": " Karen Joy Fowler's \"We Are All Completely Beside Ourselves\" is the best-selling shortlisted book",
-        "summary_start": 483,
-        "summary_end": 580,
-        "source_span": "Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling.",
-        "source_start": 2019,
-        "source_end": 2125
-      },
-      {
         "annot_id": 249,
         "sample_id": 12,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -1229,22 +1115,6 @@
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The Booker Prize, in its 46th year, has expanded its eligibility to all English-language authors. The favourite to win is The Lives of Others by Mukherjee, set in 1960s Calcutta. The shortlist includes former winner Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan. Fowler's We Are All Completely Beside Ourselves is the bestseller among the nominees. The winner will be revealed in London, with the shortlisted authors receiving a monetary prize and a special edition of their book.",
     "annotations": [
-      {
-        "annot_id": 108,
-        "sample_id": 13,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "English-language authors",
-        "summary_start": 72,
-        "summary_end": 96,
-        "source_span": "all authors writing in English",
-        "source_start": 180,
-        "source_end": 210
-      },
       {
         "annot_id": 112,
         "sample_id": 13,
@@ -1331,22 +1201,6 @@
         "summary_span": "the 2014 Booker Prize",
         "summary_start": 40,
         "summary_end": 61
-      },
-      {
-        "annot_id": 115,
-        "sample_id": 14,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": " Sales figures",
-        "summary_start": 587,
-        "summary_end": 601,
-        "source_span": "Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen.",
-        "source_start": 2126,
-        "source_end": 2229
       },
       {
         "annot_id": 117,
@@ -1557,26 +1411,7 @@
     "sample_id": 18,
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The passage discusses the shortlist for the Booker Prize, which is open to all authors writing in English regardless of nationality. The favorite to win is Mukherjee's The Lives Of Others, a novel set in 1960s Calcutta. Other authors on the shortlist include Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan. The passage also mentions the best-selling novel on the shortlist, Fowler's We Are All Completely Beside Ourselves. The winner will be announced at London's Guildhall.",
-    "annotations": [
-      {
-        "annot_id": 263,
-        "sample_id": 18,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Questionable",
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The summary implies that this prize is open to all English-writing authors all the time. But the source mentions that it's the first year that this prize is open to all authors writing in English",
-        "annotator_name": "Miaoran",
-        "summary_span": " which is open to all authors writing in English regardless of nationality",
-        "summary_start": 57,
-        "summary_end": 131,
-        "source_span": "It is the first year that the prize is open to all authors writing in English, regardless of nationality.",
-        "source_start": 133,
-        "source_end": 238
-      }
-    ],
+    "annotations": [],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.8184,
     "meta_hhem-2.1": 0.96688,

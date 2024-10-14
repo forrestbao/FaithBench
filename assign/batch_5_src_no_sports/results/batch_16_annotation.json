@@ -238,6 +238,22 @@
         "summary_span": "famously saying \"No mas\" (No more)",
         "summary_start": 500,
         "summary_end": 534
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 2,
+        "annotator": "4ff7d3aba9f140ca9a57927d596b5314",
+        "label": [
+          "Benign"
+        ],
+        "note": "the translated english word does not show in the source",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "famously saying \"No mas\" (No more)",
+        "summary_start": 500,
+        "summary_end": 534,
+        "source_span": "\njust before the bell duran turned his back and walked to his corner , waving his arms to indicate he was finished and famously telling the referee : ` no mas . '",
+        "source_start": 3229,
+        "source_end": 3391
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -363,6 +379,23 @@
         "summary_span": "The third fight, held in New Orleans, ended with Duran's controversial \"No Mas\" gesture",
         "summary_start": 321,
         "summary_end": 408
+      },
+      {
+        "annot_id": 136,
+        "sample_id": 4,
+        "annotator": "4ff7d3aba9f140ca9a57927d596b5314",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the \"no mas\" happened in the second match.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The third fight, held in New Orleans, ended with Duran's controversial \"No Mas\" gesture, ",
+        "summary_start": 321,
+        "summary_end": 410,
+        "source_span": "\nduran became frustrated as leonard danced around him before unleashing his punches\nafter being caught flush in the face in the eighth round , duran turned his back and said ` no mas '\n` the whole fight i was moving .",
+        "source_start": 2503,
+        "source_end": 2720
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -492,6 +525,23 @@
         "summary_span": "he considers forcing Duran to quit as one of his greatest achievements",
         "summary_start": 824,
         "summary_end": 894
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 6,
+        "annotator": "4ff7d3aba9f140ca9a57927d596b5314",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source does not say it's the greatest achievement.",
+        "annotator_name": "Yujia Tang",
+        "summary_span": " he considers forcing Duran to quit as one of his greatest achievements.",
+        "summary_start": 823,
+        "summary_end": 895,
+        "source_span": "\nhe said : ` to me , making roberto duran to quit was better than knocking him out . '",
+        "source_start": 4594,
+        "source_end": 4680
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -670,23 +720,6 @@
         "source_span": "\nmcilroy is hoping to complete his grand slam of majors with a victory at augusta later this month\nbut the 25-year-old can not picture going through his career without slipping on at least one coveted green jacket .",
         "source_start": 1519,
         "source_end": 1734
-      },
-      {
-        "annot_id": 15,
-        "sample_id": 10,
-        "annotator": "4ff7d3aba9f140ca9a57927d596b5314",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "not mentioned about it is the valuable lessons",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "He has previously experienced a collapse in the final round of the Masters in 2011, which he considers the most important day of his career as it taught him valuable lessons about himself and his game.",
-        "summary_start": 405,
-        "summary_end": 606,
-        "source_span": "\nand the world number one has revealed how his final-round collapse at augusta national in 2011 was the most important day of his career .",
-        "source_start": 127,
-        "source_end": 265
       },
       {
         "annot_id": 16,
@@ -908,6 +941,23 @@
         "summary_span": "seeing Augusta as a course where he can excel.",
         "summary_start": 454,
         "summary_end": 500
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 13,
+        "annotator": "4ff7d3aba9f140ca9a57927d596b5314",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "there was only one collapse",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Despite a history of collapses at Augusta",
+        "summary_start": 115,
+        "summary_end": 156,
+        "source_span": "\nand the world number one has revealed how his final-round collapse at augusta national in 2011 was the most important day of his career .",
+        "source_start": 127,
+        "source_end": 265
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -938,23 +988,6 @@
         "summary_span": "Rory McIlroy, the world number one golfer, believes it is \"unthinkable\" that he will not win the Masters to complete the career grand slam.",
         "summary_start": 0,
         "summary_end": 139,
-        "source_span": "and the world number one has revealed how his final-round collapse at augusta national in 2011 was the most important day of his career . ",
-        "source_start": 128,
-        "source_end": 266
-      },
-      {
-        "annot_id": 54,
-        "sample_id": 14,
-        "annotator": "4ff7d3aba9f140ca9a57927d596b5314",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "I didn't see any connections with the world number one to Rory.",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "Rory McIlroy, the world number one golfer,",
-        "summary_start": 0,
-        "summary_end": 42,
         "source_span": "and the world number one has revealed how his final-round collapse at augusta national in 2011 was the most important day of his career . ",
         "source_start": 128,
         "source_end": 266

@@ -1932,19 +1932,6 @@
         "summary_end": 1066
       },
       {
-        "annot_id": 145,
-        "sample_id": 20,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "summary cuts off",
-        "annotator_name": "Erana",
-        "summary_span": "but Elizabeth Mitchell, from",
-        "summary_start": 1068,
-        "summary_end": 1096
-      },
-      {
         "annot_id": 165,
         "sample_id": 20,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -2105,19 +2092,6 @@
         "source_span": "in the womb ",
         "source_start": 118,
         "source_end": 130
-      },
-      {
-        "annot_id": 151,
-        "sample_id": 21,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "summary cuts off",
-        "annotator_name": "Erana",
-        "summary_span": "could suffer learning, behavioural,",
-        "summary_start": 1016,
-        "summary_end": 1051
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -4269,6 +4243,36 @@
         "summary_span": "made an unintended landing",
         "summary_start": 55,
         "summary_end": 81
+      },
+      {
+        "annot_id": 266,
+        "sample_id": 41,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said to be?",
+        "annotator_name": "Erana",
+        "summary_span": "The incident, which is being investigated by the FAA,",
+        "summary_start": 436,
+        "summary_end": 489,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
+      },
+      {
+        "annot_id": 267,
+        "sample_id": 41,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "unclear from source, assumed by video maker and given as a common cause",
+        "annotator_name": "Erana",
+        "summary_span": "is attributed to human error, as the pilot forgot to deploy the landing gear before touchdown",
+        "summary_start": 490,
+        "summary_end": 583
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -4286,7 +4290,40 @@
     "sample_id": 42,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "Here's a concise summary of the passage:\n\nA light general aviation aircraft attempted to land at Aero Acres residential airpark in Fort Pierce, Florida, without deploying its landing gear. The plane touched down on its belly, causing the propellers to hit the runway. The pilot, realizing his mistake, re-engaged the engines and took off again. Despite the damage, the 85-year-old pilot, Chris Georgaklis, managed to fly 100 miles to Fort Lauderdale and land safely. The incident was captured on video by an onlooker who initially thought the plane was doing a fly-by. The Federal Aviation Administration (FAA) is investigating the incident. Gear-up landings are typically caused by human error or mechanical faults.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 268,
+        "sample_id": 42,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "quote from video maker, presented as factual in summary",
+        "annotator_name": "Erana",
+        "summary_span": "The pilot, realizing his mistake",
+        "summary_start": 268,
+        "summary_end": 300,
+        "source_span": "` once the pilot realized his mistake",
+        "source_start": 1854,
+        "source_end": 1891
+      },
+      {
+        "annot_id": 269,
+        "sample_id": 42,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said to be?",
+        "annotator_name": "Erana",
+        "summary_span": "The Federal Aviation Administration (FAA) is investigating the incident.",
+        "summary_start": 569,
+        "summary_end": 641,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.27151,
     "meta_hhem-2.1": 0.94021,
@@ -4316,6 +4353,49 @@
         "summary_span": "An 85-year-old pilot, Chris Georgaklis, made an emergency landing in Fort Pierce, Florida, without deploying his landing gear.",
         "summary_start": 0,
         "summary_end": 126
+      },
+      {
+        "annot_id": 270,
+        "sample_id": 43,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "not emergency landing, questionable if counts as made",
+        "annotator_name": "Erana",
+        "summary_span": "made an emergency landing",
+        "summary_start": 40,
+        "summary_end": 65
+      },
+      {
+        "annot_id": 271,
+        "sample_id": 43,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said by video maker ",
+        "annotator_name": "Erana",
+        "summary_span": "causing damage to the propellers",
+        "summary_start": 163,
+        "summary_end": 195
+      },
+      {
+        "annot_id": 272,
+        "sample_id": 43,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said to be",
+        "annotator_name": "Erana",
+        "summary_span": "The FAA is investigating this particular incident.",
+        "summary_start": 457,
+        "summary_end": 507,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -4333,7 +4413,79 @@
     "sample_id": 44,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "A light general aviation aircraft, piloted by Chris Georgaklis, mistakenly landed without deploying its landing gear at Aero Acres Residential Airpark in Fort Pierce, Florida. The plane touched down on its belly, causing damage to the propellers and creating a loud impact sound. Despite the severe damage, the pilot managed to re-engage the engines and took off again, flying 100 miles to Fort Lauderdale where the plane landed safely. The incident highlights the risks of human error in forgetting to lower the landing gear and the potential for mechanical failure.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 273,
+        "sample_id": 44,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "touched down = landed?",
+        "annotator_name": "Erana",
+        "summary_span": "landed",
+        "summary_start": 75,
+        "summary_end": 81,
+        "source_span": "touched down",
+        "source_start": 32,
+        "source_end": 44
+      },
+      {
+        "annot_id": 274,
+        "sample_id": 44,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said by video maker",
+        "annotator_name": "Erana",
+        "summary_span": "causing damage to the propellers",
+        "summary_start": 213,
+        "summary_end": 245
+      },
+      {
+        "annot_id": 275,
+        "sample_id": 44,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "implies loud?",
+        "annotator_name": "Erana",
+        "summary_span": " loud",
+        "summary_start": 260,
+        "summary_end": 265,
+        "source_span": "ricocheting",
+        "source_start": 757,
+        "source_end": 768
+      },
+      {
+        "annot_id": 276,
+        "sample_id": 44,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "implied by video maker in source",
+        "annotator_name": "Erana",
+        "summary_span": "severe damage",
+        "summary_start": 292,
+        "summary_end": 305
+      },
+      {
+        "annot_id": 277,
+        "sample_id": 44,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if incident highlights this (cause was not expressly determined)",
+        "annotator_name": "Erana",
+        "summary_span": "The incident highlights the risks of human error in forgetting to lower the landing gear and the potential for mechanical failure.",
+        "summary_start": 437,
+        "summary_end": 567
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.48852,
     "meta_hhem-2.1": 0.96105,
@@ -4349,7 +4501,86 @@
     "sample_id": 45,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nA plane, an Aerostar, landed at the Aero Acres Residential Airpark in Fort Pierce, Florida, without deploying its landing gear. The pilot, Chris Georgaklis, 85, a veteran pilot with over 50 years of experience, touched down on the runway and skidded along the tarmac, causing damage to the propellers. The pilot re-engaged the engines and took off again, flying 100 miles to Fort Lauderdale, where he landed safely. The incident is being investigated by the FAA, and the most common cause of such a \"gear-up landing\" is human error or mechanical fault.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 278,
+        "sample_id": 45,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "touched down = landed?",
+        "annotator_name": "Erana",
+        "summary_span": "landed ",
+        "summary_start": 106,
+        "summary_end": 113,
+        "source_span": "touched down",
+        "source_start": 32,
+        "source_end": 44
+      },
+      {
+        "annot_id": 279,
+        "sample_id": 45,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Erana",
+        "summary_span": "a veteran pilot ",
+        "summary_start": 245,
+        "summary_end": 261,
+        "source_span": "flown for almost 50 years",
+        "source_start": 2665,
+        "source_end": 2690
+      },
+      {
+        "annot_id": 281,
+        "sample_id": 45,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said to be?",
+        "annotator_name": "Erana",
+        "summary_span": "The incident is being investigated by the FAA",
+        "summary_start": 500,
+        "summary_end": 545,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
+      },
+      {
+        "annot_id": 282,
+        "sample_id": 45,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said by video maker",
+        "annotator_name": "Erana",
+        "summary_span": "damage to the propellers",
+        "summary_start": 360,
+        "summary_end": 384,
+        "source_span": " damaged propellers ",
+        "source_start": 2453,
+        "source_end": 2473
+      },
+      {
+        "annot_id": 283,
+        "sample_id": 45,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "most common is only human error, not mechanical fault",
+        "annotator_name": "Erana",
+        "summary_span": "the most common cause of such a \"gear-up landing\" is human error or mechanical fault",
+        "summary_start": 551,
+        "summary_end": 635
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.23258,
     "meta_hhem-2.1": 0.93671,
@@ -4365,7 +4596,54 @@
     "sample_id": 46,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nAn Aerostar plane, piloted by 85-year-old Chris Georgaklis, touched down on a runway at Aero Acres Residential Airpark in Fort Pierce, Florida, without deploying its landing gear. The plane skidded along the runway on its belly, damaging its propellers, before the pilot re-engaged the engines and took off again. Despite the damage, Georgaklis managed to fly 100 miles to Fort Lauderdale and land safely. The incident is being investigated by the FAA, and the most common causes of such a \"gear-up landing\" are human error or mechanical fault.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 284,
+        "sample_id": 46,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said by video maker",
+        "annotator_name": "Erana",
+        "summary_span": "damaging its propellers",
+        "summary_start": 313,
+        "summary_end": 336,
+        "source_span": "the video maker can be heard saying that the plane 's propellers have been damaged",
+        "source_start": 1047,
+        "source_end": 1129
+      },
+      {
+        "annot_id": 285,
+        "sample_id": 46,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said to be",
+        "annotator_name": "Erana",
+        "summary_span": "The incident is being investigated by the FAA",
+        "summary_start": 490,
+        "summary_end": 535,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
+      },
+      {
+        "annot_id": 286,
+        "sample_id": 46,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "most common is only human error, not mechanical fault",
+        "annotator_name": "Erana",
+        "summary_span": "the most common causes of such a \"gear-up landing\" are human error or mechanical fault.",
+        "summary_start": 541,
+        "summary_end": 628
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.3934,
     "meta_hhem-2.1": 0.95427,
@@ -4381,7 +4659,70 @@
     "sample_id": 47,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "A light general aviation aircraft landed at Aero Acres Residential Airpark in Fort Pierce, Florida, without its landing gear deployed. The pilot, Chris Georgaklis, realized his mistake and managed to take off again, despite the plane's propellers hitting the runway. The plane flew 100 miles to Fort Lauderdale and landed safely. The FAA is investigating the incident, which is most commonly caused by human error or mechanical failure. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 287,
+        "sample_id": 47,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "touched down = landed?",
+        "annotator_name": "Erana",
+        "summary_span": "landed ",
+        "summary_start": 34,
+        "summary_end": 41,
+        "source_span": " touched down",
+        "source_start": 31,
+        "source_end": 44
+      },
+      {
+        "annot_id": 288,
+        "sample_id": 47,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said by video maker, can be assumed by events in video",
+        "annotator_name": "Erana",
+        "summary_span": "realized his mistake",
+        "summary_start": 164,
+        "summary_end": 184,
+        "source_span": "realized his mistake",
+        "source_start": 1871,
+        "source_end": 1891
+      },
+      {
+        "annot_id": 289,
+        "sample_id": 47,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said to be?",
+        "annotator_name": "Erana",
+        "summary_span": "The FAA is investigating the incident, ",
+        "summary_start": 330,
+        "summary_end": 369,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
+      },
+      {
+        "annot_id": 290,
+        "sample_id": 47,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "most common is only human error, not mechanical fault",
+        "annotator_name": "Erana",
+        "summary_span": "which is most commonly caused by human error or mechanical failure",
+        "summary_start": 369,
+        "summary_end": 435
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.37334,
     "meta_hhem-2.1": 0.98308,
@@ -4397,7 +4738,70 @@
     "sample_id": 48,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "The passage describes a shocking incident where an aeroplane landed on a runway without deploying its landing gear and skidded along the runway on its belly. The video footage shows the plane approaching the landing strip normally until the observer realizes that the landing gear is not deployed. The plane touches down with a bump and scratches along the tarmac, damaging the propellers. The pilot then re-engages the engines and takes off back into the air. The video maker expresses concern that the pilot may crash due to the damage. However, the pilot manages to fly 100 miles to Fort Lauderdale and lands safely. The most common cause of such incidents is human error or mechanical faults. The FAA is investigating the incident.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 291,
+        "sample_id": 48,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "touched down = landed?",
+        "annotator_name": "Erana",
+        "summary_span": "landed",
+        "summary_start": 61,
+        "summary_end": 67,
+        "source_span": "touched down",
+        "source_start": 32,
+        "source_end": 44
+      },
+      {
+        "annot_id": 292,
+        "sample_id": 48,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "somewhat assumed",
+        "annotator_name": "Erana",
+        "summary_span": "damaging the propellers",
+        "summary_start": 365,
+        "summary_end": 388,
+        "source_span": "its propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact ",
+        "source_start": 729,
+        "source_end": 832
+      },
+      {
+        "annot_id": 293,
+        "sample_id": 48,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "most common is only human error, not mechanical fault",
+        "annotator_name": "Erana",
+        "summary_span": "The most common cause of such incidents is human error or mechanical faults.",
+        "summary_start": 620,
+        "summary_end": 696
+      },
+      {
+        "annot_id": 294,
+        "sample_id": 48,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "said to be",
+        "annotator_name": "Erana",
+        "summary_span": "The FAA is investigating the incident.",
+        "summary_start": 697,
+        "summary_end": 735,
+        "source_span": "\nthe faa is said to be investigating the incident .",
+        "source_start": 3156,
+        "source_end": 3207
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.39833,
     "meta_hhem-2.1": 0.98342,
@@ -4413,7 +4817,50 @@
     "sample_id": 49,
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "A light general aviation aircraft in Fort Pierce, Florida, landed without deploying its landing gear, skidding along the runway on its belly. The incident was captured on video, showing the plane's propellers hitting the ground and the wings bouncing. The pilot, Chris Georgaklis, 85, managed to re-engage the engines and take off again, flying 100 miles to Fort Lauderdale where he landed safely. The video maker noted the unforgettable sound of the propellers hitting the runway and expressed amazement that the engines were not destroyed. The FAA is investigating the incident, which is commonly caused by human error or mechanical fault.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 295,
+        "sample_id": 49,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "touched down = landed?\n",
+        "annotator_name": "Erana",
+        "summary_span": "landed ",
+        "summary_start": 59,
+        "summary_end": 66,
+        "source_span": "touched down",
+        "source_start": 32,
+        "source_end": 44
+      },
+      {
+        "annot_id": 296,
+        "sample_id": 49,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "does this imply the aircraft is still or is regularly in fort pierce",
+        "annotator_name": "Erana",
+        "summary_span": "A light general aviation aircraft in Fort Pierce",
+        "summary_start": 0,
+        "summary_end": 48
+      },
+      {
+        "annot_id": 297,
+        "sample_id": 49,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "can it be assumed it is commonly caused by mechanical fault?",
+        "annotator_name": "Erana",
+        "summary_span": "which is commonly caused by human error or mechanical fault",
+        "summary_start": 581,
+        "summary_end": 640
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.5463,
     "meta_hhem-2.1": 0.98742,

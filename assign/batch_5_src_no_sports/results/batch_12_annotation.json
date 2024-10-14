@@ -116,20 +116,6 @@
         "summary_end": 810
       },
       {
-        "annot_id": 15,
-        "sample_id": 1,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "not sure what an eighty-eight beach is at all.",
-        "annotator_name": "Manveer",
-        "summary_span": "remote Eighty-Eight Beach",
-        "summary_start": 61,
-        "summary_end": 86
-      },
-      {
         "annot_id": 18,
         "sample_id": 1,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -142,19 +128,6 @@
         "summary_span": "Summary:\nA previously feared extinct Omura's whale washed up on a remote beach in Western Australia, providing scientists with a chance to learn more about the species. This is the first sighting in the region and only the second in Australia.",
         "summary_start": 809,
         "summary_end": 1052
-      },
-      {
-        "annot_id": 58,
-        "sample_id": 1,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Questionable"
-        ],
-        "note": "summary doesn't acknowledge that the source says both 53 and 60.\n",
-        "annotator_name": "Manveer",
-        "summary_span": "Note: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. ",
-        "summary_start": 696,
-        "summary_end": 807
       },
       {
         "annot_id": 93,
@@ -172,6 +145,46 @@
         "source_span": " omura 's whale was only described in scientific journals for the first time in 2003 ",
         "source_start": 908,
         "source_end": 993
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "an eighty-eight beach is not mentioned at all. I'm not sure what this could be referring to",
+        "annotator_name": "Manveer",
+        "summary_span": "remote Eighty-Eight Beach",
+        "summary_start": 61,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 112,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this should acknowledge that the source also says 53",
+        "annotator_name": "Manveer",
+        "summary_span": "Note: The passage mentions 60 vertebrae,",
+        "summary_start": 696,
+        "summary_end": 736
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "this is slightly? diverging from the source, which doesn't prefer one value over the other.",
+        "annotator_name": "Manveer",
+        "summary_span": " \n\nNote: The passage mentions 60 vertebrae, but the correct number is 53",
+        "summary_start": 693,
+        "summary_end": 765
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -204,20 +217,20 @@
         "summary_end": 278
       },
       {
-        "annot_id": 94,
+        "annot_id": 114,
         "sample_id": 2,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "note": "the source says it was described for the first time scientifically in 2003. It may have been described earlier as well.\t",
         "annotator_name": "Manveer",
         "summary_span": "which was first described in 2003",
         "summary_start": 460,
         "summary_end": 493,
-        "source_span": "omura 's whale was only described in scientific journals for the first time in 2003",
-        "source_start": 909,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003",
+        "source_start": 907,
         "source_end": 992
       }
     ],
@@ -477,17 +490,33 @@
         "summary_end": 592
       },
       {
-        "annot_id": 49,
+        "annot_id": 115,
+        "sample_id": 6,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary mentions an error in the source, but the summary seems to be accurate here.",
+        "annotator_name": "Manveer",
+        "summary_span": "not 60 as mentioned in one sentence, which appears to be an error).",
+        "summary_start": 525,
+        "summary_end": 592
+      },
+      {
+        "annot_id": 116,
         "sample_id": 6,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Questionable"
         ],
-        "note": "the summary mentions an error in the source, but the summary seems to be accurate here.",
+        "note": "it is not clear if we can go from feared to be extinct means thought to be nearly extinct",
         "annotator_name": "Manveer",
-        "summary_span": " (not 60 as mentioned in one sentence, which appears to be an error)",
-        "summary_start": 523,
-        "summary_end": 591
+        "summary_span": "thought to be nearly extinct",
+        "summary_start": 65,
+        "summary_end": 93,
+        "source_span": " was feared to be extinct",
+        "source_start": 23,
+        "source_end": 48
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -665,17 +694,38 @@
         "summary_end": 231
       },
       {
-        "annot_id": 57,
+        "annot_id": 117,
         "sample_id": 9,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
-          "Questionable"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
-        "note": "the source says first described scientifically",
+        "note": "the source says first described \"scientifically\" in 2003. It may have been described earlier otherwise.",
         "annotator_name": "Manveer",
-        "summary_span": "the species was first described in 2003 ",
+        "summary_span": "the species was first described in 2003",
         "summary_start": 416,
-        "summary_end": 456
+        "summary_end": 455,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003",
+        "source_start": 907,
+        "source_end": 992
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 9,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The minister did not say that the whale was typically found in these locations, he only said the whale is restricted to tropical and subtropical waters.",
+        "annotator_name": "Manveer",
+        "summary_span": "Environment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan. ",
+        "summary_start": 333,
+        "summary_end": 553,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said",
+        "source_start": 907,
+        "source_end": 1068
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -934,7 +984,7 @@
         "summary_end": 359
       },
       {
-        "annot_id": 103,
+        "annot_id": 120,
         "sample_id": 14,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
@@ -945,7 +995,10 @@
         "annotator_name": "Manveer",
         "summary_span": "This is McGregor's eighth defense of the title",
         "summary_start": 312,
-        "summary_end": 358
+        "summary_end": 358,
+        "source_span": "aldo makes the eighth defence of his belt ",
+        "source_start": 754,
+        "source_end": 796
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1093,6 +1146,19 @@
         "summary_span": "The two fighters have a tense relationship, and McGregor grabbed Aldo's belt during a promotional tour in Dublin.",
         "summary_start": 309,
         "summary_end": 422
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 18,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say mcgregor is determined to hold his belt in front of supporters",
+        "annotator_name": "Manveer",
+        "summary_span": "McGregor is determined to win the title and hold it in front of his supporters.",
+        "summary_start": 423,
+        "summary_end": 502
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1443,6 +1509,23 @@
         "summary_span": " coming as a surprise to the INGV. ",
         "summary_start": 601,
         "summary_end": 636
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 31,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say the power outages were caused by the aftershocks. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Several aftershocks were felt, causing power outages and evacuations in the Garfagnana area.",
+        "summary_start": 431,
+        "summary_end": 523,
+        "source_span": "Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports.",
+        "source_start": 358,
+        "source_end": 677
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",

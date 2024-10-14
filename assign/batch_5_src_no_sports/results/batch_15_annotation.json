@@ -75,55 +75,30 @@
         "summary_end": 171
       },
       {
-        "annot_id": 62,
+        "annot_id": 131,
         "sample_id": 1,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
         "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
+          "Benign"
         ],
-        "note": "Mr Hardy is selling his antiques after DECIDING to downsize his home not after DOWNSIZING his home. ",
+        "note": "This sentence is cutoff.",
         "annotator_name": "Chenyu Xu",
-        "summary_span": "after downsizing his home.",
-        "summary_start": 194,
-        "summary_end": 220,
-        "source_span": "after deciding to downsize his home ",
-        "source_start": 97,
-        "source_end": 133
+        "summary_span": "Despite retiring from stage acting two years",
+        "summary_start": 885,
+        "summary_end": 929
       },
       {
-        "annot_id": 63,
+        "annot_id": 132,
         "sample_id": 1,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
         "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
+          "Questionable"
         ],
-        "note": "“Sold” != “organized”",
+        "note": "This sentence is cutoff.",
         "annotator_name": "Chenyu Xu",
-        "summary_span": "The auction, organized by Dominic Winter Auctioneers",
-        "summary_start": 411,
-        "summary_end": 463,
-        "source_span": " total of 238 lots are being sold by dominic winter auctioneers",
-        "source_start": 1850,
-        "source_end": 1913
-      },
-      {
-        "annot_id": 64,
-        "sample_id": 1,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "“Two years” (summary) != “two years ago” (source). However this seems like a cutoff of the summary text.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": " retiring from stage acting two years",
-        "summary_start": 892,
-        "summary_end": 929,
-        "source_span": " \nmr hardy was forced to retire from stage acting two years ago",
-        "source_start": 4025,
-        "source_end": 4088
+        "summary_span": "Despite retiring from stage acting two years",
+        "summary_start": 885,
+        "summary_end": 929
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -265,6 +240,36 @@
         "source_span": "dozens of books , some dating back to the 17th century",
         "source_start": 1720,
         "source_end": 1774
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 2,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "estimated to be worth £100,000",
+        "summary_start": 160,
+        "summary_end": 190,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
+        "source_end": 96
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 2,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This sentence is cutoff.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
+        "summary_start": 959,
+        "summary_end": 1008
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -516,6 +521,23 @@
         "source_span": "in a £ 100,000 auction",
         "source_start": 74,
         "source_end": 96
+      },
+      {
+        "annot_id": 136,
+        "sample_id": 9,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "worth £100,000",
+        "summary_start": 156,
+        "summary_end": 170,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
+        "source_end": 96
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -588,6 +610,23 @@
         "summary_span": "Hardy, who lives in the Cotswolds",
         "summary_start": 867,
         "summary_end": 900
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 10,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "the longbow and portrait are expected to fetch up to £2,000.",
+        "summary_start": 716,
+        "summary_end": 776,
+        "source_span": "\nthere is also a longbow made from yew with a mother-of-pearl handle , as well as a portrait of mr hardy holding the bow , which is set to sell for up to £ 2,000 .",
+        "source_start": 1130,
+        "source_end": 1293
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -838,6 +877,23 @@
         "source_span": "dozens of books , some dating back to the 17th century",
         "source_start": 1720,
         "source_end": 1774
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 13,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "valued at £100,000",
+        "summary_start": 123,
+        "summary_end": 141,
+        "source_span": "n a £ 100,000 auction",
+        "source_start": 75,
+        "source_end": 96
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -919,6 +975,23 @@
         "source_span": "downsizing and losing a great part of a treasured library makes for sadness",
         "source_start": 2056,
         "source_end": 2131
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 14,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "valued at £100,000",
+        "summary_start": 171,
+        "summary_end": 189,
+        "source_span": "n a £ 100,000 auction",
+        "source_start": 75,
+        "source_end": 96
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1011,6 +1084,37 @@
         "summary_span": "has been forced to downsize his home",
         "summary_start": 456,
         "summary_end": 492
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 15,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "is selling his extensive collection of over 200 antiques",
+        "summary_start": 87,
+        "summary_end": 143,
+        "source_span": "is auctioning off more than 200 items he has collected over his career",
+        "source_start": 246,
+        "source_end": 316
+      },
+      {
+        "annot_id": 141,
+        "sample_id": 15,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "medieval history",
+        "summary_start": 314,
+        "summary_end": 330
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1068,6 +1172,20 @@
         "summary_span": "who has had a long and distinguished career",
         "summary_start": 644,
         "summary_end": 687
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 16,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "medieval history",
+        "summary_start": 502,
+        "summary_end": 518
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1456,6 +1574,20 @@
         "summary_span": "his extensive collection amassed through his interests in classic literature and military history.",
         "summary_start": 237,
         "summary_end": 335
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 24,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "medieval longbow",
+        "summary_start": 117,
+        "summary_end": 133
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1941,6 +2073,20 @@
         "summary_span": "with women's rates rising significantly faster than men's.",
         "summary_start": 251,
         "summary_end": 309
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 34,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Factors contributing to this trend include changing social norms, increased affordability of alcohol, and more aggressive alcohol advertising. Public health experts suggest that these changes have led to more acceptable and frequent binge drinking, especially among women.",
+        "summary_start": 499,
+        "summary_end": 771
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
