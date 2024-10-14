@@ -13,7 +13,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 76
+    "meta_sample_id": 76,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 1,
@@ -75,7 +78,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 191
+    "meta_sample_id": 191,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 2,
@@ -120,7 +126,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 306
+    "meta_sample_id": 306,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 3,
@@ -151,7 +160,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 421
+    "meta_sample_id": 421,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 4,
@@ -194,7 +206,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 536
+    "meta_sample_id": 536,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 5,
@@ -225,7 +240,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 651
+    "meta_sample_id": 651,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 6,
@@ -270,7 +288,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 766
+    "meta_sample_id": 766,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 7,
@@ -313,7 +334,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 881
+    "meta_sample_id": 881,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 8,
@@ -329,7 +353,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1026
+    "meta_sample_id": 1026,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 9,
@@ -377,7 +404,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1111
+    "meta_sample_id": 1111,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 10,
@@ -385,13 +415,13 @@
     "summary": " Jack Nicklaus, aged 75, achieved a hole-in-one on the 130-yard fourth hole during the Par-3 Contest at Augusta National. This was his first hole-in-one on the hallowed turf of Augusta. However, his achievement was eclipsed by Camilo Villegas, who also made two holes-in-one during the same event. Villegas made one on the fourth hole like Nicklaus and another on the eighth, but he lost out to Kevin Streelman in a play-off. Jack Nicklaus is a renowned golfer, having won the Masters Tournament six times, including being the youngest person to wear a green jacket in 1963. He is one of five men to complete the career Grand Slam. Rory McIlroy, a favorite, can achieve this accolade if he wins his third major in succession.",
     "annotations": [
       {
-        "annot_id": 53,
+        "annot_id": 65,
         "sample_id": 10,
         "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
         "label": [
-          "Questionable"
+          "Benign"
         ],
-        "note": "It's not clear from the source material, or my lack of golf knowledge, if Nicklaus won the Masters Tournament six times or if he won something else six times.\n\nSince the source mentions \"Augusta National\" and also \"masters week\" but doesn't provide sufficient context around \"a green jacket\" it's tough to know if this is a hallucination or not for me",
+        "note": "This summary is connecting the \"green jacket\" with the broader context of having to win a Masters tournament to earn it.\n\nI think this adds accurate context that isn't otherwise available in the source material.",
         "annotator_name": "Matt",
         "summary_span": "having won the Masters Tournament six times",
         "summary_start": 462,
@@ -407,7 +437,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 90
+    "meta_sample_id": 90,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 11,
@@ -450,7 +483,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 205
+    "meta_sample_id": 205,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 12,
@@ -511,7 +547,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 320
+    "meta_sample_id": 320,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 13,
@@ -548,18 +587,17 @@
         "summary_end": 397
       },
       {
-        "annot_id": 59,
+        "annot_id": 66,
         "sample_id": 13,
         "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
         "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
+          "Questionable"
         ],
-        "note": "This statement is partially accurate. The source material mentions McIlroy would need to wind his \"third major in succession\", but it's unclear from the source material if this summary (which implies immediate achievement of Grand Slam status) is accurate",
+        "note": "It's unclear from the source material if this specific competition would be McIlroy's third win to achieve Grand Slam status. It's too vague, in my opinion, which could lead to misunderstanding by a reader.",
         "annotator_name": "Matt",
-        "summary_span": "a feat that Rory McIlroy could emulate with a win.",
+        "summary_span": "a feat that Rory McIlroy could emulate with a win",
         "summary_start": 459,
-        "summary_end": 509
+        "summary_end": 508
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -571,7 +609,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 435
+    "meta_sample_id": 435,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 14,
@@ -619,7 +660,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 550
+    "meta_sample_id": 550,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 15,
@@ -650,7 +694,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 665
+    "meta_sample_id": 665,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 16,
@@ -697,7 +744,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 780
+    "meta_sample_id": 780,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 17,
@@ -727,7 +777,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 895
+    "meta_sample_id": 895,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 18,
@@ -743,7 +796,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 999
+    "meta_sample_id": 999,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 19,
@@ -773,7 +829,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1125
+    "meta_sample_id": 1125,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 20,
@@ -812,6 +871,20 @@
         "source_span": "nicklaus became the youngest person to wear a green jacket in 1963 ,",
         "source_start": 1370,
         "source_end": 1438
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 20,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "I'm not sure how this information was derived and it doesn't seem meaningful for the summary",
+        "annotator_name": "Matt",
+        "summary_span": "at the age of 22",
+        "summary_start": 528,
+        "summary_end": 544
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -823,7 +896,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 66
+    "meta_sample_id": 66,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 21,
@@ -839,7 +915,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 181
+    "meta_sample_id": 181,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 22,
@@ -861,6 +940,34 @@
         "source_span": "\nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
         "source_start": 1473,
         "source_end": 1627
+      },
+      {
+        "annot_id": 68,
+        "sample_id": 22,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 40
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 22,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I think this is mostly accurate but it's not clear from the source material if he needs to win the current or next Masters.",
+        "annotator_name": "Matt",
+        "summary_span": "Rory McIlroy could achieve this feat if he wins the upcoming Masters.",
+        "summary_start": 594,
+        "summary_end": 663
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -872,7 +979,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 296
+    "meta_sample_id": 296,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 23,
@@ -934,7 +1044,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 411
+    "meta_sample_id": 411,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 24,
@@ -968,13 +1081,31 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 526
+    "meta_sample_id": 526,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 25,
     "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nJack Nicklaus, 75 years old, achieved a hole-in-one on the 130-yard fourth hole at Augusta National during the par-3 contest. This was his first ace on the hallowed turf of Augusta, but was eclipsed by Camilo Villegas who achieved two aces on the day. Nicklaus, a six-time Masters champion and one of five men to complete the career grand slam, was playing alongside Gary Player and Ben Crenshaw at the time of his achievement.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 70,
+        "sample_id": 25,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "ere is a concise summary of the passage, covering the core pieces of information described:",
+        "summary_start": 1,
+        "summary_end": 92
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.14256,
     "meta_hhem-2.1": 0.41885,
@@ -984,13 +1115,31 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 641
+    "meta_sample_id": 641,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 26,
     "source": "at the grand old age of 75 , jack nicklaus is still capable of hitting aces . \nthe golden bear added another magic moment to his storied career at augusta national in the par-3 contest . \nstepping up to the tee on the 130-yard fourth , the greatest golfer of all time saw his shot sail beyond the flag before spinning back into the hole . \njack nicklaus gave the crowd something to cheer with a hole in one on the fourth during the par-3 contest\nnicklaus holds up his ball to an adoring crowd as gary player ( left ) and ben crenshaw salute the great\ncrenshaw and nicklaus fist pump following his ace on the 130-yard hole at augusta national\nnicklaus was playing alongside gary player and ben crenshaw as the first roar of masters week filled the skies in a sunswept georgia . \n` i had an interview this morning , and i said \" well , all i 've got to do is go out and win the par-3 and make a hole and one \" , and i make a hole in one , ' nicklaus said afterwards . \nthe ace was nicklaus ' first on the hallowed turf of augusta , but the veteran saw his achievement eclipsed by that of camilo villegas on a day which saw five hole-in-ones , levelling the record from 2002 . \nthe colombian followed nicklaus with an ace on the fourth and also managed one on the eighth , but he could n't quite land the title , losing out to world no 74 kevin streelman in a play-off . \n\nnicklaus became the youngest person to wear a green jacket in 1963 , and collected his sixth in 1986 . \nhe is one of five men to complete the career grand slam , an accolade which favourite rory mcilroy can achieve if he wins his third major in succession .",
     "summary": "Here is a concise summary of the passage:\n\nJack Nicklaus, 75, hit a hole-in-one on the 130-yard fourth hole at Augusta National during the par-3 contest, adding to his illustrious career. Nicklaus was playing alongside Gary Player and Ben Crenshaw. This was his first ace at Augusta, but not the only one of the day, as five hole-in-ones were recorded, tying the 2002 record. Camilo Villegas also hit two aces, but lost the title to Kevin Streelman in a playoff.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 71,
+        "sample_id": 26,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.26036,
     "meta_hhem-2.1": 0.88523,
@@ -1000,7 +1149,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 756
+    "meta_sample_id": 756,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 27,
@@ -1066,7 +1218,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 871
+    "meta_sample_id": 871,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 28,
@@ -1085,6 +1240,20 @@
         "summary_span": "was followed by another hole-in-one by Camilo Villegas",
         "summary_start": 169,
         "summary_end": 223
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 28,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This seems like an intrinsic hallucination because Villegas did also score an ace but it omits the contextual highlight of scoring a second ace.\n\nThis also makes it sound like Villegas scored only one ace.",
+        "annotator_name": "Matt",
+        "summary_span": "was followed by another hole-in-one by Camilo Villegas.",
+        "summary_start": 169,
+        "summary_end": 224
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1096,7 +1265,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 998
+    "meta_sample_id": 998,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 29,
@@ -1112,7 +1284,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1101
+    "meta_sample_id": 1101,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 30,
@@ -1128,7 +1303,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 74
+    "meta_sample_id": 74,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 31,
@@ -1148,6 +1326,32 @@
         "summary_span": "Eighty Mile",
         "summary_start": 68,
         "summary_end": 79
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 31,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Although this cites source material, the note itself is not part of the summary and is more the model's rationale for why it included the data it did",
+        "annotator_name": "Matt",
+        "summary_span": "Note: The passage mentions 67 vertebrae, but the correct number is 53. This has been corrected in the summary. \n\nSummary:\nA previously feared extinct Omura's whale washed up on a remote beach in Western Australia, providing scientists with a chance to learn more about the species. This is the first sighting in the region and only the second in Australia. The wh",
+        "summary_start": 675,
+        "summary_end": 1038
+      },
+      {
+        "annot_id": 83,
+        "sample_id": 31,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Benign"
+        ],
+        "note": "According to Google Eighty Mile Beach is an AKA for Exmouth beach so, if true, this seems to add helpful context for readers",
+        "annotator_name": "Matt",
+        "summary_span": "washed up on a remote Eighty Mile Beach in Western Australia",
+        "summary_start": 46,
+        "summary_end": 106
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1159,7 +1363,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 189
+    "meta_sample_id": 189,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 32,
@@ -1181,6 +1388,20 @@
         "source_span": "omura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin ",
         "source_start": 1314,
         "source_end": 1453
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 32,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage, covering the core pieces of information:",
+        "summary_start": 0,
+        "summary_end": 81
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1192,7 +1413,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 304
+    "meta_sample_id": 304,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 33,
@@ -1214,6 +1438,32 @@
         "source_span": " 53 vertebrae and four digits on each pectoral fin ",
         "source_start": 1402,
         "source_end": 1453
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 33,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Benign"
+        ],
+        "note": "This adds appropriate context that Western Australia is a state in Australia",
+        "annotator_name": "Matt",
+        "summary_span": "This is the first sighting in the state",
+        "summary_start": 120,
+        "summary_end": 159
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 33,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Benign"
+        ],
+        "note": "This seems benign because it reasonably correlates the difficulty of identification with the rarity of the species, previously thought to be extinct.\n\nI think this adds helpful, accurate context for a reader",
+        "annotator_name": "Matt",
+        "summary_span": "The juvenile female was initially difficult to identify due to its rarity",
+        "summary_start": 194,
+        "summary_end": 267
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1225,7 +1475,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 419
+    "meta_sample_id": 419,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 34,
@@ -1248,6 +1501,32 @@
         "source_span": "was feared to be extinct has been found washed up on a west australian beach ",
         "source_start": 24,
         "source_end": 101
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 34,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "This summary seems to inaccurately describe the extinction as being localized to Western Australia where it's actually a global classification",
+        "annotator_name": "Matt",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 79,
+        "sample_id": 34,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "In my opinion, this summary changes the context of the source material since it was only described in \"scientific journals\" and inserting \"scientifically\" here can carry different meanings",
+        "annotator_name": "Matt",
+        "summary_span": "which was only described scientifically in 2003",
+        "summary_start": 395,
+        "summary_end": 442
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1259,7 +1538,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 534
+    "meta_sample_id": 534,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 35,
@@ -1282,6 +1564,33 @@
         "source_span": " species of whale that was feared to be extinct has been found washed up on a west australian beach ",
         "source_start": 1,
         "source_end": 101
+      },
+      {
+        "annot_id": 80,
+        "sample_id": 35,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 35,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The species was thought to be extinct, period, and not specific to Australia",
+        "annotator_name": "Matt",
+        "summary_span": "a species thought to be extinct in Australia",
+        "summary_start": 76,
+        "summary_end": 120
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1293,13 +1602,31 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 649
+    "meta_sample_id": 649,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 36,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 67 vertebrae",
     "summary": "Here is a concise summary of the passage:\n\nA species of whale thought to be extinct, the Omura's whale, was found washed up on a remote beach in Western Australia. The 5.68m juvenile female was identified through DNA profiling, marking the first sighting of the species in WA and only the second in Australia. The discovery is significant as very little is known about the species, which was first described in scientific journals in 2003. The whale's skeleton will be recovered in a few years for further scientific investigation and possible public display in museums.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 82,
+        "sample_id": 36,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 41
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.99561,
     "meta_hhem-2.1": 0.87875,
@@ -1309,7 +1636,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 764
+    "meta_sample_id": 764,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 37,
@@ -1325,7 +1655,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 879
+    "meta_sample_id": 879,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 38,
@@ -1341,7 +1674,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 994
+    "meta_sample_id": 994,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 39,
@@ -1357,7 +1693,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1109
+    "meta_sample_id": 1109,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 40,
@@ -1373,7 +1712,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 95
+    "meta_sample_id": 95,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 41,
@@ -1410,6 +1752,33 @@
         "source_span": "identifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin .",
         "source_start": 424,
         "source_end": 1454
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 41,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Benign"
+        ],
+        "note": "Exmouth beach is allegedly also known as Eighty Mile Beach, which means this is adding helpful context for readers despite not being present in the source material",
+        "annotator_name": "Matt",
+        "summary_span": "washed up on a remote Eighty Mile Beach in Western Australia",
+        "summary_start": 47,
+        "summary_end": 107
+      },
+      {
+        "annot_id": 85,
+        "sample_id": 41,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material and is a summary of the logic used to create the summary",
+        "annotator_name": "Matt",
+        "summary_span": "Note: The passage mentions \"53 vertebrae\" but the original text states \"5.68 m juvenile female was at first difficult for Department of Parks and Wildlife staff, who eventually confirmed it was an Omura's whale with DNA profiling.\" This seems to be an error, as the number of vertebrae should be 53, not 5.68. I have retained the",
+        "summary_start": 676,
+        "summary_end": 1005
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1421,13 +1790,31 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 210
+    "meta_sample_id": 210,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 42,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nAn Omura's whale, a rare species once feared extinct, was found washed up on a remote beach in Exmouth, Western Australia, following Cyclone Olwyn. This is the first sighting in Western Australia and only the second in Australia. The 5.68m juvenile female was identified through DNA profiling. The discovery is significant for scientists as little is known about this species, which was first described in 2003. Omura's whales typically inhabit tropical and subtropical waters, including Indonesian waters, the Philippines, and the Sea of Japan. They have unique features, including 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, and the skeleton will be recovered later for further research and possible museum display.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 86,
+        "sample_id": 42,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here's a concise summary of the passage, covering the core pieces of information:",
+        "summary_start": 0,
+        "summary_end": 81
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.98534,
     "meta_hhem-2.1": 0.92244,
@@ -1437,7 +1824,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 325
+    "meta_sample_id": 325,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 43,
@@ -1459,6 +1849,19 @@
         "source_span": "\nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin .",
         "source_start": 1313,
         "source_end": 1454
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 43,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is helpful context that doesn't exist in the source material (explicitly) and also doesn't change the original meaning of the source material.",
+        "annotator_name": "Matt",
+        "summary_span": "marking the first sighting in the state and only the second in the country",
+        "summary_start": 110,
+        "summary_end": 184
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1470,7 +1873,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 440
+    "meta_sample_id": 440,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 44,
@@ -1504,13 +1910,31 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 555
+    "meta_sample_id": 555,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 45,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
     "summary": "Here is a concise summary of the passage:\n\nA juvenile female Omura's whale, a species thought to be extinct, was found washed up on a West Australian beach after a tropical cyclone. It is the first sighting of the species in Western Australia and only the second in Australia. The whale was identified through DNA profiling and is significant for scientists as little is known about the species. The carcass has been buried, and the skeleton will be recovered in a few years for further study and possible display in museums.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 88,
+        "sample_id": 45,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:\n",
+        "summary_start": 0,
+        "summary_end": 42
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.99552,
     "meta_hhem-2.1": 0.90765,
@@ -1520,13 +1944,31 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 670
+    "meta_sample_id": 670,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 46,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
     "summary": "Here is a concise summary of the passage:\n\nA rare Omura's whale, feared to be extinct, was found washed up on a remote beach in Western Australia, marking the first sighting in WA and only the second in Australia. The 5.68m juvenile female was identified through DNA profiling after initial difficulty. The discovery is significant for scientists, who know little about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The whale has unique skeletal features, including 53 vertebrae and four digits on each pectoral fin. The carcass has been buried, and the skeleton will be recovered for further scientific investigation and possible public display.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 89,
+        "sample_id": 46,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This has nothing to do with the source material",
+        "annotator_name": "Matt",
+        "summary_span": "Here is a concise summary of the passage:\n",
+        "summary_start": 0,
+        "summary_end": 42
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.99593,
     "meta_hhem-2.1": 0.92327,
@@ -1536,7 +1978,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 785
+    "meta_sample_id": 785,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 47,
@@ -1552,13 +1997,30 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 900
+    "meta_sample_id": 900,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 48,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
     "summary": "A species of whale, known as the Omura's whale, which was previously feared to be extinct, has been found washed up on a beach in Western Australia. This discovery provides scientists with an opportunity to learn more about the mammal. It is the first sighting of the species in Western Australia and only the second in Australia. The identification of the whale was initially difficult, but it was eventually confirmed to be an Omura's whale through DNA profiling. This find is considered highly significant for whale scientists, as very little is known about the species. The knowledge gained from this whale will help improve field identification guides and better understand its regional distribution. The Omura's whale is usually found in Indonesian waters, the Philippines, and the Sea of Japan. It has a sleek body shape and several unique skeletal features. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 90,
+        "sample_id": 48,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is adding additional, helpful context for readers and doesn't change the meaning of the source material, by calling out that whales are mammals",
+        "annotator_name": "Matt",
+        "summary_span": "with an opportunity to learn more about the mammal",
+        "summary_start": 184,
+        "summary_end": 234
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.9991,
     "meta_hhem-2.1": 0.89348,
@@ -1568,13 +2030,31 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 993
+    "meta_sample_id": 993,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 49,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 63 vertebrae",
     "summary": "A species of whale, feared extinct, was found on a West Australian beach, providing scientists a chance to study it. The Omura's whale, discovered on Exmouth beach after Cyclone Olwyn, marks the first sighting in Western Australia and the second in Australia. Initially difficult to identify, it was confirmed through DNA profiling. Environment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan. The whale has a sleek body and unique skeletal features. The carcass has been buried, with plans to recover the skeleton for further study and potential museum display.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 91,
+        "sample_id": 49,
+        "annotator": "5e3dc734a1b7499d9c166bf020ef6ff8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I think this is unwanted because the content of this sentence seems present in the source material but the way it's being correlated and summarized seems erroneous.\n\nAlbert Jacob said the find was significant because \"very little was known about the species\" and that the whale was \"only described in scientific journals for the first time in 2003\".\n\nThe second part of this span that talks about Indonesia, etc is not clearly attributable to his quote in the source material and seems like an independent thought",
+        "annotator_name": "Matt",
+        "summary_span": "noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan.",
+        "summary_start": 409,
+        "summary_end": 552
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.99875,
     "meta_hhem-2.1": 0.94691,
@@ -1584,6 +2064,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1130
+    "meta_sample_id": 1130,
+    "tags": [
+      "Health and Science"
+    ]
   }
 ]

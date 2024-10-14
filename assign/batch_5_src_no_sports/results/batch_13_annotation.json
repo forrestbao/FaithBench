@@ -34,6 +34,102 @@
         "source_span": "She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \"",
         "source_start": 1094,
         "source_end": 1717
+      },
+      {
+        "annot_id": 39,
+        "sample_id": 0,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes resident",
+        "annotator_name": "Erana",
+        "summary_span": "a resident of Doncaster",
+        "summary_start": 18,
+        "summary_end": 41,
+        "source_span": "Doncaster-based",
+        "source_start": 103,
+        "source_end": 118
+      },
+      {
+        "annot_id": 43,
+        "sample_id": 0,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "resilience is not mentioned in source but can be reasoned\t",
+        "annotator_name": "Erana",
+        "summary_span": "His nomination for the torch relay highlighted his resilience and unchanged intelligence and wit, despite his brain injury.",
+        "summary_start": 398,
+        "summary_end": 521,
+        "source_span": "L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \".",
+        "source_start": 413,
+        "source_end": 936
+      },
+      {
+        "annot_id": 44,
+        "sample_id": 0,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "carried torch, so implies chosen",
+        "annotator_name": "Erana",
+        "summary_span": "he was chosen to carry the Olympic torch",
+        "summary_start": 128,
+        "summary_end": 168,
+        "source_span": "Since carrying the torch on 26 June,",
+        "source_start": 66,
+        "source_end": 102
+      },
+      {
+        "annot_id": 46,
+        "sample_id": 0,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if summary implies facebook made a suggestion directly to Parkinson and his family",
+        "annotator_name": "Erana",
+        "summary_span": "Facebook suggested he consider having a page instead of a profile",
+        "summary_start": 879,
+        "summary_end": 944,
+        "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
+        "source_start": 1770,
+        "source_end": 1975
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 0,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "2012 not given, reasonable given mention of London Olympics",
+        "annotator_name": "Erana",
+        "summary_span": "carry the Olympic torch on June 26, 2012",
+        "summary_start": 145,
+        "summary_end": 185,
+        "source_span": "Since carrying the torch on 26 June,",
+        "source_start": 66,
+        "source_end": 102
+      },
+      {
+        "annot_id": 62,
+        "sample_id": 0,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "overwhelmed not mentioned in source but can be reasoned\t",
+        "annotator_name": "Erana",
+        "summary_span": "His mother, Diane, has been overwhelmed by the support and friendship he has received",
+        "summary_start": 677,
+        "summary_end": 762,
+        "source_span": "L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \"",
+        "source_start": 937,
+        "source_end": 1226
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -45,7 +141,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 46
+    "meta_sample_id": 46,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 1,
@@ -99,6 +198,69 @@
         "summary_span": "A total of 8,000 people will carry the flame during the 8,000-mile, 70-day journey to the opening ceremony of the Olympic Games in London on July 27, 2012",
         "summary_start": 681,
         "summary_end": 835
+      },
+      {
+        "annot_id": 47,
+        "sample_id": 1,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "2012 not from source",
+        "annotator_name": "Erana",
+        "summary_span": "June 26, 2012,",
+        "summary_start": 220,
+        "summary_end": 234
+      },
+      {
+        "annot_id": 49,
+        "sample_id": 1,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not mentioned by his mom, not a direct suggestion from facebook",
+        "annotator_name": "Erana",
+        "summary_span": "mentioned that Facebook suggested creating a page instead of a profile due to his status as a public figure",
+        "summary_start": 572,
+        "summary_end": 679,
+        "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
+        "source_start": 1770,
+        "source_end": 1975
+      },
+      {
+        "annot_id": 50,
+        "sample_id": 1,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "2012 not in source",
+        "annotator_name": "Erana",
+        "summary_span": " the Olympic Games in London on July 27, 2012",
+        "summary_start": 790,
+        "summary_end": 835,
+        "source_span": "the Olympic Games in London on 27 July.",
+        "source_start": 2203,
+        "source_end": 2242
+      },
+      {
+        "annot_id": 64,
+        "sample_id": 1,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "gratitude not explicit",
+        "annotator_name": "Erana",
+        "summary_span": "His mother, Diane, expressed gratitude for the overwhelming support ",
+        "summary_start": 500,
+        "summary_end": 568,
+        "source_span": "L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \"",
+        "source_start": 937,
+        "source_end": 1337
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -110,7 +272,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 161
+    "meta_sample_id": 161,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 2,
@@ -150,6 +315,68 @@
         "source_span": "He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \".",
         "source_start": 727,
         "source_end": 936
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 2,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Erana",
+        "summary_span": "Lance Bombardier",
+        "summary_start": 42,
+        "summary_end": 58,
+        "source_span": " L/Bdr",
+        "source_start": 118,
+        "source_end": 124
+      },
+      {
+        "annot_id": 53,
+        "sample_id": 2,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "12 hours is between rehab and gym not just rehab",
+        "annotator_name": "Erana",
+        "summary_span": "He spends 12 hours daily in rehabilitation",
+        "summary_start": 387,
+        "summary_end": 429
+      },
+      {
+        "annot_id": 54,
+        "sample_id": 2,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if summary implies facebook made a suggestion directly to Parkinson and his family",
+        "annotator_name": "Erana",
+        "summary_span": "Facebook suggests that Parkinson consider creating a public page or using the subscribe feature due to his newfound public figure status.",
+        "summary_start": 595,
+        "summary_end": 732,
+        "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend.",
+        "source_start": 1770,
+        "source_end": 2092
+      },
+      {
+        "annot_id": 55,
+        "sample_id": 2,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "relay not mentioned ",
+        "annotator_name": "Erana",
+        "summary_span": "The Olympic torch relay involves 8,000 people carrying the flame over 8,000 miles in 70 days",
+        "summary_start": 733,
+        "summary_end": 825,
+        "source_span": "A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey",
+        "source_start": 2093,
+        "source_end": 2175
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -161,7 +388,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 276
+    "meta_sample_id": 276,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 3,
@@ -198,6 +428,80 @@
         "source_span": "He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \".",
         "source_start": 727,
         "source_end": 936
+      },
+      {
+        "annot_id": 56,
+        "sample_id": 3,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "not explicitly given, assumed based on rank and gravity of injury",
+        "annotator_name": "Erana",
+        "summary_span": " a former soldier,",
+        "summary_start": 14,
+        "summary_end": 32
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 3,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "perseverance assumed",
+        "annotator_name": "Erana",
+        "summary_span": "has shown incredible determination and perseverance",
+        "summary_start": 132,
+        "summary_end": 183,
+        "source_span": "It said: \"Determined to prove everyone wrong, he fought back every step of the way.",
+        "source_start": 561,
+        "source_end": 644
+      },
+      {
+        "annot_id": 59,
+        "sample_id": 3,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "implied",
+        "annotator_name": "Erana",
+        "summary_span": "Ben's Olympic torch-carrying moment gained significant attention on Facebook",
+        "summary_start": 259,
+        "summary_end": 335,
+        "source_span": "Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook.",
+        "source_start": 66,
+        "source_end": 177
+      },
+      {
+        "annot_id": 60,
+        "sample_id": 3,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "can be assumed",
+        "annotator_name": "Erana",
+        "summary_span": "His story and positive attitude have inspired many",
+        "summary_start": 409,
+        "summary_end": 459
+      },
+      {
+        "annot_id": 63,
+        "sample_id": 3,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "overwhelmed not mentioned in source but can be reasoned\t",
+        "annotator_name": "Erana",
+        "summary_span": "Ben's family has been overwhelmed by the response",
+        "summary_start": 511,
+        "summary_end": 560,
+        "source_span": "She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \"",
+        "source_start": 1452,
+        "source_end": 1717
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -209,7 +513,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 391
+    "meta_sample_id": 391,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 4,
@@ -232,6 +539,36 @@
         "source_span": "She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.",
         "source_start": 1094,
         "source_end": 1450
+      },
+      {
+        "annot_id": 65,
+        "sample_id": 4,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "unsure if source means facebook page",
+        "annotator_name": "Erana",
+        "summary_span": "With over 19,000 Facebook hits on his page",
+        "summary_start": 229,
+        "summary_end": 271,
+        "source_span": "Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\"",
+        "source_start": 1338,
+        "source_end": 1451
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 4,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not in source",
+        "annotator_name": "Erana",
+        "summary_span": "has become a public figure.",
+        "summary_start": 555,
+        "summary_end": 582
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -243,7 +580,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 506
+    "meta_sample_id": 506,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 5,
@@ -280,6 +620,73 @@
         "source_span": "Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \"",
         "source_start": 1227,
         "source_end": 1337
+      },
+      {
+        "annot_id": 67,
+        "sample_id": 5,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source does not say where he carried the torch",
+        "annotator_name": "Erana",
+        "summary_span": "carried the Olympic torch in Doncaster, UK",
+        "summary_start": 131,
+        "summary_end": 173,
+        "source_span": "Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson ",
+        "source_start": 66,
+        "source_end": 135
+      },
+      {
+        "annot_id": 69,
+        "sample_id": 5,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source does not say this charity belongs to or is owned by ben",
+        "annotator_name": "Erana",
+        "summary_span": "with thousands of people joining his charity's website",
+        "summary_start": 374,
+        "summary_end": 428,
+        "source_span": "Thousands of people have joined the Pilgrim Bandits website",
+        "source_start": 1227,
+        "source_end": 1286
+      },
+      {
+        "annot_id": 70,
+        "sample_id": 5,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "summary implies thousands have sent messages of support which is reasonable from source but not explicit",
+        "annotator_name": "Erana",
+        "summary_span": "with thousands of people joining his charity's website and sending messages of support.",
+        "summary_start": 374,
+        "summary_end": 461,
+        "source_span": "Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. ",
+        "source_start": 1227,
+        "source_end": 1336
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 5,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source does not say this has inspired continuing his charity work",
+        "annotator_name": "Erana",
+        "summary_span": "As a result, Ben is \"absolutely bouncing\" and has been inspired to continue his charity work.",
+        "summary_start": 462,
+        "summary_end": 555,
+        "source_span": "Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" ",
+        "source_start": 1227,
+        "source_end": 1770
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -291,7 +698,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 621
+    "meta_sample_id": 621,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 6,
@@ -328,6 +738,88 @@
         "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
         "source_start": 1770,
         "source_end": 1975
+      },
+      {
+        "annot_id": 72,
+        "sample_id": 6,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "full title not in source",
+        "annotator_name": "Erana",
+        "summary_span": "Lance Bombardier (L/Bdr)",
+        "summary_start": 43,
+        "summary_end": 67,
+        "source_span": "L/Bdr",
+        "source_start": 119,
+        "source_end": 124
+      },
+      {
+        "annot_id": 73,
+        "sample_id": 6,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes soldier",
+        "annotator_name": "Erana",
+        "summary_span": "a soldier from Doncaster",
+        "summary_start": 83,
+        "summary_end": 107,
+        "source_span": "Doncaster-based L/Bdr",
+        "source_start": 103,
+        "source_end": 124
+      },
+      {
+        "annot_id": 74,
+        "sample_id": 6,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "source implies some degree of recovery but unsure how much",
+        "annotator_name": "Erana",
+        "summary_span": " he has made a remarkable recovery",
+        "summary_start": 239,
+        "summary_end": 273,
+        "source_span": "\"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided.",
+        "source_start": 450,
+        "source_end": 560
+      },
+      {
+        "annot_id": 75,
+        "sample_id": 6,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "assumes chosen",
+        "annotator_name": "Erana",
+        "summary_span": "was chosen to carry the Olympic torch on June 26.",
+        "summary_start": 278,
+        "summary_end": 327,
+        "source_span": "Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook.",
+        "source_start": 66,
+        "source_end": 177
+      },
+      {
+        "annot_id": 76,
+        "sample_id": 6,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source does not imply ben is considering this",
+        "annotator_name": "Erana",
+        "summary_span": "Ben is now considering alternatives to his personal Facebook profile, such as a public page, to manage the high volume of requests and messages.",
+        "summary_start": 606,
+        "summary_end": 750,
+        "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
+        "source_start": 1770,
+        "source_end": 1975
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -339,7 +831,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 736
+    "meta_sample_id": 736,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 7,
@@ -359,6 +854,38 @@
         "summary_span": "Ben Parkinson, a British soldier who was seriously injured in a bomb attack in Afghanistan in 2006, carried the Olympic torch on June 26th",
         "summary_start": 0,
         "summary_end": 138
+      },
+      {
+        "annot_id": 77,
+        "sample_id": 7,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "unsure if source means facebook page",
+        "annotator_name": "Erana",
+        "summary_span": "Ben's Facebook page had received 19,000 hits",
+        "summary_start": 453,
+        "summary_end": 497,
+        "source_span": "Ben's page has had 19,000 hits",
+        "source_start": 1338,
+        "source_end": 1368
+      },
+      {
+        "annot_id": 78,
+        "sample_id": 7,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if summary implies facebook made a suggestion directly to Parkinson and his family",
+        "annotator_name": "Erana",
+        "summary_span": "Facebook suggested that Parkinson consider having a page instead of a profile ",
+        "summary_start": 570,
+        "summary_end": 648,
+        "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
+        "source_start": 1770,
+        "source_end": 1975
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -370,13 +897,66 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 851
+    "meta_sample_id": 851,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 8,
     "source": "He was seriously injured in a bomb attack in Afghanistan in 2006. Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook. But the site limits friend associations to 5,000 per personal page and he cannot accept all the requests. Flanked by hundreds of people, he walked for nearly half an hour with the Olympic torch with an assistant who supported his arm. L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \". L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend. A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
     "summary": "The passage describes the story of L/Bdr Parkinson, who was seriously injured in a bomb attack in Afghanistan in 2006. Despite his brain injury, he has regained his speech and has a strong personality and sense of humor. He spends 12 hours a day in the gym and rehab, and the rest of his time raising money for military charities. He recently carried the Olympic torch for half an hour, receiving overwhelming support and friendship on Facebook. However, he is unable to accept all the friend requests due to the site's limit of 5,000 friends per personal page. L/Bdr Parkinson's mother expresses gratitude for the support they have received and mentions the increase in mail and email traffic. The passage also mentions that a total of 8,000 people will carry the Olympic torch during its journey to the opening ceremony of the Olympic Games in London.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 79,
+        "sample_id": 8,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "source does not say his personality is strong",
+        "annotator_name": "Erana",
+        "summary_span": " has a strong personality and sense of humor.",
+        "summary_start": 175,
+        "summary_end": 220,
+        "source_span": "\"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\"",
+        "source_start": 450,
+        "source_end": 726
+      },
+      {
+        "annot_id": 80,
+        "sample_id": 8,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "half an hour vs nearly half an hour",
+        "annotator_name": "Erana",
+        "summary_span": "He recently carried the Olympic torch for half an hour",
+        "summary_start": 331,
+        "summary_end": 385,
+        "source_span": "he walked for nearly half an hour with the Olympic torch",
+        "source_start": 315,
+        "source_end": 371
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 8,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "gratitude not explicit but can be assumed",
+        "annotator_name": "Erana",
+        "summary_span": "L/Bdr Parkinson's mother expresses gratitude for the support they have received",
+        "summary_start": 562,
+        "summary_end": 641,
+        "source_span": "L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" ",
+        "source_start": 937,
+        "source_end": 1770
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.97855,
     "meta_hhem-2.1": 0.9375,
@@ -386,7 +966,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 946
+    "meta_sample_id": 946,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 9,
@@ -409,6 +992,36 @@
         "source_span": "He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \".",
         "source_start": 727,
         "source_end": 936
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 9,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if summary implies facebook made a suggestion directly to Parkinson and his family",
+        "annotator_name": "Erana",
+        "summary_span": "Facebook suggested he create a public page due to his popularity. ",
+        "summary_start": 510,
+        "summary_end": 576,
+        "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
+        "source_start": 1770,
+        "source_end": 1975
+      },
+      {
+        "annot_id": 84,
+        "sample_id": 9,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [],
+        "note": "relay not said in source",
+        "annotator_name": "Erana",
+        "summary_span": "The Olympic torch relay",
+        "summary_start": 576,
+        "summary_end": 599,
+        "source_span": "A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
+        "source_start": 2093,
+        "source_end": 2242
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -420,7 +1033,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1081
+    "meta_sample_id": 1081,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 10,
@@ -436,7 +1052,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1
+    "meta_sample_id": 1,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 11,
@@ -452,7 +1071,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 116
+    "meta_sample_id": 116,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 12,
@@ -468,7 +1090,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 231
+    "meta_sample_id": 231,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 13,
@@ -516,7 +1141,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 346
+    "meta_sample_id": 346,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 14,
@@ -567,7 +1195,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 461
+    "meta_sample_id": 461,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 15,
@@ -583,7 +1214,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 576
+    "meta_sample_id": 576,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 16,
@@ -617,7 +1251,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 691
+    "meta_sample_id": 691,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 17,
@@ -633,7 +1270,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 806
+    "meta_sample_id": 806,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 18,
@@ -664,7 +1304,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 952
+    "meta_sample_id": 952,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 19,
@@ -680,13 +1323,50 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1036
+    "meta_sample_id": 1036,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 20,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": " The passage discusses the issue of Foetal Alcohol Syndrome (FAS) in the UK. According to the Official Health and Social Care Information Centre, 272 children were hospitalized due to FAS over the past 12 months. However, experts warn that the actual number could be much higher. The World Health Organization's research suggests that about 7,500 babies in the UK could suffer from learning, behavioral, and physical problems due to alcohol exposure in the womb. \n\nOne example of a child affected by FAS is 15-year-old Niamh Brown, who requires assistance with daily activities, has no sense of danger, and will never be able to live independently. She was diagnosed with FAS at the age of five, after her adoptive parents noticed her struggles at playschool. \n\nThe passage also mentions other medical issues associated with alcohol consumption during pregnancy, such as problems with the liver, kidneys, heart, cerebral palsy, sight loss, and epilepsy. Pregnant women are currently advised by the government not to exceed more than two units of alcohol twice a week, but Elizabeth Mitchell, from",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 23,
+        "sample_id": 20,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "1 over 100 babies equates to 7500 every year, but the summary cannot say about 7500 babies, since these are totally two experessions.",
+        "annotator_name": "Weisi",
+        "summary_span": "World Health Organization's research suggests that about 7,500 babies in the UK could suffer from learning, behavioral, and physical problems due to alcohol exposure in the womb.",
+        "summary_start": 284,
+        "summary_end": 462,
+        "source_span": " \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year .",
+        "source_start": 477,
+        "source_end": 976
+      },
+      {
+        "annot_id": 24,
+        "sample_id": 20,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The first advise is not to drink, it they drink then the recommendation is up to two units.",
+        "annotator_name": "Weisi",
+        "summary_span": "Pregnant women are currently advised by the government not to exceed more than two units of alcohol twice a week,",
+        "summary_start": 954,
+        "summary_end": 1067,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week .",
+        "source_start": 2204,
+        "source_end": 2368
+      }
+    ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.99447,
     "meta_hhem-2.1": 0.87709,
@@ -696,13 +1376,51 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 71
+    "meta_sample_id": 71,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 21,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": " The passage highlights the alarming issue of foetal alcohol syndrome (FAS) in England, with 272 children hospitalized due to brain damage from in-utero alcohol exposure in the past year. Experts warn that the actual number affected could be much higher. Research suggests that at least one in 100 UK babies could suffer learning, behavioural, and physical problems due to prenatal alcohol exposure, equating to approximately 7,500 cases annually. FAS is a severe, lifelong condition that is often under-diagnosed. The passage also mentions other health issues linked to alcohol consumption during pregnancy and the current government advice on alcohol consumption for pregnant women. \n\nSummary:\nThe passage discusses the concerning prevalence of foetal alcohol syndrome (FAS) in England, with 272 children hospitalized in the past year due to brain damage from in-utero alcohol exposure. Experts warn that the actual number affected could be much higher, with research suggesting that at least one in 100 UK babies could suffer learning, behavioural,",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 25,
+        "sample_id": 21,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Past year is not same with past 12 months.",
+        "annotator_name": "Weisi",
+        "summary_span": "issue of foetal alcohol syndrome (FAS) in England, with 272 children hospitalized due to brain damage from in-utero alcohol exposure in the past year.",
+        "summary_start": 37,
+        "summary_end": 187,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      },
+      {
+        "annot_id": 26,
+        "sample_id": 21,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Last year is not same with past 12 months.",
+        "annotator_name": "Weisi",
+        "summary_span": "The passage discusses the concerning prevalence of foetal alcohol syndrome (FAS) in England, with 272 children hospitalized in the past year",
+        "summary_start": 696,
+        "summary_end": 836,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      }
+    ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
     "meta_hhemv1": 0.99513,
     "meta_hhem-2.1": 0.32268,
@@ -712,13 +1430,67 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 186
+    "meta_sample_id": 186,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 22,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage discusses the alarming impact of alcohol consumption during pregnancy on children in the UK. Key points include:\n\n1. 272 children with foetal alcohol syndrome were hospitalized in England last year. \n\n2. The World Health Organization estimates that at least 1 in 100 UK babies (about 7,500 annually) may suffer from learning, behavioral, and physical problems due to alcohol exposure in the womb. \n\n3. Foetal alcohol syndrome is described as an enormous, sad, and under-diagnosed problem that doesn't improve over time. \n\n4. The passage provides an example of a 15-year-old girl with foetal alcohol syndrome who requires assistance and will never live independently. \n\n5. Other medical issues associated with prenatal alcohol exposure are mentioned, including liver, kidney, and heart problems. \n\n6. Current UK government advice allows pregnant women to drink up to two units twice a week, but some experts believe complete abstinence should be recommended.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 27,
+        "sample_id": 22,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Last year is not same as past 12 months.",
+        "annotator_name": "Weisi",
+        "summary_span": "1. 272 children with foetal alcohol syndrome were hospitalized in England last year.",
+        "summary_start": 209,
+        "summary_end": 293,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      },
+      {
+        "annot_id": 28,
+        "sample_id": 22,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "7500 is estimated based on the ration, but not real about 7500.",
+        "annotator_name": "Weisi",
+        "summary_span": "about 7,500 annually",
+        "summary_start": 373,
+        "summary_end": 393,
+        "source_span": "\nthat equates to about 7,500 every year .",
+        "source_start": 935,
+        "source_end": 976
+      },
+      {
+        "annot_id": 29,
+        "sample_id": 22,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": " Current UK government advice allows pregnant women to drink up to two units twice a wee",
+        "summary_start": 894,
+        "summary_end": 982,
+        "source_span": " \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week ",
+        "source_start": 2202,
+        "source_end": 2367
+      }
+    ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
     "meta_hhemv1": 0.87141,
     "meta_hhem-2.1": 0.85002,
@@ -728,7 +1500,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 301
+    "meta_sample_id": 301,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 23,
@@ -744,13 +1519,34 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 416
+    "meta_sample_id": 416,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 24,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "The passage highlights the severe issue of foetal alcohol syndrome (FAS) in England, where 272 children were hospitalized due to brain damage from prenatal alcohol exposure in the previous year. Experts warn that the actual number might be much higher, with research suggesting at least one in 100 UK births could be affected, equating to approximately 7,500 annually. The condition leads to learning, behavioral, and physical problems, and can result in lifelong disabilities. One example given is Niamh Brown, who requires constant assistance and will never live independently. The passage also mentions other potential health issues from prenatal alcohol consumption and advises pregnant women to avoid alcohol entirely.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 30,
+        "sample_id": 24,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "previous year is not same with past 12 months",
+        "annotator_name": "Weisi",
+        "summary_span": "where 272 children were hospitalized due to brain damage from prenatal alcohol exposure in the previous year",
+        "summary_start": 85,
+        "summary_end": 193,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      }
+    ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
     "meta_hhemv1": 0.99427,
     "meta_hhem-2.1": 0.43418,
@@ -760,13 +1556,51 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 531
+    "meta_sample_id": 531,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 25,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nIn England, 272 children were hospitalized last year due to being born with Foetal Alcohol Syndrome (FAS), a condition caused by exposure to alcohol in the womb. Experts warn that the actual number of affected children could be much higher. Research suggests that at least 1 in 100 babies born in the UK (approximately 7,500 per year) may suffer from learning, behavioural, and physical problems due to maternal alcohol consumption. Children born with FAS do not get better and may require lifelong care, as seen in the case of 15-year-old Niamh Brown. The condition can lead to a range of medical issues, including problems with the liver, kidneys, heart, and sight loss. The government advises pregnant women not to drink, with a recommended maximum consumption of up to 2 units, no more than twice a week, but some experts believe the guidance should be strengthened to advise complete abstinence during pregnancy.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 31,
+        "sample_id": 25,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Last year is not same with past 12 months.",
+        "annotator_name": "Weisi",
+        "summary_span": "In England, 272 children were hospitalized last year due to being born with Foetal Alcohol Syndrome (FAS), a condition caused by exposure to alcohol in the womb",
+        "summary_start": 94,
+        "summary_end": 254,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      },
+      {
+        "annot_id": 32,
+        "sample_id": 25,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "equations to about 7500 is not same with approximately 7500.",
+        "annotator_name": "Weisi",
+        "summary_span": "approximately 7,500 per year",
+        "summary_start": 399,
+        "summary_end": 427,
+        "source_span": "\nthat equates to about 7,500 every year .",
+        "source_start": 935,
+        "source_end": 976
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.90192,
     "meta_hhem-2.1": 0.29979,
@@ -776,13 +1610,34 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 646
+    "meta_sample_id": 646,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 26,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "Here is a concise summary of the passage:\n\n* 272 children with foetal alcohol syndrome were hospitalized in England over the past 12 months, according to the Health and Social Care Information Centre. \n* Experts warn that the actual number affected by maternal drinking could be far greater, with the World Health Organisation estimating that at least 1 in 100 babies born in the UK may suffer from learning, behavioral, and physical problems due to exposure to alcohol in the womb. \n* This equates to approximately 7,500 babies per year. \n* Foetal alcohol syndrome is a lifelong condition with no cure, and can cause a range of problems including learning difficulties, behavioral issues, and physical deformities. \n* Pregnant women are currently advised to limit their alcohol consumption to 2 units, no more than twice a week, but some experts believe that the guidance should be changed to advise against drinking altogether during pregnancy.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 33,
+        "sample_id": 26,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The top advice is not drinking, then if they drink no more than 2 units.",
+        "annotator_name": "Weisi",
+        "summary_span": "Pregnant women are currently advised to limit their alcohol consumption to 2 units, no more than twice a week, but some experts believe that the guidance should be changed to advise against drinking altogether during pregnancy.",
+        "summary_start": 719,
+        "summary_end": 946,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy ",
+        "source_start": 2204,
+        "source_end": 2489
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.9736,
     "meta_hhem-2.1": 0.32992,
@@ -792,13 +1647,48 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 761
+    "meta_sample_id": 761,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 27,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "In England, 272 children were hospitalized in the past year due to Fetal Alcohol Syndrome (FAS), a disability caused by alcohol exposure in the womb. This number is likely much lower than the actual number of children affected, as research suggests that at least 1 in 100 babies born in the UK could suffer from learning, behavioral, and physical problems due to alcohol exposure. FAS can cause lifelong disabilities, such as difficulty learning, holding a pencil, and paying attention. Other medical issues associated with alcohol consumption during pregnancy include problems with the liver, kidneys, heart, cerebral palsy, sight loss, and epilepsy. The government advises pregnant women to avoid alcohol, but some experts believe that women should not drink at all during pregnancy. \n",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 34,
+        "sample_id": 27,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Past year is not same with past 12 months.",
+        "annotator_name": "Weisi",
+        "summary_span": "In England, 272 children were hospitalized in the past year due to Fetal Alcohol Syndrome (FAS), a disability caused by alcohol exposure in the womb",
+        "summary_start": 0,
+        "summary_end": 148,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      },
+      {
+        "annot_id": 35,
+        "sample_id": 27,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The first half sentence has no casual relation with the second half. It is not appropriate to connect these two sentences with \"as\".",
+        "annotator_name": "Weisi",
+        "summary_span": "This number is likely much lower than the actual number of children affected, as research suggests that at least 1 in 100 babies born in the UK could suffer from learning, behavioral, and physical problems due to alcohol exposure",
+        "summary_start": 150,
+        "summary_end": 379
+      }
+    ],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.87507,
     "meta_hhem-2.1": 0.48007,
@@ -808,13 +1698,51 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 876
+    "meta_sample_id": 876,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 28,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "The passage reveals that 272 children in England were hospitalized in the past year due to being born with brain damage caused by exposure to alcohol in the womb. However, experts warn that the actual number of affected children could be much higher. Research by the World Health Organization suggests that approximately 1 in 100 babies born in the UK could suffer from learning, behavioral, and physical problems due to alcohol exposure, which amounts to around 7,500 babies each year. The passage also highlights the story of a teenager named Niamh Brown, who was born with fetal alcohol syndrome and requires assistance with daily tasks and will never be able to live independently. Other medical issues associated with alcohol consumption during pregnancy are mentioned, including problems with the liver, kidneys, heart, cerebral palsy, sight loss, and epilepsy. Pregnant women are advised by the government to limit alcohol consumption, but some experts argue that the guidance should be changed to advise against drinking altogether during pregnancy.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 36,
+        "sample_id": 28,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Past 12 months is not same with past year.",
+        "annotator_name": "Weisi",
+        "summary_span": "The passage reveals that 272 children in England were hospitalized in the past year due to being born with brain damage caused by exposure to alcohol in the womb",
+        "summary_start": 0,
+        "summary_end": 161,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      },
+      {
+        "annot_id": 37,
+        "sample_id": 28,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The advice with highest priority is not to drink, then it they do drink, it has limits. ",
+        "annotator_name": "Weisi",
+        "summary_span": "Pregnant women are advised by the government to limit alcohol consumption, but some experts argue that the guidance should be changed to advise against drinking altogether during pregnancy.",
+        "summary_start": 868,
+        "summary_end": 1057,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
+        "source_start": 2204,
+        "source_end": 2490
+      }
+    ],
     "meta_model": "openai/GPT-3.5-Turbo",
     "meta_hhemv1": 0.99133,
     "meta_hhem-2.1": 0.9797,
@@ -824,13 +1752,34 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1012
+    "meta_sample_id": 1012,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 29,
     "source": "hundreds of children were admitted to hospital last year after being born brain damaged following exposure to alcohol in the womb , alarming new figures have revealed . \nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre . \nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned . \nwarning : new figures show that 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to the official health and social care information centre\nresearch by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning , behavioural and physical problems such as deformed limbs because of exposure to alcohol , according to the sunday people . \nthat equates to about 7,500 every year . \nelizabeth mitchell , of the national organisation for foetal alchol syndrome , told reporter nicola fifield : ` children born with the syndrome do n't get better . \n` it is an enormous problem and one that is terribly sad and vastly under-diagnosed . ' \ntip of the iceberg : research by the world health organisation suggests that at least one in 100 babies born in the uk could suffer learning and behavioural problems because of exposure to alcohol in the womb\none teenager who was born with foetal alcohol syndrome is 15-year-old niamh brown . \nshe needs help getting dressed , has no sense of danger and will never be able to live independently . \nniamh was three when her adoptive parents julia and simon first noticed something was wrong . \nshe stuggled at playschool , having difficulty holding a pencil and paying attention . \ntwo years later , at the age of five , niamh was diagnosed with foetal alcohol syndrome from her birth mother 's drinking . \nin 2007 , julia and simon set up the foetal alcohol spectrum disorder trust to help others . \nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy . \npregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week . \nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
     "summary": "Hundreds of children were hospitalized last year in England due to brain damage from foetal alcohol syndrome (FAS), with 272 cases reported, though the actual number may be higher. Research indicates that at least one in 100 UK babies could suffer from learning, behavioral, and physical problems due to prenatal alcohol exposure, equating to about 7,500 affected babies annually. Elizabeth Mitchell from the National Organisation for Foetal Alcohol Syndrome highlights the severity and under-diagnosis of the issue. A case example is 15-year-old Niamh Brown, who has severe disabilities due to FAS. The government advises pregnant women to limit alcohol intake, but some experts, like Mitchell, advocate for complete abstinence during pregnancy.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 38,
+        "sample_id": 29,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Last year is not same with past 12 months",
+        "annotator_name": "Weisi",
+        "summary_span": "Hundreds of children were hospitalized last year in England due to brain damage from foetal alcohol syndrome (FAS)",
+        "summary_start": 0,
+        "summary_end": 114,
+        "source_span": "\nin total , 272 youngsters left disabled by foetal alcohol syndrome were hospitalised in england over the past 12 months , according to data from the official health and social care information centre .",
+        "source_start": 169,
+        "source_end": 371
+      }
+    ],
     "meta_model": "openai/gpt-4o",
     "meta_hhemv1": 0.99674,
     "meta_hhem-2.1": 0.91081,
@@ -840,7 +1789,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1106
+    "meta_sample_id": 1106,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 30,
@@ -856,7 +1808,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 61
+    "meta_sample_id": 61,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 31,
@@ -872,7 +1827,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 176
+    "meta_sample_id": 176,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 32,
@@ -888,7 +1846,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 291
+    "meta_sample_id": 291,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 33,
@@ -904,7 +1865,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 406
+    "meta_sample_id": 406,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 34,
@@ -920,7 +1884,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 521
+    "meta_sample_id": 521,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 35,
@@ -936,7 +1903,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 636
+    "meta_sample_id": 636,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 36,
@@ -952,7 +1922,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 751
+    "meta_sample_id": 751,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 37,
@@ -968,7 +1941,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 866
+    "meta_sample_id": 866,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 38,
@@ -984,7 +1960,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 976
+    "meta_sample_id": 976,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 39,
@@ -1000,7 +1979,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1096
+    "meta_sample_id": 1096,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 40,
@@ -1016,7 +1998,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 67
+    "meta_sample_id": 67,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 41,
@@ -1032,7 +2017,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 182
+    "meta_sample_id": 182,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 42,
@@ -1048,7 +2036,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 297
+    "meta_sample_id": 297,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 43,
@@ -1064,7 +2055,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 412
+    "meta_sample_id": 412,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 44,
@@ -1080,7 +2074,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 527
+    "meta_sample_id": 527,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 45,
@@ -1096,7 +2093,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 642
+    "meta_sample_id": 642,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 46,
@@ -1112,7 +2112,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 757
+    "meta_sample_id": 757,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 47,
@@ -1128,7 +2131,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 872
+    "meta_sample_id": 872,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 48,
@@ -1144,7 +2150,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1028
+    "meta_sample_id": 1028,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 49,
@@ -1160,6 +2169,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1102
+    "meta_sample_id": 1102,
+    "tags": [
+      "News and Journalism"
+    ]
   }
 ]

@@ -78,7 +78,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 7
+    "meta_sample_id": 7,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 1,
@@ -94,7 +97,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 122
+    "meta_sample_id": 122,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 2,
@@ -116,6 +122,19 @@
         "source_span": "Veeram ( Valour ) ",
         "source_start": 0,
         "source_end": 18
+      },
+      {
+        "annot_id": 289,
+        "sample_id": 2,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "\"Veeram\" (meaning \"Valour\")",
+        "summary_start": 151,
+        "summary_end": 178
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -127,7 +146,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 237
+    "meta_sample_id": 237,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 3,
@@ -143,7 +165,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 352
+    "meta_sample_id": 352,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 4,
@@ -159,7 +184,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 467
+    "meta_sample_id": 467,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 5,
@@ -191,6 +219,19 @@
         "summary_span": "There is no passage to provide a summary of",
         "summary_start": 0,
         "summary_end": 43
+      },
+      {
+        "annot_id": 286,
+        "sample_id": 5,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "There is no passage to provide a summary of.",
+        "summary_start": 0,
+        "summary_end": 44
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -202,7 +243,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 582
+    "meta_sample_id": 582,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 6,
@@ -224,6 +268,19 @@
         "source_span": "Veeram ( Valour )",
         "source_start": 0,
         "source_end": 17
+      },
+      {
+        "annot_id": 287,
+        "sample_id": 6,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "\"Veeram\" (meaning \"Valour\")",
+        "summary_start": 76,
+        "summary_end": 103
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -235,7 +292,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 697
+    "meta_sample_id": 697,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 7,
@@ -251,7 +311,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 812
+    "meta_sample_id": 812,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 8,
@@ -267,7 +330,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 989
+    "meta_sample_id": 989,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 9,
@@ -283,7 +349,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1042
+    "meta_sample_id": 1042,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 10,
@@ -306,23 +375,6 @@
         "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
         "source_start": 13,
         "source_end": 156
-      },
-      {
-        "annot_id": 58,
-        "sample_id": 10,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Broadway production of Wicked may not have same meaning with Wicked on Broadway.",
-        "annotator_name": "Weisi",
-        "summary_span": "On the other hand, Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
-        "summary_start": 243,
-        "summary_end": 347,
-        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
-        "source_start": 176,
-        "source_end": 234
       },
       {
         "annot_id": 103,
@@ -388,6 +440,48 @@
         "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) ",
         "source_start": 13,
         "source_end": 118
+      },
+      {
+        "annot_id": 285,
+        "sample_id": 10,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Benign"
+        ],
+        "note": "Broadway production of Wicked may not have same meaning with Wicked on Broadway.",
+        "annotator_name": "Weisi",
+        "summary_span": "On the other hand, Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016",
+        "summary_start": 243,
+        "summary_end": 346,
+        "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
+        "source_start": 176,
+        "source_end": 234
+      },
+      {
+        "annot_id": 290,
+        "sample_id": 10,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film Cafe Society",
+        "summary_start": 133,
+        "summary_end": 154
+      },
+      {
+        "annot_id": 291,
+        "sample_id": 10,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Broadway production of Wicked",
+        "summary_start": 301,
+        "summary_end": 338
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -399,7 +493,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 9
+    "meta_sample_id": 9,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 11,
@@ -572,7 +669,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 124
+    "meta_sample_id": 124,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 12,
@@ -673,6 +773,45 @@
         "source_span": "she played Madame Morrible",
         "source_start": 184,
         "source_end": 210
+      },
+      {
+        "annot_id": 292,
+        "sample_id": 12,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "two different actresses named Sheryl",
+        "summary_start": 110,
+        "summary_end": 146
+      },
+      {
+        "annot_id": 293,
+        "sample_id": 12,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film \"Café Society\"",
+        "summary_start": 178,
+        "summary_end": 201
+      },
+      {
+        "annot_id": 294,
+        "sample_id": 12,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Broadway production of \"Wicked\"",
+        "summary_start": 350,
+        "summary_end": 388
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -684,7 +823,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 239
+    "meta_sample_id": 239,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 13,
@@ -737,6 +879,19 @@
         "source_span": "in Wicked on Broadway ",
         "source_start": 211,
         "source_end": 233
+      },
+      {
+        "annot_id": 295,
+        "sample_id": 13,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Broadway production of 'Wicked'",
+        "summary_start": 196,
+        "summary_end": 235
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -748,7 +903,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 354
+    "meta_sample_id": 354,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 14,
@@ -816,6 +974,32 @@
         "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
         "source_start": 13,
         "source_end": 156
+      },
+      {
+        "annot_id": 296,
+        "sample_id": 14,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film \"Café Society\"",
+        "summary_start": 32,
+        "summary_end": 55
+      },
+      {
+        "annot_id": 297,
+        "sample_id": 14,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Broadway production of \"Wicked\"",
+        "summary_start": 189,
+        "summary_end": 227
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -827,7 +1011,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 469
+    "meta_sample_id": 469,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 15,
@@ -846,6 +1033,19 @@
         "summary_span": "Sheryl Lee and Sheryl Lee Ralph are two separate individuals who have worked in the entertainment industry",
         "summary_start": 43,
         "summary_end": 149
+      },
+      {
+        "annot_id": 298,
+        "sample_id": 15,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Lee and Sheryl Lee Ralph are two separate individuals who have worked in the entertainment industry.",
+        "summary_start": 43,
+        "summary_end": 150
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -857,7 +1057,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 584
+    "meta_sample_id": 584,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 16,
@@ -942,6 +1145,32 @@
         "source_span": "completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer",
         "source_start": 64,
         "source_end": 154
+      },
+      {
+        "annot_id": 299,
+        "sample_id": 16,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Broadway production of \"Wicked\"",
+        "summary_start": 271,
+        "summary_end": 310
+      },
+      {
+        "annot_id": 300,
+        "sample_id": 16,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " two actresses",
+        "summary_start": 63,
+        "summary_end": 77
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -953,7 +1182,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 699
+    "meta_sample_id": 699,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 17,
@@ -1075,6 +1307,32 @@
         "source_span": "in Wicked on Broadway",
         "source_start": 211,
         "source_end": 232
+      },
+      {
+        "annot_id": 301,
+        "sample_id": 17,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film *Café Society*",
+        "summary_start": 23,
+        "summary_end": 47
+      },
+      {
+        "annot_id": 302,
+        "sample_id": 17,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " in the Broadway production of *Wicked*",
+        "summary_start": 182,
+        "summary_end": 221
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1086,7 +1344,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 814
+    "meta_sample_id": 814,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 18,
@@ -1154,6 +1415,32 @@
         "source_span": "in Wicked on Broadway",
         "source_start": 211,
         "source_end": 232
+      },
+      {
+        "annot_id": 303,
+        "sample_id": 18,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "in the Broadway production of Wicked",
+        "summary_start": 241,
+        "summary_end": 277
+      },
+      {
+        "annot_id": 304,
+        "sample_id": 18,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "The passage mentions two actresses",
+        "summary_start": 0,
+        "summary_end": 34
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1165,7 +1452,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 968
+    "meta_sample_id": 968,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 19,
@@ -1215,7 +1505,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1044
+    "meta_sample_id": 1044,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 20,
@@ -1254,15 +1547,14 @@
         "summary_end": 233
       },
       {
-        "annot_id": 284,
+        "annot_id": 305,
         "sample_id": 20,
         "annotator": "f2e5c33a660b4c32a036c572e4d40831",
         "label": [
           "Unwanted",
-          "Questionable",
           "Unwanted.Extrinsic"
         ],
-        "note": "There is no mention of Albert's co-directing or co-writing\t",
+        "note": "Brooks is not co-writer or co-director of \"Finding Dory\"",
         "annotator_name": "Miaoran",
         "summary_span": "He is known for co-directing and co-writing the movie \"Finding Dory\" with Andrew Stanton and Victoria Strouse.",
         "summary_start": 123,
@@ -1278,7 +1570,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 10
+    "meta_sample_id": 10,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 21,
@@ -1314,6 +1609,19 @@
         "summary_span": "He starred in the film \"Finding Dory,\"",
         "summary_start": 131,
         "summary_end": 169
+      },
+      {
+        "annot_id": 306,
+        "sample_id": 21,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Brooks is in starring list",
+        "annotator_name": "Miaoran",
+        "summary_span": "He starred in the film \"Finding Dory,\"",
+        "summary_start": 131,
+        "summary_end": 169
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1325,7 +1633,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 125
+    "meta_sample_id": 125,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 22,
@@ -1347,6 +1658,19 @@
         "source_span": "Finding Dory .",
         "source_start": 131,
         "source_end": 145
+      },
+      {
+        "annot_id": 307,
+        "sample_id": 22,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " the movie \"Finding Dory,\"",
+        "summary_start": 328,
+        "summary_end": 354
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1358,7 +1682,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 240
+    "meta_sample_id": 240,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 23,
@@ -1402,7 +1729,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 355
+    "meta_sample_id": 355,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 24,
@@ -1424,19 +1754,6 @@
         "summary_end": 253
       },
       {
-        "annot_id": 203,
-        "sample_id": 24,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source just mentions \"Finding Dory\", but does not tell if Albert is involved in \"Finding Dory\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "he was involved in the film \"Finding Dory,\"",
-        "summary_start": 211,
-        "summary_end": 254
-      },
-      {
         "annot_id": 262,
         "sample_id": 24,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -1449,6 +1766,23 @@
         "summary_span": "It also mentions that he was involved in the film \"Finding Dory,\"",
         "summary_start": 189,
         "summary_end": 254
+      },
+      {
+        "annot_id": 309,
+        "sample_id": 24,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source does not mention brooks was involved in \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "It also mentions that he was involved in the film \"Finding Dory,\"",
+        "summary_start": 189,
+        "summary_end": 254,
+        "source_span": "Finding Dory .",
+        "source_start": 131,
+        "source_end": 145
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1460,7 +1794,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 470
+    "meta_sample_id": 470,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 25,
@@ -1555,7 +1892,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 585
+    "meta_sample_id": 585,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 26,
@@ -1622,6 +1962,19 @@
         "source_span": "Finding Dory .",
         "source_start": 131,
         "source_end": 145
+      },
+      {
+        "annot_id": 310,
+        "sample_id": 26,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film \"Finding Dory\"",
+        "summary_start": 255,
+        "summary_end": 278
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1633,7 +1986,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 700
+    "meta_sample_id": 700,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 27,
@@ -1691,7 +2047,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 815
+    "meta_sample_id": 815,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 28,
@@ -1713,6 +2072,19 @@
         "source_span": "Finding Dory .",
         "source_start": 131,
         "source_end": 145
+      },
+      {
+        "annot_id": 311,
+        "sample_id": 28,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "the film \"Finding Dory,\"",
+        "summary_start": 132,
+        "summary_end": 156
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1724,7 +2096,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 926
+    "meta_sample_id": 926,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 29,
@@ -1749,19 +2124,6 @@
         "source_end": 145
       },
       {
-        "annot_id": 206,
-        "sample_id": 29,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source does not mention if Albert was involved in \"Finding Dory\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "He was involved in the film \"Finding Dory,\" ",
-        "summary_start": 127,
-        "summary_end": 171
-      },
-      {
         "annot_id": 263,
         "sample_id": 29,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -1774,6 +2136,19 @@
         "summary_span": "He was involved in the film \"Finding Dory,\" ",
         "summary_start": 127,
         "summary_end": 171
+      },
+      {
+        "annot_id": 312,
+        "sample_id": 29,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Brooks starred in \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": " He was involved in the film \"Finding Dory,\" ",
+        "summary_start": 126,
+        "summary_end": 171
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1785,41 +2160,16 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 1045
+    "meta_sample_id": 1045,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 30,
     "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
     "summary": " The passage provides information about two individuals with similar names but different professions and nationalities. Timothy Simon Roth, born May 14, 1961, is an English actor and director. On the other hand, Tim Roth, born December 6, 1975, is a Canadian musician, serving as the guitarist, backing vocalist, and the only remaining founding member of the Canadian melodic death metal and progressive metal band, Into Eternity.",
     "annotations": [
-      {
-        "annot_id": 37,
-        "sample_id": 30,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source does not mention the nationality of Tim Roth",
-        "annotator_name": "Miaoran",
-        "summary_span": "nationalities",
-        "summary_start": 105,
-        "summary_end": 118
-      },
-      {
-        "annot_id": 38,
-        "sample_id": 30,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention if Tim Roth is a Canadian",
-        "annotator_name": "Miaoran",
-        "summary_span": "Canadian",
-        "summary_start": 250,
-        "summary_end": 258
-      },
       {
         "annot_id": 86,
         "sample_id": 30,
@@ -1876,6 +2226,32 @@
         "source_span": "Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band",
         "source_start": 75,
         "source_end": 240
+      },
+      {
+        "annot_id": 313,
+        "sample_id": 30,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Based on knowledge that Tim is canadian",
+        "annotator_name": "Miaoran",
+        "summary_span": "two individuals with similar names but different professions and nationalities.",
+        "summary_start": 40,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 314,
+        "sample_id": 30,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "based on world knowledge",
+        "annotator_name": "Miaoran",
+        "summary_span": "Tim Roth, born December 6, 1975, is a Canadian musician,",
+        "summary_start": 212,
+        "summary_end": 268
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1887,7 +2263,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 11
+    "meta_sample_id": 11,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 31,
@@ -1903,7 +2282,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 126
+    "meta_sample_id": 126,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 32,
@@ -1925,22 +2307,6 @@
         "summary_end": 248
       },
       {
-        "annot_id": 207,
-        "sample_id": 32,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The sources does not mention if Tim Roth is a Canadian\t",
-        "annotator_name": "Miaoran",
-        "summary_span": "A Canadian musician",
-        "summary_start": 238,
-        "summary_end": 257,
-        "source_span": "Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
-        "source_start": 75,
-        "source_end": 258
-      },
-      {
         "annot_id": 210,
         "sample_id": 32,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -1955,6 +2321,19 @@
         "source_span": "Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
         "source_start": 75,
         "source_end": 258
+      },
+      {
+        "annot_id": 315,
+        "sample_id": 32,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Tim Roth: A Canadian musician",
+        "summary_start": 228,
+        "summary_end": 257
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1966,7 +2345,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 241
+    "meta_sample_id": 241,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 33,
@@ -2029,7 +2411,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 356
+    "meta_sample_id": 356,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 34,
@@ -2060,7 +2445,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 471
+    "meta_sample_id": 471,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 35,
@@ -2091,7 +2479,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 586
+    "meta_sample_id": 586,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 36,
@@ -2170,7 +2561,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 701
+    "meta_sample_id": 701,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 37,
@@ -2186,7 +2580,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 816
+    "meta_sample_id": 816,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 38,
@@ -2220,7 +2617,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 986
+    "meta_sample_id": 986,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 39,
@@ -2236,7 +2636,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1046
+    "meta_sample_id": 1046,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 40,
@@ -2335,7 +2738,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 34
+    "meta_sample_id": 34,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 41,
@@ -2443,7 +2849,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 149
+    "meta_sample_id": 149,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 42,
@@ -2555,7 +2964,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 264
+    "meta_sample_id": 264,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 43,
@@ -2663,7 +3075,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 379
+    "meta_sample_id": 379,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 44,
@@ -2746,7 +3161,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 494
+    "meta_sample_id": 494,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 45,
@@ -2888,7 +3306,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 609
+    "meta_sample_id": 609,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 46,
@@ -3032,7 +3453,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 724
+    "meta_sample_id": 724,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 47,
@@ -3128,7 +3552,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 839
+    "meta_sample_id": 839,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 48,
@@ -3241,7 +3668,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 982
+    "meta_sample_id": 982,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 49,
@@ -3288,6 +3718,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1069
+    "meta_sample_id": 1069,
+    "tags": [
+      "News and Journalism"
+    ]
   }
 ]
