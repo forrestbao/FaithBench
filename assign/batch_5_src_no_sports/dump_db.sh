@@ -1,4 +1,4 @@
-MERCURY=/home/forrest/repos/mercury
+MERCURY=/home/amin/clients/mercury
 
 for batch in {1..16}
 #for batch in {3..3}

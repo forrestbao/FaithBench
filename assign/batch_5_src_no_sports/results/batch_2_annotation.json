@@ -78,7 +78,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 7
+    "meta_sample_id": 7,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 1,
@@ -94,7 +97,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 122
+    "meta_sample_id": 122,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 2,
@@ -140,7 +146,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 237
+    "meta_sample_id": 237,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 3,
@@ -156,7 +165,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 352
+    "meta_sample_id": 352,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 4,
@@ -172,7 +184,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 467
+    "meta_sample_id": 467,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 5,
@@ -228,7 +243,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 582
+    "meta_sample_id": 582,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 6,
@@ -274,7 +292,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 697
+    "meta_sample_id": 697,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 7,
@@ -290,7 +311,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 812
+    "meta_sample_id": 812,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 8,
@@ -306,7 +330,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 989
+    "meta_sample_id": 989,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 9,
@@ -322,7 +349,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1042
+    "meta_sample_id": 1042,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 10,
@@ -463,7 +493,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 9
+    "meta_sample_id": 9,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 11,
@@ -663,7 +696,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 124
+    "meta_sample_id": 124,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 12,
@@ -814,7 +850,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 239
+    "meta_sample_id": 239,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 13,
@@ -874,7 +913,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 354
+    "meta_sample_id": 354,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 14,
@@ -979,7 +1021,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 469
+    "meta_sample_id": 469,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 15,
@@ -1022,7 +1067,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 584
+    "meta_sample_id": 584,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 16,
@@ -1127,7 +1175,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 699
+    "meta_sample_id": 699,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 17,
@@ -1286,7 +1337,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 814
+    "meta_sample_id": 814,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 18,
@@ -1391,7 +1445,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 968
+    "meta_sample_id": 968,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 19,
@@ -1441,7 +1498,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1044
+    "meta_sample_id": 1044,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 20,
@@ -1503,7 +1563,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 10
+    "meta_sample_id": 10,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 21,
@@ -1563,7 +1626,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 125
+    "meta_sample_id": 125,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 22,
@@ -1609,7 +1675,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 240
+    "meta_sample_id": 240,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 23,
@@ -1668,7 +1737,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 355
+    "meta_sample_id": 355,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 24,
@@ -1730,7 +1802,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 470
+    "meta_sample_id": 470,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 25,
@@ -1838,7 +1913,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 585
+    "meta_sample_id": 585,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 26,
@@ -1929,7 +2007,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 700
+    "meta_sample_id": 700,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 27,
@@ -1988,7 +2069,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 815
+    "meta_sample_id": 815,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 28,
@@ -2034,7 +2118,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 926
+    "meta_sample_id": 926,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 29,
@@ -2092,7 +2179,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 1045
+    "meta_sample_id": 1045,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 30,
@@ -2192,7 +2282,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 11
+    "meta_sample_id": 11,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 31,
@@ -2208,7 +2301,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 126
+    "meta_sample_id": 126,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 32,
@@ -2268,7 +2364,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 241
+    "meta_sample_id": 241,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 33,
@@ -2331,7 +2430,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 356
+    "meta_sample_id": 356,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 34,
@@ -2362,7 +2464,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 471
+    "meta_sample_id": 471,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 35,
@@ -2393,7 +2498,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 586
+    "meta_sample_id": 586,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 36,
@@ -2472,7 +2580,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 701
+    "meta_sample_id": 701,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 37,
@@ -2488,7 +2599,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 816
+    "meta_sample_id": 816,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 38,
@@ -2522,7 +2636,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 986
+    "meta_sample_id": 986,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 39,
@@ -2538,7 +2655,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1046
+    "meta_sample_id": 1046,
+    "tags": [
+      "Entertainment and Arts"
+    ]
   },
   {
     "sample_id": 40,
@@ -2650,7 +2770,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 34
+    "meta_sample_id": 34,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 41,
@@ -2774,7 +2897,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 149
+    "meta_sample_id": 149,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 42,
@@ -2886,7 +3012,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 264
+    "meta_sample_id": 264,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 43,
@@ -2994,7 +3123,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 379
+    "meta_sample_id": 379,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 44,
@@ -3077,7 +3209,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 494
+    "meta_sample_id": 494,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 45,
@@ -3219,7 +3354,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 609
+    "meta_sample_id": 609,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 46,
@@ -3363,7 +3501,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 724
+    "meta_sample_id": 724,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 47,
@@ -3472,7 +3613,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 839
+    "meta_sample_id": 839,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 48,
@@ -3585,7 +3729,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 982
+    "meta_sample_id": 982,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 49,
@@ -3649,6 +3796,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1069
+    "meta_sample_id": 1069,
+    "tags": [
+      "News and Journalism"
+    ]
   }
 ]

@@ -141,7 +141,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 46
+    "meta_sample_id": 46,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 1,
@@ -269,7 +272,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 161
+    "meta_sample_id": 161,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 2,
@@ -382,7 +388,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 276
+    "meta_sample_id": 276,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 3,
@@ -504,7 +513,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 391
+    "meta_sample_id": 391,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 4,
@@ -568,7 +580,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 506
+    "meta_sample_id": 506,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 5,
@@ -683,7 +698,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 621
+    "meta_sample_id": 621,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 6,
@@ -813,7 +831,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 736
+    "meta_sample_id": 736,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 7,
@@ -876,7 +897,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 851
+    "meta_sample_id": 851,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 8,
@@ -942,7 +966,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 946
+    "meta_sample_id": 946,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 9,
@@ -1006,7 +1033,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1081
+    "meta_sample_id": 1081,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 10,
@@ -1072,7 +1102,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1
+    "meta_sample_id": 1,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 11,
@@ -1154,7 +1187,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 116
+    "meta_sample_id": 116,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 12,
@@ -1252,7 +1288,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 231
+    "meta_sample_id": 231,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 13,
@@ -1350,7 +1389,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 346
+    "meta_sample_id": 346,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 14,
@@ -1477,7 +1519,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 461
+    "meta_sample_id": 461,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 15,
@@ -1526,7 +1571,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 576
+    "meta_sample_id": 576,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 16,
@@ -1625,7 +1673,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 691
+    "meta_sample_id": 691,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 17,
@@ -1691,7 +1742,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 806
+    "meta_sample_id": 806,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 18,
@@ -1754,7 +1808,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 952
+    "meta_sample_id": 952,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 19,
@@ -1821,7 +1878,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1036
+    "meta_sample_id": 1036,
+    "tags": [
+      "Other"
+    ]
   },
   {
     "sample_id": 20,
@@ -1975,7 +2035,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 71
+    "meta_sample_id": 71,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 21,
@@ -2103,7 +2166,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 186
+    "meta_sample_id": 186,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 22,
@@ -2226,7 +2292,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 301
+    "meta_sample_id": 301,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 23,
@@ -2304,7 +2373,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 416
+    "meta_sample_id": 416,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 24,
@@ -2398,7 +2470,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 531
+    "meta_sample_id": 531,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 25,
@@ -2510,7 +2585,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 646
+    "meta_sample_id": 646,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 26,
@@ -2592,7 +2670,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 761
+    "meta_sample_id": 761,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 27,
@@ -2686,7 +2767,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 876
+    "meta_sample_id": 876,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 28,
@@ -2785,7 +2869,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1012
+    "meta_sample_id": 1012,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 29,
@@ -2913,7 +3000,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1106
+    "meta_sample_id": 1106,
+    "tags": [
+      "Health and Science"
+    ]
   },
   {
     "sample_id": 30,
@@ -3034,7 +3124,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 61
+    "meta_sample_id": 61,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 31,
@@ -3128,7 +3221,10 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 176
+    "meta_sample_id": 176,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 32,
@@ -3342,7 +3438,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 291
+    "meta_sample_id": 291,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 33,
@@ -3491,7 +3590,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 406
+    "meta_sample_id": 406,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 34,
@@ -3629,7 +3731,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 521
+    "meta_sample_id": 521,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 35,
@@ -3758,7 +3863,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 636
+    "meta_sample_id": 636,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 36,
@@ -3871,7 +3979,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 751
+    "meta_sample_id": 751,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 37,
@@ -3957,7 +4068,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 866
+    "meta_sample_id": 866,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 38,
@@ -4026,7 +4140,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 976
+    "meta_sample_id": 976,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 39,
@@ -4118,7 +4235,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1096
+    "meta_sample_id": 1096,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 40,
@@ -4223,7 +4343,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 67
+    "meta_sample_id": 67,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 41,
@@ -4284,7 +4407,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 182
+    "meta_sample_id": 182,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 42,
@@ -4333,7 +4459,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 297
+    "meta_sample_id": 297,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 43,
@@ -4407,7 +4536,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 412
+    "meta_sample_id": 412,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 44,
@@ -4495,7 +4627,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 527
+    "meta_sample_id": 527,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 45,
@@ -4590,7 +4725,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 642
+    "meta_sample_id": 642,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 46,
@@ -4653,7 +4791,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 757
+    "meta_sample_id": 757,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 47,
@@ -4732,7 +4873,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 872
+    "meta_sample_id": 872,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 48,
@@ -4811,7 +4955,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1028
+    "meta_sample_id": 1028,
+    "tags": [
+      "News and Journalism"
+    ]
   },
   {
     "sample_id": 49,
@@ -4870,6 +5017,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1102
+    "meta_sample_id": 1102,
+    "tags": [
+      "News and Journalism"
+    ]
   }
 ]

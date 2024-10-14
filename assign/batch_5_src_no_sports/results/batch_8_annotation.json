@@ -225,7 +225,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 49
+    "meta_sample_id": 49,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 1,
@@ -315,7 +318,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 164
+    "meta_sample_id": 164,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 2,
@@ -485,7 +491,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 279
+    "meta_sample_id": 279,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 3,
@@ -599,7 +608,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 394
+    "meta_sample_id": 394,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 4,
@@ -791,7 +803,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 509
+    "meta_sample_id": 509,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 5,
@@ -997,7 +1012,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 624
+    "meta_sample_id": 624,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 6,
@@ -1153,7 +1171,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 739
+    "meta_sample_id": 739,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 7,
@@ -1347,7 +1368,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 854
+    "meta_sample_id": 854,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 8,
@@ -1391,7 +1415,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 934
+    "meta_sample_id": 934,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 9,
@@ -1435,7 +1462,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1084
+    "meta_sample_id": 1084,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 10,
@@ -1511,7 +1541,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 94
+    "meta_sample_id": 94,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 11,
@@ -1586,7 +1619,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 209
+    "meta_sample_id": 209,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 12,
@@ -1694,7 +1730,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 324
+    "meta_sample_id": 324,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 13,
@@ -1798,7 +1837,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 439
+    "meta_sample_id": 439,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 14,
@@ -1874,7 +1916,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 554
+    "meta_sample_id": 554,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 15,
@@ -1905,7 +1950,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 669
+    "meta_sample_id": 669,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 16,
@@ -1936,7 +1984,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 784
+    "meta_sample_id": 784,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 17,
@@ -1952,7 +2003,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 899
+    "meta_sample_id": 899,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 18,
@@ -2069,7 +2123,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1033
+    "meta_sample_id": 1033,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 19,
@@ -2099,7 +2156,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1129
+    "meta_sample_id": 1129,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 20,
@@ -2115,7 +2175,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 84
+    "meta_sample_id": 84,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 21,
@@ -2211,7 +2274,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 199
+    "meta_sample_id": 199,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 22,
@@ -2306,7 +2372,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 314
+    "meta_sample_id": 314,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 23,
@@ -2371,7 +2440,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 429
+    "meta_sample_id": 429,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 24,
@@ -2418,7 +2490,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 544
+    "meta_sample_id": 544,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 25,
@@ -2484,7 +2559,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 659
+    "meta_sample_id": 659,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 26,
@@ -2528,7 +2606,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 774
+    "meta_sample_id": 774,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 27,
@@ -2593,7 +2674,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 889
+    "meta_sample_id": 889,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 28,
@@ -2661,7 +2745,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1032
+    "meta_sample_id": 1032,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 29,
@@ -2743,7 +2830,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1119
+    "meta_sample_id": 1119,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 30,
@@ -2759,7 +2849,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 77
+    "meta_sample_id": 77,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 31,
@@ -2868,7 +2961,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 192
+    "meta_sample_id": 192,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 32,
@@ -2934,7 +3030,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 307
+    "meta_sample_id": 307,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 33,
@@ -3047,7 +3146,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 422
+    "meta_sample_id": 422,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 34,
@@ -3110,7 +3212,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 537
+    "meta_sample_id": 537,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 35,
@@ -3176,7 +3281,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 652
+    "meta_sample_id": 652,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 36,
@@ -3220,7 +3328,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 767
+    "meta_sample_id": 767,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 37,
@@ -3272,7 +3383,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 882
+    "meta_sample_id": 882,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 38,
@@ -3354,7 +3468,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1034
+    "meta_sample_id": 1034,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 39,
@@ -3370,7 +3487,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1112
+    "meta_sample_id": 1112,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 40,
@@ -3386,7 +3506,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 69
+    "meta_sample_id": 69,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 41,
@@ -3482,7 +3605,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 184
+    "meta_sample_id": 184,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 42,
@@ -3575,7 +3701,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 299
+    "meta_sample_id": 299,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 43,
@@ -3609,7 +3738,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 414
+    "meta_sample_id": 414,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 44,
@@ -3693,7 +3825,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 529
+    "meta_sample_id": 529,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 45,
@@ -3724,7 +3859,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 644
+    "meta_sample_id": 644,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 46,
@@ -3755,7 +3893,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 759
+    "meta_sample_id": 759,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 47,
@@ -3806,7 +3947,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 874
+    "meta_sample_id": 874,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 48,
@@ -3885,7 +4029,10 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1019
+    "meta_sample_id": 1019,
+    "tags": [
+      "Sports and Athletics"
+    ]
   },
   {
     "sample_id": 49,
@@ -3919,6 +4066,9 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1104
+    "meta_sample_id": 1104,
+    "tags": [
+      "Sports and Athletics"
+    ]
   }
 ]
