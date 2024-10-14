@@ -56,10 +56,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 36,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 36
   },
   {
     "sample_id": 1,
@@ -105,23 +102,6 @@
         "summary_span": "from bases in the east",
         "summary_start": 938,
         "summary_end": 960
-      },
-      {
-        "annot_id": 51,
-        "sample_id": 1,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The summary mixed different pieces of information in the source. The source mentions that IS previously targeted civilian gathering and also that IS has mainly engaged with rival Taliban, but it does not state that IS targeted rival Taliban",
-        "annotator_name": "Miaoran",
-        "summary_span": "Previously, IS mainly targeted civilian gatherings and rival Taliban forces in the east",
-        "summary_start": 354,
-        "summary_end": 441,
-        "source_span": "In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border.",
-        "source_start": 1733,
-        "source_end": 1923
       },
       {
         "annot_id": 52,
@@ -173,6 +153,23 @@
         "source_span": "Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting",
         "source_start": 146,
         "source_end": 257
+      },
+      {
+        "annot_id": 274,
+        "sample_id": 1,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "IS has mainly engaged with rival Taliban, but it does not state that IS targeted rival Taliban. The source does mention IS targeting civilians. But no indication of \"mainly\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Previously, IS mainly targeted civilian gatherings and rival Taliban forces in the east.",
+        "summary_start": 354,
+        "summary_end": 442,
+        "source_span": "Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. ",
+        "source_start": 1278,
+        "source_end": 1924
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -184,10 +181,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 151,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 151
   },
   {
     "sample_id": 2,
@@ -279,10 +273,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 266,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 266
   },
   {
     "sample_id": 3,
@@ -319,22 +310,6 @@
         "source_end": 427
       },
       {
-        "annot_id": 63,
-        "sample_id": 3,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "President Ashraf Ghani strongly condemned the attack, emphasizing the sacred nature of hospitals across religions",
-        "summary_start": 517,
-        "summary_end": 630,
-        "source_span": "Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said.",
-        "source_start": 525,
-        "source_end": 776
-      },
-      {
         "annot_id": 64,
         "sample_id": 3,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -348,17 +323,18 @@
         "summary_end": 783
       },
       {
-        "annot_id": 67,
+        "annot_id": 273,
         "sample_id": 3,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
         "label": [
-          "Benign"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
-        "note": "",
+        "note": "The source indicaets no \"growing\" but only assesses that IS has reached a level. Also, \"in coming months\" are missing in the summary.",
         "annotator_name": "Miaoran",
-        "summary_span": "The attack demonstrates IS's growing capabilities and resources, potentially leading to more assaults on security forces.",
+        "summary_span": "The attack demonstrates IS's growing capabilities and resources, potentially leading to more assaults on security forces",
         "summary_start": 395,
-        "summary_end": 516,
+        "summary_end": 515,
         "source_span": "This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. ",
         "source_start": 1548,
         "source_end": 1733
@@ -373,10 +349,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 381,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 381
   },
   {
     "sample_id": 4,
@@ -458,10 +431,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 496,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 496
   },
   {
     "sample_id": 5,
@@ -499,20 +469,21 @@
         "source_end": 1277
       },
       {
-        "annot_id": 72,
+        "annot_id": 267,
         "sample_id": 5,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
         "label": [
-          "Benign"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
-        "note": "",
+        "note": "the source does not describer IS's activities overall in the recent months.",
         "annotator_name": "Miaoran",
         "summary_span": "IS has been expanding its attacks in Afghanistan and Pakistan in recent months.",
         "summary_start": 704,
         "summary_end": 783,
-        "source_span": "IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan.",
+        "source_span": "IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
         "source_start": 3242,
-        "source_end": 3394
+        "source_end": 3544
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -524,10 +495,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 611,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 611
   },
   {
     "sample_id": 6,
@@ -588,10 +556,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 726,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 726
   },
   {
     "sample_id": 7,
@@ -611,19 +576,6 @@
         "summary_span": "On January 20, 2017, ",
         "summary_start": 0,
         "summary_end": 21
-      },
-      {
-        "annot_id": 9,
-        "sample_id": 7,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Benign"
-        ],
-        "note": "The source said \"one detonated explosives at a hospital gate and then opened fire on staff and patients\". Though not directly stating \"allowing the others to enter\", it can be inferred. ",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "allowing the others to enter",
-        "summary_start": 213,
-        "summary_end": 241
       },
       {
         "annot_id": 10,
@@ -693,10 +645,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 841,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 841
   },
   {
     "sample_id": 8,
@@ -716,19 +665,6 @@
         "summary_span": "killing staff and patients",
         "summary_start": 82,
         "summary_end": 108
-      },
-      {
-        "annot_id": 13,
-        "sample_id": 8,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Benign"
-        ],
-        "note": "The \"they\" here could refer to the IS militants, and the sentence is correct. However, it could also refer to the government, and the sentence is wrong.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "The government claims to have rooted out IS militants from some bases, but they still control mountainous areas.",
-        "summary_start": 493,
-        "summary_end": 605
       },
       {
         "annot_id": 79,
@@ -770,10 +706,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 962,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 962
   },
   {
     "sample_id": 9,
@@ -829,10 +762,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1071,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1071
   },
   {
     "sample_id": 10,
@@ -912,23 +842,6 @@
         "source_end": 2790
       },
       {
-        "annot_id": 93,
-        "sample_id": 10,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "It's just the David Brauner's opinion. Not a general comment.",
-        "annotator_name": "Miaoran",
-        "summary_span": "The passage also mentions that the shortlist has been criticized for being weak and that there may be reluctance to make Howard Jacobson a two-time winner due to Hilary Mantel's recent double win.",
-        "summary_start": 495,
-        "summary_end": 691,
-        "source_span": "\" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \"",
-        "source_start": 2592,
-        "source_end": 3192
-      },
-      {
         "annot_id": 264,
         "sample_id": 10,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -954,10 +867,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 47,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 47
   },
   {
     "sample_id": 11,
@@ -1057,10 +967,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 162,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 162
   },
   {
     "sample_id": 12,
@@ -1144,10 +1051,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 277,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 277
   },
   {
     "sample_id": 13,
@@ -1193,10 +1097,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 392,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 392
   },
   {
     "sample_id": 14,
@@ -1271,10 +1172,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 507,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 507
   },
   {
     "sample_id": 15,
@@ -1331,10 +1229,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 622,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 622
   },
   {
     "sample_id": 16,
@@ -1378,10 +1273,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 737,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 737
   },
   {
     "sample_id": 17,
@@ -1401,20 +1293,6 @@
         "summary_span": "2014 Man Booker Prize",
         "summary_start": 4,
         "summary_end": 25
-      },
-      {
-        "annot_id": 27,
-        "sample_id": 17,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This book is by Mukherjee. Who's Jhumpa Lahiri?",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "Jhumpa Lahiri",
-        "summary_start": 82,
-        "summary_end": 95
       },
       {
         "annot_id": 123,
@@ -1445,6 +1323,23 @@
         "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill.",
         "source_start": 0,
         "source_end": 132
+      },
+      {
+        "annot_id": 270,
+        "sample_id": 17,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This book is by \"Mukherjee\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Jhumpa Lahiri",
+        "summary_start": 82,
+        "summary_end": 95,
+        "source_span": "Mukherjee's The Lives Of Others",
+        "source_start": 0,
+        "source_end": 31
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1456,10 +1351,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 852,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 852
   },
   {
     "sample_id": 18,
@@ -1475,10 +1367,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 963,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 963
   },
   {
     "sample_id": 19,
@@ -1534,10 +1423,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1082,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 1082
   },
   {
     "sample_id": 20,
@@ -1558,19 +1444,6 @@
         "summary_end": 715
       },
       {
-        "annot_id": 135,
-        "sample_id": 20,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May.",
-        "summary_start": 532,
-        "summary_end": 677
-      },
-      {
         "annot_id": 262,
         "sample_id": 20,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -1585,6 +1458,40 @@
         "source_span": "By then the Article 50 process of decoupling Britain from the EU should be complete.",
         "source_start": 3919,
         "source_end": 4003
+      },
+      {
+        "annot_id": 268,
+        "sample_id": 20,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary generalized statements from Carney and his staffers to objective statements.",
+        "annotator_name": "Miaoran",
+        "summary_span": "The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May",
+        "summary_start": 532,
+        "summary_end": 676,
+        "source_span": "\"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021.",
+        "source_start": 3276,
+        "source_end": 3436
+      },
+      {
+        "annot_id": 272,
+        "sample_id": 20,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"allowing\" indicates causality. But he did not leave to allow a new Governor.",
+        "annotator_name": "Miaoran",
+        "summary_span": "allowing a new Governor to plot Britain's economic future.",
+        "summary_start": 811,
+        "summary_end": 869,
+        "source_span": "It will then be for a new Governor to plot Britain's economic future.",
+        "source_start": 4004,
+        "source_end": 4073
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1596,29 +1503,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 56,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 56
   },
   {
     "sample_id": 21,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": " Mark Carney, the Governor of the Bank of England, surprised many by announcing a one-year extension to his term in 2018, instead of the originally planned departure in 2018 or the full eight-year term. This decision was influenced by personal reasons, including his family's education plans and his desire to give his full attention and devotion to the role. The extension was seen as a way to provide stability during the Brexit negotiations, which were expected to begin in 2018. Carney's decision was not influenced by political pressure or criticism of the Bank's pre-referendum economic forecasts. The extension allows Carney to leave the UK in 2019, after the Brexit negotiations are complete, and a new Governor will take over to plot Britain's economic future.",
     "annotations": [
-      {
-        "annot_id": 137,
-        "sample_id": 21,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "including his family's education plans and his desire to give his full attention and devotion to the role.",
-        "summary_start": 253,
-        "summary_end": 359
-      },
       {
         "annot_id": 139,
         "sample_id": 21,
@@ -1669,10 +1560,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 171,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 171
   },
   {
     "sample_id": 22,
@@ -1764,19 +1652,6 @@
         "summary_span": "The one-year extension was seen as a compromise between his professional responsibilities and personal circumstances.",
         "summary_start": 731,
         "summary_end": 848
-      },
-      {
-        "annot_id": 180,
-        "sample_id": 22,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Questionable"
-        ],
-        "note": "personal reasons include his family's education plans and his desire to give his full attention and devotion to the role",
-        "annotator_name": "Miaoran",
-        "summary_span": "This decision was primarily driven by personal reasons, particularly his family's needs.",
-        "summary_start": 228,
-        "summary_end": 316
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1788,30 +1663,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 286,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 286
   },
   {
     "sample_id": 23,
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Mark Carney, the Governor of the Bank of England, surprised many by announcing a one-year extension to his term, rather than the expected options of staying until 2021 or leaving in 2018. This decision was influenced by personal factors, particularly his family's situation, as his daughters will be completing important exams in 2018, and the family wishes to return to Canada for its education system. The Brexit vote also complicated matters, as leaving in 2018 would coincide with Britain's exit negotiations, but a longer extension was not feasible due to family considerations. Mr. Carney emphasized that his decision was personal and not influenced by political pressure or criticism of the Bank's pre-referendum forecasts.",
     "annotations": [
-      {
-        "annot_id": 32,
-        "sample_id": 23,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source said \"For his family, this was the perfect moment to return home to Canada and its much lauded education system\". This is a rational analysis of the decision, not necessarily the family's \"wishes\". What if the family loved UK more than Canada?",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "and the family wishes to return to Canada for its education system.",
-        "summary_start": 336,
-        "summary_end": 403
-      },
       {
         "annot_id": 147,
         "sample_id": 23,
@@ -1841,6 +1699,23 @@
         "source_span": "Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add.",
         "source_start": 3518,
         "source_end": 3688
+      },
+      {
+        "annot_id": 271,
+        "sample_id": 23,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source is a rational analysis of the decision, not necessarily the family's \"wishes\". What if the family loved UK more than Canada?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and the family wishes to return to Canada for its education system",
+        "summary_start": 336,
+        "summary_end": 402,
+        "source_span": "For his family, this was the perfect moment to return home to Canada and its much lauded education system.",
+        "source_start": 2551,
+        "source_end": 2657
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1852,10 +1727,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 401,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 401
   },
   {
     "sample_id": 24,
@@ -1917,10 +1789,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 516,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 516
   },
   {
     "sample_id": 25,
@@ -1983,10 +1852,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 631,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 631
   },
   {
     "sample_id": 26,
@@ -2106,10 +1972,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 746,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 746
   },
   {
     "sample_id": 27,
@@ -2169,10 +2032,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 861,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 861
   },
   {
     "sample_id": 28,
@@ -2251,10 +2111,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 967,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 967
   },
   {
     "sample_id": 29,
@@ -2297,10 +2154,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1091,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 1091
   },
   {
     "sample_id": 30,
@@ -2363,10 +2217,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 42,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 42
   },
   {
     "sample_id": 31,
@@ -2498,10 +2349,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 157,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 157
   },
   {
     "sample_id": 32,
@@ -2592,10 +2440,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 272,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 272
   },
   {
     "sample_id": 33,
@@ -2660,10 +2505,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 387,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 387
   },
   {
     "sample_id": 34,
@@ -2745,10 +2587,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 502,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 502
   },
   {
     "sample_id": 35,
@@ -2823,10 +2662,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 617,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 617
   },
   {
     "sample_id": 36,
@@ -2886,10 +2722,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 732,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 732
   },
   {
     "sample_id": 37,
@@ -2955,10 +2788,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 847,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 847
   },
   {
     "sample_id": 38,
@@ -3004,10 +2834,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 979,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 979
   },
   {
     "sample_id": 39,
@@ -3081,10 +2908,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1077,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1077
   },
   {
     "sample_id": 40,
@@ -3127,10 +2951,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 24,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 24
   },
   {
     "sample_id": 41,
@@ -3146,10 +2967,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 139,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 139
   },
   {
     "sample_id": 42,
@@ -3207,10 +3025,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 254,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 254
   },
   {
     "sample_id": 43,
@@ -3267,10 +3082,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 369,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 369
   },
   {
     "sample_id": 44,
@@ -3340,10 +3152,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 484,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 484
   },
   {
     "sample_id": 45,
@@ -3373,10 +3182,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 599,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 599
   },
   {
     "sample_id": 46,
@@ -3433,10 +3239,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 714,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 714
   },
   {
     "sample_id": 47,
@@ -3508,10 +3311,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 829,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 829
   },
   {
     "sample_id": 48,
@@ -3554,10 +3354,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 953,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 953
   },
   {
     "sample_id": 49,
@@ -3600,9 +3397,6 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1059,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 1059
   }
 ]

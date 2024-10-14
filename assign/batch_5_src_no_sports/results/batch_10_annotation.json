@@ -108,6 +108,53 @@
         "summary_span": "Russia accuses Turkey of ignoring warnings to leave its airspace",
         "summary_start": 650,
         "summary_end": 714
+      },
+      {
+        "annot_id": 211,
+        "sample_id": 0,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the year is hallucinated, but I think its right from a google search.",
+        "annotator_name": "Manveer",
+        "summary_span": "2015",
+        "summary_start": 59,
+        "summary_end": 63
+      },
+      {
+        "annot_id": 212,
+        "sample_id": 0,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is mixing up all the entities. Turkey accused Russia of being within Turkey's airspace, while Russia says it was Syrian airspace.",
+        "annotator_name": "Manveer",
+        "summary_span": "Russia accuses Turkey of ignoring warnings to leave its airspace, while Turkey insists that the jet was in Turkish airspace.",
+        "summary_start": 650,
+        "summary_end": 774,
+        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. Russia says it was shot down within Syrian airspace ",
+        "source_start": 477,
+        "source_end": 689
+      },
+      {
+        "annot_id": 218,
+        "sample_id": 0,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "there is disagreement over where the plane is shot. So it should not be claimed that it was over Syria definitively.",
+        "annotator_name": "Manveer",
+        "summary_span": ", over Syria",
+        "summary_start": 63,
+        "summary_end": 75,
+        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. Russia says it was shot down within Syrian airspace",
+        "source_start": 477,
+        "source_end": 688
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -119,10 +166,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 60,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 60
   },
   {
     "sample_id": 1,
@@ -222,6 +266,79 @@
         "summary_span": "leave Syrian airspace",
         "summary_start": 366,
         "summary_end": 387
+      },
+      {
+        "annot_id": 213,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Turkey insists the jet was in Turkish airspace",
+        "annotator_name": "Manveer",
+        "summary_span": " Turkey claims the jet ignored warnings to leave Syrian airspace",
+        "summary_start": 323,
+        "summary_end": 387,
+        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace",
+        "source_start": 477,
+        "source_end": 635
+      },
+      {
+        "annot_id": 214,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the sentence logically might not make sense. If both claim the airspace was the same, then whats the disagreement?",
+        "annotator_name": "Manveer",
+        "summary_span": "Turkey claims the jet ignored warnings to leave Syrian airspace, while Russia asserts it was shot down within Syrian airspace. ",
+        "summary_start": 324,
+        "summary_end": 451
+      },
+      {
+        "annot_id": 219,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "perhaps it should be acknowledged that this was claimed by the head of the russian investigation, who may be biased.",
+        "annotator_name": "Manveer",
+        "summary_span": "Flight information appears to be missing",
+        "summary_start": 95,
+        "summary_end": 135
+      },
+      {
+        "annot_id": 220,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should add location when it was hit",
+        "annotator_name": "Manveer",
+        "summary_span": "ut data from the box could help resolve the dispute over the jet's location",
+        "summary_start": 138,
+        "summary_end": 213
+      },
+      {
+        "annot_id": 226,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "strained relations is perhaps too weak of a claim, when the source says plunged relations\t",
+        "annotator_name": "Manveer",
+        "summary_span": "strained relations",
+        "summary_start": 238,
+        "summary_end": 256,
+        "source_span": "plunged relations",
+        "source_start": 376,
+        "source_end": 393
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -233,10 +350,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 175,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 175
   },
   {
     "sample_id": 2,
@@ -266,10 +380,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 290,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 290
   },
   {
     "sample_id": 3,
@@ -366,6 +477,52 @@
         "summary_span": "The incident highlights the complex dynamics between the two countries in Syria",
         "summary_start": 291,
         "summary_end": 370
+      },
+      {
+        "annot_id": 215,
+        "sample_id": 3,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Is there an impact? The source suggests a possible impact",
+        "annotator_name": "Manveer",
+        "summary_span": "Russia demands an apology and continues to apply sanctions, impacting Turkey's economy.",
+        "summary_start": 530,
+        "summary_end": 617,
+        "source_span": "has imposed sanctions including a ban on package holidays, which could cost Turkey billions of dollars.",
+        "source_start": 1468,
+        "source_end": 1571
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 3,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It should be added that this was claimed by the head of the russian investigation, who may biased",
+        "annotator_name": "Manveer",
+        "summary_span": " revealing missing flight information",
+        "summary_start": 52,
+        "summary_end": 89
+      },
+      {
+        "annot_id": 223,
+        "sample_id": 3,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary says continues to apply sanctions, but the source doesn't talk about any existing sanctions.",
+        "annotator_name": "Manveer",
+        "summary_span": "ontinues to apply sanctions",
+        "summary_start": 561,
+        "summary_end": 588,
+        "source_span": "has imposed sanctions ",
+        "source_start": 1468,
+        "source_end": 1490
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -377,10 +534,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 405,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 405
   },
   {
     "sample_id": 4,
@@ -499,6 +653,33 @@
         "summary_span": " injuring the other",
         "summary_start": 592,
         "summary_end": 611
+      },
+      {
+        "annot_id": 216,
+        "sample_id": 4,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the year is hallucinated, but seems right from a google search.",
+        "annotator_name": "Manveer",
+        "summary_span": "2015",
+        "summary_start": 559,
+        "summary_end": 563
+      },
+      {
+        "annot_id": 224,
+        "sample_id": 4,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary suggests that the shooting down of the plan killed the crew member and killed the other. However, the source says the pilot was killed later on the ground by militants and doesn't mention an injury for the other.",
+        "annotator_name": "Manveer",
+        "summary_span": "killing one crew member and injuring the other, who was later rescued",
+        "summary_start": 565,
+        "summary_end": 634
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -510,10 +691,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 520,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 520
   },
   {
     "sample_id": 5,
@@ -597,6 +775,35 @@
         "source_span": "The two countries are heavily involved in Syria but take radically different positions ",
         "source_start": 959,
         "source_end": 1046
+      },
+      {
+        "annot_id": 225,
+        "sample_id": 5,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "perhaps it should be acknowledged that this was claimed by the head of the russian investigation, who may be biased.",
+        "annotator_name": "Manveer",
+        "summary_span": "revealing missing flight information. ",
+        "summary_start": 143,
+        "summary_end": 181
+      },
+      {
+        "annot_id": 227,
+        "sample_id": 5,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "strained relations is perhaps too weak of a claim, when the source says plunged relations\t",
+        "annotator_name": "Manveer",
+        "summary_span": "strained relations",
+        "summary_start": 198,
+        "summary_end": 216,
+        "source_span": " plunged relations",
+        "source_start": 375,
+        "source_end": 393
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -608,10 +815,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 635,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 635
   },
   {
     "sample_id": 6,
@@ -680,6 +884,48 @@
         "source_span": "What we know about how the Su-24 was downedHow Russia's sanctions could hit TurkeyThe war of words as it eruptedThe two countries are heavily involved in Syria but take radically different positions despite both being ostensibly opposed to the Islamic State (IS) militant group. The Su-24 was shot down by F-16 fighters on 24 November. Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued. A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground. Russia has demanded an apology from Turkey and in the meantime has imposed sanctions including a ban on package holidays, which could cost Turkey billions of dollars.",
         "source_start": 847,
         "source_end": 1571
+      },
+      {
+        "annot_id": 217,
+        "sample_id": 6,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is questionable to say that the sanctions were in response to the claim. The sanctions are in response to everything that has happened.",
+        "annotator_name": "Manveer",
+        "summary_span": "with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace",
+        "summary_start": 343,
+        "summary_end": 455
+      },
+      {
+        "annot_id": 228,
+        "sample_id": 6,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should perhaps acknowledge that these are findings from a russian investigator, who may be biased",
+        "annotator_name": "Manveer",
+        "summary_span": "with initial findings suggesting missing flight information. ",
+        "summary_start": 105,
+        "summary_end": 166
+      },
+      {
+        "annot_id": 229,
+        "sample_id": 6,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says plunged, not strained, which is a weaker claim",
+        "annotator_name": "Manveer",
+        "summary_span": "strained",
+        "summary_start": 297,
+        "summary_end": 305,
+        "source_span": "plunged",
+        "source_start": 376,
+        "source_end": 383
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -691,10 +937,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 750,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 750
   },
   {
     "sample_id": 7,
@@ -727,10 +970,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 865,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 865
   },
   {
     "sample_id": 8,
@@ -752,6 +992,19 @@
         "source_span": "Nikolai Primak, head of the Russian investigation, said flight information appeared to be missing",
         "source_start": 114,
         "source_end": 211
+      },
+      {
+        "annot_id": 230,
+        "sample_id": 8,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it should perhaps be acknowleged than a russian investigator claimed this, who may be a biased source",
+        "annotator_name": "Manveer",
+        "summary_span": "light information from the box is missing",
+        "summary_start": 90,
+        "summary_end": 131
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -763,10 +1016,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 969,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 969
   },
   {
     "sample_id": 9,
@@ -833,6 +1083,19 @@
         "summary_span": "Turkish F-16s",
         "summary_start": 413,
         "summary_end": 426
+      },
+      {
+        "annot_id": 231,
+        "sample_id": 9,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it should be acknowleged that a possibly biased russian investigator claimed this",
+        "annotator_name": "Manveer",
+        "summary_span": "revealing missing flight information",
+        "summary_start": 55,
+        "summary_end": 91
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -844,10 +1107,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1095,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 1095
   },
   {
     "sample_id": 10,
@@ -918,6 +1178,49 @@
         "source_span": "currently 21th in belgium 's pro league",
         "source_start": 731,
         "source_end": 770
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 10,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary says 13th while the source says 21th",
+        "annotator_name": "Manveer",
+        "summary_span": "currently 13th in the Belgian Pro League",
+        "summary_start": 263,
+        "summary_end": 303,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 10,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should clarify since the source says holland, which doesn't always mean the same as netherlands",
+        "annotator_name": "Manveer",
+        "summary_span": "Netherlands",
+        "summary_start": 418,
+        "summary_end": 429
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 10,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "there might be an assumption that matic was in jose's chelsea squad, when jose has managed other teams.",
+        "annotator_name": "Manveer",
+        "summary_span": "Jose Mourinho's Chelsea squad",
+        "summary_start": 638,
+        "summary_end": 667
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -929,10 +1232,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 106,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 106
   },
   {
     "sample_id": 11,
@@ -1002,6 +1302,23 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 235,
+        "sample_id": 11,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "disagreement between summary and source, although source may be contradictory, it is not clear",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is currently 13th in Belgium's Pro League",
+        "summary_start": 227,
+        "summary_end": 277,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1013,10 +1330,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 221,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 221
   },
   {
     "sample_id": 12,
@@ -1102,6 +1416,23 @@
         "source_span": "21th in belgium 's pro",
         "source_start": 741,
         "source_end": 763
+      },
+      {
+        "annot_id": 237,
+        "sample_id": 12,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "some disagreement between source and summary, but source may be contradictory",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is in 13th place in the league",
+        "summary_start": 316,
+        "summary_end": 355,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1113,10 +1444,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 336,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 336
   },
   {
     "sample_id": 13,
@@ -1215,6 +1543,49 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 239,
+        "sample_id": 13,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say all this about why chelsea forms these partnerships, but it seems reasonable.",
+        "annotator_name": "Manveer",
+        "summary_span": "This strategy allows Chelsea to provide competitive playing time for their prospects while also potentially bolstering their first team with experienced players from these partnerships.",
+        "summary_start": 411,
+        "summary_end": 596
+      },
+      {
+        "annot_id": 240,
+        "sample_id": 13,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source and summary disagree, although source may have conflicting information\t",
+        "annotator_name": "Manveer",
+        "summary_span": "currently 13th in the Belgian Pro League",
+        "summary_start": 160,
+        "summary_end": 200,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
+      },
+      {
+        "annot_id": 241,
+        "sample_id": 13,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it's not really mouscron that is seeking a new partner, but maybe this is still reasonable to say",
+        "annotator_name": "Manveer",
+        "summary_span": "are seeking a new partner to aid in their development.",
+        "summary_start": 202,
+        "summary_end": 256
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1226,10 +1597,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 451,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 451
   },
   {
     "sample_id": 14,
@@ -1329,6 +1697,36 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 242,
+        "sample_id": 14,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source and summary disagree, but the source may be contradicting itself",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is currently 13th in the league,",
+        "summary_start": 242,
+        "summary_end": 283,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
+      },
+      {
+        "annot_id": 243,
+        "sample_id": 14,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should clarify that its the belgian pro league",
+        "annotator_name": "Manveer",
+        "summary_span": "a Belgian club in the Pro League",
+        "summary_start": 85,
+        "summary_end": 117
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1340,10 +1738,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 566,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 566
   },
   {
     "sample_id": 15,
@@ -1423,6 +1818,45 @@
         "source_span": "13th in the table",
         "source_start": 448,
         "source_end": 465
+      },
+      {
+        "annot_id": 244,
+        "sample_id": 15,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "there is some contradiction in the source, which perhaps could be referenced",
+        "annotator_name": "Manveer",
+        "summary_span": "21st in the Belgian Pro League",
+        "summary_start": 309,
+        "summary_end": 339
+      },
+      {
+        "annot_id": 245,
+        "sample_id": 15,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "an accent is added to the name, which is correct but not in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "Royal Mouscron-Péruwelz",
+        "summary_start": 145,
+        "summary_end": 168
+      },
+      {
+        "annot_id": 246,
+        "sample_id": 15,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "there is an assumption of netherlands from holland, which is sometimes distinct",
+        "annotator_name": "Manveer",
+        "summary_span": "Netherlands",
+        "summary_start": 403,
+        "summary_end": 414
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1434,10 +1868,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 681,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 681
   },
   {
     "sample_id": 16,
@@ -1520,6 +1951,36 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 247,
+        "sample_id": 16,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "source doesn't say FC, but this is fine",
+        "annotator_name": "Manveer",
+        "summary_span": "FC",
+        "summary_start": 92,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 248,
+        "sample_id": 16,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "some disagreement between summary and source, but the source does contradict itself too",
+        "annotator_name": "Manveer",
+        "summary_span": "13th in the Belgian Pro League",
+        "summary_start": 214,
+        "summary_end": 244,
+        "source_span": "currently 21th in belgium 's pro league ",
+        "source_start": 731,
+        "source_end": 771
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1531,10 +1992,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 796,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 796
   },
   {
     "sample_id": 17,
@@ -1550,10 +2008,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 911,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 911
   },
   {
     "sample_id": 18,
@@ -1655,6 +2110,55 @@
         "source_span": "hey are 13th in the table",
         "source_start": 440,
         "source_end": 465
+      },
+      {
+        "annot_id": 249,
+        "sample_id": 18,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should perhaps acknowledge potential contradiction in source",
+        "annotator_name": "Manveer",
+        "summary_span": "21st in Belgium's pro league",
+        "summary_start": 238,
+        "summary_end": 266,
+        "source_span": "they are 13th in the table",
+        "source_start": 439,
+        "source_end": 465
+      },
+      {
+        "annot_id": 250,
+        "sample_id": 18,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it doesn't seem like dingome is connected to mouscron",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is currently 21st in Belgium's pro league and has players like Tristan Dingome.",
+        "summary_start": 216,
+        "summary_end": 304,
+        "source_span": "mouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\n",
+        "source_start": 718,
+        "source_end": 821
+      },
+      {
+        "annot_id": 251,
+        "sample_id": 18,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is not clear if jose manages chelsea, he has managed other teams as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "Chelsea's squad ",
+        "summary_start": 508,
+        "summary_end": 524,
+        "source_span": "jose mourinho 's squad",
+        "source_start": 1217,
+        "source_end": 1239
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1666,10 +2170,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 1002,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1002
   },
   {
     "sample_id": 19,
@@ -1755,6 +2256,23 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 252,
+        "sample_id": 19,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "some disagreement between source and summary, although source may be contradicting itself",
+        "annotator_name": "Manveer",
+        "summary_span": "who are currently 13th in Belgium's Pro League.",
+        "summary_start": 106,
+        "summary_end": 153,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1766,10 +2284,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1141,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1141
   },
   {
     "sample_id": 20,
@@ -1901,10 +2416,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 88,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 88
   },
   {
     "sample_id": 21,
@@ -2017,10 +2529,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 203,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 203
   },
   {
     "sample_id": 22,
@@ -2053,10 +2562,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 318,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 318
   },
   {
     "sample_id": 23,
@@ -2106,10 +2612,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 433,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 433
   },
   {
     "sample_id": 24,
@@ -2206,10 +2709,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 548,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 548
   },
   {
     "sample_id": 25,
@@ -2277,10 +2777,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 663,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 663
   },
   {
     "sample_id": 26,
@@ -2329,10 +2826,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 778,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 778
   },
   {
     "sample_id": 27,
@@ -2381,10 +2875,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 893,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 893
   },
   {
     "sample_id": 28,
@@ -2451,10 +2942,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1011,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1011
   },
   {
     "sample_id": 29,
@@ -2522,10 +3010,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1123,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1123
   },
   {
     "sample_id": 30,
@@ -2589,10 +3074,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 32,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 32
   },
   {
     "sample_id": 31,
@@ -2654,10 +3136,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 147,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 147
   },
   {
     "sample_id": 32,
@@ -2780,10 +3259,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 262,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 262
   },
   {
     "sample_id": 33,
@@ -2892,10 +3368,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 377,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 377
   },
   {
     "sample_id": 34,
@@ -2972,10 +3445,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 492,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 492
   },
   {
     "sample_id": 35,
@@ -3020,10 +3490,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 607,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 607
   },
   {
     "sample_id": 36,
@@ -3103,10 +3570,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 722,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 722
   },
   {
     "sample_id": 37,
@@ -3169,10 +3633,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 837,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 837
   },
   {
     "sample_id": 38,
@@ -3206,10 +3667,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 981,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 981
   },
   {
     "sample_id": 39,
@@ -3242,10 +3700,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1067,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 1067
   },
   {
     "sample_id": 40,
@@ -3275,10 +3730,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 93,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 93
   },
   {
     "sample_id": 41,
@@ -3308,10 +3760,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 208,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 208
   },
   {
     "sample_id": 42,
@@ -3327,10 +3776,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 323,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 323
   },
   {
     "sample_id": 43,
@@ -3363,10 +3809,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 438,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 438
   },
   {
     "sample_id": 44,
@@ -3429,10 +3872,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 553,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 553
   },
   {
     "sample_id": 45,
@@ -3479,10 +3919,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 668,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 668
   },
   {
     "sample_id": 46,
@@ -3498,10 +3935,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 783,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 783
   },
   {
     "sample_id": 47,
@@ -3593,10 +4027,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 898,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 898
   },
   {
     "sample_id": 48,
@@ -3629,10 +4060,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1025,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1025
   },
   {
     "sample_id": 49,
@@ -3678,9 +4106,6 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1128,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1128
   }
 ]
