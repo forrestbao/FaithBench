@@ -1869,22 +1869,6 @@
         "source_end": 2379
       },
       {
-        "annot_id": 152,
-        "sample_id": 25,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "and that he wanted to devote his full attention to the role for as long as he could. ",
-        "summary_start": 506,
-        "summary_end": 591,
-        "source_span": "This is a role that requires total attention and devotion. I intend to give that for as long as I can",
-        "source_start": 3145,
-        "source_end": 3246
-      },
-      {
         "annot_id": 153,
         "sample_id": 25,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
