@@ -187,7 +187,7 @@ class DetectorEvaluator():
     
 
 class HaluEvaluator():
-    def __init__(self, result_files, skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}, num_annotators={}):
+    def __init__(self, result_files, halu_labels=['Unwanted', 'Questionable'], skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}, num_annotators={}):
         '''
         result_files: the list of files to process
         skip_sample_ids: batch sample id of samples to be skipped when computing the results
@@ -226,11 +226,12 @@ class HaluEvaluator():
             "Anthropic/claude-3-5-sonnet-20240620": "Claude-3.5-Sonnet",
             "mistralai/Mistral-7B-Instruct-v0.3": "Mistral-7B"
         }
+        self.halu_labels=halu_labels
         
 
     def process_results(self):
         self.model_sourcelen_preds = {model: {'source_len': [], 'summary_len': [], 'preds': [], 'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign', 'Consistent']}} for model in self.models}
-        self.batch_model_sourcelen_preds = {file_path:{model: {'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign']}, 'avg_source_len': 0, 'avg_summary_len': 0} for model in self.models} for file_path in self.result_files}
+        self.batch_model_sourcelen_preds = {file_path:{model: {'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign']}, 'preds':[], 'avg_source_len': 0, 'avg_summary_len': 0} for model in self.models} for file_path in self.result_files}
         # avg_annotation = num of one label / num of annotators
         # i.e., if one annotator made 4 unwanted annotations to a sample and the other annotator marked 2 benign labels, the labels for this sample are 2 unwanted and 1 benign
         for file_path in self.result_files:
@@ -290,19 +291,20 @@ class HaluEvaluator():
                 else:
                     sample_pred = "Consistent"
                 self.model_sourcelen_preds[model_name]['preds'].append(sample_pred)
+                self.batch_model_sourcelen_preds[file_path][model_name]['preds'].append(sample_pred)
     
             for model_name in self.models:
                 self.batch_model_sourcelen_preds[file_path][model_name]['avg_source_len'] /= (sample_count//len(self.models))
                 self.batch_model_sourcelen_preds[file_path][model_name]['avg_summary_len'] /= (sample_count//len(self.models))
 
-    def compute_halu_rate(self, halu_labels=['Unwanted', 'Questionable']):
+    def compute_halu_rate(self):
         self.model_results = {}
         for model in self.model_sourcelen_preds:
             preds = self.model_sourcelen_preds[model]['preds']
             print(f'number of records for {model}:',len(preds))
             halu_count = 0
             for pred in preds:
-                if pred in halu_labels:
+                if pred in self.halu_labels:
                     halu_count += 1
             self.model_results[model] = round((halu_count/len(preds))*100,2)
         self.model_results = {k: v for k, v in sorted(self.model_results.items(), key=lambda item: item[1])}
@@ -341,7 +343,87 @@ class HaluEvaluator():
         plt.tight_layout()
         plt.show()
 
-    def halu_length(self):
+    def halu_vs_length(self):
+        # Initialize the plot
+        plt.figure(figsize=(10, 6))
+        
+        # Define base colors and line styles for model families with more distinguishable styles
+        base_colors = {
+            "openai": '#1f77b4',  # Blue
+            "Qwen": '#ff7f0e',    # Orange
+            "microsoft": '#2ca02c',  # Green
+            "cohere": '#d62728',    # Red
+            "meta-llama": '#9467bd',  # Purple
+            "google": '#8c564b',    # Brown
+            "Anthropic": '#e377c2',  # Pink
+            "mistralai": '#7f7f7f'   # Gray
+        }
+        
+        line_styles = ['-', '--', '-.', ':']  # Different line styles to distinguish models within the same family
+        family_models = {}  # Dictionary to track models within each family
+        
+        # Loop to count models within each family
+        for batch in self.batch_model_sourcelen_preds.keys():
+            for model in self.batch_model_sourcelen_preds[batch].keys():
+                family = model.split('/')[0]
+                standard_model_name = self.model_map.get(model, model)
+                if family not in family_models:
+                    family_models[family] = []
+                if standard_model_name not in family_models[family]:
+                    family_models[family].append(standard_model_name)
+        
+        # Loop over each batch and model to extract data
+        plot_data = {self.model_map[model]: {'halu_rate':[], 'source_len':[]} for model in self.models}
+        for batch, models_data in self.batch_model_sourcelen_preds.items():
+            for model, data in models_data.items():
+                family = model.split('/')[0]
+                standard_model_name = self.model_map.get(model, model)
+                
+                # Get a distinct color for the family
+                color = base_colors.get(family, '#000000')  # Default to black if family not found
+                
+                # Determine line style: use different styles only for models within the same family
+                if len(family_models[family]) > 1:
+                    line_style = line_styles[family_models[family].index(standard_model_name) % len(line_styles)]
+                else:
+                    line_style = '-'
+                
+                # Extract source length and hallucination counts
+                source_length = np.array(data['avg_source_len'])
+                predictions = data['preds']
+                hallucinated = [1 if pred in self.halu_labels else 0 for pred in predictions]
+                hallucinated = np.array(hallucinated)
+                
+                plot_data[standard_model_name]['color'] = color
+                plot_data[standard_model_name]['line_style'] = line_style
+                plot_data[standard_model_name]['halu_rate'].append(round(np.mean(hallucinated) * 100, 2))
+                plot_data[standard_model_name]['source_len'].append(source_length)
+                # Smooth the hallucination rate using a Gaussian filter
+                # hallucination_rates_smooth = gaussian_filter1d(hallucination_rates, sigma=5)
+        
+        for model, data in plot_data.items():
+            x_vals = np.array(data['source_len'])
+            y_vals = np.array(data['halu_rate'])
+            sorted_indices = np.argsort(x_vals)
+            x_vals = x_vals[sorted_indices]
+            y_vals = y_vals[sorted_indices]
+            y_smooth = gaussian_filter1d(y_vals, sigma=2)
+            plt.plot(x_vals, y_smooth, label=model, color=data['color'], linestyle=data['line_style'], linewidth=1.5)
+
+        # Customize the plot
+        plt.xlabel('Source Length (# words)')
+        plt.ylabel('Hallucination Rate (%)')
+        plt.title('Hallucination Rate vs Source Length')
+        plt.grid(True, linestyle='--', alpha=0.7)
+        plt.gca().yaxis.get_major_locator().set_params(integer=True)
+        
+        # Add shared legend at the bottom of the figure
+        plt.legend(loc='lower right', fontsize='small', title_fontsize='small', ncol=4, frameon=True)
+        
+        plt.tight_layout(rect=[0, 0.1, 1, 1])  # Adjust layout to fit the legend
+        plt.show()
+
+    def label_vs_length(self, mode):
         # Define labels to be plotted
         labels = ['Unwanted', 'Questionable', 'Benign']
         
@@ -406,8 +488,11 @@ class HaluEvaluator():
                         plot_data[label][standard_model_name] = {'x': [], 'y': [], 'color': color, 'line_style': line_style}
                     label_ratio = (label_counts[label] / total_count * 100) if total_count > 0 else 0
                     plot_data[label][standard_model_name]['x'].append(source_length)
-                    plot_data[label][standard_model_name]['y'].append(label_ratio)
-        
+                    if mode == 'ratio':
+                        plot_data[label][standard_model_name]['y'].append(label_ratio)
+                    elif mode == 'count':
+                        plot_data[label][standard_model_name]['y'].append(label_counts[label])
+                        
         # Plot the data for each label as line plots
         for i, label in enumerate(labels):
             for model, data in plot_data[label].items():
@@ -421,9 +506,14 @@ class HaluEvaluator():
         
         # Customize the plots
         for i, label in enumerate(labels):
-            axs[i].set_xlabel('Source Length (# of words)')
-            axs[i].set_ylabel(f'{label} Ratio (%)')
-            axs[i].set_title(f'{label} Ratio vs Source Length')
+            if mode == 'ratio':
+                axs[i].set_ylabel(f'{label} Ratio (%)')
+                axs[i].set_title(f'{label} Ratio vs Source Length')
+            elif mode == 'count':
+                axs[i].set_ylabel(f'{label} Count')
+                axs[i].yaxis.get_major_locator().set_params(integer=True)
+                axs[i].set_title(f'{label} Count vs Source Length')
+            
             axs[i].grid(True, linestyle='--', alpha=0.7)
         
         # Add shared legend at the bottom of the figure
