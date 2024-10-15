@@ -35,20 +35,6 @@
         "summary_end": 200
       },
       {
-        "annot_id": 60,
-        "sample_id": 0,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The passage does not say this is for European Parliament",
-        "annotator_name": "Manveer",
-        "summary_span": "UK's May election for the European Parliament",
-        "summary_start": 120,
-        "summary_end": 165
-      },
-      {
         "annot_id": 157,
         "sample_id": 0,
         "annotator": "3544025977b544ca81aeefefa0c554c4",
@@ -93,7 +79,21 @@
         "summary_end": 231
       },
       {
-        "annot_id": 217,
+        "annot_id": 250,
+        "sample_id": 0,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The passage does not say this is for European Parliament\t",
+        "annotator_name": "Manveer",
+        "summary_span": "UK's May election for the European Parliament. ",
+        "summary_start": 120,
+        "summary_end": 167
+      },
+      {
+        "annot_id": 251,
         "sample_id": 0,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
         "label": [
@@ -102,9 +102,12 @@
         ],
         "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815\t",
         "annotator_name": "Manveer",
-        "summary_span": " UKIP spent the most at £2,956,737, followed by the Conservatives at £2,980,815",
-        "summary_start": 166,
-        "summary_end": 245
+        "summary_span": "UKIP spent the most at £2,956,737, followed by the Conservatives at £2,980,815,",
+        "summary_start": 167,
+        "summary_end": 246,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,",
+        "source_start": 0,
+        "source_end": 104
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -186,20 +189,6 @@
         "source_end": 292
       },
       {
-        "annot_id": 61,
-        "sample_id": 2,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source doesn't mention the european parliament",
-        "annotator_name": "Manveer",
-        "summary_span": "May European Parliament elections in the UK",
-        "summary_start": 88,
-        "summary_end": 131
-      },
-      {
         "annot_id": 189,
         "sample_id": 2,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
@@ -211,6 +200,20 @@
         "summary_span": "Conservatives",
         "summary_start": 199,
         "summary_end": 212
+      },
+      {
+        "annot_id": 252,
+        "sample_id": 2,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention the european parliament\t",
+        "annotator_name": "Manveer",
+        "summary_span": "May European Parliament elections in the UK",
+        "summary_start": 88,
+        "summary_end": 131
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -287,20 +290,6 @@
         "source_end": 292
       },
       {
-        "annot_id": 218,
-        "sample_id": 3,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815\t",
-        "annotator_name": "Manveer",
-        "summary_span": "UKIP, the winning party, spent nearly £3 million, closely followed by the Tories.",
-        "summary_start": 123,
-        "summary_end": 204
-      },
-      {
         "annot_id": 219,
         "sample_id": 3,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
@@ -312,6 +301,23 @@
         "summary_span": "2014",
         "summary_start": 88,
         "summary_end": 92
+      },
+      {
+        "annot_id": 253,
+        "sample_id": 3,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815",
+        "annotator_name": "Manveer",
+        "summary_span": "UKIP, the winning party, spent nearly £3 million, closely followed by the Tories",
+        "summary_start": 123,
+        "summary_end": 203,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815",
+        "source_start": 0,
+        "source_end": 103
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -377,18 +383,21 @@
         "summary_end": 186
       },
       {
-        "annot_id": 220,
+        "annot_id": 254,
         "sample_id": 4,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815\t",
+        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815",
         "annotator_name": "Manveer",
         "summary_span": "UKIP spent the most at £2,956,737, followed by the Conservatives (£2,980,815)",
         "summary_start": 122,
-        "summary_end": 199
+        "summary_end": 199,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,",
+        "source_start": 0,
+        "source_end": 104
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -484,20 +493,6 @@
         "summary_end": 131
       },
       {
-        "annot_id": 221,
-        "sample_id": 7,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815\t",
-        "annotator_name": "Manveer",
-        "summary_span": "he UKIP spent the most at £2,956,737, followed by the Tories at £2,980,815",
-        "summary_start": 133,
-        "summary_end": 207
-      },
-      {
         "annot_id": 222,
         "sample_id": 7,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
@@ -509,6 +504,23 @@
         "summary_span": "2014",
         "summary_start": 108,
         "summary_end": 112
+      },
+      {
+        "annot_id": 255,
+        "sample_id": 7,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is nonsense. UKIP did not spend the most. 2956737 < 2980815\n",
+        "annotator_name": "Manveer",
+        "summary_span": "The UKIP spent the most at £2,956,737, followed by the Tories at £2,980,815",
+        "summary_start": 132,
+        "summary_end": 207,
+        "source_span": "UKIP, which won May's election, spent £2,956,737, while the Tories' campaign expenditure was £2,980,815,",
+        "source_start": 0,
+        "source_end": 104
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1570,7 +1582,7 @@
         "summary_end": 550
       },
       {
-        "annot_id": 228,
+        "annot_id": 256,
         "sample_id": 24,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
         "label": [
@@ -1581,7 +1593,10 @@
         "annotator_name": "Manveer",
         "summary_span": "The passage also mentions that Ann Richards, likely Dorothy's mother",
         "summary_start": 440,
-        "summary_end": 508
+        "summary_end": 508,
+        "source_span": "October 1 , 1935",
+        "source_start": 597,
+        "source_end": 613
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2586,7 +2601,7 @@
         "source_end": 718
       },
       {
-        "annot_id": 238,
+        "annot_id": 257,
         "sample_id": 40,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
         "label": [
@@ -2595,9 +2610,12 @@
         ],
         "note": "the summary assumes both myles and ruairi refers to keating, which doesn't make sense",
         "annotator_name": "Manveer",
-        "summary_span": "Nicholson describes Keating as a leader-type he has been seeking, while Keating is described as young, raw, but hungry to prove himself. ",
+        "summary_span": "Nicholson describes Keating as a leader-type he has been seeking, while Keating is described as young, raw, but hungry to prove himself.",
         "summary_start": 519,
-        "summary_end": 656
+        "summary_end": 655,
+        "source_span": "\"Myles hasn't played a huge amount of games for a 27-year-old, but he is the stature, the voice, and is the leader-type I've been after.\" Nicholson told BBC Radio Devon. \"Ruairi is young, a little bit raw, but incredibly hungry to show what he's about. \"",
+        "source_start": 465,
+        "source_end": 719
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -3065,20 +3083,6 @@
         "summary_end": 144
       },
       {
-        "annot_id": 147,
-        "sample_id": 47,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "kevin does not seem to be the manager of barrow",
-        "annotator_name": "Manveer",
-        "summary_span": "Barrow manager Kevin Nicholson ",
-        "summary_start": 182,
-        "summary_end": 213
-      },
-      {
         "annot_id": 148,
         "sample_id": 47,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
@@ -3106,18 +3110,38 @@
         "summary_end": 143
       },
       {
-        "annot_id": 214,
+        "annot_id": 258,
         "sample_id": 47,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "It is not barrow that is 4 points above relegation. This applies to the new team that Anderson and Keating are joining. ",
+        "note": "kevin does not seem to be the manager of barrow",
+        "annotator_name": "Manveer",
+        "summary_span": "Barrow manager Kevin Nicholson ",
+        "summary_start": 182,
+        "summary_end": 213,
+        "source_span": " Gulls boss Kevin Nicholson ",
+        "source_start": 272,
+        "source_end": 300
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 47,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It is not barrow that is 4 points above relegation. This applies to the new team that Anderson and Keating are joining.",
         "annotator_name": "Manveer",
         "summary_span": "Barrow is currently four points above the relegation zone.",
         "summary_start": 284,
-        "summary_end": 342
+        "summary_end": 342,
+        "source_span": "The Gulls are currently four points above the relegation zone",
+        "source_start": 719,
+        "source_end": 780
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3218,20 +3242,6 @@
         "source_end": 828
       },
       {
-        "annot_id": 150,
-        "sample_id": 48,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the assumption that the players are transferring to rivals of torquay is not supported by the source at all.",
-        "annotator_name": "Manveer",
-        "summary_span": " to National League rivals of Barrow and Torquay United,",
-        "summary_start": 72,
-        "summary_end": 128
-      },
-      {
         "annot_id": 153,
         "sample_id": 48,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
@@ -3275,20 +3285,6 @@
         "summary_end": 614
       },
       {
-        "annot_id": 216,
-        "sample_id": 48,
-        "annotator": "694cd8621f114e408aa4c8539a26f009",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the players are not transferring to barrow",
-        "annotator_name": "Manveer",
-        "summary_span": "he passage discusses the transfer of two players, Anderson and Keating, to National League rivals of Barrow",
-        "summary_start": 1,
-        "summary_end": 108
-      },
-      {
         "annot_id": 247,
         "sample_id": 48,
         "annotator": "694cd8621f114e408aa4c8539a26f009",
@@ -3326,6 +3322,37 @@
         "summary_span": "Torquay United",
         "summary_start": 615,
         "summary_end": 629
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the players are not transferring to barrow",
+        "annotator_name": "Manveer",
+        "summary_span": "The passage discusses the transfer of two players, Anderson and Keating, to National League rivals of Barrow",
+        "summary_start": 0,
+        "summary_end": 108,
+        "source_span": "Centre-back Anderson, 27, has cancelled his Barrow contract by mutual consent to join their National League rivals",
+        "source_start": 0,
+        "source_end": 114
+      },
+      {
+        "annot_id": 261,
+        "sample_id": 48,
+        "annotator": "694cd8621f114e408aa4c8539a26f009",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the claim that they are transferring to rivals of torquay is not supported by the source at all",
+        "annotator_name": "Manveer",
+        "summary_span": "National League rivals of Barrow and Torquay United",
+        "summary_start": 76,
+        "summary_end": 127
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",

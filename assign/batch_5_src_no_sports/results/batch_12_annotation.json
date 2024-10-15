@@ -5,19 +5,6 @@
     "summary": " A juvenile female Omura's whale, a rare species believed to be restricted to tropical and subtropical waters, was found washed up on a remote Exmouth beach in Western Australia (WA). This is the first sighting of the species in WA and only the second in Australia. The identification was initially challenging for the Department of Parks and Wildlife staff, but DNA profiling confirmed it as an Omura's whale. The discovery is significant for whale scientists as very little is known about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and potential public display in museums. The Omura's whale has a sleek body shape and unique skeletal features, including 53 vertebrae and four digits on each pectoral fin.",
     "annotations": [
       {
-        "annot_id": 4,
-        "sample_id": 0,
-        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
-        "label": [
-          "Questionable"
-        ],
-        "note": "This is an assumption (although true) that WA refers to Western Australia",
-        "annotator_name": "New User",
-        "summary_span": "was found washed up on a remote Exmouth beach in Western Australia (WA). ",
-        "summary_start": 111,
-        "summary_end": 184
-      },
-      {
         "annot_id": 6,
         "sample_id": 0,
         "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
@@ -25,7 +12,7 @@
           "Benign"
         ],
         "note": "The passage at one place mentions 53 and at another 60 vertebrae",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " including 53 vertebrae and four digits on each pectoral fin.",
         "summary_start": 815,
         "summary_end": 876
@@ -66,10 +53,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 91,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 91
   },
   {
     "sample_id": 1,
@@ -84,7 +68,7 @@
           "Unwanted"
         ],
         "note": "The beach's name is not mentioned.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "washed up on a remote Eighty-Eight Beach in Western Australia",
         "summary_start": 46,
         "summary_end": 107,
@@ -100,7 +84,7 @@
           "Benign"
         ],
         "note": "The passage mentions both 53 and 60 verterbrae",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "as unique features such as 53 vertebrae and four digits on each pectoral fin. ",
         "summary_start": 395,
         "summary_end": 473
@@ -113,38 +97,10 @@
           "Questionable"
         ],
         "note": "The passage mentions both 53 and 60, but doesnt state which one is correct.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "Note: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. \n\nS",
         "summary_start": 696,
         "summary_end": 810
-      },
-      {
-        "annot_id": 15,
-        "sample_id": 1,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "not sure what an eighty-eight beach is at all.",
-        "annotator_name": "Manveer",
-        "summary_span": "remote Eighty-Eight Beach",
-        "summary_start": 61,
-        "summary_end": 86
-      },
-      {
-        "annot_id": 17,
-        "sample_id": 1,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
-        "annotator_name": "Manveer",
-        "summary_span": " the species, which was only described in scientific journals in 2003",
-        "summary_start": 293,
-        "summary_end": 362
       },
       {
         "annot_id": 18,
@@ -161,17 +117,61 @@
         "summary_end": 1052
       },
       {
-        "annot_id": 58,
+        "annot_id": 93,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only described in scientific journals in 2003",
+        "summary_start": 307,
+        "summary_end": 362,
+        "source_span": " omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 908,
+        "source_end": 993
+      },
+      {
+        "annot_id": 111,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "an eighty-eight beach is not mentioned at all. I'm not sure what this could be referring to",
+        "annotator_name": "Manveer",
+        "summary_span": "remote Eighty-Eight Beach",
+        "summary_start": 61,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 112,
         "sample_id": 1,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Questionable"
         ],
-        "note": "summary doesn't acknowledge that the source says both 53 and 60.\n",
+        "note": "this should acknowledge that the source also says 53",
         "annotator_name": "Manveer",
-        "summary_span": "Note: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. ",
+        "summary_span": "Note: The passage mentions 60 vertebrae,",
         "summary_start": 696,
-        "summary_end": 807
+        "summary_end": 736
+      },
+      {
+        "annot_id": 113,
+        "sample_id": 1,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "this is slightly? diverging from the source, which doesn't prefer one value over the other.",
+        "annotator_name": "Manveer",
+        "summary_span": " \n\nNote: The passage mentions 60 vertebrae, but the correct number is 53",
+        "summary_start": 693,
+        "summary_end": 765
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -183,10 +183,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 206,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 206
   },
   {
     "sample_id": 2,
@@ -207,18 +204,21 @@
         "summary_end": 278
       },
       {
-        "annot_id": 21,
+        "annot_id": 114,
         "sample_id": 2,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the source says it was first described in scientific papers in 2003. It may have been described otherwise before that",
+        "note": "the source says it was described for the first time scientifically in 2003. It may have been described earlier as well.\t",
         "annotator_name": "Manveer",
         "summary_span": "which was first described in 2003",
         "summary_start": 460,
-        "summary_end": 493
+        "summary_end": 493,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003",
+        "source_start": 907,
+        "source_end": 992
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -230,30 +230,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 321,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 321
   },
   {
     "sample_id": 3,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
     "summary": "A rare Omura's whale, previously thought to be extinct, was discovered on a beach in Western Australia after a cyclone. This is a significant find as it is the first sighting in the state and only the second in Australia. The juvenile female was initially difficult to identify due to its rarity, but DNA profiling confirmed the species. The whale is of great interest to scientists as it was only recently described in 2003, and little is known about its biology and distribution. The species is typically found in tropical and subtropical waters, and its unique features include a sleek body, 53-60 vertebrae, and four digits on each pectoral fin. The skeleton will be recovered for scientific study and potential public display.",
     "annotations": [
-      {
-        "annot_id": 22,
-        "sample_id": 3,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says feared to be extinct, not thought to be extinct",
-        "annotator_name": "Manveer",
-        "summary_span": "previously thought to be extinct",
-        "summary_start": 22,
-        "summary_end": 54
-      },
       {
         "annot_id": 23,
         "sample_id": 3,
@@ -292,6 +275,23 @@
         "summary_span": "little is known about its biology and distribution",
         "summary_start": 430,
         "summary_end": 480
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 3,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": " previously thought to be extinct",
+        "summary_start": 21,
+        "summary_end": 54,
+        "source_span": "feared to be extinct ",
+        "source_start": 28,
+        "source_end": 49
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -303,10 +303,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 436,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 436
   },
   {
     "sample_id": 4,
@@ -323,7 +320,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "it was previously thought to be extinct, period. Not just in Western Australia",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " previously thought to be extinct in Western Australia",
         "summary_start": 32,
         "summary_end": 86
@@ -336,24 +333,10 @@
           "Benign"
         ],
         "note": "The passage mentions both 53 and 60 vertebrae.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "53 vertebrae ",
         "summary_start": 803,
         "summary_end": 816
-      },
-      {
-        "annot_id": 26,
-        "sample_id": 4,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "two issues here\n\nFor one, the whale was feared to be extinct, not thought to be extinct\n\nFor two, this likely applies everywhere, not just western australia",
-        "annotator_name": "Manveer",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86
       },
       {
         "annot_id": 44,
@@ -369,20 +352,6 @@
         "summary_end": 227
       },
       {
-        "annot_id": 46,
-        "sample_id": 4,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "it was described for the first time in 2003. it might have been described afterwards.",
-        "annotator_name": "Manveer",
-        "summary_span": ", which was only described scientifically in 2003",
-        "summary_start": 441,
-        "summary_end": 490
-      },
-      {
         "annot_id": 47,
         "sample_id": 4,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -394,6 +363,40 @@
         "summary_span": "such as 53 vertebra",
         "summary_start": 795,
         "summary_end": 814
+      },
+      {
+        "annot_id": 96,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "two issues here For one, the whale was feared to be extinct, not thought to be extinct For two, this likely applies everywhere, not just western australia\t",
+        "annotator_name": "Manveer",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86,
+        "source_span": " feared to be extinct",
+        "source_start": 27,
+        "source_end": 48
+      },
+      {
+        "annot_id": 97,
+        "sample_id": 4,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only described scientifically in 2003",
+        "summary_start": 443,
+        "summary_end": 490,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 907,
+        "source_end": 993
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -405,10 +408,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 551,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 551
   },
   {
     "sample_id": 5,
@@ -438,10 +438,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 666,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 666
   },
   {
     "sample_id": 6,
@@ -457,7 +454,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "It was thought to be extinct, not nearly extinct.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "\n\nA rare Omura's whale, thought to be nearly extinct,",
         "summary_start": 41,
         "summary_end": 94,
@@ -474,23 +471,39 @@
           "Benign"
         ],
         "note": "Its clear one is an error, but unclear which one Is 53 wrong or 60?",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "not 60 as mentioned in one sentence, which appears to be an error).",
         "summary_start": 525,
         "summary_end": 592
       },
       {
-        "annot_id": 49,
+        "annot_id": 115,
+        "sample_id": 6,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the summary mentions an error in the source, but the summary seems to be accurate here.",
+        "annotator_name": "Manveer",
+        "summary_span": "not 60 as mentioned in one sentence, which appears to be an error).",
+        "summary_start": 525,
+        "summary_end": 592
+      },
+      {
+        "annot_id": 116,
         "sample_id": 6,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Questionable"
         ],
-        "note": "the summary mentions an error in the source, but the summary seems to be accurate here.",
+        "note": "it is not clear if we can go from feared to be extinct means thought to be nearly extinct",
         "annotator_name": "Manveer",
-        "summary_span": " (not 60 as mentioned in one sentence, which appears to be an error)",
-        "summary_start": 523,
-        "summary_end": 591
+        "summary_span": "thought to be nearly extinct",
+        "summary_start": 65,
+        "summary_end": 93,
+        "source_span": " was feared to be extinct",
+        "source_start": 23,
+        "source_end": 48
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -502,30 +515,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 781,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 781
   },
   {
     "sample_id": 7,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
     "summary": "An Omura's whale, a species rarely seen and thought to be extinct, was found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The whale was identified through DNA profiling and is a juvenile female. The discovery is significant because very little is known about the species, which was only scientifically described in 2003. The whale's carcass has been buried and will be recovered in a few years for further scientific investigation. \n",
     "annotations": [
-      {
-        "annot_id": 50,
-        "sample_id": 7,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says feared to be extinct, not thought to be extinct",
-        "annotator_name": "Manveer",
-        "summary_span": "a species rarely seen and thought to be extinct",
-        "summary_start": 18,
-        "summary_end": 65
-      },
       {
         "annot_id": 51,
         "sample_id": 7,
@@ -540,18 +536,38 @@
         "summary_end": 182
       },
       {
-        "annot_id": 52,
+        "annot_id": 98,
         "sample_id": 7,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the source says first described in 2003. It might have been described afterwards",
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "thought to be extinct",
+        "summary_start": 44,
+        "summary_end": 65,
+        "source_span": "feared to be extinct",
+        "source_start": 28,
+        "source_end": 48
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 7,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
         "annotator_name": "Manveer",
         "summary_span": "which was only scientifically described in 2003",
         "summary_start": 367,
-        "summary_end": 414
+        "summary_end": 414,
+        "source_span": " omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 908,
+        "source_end": 993
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -563,30 +579,13 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 896,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 896
   },
   {
     "sample_id": 8,
     "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
     "summary": "A species of whale called the Omura's whale, which was thought to be extinct, has been found washed up on a beach in Western Australia. This is the first sighting of the species in Western Australia and only the second in Australia. The discovery is significant for scientists as very little is known about the species, which was only described in scientific journals in 2003. The whale has unique skeletal features and is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums.",
     "annotations": [
-      {
-        "annot_id": 53,
-        "sample_id": 8,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says feared to be extinct, not thought to be extinct",
-        "annotator_name": "Manveer",
-        "summary_span": " which was thought to be extinct",
-        "summary_start": 44,
-        "summary_end": 76
-      },
       {
         "annot_id": 54,
         "sample_id": 8,
@@ -601,18 +600,38 @@
         "summary_end": 199
       },
       {
-        "annot_id": 55,
+        "annot_id": 101,
         "sample_id": 8,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the source says first described in 2003. not only described in 2003",
+        "note": "the source says it was described for the first time in 2003. It may have been described later as well.",
         "annotator_name": "Manveer",
-        "summary_span": " was only described in scientific journals in 2003",
-        "summary_start": 325,
-        "summary_end": 375
+        "summary_span": "was only described in scientific journals in 2003.",
+        "summary_start": 326,
+        "summary_end": 376,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 ",
+        "source_start": 907,
+        "source_end": 993
+      },
+      {
+        "annot_id": 102,
+        "sample_id": 8,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says feared to be extinct, not thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "which was thought to be extinct,",
+        "summary_start": 45,
+        "summary_end": 77,
+        "source_span": "feared to be extinct",
+        "source_start": 28,
+        "source_end": 48
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -624,10 +643,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 992,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 992
   },
   {
     "sample_id": 9,
@@ -643,7 +659,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The minister did not note that.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "nvironment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan.",
         "summary_start": 334,
         "summary_end": 552,
@@ -665,17 +681,38 @@
         "summary_end": 231
       },
       {
-        "annot_id": 57,
+        "annot_id": 117,
         "sample_id": 9,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
-          "Questionable"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
-        "note": "the source says first described scientifically",
+        "note": "the source says first described \"scientifically\" in 2003. It may have been described earlier otherwise.",
         "annotator_name": "Manveer",
-        "summary_span": "the species was first described in 2003 ",
+        "summary_span": "the species was first described in 2003",
         "summary_start": 416,
-        "summary_end": 456
+        "summary_end": 455,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003",
+        "source_start": 907,
+        "source_end": 992
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 9,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The minister did not say that the whale was typically found in these locations, he only said the whale is restricted to tropical and subtropical waters.",
+        "annotator_name": "Manveer",
+        "summary_span": "Environment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan. ",
+        "summary_start": 333,
+        "summary_end": 553,
+        "source_span": "` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said",
+        "source_start": 907,
+        "source_end": 1068
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -687,10 +724,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1126,
-    "tags": [
-      "Health and Science"
-    ]
+    "meta_sample_id": 1126
   },
   {
     "sample_id": 10,
@@ -720,10 +754,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 96,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 96
   },
   {
     "sample_id": 11,
@@ -738,7 +769,7 @@
           "Benign"
         ],
         "note": "The tattoo was shared, but the passage doesn't explicitly state that he shared the motivation to win as well.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "his strong motivation to win the title have been shared with his Instagram followers.",
         "summary_start": 499,
         "summary_end": 584
@@ -779,10 +810,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 211,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 211
   },
   {
     "sample_id": 12,
@@ -798,7 +826,7 @@
           "Unwanted.Extrinsic"
         ],
         "note": "The passage does not say that he is an MMA fighter.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " a 26-year-old Irish MMA fighter,",
         "summary_start": 57,
         "summary_end": 90
@@ -852,10 +880,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 326,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 326
   },
   {
     "sample_id": 13,
@@ -870,7 +895,7 @@
           "Questionable"
         ],
         "note": "A matter of opinion not explicitly mentioned in the passage.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "the highly anticipated match promises an intense battle for the championship belt.",
         "summary_start": 594,
         "summary_end": 676
@@ -924,10 +949,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 441,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 441
   },
   {
     "sample_id": 14,
@@ -943,13 +965,13 @@
           "Unwanted.Instrinsic"
         ],
         "note": "It's Aldso's 8th defense.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "This is McGregor's eighth defense of the title,",
         "summary_start": 312,
         "summary_end": 359
       },
       {
-        "annot_id": 68,
+        "annot_id": 120,
         "sample_id": 14,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
@@ -960,7 +982,10 @@
         "annotator_name": "Manveer",
         "summary_span": "This is McGregor's eighth defense of the title",
         "summary_start": 312,
-        "summary_end": 358
+        "summary_end": 358,
+        "source_span": "aldo makes the eighth defence of his belt ",
+        "source_start": 754,
+        "source_end": 796
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -972,10 +997,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 556,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 556
   },
   {
     "sample_id": 15,
@@ -991,7 +1013,7 @@
           "Questionable"
         ],
         "note": "Its subejctive whether grabbing the belt meant to demonstrate his confidence.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "and has already demonstrated his confidence by grabbing the belt from Aldo ",
         "summary_start": 364,
         "summary_end": 439
@@ -1019,10 +1041,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 671,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 671
   },
   {
     "sample_id": 16,
@@ -1052,10 +1071,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 786,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 786
   },
   {
     "sample_id": 17,
@@ -1085,10 +1101,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 901,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 901
   },
   {
     "sample_id": 18,
@@ -1103,7 +1116,7 @@
           "Benign"
         ],
         "note": "Subjective, Mcgregor didnt explicitly say that.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "McGregor is determined to win the title and hold it in front of his supporters.",
         "summary_start": 423,
         "summary_end": 502
@@ -1120,6 +1133,19 @@
         "summary_span": "The two fighters have a tense relationship, and McGregor grabbed Aldo's belt during a promotional tour in Dublin.",
         "summary_start": 309,
         "summary_end": 422
+      },
+      {
+        "annot_id": 121,
+        "sample_id": 18,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say mcgregor is determined to hold his belt in front of supporters",
+        "annotator_name": "Manveer",
+        "summary_span": "McGregor is determined to win the title and hold it in front of his supporters.",
+        "summary_start": 423,
+        "summary_end": 502
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1131,10 +1157,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1006,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1006
   },
   {
     "sample_id": 19,
@@ -1164,10 +1187,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1131,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1131
   },
   {
     "sample_id": 20,
@@ -1183,10 +1203,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 59,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 59
   },
   {
     "sample_id": 21,
@@ -1202,10 +1219,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 174,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 174
   },
   {
     "sample_id": 22,
@@ -1221,10 +1235,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 289,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 289
   },
   {
     "sample_id": 23,
@@ -1240,10 +1251,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 404,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 404
   },
   {
     "sample_id": 24,
@@ -1259,10 +1267,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 519,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 519
   },
   {
     "sample_id": 25,
@@ -1278,10 +1283,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 634,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 634
   },
   {
     "sample_id": 26,
@@ -1297,10 +1299,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 749,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 749
   },
   {
     "sample_id": 27,
@@ -1316,10 +1315,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 864,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 864
   },
   {
     "sample_id": 28,
@@ -1335,10 +1331,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 923,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 923
   },
   {
     "sample_id": 29,
@@ -1354,10 +1347,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 1094,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1094
   },
   {
     "sample_id": 30,
@@ -1372,7 +1362,7 @@
           "Benign"
         ],
         "note": "Milan is repeated twice.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "he quake was felt in cities such as Milan, Florence, and Milan,",
         "summary_start": 103,
         "summary_end": 166
@@ -1386,7 +1376,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The article says Last May, which may or may not be May 2021",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": ", with a previous incident in May 2021 causing over 20 deaths.",
         "summary_start": 270,
         "summary_end": 332
@@ -1400,7 +1390,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "14:48 GMT is the right time.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "The quake struck at 15:48 GMT ",
         "summary_start": 333,
         "summary_end": 363
@@ -1420,20 +1410,6 @@
         "summary_end": 166
       },
       {
-        "annot_id": 76,
-        "sample_id": 30,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the year is hallucinated, no evidence for it in the source and it seems wrong",
-        "annotator_name": "Manveer",
-        "summary_span": "2021",
-        "summary_start": 304,
-        "summary_end": 308
-      },
-      {
         "annot_id": 77,
         "sample_id": 30,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -1447,7 +1423,21 @@
         "summary_end": 502
       },
       {
-        "annot_id": 78,
+        "annot_id": 104,
+        "sample_id": 30,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the year is hallucinated, no evidence for it in the source and it seems wrong",
+        "annotator_name": "Manveer",
+        "summary_span": "2021",
+        "summary_start": 304,
+        "summary_end": 308
+      },
+      {
+        "annot_id": 105,
         "sample_id": 30,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
@@ -1456,9 +1446,12 @@
         ],
         "note": "the source says 14:48 GMT",
         "annotator_name": "Manveer",
-        "summary_span": "15:48 GMT ",
+        "summary_span": "15:48 GMT",
         "summary_start": 353,
-        "summary_end": 363
+        "summary_end": 362,
+        "source_span": "15:48 (14:48 GMT),",
+        "source_start": 447,
+        "source_end": 465
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1470,10 +1463,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 31,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 31
   },
   {
     "sample_id": 31,
@@ -1488,7 +1478,7 @@
           "Questionable"
         ],
         "note": "The power outages were caused by the main quake, not necessarily the aftershocks.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "Several aftershocks were felt, causing power outages and evacuations in the Garfagnana area. ",
         "summary_start": 431,
         "summary_end": 524
@@ -1502,10 +1492,27 @@
           "Unwanted.Instrinsic"
         ],
         "note": "This particular quake isn't necessarily mentioned as being a surprise.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " coming as a surprise to the INGV. ",
         "summary_start": 601,
         "summary_end": 636
+      },
+      {
+        "annot_id": 122,
+        "sample_id": 31,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say the power outages were caused by the aftershocks. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Several aftershocks were felt, causing power outages and evacuations in the Garfagnana area.",
+        "summary_start": 431,
+        "summary_end": 523,
+        "source_span": "Italy's National Institute of Geophysics and Volcanology (INGV) said the quake struck at 15:48 (14:48 GMT), with its epicentre in Garfagnana. Several aftershocks of lower magnitude were felt across a large area. Phone lines were down and power supplies were cut in the Garfagnana area, Italian news agency Ansa reports.",
+        "source_start": 358,
+        "source_end": 677
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1517,10 +1524,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 146,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 146
   },
   {
     "sample_id": 32,
@@ -1539,6 +1543,19 @@
         "summary_span": "struck northern Italy",
         "summary_start": 69,
         "summary_end": 90
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 32,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source doesnt specify that it was northern italy.",
+        "annotator_name": "Suleman",
+        "summary_span": "struck northern Italy,",
+        "summary_start": 69,
+        "summary_end": 91
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1550,10 +1567,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 261,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 261
   },
   {
     "sample_id": 33,
@@ -1569,7 +1583,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The passage does not mention the Garfagnana region being in central italy.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "A 4.8-magnitude earthquake hit central Italy,",
         "summary_start": 0,
         "summary_end": 45
@@ -1582,7 +1596,7 @@
           "Questionable"
         ],
         "note": "Article implies the 2009 quake was a surprise.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "The recent tremor caught experts by surprise, ",
         "summary_start": 465,
         "summary_end": 511
@@ -1623,10 +1637,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 376,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 376
   },
   {
     "sample_id": 34,
@@ -1642,10 +1653,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 491,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 491
   },
   {
     "sample_id": 35,
@@ -1660,7 +1668,7 @@
           "Questionable"
         ],
         "note": "Only people in Lucca are described as pouring into the streets.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "The quake was felt in nearby cities, including Milan, Florence, and Lucca, where people poured out into the streets.",
         "summary_start": 257,
         "summary_end": 373
@@ -1675,10 +1683,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 606,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 606
   },
   {
     "sample_id": 36,
@@ -1694,10 +1699,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 721,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 721
   },
   {
     "sample_id": 37,
@@ -1713,10 +1715,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 836,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 836
   },
   {
     "sample_id": 38,
@@ -1732,10 +1731,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 983,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 983
   },
   {
     "sample_id": 39,
@@ -1751,7 +1747,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The officials were convicted in 2012, the quake happened in 2009.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " experienced significant quakes in 2009 and 2012,",
         "summary_start": 307,
         "summary_end": 356
@@ -1779,10 +1775,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1066,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1066
   },
   {
     "sample_id": 40,
@@ -1798,10 +1791,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 89,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 89
   },
   {
     "sample_id": 41,
@@ -1822,20 +1812,6 @@
         "summary_end": 380
       },
       {
-        "annot_id": 85,
-        "sample_id": 41,
-        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "it seems that the attorney stated she is undergoing rehab, not the father",
-        "annotator_name": "Manveer",
-        "summary_span": "obby Brown, her father, stated that she is awake and undergoing a long rehabilitation process",
-        "summary_start": 429,
-        "summary_end": 522
-      },
-      {
         "annot_id": 86,
         "sample_id": 41,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
@@ -1847,6 +1823,50 @@
         "summary_span": " emotional and challenging",
         "summary_start": 594,
         "summary_end": 620
+      },
+      {
+        "annot_id": 106,
+        "sample_id": 41,
+        "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it seems that the attorney stated she is undergoing rehab, not the father",
+        "annotator_name": "Manveer",
+        "summary_span": "Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process",
+        "summary_start": 428,
+        "summary_end": 522,
+        "source_span": "\" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process ,",
+        "source_start": 1379,
+        "source_end": 1495
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 41,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Statements from relatives, not reports.",
+        "annotator_name": "Suleman",
+        "summary_span": "eports indicate that Brown's condition has improved,",
+        "summary_start": 329,
+        "summary_end": 381
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 41,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Attorney stated this, not the father",
+        "annotator_name": "Suleman",
+        "summary_span": " Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process. ",
+        "summary_start": 427,
+        "summary_end": 524
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1858,10 +1878,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 204,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 204
   },
   {
     "sample_id": 42,
@@ -1877,10 +1894,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 319,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 319
   },
   {
     "sample_id": 43,
@@ -1896,7 +1910,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "It was not during a performance, but when he was visiting her.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "she was awake and watching him during a performance.",
         "summary_start": 386,
         "summary_end": 438
@@ -1915,14 +1929,14 @@
         "summary_end": 97
       },
       {
-        "annot_id": 88,
+        "annot_id": 107,
         "sample_id": 43,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
-          "Unwanted.Instrinsic"
+          "Unwanted.Extrinsic"
         ],
-        "note": "the source says nothing about a performance",
+        "note": "the source says nothing about a performance\t",
         "annotator_name": "Manveer",
         "summary_span": "and watching him during a performance",
         "summary_start": 400,
@@ -1938,10 +1952,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 434,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 434
   },
   {
     "sample_id": 44,
@@ -1949,18 +1960,21 @@
     "summary": "Bobbi Kristina Brown, the daughter of Bobby Brown and Whitney Houston, has been diagnosed with global and irreversible brain damage. She remains unresponsive and is undergoing rehabilitation, though her condition has not significantly improved over nearly three months. Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources. Bobbi Kristina's grandmother, Cissy Houston, expressed hope for a miracle while acknowledging the possibility of a lifelong condition.",
     "annotations": [
       {
-        "annot_id": 89,
+        "annot_id": 108,
         "sample_id": 44,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "the contradiction came from the grandmother's comments and the attorney's clarification, not directly from medical sources.",
+        "note": "the contradiction came from the grandmother's comments and the attorney's clarification, not directly from medical sources.\t",
         "annotator_name": "Manveer",
-        "summary_span": "Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources.",
+        "summary_span": "Her father, Bobby Brown, initially reported that she was awake and responsive, but these claims were later contradicted by medical sources. ",
         "summary_start": 270,
-        "summary_end": 409
+        "summary_end": 410,
+        "source_span": " according to her grandmother . \nthough the 22-year-old is no longer in a medically induced coma , she remains unresponsive ",
+        "source_start": 127,
+        "source_end": 251
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1972,10 +1986,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 549,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 549
   },
   {
     "sample_id": 45,
@@ -2005,10 +2016,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 664,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 664
   },
   {
     "sample_id": 46,
@@ -2024,10 +2032,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 779,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 779
   },
   {
     "sample_id": 47,
@@ -2035,18 +2040,21 @@
     "summary": "Bobbi Kristina Brown, daughter of Bobby Brown and Whitney Houston, has suffered global and irreversible brain damage. Though she is no longer in a medically induced coma, she remains unresponsive and does not react to visitors or familiar voices. She has a tracheostomy in her throat and her condition has not changed in nearly three months. While her father, Bobby Brown, stated that she is awake and watching him, her grandmother, Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come. \n",
     "annotations": [
       {
-        "annot_id": 91,
+        "annot_id": 110,
         "sample_id": 47,
         "annotator": "3913a7e2efd8415a80e1a9f3a3a0463a",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "this was said by the attorney not cissy, although cissy had did contradict the father.",
+        "note": "this was said by the attorney not cissy, although cissy did contradict the father.",
         "annotator_name": "Manveer",
         "summary_span": "Cissy Houston, and an attorney for the family said that she will have a long life but the quality of her life will not be known for years to come.",
         "summary_start": 433,
-        "summary_end": 579
+        "summary_end": 579,
+        "source_span": "\" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process , and the quality of her life will not be known for years to come . \"",
+        "source_start": 1379,
+        "source_end": 1563
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2058,10 +2066,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 894,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 894
   },
   {
     "sample_id": 48,
@@ -2077,10 +2082,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 920,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 920
   },
   {
     "sample_id": 49,
@@ -2110,9 +2112,6 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1124,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1124
   }
 ]

@@ -1,4 +1,4 @@
-MERCURY=/home/amin/clients/mercury
+MERCURY=../../../mercury
 
 for batch in {1..16}
 #for batch in {3..3}

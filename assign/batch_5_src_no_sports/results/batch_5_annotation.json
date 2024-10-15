@@ -21,19 +21,6 @@
         "source_end": 622
       },
       {
-        "annot_id": 42,
-        "sample_id": 0,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "The passage is about a former Manchester City player, aged 30, named Milner. He has represented England in 61 senior matches, starting from 2009, and was part of the squad for two World Cups and two European Championships.",
-        "summary_start": 1,
-        "summary_end": 223
-      },
-      {
         "annot_id": 118,
         "sample_id": 0,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -77,20 +64,6 @@
         "summary_end": 501
       },
       {
-        "annot_id": 204,
-        "sample_id": 0,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source doesn't say that he's departing or that he's departing from team England",
-        "annotator_name": "Manveer",
-        "summary_span": "Milner has announced his decision to step away from the England team",
-        "summary_start": 503,
-        "summary_end": 571
-      },
-      {
         "annot_id": 208,
         "sample_id": 0,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
@@ -102,6 +75,20 @@
         "summary_span": "He has represented England in 61 senior matches,",
         "summary_start": 78,
         "summary_end": 126
+      },
+      {
+        "annot_id": 247,
+        "sample_id": 0,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the source doesn't say that he's departing or that he's departing from team England\t",
+        "annotator_name": "Manveer",
+        "summary_span": "Milner has announced his decision to step away from the England team",
+        "summary_start": 503,
+        "summary_end": 571
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -183,19 +170,6 @@
         "summary_span": "James Milner",
         "summary_start": 42,
         "summary_end": 54
-      },
-      {
-        "annot_id": 44,
-        "sample_id": 2,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "James Milner, a 30-year-old former Manchester City player,",
-        "summary_start": 42,
-        "summary_end": 100
       },
       {
         "annot_id": 119,
@@ -343,7 +317,7 @@
         "summary_end": 140
       },
       {
-        "annot_id": 213,
+        "annot_id": 248,
         "sample_id": 2,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
@@ -352,9 +326,12 @@
         ],
         "note": "the source doesn't say sam was the manager of team england, and it is not clear if this is even true",
         "annotator_name": "Manveer",
-        "summary_span": "the England team under manager Sam Allardyce.",
-        "summary_start": 510,
-        "summary_end": 555
+        "summary_span": "England team under manager Sam Allardyce.",
+        "summary_start": 514,
+        "summary_end": 555,
+        "source_span": "I wish Sam [Allardyce], the players, staff and supporters success in the future,\" ",
+        "source_start": 266,
+        "source_end": 348
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -416,19 +393,6 @@
         "summary_span": "James ",
         "summary_start": 47,
         "summary_end": 53
-      },
-      {
-        "annot_id": 47,
-        "sample_id": 3,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "The 30-year-old former Manchester City player, James Milner,",
-        "summary_start": 0,
-        "summary_end": 60
       },
       {
         "annot_id": 125,
@@ -605,19 +569,6 @@
         "summary_end": 474
       },
       {
-        "annot_id": 49,
-        "sample_id": 4,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "Sam Allardyce's former Manchester City player,",
-        "summary_start": 0,
-        "summary_end": 46
-      },
-      {
         "annot_id": 50,
         "sample_id": 4,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
@@ -662,19 +613,6 @@
         "source_end": 360
       },
       {
-        "annot_id": 209,
-        "sample_id": 4,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "some assumptions are made that a cap is an appearance in an international match",
-        "annotator_name": "Manveer",
-        "summary_span": "England Under-21 player with 46 appearances",
-        "summary_start": 370,
-        "summary_end": 413
-      },
-      {
         "annot_id": 217,
         "sample_id": 4,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
@@ -688,18 +626,51 @@
         "summary_end": 284
       },
       {
-        "annot_id": 218,
+        "annot_id": 245,
+        "sample_id": 4,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"scoring\" clause here casts an impression that 2014 World Cup qualifier is one of the appearances that he made. But the source does not suggest that. ",
+        "annotator_name": "forrest",
+        "summary_span": "Additionally, he holds the record for the most caps as an England Under-21 player with 46 appearances, scoring once in a 2014 World Cup qualifier against Moldova.",
+        "summary_start": 312,
+        "summary_end": 474,
+        "source_span": " Milner also holds the record for the most capped England Under-21 player, picking up 46 caps after making his first appearance in 2004. He scored his first, and only, international goal in England's 5-0 victory over Moldova at the 2014 Fifa World Cup qualifiers",
+        "source_start": 360,
+        "source_end": 622
+      },
+      {
+        "annot_id": 249,
         "sample_id": 4,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "this sentence suggests that he was an under-21 player when he scored in the 2014 game, which is not true. ",
+        "note": "this sentence suggests that he was an under-21 player when he scored in the 2014 game, which is not true.",
         "annotator_name": "Manveer",
         "summary_span": "Additionally, he holds the record for the most caps as an England Under-21 player with 46 appearances, scoring once in a 2014 World Cup qualifier against Moldova.",
         "summary_start": 312,
-        "summary_end": 474
+        "summary_end": 474,
+        "source_span": "making his senior debut in 2009",
+        "source_start": 66,
+        "source_end": 97
+      },
+      {
+        "annot_id": 268,
+        "sample_id": 4,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Benign"
+        ],
+        "note": "some assumptions are made that a cap is an appearance in an international match",
+        "annotator_name": "Manveer",
+        "summary_span": "England Under-21 player with 46 appearances,",
+        "summary_start": 370,
+        "summary_end": 414
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -730,19 +701,6 @@
         "summary_span": "\nJames ",
         "summary_start": 42,
         "summary_end": 49
-      },
-      {
-        "annot_id": 52,
-        "sample_id": 5,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "James Milner, a 30-year-old former Manchester City player,",
-        "summary_start": 43,
-        "summary_end": 101
       },
       {
         "annot_id": 131,
@@ -832,19 +790,6 @@
         "summary_span": "\nJames ",
         "summary_start": 42,
         "summary_end": 49
-      },
-      {
-        "annot_id": 53,
-        "sample_id": 6,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "James Milner, a 30-year-old former Manchester City player,",
-        "summary_start": 43,
-        "summary_end": 101
       },
       {
         "annot_id": 138,
@@ -962,19 +907,6 @@
         "summary_end": 5
       },
       {
-        "annot_id": 55,
-        "sample_id": 7,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "James Milner, a 30-year-old former Manchester City player",
-        "summary_start": 0,
-        "summary_end": 57
-      },
-      {
         "annot_id": 141,
         "sample_id": 7,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1089,19 +1021,6 @@
     "summary": "The passage discusses the retirement of a former Manchester City player, who won 61 caps for England. He was a part of the squad for two World Cups and two European Championships but only played three minutes at Euro 2016. Milner expressed his decision to retire as a matter of common sense and wished success to Sam Allardyce, the players, staff, and supporters. Additionally, Milner holds the record for the most capped England Under-21 player, earning 46 caps and scoring his only international goal in a match against Moldova during the 2014 FIFA World Cup qualifiers.",
     "annotations": [
       {
-        "annot_id": 58,
-        "sample_id": 8,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "The passage discusses the retirement of a former Manchester City player, who won 61 caps for England.",
-        "summary_start": 0,
-        "summary_end": 101
-      },
-      {
         "annot_id": 145,
         "sample_id": 8,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1188,19 +1107,6 @@
         "summary_span": "retired from international football at age 30",
         "summary_start": 47,
         "summary_end": 92
-      },
-      {
-        "annot_id": 59,
-        "sample_id": 9,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Questionable"
-        ],
-        "note": "the source doesn't make it obvious that the first part is about milner, but it very likely is",
-        "annotator_name": "Manveer",
-        "summary_span": "James Milner, a former Manchester City player,",
-        "summary_start": 0,
-        "summary_end": 46
       },
       {
         "annot_id": 147,
@@ -1316,20 +1222,6 @@
         "summary_end": 561
       },
       {
-        "annot_id": 62,
-        "sample_id": 10,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the summary disagrees with the source, which might be referring to a different Rage",
-        "annotator_name": "Manveer",
-        "summary_span": "Rage Against the Machine is not a German heavy metal band, as stated in the passage, but rather an American rock band. The passage incorrectly mentions that Rage is a German heavy metal band, formed in 1984 by Peter \"Peavy\" Wagner.",
-        "summary_start": 330,
-        "summary_end": 561
-      },
-      {
         "annot_id": 164,
         "sample_id": 10,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1388,6 +1280,23 @@
         "summary_span": "band Greta",
         "summary_start": 181,
         "summary_end": 191
+      },
+      {
+        "annot_id": 250,
+        "sample_id": 10,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary disagrees with the source, which might be referring to a different Rage",
+        "annotator_name": "Manveer",
+        "summary_span": "Rage Against the Machine is not a German heavy metal band, as stated in the passage, but rather an American rock band. The passage incorrectly mentions that Rage is a German heavy metal band, formed in 1984 by Peter \"Peavy\" Wagner.",
+        "summary_start": 330,
+        "summary_end": 561,
+        "source_span": "Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
+        "source_start": 403,
+        "source_end": 483
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1424,20 +1333,6 @@
         "source_end": 483
       },
       {
-        "annot_id": 63,
-        "sample_id": 11,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The band being referred to is not Rage Against the Machine, just Rage. ",
-        "annotator_name": "Manveer",
-        "summary_span": "Rage Against the Machine is a German heavy metal band, established in 1984 by Peter \"Peavy\" Wagner.",
-        "summary_start": 372,
-        "summary_end": 471
-      },
-      {
         "annot_id": 166,
         "sample_id": 11,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1466,6 +1361,23 @@
         "summary_end": 471,
         "source_span": "Rage Against the Machine ( 1991 -- 2000 ; 2007 -- 11 ) and Audioslave ( 2001 -- 07 ) . Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 . As of 2016 , he is playing in the band Prophets of Rage , with Commerford , Morello , Chuck D , B-Real and DJ Lord . Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
         "source_start": 62,
+        "source_end": 483
+      },
+      {
+        "annot_id": 251,
+        "sample_id": 11,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The band being referred to is not Rage Against the Machine, just Rage.",
+        "annotator_name": "Manveer",
+        "summary_span": "Rage Against the Machine is a German heavy metal band, established in 1984 by Peter \"Peavy\" Wagner.",
+        "summary_start": 372,
+        "summary_end": 471,
+        "source_span": "Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
+        "source_start": 403,
         "source_end": 483
       }
     ],
@@ -1500,19 +1412,6 @@
         "source_span": "Rage is a German heavy metal band , formed in 1984 by Peter `` Peavy '' Wagner .",
         "source_start": 403,
         "source_end": 483
-      },
-      {
-        "annot_id": 64,
-        "sample_id": 12,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Benign"
-        ],
-        "note": "the source says Morello, which may not be the same Tom Morello referred to earlier, but probably is",
-        "annotator_name": "Manveer",
-        "summary_span": "Tom Morello",
-        "summary_start": 353,
-        "summary_end": 364
       },
       {
         "annot_id": 170,
@@ -1584,20 +1483,6 @@
         "summary_end": 506
       },
       {
-        "annot_id": 66,
-        "sample_id": 13,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "it includes one other possible former member, tom morello, but it is not clear if morello refers to Tom morello either.",
-        "annotator_name": "Manveer",
-        "summary_span": "the band Prophets of Rage, which includes former members of Rage Against the Machine",
-        "summary_start": 244,
-        "summary_end": 328
-      },
-      {
         "annot_id": 171,
         "sample_id": 13,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -1644,17 +1529,21 @@
         "summary_end": 356
       },
       {
-        "annot_id": 229,
+        "annot_id": 253,
         "sample_id": 13,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
-          "Questionable"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
-        "note": "the source doesn't say they're unrelated, but it probably is unrelated",
+        "note": "it includes one other possible former member, tom morello. There is no evidence of multiple former members, just one.",
         "annotator_name": "Manveer",
-        "summary_span": "but it is unclear if this is directly related to Rage Against the Machine.",
-        "summary_start": 432,
-        "summary_end": 506
+        "summary_span": "band Prophets of Rage, which includes former members of Rage Against the Machine ",
+        "summary_start": 248,
+        "summary_end": 329,
+        "source_span": "Wilk started his career as a drummer for Greta in 1990 , and helped co-found Rage with Tom Morello and Zack de la Rocha in August 1991 .",
+        "source_start": 149,
+        "source_end": 285
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1730,19 +1619,6 @@
         "summary_end": 411
       },
       {
-        "annot_id": 180,
-        "sample_id": 14,
-        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
-        "label": [
-          "Benign"
-        ],
-        "note": "It requires world knowledge to tell whether these bands are notable",
-        "annotator_name": "forrest",
-        "summary_span": "notable",
-        "summary_start": 49,
-        "summary_end": 56
-      },
-      {
         "annot_id": 230,
         "sample_id": 14,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
@@ -1767,6 +1643,20 @@
         "summary_span": " several notable rock bands including Rage Against the Machine, Audioslave, and Prophets of Rage.",
         "summary_start": 40,
         "summary_end": 137
+      },
+      {
+        "annot_id": 246,
+        "sample_id": 14,
+        "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
+        "label": [
+          "Unwanted.Extrinsic",
+          "Questionable"
+        ],
+        "note": "I cannot judge whether the bands are \"notable\" even after Googling.",
+        "annotator_name": "forrest",
+        "summary_span": "notable",
+        "summary_start": 49,
+        "summary_end": 56
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2034,34 +1924,6 @@
         "summary_end": 246
       },
       {
-        "annot_id": 106,
-        "sample_id": 20,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "johnson should be johnston",
-        "annotator_name": "Manveer",
-        "summary_span": "Johnson",
-        "summary_start": 178,
-        "summary_end": 185
-      },
-      {
-        "annot_id": 107,
-        "sample_id": 20,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "johnson should be johnston",
-        "annotator_name": "Manveer",
-        "summary_span": "Johnson",
-        "summary_start": 217,
-        "summary_end": 224
-      },
-      {
         "annot_id": 186,
         "sample_id": 20,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -2073,6 +1935,40 @@
         "summary_span": "he will speak at a press conference on Friday morning after signing a three-year deal with the club.",
         "summary_start": 326,
         "summary_end": 426
+      },
+      {
+        "annot_id": 254,
+        "sample_id": 20,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "johnson should be johnston",
+        "annotator_name": "Manveer",
+        "summary_span": "Johnson",
+        "summary_start": 178,
+        "summary_end": 185,
+        "source_span": "johnston",
+        "source_start": 184,
+        "source_end": 192
+      },
+      {
+        "annot_id": 255,
+        "sample_id": 20,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "johnson should be johnston",
+        "annotator_name": "Manveer",
+        "summary_span": "Johnson",
+        "summary_start": 217,
+        "summary_end": 224,
+        "source_span": "johnston",
+        "source_start": 184,
+        "source_end": 192
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2135,20 +2031,6 @@
         "summary_end": 251
       },
       {
-        "annot_id": 71,
-        "sample_id": 21,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the summary seems to suggest that the source was modified later",
-        "annotator_name": "Manveer",
-        "summary_span": "Note: The passage does not mention Gary Locke shaking hands with chairman Jim Mann. This information was added in the original prompt but is not present in the provided passage.",
-        "summary_start": 362,
-        "summary_end": 539
-      },
-      {
         "annot_id": 187,
         "sample_id": 21,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -2160,6 +2042,20 @@
         "annotator_name": "forrest",
         "summary_span": "The passage does not mention Gary Locke shaking hands with chairman Jim Mann. This information was added in the original prompt but is not present in the provided passage.",
         "summary_start": 368,
+        "summary_end": 539
+      },
+      {
+        "annot_id": 256,
+        "sample_id": 21,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the summary seems to suggest that the source was modified later",
+        "annotator_name": "Manveer",
+        "summary_span": "Note: The passage does not mention Gary Locke shaking hands with chairman Jim Mann. This information was added in the original prompt but is not present in the provided passage.",
+        "summary_start": 362,
         "summary_end": 539
       }
     ],
@@ -2664,20 +2560,6 @@
         "summary_end": 314
       },
       {
-        "annot_id": 80,
-        "sample_id": 29,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says one loss, not 6 wins, there could be ties as well.",
-        "annotator_name": "Manveer",
-        "summary_span": " Since taking charge, Locke has led the team to six wins out of seven games.",
-        "summary_start": 315,
-        "summary_end": 391
-      },
-      {
         "annot_id": 242,
         "sample_id": 29,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
@@ -2689,6 +2571,23 @@
         "summary_span": "He will discuss his new role at a press conference on Friday morning.",
         "summary_start": 392,
         "summary_end": 461
+      },
+      {
+        "annot_id": 258,
+        "sample_id": 29,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says one loss, not 6 wins, there could be ties as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "Locke has led the team to six wins out of seven games. ",
+        "summary_start": 337,
+        "summary_end": 392,
+        "source_span": "has lost just once in seven games since taking over at rugby park",
+        "source_start": 375,
+        "source_end": 440
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2801,20 +2700,6 @@
         "summary_end": 871
       },
       {
-        "annot_id": 90,
-        "sample_id": 31,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "this should clarify and say James Murdoch, since James is being referred to and not Rupert Murdoch here",
-        "annotator_name": "Manveer",
-        "summary_span": "Rupert Murdoch, born on December 13, 1972, ",
-        "summary_start": 1,
-        "summary_end": 44
-      },
-      {
         "annot_id": 92,
         "sample_id": 31,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
@@ -2826,20 +2711,6 @@
         "summary_span": "Rupert Murdoch, born on December 13, 1972, is an Australian, British, and American businessman, the younger son of media mogul Rupert Murdoch. He currently serves as the chairman and acting CEO of Fox News. Murdoch also holds the positions of CEO of 21st Century Fox and chairman of Sky plc. He had full control as Chairman and CEO of global media holding company News Corporation, which is now the world's second-largest media conglomerate, and its successors, News Corp and 21st Century Fox, following the conglomerate split on June 28, 2013.",
         "summary_start": 1,
         "summary_end": 545
-      },
-      {
-        "annot_id": 93,
-        "sample_id": 31,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "this should be referring to james murdoch in the beginning. Then it is rupert murdoch that had full control ",
-        "annotator_name": "Manveer",
-        "summary_span": "Summary: Rupert Murdoch, born in 1972, is the chairman and acting CEO of Fox News, and the younger son of media mogul Rupert Murdoch. He is the CEO of 21st Century Fox and chairman of Sky plc. He had full control over News Corporation, now known as News Corp and 21st Century Fox, after the conglomerate split on June 28, 2",
-        "summary_start": 548,
-        "summary_end": 871
       },
       {
         "annot_id": 198,
@@ -2874,6 +2745,54 @@
         "source_span": "Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc. ",
         "source_start": 11,
         "source_end": 327
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 31,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this should clarify and say James Murdoch, since James is being referred to and not Rupert Murdoch here",
+        "annotator_name": "Manveer",
+        "summary_span": "Rupert Murdoch, born on December 13, 1972,",
+        "summary_start": 1,
+        "summary_end": 43,
+        "source_span": "James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) ",
+        "source_start": 79,
+        "source_end": 144
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 31,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this should be referring to james murdoch in the beginning. Then it is rupert murdoch that had full control",
+        "annotator_name": "Manveer",
+        "summary_span": "Summary: Rupert Murdoch, born in 1972, is the chairman and acting CEO of Fox News, and the younger son of media mogul Rupert Murdoch. He is the CEO of 21st Century Fox and chairman of Sky plc. He had full control over News Corporation, now known as News Corp and 21st Century Fox, after the conglomerate split on June 28, 2",
+        "summary_start": 548,
+        "summary_end": 871,
+        "source_span": "James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) ",
+        "source_start": 79,
+        "source_end": 144
+      },
+      {
+        "annot_id": 261,
+        "sample_id": 31,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "a second summary is given.",
+        "annotator_name": "Manveer",
+        "summary_span": "Summary: Rupert Murdoch, born in 1972, is the chairman and acting CEO of Fox News, and the younger son of media mogul Rupert Murdoch. He is the CEO of 21st Century Fox and chairman of Sky plc. He had full control over News Corporation, now known as News Corp and 21st Century Fox, after the conglomerate split on June 28, 2",
+        "summary_start": 548,
+        "summary_end": 871
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2988,20 +2907,6 @@
         "source_end": 345
       },
       {
-        "annot_id": 95,
-        "sample_id": 34,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the summary is mixing up father and son",
-        "annotator_name": "Manveer",
-        "summary_span": "Rupert Murdoch is the current chairman and acting CEO of Fox News. He is also the CEO of 21st Century Fox and chairman of Sky plc. As the son of a media mogul, Murdoch has held significant positions in various media companies, including being the chairman and CEO of News Corporation, now known as News Corp and 21st Century Fox, following a company split in 2013.",
-        "summary_start": 0,
-        "summary_end": 364
-      },
-      {
         "annot_id": 200,
         "sample_id": 34,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -3011,6 +2916,23 @@
         ],
         "note": "The summary completely confused the two Murdoch's. ",
         "annotator_name": "forrest",
+        "summary_span": "Rupert Murdoch is the current chairman and acting CEO of Fox News. He is also the CEO of 21st Century Fox and chairman of Sky plc. As the son of a media mogul, Murdoch has held significant positions in various media companies, including being the chairman and CEO of News Corporation, now known as News Corp and 21st Century Fox, following a company split in 2013.",
+        "summary_start": 0,
+        "summary_end": 364,
+        "source_span": "Murdoch thus had full control as Chairman and CEO of global media holding company News Corporation , now the world 's second-largest media conglomerate , and its successors , News Corp and 21st Century Fox , after the conglomerate split on 28 June 2013 .",
+        "source_start": 346,
+        "source_end": 600
+      },
+      {
+        "annot_id": 262,
+        "sample_id": 34,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary is mixing up father and son",
+        "annotator_name": "Manveer",
         "summary_span": "Rupert Murdoch is the current chairman and acting CEO of Fox News. He is also the CEO of 21st Century Fox and chairman of Sky plc. As the son of a media mogul, Murdoch has held significant positions in various media companies, including being the chairman and CEO of News Corporation, now known as News Corp and 21st Century Fox, following a company split in 2013.",
         "summary_start": 0,
         "summary_end": 364,
@@ -3053,20 +2975,6 @@
         "source_end": 326
       },
       {
-        "annot_id": 96,
-        "sample_id": 35,
-        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "this should refer to james",
-        "annotator_name": "Manveer",
-        "summary_span": " He is also the CEO of 21st Century Fox and chairman of Sky plc.",
-        "summary_start": 152,
-        "summary_end": 216
-      },
-      {
         "annot_id": 201,
         "sample_id": 35,
         "annotator": "53eed4f5349642cb80f62cbadd0eee2d",
@@ -3081,6 +2989,23 @@
         "summary_end": 216,
         "source_span": "Rupert Murdoch is the current chairman and acting CEO of Fox News . James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc.",
         "source_start": 11,
+        "source_end": 326
+      },
+      {
+        "annot_id": 263,
+        "sample_id": 35,
+        "annotator": "15b3db829f5f4c61b240513a336f6cd1",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this should refer to james",
+        "annotator_name": "Manveer",
+        "summary_span": "Rupert Murdoch is the chairman and acting CEO of Fox News. He is also the CEO of 21st Century Fox and chairman of Sky plc.",
+        "summary_start": 94,
+        "summary_end": 216,
+        "source_span": "James Rupert Jacob Murdoch ( [ ˈmɜrdɒk ] born 13 December 1972 ) is an Australian , British , American businessman , the younger son of media mogul Rupert Murdoch , the chief executive officer ( CEO ) of 21st Century Fox , and chairman of Sky plc.",
+        "source_start": 79,
         "source_end": 326
       }
     ],
@@ -3255,7 +3180,7 @@
         "summary_end": 248
       },
       {
-        "annot_id": 103,
+        "annot_id": 264,
         "sample_id": 40,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
@@ -3264,23 +3189,29 @@
         ],
         "note": "johnson sound be johnston",
         "annotator_name": "Manveer",
-        "summary_span": "Allan Johnson ",
-        "summary_start": 175,
-        "summary_end": 189
+        "summary_span": "Johnson",
+        "summary_start": 181,
+        "summary_end": 188,
+        "source_span": "johnston",
+        "source_start": 184,
+        "source_end": 192
       },
       {
-        "annot_id": 104,
+        "annot_id": 265,
         "sample_id": 40,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
         ],
-        "note": "johnson should be johnston",
+        "note": "johnson sound be johnston",
         "annotator_name": "Manveer",
         "summary_span": "Johnson",
         "summary_start": 220,
-        "summary_end": 227
+        "summary_end": 227,
+        "source_span": "johnston",
+        "source_start": 184,
+        "source_end": 192
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -3326,17 +3257,17 @@
         "summary_end": 250
       },
       {
-        "annot_id": 105,
+        "annot_id": 266,
         "sample_id": 41,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
           "Unwanted",
-          "Unwanted.Instrinsic"
+          "Unwanted.Extrinsic"
         ],
-        "note": "the summary is suggesting that the source was changed",
+        "note": "the summary is suggesting that the source was changed\t",
         "annotator_name": "Manveer",
-        "summary_span": " \n\nNote: The passage does not mention Gary Locke shaking hands with chairman Jim Mann. This information was added in the original prompt but is not present in the provided passage.",
-        "summary_start": 359,
+        "summary_span": "Note: The passage does not mention Gary Locke shaking hands with chairman Jim Mann. This information was added in the original prompt but is not present in the provided passage.",
+        "summary_start": 362,
         "summary_end": 539
       }
     ],
@@ -3416,7 +3347,7 @@
     "summary": "Gary Locke, who previously managed Hearts, has been appointed as the permanent manager of Kilmarnock after a successful interim period. He signed a three-year contract and will speak at a press conference on Friday. Locke took over from Allan Johnston at the start of February and has maintained an undefeated record in seven games.",
     "annotations": [
       {
-        "annot_id": 111,
+        "annot_id": 267,
         "sample_id": 44,
         "annotator": "15b3db829f5f4c61b240513a336f6cd1",
         "label": [
@@ -3427,7 +3358,10 @@
         "annotator_name": "Manveer",
         "summary_span": "and has maintained an undefeated record in seven games.",
         "summary_start": 277,
-        "summary_end": 332
+        "summary_end": 332,
+        "source_span": "has lost just once ",
+        "source_start": 375,
+        "source_end": 394
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",

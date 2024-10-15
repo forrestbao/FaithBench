@@ -52,22 +52,6 @@
         "source_end": 636
       },
       {
-        "annot_id": 32,
-        "sample_id": 0,
-        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
-        "label": [
-          "Benign"
-        ],
-        "note": "not explicit from the source but reasonable given turkey claimed it was warned to leave turkish airspace, and in opposition to russia's claims that it was in syrian airspace",
-        "annotator_name": "Erana",
-        "summary_span": "Turkey insists that the jet was in Turkish airspace. ",
-        "summary_start": 722,
-        "summary_end": 775,
-        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace.",
-        "source_start": 477,
-        "source_end": 636
-      },
-      {
         "annot_id": 175,
         "sample_id": 0,
         "annotator": "7f05d723802346528ecae77147cd32cf",
@@ -108,6 +92,53 @@
         "summary_span": "Russia accuses Turkey of ignoring warnings to leave its airspace",
         "summary_start": 650,
         "summary_end": 714
+      },
+      {
+        "annot_id": 211,
+        "sample_id": 0,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the year is hallucinated, but I think its right from a google search.",
+        "annotator_name": "Manveer",
+        "summary_span": "2015",
+        "summary_start": 59,
+        "summary_end": 63
+      },
+      {
+        "annot_id": 212,
+        "sample_id": 0,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This is mixing up all the entities. Turkey accused Russia of being within Turkey's airspace, while Russia says it was Syrian airspace.",
+        "annotator_name": "Manveer",
+        "summary_span": "Russia accuses Turkey of ignoring warnings to leave its airspace, while Turkey insists that the jet was in Turkish airspace.",
+        "summary_start": 650,
+        "summary_end": 774,
+        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. Russia says it was shot down within Syrian airspace ",
+        "source_start": 477,
+        "source_end": 689
+      },
+      {
+        "annot_id": 218,
+        "sample_id": 0,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "there is disagreement over where the plane is shot. So it should not be claimed that it was over Syria definitively.",
+        "annotator_name": "Manveer",
+        "summary_span": ", over Syria",
+        "summary_start": 63,
+        "summary_end": 75,
+        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. Russia says it was shot down within Syrian airspace",
+        "source_start": 477,
+        "source_end": 688
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -119,10 +150,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 60,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 60
   },
   {
     "sample_id": 1,
@@ -222,6 +250,79 @@
         "summary_span": "leave Syrian airspace",
         "summary_start": 366,
         "summary_end": 387
+      },
+      {
+        "annot_id": 213,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Turkey insists the jet was in Turkish airspace",
+        "annotator_name": "Manveer",
+        "summary_span": " Turkey claims the jet ignored warnings to leave Syrian airspace",
+        "summary_start": 323,
+        "summary_end": 387,
+        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace",
+        "source_start": 477,
+        "source_end": 635
+      },
+      {
+        "annot_id": 214,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "the sentence logically might not make sense. If both claim the airspace was the same, then whats the disagreement?",
+        "annotator_name": "Manveer",
+        "summary_span": "Turkey claims the jet ignored warnings to leave Syrian airspace, while Russia asserts it was shot down within Syrian airspace. ",
+        "summary_start": 324,
+        "summary_end": 451
+      },
+      {
+        "annot_id": 219,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "perhaps it should be acknowledged that this was claimed by the head of the russian investigation, who may be biased.",
+        "annotator_name": "Manveer",
+        "summary_span": "Flight information appears to be missing",
+        "summary_start": 95,
+        "summary_end": 135
+      },
+      {
+        "annot_id": 220,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should add location when it was hit",
+        "annotator_name": "Manveer",
+        "summary_span": "ut data from the box could help resolve the dispute over the jet's location",
+        "summary_start": 138,
+        "summary_end": 213
+      },
+      {
+        "annot_id": 226,
+        "sample_id": 1,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "strained relations is perhaps too weak of a claim, when the source says plunged relations\t",
+        "annotator_name": "Manveer",
+        "summary_span": "strained relations",
+        "summary_start": 238,
+        "summary_end": 256,
+        "source_span": "plunged relations",
+        "source_start": 376,
+        "source_end": 393
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -233,10 +334,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 175,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 175
   },
   {
     "sample_id": 2,
@@ -266,10 +364,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 290,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 290
   },
   {
     "sample_id": 3,
@@ -366,6 +461,52 @@
         "summary_span": "The incident highlights the complex dynamics between the two countries in Syria",
         "summary_start": 291,
         "summary_end": 370
+      },
+      {
+        "annot_id": 215,
+        "sample_id": 3,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Is there an impact? The source suggests a possible impact",
+        "annotator_name": "Manveer",
+        "summary_span": "Russia demands an apology and continues to apply sanctions, impacting Turkey's economy.",
+        "summary_start": 530,
+        "summary_end": 617,
+        "source_span": "has imposed sanctions including a ban on package holidays, which could cost Turkey billions of dollars.",
+        "source_start": 1468,
+        "source_end": 1571
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 3,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It should be added that this was claimed by the head of the russian investigation, who may biased",
+        "annotator_name": "Manveer",
+        "summary_span": " revealing missing flight information",
+        "summary_start": 52,
+        "summary_end": 89
+      },
+      {
+        "annot_id": 223,
+        "sample_id": 3,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary says continues to apply sanctions, but the source doesn't talk about any existing sanctions.",
+        "annotator_name": "Manveer",
+        "summary_span": "ontinues to apply sanctions",
+        "summary_start": 561,
+        "summary_end": 588,
+        "source_span": "has imposed sanctions ",
+        "source_start": 1468,
+        "source_end": 1490
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -377,10 +518,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 405,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 405
   },
   {
     "sample_id": 4,
@@ -405,22 +543,6 @@
         "source_end": 302
       },
       {
-        "annot_id": 21,
-        "sample_id": 4,
-        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
-        "label": [
-          "Benign"
-        ],
-        "note": "assumes relations between two countries is diplomatic",
-        "annotator_name": "Erana",
-        "summary_span": "The incident led to a diplomatic crisis",
-        "summary_start": 244,
-        "summary_end": 283,
-        "source_span": "The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response.",
-        "source_start": 353,
-        "source_end": 476
-      },
-      {
         "annot_id": 23,
         "sample_id": 4,
         "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
@@ -436,23 +558,6 @@
         "source_span": "The Su-24 was shot down by F-16 fighters on 24 November. Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued.",
         "source_start": 1126,
         "source_end": 1305
-      },
-      {
-        "annot_id": 27,
-        "sample_id": 4,
-        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "2015 true but not in source",
-        "annotator_name": "Erana",
-        "summary_span": "on November 24, 2015",
-        "summary_start": 543,
-        "summary_end": 563,
-        "source_span": "on 24 November.",
-        "source_start": 1167,
-        "source_end": 1182
       },
       {
         "annot_id": 28,
@@ -499,6 +604,49 @@
         "summary_span": " injuring the other",
         "summary_start": 592,
         "summary_end": 611
+      },
+      {
+        "annot_id": 216,
+        "sample_id": 4,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the year is hallucinated, but seems right from a google search.",
+        "annotator_name": "Manveer",
+        "summary_span": "2015",
+        "summary_start": 559,
+        "summary_end": 563
+      },
+      {
+        "annot_id": 224,
+        "sample_id": 4,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary suggests that the shooting down of the plan killed the crew member and killed the other. However, the source says the pilot was killed later on the ground by militants and doesn't mention an injury for the other.",
+        "annotator_name": "Manveer",
+        "summary_span": "killing one crew member and injuring the other, who was later rescued",
+        "summary_start": 565,
+        "summary_end": 634
+      },
+      {
+        "annot_id": 298,
+        "sample_id": 4,
+        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
+        "label": [
+          "Benign"
+        ],
+        "note": "2015 true but not in source\t",
+        "annotator_name": "Erana",
+        "summary_span": "November 24, 2015",
+        "summary_start": 546,
+        "summary_end": 563,
+        "source_span": "24 November.",
+        "source_start": 1170,
+        "source_end": 1182
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -510,10 +658,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 520,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 520
   },
   {
     "sample_id": 5,
@@ -567,22 +712,6 @@
         "summary_end": 104
       },
       {
-        "annot_id": 31,
-        "sample_id": 5,
-        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
-        "label": [
-          "Benign"
-        ],
-        "note": "entered turkish airspace is not explicit from the source but reasonable given it was warned to leave turkish airspace",
-        "annotator_name": "Erana",
-        "summary_span": "Turkey claims the jet entered its airspace",
-        "summary_start": 288,
-        "summary_end": 330,
-        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace.",
-        "source_start": 477,
-        "source_end": 636
-      },
-      {
         "annot_id": 33,
         "sample_id": 5,
         "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
@@ -597,6 +726,35 @@
         "source_span": "The two countries are heavily involved in Syria but take radically different positions ",
         "source_start": 959,
         "source_end": 1046
+      },
+      {
+        "annot_id": 225,
+        "sample_id": 5,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "perhaps it should be acknowledged that this was claimed by the head of the russian investigation, who may be biased.",
+        "annotator_name": "Manveer",
+        "summary_span": "revealing missing flight information. ",
+        "summary_start": 143,
+        "summary_end": 181
+      },
+      {
+        "annot_id": 227,
+        "sample_id": 5,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "strained relations is perhaps too weak of a claim, when the source says plunged relations\t",
+        "annotator_name": "Manveer",
+        "summary_span": "strained relations",
+        "summary_start": 198,
+        "summary_end": 216,
+        "source_span": " plunged relations",
+        "source_start": 375,
+        "source_end": 393
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -608,10 +766,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 635,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 635
   },
   {
     "sample_id": 6,
@@ -680,6 +835,48 @@
         "source_span": "What we know about how the Su-24 was downedHow Russia's sanctions could hit TurkeyThe war of words as it eruptedThe two countries are heavily involved in Syria but take radically different positions despite both being ostensibly opposed to the Islamic State (IS) militant group. The Su-24 was shot down by F-16 fighters on 24 November. Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued. A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground. Russia has demanded an apology from Turkey and in the meantime has imposed sanctions including a ban on package holidays, which could cost Turkey billions of dollars.",
         "source_start": 847,
         "source_end": 1571
+      },
+      {
+        "annot_id": 217,
+        "sample_id": 6,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is questionable to say that the sanctions were in response to the claim. The sanctions are in response to everything that has happened.",
+        "annotator_name": "Manveer",
+        "summary_span": "with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace",
+        "summary_start": 343,
+        "summary_end": 455
+      },
+      {
+        "annot_id": 228,
+        "sample_id": 6,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should perhaps acknowledge that these are findings from a russian investigator, who may be biased",
+        "annotator_name": "Manveer",
+        "summary_span": "with initial findings suggesting missing flight information. ",
+        "summary_start": 105,
+        "summary_end": 166
+      },
+      {
+        "annot_id": 229,
+        "sample_id": 6,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says plunged, not strained, which is a weaker claim",
+        "annotator_name": "Manveer",
+        "summary_span": "strained",
+        "summary_start": 297,
+        "summary_end": 305,
+        "source_span": "plunged",
+        "source_start": 376,
+        "source_end": 383
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -691,33 +888,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 750,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 750
   },
   {
     "sample_id": 7,
     "source": "The \"black box\" of the Su-24 jet was officially opened in Moscow on Friday in front of journalists and diplomats. Nikolai Primak, head of the Russian investigation, said flight information appeared to be missing. Data from the box could help resolve the dispute over the jet's location when it was hit. An analysis is expected to be released next week. The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response. Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. Russia says it was shot down within Syrian airspace and President Vladimir Putin vented his anger at Turkey's government again on Thursday, accusing it of subservience to the US and of \"creeping Islamisation\". What we know about how the Su-24 was downedHow Russia's sanctions could hit TurkeyThe war of words as it eruptedThe two countries are heavily involved in Syria but take radically different positions despite both being ostensibly opposed to the Islamic State (IS) militant group. The Su-24 was shot down by F-16 fighters on 24 November. Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued. A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground. Russia has demanded an apology from Turkey and in the meantime has imposed sanctions including a ban on package holidays, which could cost Turkey billions of dollars.",
     "summary": "The black box of the downed Su-24 jet was opened in Moscow on Friday, and the data could help determine the jet's location when it was hit. The downing of the jet has caused a crisis in relations between Russia and Turkey, with Russia imposing sanctions on Turkey. Turkey claims the jet was in Turkish airspace, while Russia claims it was in Syrian airspace. \n",
-    "annotations": [
-      {
-        "annot_id": 37,
-        "sample_id": 7,
-        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
-        "label": [
-          "Benign"
-        ],
-        "note": "not explicit from the source but reasonable given turkey claimed it was warned to leave turkish airspace, and in opposition to russia's claims that it was in syrian airspace\t",
-        "annotator_name": "Erana",
-        "summary_span": "Turkey claims the jet was in Turkish airspace",
-        "summary_start": 265,
-        "summary_end": 310,
-        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace.",
-        "source_start": 477,
-        "source_end": 636
-      }
-    ],
+    "annotations": [],
     "meta_model": "google/gemini-1.5-flash-001",
     "meta_hhemv1": 0.99372,
     "meta_hhem-2.1": 0.97542,
@@ -727,10 +904,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 865,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 865
   },
   {
     "sample_id": 8,
@@ -752,6 +926,19 @@
         "source_span": "Nikolai Primak, head of the Russian investigation, said flight information appeared to be missing",
         "source_start": 114,
         "source_end": 211
+      },
+      {
+        "annot_id": 230,
+        "sample_id": 8,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it should perhaps be acknowleged than a russian investigator claimed this, who may be a biased source",
+        "annotator_name": "Manveer",
+        "summary_span": "light information from the box is missing",
+        "summary_start": 90,
+        "summary_end": 131
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -763,10 +950,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 969,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 969
   },
   {
     "sample_id": 9,
@@ -833,6 +1017,19 @@
         "summary_span": "Turkish F-16s",
         "summary_start": 413,
         "summary_end": 426
+      },
+      {
+        "annot_id": 231,
+        "sample_id": 9,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it should be acknowleged that a possibly biased russian investigator claimed this",
+        "annotator_name": "Manveer",
+        "summary_span": "revealing missing flight information",
+        "summary_start": 55,
+        "summary_end": 91
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -844,10 +1041,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1095,
-    "tags": [
-      "Politics and International Relations"
-    ]
+    "meta_sample_id": 1095
   },
   {
     "sample_id": 10,
@@ -918,6 +1112,49 @@
         "source_span": "currently 21th in belgium 's pro league",
         "source_start": 731,
         "source_end": 770
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 10,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary says 13th while the source says 21th",
+        "annotator_name": "Manveer",
+        "summary_span": "currently 13th in the Belgian Pro League",
+        "summary_start": 263,
+        "summary_end": 303,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 10,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should clarify since the source says holland, which doesn't always mean the same as netherlands",
+        "annotator_name": "Manveer",
+        "summary_span": "Netherlands",
+        "summary_start": 418,
+        "summary_end": 429
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 10,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "there might be an assumption that matic was in jose's chelsea squad, when jose has managed other teams.",
+        "annotator_name": "Manveer",
+        "summary_span": "Jose Mourinho's Chelsea squad",
+        "summary_start": 638,
+        "summary_end": 667
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -929,10 +1166,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 106,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 106
   },
   {
     "sample_id": 11,
@@ -1002,6 +1236,23 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 235,
+        "sample_id": 11,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "disagreement between summary and source, although source may be contradictory, it is not clear",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is currently 13th in Belgium's Pro League",
+        "summary_start": 227,
+        "summary_end": 277,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1013,10 +1264,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 221,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 221
   },
   {
     "sample_id": 12,
@@ -1102,6 +1350,23 @@
         "source_span": "21th in belgium 's pro",
         "source_start": 741,
         "source_end": 763
+      },
+      {
+        "annot_id": 237,
+        "sample_id": 12,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "some disagreement between source and summary, but source may be contradictory",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is in 13th place in the league",
+        "summary_start": 316,
+        "summary_end": 355,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1113,10 +1378,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 336,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 336
   },
   {
     "sample_id": 13,
@@ -1215,6 +1477,49 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 239,
+        "sample_id": 13,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say all this about why chelsea forms these partnerships, but it seems reasonable.",
+        "annotator_name": "Manveer",
+        "summary_span": "This strategy allows Chelsea to provide competitive playing time for their prospects while also potentially bolstering their first team with experienced players from these partnerships.",
+        "summary_start": 411,
+        "summary_end": 596
+      },
+      {
+        "annot_id": 240,
+        "sample_id": 13,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source and summary disagree, although source may have conflicting information\t",
+        "annotator_name": "Manveer",
+        "summary_span": "currently 13th in the Belgian Pro League",
+        "summary_start": 160,
+        "summary_end": 200,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
+      },
+      {
+        "annot_id": 241,
+        "sample_id": 13,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it's not really mouscron that is seeking a new partner, but maybe this is still reasonable to say",
+        "annotator_name": "Manveer",
+        "summary_span": "are seeking a new partner to aid in their development.",
+        "summary_start": 202,
+        "summary_end": 256
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1226,10 +1531,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 451,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 451
   },
   {
     "sample_id": 14,
@@ -1329,6 +1631,36 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 242,
+        "sample_id": 14,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source and summary disagree, but the source may be contradicting itself",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is currently 13th in the league,",
+        "summary_start": 242,
+        "summary_end": 283,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
+      },
+      {
+        "annot_id": 243,
+        "sample_id": 14,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should clarify that its the belgian pro league",
+        "annotator_name": "Manveer",
+        "summary_span": "a Belgian club in the Pro League",
+        "summary_start": 85,
+        "summary_end": 117
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1340,10 +1672,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 566,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 566
   },
   {
     "sample_id": 15,
@@ -1423,6 +1752,45 @@
         "source_span": "13th in the table",
         "source_start": 448,
         "source_end": 465
+      },
+      {
+        "annot_id": 244,
+        "sample_id": 15,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "there is some contradiction in the source, which perhaps could be referenced",
+        "annotator_name": "Manveer",
+        "summary_span": "21st in the Belgian Pro League",
+        "summary_start": 309,
+        "summary_end": 339
+      },
+      {
+        "annot_id": 245,
+        "sample_id": 15,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "an accent is added to the name, which is correct but not in the source",
+        "annotator_name": "Manveer",
+        "summary_span": "Royal Mouscron-Péruwelz",
+        "summary_start": 145,
+        "summary_end": 168
+      },
+      {
+        "annot_id": 246,
+        "sample_id": 15,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "there is an assumption of netherlands from holland, which is sometimes distinct",
+        "annotator_name": "Manveer",
+        "summary_span": "Netherlands",
+        "summary_start": 403,
+        "summary_end": 414
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1434,10 +1802,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 681,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 681
   },
   {
     "sample_id": 16,
@@ -1520,6 +1885,36 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 247,
+        "sample_id": 16,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "source doesn't say FC, but this is fine",
+        "annotator_name": "Manveer",
+        "summary_span": "FC",
+        "summary_start": 92,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 248,
+        "sample_id": 16,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "some disagreement between summary and source, but the source does contradict itself too",
+        "annotator_name": "Manveer",
+        "summary_span": "13th in the Belgian Pro League",
+        "summary_start": 214,
+        "summary_end": 244,
+        "source_span": "currently 21th in belgium 's pro league ",
+        "source_start": 731,
+        "source_end": 771
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1531,10 +1926,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 796,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 796
   },
   {
     "sample_id": 17,
@@ -1550,10 +1942,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 911,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 911
   },
   {
     "sample_id": 18,
@@ -1655,6 +2044,55 @@
         "source_span": "hey are 13th in the table",
         "source_start": 440,
         "source_end": 465
+      },
+      {
+        "annot_id": 249,
+        "sample_id": 18,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should perhaps acknowledge potential contradiction in source",
+        "annotator_name": "Manveer",
+        "summary_span": "21st in Belgium's pro league",
+        "summary_start": 238,
+        "summary_end": 266,
+        "source_span": "they are 13th in the table",
+        "source_start": 439,
+        "source_end": 465
+      },
+      {
+        "annot_id": 250,
+        "sample_id": 18,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "it doesn't seem like dingome is connected to mouscron",
+        "annotator_name": "Manveer",
+        "summary_span": "Mouscron is currently 21st in Belgium's pro league and has players like Tristan Dingome.",
+        "summary_start": 216,
+        "summary_end": 304,
+        "source_span": "mouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\n",
+        "source_start": 718,
+        "source_end": 821
+      },
+      {
+        "annot_id": 251,
+        "sample_id": 18,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is not clear if jose manages chelsea, he has managed other teams as well.",
+        "annotator_name": "Manveer",
+        "summary_span": "Chelsea's squad ",
+        "summary_start": 508,
+        "summary_end": 524,
+        "source_span": "jose mourinho 's squad",
+        "source_start": 1217,
+        "source_end": 1239
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1666,10 +2104,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 1002,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1002
   },
   {
     "sample_id": 19,
@@ -1755,6 +2190,23 @@
         "source_span": "21th in belgium 's pro league",
         "source_start": 741,
         "source_end": 770
+      },
+      {
+        "annot_id": 252,
+        "sample_id": 19,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "some disagreement between source and summary, although source may be contradicting itself",
+        "annotator_name": "Manveer",
+        "summary_span": "who are currently 13th in Belgium's Pro League.",
+        "summary_start": 106,
+        "summary_end": 153,
+        "source_span": "currently 21th in belgium 's pro league",
+        "source_start": 731,
+        "source_end": 770
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1766,10 +2218,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1141,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1141
   },
   {
     "sample_id": 20,
@@ -1890,6 +2339,64 @@
         "source_span": " \nfive out of six people were injured by broken glass and have been sent to the hospital for treatment",
         "source_start": 500,
         "source_end": 602
+      },
+      {
+        "annot_id": 253,
+        "sample_id": 20,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "only 5 out of 6 were injured by broken glass",
+        "annotator_name": "Manveer",
+        "summary_span": "Six people were injured by broken glass and taken to the hospital.",
+        "summary_start": 134,
+        "summary_end": 200
+      },
+      {
+        "annot_id": 254,
+        "sample_id": 20,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "its not the plant, but the chemical that is carcinogenic",
+        "annotator_name": "Manveer",
+        "summary_span": "The plant, which is reportedly carcinogenic",
+        "summary_start": 344,
+        "summary_end": 387,
+        "source_span": " paraxylene ( px ) , a reportedly carcinogenic chemical ",
+        "source_start": 246,
+        "source_end": 302
+      },
+      {
+        "annot_id": 255,
+        "sample_id": 20,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says more than 600",
+        "annotator_name": "Manveer",
+        "summary_span": " after 600 firefighters",
+        "summary_start": 292,
+        "summary_end": 315
+      },
+      {
+        "annot_id": 256,
+        "sample_id": 20,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source only mentions one past explosion",
+        "annotator_name": "Manveer",
+        "summary_span": " but the plant has a history of explosions",
+        "summary_start": 673,
+        "summary_end": 715
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1901,10 +2408,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 88,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 88
   },
   {
     "sample_id": 21,
@@ -2006,6 +2510,72 @@
         "summary_span": "witnessing the fire on social media.",
         "summary_start": 755,
         "summary_end": 791
+      },
+      {
+        "annot_id": 257,
+        "sample_id": 21,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says reportedly carcinogenic.",
+        "annotator_name": "Manveer",
+        "summary_span": "a carcinogenic chemical",
+        "summary_start": 188,
+        "summary_end": 211,
+        "source_span": "a reportedly carcinogenic chemical",
+        "source_start": 267,
+        "source_end": 301
+      },
+      {
+        "annot_id": 258,
+        "sample_id": 21,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says no reported casualties at the time.",
+        "annotator_name": "Manveer",
+        "summary_span": "with no casualties",
+        "summary_start": 512,
+        "summary_end": 530,
+        "source_span": " no reports of casualties or toxic leaks at the time",
+        "source_start": 1074,
+        "source_end": 1126
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 21,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "witnessing on social media is different from posting on social media",
+        "annotator_name": "Manveer",
+        "summary_span": " witnessing the fire on social media.",
+        "summary_start": 754,
+        "summary_end": 791,
+        "source_span": "and took to weibo to post photos of the fire",
+        "source_start": 884,
+        "source_end": 928
+      },
+      {
+        "annot_id": 299,
+        "sample_id": 21,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reportedly carcinogenic vs carcinogenic is different",
+        "annotator_name": "Vivek",
+        "summary_span": "a carcinogenic chemical ",
+        "summary_start": 188,
+        "summary_end": 212,
+        "source_span": "a reportedly carcinogenic chemical",
+        "source_start": 267,
+        "source_end": 301
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2017,10 +2587,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 203,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 203
   },
   {
     "sample_id": 22,
@@ -2042,6 +2609,19 @@
         "source_span": "the zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory",
         "source_start": 1306,
         "source_end": 1542
+      },
+      {
+        "annot_id": 300,
+        "sample_id": 22,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "backlash need not be equal to protests",
+        "annotator_name": "Vivek",
+        "summary_span": "elocated from Xiamen due to pollution concerns and protests in 2007.",
+        "summary_start": 522,
+        "summary_end": 590
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2053,10 +2633,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 318,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 318
   },
   {
     "sample_id": 23,
@@ -2095,6 +2672,32 @@
         "source_span": "the plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time . \nthough demonstrations are illegal in china , the construction of px plants has sparked protests , which have occasionally turned violent , in several cities in recent years ",
         "source_start": 1001,
         "source_end": 1303
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 23,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say the protests were due to the previous explosion",
+        "annotator_name": "Manveer",
+        "summary_span": "The plant has a history of protests due to pollution concerns, and a previous explosion in 2013.",
+        "summary_start": 394,
+        "summary_end": 490
+      },
+      {
+        "annot_id": 301,
+        "sample_id": 23,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "exact reason for protest unclear",
+        "annotator_name": "Vivek",
+        "summary_span": "The plant has a history of protests due to pollution concerns, and a previous explosion in 2013.",
+        "summary_start": 394,
+        "summary_end": 490
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2106,10 +2709,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 433,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 433
   },
   {
     "sample_id": 24,
@@ -2195,6 +2795,52 @@
         "summary_span": "six people being injured by broken glass",
         "summary_start": 204,
         "summary_end": 244
+      },
+      {
+        "annot_id": 261,
+        "sample_id": 24,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says 5 of 6, not 6",
+        "annotator_name": "Manveer",
+        "summary_span": "resulted in six people being injured by broken glass",
+        "summary_start": 192,
+        "summary_end": 244,
+        "source_span": "five out of six people were injured by broken glass ",
+        "source_start": 502,
+        "source_end": 554
+      },
+      {
+        "annot_id": 262,
+        "sample_id": 24,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says no reports at the time",
+        "annotator_name": "Manveer",
+        "summary_span": " explosion in 2013 without casualties",
+        "summary_start": 444,
+        "summary_end": 481,
+        "source_span": "were no reports of casualties or toxic leaks at the time .",
+        "source_start": 1070,
+        "source_end": 1128
+      },
+      {
+        "annot_id": 302,
+        "sample_id": 24,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "no casualties at the time",
+        "annotator_name": "Vivek",
+        "summary_span": "explosion in 2013 without casualties",
+        "summary_start": 445,
+        "summary_end": 481
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2206,10 +2852,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 548,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 548
   },
   {
     "sample_id": 25,
@@ -2266,6 +2909,67 @@
         "source_span": "it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory",
         "source_start": 1421,
         "source_end": 1542
+      },
+      {
+        "annot_id": 263,
+        "sample_id": 25,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says reportedly carcinogenic",
+        "annotator_name": "Manveer",
+        "summary_span": "arcinogenic chemical paraxylene",
+        "summary_start": 336,
+        "summary_end": 367,
+        "source_span": " reportedly carcinogenic chemical",
+        "source_start": 268,
+        "source_end": 301
+      },
+      {
+        "annot_id": 265,
+        "sample_id": 25,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say when the relocation was, just that the backlash was in 2007. In fact, from a google search, it seems that relocation was in 2008.",
+        "annotator_name": "Manveer",
+        "summary_span": " was relocated from a densely populated area in 2007",
+        "summary_start": 401,
+        "summary_end": 453,
+        "source_span": "it provoked an angry backlash in 2007 ",
+        "source_start": 1421,
+        "source_end": 1459
+      },
+      {
+        "annot_id": 303,
+        "sample_id": 25,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reportedly carinogenic",
+        "annotator_name": "Vivek",
+        "summary_span": "carcinogenic",
+        "summary_start": 335,
+        "summary_end": 347
+      },
+      {
+        "annot_id": 304,
+        "sample_id": 25,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "relocation did not happen in 2007",
+        "annotator_name": "Vivek",
+        "summary_span": "elocated from a densely populated area in 2007",
+        "summary_start": 407,
+        "summary_end": 453
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2277,10 +2981,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 663,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 663
   },
   {
     "sample_id": 26,
@@ -2318,6 +3019,22 @@
         "source_span": "an angry backlash in 2007",
         "source_start": 1433,
         "source_end": 1458
+      },
+      {
+        "annot_id": 305,
+        "sample_id": 26,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "backlash and protests are not the same",
+        "annotator_name": "Vivek",
+        "summary_span": "protests in 2007",
+        "summary_start": 503,
+        "summary_end": 519,
+        "source_span": "angry backlash in 2007",
+        "source_start": 1436,
+        "source_end": 1458
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -2329,10 +3046,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 778,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 778
   },
   {
     "sample_id": 27,
@@ -2370,6 +3084,54 @@
         "source_span": "an angry backlash",
         "source_start": 1433,
         "source_end": 1450
+      },
+      {
+        "annot_id": 266,
+        "sample_id": 27,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't exactly say the fire was put out, just made under control",
+        "annotator_name": "Manveer",
+        "summary_span": "The fire was put out ",
+        "summary_start": 286,
+        "summary_end": 307,
+        "source_span": "the fire is now under control ",
+        "source_start": 697,
+        "source_end": 727
+      },
+      {
+        "annot_id": 306,
+        "sample_id": 27,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "fire was put out by over 600 firefighters",
+        "summary_start": 290,
+        "summary_end": 331,
+        "source_span": "fire is now under control",
+        "source_start": 701,
+        "source_end": 726
+      },
+      {
+        "annot_id": 307,
+        "sample_id": 27,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "backlash is not same as protest",
+        "annotator_name": "Vivek",
+        "summary_span": "protests",
+        "summary_start": 425,
+        "summary_end": 433,
+        "source_span": "backlash",
+        "source_start": 1442,
+        "source_end": 1450
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2381,10 +3143,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 893,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 893
   },
   {
     "sample_id": 28,
@@ -2440,6 +3199,67 @@
         "source_span": "relocate the factory to its current , more remote location ",
         "source_start": 1522,
         "source_end": 1581
+      },
+      {
+        "annot_id": 267,
+        "sample_id": 28,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says reportedly carcinogenic",
+        "annotator_name": "Manveer",
+        "summary_span": "carcinogenic chemical",
+        "summary_start": 111,
+        "summary_end": 132,
+        "source_span": " reportedly carcinogenic chemical ",
+        "source_start": 268,
+        "source_end": 302
+      },
+      {
+        "annot_id": 268,
+        "sample_id": 28,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the location is not remote, just more remote",
+        "annotator_name": "Manveer",
+        "summary_span": "current remote location",
+        "summary_start": 419,
+        "summary_end": 442,
+        "source_span": " current , more remote location ",
+        "source_start": 1549,
+        "source_end": 1581
+      },
+      {
+        "annot_id": 308,
+        "sample_id": 28,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "current remote location",
+        "summary_start": 419,
+        "summary_end": 442
+      },
+      {
+        "annot_id": 309,
+        "sample_id": 28,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reportedly carcinogenic",
+        "annotator_name": "Vivek",
+        "summary_span": "carcinogenic",
+        "summary_start": 111,
+        "summary_end": 123
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -2451,10 +3271,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1011,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1011
   },
   {
     "sample_id": 29,
@@ -2511,6 +3328,65 @@
         "source_span": "\nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
         "source_start": 1410,
         "source_end": 1582
+      },
+      {
+        "annot_id": 269,
+        "sample_id": 29,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says reportedly carcinogenic",
+        "annotator_name": "Manveer",
+        "summary_span": "a carcinogenic chemical ",
+        "summary_start": 151,
+        "summary_end": 175,
+        "source_span": "reportedly carcinogenic chemical",
+        "source_start": 269,
+        "source_end": 301
+      },
+      {
+        "annot_id": 270,
+        "sample_id": 29,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says no reports at the time",
+        "annotator_name": "Manveer",
+        "summary_span": "2013 without casualties",
+        "summary_start": 459,
+        "summary_end": 482,
+        "source_span": "no reports of casualties or toxic leaks at the time",
+        "source_start": 1075,
+        "source_end": 1126
+      },
+      {
+        "annot_id": 310,
+        "sample_id": 29,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "carcinogenic",
+        "summary_start": 153,
+        "summary_end": 165
+      },
+      {
+        "annot_id": 311,
+        "sample_id": 29,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": " 2013 without casualties ",
+        "summary_start": 458,
+        "summary_end": 483
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2522,10 +3398,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1123,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1123
   },
   {
     "sample_id": 30,
@@ -2578,6 +3451,50 @@
         "summary_span": "only consumed half a can of Foster's",
         "summary_start": 253,
         "summary_end": 289
+      },
+      {
+        "annot_id": 271,
+        "sample_id": 30,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says can and a half, not just a half",
+        "annotator_name": "Manveer",
+        "summary_span": "half a can of Foster's.",
+        "summary_start": 267,
+        "summary_end": 290,
+        "source_span": "can and a half of Foster's",
+        "source_start": 1336,
+        "source_end": 1362
+      },
+      {
+        "annot_id": 272,
+        "sample_id": 30,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is not clear if it will be a male prison, the source is a bit contradictory saying it is likely and the judge saying it will be a male prison",
+        "annotator_name": "Manveer",
+        "summary_span": "to custody at a male prison",
+        "summary_start": 384,
+        "summary_end": 411
+      },
+      {
+        "annot_id": 312,
+        "sample_id": 30,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "likely at a male prison",
+        "annotator_name": "Vivek",
+        "summary_span": "has been remanded into custody at a male prison",
+        "summary_start": 364,
+        "summary_end": 411
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2589,10 +3506,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 32,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 32
   },
   {
     "sample_id": 31,
@@ -2643,6 +3557,48 @@
         "summary_span": "now 34 and called Davina, was charged with rape after meeting a man named David Ayrton in a Portsmouth garage in 2004.",
         "summary_start": 21,
         "summary_end": 139
+      },
+      {
+        "annot_id": 273,
+        "sample_id": 31,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this is mixing up the defendant and the victim",
+        "annotator_name": "Manveer",
+        "summary_span": "A 15-year-old girl, now 34 and called Davina",
+        "summary_start": 1,
+        "summary_end": 45
+      },
+      {
+        "annot_id": 274,
+        "sample_id": 31,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't justify why it must be a male prison",
+        "annotator_name": "Manveer",
+        "summary_span": " stating she would likely be held at a male prison due to the risk of self-harm and non-attendance",
+        "summary_start": 313,
+        "summary_end": 411
+      },
+      {
+        "annot_id": 313,
+        "sample_id": 31,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reason for male prison not clear",
+        "annotator_name": "Vivek",
+        "summary_span": "stating she would likely be held at a male prison",
+        "summary_start": 314,
+        "summary_end": 363
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2654,10 +3610,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 147,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 147
   },
   {
     "sample_id": 32,
@@ -2769,6 +3722,45 @@
         "source_span": "During the trial Ayrton spoke about her sexuality, and said she she had not \"made any physical changes or enhancements\" to her body or taken any medication.",
         "source_start": 926,
         "source_end": 1082
+      },
+      {
+        "annot_id": 275,
+        "sample_id": 32,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not clear if davina has already been found guilty",
+        "annotator_name": "Manveer",
+        "summary_span": "but was found guilty",
+        "summary_start": 252,
+        "summary_end": 272
+      },
+      {
+        "annot_id": 276,
+        "sample_id": 32,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is just what has been claimed by her",
+        "annotator_name": "Manveer",
+        "summary_span": "but has not made physical changes or taken medication",
+        "summary_start": 368,
+        "summary_end": 421
+      },
+      {
+        "annot_id": 314,
+        "sample_id": 32,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not conclusive",
+        "annotator_name": "Vivek",
+        "summary_span": "but was found guilty",
+        "summary_start": 252,
+        "summary_end": 272
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2780,10 +3772,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 262,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 262
   },
   {
     "sample_id": 33,
@@ -2881,6 +3870,67 @@
         "summary_span": "she reported the attack to a care home worker in 2014",
         "summary_start": 304,
         "summary_end": 357
+      },
+      {
+        "annot_id": 277,
+        "sample_id": 33,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is not clear if davina has already been found guilty",
+        "annotator_name": "Manveer",
+        "summary_span": "has been found guilty of raping a 15-year-old girl in 2004",
+        "summary_start": 82,
+        "summary_end": 140
+      },
+      {
+        "annot_id": 278,
+        "sample_id": 33,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "its not the victim that reported the attack, but davina",
+        "annotator_name": "Manveer",
+        "summary_span": "The victim's recollection of the event was clear, and she reported the attack to a care home worker in 2014.",
+        "summary_start": 250,
+        "summary_end": 358,
+        "source_span": "The court heard that in 2014 Ayrton told a worker at the care home where she lived in Fordingbridge, Hampshire, about the attack.",
+        "source_start": 1400,
+        "source_end": 1529
+      },
+      {
+        "annot_id": 279,
+        "sample_id": 33,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the reasoning for it being a male prison is not justified",
+        "annotator_name": "Manveer",
+        "summary_span": "remanded in a male prison due to concerns for their safety and the risk of not appearing for sentencing.",
+        "summary_start": 466,
+        "summary_end": 570,
+        "source_span": "It will have to be a male prison in Winchester but it will be an issue for the prison service.\"",
+        "source_start": 519,
+        "source_end": 614
+      },
+      {
+        "annot_id": 315,
+        "sample_id": 33,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reason for male prison unclear",
+        "annotator_name": "Vivek",
+        "summary_span": "remanded in a male prison due to concerns for their safety ",
+        "summary_start": 466,
+        "summary_end": 525
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2892,10 +3942,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 377,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 377
   },
   {
     "sample_id": 34,
@@ -2961,6 +4008,47 @@
         "summary_span": "clearly remembered the incident and reported it to a care home worker in 2014.",
         "summary_start": 463,
         "summary_end": 541
+      },
+      {
+        "annot_id": 280,
+        "sample_id": 34,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the summary might be trying to say that these reasons are why it is a male prison to be chosen, but the source doesn't imply this",
+        "annotator_name": "Manveer",
+        "summary_span": "he judge remanded her into custody, likely at a male prison in Winchester, due to concerns about her potential risk to herself and non-attendance.",
+        "summary_start": 169,
+        "summary_end": 315
+      },
+      {
+        "annot_id": 281,
+        "sample_id": 34,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "its not the victim but davina that reported it to the worker",
+        "annotator_name": "Manveer",
+        "summary_span": "The victim, who had consumed alcohol, clearly remembered the incident and reported it to a care home worker in 2014.",
+        "summary_start": 425,
+        "summary_end": 541
+      },
+      {
+        "annot_id": 316,
+        "sample_id": 34,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "male prison in Winchester, due to concerns about her potential risk to herself and non-attendance.",
+        "summary_start": 217,
+        "summary_end": 315
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2972,10 +4060,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 492,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 492
   },
   {
     "sample_id": 35,
@@ -3020,10 +4105,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 607,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 607
   },
   {
     "sample_id": 36,
@@ -3092,6 +4174,34 @@
         "summary_span": "has been found guilty ",
         "summary_start": 130,
         "summary_end": 152
+      },
+      {
+        "annot_id": 282,
+        "sample_id": 36,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary suggests that these are reasons why it is a male prison, but the source doesn't suggest this",
+        "annotator_name": "Manveer",
+        "summary_span": " likely to be held in a male prison in Winchester due to concerns about her risk to herself and potential failure to attend court.",
+        "summary_start": 343,
+        "summary_end": 473
+      },
+      {
+        "annot_id": 317,
+        "sample_id": 36,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "held in a male prison in Winchester due",
+        "summary_start": 357,
+        "summary_end": 396
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -3103,10 +4213,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 722,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 722
   },
   {
     "sample_id": 37,
@@ -3158,6 +4265,19 @@
         "summary_span": " was found guilty",
         "summary_start": 18,
         "summary_end": 35
+      },
+      {
+        "annot_id": 283,
+        "sample_id": 37,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is unclear if she was already found guilty",
+        "annotator_name": "Manveer",
+        "summary_span": "was found guilty",
+        "summary_start": 19,
+        "summary_end": 35
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3169,10 +4289,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 837,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 837
   },
   {
     "sample_id": 38,
@@ -3195,6 +4312,37 @@
         "source_span": "He added: \"If I were to release on bail there are substantial grounds to believe she would be a risk to herself and a risk of failing to attend for whatever reason. \" I will therefore have to remand in custody. It will have to be a male prison in Winchester but it will be an issue for the prison service.\"",
         "source_start": 308,
         "source_end": 614
+      },
+      {
+        "annot_id": 284,
+        "sample_id": 38,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the summary seems to give reasoning for why it is a male prison, however the source doesn't suggest this reasoning",
+        "annotator_name": "Manveer",
+        "summary_span": "a male prison due to the risk she poses to herself and the likelihood of her failing to attend court if released on bail.",
+        "summary_start": 305,
+        "summary_end": 426,
+        "source_span": "I will therefore have to remand in custody. It will have to be a male prison in Winchester but it will be an issue for the prison service.\" ",
+        "source_start": 475,
+        "source_end": 615
+      },
+      {
+        "annot_id": 318,
+        "sample_id": 38,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "a male prison due to the risk she poses to herself and the likelihood of her failing to attend court if released on bail.",
+        "summary_start": 305,
+        "summary_end": 426
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -3206,10 +4354,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 981,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 981
   },
   {
     "sample_id": 39,
@@ -3217,20 +4362,17 @@
     "summary": "In the autumn of 2004, a 15-year-old girl met David Ayrton, now known as Davina, in a Portsmouth garage. Davina, now 34, denied charges of raping the teenager while two others were asleep. The victim recalled the events clearly, despite having consumed some alcohol. Ayrton, who has learning difficulties and attempted suicide last summer, will be sentenced on 4 March and is likely to be held in a male prison. Protocols for her detention have been established. Ayrton, who changed her name in 2012 and has not undergone any physical changes or taken medication, disclosed the attack to a care home worker in 2014. Judge Ian Pearson remanded her into custody, citing risks if released on bail.",
     "annotations": [
       {
-        "annot_id": 208,
+        "annot_id": 285,
         "sample_id": 39,
-        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
         "label": [
           "Questionable"
         ],
-        "note": "",
-        "annotator_name": "Vivek",
-        "summary_span": "some alcohol",
-        "summary_start": 253,
-        "summary_end": 265,
-        "source_span": "only drunk a can and a half of Foster's",
-        "source_start": 1323,
-        "source_end": 1362
+        "note": "this is claimed by ayrton, but might not be true",
+        "annotator_name": "Manveer",
+        "summary_span": "Ayrton, who changed her name in 2012 and has not undergone any physical changes or taken medication,",
+        "summary_start": 463,
+        "summary_end": 563
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -3242,10 +4384,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1067,
-    "tags": [
-      "Crime and Social Issues"
-    ]
+    "meta_sample_id": 1067
   },
   {
     "sample_id": 40,
@@ -3264,6 +4403,19 @@
         "summary_span": "International Association of Athletics Federations (IAAF)",
         "summary_start": 142,
         "summary_end": 199
+      },
+      {
+        "annot_id": 286,
+        "sample_id": 40,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't exactly connect the acronym, but this seems reasonable",
+        "annotator_name": "Manveer",
+        "summary_span": "International Association of Athletics Federations (IAAF)",
+        "summary_start": 142,
+        "summary_end": 199
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -3275,10 +4427,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 93,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 93
   },
   {
     "sample_id": 41,
@@ -3297,6 +4446,19 @@
         "summary_span": "The International Association of Athletics Federations (IAAF)",
         "summary_start": 1,
         "summary_end": 62
+      },
+      {
+        "annot_id": 287,
+        "sample_id": 41,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\tthe source doesn't exactly connect the acronym, but this seems reasonable\t",
+        "annotator_name": "Manveer",
+        "summary_span": "The International Association of Athletics Federations (IAAF)",
+        "summary_start": 1,
+        "summary_end": 62
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -3308,10 +4470,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 208,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 208
   },
   {
     "sample_id": 42,
@@ -3327,10 +4486,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 323,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 323
   },
   {
     "sample_id": 43,
@@ -3363,10 +4519,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 438,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 438
   },
   {
     "sample_id": 44,
@@ -3406,17 +4559,16 @@
         "source_end": 39
       },
       {
-        "annot_id": 209,
+        "annot_id": 288,
         "sample_id": 44,
-        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
         "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
+          "Benign"
         ],
-        "note": "No mention of Oregon in soruce",
-        "annotator_name": "Vivek",
-        "summary_span": "Oregon",
-        "summary_start": 8,
+        "note": "the source doesn't say oregon, but this is correct",
+        "annotator_name": "Manveer",
+        "summary_span": "Eugene, Oregon",
+        "summary_start": 0,
         "summary_end": 14
       }
     ],
@@ -3429,10 +4581,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 553,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 553
   },
   {
     "sample_id": 45,
@@ -3468,6 +4617,45 @@
         "source_span": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships .",
         "source_start": 0,
         "source_end": 111
+      },
+      {
+        "annot_id": 289,
+        "sample_id": 45,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say doha is in qatar, but this is right",
+        "annotator_name": "Manveer",
+        "summary_span": "Doha, Qatar.",
+        "summary_start": 331,
+        "summary_end": 343
+      },
+      {
+        "annot_id": 290,
+        "sample_id": 45,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't exactly connect the acronym, but this seems reasonable\t",
+        "annotator_name": "Manveer",
+        "summary_span": "\n\nThe International Association of Athletics Federations (IAAF)",
+        "summary_start": 41,
+        "summary_end": 104
+      },
+      {
+        "annot_id": 291,
+        "sample_id": 45,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "should say right to host, they didn't win the championship",
+        "annotator_name": "Manveer",
+        "summary_span": "has awarded the 2021 IAAF World Championships to Eugene, USA",
+        "summary_start": 105,
+        "summary_end": 165
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -3479,16 +4667,27 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 668,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 668
   },
   {
     "sample_id": 46,
     "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2016 iaaf world athletics championships in moscow",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nThe city of Eugene, USA has been awarded the rights to host the 2021 IAAF World Championships, bypassing the usual bidding process. This decision was made by the IAAF Council, who saw a \"unique strategic opportunity\" to host the event in the USA for the first time. Eugene had previously bid for the 2019 event, but lost to Doha, Qatar. IAAF President Lamine Diack stated that the decision was made to take advantage of a unique opportunity to access a key market and promote the global development of the sport.",
-    "annotations": [],
+    "annotations": [
+      {
+        "annot_id": 292,
+        "sample_id": 46,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say doha is in qatar, but this is right",
+        "annotator_name": "Manveer",
+        "summary_span": "Doha, Qatar. ",
+        "summary_start": 408,
+        "summary_end": 421
+      }
+    ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.20121,
     "meta_hhem-2.1": 0.96963,
@@ -3498,10 +4697,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 783,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 783
   },
   {
     "sample_id": 47,
@@ -3570,18 +4766,43 @@
         "source_end": 1444
       },
       {
-        "annot_id": 210,
+        "annot_id": 293,
         "sample_id": 47,
-        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
         "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
+          "Benign"
         ],
-        "note": "No mention of Oregon in source",
-        "annotator_name": "Vivek",
-        "summary_span": "Oregon",
-        "summary_start": 86,
+        "note": "source doesn't say eugene is in oregon, but this is right",
+        "annotator_name": "Manveer",
+        "summary_span": "Eugene, Oregon",
+        "summary_start": 78,
         "summary_end": 92
+      },
+      {
+        "annot_id": 294,
+        "sample_id": 47,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Benign"
+        ],
+        "note": "source doesn't say doha is in qatar, but this is right",
+        "annotator_name": "Manveer",
+        "summary_span": "Doha, Qatar.",
+        "summary_start": 388,
+        "summary_end": 400
+      },
+      {
+        "annot_id": 295,
+        "sample_id": 47,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't exactly connect the acronym, but this seems reasonable\t",
+        "annotator_name": "Manveer",
+        "summary_span": " International Association of Athletics Federations (IAAF) ",
+        "summary_start": 3,
+        "summary_end": 62
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3593,10 +4814,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 898,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 898
   },
   {
     "sample_id": 48,
@@ -3618,6 +4836,35 @@
         "source_span": " i am delighted that my council colleagues understood the enormous opportunity ",
         "source_start": 1245,
         "source_end": 1324
+      },
+      {
+        "annot_id": 296,
+        "sample_id": 48,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "excitement and delighted aren't exactly the same",
+        "annotator_name": "Manveer",
+        "summary_span": "excitement",
+        "summary_start": 427,
+        "summary_end": 437,
+        "source_span": "delighted",
+        "source_start": 1251,
+        "source_end": 1260
+      },
+      {
+        "annot_id": 320,
+        "sample_id": 48,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "excitement",
+        "summary_start": 427,
+        "summary_end": 437
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -3629,10 +4876,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1025,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1025
   },
   {
     "sample_id": 49,
@@ -3667,6 +4911,19 @@
         "source_span": "\n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . '",
         "source_start": 1185,
         "source_end": 1447
+      },
+      {
+        "annot_id": 297,
+        "sample_id": 49,
+        "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source doesn't exactly connect the acronym, but this seems reasonable\t",
+        "annotator_name": "Manveer",
+        "summary_span": "The International Association of Athletics Federations (IAAF)",
+        "summary_start": 111,
+        "summary_end": 172
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -3678,9 +4935,6 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1128,
-    "tags": [
-      "Sports and Athletics"
-    ]
+    "meta_sample_id": 1128
   }
 ]

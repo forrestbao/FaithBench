@@ -78,10 +78,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 7,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 7
   },
   {
     "sample_id": 1,
@@ -97,10 +94,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 122,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 122
   },
   {
     "sample_id": 2,
@@ -146,10 +140,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 237,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 237
   },
   {
     "sample_id": 3,
@@ -165,10 +156,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 352,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 352
   },
   {
     "sample_id": 4,
@@ -184,10 +172,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 467,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 467
   },
   {
     "sample_id": 5,
@@ -243,10 +228,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 582,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 582
   },
   {
     "sample_id": 6,
@@ -292,10 +274,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 697,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 697
   },
   {
     "sample_id": 7,
@@ -311,10 +290,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 812,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 812
   },
   {
     "sample_id": 8,
@@ -330,10 +306,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 989,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 989
   },
   {
     "sample_id": 9,
@@ -349,33 +322,13 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1042,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 1042
   },
   {
     "sample_id": 10,
     "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
     "summary": " The passage provides information about two different individuals, Sheryl Lee and Sheryl Lee Ralph. Sheryl Lee, in 2016, appeared in the film Cafe Society and also completed a revival of Twin Peaks in 2017, reprising her role of Laura Palmer. On the other hand, Sheryl Lee Ralph played Madame Morrible in the Broadway production of Wicked in 2016.",
     "annotations": [
-      {
-        "annot_id": 8,
-        "sample_id": 10,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source implies that the revival of Twin Peaks was released in 2017, but Sheryl Lee completed it in 2016",
-        "annotator_name": "Miaoran",
-        "summary_span": " in 2017",
-        "summary_start": 197,
-        "summary_end": 205,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
-      },
       {
         "annot_id": 103,
         "sample_id": 10,
@@ -482,6 +435,23 @@
         "summary_span": " in the Broadway production of Wicked",
         "summary_start": 301,
         "summary_end": 338
+      },
+      {
+        "annot_id": 318,
+        "sample_id": 10,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source implies that the revival of Twin Peaks was released in 2017, but Sheryl Lee completed it in 2016",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Lee, in 2016, appeared in the film Cafe Society and also completed a revival of Twin Peaks in 2017,",
+        "summary_start": 100,
+        "summary_end": 206,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -493,33 +463,13 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 9,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 9
   },
   {
     "sample_id": 11,
     "source": "Sheryl Lee . In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer . Sheryl Lee Ralph . In 2016 she played Madame Morrible in Wicked on Broadway .",
     "summary": " Sheryl Lee and Sheryl Ralph are actresses who appeared in notable productions in 2016. Sheryl Lee starred in Café Society and reprised her role as Laura Palmer in the Showtime revival of Twin Peaks in 2017. Sheryl Ralph played Madame Morrible in the Broadway production of Wicked.",
     "annotations": [
-      {
-        "annot_id": 9,
-        "sample_id": 11,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source mentions that Sheryl Lee appeared in Cafe Society and completed the Showtime revival of Twin Peaks in 2016. 2017 should be the release year of the Showtime revival of Twin Peaks",
-        "annotator_name": "Miaoran",
-        "summary_span": "in 2017.",
-        "summary_start": 200,
-        "summary_end": 208,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
-      },
       {
         "annot_id": 11,
         "sample_id": 11,
@@ -658,6 +608,50 @@
         "source_span": "Wicked on Broadway",
         "source_start": 214,
         "source_end": 232
+      },
+      {
+        "annot_id": 316,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Sheryl Lee is not a starring role in the film",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Lee starred in Café Society",
+        "summary_start": 88,
+        "summary_end": 123
+      },
+      {
+        "annot_id": 317,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "Sheryl Ralph is short for Sheryl Lee Ralph",
+        "annotator_name": "Miaoran",
+        "summary_span": "Sheryl Ralph played Madame Morrible",
+        "summary_start": 209,
+        "summary_end": 244
+      },
+      {
+        "annot_id": 319,
+        "sample_id": 11,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that Sheryl Lee appeared in Cafe Society and completed the Showtime revival of Twin Peaks in 2016. 2017 should be the release year of the Showtime revival of Twin Peaks",
+        "annotator_name": "Miaoran",
+        "summary_span": "reprised her role as Laura Palmer in the Showtime revival of Twin Peaks in 2017.",
+        "summary_start": 128,
+        "summary_end": 208,
+        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
+        "source_start": 13,
+        "source_end": 156
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -669,10 +663,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 124,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 124
   },
   {
     "sample_id": 12,
@@ -823,10 +814,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 239,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 239
   },
   {
     "sample_id": 13,
@@ -846,23 +834,6 @@
         "summary_span": "That same year, Sheryl Lee Ralph played Madame Morrible in the Broadway production of 'Wicked'.",
         "summary_start": 141,
         "summary_end": 236
-      },
-      {
-        "annot_id": 106,
-        "sample_id": 13,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "She completed the revival of Twin Peaks in 2016, and its release time is 2017.",
-        "annotator_name": "Weisi",
-        "summary_span": "In 2016, Sheryl Lee appeared in the film 'Café Society' and the Showtime revival of 'Twin Peaks' (2017), reprising her role as Laura Palme",
-        "summary_start": 0,
-        "summary_end": 138,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
       },
       {
         "annot_id": 150,
@@ -903,10 +874,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 354,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 354
   },
   {
     "sample_id": 14,
@@ -1011,10 +979,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 469,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 469
   },
   {
     "sample_id": 15,
@@ -1057,10 +1022,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 584,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 584
   },
   {
     "sample_id": 16,
@@ -1083,23 +1045,6 @@
         "source_span": "In 2016 she played Madame Morrible in Wicked on Broadway .",
         "source_start": 176,
         "source_end": 234
-      },
-      {
-        "annot_id": 107,
-        "sample_id": 16,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "She completed the revival of Twin Peaks in 2016, and its release time is 2017.",
-        "annotator_name": "Weisi",
-        "summary_span": "Sheryl Lee appeared in \"Café Society\" (2016) and reprised her role as Laura Palmer in the \"Twin Peaks\" revival (2017)",
-        "summary_start": 112,
-        "summary_end": 230,
-        "source_span": "In 2016 , she appeared in Café Society , and also completed the Showtime revival of Twin Peaks ( 2017 ) , reprising her role of Laura Palmer .",
-        "source_start": 13,
-        "source_end": 156
       },
       {
         "annot_id": 158,
@@ -1182,10 +1127,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 699,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 699
   },
   {
     "sample_id": 17,
@@ -1344,10 +1286,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 814,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 814
   },
   {
     "sample_id": 18,
@@ -1452,10 +1391,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 968,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 968
   },
   {
     "sample_id": 19,
@@ -1505,10 +1441,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1044,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 1044
   },
   {
     "sample_id": 20,
@@ -1570,10 +1503,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 10,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 10
   },
   {
     "sample_id": 21,
@@ -1633,10 +1563,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 125,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 125
   },
   {
     "sample_id": 22,
@@ -1682,29 +1609,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 240,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 240
   },
   {
     "sample_id": 23,
     "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
     "summary": "Albert Brooks, an American actor, filmmaker, author, and comedian, was born on July 22, 1947. He is known for his work in the film 'Finding Dory', which was directed by Andrew Stanton and co-directed by Angus MacLane, with the screenplay written by Stanton and Victoria Strouse.",
     "annotations": [
-      {
-        "annot_id": 205,
-        "sample_id": 23,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"\t",
-        "annotator_name": "Miaoran",
-        "summary_span": " He is known for his work in the film 'Finding Dory', ",
-        "summary_start": 93,
-        "summary_end": 147
-      },
       {
         "annot_id": 261,
         "sample_id": 23,
@@ -1718,6 +1629,34 @@
         "summary_span": "He is known for his work in the film 'Finding Dory',",
         "summary_start": 94,
         "summary_end": 146
+      },
+      {
+        "annot_id": 320,
+        "sample_id": 23,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is known for his work in the film 'Finding Dory',",
+        "summary_start": 94,
+        "summary_end": 146
+      },
+      {
+        "annot_id": 331,
+        "sample_id": 23,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "He is known for his work in the film 'Finding Dory'",
+        "summary_start": 94,
+        "summary_end": 145
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1729,30 +1668,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 355,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 355
   },
   {
     "sample_id": 24,
     "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
     "summary": "The passage provides information about Albert Lawrence Brooks, an American actor, filmmaker, author, and comedian, who was born on July 22, 1947, originally named Albert Lawrence Einstein. It also mentions that he was involved in the film \"Finding Dory,\" which was directed by Andrew Stanton with co-direction by Angus MacLane, and the screenplay was written by Stanton and Victoria Strouse.",
     "annotations": [
-      {
-        "annot_id": 72,
-        "sample_id": 24,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "From the source it cannot be inferred he was involved in the file \"Finding Dory\".",
-        "annotator_name": "Weisi",
-        "summary_span": "It also mentions that he was involved in the film \"Finding Dory,",
-        "summary_start": 189,
-        "summary_end": 253
-      },
       {
         "annot_id": 262,
         "sample_id": 24,
@@ -1783,6 +1705,20 @@
         "source_span": "Finding Dory .",
         "source_start": 131,
         "source_end": 145
+      },
+      {
+        "annot_id": 332,
+        "sample_id": 24,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From the source it cannot be inferred he was involved in the file \"Finding Dory\".",
+        "annotator_name": "Weisi",
+        "summary_span": "It also mentions that he was involved in the film \"Finding Dory,\"",
+        "summary_start": 189,
+        "summary_end": 254
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1794,10 +1730,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 470,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 470
   },
   {
     "sample_id": 25,
@@ -1881,6 +1814,19 @@
         "source_span": "Finding Dory .",
         "source_start": 131,
         "source_end": 145
+      },
+      {
+        "annot_id": 321,
+        "sample_id": 25,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": " the movie \"Finding Dory\".",
+        "summary_start": 164,
+        "summary_end": 190
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1892,10 +1838,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 585,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 585
   },
   {
     "sample_id": 26,
@@ -1986,43 +1929,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 700,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 700
   },
   {
     "sample_id": 27,
     "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
     "summary": "Albert Brooks, born Albert Lawrence Einstein, is an American actor, filmmaker, author, and comedian. He is known for his work in the film \"Finding Dory,\" which was directed by Andrew Stanton and co-directed by Angus MacLane. The screenplay was written by Stanton and Victoria Strouse. \n",
     "annotations": [
-      {
-        "annot_id": 74,
-        "sample_id": 27,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This sentence cannot be inferred from source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "He is known for his work in the film \"Finding Dory,\"",
-        "summary_start": 101,
-        "summary_end": 153
-      },
-      {
-        "annot_id": 204,
-        "sample_id": 27,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"\t",
-        "annotator_name": "Miaoran",
-        "summary_span": "He is known for his work in the film \"Finding Dory,\" ",
-        "summary_start": 101,
-        "summary_end": 154
-      },
       {
         "annot_id": 258,
         "sample_id": 27,
@@ -2033,6 +1946,34 @@
         ],
         "note": "Source does not say Brooks worked on finding dory.",
         "annotator_name": "Erana",
+        "summary_span": "He is known for his work in the film \"Finding Dory,\"",
+        "summary_start": 101,
+        "summary_end": 153
+      },
+      {
+        "annot_id": 322,
+        "sample_id": 27,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention if Albert was involved in \"Finding Dory\" and whether Albert is known for \"Finding Dory\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "He is known for his work in the film \"Finding Dory,\" ",
+        "summary_start": 101,
+        "summary_end": 154
+      },
+      {
+        "annot_id": 333,
+        "sample_id": 27,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This sentence cannot be inferred from source doc.",
+        "annotator_name": "Weisi",
         "summary_span": "He is known for his work in the film \"Finding Dory,\"",
         "summary_start": 101,
         "summary_end": 153
@@ -2047,10 +1988,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 815,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 815
   },
   {
     "sample_id": 28,
@@ -2096,47 +2034,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 926,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 926
   },
   {
     "sample_id": 29,
     "source": "Albert Lawrence Brooks ( born Albert Lawrence Einstein ; July 22 , 1947 ) is an American actor , filmmaker , author and comedian . Finding Dory . Directed by Andrew Stanton with co-direction by Angus MacLane , the screenplay was written by Stanton and Victoria Strouse .",
     "summary": "Albert Lawrence Brooks, born Albert Lawrence Einstein on July 22, 1947, is an American actor, filmmaker, author, and comedian. He was involved in the film \"Finding Dory,\" which was directed by Andrew Stanton with co-direction by Angus MacLane, and the screenplay was written by Stanton and Victoria Strouse.",
     "annotations": [
-      {
-        "annot_id": 75,
-        "sample_id": 29,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This fact cannot be inferred from source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "He was involved in the film \"Finding Dory,\"",
-        "summary_start": 127,
-        "summary_end": 170,
-        "source_span": "Finding Dory .",
-        "source_start": 131,
-        "source_end": 145
-      },
-      {
-        "annot_id": 263,
-        "sample_id": 29,
-        "annotator": "d962446ae5484fac9143abbed2bc8859",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "not mentioned in source",
-        "annotator_name": "Erana",
-        "summary_span": "He was involved in the film \"Finding Dory,\" ",
-        "summary_start": 127,
-        "summary_end": 171
-      },
       {
         "annot_id": 312,
         "sample_id": 29,
@@ -2149,6 +2053,33 @@
         "summary_span": " He was involved in the film \"Finding Dory,\" ",
         "summary_start": 126,
         "summary_end": 171
+      },
+      {
+        "annot_id": 334,
+        "sample_id": 29,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This fact cannot be inferred from source doc.\t",
+        "annotator_name": "Weisi",
+        "summary_span": "He was involved in the film \"Finding Dory,\"",
+        "summary_start": 127,
+        "summary_end": 170
+      },
+      {
+        "annot_id": 341,
+        "sample_id": 29,
+        "annotator": "d962446ae5484fac9143abbed2bc8859",
+        "label": [
+          "Benign"
+        ],
+        "note": "true, not in source",
+        "annotator_name": "Erana",
+        "summary_span": "He was involved in the film \"Finding Dory,\"",
+        "summary_start": 127,
+        "summary_end": 170
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2160,44 +2091,13 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 1045,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 1045
   },
   {
     "sample_id": 30,
     "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
     "summary": " The passage provides information about two individuals with similar names but different professions and nationalities. Timothy Simon Roth, born May 14, 1961, is an English actor and director. On the other hand, Tim Roth, born December 6, 1975, is a Canadian musician, serving as the guitarist, backing vocalist, and the only remaining founding member of the Canadian melodic death metal and progressive metal band, Into Eternity.",
     "annotations": [
-      {
-        "annot_id": 86,
-        "sample_id": 30,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "From source we don't know if they have different nationalities.",
-        "annotator_name": "Weisi",
-        "summary_span": "nationalities.",
-        "summary_start": 105,
-        "summary_end": 119
-      },
-      {
-        "annot_id": 87,
-        "sample_id": 30,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "From source we don't know his nationality.",
-        "annotator_name": "Weisi",
-        "summary_span": " Canadian musician",
-        "summary_start": 249,
-        "summary_end": 267
-      },
       {
         "annot_id": 201,
         "sample_id": 30,
@@ -2228,30 +2128,58 @@
         "source_end": 240
       },
       {
-        "annot_id": 313,
+        "annot_id": 324,
         "sample_id": 30,
         "annotator": "f2e5c33a660b4c32a036c572e4d40831",
         "label": [
-          "Benign"
+          "Questionable"
         ],
-        "note": "Based on knowledge that Tim is canadian",
+        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention if Tim Roth is a Canadian",
+        "annotator_name": "Miaoran",
+        "summary_span": "Tim Roth, born December 6, 1975, is a Canadian musician,",
+        "summary_start": 212,
+        "summary_end": 268
+      },
+      {
+        "annot_id": 325,
+        "sample_id": 30,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention Tim Roth's nationality",
         "annotator_name": "Miaoran",
         "summary_span": "two individuals with similar names but different professions and nationalities.",
         "summary_start": 40,
         "summary_end": 119
       },
       {
-        "annot_id": 314,
+        "annot_id": 335,
         "sample_id": 30,
-        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "annotator": "5fddd5f671c349668d712192d090e867",
         "label": [
-          "Benign"
+          "Unwanted",
+          "Unwanted.Extrinsic"
         ],
-        "note": "based on world knowledge",
-        "annotator_name": "Miaoran",
-        "summary_span": "Tim Roth, born December 6, 1975, is a Canadian musician,",
-        "summary_start": 212,
-        "summary_end": 268
+        "note": "From source we don't know if they have different nationalities.",
+        "annotator_name": "Weisi",
+        "summary_span": " nationalities.",
+        "summary_start": 104,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 336,
+        "sample_id": 30,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "From source we don't know his nationality.\t",
+        "annotator_name": "Weisi",
+        "summary_span": " Canadian musician",
+        "summary_start": 249,
+        "summary_end": 267
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2263,10 +2191,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 11,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 11
   },
   {
     "sample_id": 31,
@@ -2282,10 +2207,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 126,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 126
   },
   {
     "sample_id": 32,
@@ -2323,13 +2245,13 @@
         "source_end": 258
       },
       {
-        "annot_id": 315,
+        "annot_id": 326,
         "sample_id": 32,
         "annotator": "f2e5c33a660b4c32a036c572e4d40831",
         "label": [
-          "Benign"
+          "Questionable"
         ],
-        "note": "",
+        "note": "The source only mentions that Tim Roth is a member of a Canadian band, but does not mention if Tim Roth is a Canadian and cannot confirm with world knowledge",
         "annotator_name": "Miaoran",
         "summary_span": "Tim Roth: A Canadian musician",
         "summary_start": 228,
@@ -2345,33 +2267,13 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 241,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 241
   },
   {
     "sample_id": 33,
     "source": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director . Tim Roth ( born December 6 , 1975 ) is the guitarist , backing vocalist and only remaining founding member of Canadian melodic death metal and progressive metal band , Into Eternity .",
     "summary": "Timothy Simon Roth, born May 14, 1961, is an English actor and director. Another Tim Roth, born December 6, 1975, is a musician and the last original member of the Canadian metal band, Into Eternity.",
     "annotations": [
-      {
-        "annot_id": 211,
-        "sample_id": 33,
-        "annotator": "d962446ae5484fac9143abbed2bc8859",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "shortens timothy simon roth to tim roth, discards full name in summary",
-        "annotator_name": "Erana",
-        "summary_span": "Another Tim Roth",
-        "summary_start": 73,
-        "summary_end": 89,
-        "source_span": "Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director .",
-        "source_start": 0,
-        "source_end": 74
-      },
       {
         "annot_id": 212,
         "sample_id": 33,
@@ -2411,10 +2313,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 356,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 356
   },
   {
     "sample_id": 34,
@@ -2445,10 +2344,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 471,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 471
   },
   {
     "sample_id": 35,
@@ -2479,10 +2375,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 586,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 586
   },
   {
     "sample_id": 36,
@@ -2561,10 +2454,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 701,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 701
   },
   {
     "sample_id": 37,
@@ -2580,10 +2470,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 816,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 816
   },
   {
     "sample_id": 38,
@@ -2617,10 +2504,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 986,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 986
   },
   {
     "sample_id": 39,
@@ -2636,10 +2520,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1046,
-    "tags": [
-      "Entertainment and Arts"
-    ]
+    "meta_sample_id": 1046
   },
   {
     "sample_id": 40,
@@ -2727,6 +2608,19 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 327,
+        "sample_id": 40,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "It's not confusing. \"the incident\" = \"the crash\" or \"the incident resulted in a crash\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "This incident resulted in a crash",
+        "summary_start": 109,
+        "summary_end": 142
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2738,10 +2632,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 34,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 34
   },
   {
     "sample_id": 41,
@@ -2838,6 +2729,22 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 328,
+        "sample_id": 41,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"several people received minor injuries\" = several minor injuries?",
+        "annotator_name": "Miaoran",
+        "summary_span": "resulting in several minor injuries",
+        "summary_start": 79,
+        "summary_end": 114,
+        "source_span": "Several other people received minor injuries in the crash.",
+        "source_start": 81,
+        "source_end": 139
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2849,10 +2756,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 149,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 149
   },
   {
     "sample_id": 42,
@@ -2889,20 +2793,6 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
-      },
-      {
-        "annot_id": 77,
-        "sample_id": 42,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source doesn't mention this fact.",
-        "annotator_name": "Weisi",
-        "summary_span": " One person died, ",
-        "summary_start": 158,
-        "summary_end": 176
       },
       {
         "annot_id": 93,
@@ -2953,6 +2843,20 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
+      },
+      {
+        "annot_id": 337,
+        "sample_id": 42,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention this fact.",
+        "annotator_name": "Weisi",
+        "summary_span": "One person died, and several others sustained minor injuries",
+        "summary_start": 159,
+        "summary_end": 219
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2964,10 +2868,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 264,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 264
   },
   {
     "sample_id": 43,
@@ -3004,20 +2905,6 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
-      },
-      {
-        "annot_id": 78,
-        "sample_id": 43,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The fact one person with serious injuries is not mentioned in source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "A crash on the A9 in Caithness resulted in one person being taken to hospital with serious injuries and several others sustaining minor injuries.",
-        "summary_start": 0,
-        "summary_end": 145
       },
       {
         "annot_id": 231,
@@ -3064,6 +2951,20 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
+      },
+      {
+        "annot_id": 338,
+        "sample_id": 43,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact one person with serious injuries is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "A crash on the A9 in Caithness resulted in one person being taken to hospital with serious injuries and several others sustaining minor injuries.",
+        "summary_start": 0,
+        "summary_end": 145
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -3075,10 +2976,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 379,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 379
   },
   {
     "sample_id": 44,
@@ -3161,10 +3059,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 494,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 494
   },
   {
     "sample_id": 45,
@@ -3201,20 +3096,6 @@
         "source_span": "Police Scotland said inquiries into the incident were ongoing.",
         "source_start": 233,
         "source_end": 295
-      },
-      {
-        "annot_id": 79,
-        "sample_id": 45,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The fact multi-vehicle crash is not mentioned in source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "\n\nA multi-vehicle crash occurred on the A9 north of Berriedale in Caithness at around 14:00, resulting in minor injuries to several people",
-        "summary_start": 41,
-        "summary_end": 179
       },
       {
         "annot_id": 95,
@@ -3295,6 +3176,20 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 339,
+        "sample_id": 45,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact multi-vehicle crash is not mentioned in source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": ":\n\nA multi-vehicle crash occurred on the A9 north of Berriedale in Caithness at around 14:00, r",
+        "summary_start": 40,
+        "summary_end": 135
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -3306,10 +3201,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 609,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 609
   },
   {
     "sample_id": 46,
@@ -3362,20 +3254,6 @@
         "source_span": "at about 14:00",
         "source_start": 65,
         "source_end": 79
-      },
-      {
-        "annot_id": 80,
-        "sample_id": 46,
-        "annotator": "5fddd5f671c349668d712192d090e867",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The fact fatality may not be inferred from source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "A road incident occurred on the A9 in Caithness at 14:00, resulting in multiple minor injuries and one fatality (implied, but not explicitly stated)",
-        "summary_start": 43,
-        "summary_end": 191
       },
       {
         "annot_id": 242,
@@ -3442,6 +3320,20 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 340,
+        "sample_id": 46,
+        "annotator": "5fddd5f671c349668d712192d090e867",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The fact fatality may not be inferred from source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "A road incident occurred on the A9 in Caithness at 14:00, resulting in multiple minor injuries and one fatality (implied, but not explicitly stated)",
+        "summary_start": 43,
+        "summary_end": 191
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -3453,10 +3345,7 @@
     "meta_gpt-3.5-turbo": 0,
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
-    "meta_sample_id": 724,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 724
   },
   {
     "sample_id": 47,
@@ -3541,6 +3430,19 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 329,
+        "sample_id": 47,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "A car crash ",
+        "summary_start": 0,
+        "summary_end": 12
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3552,10 +3454,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 839,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 839
   },
   {
     "sample_id": 48,
@@ -3610,23 +3509,6 @@
         "summary_end": 203
       },
       {
-        "annot_id": 254,
-        "sample_id": 48,
-        "annotator": "d962446ae5484fac9143abbed2bc8859",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Erana",
-        "summary_span": "alternative routes were established via the A897 Helmsdale to Melvich road",
-        "summary_start": 207,
-        "summary_end": 281,
-        "source_span": "The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road.",
-        "source_start": 140,
-        "source_end": 232
-      },
-      {
         "annot_id": 270,
         "sample_id": 48,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -3657,6 +3539,23 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 342,
+        "sample_id": 48,
+        "annotator": "d962446ae5484fac9143abbed2bc8859",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "diversions away from A897, not via it",
+        "annotator_name": "Erana",
+        "summary_span": "alternative routes were established via the A897 Helmsdale to Melvich road.",
+        "summary_start": 207,
+        "summary_end": 282,
+        "source_span": "The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road.",
+        "source_start": 140,
+        "source_end": 232
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -3668,10 +3567,7 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 982,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 982
   },
   {
     "sample_id": 49,
@@ -3707,6 +3603,23 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 330,
+        "sample_id": 49,
+        "annotator": "f2e5c33a660b4c32a036c572e4d40831",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Police Scotland stated that investigations into the incident are ongoing.",
+        "summary_start": 225,
+        "summary_end": 298,
+        "source_span": "Police Scotland said inquiries into the incident were ongoing.",
+        "source_start": 233,
+        "source_end": 295
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -3718,9 +3631,6 @@
     "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 1069,
-    "tags": [
-      "News and Journalism"
-    ]
+    "meta_sample_id": 1069
   }
 ]
