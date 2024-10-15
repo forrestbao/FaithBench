@@ -90,19 +90,6 @@
     "summary": "Here's a concise summary of the passage covering the core information:\n\nVeteran actor Robert Hardy, 89, is auctioning off his extensive collection of antiques, estimated to be worth £100,000, as he downsizes his home. The collection includes over 200 items gathered throughout his career, reflecting his interests in military history and medieval longbows. Notable items in the auction include:\n\n1. A hand-painted limewood diorama of the Battle of Agincourt\n2. A yew longbow with a mother-of-pearl handle\n3. Paintings, furniture, weapons, silverware, and crystal chandeliers\n4. Rare books, some dating back to the 17th century\n\nThe auction, consisting of 238 lots, will be held by Dominic Winter Auctioneers in Gloucestershire. Hardy, known for roles in \"All Creatures Great and Small\" and as Winston Churchill in various productions, expressed sadness at parting with his collection but hopes the new owners will derive as much joy from the items as he has. The actor, who studied under J.R.R. Tolkien and C",
     "annotations": [
       {
-        "annot_id": 3,
-        "sample_id": 2,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "Again, this summary was cut off in mid-sentence. This should be removed.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
-        "summary_start": 959,
-        "summary_end": 1008
-      },
-      {
         "annot_id": 4,
         "sample_id": 2,
         "annotator": "da5059c5363b47bb9d49bf1073f02199",
@@ -134,19 +121,6 @@
         "source_span": " interest in classic literature and military history",
         "source_start": 2701,
         "source_end": 2753
-      },
-      {
-        "annot_id": 6,
-        "sample_id": 2,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "Again, the summary has been chopped off mid-sentence.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
-        "summary_start": 959,
-        "summary_end": 1008
       },
       {
         "annot_id": 65,
@@ -200,23 +174,6 @@
         "source_end": 1774
       },
       {
-        "annot_id": 134,
-        "sample_id": 2,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "estimated to be worth £100,000",
-        "summary_start": 160,
-        "summary_end": 190,
-        "source_span": "in a £ 100,000 auction",
-        "source_start": 74,
-        "source_end": 96
-      },
-      {
         "annot_id": 135,
         "sample_id": 2,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
@@ -228,6 +185,22 @@
         "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
         "summary_start": 959,
         "summary_end": 1008
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 2,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "estimated to be worth £100,000",
+        "summary_start": 160,
+        "summary_end": 190,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
+        "source_end": 96
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -263,22 +236,6 @@
         "source_end": 2753
       },
       {
-        "annot_id": 8,
-        "sample_id": 3,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "A flintlock rifle is not medieval. While this isn't strictly a hallucination, because there certainly are medieval weapons in the collection, such as bows, it could easily be made more accurate by specifying \"historical weapons\" or \"vintage weapons\".",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "medieval weapons",
-        "summary_start": 280,
-        "summary_end": 296,
-        "source_span": "flintlock rifles",
-        "source_start": 1354,
-        "source_end": 1370
-      },
-      {
         "annot_id": 72,
         "sample_id": 3,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
@@ -304,6 +261,19 @@
         "summary_span": "offering a unique opportunity for collectors.",
         "summary_start": 556,
         "summary_end": 601
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 3,
+        "annotator": "da5059c5363b47bb9d49bf1073f02199",
+        "label": [
+          "Benign"
+        ],
+        "note": "A flintlock rifle is not medieval. While this isn't strictly a hallucination, because there certainly are medieval weapons in the collection, such as bows, it could easily be made more accurate by specifying \"historical weapons\" or \"vintage weapons\".",
+        "annotator_name": "Amin Ahmad",
+        "summary_span": "medieval weapons",
+        "summary_start": 280,
+        "summary_end": 296
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -481,22 +451,6 @@
     "summary": "Veteran actor Robert Hardy, known for roles in \"All Creatures Great and Small\" and as Winston Churchill, is auctioning his extensive collection of antiques worth £100,000 due to downsizing. The auction includes over 200 items such as a diorama of the Battle of Agincourt, a longbow, paintings, furniture, swords, rifles, silverware, and crystal chandeliers. Hardy, a military historian and expert on the medieval longbow, expressed sadness over selling his collection but hopes new owners will find joy in the items. The auction, managed by Dominic Winter Auctioneers, features 238 lots and will take place in Gloucestershire. Hardy, who studied under J.R.R. Tolkien and C.S. Lewis, has published books on the longbow and contributed to the Mary Rose shipwreck project. He gained fame as Siegfried Farnon and appeared in the Harry Potter films as Cornelius Fudge. Despite retiring from stage acting after a fall, Hardy plans to continue television work.",
     "annotations": [
       {
-        "annot_id": 10,
-        "sample_id": 9,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "It would be more accurate to say \"estimated to be worth 100,000\", because the exact worth is unknown due to the nature of an auction.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "£100,000",
-        "summary_start": 162,
-        "summary_end": 170,
-        "source_span": "in a £ 100,000 auction",
-        "source_start": 74,
-        "source_end": 96
-      },
-      {
         "annot_id": 136,
         "sample_id": 9,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
@@ -511,6 +465,23 @@
         "summary_end": 170,
         "source_span": "in a £ 100,000 auction",
         "source_start": 74,
+        "source_end": 96
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 9,
+        "annotator": "da5059c5363b47bb9d49bf1073f02199",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It would be more accurate to say \"estimated to be worth 100,000\", because the exact worth is unknown due to the nature of an auction.",
+        "annotator_name": "Amin Ahmad",
+        "summary_span": "collection of antiques worth £100,000",
+        "summary_start": 133,
+        "summary_end": 170,
+        "source_span": "selling his enormous collection of antiques in a £ 100,000 auction",
+        "source_start": 30,
         "source_end": 96
       }
     ],
@@ -624,32 +595,6 @@
         "source_end": 132
       },
       {
-        "annot_id": 14,
-        "sample_id": 11,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "It would be more accurate to state \"is being sold through Dominic Winter Auctioneers\" because it is being sold \"by\" Robert Hardy. The auctioneers are merely facilitating/conducting the sale.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "is being sold by Dominic Winter Auctioneers",
-        "summary_start": 349,
-        "summary_end": 392
-      },
-      {
-        "annot_id": 15,
-        "sample_id": 11,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "Again, this sentence is chopped off midway.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "Despite retiring from",
-        "summary_start": 906,
-        "summary_end": 927
-      },
-      {
         "annot_id": 83,
         "sample_id": 11,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
@@ -722,19 +667,6 @@
         "summary_span": "reflecting his interests in military history and medieval longbows",
         "summary_start": 289,
         "summary_end": 355
-      },
-      {
-        "annot_id": 17,
-        "sample_id": 12,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "Again, the summary is chopped off halfway through the last sentence.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
-        "summary_start": 959,
-        "summary_end": 1008
       },
       {
         "annot_id": 87,
@@ -938,20 +870,19 @@
         "source_end": 2131
       },
       {
-        "annot_id": 139,
+        "annot_id": 151,
         "sample_id": 14,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
         "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
+          "Questionable"
         ],
         "note": "",
         "annotator_name": "Chenyu Xu",
         "summary_span": "valued at £100,000",
         "summary_start": 171,
         "summary_end": 189,
-        "source_span": "n a £ 100,000 auction",
-        "source_start": 75,
+        "source_span": "in a £ 100,000 auction",
+        "source_start": 74,
         "source_end": 96
       }
     ],
@@ -1062,20 +993,6 @@
         "source_span": "is auctioning off more than 200 items he has collected over his career",
         "source_start": 246,
         "source_end": 316
-      },
-      {
-        "annot_id": 141,
-        "sample_id": 15,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "medieval history",
-        "summary_start": 314,
-        "summary_end": 330
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1320,33 +1237,6 @@
     "summary": "Here's a concise summary of the passage covering the core information:\n\nVeteran actor Robert Hardy, 89, is auctioning off his extensive collection of antiques, estimated to be worth £100,000, as he downsizes his home. The collection includes over 200 items gathered throughout his career, reflecting his interests in military history and medieval longbows. Notable items in the auction include:\n\n1. A hand-painted limewood diorama of the Battle of Agincourt\n2. A yew longbow with a mother-of-pearl handle\n3. Paintings, furniture, weapons, silverware, and crystal chandeliers\n4. Rare books, some dating back to the 17th century\n\nThe auction, consisting of 238 lots, will be held by Dominic Winter Auctioneers in Gloucestershire. Hardy, known for roles in \"All Creatures Great and Small\" and as Winston Churchill in various productions, expressed sadness at parting with his collection but hopes the new owners will derive as much joy from the items as he has. The actor, who studied under J.R.R. Tolkien and C",
     "annotations": [
       {
-        "annot_id": 28,
-        "sample_id": 22,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Incorrect. The source mentions his interest in classic literature and military history as drivers in his collection, but not medieval longbows.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "reflecting his interests in military history and medieval longbows",
-        "summary_start": 289,
-        "summary_end": 355
-      },
-      {
-        "annot_id": 29,
-        "sample_id": 22,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "Note, this is truncated mid-sentence.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
-        "summary_start": 959,
-        "summary_end": 1008
-      },
-      {
         "annot_id": 102,
         "sample_id": 22,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
@@ -1402,6 +1292,23 @@
         "summary_span": "The actor, who studied under J.R.R. Tolkien and C",
         "summary_start": 959,
         "summary_end": 1008
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 22,
+        "annotator": "da5059c5363b47bb9d49bf1073f02199",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "Medieval longbows are never explicitly mentioned in the source as one of the interests reflected in his collection, although the presence of longbows in the collection and the fact that he's an expert in longbows, to the extent of having written two books on the subject, lead me to rate this \"questionable\".",
+        "annotator_name": "Amin Ahmad",
+        "summary_span": "reflecting his interests in military history and medieval longbows",
+        "summary_start": 289,
+        "summary_end": 355,
+        "source_span": "he has built up the haul of antiques thanks to his interest in classic literature and military history",
+        "source_start": 2651,
+        "source_end": 2753
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1420,19 +1327,6 @@
     "source": "veteran actor robert hardy is selling his enormous collection of antiques in a £ 100,000 auction after deciding to downsize his home . \nthe star , known for appearing in all creatures great and small and playing winston churchill several times , is auctioning off more than 200 items he has collected over his career . \nmr hardy , 89 , is a keen military historian who studied english with j.r.r. tolkien and is now an expert on the medieval longbow . \nsale : actor robert hardy is selling off his collection of antiques including a diorama of the battle of agincourt\ncabinets : a pair of early victorian items of furniture made by gillows of lancaster which are set to fetch up to £ 4,000 at the auction on saturday\nportrait : a painting of mr hardy holding a longbow , reflecting his interest in medieval history\none of the most unusual items featured in the auction of his possessions is a hand-painted limewood diorama depicted the progress of the battle of agincourt in 3d . \nthe piece was created by artist l.m. rendall in the 1960s after being commissioned by mr hardy himself , and has an estimate of £ 4,000 to £ 6,000 . \nthere is also a longbow made from yew with a mother-of-pearl handle , as well as a portrait of mr hardy holding the bow , which is set to sell for up to £ 2,000 . \nthe actor is also selling paintings , furniture , swords , flintlock rifles , silverware and a fine collection of crystal chandeliers . \ndiorama : the 3d model was commissioned specially by mr hardy from artist l.m. rendall in the 1960s\nclose-up : the piece was rendered in amazing detail showing the progress of the battle in 1415\nluxurious : a view of many of the items of furniture and other antiques which are being sold\ndozens of books , some dating back to the 17th century , are included in the auction which is set to take place this saturday . \na total of 238 lots are being sold by dominic winter auctioneers at its saleroom in south cerney , gloucestershire . \nmr hardy , who lives in the cotswolds , said that he was sad to sell his collection . \n` downsizing and losing a great part of a treasured library makes for sadness , ' he said . \n` entrusting it all to dominic winter and co has taken away much of the pain , and through them i wish anyone who comes to possess anything that was mine as much joy and pleasure as it has given me through the years . ' \nhistorical : an early 20th-century painting of alfred the great rebuilding london , by frank owen salisbury\nauction : the objects are being sold at dominic winter in gloucestershire on saturday\npride : mr hardy pictured in 2012 with the longbow and other objects from his collection\nhe has built up the haul of antiques thanks to his interest in classic literature and military history . \nmr hardy was taught by tolkien and c.s. lewis when he studied english at magdalen college , oxford , and he has published two books on the history of the longbow . \nhe was also consulted as an expert during the raising of the tudor shipwreck the mary rose . \nmr hardy , a close friend of richard burton , worked with top actors including laurence olivier , john gielgud and judi dench during his early days as a shakespearean specialist . \nhe found national fame playing vet siegfried farnon in all creatures great and small , the hit bbc drama which aired between 1978 and 1996 and also starred lynda bellingham . \nstar : mr hardy , left , is known for his role as vet siegriein the bbc 's all creatures great and small\nrole : he has frequently played winston churchill in a series of television dramas\nnew generation : mr hardy appeared as minister for magic cornelius fudge in the harry potter films\nthe actor is well known for portraying winston churchill in a number of television performances , and has also played churchill 's fellow second world war leader franklin d. roosevelt . \nmore recently , he introduced himself to a younger generation of viewers with an appearance in the harry potter films , where he played cornelius fudge , the minister for magic . \nmr hardy was forced to retire from stage acting two years ago , when he suffered a fall while playing churchill again in the audience , a west end play about the queen which starred helen mirren . \nhowever , he has insisted that he will continue to do television work despite his advanced age .",
     "summary": "Robert Hardy, an 89-year-old veteran actor, is auctioning off his extensive collection of antiques, valued at £100,000, as he downsizes his home. The collection includes over 200 items, such as a diorama of the Battle of Agincourt, Victorian furniture, paintings, swords, rifles, silverware, and chandeliers. Hardy, a military historian and student of J.R.R. Tolkien, is known for his roles as Winston Churchill and Siegfried Farnon in 'All Creatures Great and Small'. The auction, consisting of 238 lots, will be held by Dominic Winter Auctioneers in Gloucestershire.",
     "annotations": [
-      {
-        "annot_id": 30,
-        "sample_id": 23,
-        "annotator": "da5059c5363b47bb9d49bf1073f02199",
-        "label": [
-          "Questionable"
-        ],
-        "note": "It would be more accurate to mention he was a student of J.R.R. Tolkien and C.S. Lewis. The decision to omit one and not the other seems arbitrary, although it is not distorting to the point of being a hallucination.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "student of J.R.R. Tolkien",
-        "summary_start": 341,
-        "summary_end": 366
-      },
       {
         "annot_id": 107,
         "sample_id": 23,
@@ -1496,12 +1390,12 @@
         "summary_end": 335
       },
       {
-        "annot_id": 143,
+        "annot_id": 152,
         "sample_id": 24,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
         "label": [
           "Unwanted",
-          "Unwanted.Extrinsic"
+          "Unwanted.Instrinsic"
         ],
         "note": "",
         "annotator_name": "Chenyu Xu",
@@ -1819,6 +1713,20 @@
         "summary_span": "deaths and costs have been significant",
         "summary_start": 848,
         "summary_end": 886
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 31,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "The study also noted that alcohol-related deaths and costs have been significant, with public health experts attributing the increase in excessive drinking to changing social norms, affluence, and weakened alcohol control policies.",
+        "summary_start": 806,
+        "summary_end": 1037
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",

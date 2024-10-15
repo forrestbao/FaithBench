@@ -1640,6 +1640,23 @@
         "summary_span": "and even dumpster",
         "summary_start": 878,
         "summary_end": 895
+      },
+      {
+        "annot_id": 154,
+        "sample_id": 21,
+        "annotator": "59ef22bf7b6c41f6952f0318cd0d5b45",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source material primarily focuses on their *first* year of the cycling journey, but the journey itself seems open-ended. This seems like an erroneous description",
+        "annotator_name": "New User",
+        "summary_span": " embarked on a year-long cycling journey around the world in 2011.",
+        "summary_start": 83,
+        "summary_end": 149,
+        "source_span": "\nin 356 days so far they 've covered almost 7,000 miles ( 11,131.92 km by their measurements ) and been through 16 countries .",
+        "source_start": 519,
+        "source_end": 645
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1687,6 +1704,23 @@
         "summary_span": "Here's a concise summary of the passage:",
         "summary_start": 0,
         "summary_end": 40
+      },
+      {
+        "annot_id": 155,
+        "sample_id": 22,
+        "annotator": "59ef22bf7b6c41f6952f0318cd0d5b45",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "I think there are several hallucinations in this sentence of the summary. \na. The source only describes “leaving London last year”. But we don’t know whether “their journey started in London”.\nb. I do not see “Balkans” in the source.",
+        "annotator_name": "New User",
+        "summary_span": "Their journey started in London and has taken them through Western Europe, the Balkans, and into Turkey.",
+        "summary_start": 396,
+        "summary_end": 500,
+        "source_span": "\npedal power then took them through the north of italy , slovenia , croatia , bosnia and herzegovina , montenegro , albania , macedonia , greece and into turkey .",
+        "source_start": 3150,
+        "source_end": 3312
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",

@@ -2997,6 +2997,23 @@
         "source_span": "desperate",
         "source_start": 156,
         "source_end": 165
+      },
+      {
+        "annot_id": 322,
+        "sample_id": 31,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Evans is forward, not goalkeeper.",
+        "annotator_name": "Weisi",
+        "summary_span": " However, Scotland's goalkeeper, Evans",
+        "summary_start": 161,
+        "summary_end": 199,
+        "source_span": "said 24-year-old Bayern Munich forward Evans",
+        "source_start": 759,
+        "source_end": 803
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -3195,6 +3212,23 @@
         "source_span": "a first major finals",
         "source_start": 2808,
         "source_end": 2828
+      },
+      {
+        "annot_id": 321,
+        "sample_id": 32,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentioned they already lost two games from last year and Euro 2013.",
+        "annotator_name": "Weisi",
+        "summary_span": "Forward Lisa Evans emphasizes the importance of qualifying after previous near-misses",
+        "summary_start": 320,
+        "summary_end": 405,
+        "source_span": "But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup.",
+        "source_start": 143,
+        "source_end": 251
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -3344,6 +3378,40 @@
         "summary_span": "a sign of the sport's growth in Scotland",
         "summary_start": 589,
         "summary_end": 629
+      },
+      {
+        "annot_id": 319,
+        "sample_id": 33,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "They already missed based on source.",
+        "annotator_name": "Weisi",
+        "summary_span": "near-misses in play-offs",
+        "summary_start": 189,
+        "summary_end": 213,
+        "source_span": "But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup.",
+        "source_start": 143,
+        "source_end": 251
+      },
+      {
+        "annot_id": 320,
+        "sample_id": 33,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted.Extrinsic",
+          "Questionable"
+        ],
+        "note": "The source only mentions big crowd, not home crowd.",
+        "annotator_name": "Weisi",
+        "summary_span": "The match will be emotional, with a potential large home crowd at Falkirk Stadium.",
+        "summary_start": 388,
+        "summary_end": 470,
+        "source_span": "\"It would be fantastic to have a big crowd at Falkirk.",
+        "source_start": 1431,
+        "source_end": 1485
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -3466,6 +3534,23 @@
         "summary_span": "Iceland, ranked 20th in the world, is also undefeated",
         "summary_start": 229,
         "summary_end": 282
+      },
+      {
+        "annot_id": 318,
+        "sample_id": 34,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Play outside Scotland has different meaning of players from outside Scotland.",
+        "annotator_name": "Weisi",
+        "summary_span": "The team includes 12 players from outside Scotland, ",
+        "summary_start": 524,
+        "summary_end": 576,
+        "source_span": "Evans is one of 12 players in the current 20-strong squad who play outside Scotland",
+        "source_start": 1538,
+        "source_end": 1621
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
