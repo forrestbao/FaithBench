@@ -1135,6 +1135,23 @@
         "source_span": " ‘Poldark is rather good",
         "source_start": 2030,
         "source_end": 2054
+      },
+      {
+        "annot_id": 338,
+        "sample_id": 11,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "The show's fast-paced pregnancy plot has drawn comparisons to a previous pregnancy in the series, with fans expressing their anticipation for the next episode",
+        "summary_start": 341,
+        "summary_end": 499,
+        "source_span": "One posted on Twitter: ‘If you are pregnant in Poldark times expect to have it in the next 10 minutes’ It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now.",
+        "source_start": 1711,
+        "source_end": 2085
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1217,6 +1234,36 @@
         "source_span": " ‘Poldark is rather good",
         "source_start": 2030,
         "source_end": 2054
+      },
+      {
+        "annot_id": 336,
+        "sample_id": 12,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This happened in two episodes.",
+        "annotator_name": "Weisi",
+        "summary_span": " with Demelza going from announcing her pregnancy to being eight months pregnant and giving birth within a single episode",
+        "summary_start": 303,
+        "summary_end": 424,
+        "source_span": "Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings. What is rather less convincing, however, is the timeline of the pregnancy. With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant.",
+        "source_start": 490,
+        "source_end": 1064
+      },
+      {
+        "annot_id": 337,
+        "sample_id": 12,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The TV show name is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "The TV show Poldark",
+        "summary_start": 42,
+        "summary_end": 61
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1491,6 +1538,19 @@
         "source_span": "It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
         "source_start": 1814,
         "source_end": 1973
+      },
+      {
+        "annot_id": 335,
+        "sample_id": 15,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The TV show name Poldark is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "TV show Poldark.",
+        "summary_start": 131,
+        "summary_end": 147
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1590,6 +1650,36 @@
         "source_span": " It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes. This didn’t go unnoticed by fans, who posted on Twitter: ‘Poldark is rather good, would watch the next one now. Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.’",
         "source_start": 1813,
         "source_end": 2172
+      },
+      {
+        "annot_id": 333,
+        "sample_id": 16,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Poldark is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " in the latest episode of Poldark",
+        "summary_start": 174,
+        "summary_end": 207
+      },
+      {
+        "annot_id": 334,
+        "sample_id": 16,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The solidifying part is not supported with source.",
+        "annotator_name": "Weisi",
+        "summary_span": "The episode shows Ross Poldark, played by Aidan Turner, gazing lovingly at his new daughter, solidifying his feelings for Demelza,",
+        "summary_start": 376,
+        "summary_end": 506,
+        "source_span": " Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings",
+        "source_start": 109,
+        "source_end": 765
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1657,6 +1747,19 @@
         "source_span": "With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant.",
         "source_start": 842,
         "source_end": 1064
+      },
+      {
+        "annot_id": 332,
+        "sample_id": 17,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The episode's name Poldark is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "gives birth to a baby girl in the next episode of Poldark",
+        "summary_start": 46,
+        "summary_end": 103
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1720,6 +1823,19 @@
         "source_span": "as he tells her that she makes him a better man, audiences can have little doubt about his feelings",
         "source_start": 666,
         "source_end": 765
+      },
+      {
+        "annot_id": 330,
+        "sample_id": 18,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Poldark is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "The passage discusses the latest episode of the show Poldark",
+        "summary_start": 0,
+        "summary_end": 60
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -1787,6 +1903,53 @@
         "source_span": "as he tells her that she makes him a better man, audiences can have little doubt about his feelings",
         "source_start": 666,
         "source_end": 765
+      },
+      {
+        "annot_id": 326,
+        "sample_id": 19,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name is not given in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "\"Poldark,\"",
+        "summary_start": 25,
+        "summary_end": 35
+      },
+      {
+        "annot_id": 327,
+        "sample_id": 19,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The announcement of pregnancy to giving birth happened in two episode.",
+        "annotator_name": "Weisi",
+        "summary_span": "The episode quickly transitions from the announcement of her pregnancy to her being eight months pregnant and then giving birth",
+        "summary_start": 123,
+        "summary_end": 250,
+        "source_span": "With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant .",
+        "source_start": 1238,
+        "source_end": 1461
+      },
+      {
+        "annot_id": 329,
+        "sample_id": 19,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Based on source, it cannot be inferred new daughter solidity his commitment.\t",
+        "annotator_name": "Weisi",
+        "summary_span": "Ross Poldark, is shown lovingly with his new daughter, solidifying his commitment to Demelza despite their marriage initially being out of duty",
+        "summary_start": 345,
+        "summary_end": 488,
+        "source_span": "Within ten minutes of tomorrow night’s episode, fans will see Aidan Turner’s dashing Ross Poldark gaze lovingly at his new baby daughter. As Sunday night’s latest heartthrob, women across the country have voiced their longing to settle down with the brooding Cornish gentleman – but unfortunately it seems as if his heart is well and truly off the market. Scroll down for video . Last week she was barely showing – but Demelza Poldark is now the proud mother to the show’s latest addition . He may have married his red-headed kitchen maid out of duty, but as he tells her that she makes him a better man, audiences can have little doubt about his feelings.",
+        "source_start": 110,
+        "source_end": 766
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2395,6 +2558,23 @@
         "source_span": "ms mitchell",
         "source_start": 2374,
         "source_end": 2385
+      },
+      {
+        "annot_id": 325,
+        "sample_id": 25,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "From source the alcohol consumption during pregnancy cause theses problems, but the summary kinds of treat theses problems related with Children born with FAS. ",
+        "annotator_name": "Weisi",
+        "summary_span": "The condition can lead to a range of medical issues, including problems with the liver, kidneys, heart, and sight loss",
+        "summary_start": 647,
+        "summary_end": 765,
+        "source_span": "\nother medical issues associated with alcohol consumption during pregnancy include problems with the liver , kidneys and heart , cerebral palsy , sight loss and epilepsy .",
+        "source_start": 2031,
+        "source_end": 2202
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2782,6 +2962,23 @@
         "source_span": "believes ",
         "source_start": 2386,
         "source_end": 2395
+      },
+      {
+        "annot_id": 324,
+        "sample_id": 29,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The top advise it not to drink, then if they drink they have to drink with limit.",
+        "annotator_name": "Weisi",
+        "summary_span": " The government advises pregnant women to limit alcohol intake, but some experts",
+        "summary_start": 599,
+        "summary_end": 679,
+        "source_span": "pregnant women are advised by the government not to drink alcohol . \nif they do , the maximum consumption recommended is up to two units no more than twice a week",
+        "source_start": 2204,
+        "source_end": 2366
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2903,6 +3100,20 @@
         "summary_span": "major soccer competition",
         "summary_start": 62,
         "summary_end": 86
+      },
+      {
+        "annot_id": 323,
+        "sample_id": 30,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Jane is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " Jane Ross",
+        "summary_start": 530,
+        "summary_end": 540
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",

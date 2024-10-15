@@ -63,19 +63,6 @@
         "summary_end": 398
       },
       {
-        "annot_id": 23,
-        "sample_id": 0,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Contains a typo, missing 't' in \"The\"",
-        "annotator_name": "Matt",
-        "summary_span": "he passage describes",
-        "summary_start": 0,
-        "summary_end": 20
-      },
-      {
         "annot_id": 142,
         "sample_id": 0,
         "annotator": "0a21fc518c094a909873cd12cedb22f3",
@@ -101,6 +88,47 @@
         "summary_span": "This event was met with shock and disbelief, as Duran was known for his heroic and tough fighting style.",
         "summary_start": 570,
         "summary_end": 674
+      },
+      {
+        "annot_id": 156,
+        "sample_id": 0,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Sugar Ray v Roberto Duran is the sixth significant fight",
+        "annotator_name": "Matt",
+        "summary_span": "the sixth significant fight in boxing history, Floyd Mayweather vs Manny Pacquiao",
+        "summary_start": 21,
+        "summary_end": 102
+      },
+      {
+        "annot_id": 157,
+        "sample_id": 0,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not clearly stated in the source",
+        "annotator_name": "Matt",
+        "summary_span": "Duran was known for his heroic and tough fighting style",
+        "summary_start": 618,
+        "summary_end": 673
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 0,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Truncated",
+        "annotator_name": "Matt",
+        "summary_span": "The passage suggests that the outcome of the Mayweather vs Pacquiao fight will determine its ranking among the most",
+        "summary_start": 995,
+        "summary_end": 1110
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -154,32 +182,6 @@
         "source_end": 2266
       },
       {
-        "annot_id": 24,
-        "sample_id": 1,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Missing 't' in \"the\"",
-        "annotator_name": "Matt",
-        "summary_span": "he passage discusses",
-        "summary_start": 0,
-        "summary_end": 20
-      },
-      {
-        "annot_id": 26,
-        "sample_id": 1,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Questionable"
-        ],
-        "note": "This one is tough because the source material makes a declarative statement about this fight being the biggest fight of all time; however, the following sentences in the source material imply that it's not yet a final decision and that we (as a society) won't know if it's the biggest fight of all time until later/after the fight",
-        "annotator_name": "Matt",
-        "summary_span": "which is considered potentially the biggest fight of all time financially and the most significant in the century",
-        "summary_start": 79,
-        "summary_end": 192
-      },
-      {
         "annot_id": 27,
         "sample_id": 1,
         "annotator": "21ec503aa3e04788bb767aaacda516a6",
@@ -204,6 +206,20 @@
         "summary_span": "Sugar Ray Leonard expressed pride in forcing Roberto Duran to quit rather than knocking him out, stating that it was a better outcome for him",
         "summary_start": 920,
         "summary_end": 1061
+      },
+      {
+        "annot_id": 159,
+        "sample_id": 1,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The fights appear to take place in the 80s. No clear fights in the 70s",
+        "annotator_name": "Matt",
+        "summary_span": "which took place in the 1970s and 1980s",
+        "summary_start": 545,
+        "summary_end": 584
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -238,20 +254,6 @@
         "source_span": "\nin this , the sixth in a series of 12 fights that shaped boxing history , i recall when a hard man could take no more ...\nsugar ray leonard v roberto duran\nthe first two of the three fights between the sugar man and hands of stone raised the curtain on what is considered the golden age of boxing in the classic middling weights of boxing , with ray leonard , roberto duran , thomas hearns and marvin hagler engaging each other in some of the ring 's epic battles .",
         "source_start": 533,
         "source_end": 999
-      },
-      {
-        "annot_id": 29,
-        "sample_id": 2,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here's a concise summary of the passage, covering the core pieces of information:",
-        "summary_start": 0,
-        "summary_end": 81
       },
       {
         "annot_id": 30,
@@ -490,20 +492,6 @@
         "summary_end": 614
       },
       {
-        "annot_id": 34,
-        "sample_id": 5,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
-        "summary_start": 0,
-        "summary_end": 92
-      },
-      {
         "annot_id": 35,
         "sample_id": 5,
         "annotator": "21ec503aa3e04788bb767aaacda516a6",
@@ -530,14 +518,14 @@
         "summary_end": 223
       },
       {
-        "annot_id": 37,
+        "annot_id": 160,
         "sample_id": 5,
         "annotator": "21ec503aa3e04788bb767aaacda516a6",
         "label": [
           "Unwanted",
-          "Unwanted.Instrinsic"
+          "Unwanted.Extrinsic"
         ],
-        "note": "I think this summary is also conflating the two fights of Mayweather vs Pacquiao and Leonard vs. Duran.\n\nIt's reasonable to assume Duran's fight was culturally and socially significant, but given the source material this seems like a hallucination instead",
+        "note": "I think this summary is also conflating the two fights of Mayweather vs Pacquiao and Leonard vs. Duran. It's reasonable to assume Duran's fight was culturally and socially significant, but given the source material this seems like a hallucination instead",
         "annotator_name": "Matt",
         "summary_span": "The passage also mentions the cultural and social significance of the fight",
         "summary_start": 539,
@@ -560,20 +548,6 @@
     "source": "floyd mayweather v manny pacquiao will be the biggest fight of all time financially and the most significant this century . \nevaluating the greatest ever fights is a complex variable of several factors including not only the quality and excitement of the action but the political , social and cultural undertones , the scale of expectation and outside influences . \nwhere money man v pacman comes to rank among the most important fights in ring history will depend upon what happens that coming night in the mgm grand garden arena . \nin this , the sixth in a series of 12 fights that shaped boxing history , i recall when a hard man could take no more ...\nsugar ray leonard v roberto duran\nthe first two of the three fights between the sugar man and hands of stone raised the curtain on what is considered the golden age of boxing in the classic middling weights of boxing , with ray leonard , roberto duran , thomas hearns and marvin hagler engaging each other in some of the ring 's epic battles . \nby way of a preview , leonard had defeated the previous -- and equally great -- felix trinidad to win the world welterweight title . \nsugar ray leonard celebrates after roberto duran quit in their fight in louisiana in november 1980\nleonard decided to use his exceptional speed and movement to beat the panamanian in the second fight\noctober 30 , 1974 , kinshasa , zaire\nmarch 8 , 1971 , madison square garden , new york\njuly 4 , 1910 , reno , nevada\njune 22 , 1938 , yankee stadium , new york\noctober 1 , 1975 , quezon city , philippines\nin his first defence , sugar ray had been contentiously outpointed by duran in montreal 's olympic stadium . \nso confused was the scoring that the result was first announced as a majority decision . \nthat was changed to unanimous in duran 's favour after one judge was found to have totalled his score incorrectly and his card was altered from a draw to 148-147 . \nthere was more uproar when that judge was revealed to have marked just three rounds in favour of duran and only two for leonard -- with 10 even . \nthat was described as ` a monument to indecision ' . \ncome the inevitable rematch eight months later , in the louisana superdome in new orleans on november 25 , 1980 , controversy was to be replaced by disbelief . \nleonard had gambled in the first fight by taking the macho decision to take on the panamanian hard man in a mano-a-mano slug-out . \nsecond time around he wisely chose to use his exceptional ability , especially his speed and movement . \nduran became frustrated as leonard danced around him before unleashing his punches\nafter being caught flush in the face in the eighth round , duran turned his back and said ` no mas '\n` the whole fight i was moving . \nthen voom , i 'd snap his head back with a jab . \nvoom , i 'd snap it back again . \nhe 'd try to get me on the ropes . \ni 'd pivot , spin off and pow , come under with a punch . ' \nso it went for more than seven rounds , with duran becoming increasingly frustrated . \nin the eighth leonard cranked up the psychological pressure by waving his right arm in circles and then planting a left flush in duran 's face . \nthere had been a moment earlier when leonard appeared to pat him playfully on the backside . \njust before the bell duran turned his back and walked to his corner , waving his arms to indicate he was finished and famously telling the referee : ` no mas . ' \nleonard celebrates after his opponent quit , and said it was more of an achievement than knocking duran out\nthe result stunned the watching world , and it took three years for duran to rebuild his reputation\nthe watching world was stunned . \nhere was one of the most heroic warriors in boxing history quitting in the most humiliating manner possible . \nsensing the reaction duran claimed he had stomach cramps caused by eating too heavily after the morning weigh-in . \nbut his manager carlos eleta said : ` he always eats like that before a fight . \nhe quit because he was embarrassed . ' \nduran had been a national icon in panama and there was anger on the streets at his action . \ntelevision commercials featuring him were taken off . \nit took three years for duran to restore his high place in his country 's esteem . \nhe did so on june 16 , 1983 , his 32nd birthday , by knocking out davey moore in las vegas to win the world light-middleweight title . \nrejoicing returned to the streets . \nleonard would win their third fight in 1989 by a points landslide , thereby retaining the world super-middleweight title . \nbut sugar ray took most pride from the trilogy from forcing duran to say no mas . \nhe said : ` to me , making roberto duran to quit was better than knocking him out . '",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe upcoming fight between Floyd Mayweather and Manny Pacquiao is expected to be the biggest and most significant fight of the century. However, the passage primarily focuses on the epic battle between Sugar Ray Leonard and Roberto Duran, which is considered one of the greatest fights in ring history. The two fighters had a trilogy of fights, with the first fight in 1980 being won by Duran in a contentious decision. In the rematch, Leonard used his exceptional speed and movement to outmaneuver Duran, who became frustrated and quit in the eighth round, famously saying \"no mas.\" The result was a shock to the world, and it took Duran three years to rebuild his reputation. Leonard went on to win the third fight in 1989, and he considers forcing Duran to quit as one of his greatest achievements.",
     "annotations": [
-      {
-        "annot_id": 38,
-        "sample_id": 6,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
-        "summary_start": 0,
-        "summary_end": 92
-      },
       {
         "annot_id": 39,
         "sample_id": 6,
@@ -698,6 +672,19 @@
         "summary_span": "It describes their first two fights",
         "summary_start": 540,
         "summary_end": 575
+      },
+      {
+        "annot_id": 161,
+        "sample_id": 8,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "The source describes all 3 fights, though the main focus is on the first two",
+        "annotator_name": "Matt",
+        "summary_span": "It describes their first two fights",
+        "summary_start": 540,
+        "summary_end": 575
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -811,19 +798,6 @@
         "summary_end": 821
       },
       {
-        "annot_id": 42,
-        "sample_id": 10,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Typo: missing 'R' in Rory",
-        "annotator_name": "Matt",
-        "summary_span": "ory McIlroy",
-        "summary_start": 0,
-        "summary_end": 11
-      },
-      {
         "annot_id": 148,
         "sample_id": 10,
         "annotator": "0a21fc518c094a909873cd12cedb22f3",
@@ -925,19 +899,6 @@
         "source_end": 2616
       },
       {
-        "annot_id": 43,
-        "sample_id": 11,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Typo: missing 'R' in Rory",
-        "annotator_name": "Matt",
-        "summary_span": "ory McIlroy",
-        "summary_start": 0,
-        "summary_end": 11
-      },
-      {
         "annot_id": 44,
         "sample_id": 11,
         "annotator": "21ec503aa3e04788bb767aaacda516a6",
@@ -997,20 +958,6 @@
     "source": "rory mcilroy believes it is ` unthinkable ' that he will not win the masters at some point to complete the career grand slam . \nand the world number one has revealed how his final-round collapse at augusta national in 2011 was the most important day of his career . \nmcilroy is looking to claim his first green jacket and become just the sixth player to win all four major titles after gene sarazen , ben hogan , gary player , jack nicklaus and tiger woods . \nrory mcilroy tees off at the arnold palmer invitational golf tournament in orlando on march 19\n` for me now it 's a career-long goal to win there to achieve something that only a handful of players have ever achieved , ' the 25-year-old said in an interview with bbc northern ireland . \n` there 's something special i can achieve going into augusta this year . \nyou are a complete player if you can win every major because they are on different golf courses , different tests , different conditions . \nnot many guys have done it in history so to put my name there would be awesome . \nit would just be incredible . \n` you feel the sense of what can be achieved but i ca n't think about that too much . \ni just have to think about trying to go out there and playing as best as i can and if i can do that hopefully my scores add up to a shot lower than anyone else 's . ' \nmcilroy has just one top-10 finish to his name in six masters appearances , finishing joint eighth last year despite the embarrassment of being outscored by his marker in the third round . \nmcilroy is hoping to complete his grand slam of majors with a victory at augusta later this month\nbut the 25-year-old can not picture going through his career without slipping on at least one coveted green jacket . \n` during my career , yes it 's unthinkable , ' he added . \n` if i do n't win it this year ... either it 's not the right time or it is n't your time . \nif i was to look back as a 60-year-old on my career and not have won a green jacket i 'd obviously be very , very disappointed . \n` and not just one . \ni feel like it 's a course i can do very well at and a golf course i can hopefully win multiple times on . \nobviously getting that first one is extra important and from there we can go on and maybe think about getting some others . ' \nmcilroy held a four-shot lead going into the final round four years ago , only to collapse to a closing 80 and finish 10 shots behind the winner charl schwartzel . \nbut he bounced back to win his first major title by eight shots in the us open two months later , before adding wins in the 2012 us pga and both the open and us pga last year . \nmcilroy is hoping to emulate the likes of jack nicklaus ( above ) by winning all four major titles\n` i think it was the most important day of my career , ' he added . \n` if i had n't had the whole unravelling and say i just made a couple of bogeys coming down the stretch and lost by one , i might not have learnt as much . \n` but for it all to come apart how it did i learnt an awful lot . \ni learnt so much about myself and my game and what i needed to do differently the next time i was in that position . \n` luckily it did n't take me long to get into a position like that again where i was leading a major and we know how that one played out . \ni was able to get over the line pretty comfortably . ' \nmcilroy 's extraordinary success last year came despite the distractions of calling off his wedding to caroline wozniacki and a legal dispute with his former management company which cost him millions of pounds when it was finally settled in february . \nmcilroy 's extraordinary success last year came he called off his wedding to caroline wozniacki\nand he hopes he can again use the golf course as his ` sanctuary ' from the pressure and hype surrounding augusta . \n` the golf course was my sanctuary , it was where i could get away from everything and just not have to think about it for the four or five hours that i am out there and it helped . \nit really did , ' he added . \n` i was looking forward to getting to the course and playing and practising and i think it will be the same at augusta because there will be so much hype and build up and talk about what could happen . \n` i know i wo n't be able to wait until thursday morning or afternoon and just get on the golf course and play golf . \nthere is only so much you can talk about it and then you have to go out and try and play . '",
     "summary": "Here's a concise summary of the core information in the passage:\n\nRory McIlroy, the world's top-ranked golfer, is aiming to win the Masters tournament to complete a career grand slam. He believes it's \"unthinkable\" that he won't win it at some point in his career. McIlroy sees his 2011 final-round collapse at Augusta as the most important day of his career, as it taught him valuable lessons. He would join an elite group of only five other golfers who have won all four major titles if he succeeds. Despite the pressure and hype surrounding the tournament, McIlroy views the golf course as his \"sanctuary\" where he can focus solely on his game. He's eager to start playing and hopes to win multiple green jackets in his career.",
     "annotations": [
-      {
-        "annot_id": 46,
-        "sample_id": 12,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here's a concise summary of the core information in the passage:",
-        "summary_start": 0,
-        "summary_end": 64
-      },
       {
         "annot_id": 152,
         "sample_id": 12,
@@ -1197,20 +1144,6 @@
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nRory McIlroy, the world number one golfer, believes it is \"unthinkable\" that he will not win the Masters at some point to complete his career grand slam. He is hoping to claim his first green jacket and become just the sixth player to win all four major titles. McIlroy has had a disappointing record at the Masters, with only one top-10 finish in six appearances, but he is confident that he can do well at the course. He is looking forward to the tournament, which starts on March 19, and hopes to use the golf course as his \"sanctuary\" from the pressure and hype surrounding Augusta. McIlroy has spoken about how his final-round collapse at the 2011 Masters was a turning point in his career, and he is hoping to learn from that experience and go on to win multiple majors, including the Masters.",
     "annotations": [
       {
-        "annot_id": 51,
-        "sample_id": 15,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
-        "summary_start": 0,
-        "summary_end": 92
-      },
-      {
         "annot_id": 56,
         "sample_id": 15,
         "annotator": "4ff7d3aba9f140ca9a57927d596b5314",
@@ -1260,20 +1193,6 @@
     "source": "rory mcilroy believes it is ` unthinkable ' that he will not win the masters at some point to complete the career grand slam . \nand the world number one has revealed how his final-round collapse at augusta national in 2011 was the most important day of his career . \nmcilroy is looking to claim his first green jacket and become just the sixth player to win all four major titles after gene sarazen , ben hogan , gary player , jack nicklaus and tiger woods . \nrory mcilroy tees off at the arnold palmer invitational golf tournament in orlando on march 19\n` for me now it 's a career-long goal to win there to achieve something that only a handful of players have ever achieved , ' the 25-year-old said in an interview with bbc northern ireland . \n` there 's something special i can achieve going into augusta this year . \nyou are a complete player if you can win every major because they are on different golf courses , different tests , different conditions . \nnot many guys have done it in history so to put my name there would be awesome . \nit would just be incredible . \n` you feel the sense of what can be achieved but i ca n't think about that too much . \ni just have to think about trying to go out there and playing as best as i can and if i can do that hopefully my scores add up to a shot lower than anyone else 's . ' \nmcilroy has just one top-10 finish to his name in six masters appearances , finishing joint eighth last year despite the embarrassment of being outscored by his marker in the third round . \nmcilroy is hoping to complete his grand slam of majors with a victory at augusta later this month\nbut the 25-year-old can not picture going through his career without slipping on at least one coveted green jacket . \n` during my career , yes it 's unthinkable , ' he added . \n` if i do n't win it this year ... either it 's not the right time or it is n't your time . \nif i was to look back as a 60-year-old on my career and not have won a green jacket i 'd obviously be very , very disappointed . \n` and not just one . \ni feel like it 's a course i can do very well at and a golf course i can hopefully win multiple times on . \nobviously getting that first one is extra important and from there we can go on and maybe think about getting some others . ' \nmcilroy held a four-shot lead going into the final round four years ago , only to collapse to a closing 80 and finish 10 shots behind the winner charl schwartzel . \nbut he bounced back to win his first major title by eight shots in the us open two months later , before adding wins in the 2012 us pga and both the open and us pga last year . \nmcilroy is hoping to emulate the likes of jack nicklaus ( above ) by winning all four major titles\n` i think it was the most important day of my career , ' he added . \n` if i had n't had the whole unravelling and say i just made a couple of bogeys coming down the stretch and lost by one , i might not have learnt as much . \n` but for it all to come apart how it did i learnt an awful lot . \ni learnt so much about myself and my game and what i needed to do differently the next time i was in that position . \n` luckily it did n't take me long to get into a position like that again where i was leading a major and we know how that one played out . \ni was able to get over the line pretty comfortably . ' \nmcilroy 's extraordinary success last year came despite the distractions of calling off his wedding to caroline wozniacki and a legal dispute with his former management company which cost him millions of pounds when it was finally settled in february . \nmcilroy 's extraordinary success last year came he called off his wedding to caroline wozniacki\nand he hopes he can again use the golf course as his ` sanctuary ' from the pressure and hype surrounding augusta . \n` the golf course was my sanctuary , it was where i could get away from everything and just not have to think about it for the four or five hours that i am out there and it helped . \nit really did , ' he added . \n` i was looking forward to getting to the course and playing and practising and i think it will be the same at augusta because there will be so much hype and build up and talk about what could happen . \n` i know i wo n't be able to wait until thursday morning or afternoon and just get on the golf course and play golf . \nthere is only so much you can talk about it and then you have to go out and try and play . '",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nRory McIlroy, the world number one, believes it is \"unthinkable\" that he won't win the Masters at some point to complete the career Grand Slam. He is looking to become the sixth player to win all four major titles. McIlroy has only one top-10 finish at the Masters in six appearances, but is confident that he can win at Augusta. He cites his final-round collapse at the 2011 Masters as the most important day of his career, as it taught him valuable lessons about himself and his game. McIlroy hopes to use the golf course as his \"sanctuary\" from the pressure and hype surrounding the tournament, as he did last year despite distractions off the course.",
     "annotations": [
-      {
-        "annot_id": 52,
-        "sample_id": 16,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
-        "summary_start": 0,
-        "summary_end": 92
-      },
       {
         "annot_id": 58,
         "sample_id": 16,
@@ -1340,6 +1259,20 @@
         "source_span": "\nmcilroy 's extraordinary success last year came he called off his wedding to caroline wozniacki\nand he hopes he can again use the golf course as his ` sanctuary ' from the pressure and hype surrounding augusta .",
         "source_start": 3577,
         "source_end": 3789
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 16,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's not explicitly stated that he's confident. It can be reasonably inferred this is the case but otherwise seems like a hallucination",
+        "annotator_name": "Matt",
+        "summary_span": "is confident that he can win at Augusta",
+        "summary_start": 383,
+        "summary_end": 422
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1692,20 +1625,6 @@
         "source_end": 3312
       },
       {
-        "annot_id": 105,
-        "sample_id": 22,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here's a concise summary of the passage:",
-        "summary_start": 0,
-        "summary_end": 40
-      },
-      {
         "annot_id": 155,
         "sample_id": 22,
         "annotator": "59ef22bf7b6c41f6952f0318cd0d5b45",
@@ -1721,6 +1640,19 @@
         "source_span": "\npedal power then took them through the north of italy , slovenia , croatia , bosnia and herzegovina , montenegro , albania , macedonia , greece and into turkey .",
         "source_start": 3150,
         "source_end": 3312
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 22,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Benign"
+        ],
+        "note": "Implied by the source but not explicitly mentioned",
+        "annotator_name": "Matt",
+        "summary_span": "Western Europe",
+        "summary_start": 455,
+        "summary_end": 469
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1816,22 +1748,7 @@
     "sample_id": 25,
     "source": "pablo mandado and ilze zebolde have no plans , no agenda , no cause to fight for and they are certainly in no hurry -- the couple simply has a dream to ` discover different parts of this planet a pedal at a time . ' \nand , after quitting their restaurant jobs in manchester , the intrepid cyclists are doing it as cheaply as they possibly can . \nspanish pablo , 27 , and latvian ilze , 31 , who met in riga in 2011 , are off to a flying start as they approach their first year of their open-ended odyssey on the road . \nin 356 days so far they 've covered almost 7,000 miles ( 11,131.92 km by their measurements ) and been through 16 countries . \nilze zebolde , 31 , takes in her surrounds as she and pablo mandado take a break in their cycle journey around the world\npablo , 27 , and ilze , 31 , stop for a picture in bosnia , one of the 16 countries they 've been through since leaving london last year\nlatvian ilze sets up camp , the most common means of accommodation for her and pablo , on the stunning lake bled in slovenia\nilze points at the winding road that she and pablo had climb in spain 's sierra nevada with their 130 kg of gear ( including bicycles )\nwith no plans or agenda , ilze and pablo are happy to stop and take in stunning views , such as this from a roadside in the french alps\nin that time they have been astonishingly living on less than three euros each a day , or by their meticulous calculations 10 euro cents per kilometre . \nthey keep costs down by relying on free accommodation , along with not needing a budget for transport -- their legs have that covered . \nusually they pitch a tent under the stars and camp ( 161 nights of the 256 ) but also use hosting websites such as couchsurfing ( 66 nights ) and warmshowers ( 44 nights ) . \nsometimes , they get a good night 's sleep courtesy of the kindness of strangers . \nshowers are ` sometimes daily , sometimes weekly , ' admits pablo . \nthis leaves food as their only major expense , and that takes up just 2.74 euros each per day of their 2.99 total outlay . \nilze often stars in their images with pablo the designated photographer , but she does n't seem to mind after another hill climb\npablo gives up his camera for a moment , though , as latvian ilze captures her spanish boyfriend taking a rest on the road\nwhile they often pitch their tent in stunning settings , this pedestrian tunnel during their journey through turkey is n't one of them\nrolling green hills and a shimmering lake greeted the duo in the alps as their open-ended odyssey continued\nwhen asked on their blog , thecrazytravel , how they can possibly live like this , pablo answered simply . \n` pasta , bread , rice , eggs , milk , seasonal fruits and vegetables . \noften we get invited for a meal , or for some free veggies or fruits , ' he said . \n` we pick up wild fruits occasionally as well , and dumpster diving was an option in western countries where half of the food production end up in the bin . ' \npablo and ilze started in london before heading south-east and working their way through france , first down the west coast and then the south after a loop through spain and portugal . \npedal power then took them through the north of italy , slovenia , croatia , bosnia and herzegovina , montenegro , albania , macedonia , greece and into turkey . \nilze walks with her bike while pablo trails behind to capture a snowy landscape in turkey , which they traversed the entire north of\npablo and ilze 's tent in a field in bosnia - this is their usual means of accommodation although they often use hosting websites\npabo and ilze take a break in an italian mountain town as they work their way from france towards eastern europe\npablo rides along the waterside in thessaloniki , greece , one of more than 222 stops they 've made in their journey so far\nall landscapes and settings are greeting pablo and ilze , including moody forests in france as they rode along both coasts\nilze rides into the clouds as pedal power takes her and pablo through eastern europe and towards asia , their next continent\nthe view from pablo and ilze 's tent as they awake to another day in the saddle as they live out their dream\npablo shows off the huge amount of gear he and ilze need to carry as they work their way around the world\n` cycling over the bridge at the border between greece and turkey was symbolic , ' pablo says . \n` riding away from europe , finally crossing into a different continent . \nfinally going further away and into the unknown . ' \nthey traversed the entire northern coast of turkey , before riding through georgia and their latest destination , armenia , and they plan to ` continue into asia , across the pacific with the idea to cycle all the length of the american continent . ' \n` we are going to be on the road for the following years , ' they say .",
     "summary": "Here is a concise summary of the passage:\n\nPablo Mandado (27) and Ilze Zebolde (31) are a couple on an open-ended cycling journey around the world. They met in 2011 and quit their restaurant jobs in Manchester to embark on their adventure. In 356 days, they have covered almost 7,000 miles, visiting 16 countries, and have been living on less than €3 per day. They rely on free accommodation, camping, and hosting websites, and their only major expense is food, which costs around €2.74 per day. They plan to continue cycling through Asia, across the Pacific, and into the Americas, with no set agenda or deadline.",
-    "annotations": [
-      {
-        "annot_id": 108,
-        "sample_id": 25,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage:",
-        "summary_start": 0,
-        "summary_end": 41
-      }
-    ],
+    "annotations": [],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.63628,
     "meta_hhem-2.1": 0.91506,
@@ -1882,18 +1799,17 @@
         "source_end": 1454
       },
       {
-        "annot_id": 109,
+        "annot_id": 164,
         "sample_id": 26,
         "annotator": "21ec503aa3e04788bb767aaacda516a6",
         "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
+          "Benign"
         ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
+        "note": "Western Europe is implied but never explicitly mentioned",
         "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information:",
-        "summary_start": 0,
-        "summary_end": 82
+        "summary_span": "Western and Eastern Europe",
+        "summary_start": 637,
+        "summary_end": 663
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -1971,20 +1887,6 @@
         "summary_span": "couchsurfing, and warmshowers",
         "summary_start": 260,
         "summary_end": 289
-      },
-      {
-        "annot_id": 112,
-        "sample_id": 27,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source material does not specify if the \"length of the american continent\" is horizontal or vertical. \"Down the length\", to my, implies vertical (or North and South), which does not feel like a faithful summary",
-        "annotator_name": "Matt",
-        "summary_span": "and down the length of the American continent.",
-        "summary_start": 538,
-        "summary_end": 584
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2187,6 +2089,19 @@
         "summary_span": "Their diet mainly consists of pasta, bread, rice, eggs, milk",
         "summary_start": 847,
         "summary_end": 907
+      },
+      {
+        "annot_id": 165,
+        "sample_id": 31,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Benign"
+        ],
+        "note": "UK not explicitly mentioned",
+        "annotator_name": "Matt",
+        "summary_span": "Manchester, UK",
+        "summary_start": 174,
+        "summary_end": 188
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2240,18 +2155,17 @@
         "source_end": 3312
       },
       {
-        "annot_id": 118,
+        "annot_id": 166,
         "sample_id": 32,
         "annotator": "21ec503aa3e04788bb767aaacda516a6",
         "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
+          "Benign"
         ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
+        "note": "These are implied but not explicitly mentioned",
         "annotator_name": "Matt",
-        "summary_span": "Here's a concise summary of the passage:",
-        "summary_start": 0,
-        "summary_end": 40
+        "summary_span": "Western Europe, the Balkans",
+        "summary_start": 455,
+        "summary_end": 482
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2315,6 +2229,20 @@
         "summary_span": "a couple from Spain and Latvia respectively",
         "summary_start": 32,
         "summary_end": 75
+      },
+      {
+        "annot_id": 167,
+        "sample_id": 34,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Missing \"each\" as an important clarification",
+        "annotator_name": "Matt",
+        "summary_span": "three euros per day",
+        "summary_start": 326,
+        "summary_end": 345
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2366,20 +2294,6 @@
         "source_span": "\nthey traversed the entire northern coast of turkey , before riding through georgia and their latest destination , armenia , and they plan to ` continue into asia , across the pacific with the idea to cycle all the length of the american continent . '",
         "source_start": 4501,
         "source_end": 4752
-      },
-      {
-        "annot_id": 120,
-        "sample_id": 35,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
-        "summary_start": 0,
-        "summary_end": 92
       },
       {
         "annot_id": 121,
@@ -2444,20 +2358,6 @@
         "source_span": "\nusually they pitch a tent under the stars and camp ( 161 nights of the 256 ) but also use hosting websites such as couchsurfing ( 66 nights ) and warmshowers ( 44 nights ) .",
         "source_start": 1592,
         "source_end": 1766
-      },
-      {
-        "annot_id": 122,
-        "sample_id": 36,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and is not necessary to summarize",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage, covering the core pieces of information described:",
-        "summary_start": 0,
-        "summary_end": 92
       },
       {
         "annot_id": 124,
@@ -2566,19 +2466,6 @@
         "summary_span": "They rely on free accommodation, such as camping, couchsurfing, and warmshowers",
         "summary_start": 191,
         "summary_end": 270
-      },
-      {
-        "annot_id": 127,
-        "sample_id": 37,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Questionable"
-        ],
-        "note": "It's not clear to me from the source if the \"length of the american continent\" means horizontal or vertically. \n\nSince North and South America are their own continents, I'm confused by \"American continent\" being singular.\n\nI think this is questionable but because the source material is unclear.",
-        "annotator_name": "Matt",
-        "summary_span": "down the length of the American continent.",
-        "summary_start": 657,
-        "summary_end": 699
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2712,20 +2599,6 @@
         "source_end": 4569
       },
       {
-        "annot_id": 129,
-        "sample_id": 40,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This sentence seems to be lacking proper capitalization or maybe N introductory words.",
-        "annotator_name": "Matt",
-        "summary_span": "three-bedroom apartment in Knightsbridge",
-        "summary_start": 1,
-        "summary_end": 41
-      },
-      {
         "annot_id": 130,
         "sample_id": 40,
         "annotator": "21ec503aa3e04788bb767aaacda516a6",
@@ -2772,20 +2645,6 @@
         "source_span": "\negerton place was built off michael 's grove by john grover and son to the designs of architect mervyn macartney around 1893 .",
         "source_start": 2966,
         "source_end": 3093
-      },
-      {
-        "annot_id": 131,
-        "sample_id": 41,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Seems to be incomplete, maybe missing \"A\" a the beginning",
-        "annotator_name": "Matt",
-        "summary_span": "three-bedroom apartment in Knightsbridge",
-        "summary_start": 1,
-        "summary_end": 41
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2820,20 +2679,6 @@
         "source_span": "\n` let it be a warning to check your lease . '",
         "source_start": 4744,
         "source_end": 4790
-      },
-      {
-        "annot_id": 132,
-        "sample_id": 42,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and isn't necessary to summarize it",
-        "annotator_name": "Matt",
-        "summary_span": "Here's a concise summary of the passage:",
-        "summary_start": 0,
-        "summary_end": 40
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2901,22 +2746,7 @@
     "sample_id": 45,
     "source": "a three-bedroom apartment in one of the most expensive areas to live in britain has been put on the market for just £ 575,000 - but the ` bargain ' property comes with a catch . \nthe knightsbridge flat , london , which is on sale for a fraction of the price of neighbouring homes , has just three years left on the lease . \nthe cost would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area . \nthe entrance to the flats in one of the most expensive areas to live in britain where a three-bedroom apartment has been put on the market for just £ 575,000\nbut if any buyer decides to extend the lease , the property could be worth upwards of £ 6 million . \nthe ` unmodernised ' maisonette in the in exclusive egerton place , is described as ` bright and well proportioned ' property with 1,990 sq/ft of space . \nit boasts three bedrooms , two bathrooms , a reception room and utility room along with a lift , parking and a communal garden . \nthe property is being sold by russell simpson for £ 575,000 - the same price as a three-bedroom house in stanmore , middlesex . \nit is one of two maisonettes being sold with three years remaining on the lease . \nboth homes will need to be modernised , with the second , larger property - also on egerton place - on the market for £ 595,000 . \nthe next cheapest three-bedroom property in knightsbridge costs £ 1.5 million , and this flat is only offered with a 28-year lease . \nbut the property comes with a catch , not only is it in dire need of renovation , ( such as in one of its bedrooms , pictured ) the home has just three years left on the lease\nthe cost for £ 575,000 on a three year lease would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area , plus renovation works which are needed , such as in the living room ( pictured )\nbut if any buyer decides to extend the lease , the ` bright and well proportioned ' property with 1,990 sq/ft of space , could be worth upwards of £ 6 million\njake russell , from russell simpson , said : ` properties like this come up once in a blue moon and i think it is an outstanding opportunity . \n` to get properties like this in egerton place is very exciting and the phone has n't stopped ringing , which is quite unusual considering the time of the year with the election around the corner . \n` we have had interest from locals , developers and end users . \nin modernised condition , we would estimate they would sell for between £ 2,750 and £ 3,000 per sq/ft . ' \nthis gives the smaller property a £ 6 million prices tag , while the larger maisonette with 2,500 sq/ft of space could be worth £ 7.5 million . \nthe current freeholder is thought to be the welcome trust and any buyer would have to negotiate a lease extension with them and , for a 90-year lease , it is likely to cost between £ 3.35 and £ 4.5 million . \negerton place was built off michael 's grove by john grover and son to the designs of architect mervyn macartney around 1893 . \nthe properties introduced a higher quality of architecture to the egerton gardens area with each home featuring four main storeys with basements and garrets , finished in costly two-inch bricks of red and orange . \nestate agents said it was rare for properties with such short leases to come on the market and the phone ` has n't stopped ringing ' about the egerton place apartment\nbut alex newall , from hanover private office , had a warning to potential buyers : ` it looks cheap , but there will be a massive premium to pay to extend the lease '\nleases of all the homes were granted by the smith 's charity trustees in 1894 , and its first occupant was , sir evan macgregor , permanent secretary to the admiralty . \nother residents of high status included the dowager lady lawrence , probably the widow of the first baron lawrence , at no. 5 , and sir henry fielding dickens , q.c. , son of the novelist charles at no. 2 . \none property consultant said it was very rare for a pair of properties to come onto the market with such short leases . \nalex newall , from hanover private office , said : ` it looks cheap , but there will be a massive premium to pay to extend the lease . \n` a developer will probably buy it or someone might use it as a rental for three years and then give it back to the freeholder . \n` it is a very quirky situation . \nproperties do come up with very short leases like this every so often but it is very rare for somewhere like knightsbridge . \n` i know someone who let their lease run down to eight years and they thought ` right , i need to extend it ' , but by then it was too late and the extension was too much . \n` let it be a warning to check your lease . '",
     "summary": "Here is a concise summary of the passage:\n\nA three-bedroom apartment in Knightsbridge, London, is on the market for £575,000, a fraction of the price of neighboring homes. However, the property has only three years left on its lease, which would work out to £191,000 per year or £15,000 per month. If the buyer decides to extend the lease, the property could be worth upwards of £6 million. The property is described as \"bright and well-proportioned\" with 1,990 sq/ft of space, but is in need of renovation. The current freeholder is the Welcome Trust, and any buyer would need to negotiate a lease extension with them, which could cost between £3.35 and £4.5 million.",
-    "annotations": [
-      {
-        "annot_id": 133,
-        "sample_id": 45,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and isn't necessary to summarize it",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage:",
-        "summary_start": 0,
-        "summary_end": 41
-      }
-    ],
+    "annotations": [],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "meta_hhemv1": 0.24434,
     "meta_hhem-2.1": 0.98279,
@@ -2932,22 +2762,7 @@
     "sample_id": 46,
     "source": "a three-bedroom apartment in one of the most expensive areas to live in britain has been put on the market for just £ 575,000 - but the ` bargain ' property comes with a catch . \nthe knightsbridge flat , london , which is on sale for a fraction of the price of neighbouring homes , has just three years left on the lease . \nthe cost would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area . \nthe entrance to the flats in one of the most expensive areas to live in britain where a three-bedroom apartment has been put on the market for just £ 575,000\nbut if any buyer decides to extend the lease , the property could be worth upwards of £ 6 million . \nthe ` unmodernised ' maisonette in the in exclusive egerton place , is described as ` bright and well proportioned ' property with 1,990 sq/ft of space . \nit boasts three bedrooms , two bathrooms , a reception room and utility room along with a lift , parking and a communal garden . \nthe property is being sold by russell simpson for £ 575,000 - the same price as a three-bedroom house in stanmore , middlesex . \nit is one of two maisonettes being sold with three years remaining on the lease . \nboth homes will need to be modernised , with the second , larger property - also on egerton place - on the market for £ 595,000 . \nthe next cheapest three-bedroom property in knightsbridge costs £ 1.5 million , and this flat is only offered with a 28-year lease . \nbut the property comes with a catch , not only is it in dire need of renovation , ( such as in one of its bedrooms , pictured ) the home has just three years left on the lease\nthe cost for £ 575,000 on a three year lease would work out at £ 191,000 per year , or £ 15,000 per month - which is around the going rate for renting a three-bedroom flat in the area , plus renovation works which are needed , such as in the living room ( pictured )\nbut if any buyer decides to extend the lease , the ` bright and well proportioned ' property with 1,990 sq/ft of space , could be worth upwards of £ 6 million\njake russell , from russell simpson , said : ` properties like this come up once in a blue moon and i think it is an outstanding opportunity . \n` to get properties like this in egerton place is very exciting and the phone has n't stopped ringing , which is quite unusual considering the time of the year with the election around the corner . \n` we have had interest from locals , developers and end users . \nin modernised condition , we would estimate they would sell for between £ 2,750 and £ 3,000 per sq/ft . ' \nthis gives the smaller property a £ 6 million prices tag , while the larger maisonette with 2,500 sq/ft of space could be worth £ 7.5 million . \nthe current freeholder is thought to be the welcome trust and any buyer would have to negotiate a lease extension with them and , for a 90-year lease , it is likely to cost between £ 3.35 and £ 4.5 million . \negerton place was built off michael 's grove by john grover and son to the designs of architect mervyn macartney around 1893 . \nthe properties introduced a higher quality of architecture to the egerton gardens area with each home featuring four main storeys with basements and garrets , finished in costly two-inch bricks of red and orange . \nestate agents said it was rare for properties with such short leases to come on the market and the phone ` has n't stopped ringing ' about the egerton place apartment\nbut alex newall , from hanover private office , had a warning to potential buyers : ` it looks cheap , but there will be a massive premium to pay to extend the lease '\nleases of all the homes were granted by the smith 's charity trustees in 1894 , and its first occupant was , sir evan macgregor , permanent secretary to the admiralty . \nother residents of high status included the dowager lady lawrence , probably the widow of the first baron lawrence , at no. 5 , and sir henry fielding dickens , q.c. , son of the novelist charles at no. 2 . \none property consultant said it was very rare for a pair of properties to come onto the market with such short leases . \nalex newall , from hanover private office , said : ` it looks cheap , but there will be a massive premium to pay to extend the lease . \n` a developer will probably buy it or someone might use it as a rental for three years and then give it back to the freeholder . \n` it is a very quirky situation . \nproperties do come up with very short leases like this every so often but it is very rare for somewhere like knightsbridge . \n` i know someone who let their lease run down to eight years and they thought ` right , i need to extend it ' , but by then it was too late and the extension was too much . \n` let it be a warning to check your lease . '",
     "summary": "Here is a concise summary of the passage:\n\nA three-bedroom apartment in Knightsbridge, London, is on the market for £575,000, significantly cheaper than neighboring homes. However, the property has only three years left on its lease, making it equivalent to renting a similar flat in the area for £15,000 per month. The property needs modernization and any buyer would have to negotiate a lease extension with the freeholder, the Welcome Trust, which could cost between £3.35 and £4.5 million. If extended, the property could be worth upwards of £6 million. The property is being sold by Russell Simpson, and despite its quirks, has generated significant interest from locals, developers, and end-users.",
-    "annotations": [
-      {
-        "annot_id": 134,
-        "sample_id": 46,
-        "annotator": "21ec503aa3e04788bb767aaacda516a6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This has nothing to do with the source material and isn't necessary to summarize it",
-        "annotator_name": "Matt",
-        "summary_span": "Here is a concise summary of the passage:",
-        "summary_start": 0,
-        "summary_end": 41
-      }
-    ],
+    "annotations": [],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
     "meta_hhemv1": 0.34238,
     "meta_hhem-2.1": 0.97688,
@@ -2980,6 +2795,20 @@
         "source_span": "\nproperties do come up with very short leases like this every so often but it is very rare for somewhere like knightsbridge .",
         "source_start": 4444,
         "source_end": 4569
+      },
+      {
+        "annot_id": 168,
+        "sample_id": 47,
+        "annotator": "21ec503aa3e04788bb767aaacda516a6",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's unclear from the source of this is specific to this area or more broadly in the housing market",
+        "annotator_name": "Matt",
+        "summary_span": "Estate agents say it is rare for properties with such short leases to come on the market",
+        "summary_start": 505,
+        "summary_end": 593
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
