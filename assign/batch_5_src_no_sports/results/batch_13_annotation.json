@@ -3595,6 +3595,37 @@
         "summary_span": "Captain ",
         "summary_start": 276,
         "summary_end": 284
+      },
+      {
+        "annot_id": 316,
+        "sample_id": 35,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Erin is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " Erin Evans",
+        "summary_start": 310,
+        "summary_end": 321
+      },
+      {
+        "annot_id": 317,
+        "sample_id": 35,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Based on source, it already missed.",
+        "annotator_name": "Weisi",
+        "summary_span": "near-misses",
+        "summary_start": 382,
+        "summary_end": 393,
+        "source_span": "But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup.",
+        "source_start": 143,
+        "source_end": 251
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -3708,6 +3739,23 @@
         "summary_span": "matches ",
         "summary_start": 495,
         "summary_end": 503
+      },
+      {
+        "annot_id": 315,
+        "sample_id": 36,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Should be a single match between two teams.",
+        "annotator_name": "Weisi",
+        "summary_span": " matches ",
+        "summary_start": 494,
+        "summary_end": 503,
+        "source_span": "\"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group.",
+        "source_start": 467,
+        "source_end": 707
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -3794,6 +3842,20 @@
         "summary_span": "who believes that the experience of playing in top leagues abroad has helped the team improve",
         "summary_start": 282,
         "summary_end": 375
+      },
+      {
+        "annot_id": 314,
+        "sample_id": 37,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention this fact.",
+        "annotator_name": "Weisi",
+        "summary_span": "The team is led by Bayern Munich forward,",
+        "summary_start": 228,
+        "summary_end": 269
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3860,6 +3922,20 @@
         ],
         "note": "first name not in source",
         "annotator_name": "Erana",
+        "summary_span": "Lisa Evans",
+        "summary_start": 489,
+        "summary_end": 499
+      },
+      {
+        "annot_id": 313,
+        "sample_id": 38,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The name Lisa is not mentioned in source.",
+        "annotator_name": "Weisi",
         "summary_span": "Lisa Evans",
         "summary_start": 489,
         "summary_end": 499

@@ -1834,17 +1834,35 @@
         "summary_end": 482
       },
       {
-        "annot_id": 293,
+        "annot_id": 316,
         "sample_id": 21,
         "annotator": "2916a8b5713448e09499a4ecc0d5f917",
         "label": [
-          "Benign"
+          "Unwanted",
+          "Unwanted.Instrinsic"
         ],
         "note": "That's what Carney said, not an objective fact.",
         "annotator_name": "Renyi Qu",
-        "summary_span": "Carney's decision was not influenced by political pressure or criticism of the Bank's pre-referendum economic forecasts",
+        "summary_span": "Carney's decision was not influenced by political pressure or criticism of the Bank's pre-referendum economic forecasts.",
         "summary_start": 483,
-        "summary_end": 602
+        "summary_end": 603,
+        "source_span": "\"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. ",
+        "source_start": 2773,
+        "source_end": 3076
+      },
+      {
+        "annot_id": 318,
+        "sample_id": 21,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Formal Brexit negotiations started in 2017",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "which were expected to begin in 2018.",
+        "summary_start": 445,
+        "summary_end": 482
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1947,6 +1965,20 @@
         "summary_span": "but also wanted to return to Canada with his family in 2018",
         "summary_start": 670,
         "summary_end": 729
+      },
+      {
+        "annot_id": 319,
+        "sample_id": 22,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "2019 is around the end of the Brexit negotiations, it's not the initial stage",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Carney's extension to 2019 allows him to oversee the initial Brexit negotiations",
+        "summary_start": 317,
+        "summary_end": 397
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1996,12 +2028,28 @@
         "source_end": 3688
       },
       {
-        "annot_id": 271,
+        "annot_id": 320,
         "sample_id": 23,
         "annotator": "2916a8b5713448e09499a4ecc0d5f917",
         "label": [
           "Unwanted",
           "Unwanted.Instrinsic"
+        ],
+        "note": "Carney did not explicitly mention that his decision was not influenced by the criticism of the bank's pre-referendum forecasts. It was added by people around Carney",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Mr. Carney emphasized that his decision was personal and not influenced by political pressure or criticism of the Bank's pre-referendum forecasts.",
+        "summary_start": 584,
+        "summary_end": 730,
+        "source_span": "Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add.",
+        "source_start": 3518,
+        "source_end": 3688
+      },
+      {
+        "annot_id": 321,
+        "sample_id": 23,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
         ],
         "note": "The source is a rational analysis of the decision, not necessarily the family's \"wishes\". What if the family loved UK more than Canada?",
         "annotator_name": "Renyi Qu",
@@ -2136,6 +2184,20 @@
         "source_span": "By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
         "source_start": 3919,
         "source_end": 4073
+      },
+      {
+        "annot_id": 322,
+        "sample_id": 25,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "HIs leaving has nothing to do with allowing this to happen. Also, there's no mention this will happen during Article 50 completion.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "allowing a new Governor to take over during the completion of the Article 50 process.",
+        "summary_start": 618,
+        "summary_end": 703
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2316,6 +2378,23 @@
         "source_span": "But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year.",
         "source_start": 3799,
         "source_end": 3918
+      },
+      {
+        "annot_id": 325,
+        "sample_id": 27,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "His family has already returned to Canada as planned",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "while also allowing his family to return to Canada. \n",
+        "summary_start": 422,
+        "summary_end": 475,
+        "source_span": "But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year.",
+        "source_start": 3799,
+        "source_end": 3918
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2442,6 +2521,23 @@
         "source_span": "Beyond trying to stabilise the economy, it also created a personal issue for the Governor.",
         "source_start": 1477,
         "source_end": 1567
+      },
+      {
+        "annot_id": 326,
+        "sample_id": 29,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source does not mention that his extension \"was seen as stabilizing for the economy\"",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Carney's choice came amidst the backdrop of Brexit negotiations, where his continued presence was seen as stabilizing for the economy.",
+        "summary_start": 326,
+        "summary_end": 460,
+        "source_span": "Beyond trying to stabilise the economy, it also created a personal issue for the Governor.",
+        "source_start": 1477,
+        "source_end": 1567
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -2505,6 +2601,23 @@
         "source_span": "His wit was incomparable, his writing was dazzling and fearless, his intelligence was matched by compassion. \"",
         "source_start": 784,
         "source_end": 894
+      },
+      {
+        "annot_id": 327,
+        "sample_id": 30,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Gill made comments on Rhyl, not the residents of Rhyl ",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "residents of Rhyl",
+        "summary_start": 565,
+        "summary_end": 582,
+        "source_span": "In 1998, he described the Welsh as \"dark, ugly little trolls\" - a comment that was referred to the Commission for Racial Equality - while he once described Rhyl as \"a town only a man driving a crane with a demolition ball would visit with a smile\".",
+        "source_start": 2655,
+        "source_end": 2903
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -2894,19 +3007,6 @@
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nAdrian Gill, a renowned journalist and writer, has died after a battle with cancer. He was a columnist for the Sunday Times, which he joined in 1993, and was known for his wit, fearless writing, and compassion. Gill had been diagnosed with multiple cancers, which he humorously referred to as the \"full English\". Despite his illness, he continued to write and had been engaged to his partner of 23 years, Nicola Formby, with whom he had two children. Tributes have poured in from fellow writers, broadcasters, and journalists, praising Gill's unique style, intelligence, and kind nature. He was a giant among journalists and will be deeply missed by his colleagues and readers.",
     "annotations": [
       {
-        "annot_id": 40,
-        "sample_id": 35,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Questionable"
-        ],
-        "note": "While this is factual, the way this sentence is structured seems to imply that Adrian Gill is a faithful guy with a healthy romantic relationship, which is not true. The fact that he divorced twice was not mentioned in the summary.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "Despite his illness, he continued to write and had been engaged to his partner of 23 years, Nicola Formby, with whom he had two children.",
-        "summary_start": 407,
-        "summary_end": 544
-      },
-      {
         "annot_id": 209,
         "sample_id": 35,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -3010,6 +3110,23 @@
         "summary_span": "a successful writing career",
         "summary_start": 675,
         "summary_end": 702
+      },
+      {
+        "annot_id": 328,
+        "sample_id": 36,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "There's no mention of his ability to tackle controversy. The source only mentions that Gill's articles ofter caused controversy",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "his ability to tackle controversy.",
+        "summary_start": 581,
+        "summary_end": 615,
+        "source_span": "While his writing remained popular, Gill's articles often caused controversy.",
+        "source_start": 2458,
+        "source_end": 2535
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -3076,6 +3193,23 @@
         "source_span": "Jay Rayner, the broadcaster and writer, tweeted that Gill had been a \"controversialist\" but also \"a kind man and a brilliant writer\".",
         "source_start": 1360,
         "source_end": 1493
+      },
+      {
+        "annot_id": 329,
+        "sample_id": 37,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Gill's articles may not be his columns",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "his columns often caused controversy.",
+        "summary_start": 160,
+        "summary_end": 197,
+        "source_span": "While his writing remained popular, Gill's articles often caused controversy.",
+        "source_start": 2458,
+        "source_end": 2535
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3141,20 +3275,6 @@
     "summary": "Adrian Gill, a renowned columnist diagnosed with multiple cancers, passed away recently. Despite his illness, he felt fortunate in life. Gill, who joined the Sunday Times in 1993, was celebrated for his exceptional writing and wit. His final column will be published in the Sunday Times. Colleagues and notable figures praised his unique style and contributions to journalism. Known for his controversial articles, Gill's career spanned art reviews, Tatler, and the Sunday Times. He overcame dyslexia, attended prestigious schools, and had two marriages, with four children. His illness led to his engagement to long-term partner Nicola Formby.",
     "annotations": [
       {
-        "annot_id": 41,
-        "sample_id": 39,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The word \"recently\" is context-dependent.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "recently",
-        "summary_start": 79,
-        "summary_end": 87
-      },
-      {
         "annot_id": 42,
         "sample_id": 39,
         "annotator": "2916a8b5713448e09499a4ecc0d5f917",
@@ -3214,19 +3334,6 @@
     "source": "Little is beyond their reach. Official documents and private communications are made public, and websites blocked. They hijack CCTV cameras, electronic billboards and network printers. The best known of the virtual warriors are the Ukrainian Cyber Troops, the Cyber Berkut and Anonymous International. All three present themselves as independent activists, separate from other, government-sponsored groups. The most prominent pro-Ukrainians hackers are the Ukrainian Cyber Troops, led by Kiev-based programmer Yevhen Dokukin. Most recently, he claimed to have hacked into two Russian interior ministry servers and an email account used by police in Russia's Rostov region - bordering Ukraine's eastern separatist regions. \" I gave all this data to Ukraine's security service, but they still can't get round to analysing it, so do it yourselves,\" he urged readers on Facebook. Volunteer activist group Inform Napalm sifted through more than 35 gigabytes of the data and found what looked like official reports confirming that Russian military servicemen were among the hundreds of people evacuated to Russia after being wounded in Ukraine. The Ukrainian Cyber Troops make extensive use of one of the most tried and tested tools in cyber warfare, the distributed denial-of-service (DDoS) attack. \" DDoS attacks are the Ukrainian Cyber Troops' artillery,\" Mr Dokukin likes saying. Scores of rebel websites were made inaccessible when the Ukrainian Cyber Troops relentlessly bombarded them with fake service requests. To disrupt separatist funding, they target accounts held by rebels in electronic payment systems such as PayPal and WebMoney. The Cyber Troops have also hacked into public CCTV systems in rebel-held areas of eastern Ukraine and monitor them for the movement of troops and military hardware. On 8 December, Yevhen Dokukin claimed to have hijacked network printers in eastern Ukraine and Crimea to print pro-Ukrainian messages and insults against Russian President Vladimir Putin. Some media reports suggest that Ukraine's security services have used information obtained by hackers to direct artillery fire. But officials deny this. \" We only use data obtained by people we trust and know,\" Ukrainian military spokesman Oleksiy Dmytrashkivsky told the BBC. On the other side of the conflict is Cyber Berkut, a staunchly anti-Western group which takes its name from the riot police used against protesters during the unrest in Kiev that led to the ousting of President Viktor Yanukovych. The group's declared goal is thwarting Ukraine's military plans and thus stopping the \"genocide\" that it accuses Kiev of unleashing at America's behest. Its motto is \"We won't forgive or forget\", and its rhetoric closely resembles that of Russian state media. During US Vice-President Joe Biden's visit to Kiev on 20-21 November, Cyber Berkut hacked several Ukrainian government websites, placing a message on their front pages which read: \"Joseph Biden is the fascists' master.\" Cyber Berkut claims to have retrieved confidential documents from a mobile device used by one member of Mr Biden's team while it was in Kiev. The documents appear to detail Washington's military assistance to Ukraine. Another stunt carried out by Cyber Berkut is the apparent hacking of electronic billboards in Kiev, which were made to show a video branding Ukrainian officials and activists \"war criminals\" and featuring highly graphic images of civilians killed in the current conflict. They also claim to have disrupted the electronic vote-counting systems ahead of October's parliamentary election in Ukraine, to have leaked Ukrainian defence ministry data on losses and desertions, and to have blocked President Petro Poroshenko's website. In addition, Russian tabloid Komsomolskaya Pravda quoted a Facebook conversation allegedly hacked by Cyber Berkut, in which Ukrainian officials appear to admit that their forces downed Malaysia Airlines flight MH17. The claim went largely ignored elsewhere and has never been verified. Russian activist group Anonymous International made its name by publishing leaked documents from the Kremlin. It is otherwise known as b0ltai or Shaltay Boltay, which translates as \"Humpty Dumpty\". What is not clear is whether it obtains material through hacking or are given it by Kremlin insiders. The group focuses on Russia's domestic affairs, but some of its material covers Ukraine. In  November it published a letter from a Russian fighter in eastern Ukraine suggesting that locals did not support the separatist forces. And in May it made headlines leaking what it said were emails to and from former Russian FSB colonel Igor Girkin, also known as Strelkov, who was then a key rebel commander in eastern Ukraine. Access to Anonymous International's website is currently blocked in Russia. BBC Monitoring reports and analyses news from TV, radio, web and print media around the world. For more reports from BBC Monitoring, click here. You can follow BBC Monitoring on Twitter and Facebook.",
     "summary": " The passage discusses cyber activities in the ongoing conflict between Ukraine and Russia. The Ukrainian Cyber Troops, led by Yevhen Dokukin, are highlighted as a group that uses DDoS attacks to make rebel websites inaccessible, targets accounts held by rebels in electronic payment systems, hacks into public CCTV systems, and hijacks network printers to print pro-Ukrainian messages. Inform Napalm, a volunteer activist group, has sifted through data obtained by the Ukrainian Cyber Troops and found evidence of Russian military involvement in Ukraine. \n\nOn the other side, Cyber Berkut, an anti-Western group, is known for hacking Ukrainian government websites, disrupting electronic vote-counting systems, leaking Ukrainian defence ministry data, and blocking President Petro Poroshenko's website. They have also been accused of hacking a device used by a member of Joe Biden's team during his visit to Kiev, allegedly obtaining documents detailing Washington's military assistance to Ukraine. \n\nRussian activist group Anonymous International, also known as b0ltai or Shaltay B",
     "annotations": [
-      {
-        "annot_id": 43,
-        "sample_id": 40,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The summary didn't finish.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "Russian activist group Anonymous International, also known as b0ltai or Shaltay B",
-        "summary_start": 1001,
-        "summary_end": 1082
-      },
       {
         "annot_id": 252,
         "sample_id": 40,
@@ -3489,20 +3596,6 @@
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\n* Three prominent groups of hackers are involved in the conflict in Ukraine: the Ukrainian Cyber Troops, Cyber Berkut, and Anonymous International. \n* The Ukrainian Cyber Troops, led by Yevhen Dokukin, have hacked into Russian interior ministry servers, email accounts, and CCTV cameras, and have used distributed denial-of-service (DDoS) attacks to disrupt rebel websites and funding. \n* Cyber Berkut, an anti-Western group, has hacked into Ukrainian government websites, electronic billboards, and mobile devices, and has leaked confidential documents and disrupted electronic vote-counting systems. \n* Anonymous International, a Russian activist group, has published leaked documents from the Kremlin and has focused on Russia's domestic affairs, but has also published material related to Ukraine. \n* The hackers' activities have included monitoring troop movements, disrupting funding, and leaking confidential documents, and have had significant impacts on the conflict. \n* Officials have denied using information obtained by hackers to direct artillery fire, but some media reports suggest otherwise.",
     "annotations": [
       {
-        "annot_id": 46,
-        "sample_id": 46,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted.Extrinsic",
-          "Benign"
-        ],
-        "note": "The source never stated the significance of these hacking activities, but it may be inferred depending on the audience.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "and have had significant impacts on the conflict.",
-        "summary_start": 1021,
-        "summary_end": 1070
-      },
-      {
         "annot_id": 238,
         "sample_id": 46,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -3527,6 +3620,19 @@
         "summary_span": " the conflict in Ukraine",
         "summary_start": 145,
         "summary_end": 169
+      },
+      {
+        "annot_id": 331,
+        "sample_id": 46,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source never stated the significance of these hacking activities, but it may be inferred depending on the audience.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "and have had significant impacts on the conflict.",
+        "summary_start": 1021,
+        "summary_end": 1070
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -3599,6 +3705,22 @@
         "summary_span": "conflict in Ukraine",
         "summary_start": 126,
         "summary_end": 145
+      },
+      {
+        "annot_id": 332,
+        "sample_id": 47,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "\"anti-Western\" may not always be \"pro-Russian\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "a pro-Russian group",
+        "summary_start": 350,
+        "summary_end": 369,
+        "source_span": "Cyber Berkut, a staunchly anti-Western group",
+        "source_start": 2307,
+        "source_end": 2351
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
