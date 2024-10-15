@@ -3,22 +3,7 @@
     "sample_id": 0,
     "source": "veteran actor robert hardy is selling his enormous collection of antiques in a £ 100,000 auction after deciding to downsize his home . \nthe star , known for appearing in all creatures great and small and playing winston churchill several times , is auctioning off more than 200 items he has collected over his career . \nmr hardy , 89 , is a keen military historian who studied english with j.r.r. tolkien and is now an expert on the medieval longbow . \nsale : actor robert hardy is selling off his collection of antiques including a diorama of the battle of agincourt\ncabinets : a pair of early victorian items of furniture made by gillows of lancaster which are set to fetch up to £ 4,000 at the auction on saturday\nportrait : a painting of mr hardy holding a longbow , reflecting his interest in medieval history\none of the most unusual items featured in the auction of his possessions is a hand-painted limewood diorama depicted the progress of the battle of agincourt in 3d . \nthe piece was created by artist l.m. rendall in the 1960s after being commissioned by mr hardy himself , and has an estimate of £ 4,000 to £ 6,000 . \nthere is also a longbow made from yew with a mother-of-pearl handle , as well as a portrait of mr hardy holding the bow , which is set to sell for up to £ 2,000 . \nthe actor is also selling paintings , furniture , swords , flintlock rifles , silverware and a fine collection of crystal chandeliers . \ndiorama : the 3d model was commissioned specially by mr hardy from artist l.m. rendall in the 1960s\nclose-up : the piece was rendered in amazing detail showing the progress of the battle in 1415\nluxurious : a view of many of the items of furniture and other antiques which are being sold\ndozens of books , some dating back to the 17th century , are included in the auction which is set to take place this saturday . \na total of 238 lots are being sold by dominic winter auctioneers at its saleroom in south cerney , gloucestershire . \nmr hardy , who lives in the cotswolds , said that he was sad to sell his collection . \n` downsizing and losing a great part of a treasured library makes for sadness , ' he said . \n` entrusting it all to dominic winter and co has taken away much of the pain , and through them i wish anyone who comes to possess anything that was mine as much joy and pleasure as it has given me through the years . ' \nhistorical : an early 20th-century painting of alfred the great rebuilding london , by frank owen salisbury\nauction : the objects are being sold at dominic winter in gloucestershire on saturday\npride : mr hardy pictured in 2012 with the longbow and other objects from his collection\nhe has built up the haul of antiques thanks to his interest in classic literature and military history . \nmr hardy was taught by tolkien and c.s. lewis when he studied english at magdalen college , oxford , and he has published two books on the history of the longbow . \nhe was also consulted as an expert during the raising of the tudor shipwreck the mary rose . \nmr hardy , a close friend of richard burton , worked with top actors including laurence olivier , john gielgud and judi dench during his early days as a shakespearean specialist . \nhe found national fame playing vet siegfried farnon in all creatures great and small , the hit bbc drama which aired between 1978 and 1990 and also starred lynda bellingham . \nstar : mr hardy , left , is known for his role as vet siegriein the bbc 's all creatures great and small\nrole : he has frequently played winston churchill in a series of television dramas\nnew generation : mr hardy appeared as minister for magic cornelius fudge in the harry potter films\nthe actor is well known for portraying winston churchill in a number of television performances , and has also played churchill 's fellow second world war leader franklin d. roosevelt . \nmore recently , he introduced himself to a younger generation of viewers with an appearance in the harry potter films , where he played cornelius fudge , the minister for magic . \nmr hardy was forced to retire from stage acting two years ago , when he suffered a fall while playing churchill again in the audience , a west end play about the queen which starred helen mirren . \nhowever , he has insisted that he will continue to do television work despite his advanced age .",
     "summary": " Veteran actor Robert Hardy, known for roles in All Creatures Great and Small, playing Winston Churchill several times, and more recently in the Harry Potter films, is downsizing his home and selling his extensive collection of antiques in a £100,000 auction. The collection includes over 200 items such as furniture, paintings, swords, flintlock rifles, silverware, crystal chandeliers, and books dating back to the 17th century. Notable items include a hand-painted limewood diorama of the Battle of Agincourt, a longbow made from yew with a mother-of-pearl handle, a portrait of Hardy holding the bow, and an early 20th-century painting of Alfred the Great rebuilding London. Hardy, who studied English with J.R.R. Tolkien and is an expert on the medieval longbow, has built up his collection due to his interest in classic literature and military history. He has published two books on the history of the longbow and was consulted as an expert during the raising of the Tudor shipwreck the Mary Rose.",
-    "annotations": [
-      {
-        "annot_id": 60,
-        "sample_id": 0,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Such items are mentioned as examples in the antique collection of Mr Hardy without being described as “notable”.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Notable items include a hand-painted limewood diorama of the Battle of Agincourt, a longbow made from yew with a mother-of-pearl handle, a portrait of Hardy holding the bow, and an early 20th-century painting of Alfred the Great rebuilding London.",
-        "summary_start": 431,
-        "summary_end": 678
-      }
-    ],
+    "annotations": [],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
     "meta_hhemv1": 0.4653,
     "meta_hhem-2.1": 0.9837,
@@ -73,19 +58,6 @@
         "summary_span": "memorabilia",
         "summary_start": 160,
         "summary_end": 171
-      },
-      {
-        "annot_id": 131,
-        "sample_id": 1,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Benign"
-        ],
-        "note": "This sentence is cutoff.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Despite retiring from stage acting two years",
-        "summary_start": 885,
-        "summary_end": 929
       },
       {
         "annot_id": 132,
@@ -209,20 +181,6 @@
         "source_span": "\nmr hardy , 89 , is a keen military historian who studied english with j.r.r. tolkien and is now an expert on the medieval longbow . ",
         "source_start": 319,
         "source_end": 452
-      },
-      {
-        "annot_id": 67,
-        "sample_id": 2,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source mentioned several items in Mr Hardy’s collection without saying them being notable.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Notable items in the auction include:",
-        "summary_start": 357,
-        "summary_end": 394
       },
       {
         "annot_id": 69,
@@ -488,6 +446,22 @@
         "source_span": "after deciding to downsize his home",
         "source_start": 97,
         "source_end": 132
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 8,
+        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "in order to downsize his home",
+        "summary_start": 87,
+        "summary_end": 116,
+        "source_span": "after deciding to downsize his home",
+        "source_start": 97,
+        "source_end": 132
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -583,19 +557,6 @@
         "summary_span": "The auction will take place at Dominic Winter Auctioneers in Gloucestershire on Saturday. Hardy, who lives in the Cotswolds",
         "summary_start": 777,
         "summary_end": 900
-      },
-      {
-        "annot_id": 81,
-        "sample_id": 10,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Benign"
-        ],
-        "note": "“Notable” is not mentioned by the source but can be derived.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Notable items",
-        "summary_start": 431,
-        "summary_end": 444
       },
       {
         "annot_id": 82,
@@ -1253,19 +1214,6 @@
     "summary": " Veteran actor Robert Hardy, known for roles in All Creatures Great and Small, playing Winston Churchill several times, and more recently in the Harry Potter films, is downsizing his home and selling his extensive collection of antiques in a £100,000 auction. The collection includes over 200 items such as furniture, paintings, swords, flintlock rifles, silverware, crystal chandeliers, and books dating back to the 17th century. Notable items include a hand-painted limewood diorama of the Battle of Agincourt, a longbow made from yew with a mother-of-pearl handle, a portrait of Hardy holding the bow, and an early 20th-century painting of Alfred the Great rebuilding London. Hardy, who studied English with J.R.R. Tolkien and is an expert on the medieval longbow, has built up his collection due to his interest in classic literature and military history. He has published two books on the history of the longbow and was consulted as an expert during the raising of the Tudor shipwreck the Mary Rose.",
     "annotations": [
       {
-        "annot_id": 98,
-        "sample_id": 20,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Benign"
-        ],
-        "note": "“Notable” is not mentioned in source but can be inferred.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Notable items",
-        "summary_start": 431,
-        "summary_end": 444
-      },
-      {
         "annot_id": 99,
         "sample_id": 20,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
@@ -1429,20 +1377,6 @@
         "summary_end": 355
       },
       {
-        "annot_id": 104,
-        "sample_id": 22,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "“Notable” is not mentioned in the source.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Notable items",
-        "summary_start": 357,
-        "summary_end": 370
-      },
-      {
         "annot_id": 105,
         "sample_id": 22,
         "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
@@ -1546,20 +1480,6 @@
         "summary_span": "medieval longbow",
         "summary_start": 117,
         "summary_end": 133
-      },
-      {
-        "annot_id": 108,
-        "sample_id": 24,
-        "annotator": "c6d5ed98402c48179d88daf1e2e2c7d6",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "I labeled “features” as extrinsic following the same logic of labeling “notable” as extrinsic. I would take words as “including”. But I think words like “features” somehow stress the item detailed in the source are the important ones of the whole collection, but I don’t see hints of cut highlights from the source.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "features",
-        "summary_start": 217,
-        "summary_end": 225
       },
       {
         "annot_id": 109,

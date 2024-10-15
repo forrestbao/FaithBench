@@ -109,6 +109,23 @@
         "summary_span": "The city of Eugene, USA, ",
         "summary_start": 83,
         "summary_end": 108
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 2,
+        "annotator": "c20b7109b1bc418fa8bd685412b1493d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"promote\" does not appeare in the source",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "promote global development of the sport.",
+        "summary_start": 748,
+        "summary_end": 788,
+        "source_span": "\n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . '",
+        "source_start": 1185,
+        "source_end": 1447
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -140,6 +157,23 @@
         "summary_span": "The city of Eugene, USA",
         "summary_start": 0,
         "summary_end": 23
+      },
+      {
+        "annot_id": 93,
+        "sample_id": 3,
+        "annotator": "c20b7109b1bc418fa8bd685412b1493d",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the city is awarded not chosen",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The city of Eugene, USA, has been chosen ",
+        "summary_start": 0,
+        "summary_end": 41,
+        "source_span": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships .",
+        "source_start": 0,
+        "source_end": 111
       }
     ],
     "meta_model": "cohere/command-r-08-2024",

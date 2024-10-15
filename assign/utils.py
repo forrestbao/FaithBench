@@ -421,7 +421,7 @@ class HaluEvaluator():
         
         # Customize the plots
         for i, label in enumerate(labels):
-            axs[i].set_xlabel('Average Source Length (# words)')
+            axs[i].set_xlabel('Source Length (# of words)')
             axs[i].set_ylabel(f'{label} Ratio (%)')
             axs[i].set_title(f'{label} Ratio vs Source Length')
             axs[i].grid(True, linestyle='--', alpha=0.7)

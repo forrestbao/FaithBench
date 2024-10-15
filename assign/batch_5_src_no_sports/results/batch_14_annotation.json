@@ -64,46 +64,6 @@
     "summary": " Militants armed with guns and grenades attacked a hospital in Afghanistan, killing all four attackers after a two-hour standoff with commandos. The attack, claimed by the Islamic State (IS) group, resulted in over 50 injuries. The hospital attack marks a shift in IS's approach, engaging directly with security forces in the capital for the first time. Previously, IS mainly targeted civilian gatherings and rival Taliban forces in the east. The attack highlights the potential for more such assaults in the future, as IS appears to be expanding its attacks and resources. The Taliban has denied involvement in the attack. \n\nThe attack began at 09:00 local time (04:30 GMT) when an attacker wearing a white coat and carrying a Kalashnikov opened fire on hospital staff, patients, and guards. The attacker's entry was facilitated by detonating explosives at the hospital gate. The Afghan government claims to have rooted out IS militants from bases in the east but has yet to dislodge them from mountainous areas they control. \n\nPresident Ash",
     "annotations": [
       {
-        "annot_id": 2,
-        "sample_id": 1,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The summary didn't finish, likely due to max sequence length limit.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "President Ash",
-        "summary_start": 1029,
-        "summary_end": 1042
-      },
-      {
-        "annot_id": 3,
-        "sample_id": 1,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source said \"after several hours of fighting\", not \"two-hour\".",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "after a two-hour standoff",
-        "summary_start": 103,
-        "summary_end": 128
-      },
-      {
-        "annot_id": 4,
-        "sample_id": 1,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source said \"from a number of bases in the east\", which may not be equivalent to \"from bases in the east\".",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "from bases in the east",
-        "summary_start": 938,
-        "summary_end": 960
-      },
-      {
         "annot_id": 52,
         "sample_id": 1,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -170,6 +130,72 @@
         "source_span": "Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. ",
         "source_start": 1278,
         "source_end": 1924
+      },
+      {
+        "annot_id": 276,
+        "sample_id": 1,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "After several hours, not two hours.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "killing all four attackers after a two-hour standoff with commandos",
+        "summary_start": 76,
+        "summary_end": 143,
+        "source_span": "Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting.",
+        "source_start": 146,
+        "source_end": 258
+      },
+      {
+        "annot_id": 277,
+        "sample_id": 1,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This is said by the defense ministry, not an objective fact.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The attack, claimed by the Islamic State (IS) group, resulted in over 50 injuries.",
+        "summary_start": 145,
+        "summary_end": 227,
+        "source_span": "More than 50 people were also wounded, the defence ministry said.",
+        "source_start": 362,
+        "source_end": 427
+      },
+      {
+        "annot_id": 278,
+        "sample_id": 1,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"from bases in the east\" may not be the same as \"from a number of bases in the east\".",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "from bases in the east",
+        "summary_start": 938,
+        "summary_end": 960,
+        "source_span": "The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control.",
+        "source_start": 2066,
+        "source_end": 2221
+      },
+      {
+        "annot_id": 296,
+        "sample_id": 1,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "One hospital staff member saw an attacker, but it might not be the beginning of the attack",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The attack began at 09:00 local time (04:30 GMT) when an attacker wearing a white coat and carrying a Kalashnikov opened fire on hospital staff, patients, and guards.",
+        "summary_start": 626,
+        "summary_end": 792,
+        "source_span": "One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\".",
+        "source_start": 827,
+        "source_end": 1011
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -188,19 +214,6 @@
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe passage describes a militant attack on the Sardar Daud hospital in Afghanistan. Armed with guns and grenades, attackers detonated explosives at the hospital gate and opened fire on staff and patients. After several hours of fighting, commandos killed all four attackers. The Islamic State (IS) claimed responsibility for the attack, while the Taliban denied involvement. Over 50 people were wounded, and President Ashraf Ghani condemned the attack as trampling human values. \n\nThe attack began at 09:00 local time, with witnesses describing an attacker in a white coat firing indiscriminately. Afghan security forces ended the operation after more than six hours. This attack marks a change in IS tactics in Afghanistan, as it's their first direct engagement with security forces in the capital. \n\nThe passage also mentions previous IS attacks in Afghanistan, including suicide bombings at rallies, religious festivals, and the Supreme Court. It notes that IS announced its presence in Afghanistan and Pakistan in 2015 and has since carried out multiple attacks. The Taliban is also mentioned as being active in the region, having conducted",
     "annotations": [
-      {
-        "annot_id": 5,
-        "sample_id": 2,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The summary didn't finish, likely due to max sequence length limit.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "The Taliban is also mentioned as being active in the region, having conducted",
-        "summary_start": 1150,
-        "summary_end": 1227
-      },
       {
         "annot_id": 54,
         "sample_id": 2,
@@ -262,6 +275,39 @@
         "source_span": "The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
         "source_start": 3395,
         "source_end": 3544
+      },
+      {
+        "annot_id": 279,
+        "sample_id": 2,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This is said by the defense ministry and may not be an objective fact.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Over 50 people were wounded",
+        "summary_start": 458,
+        "summary_end": 485,
+        "source_span": "More than 50 people were also wounded, the defence ministry said.",
+        "source_start": 362,
+        "source_end": 427
+      },
+      {
+        "annot_id": 297,
+        "sample_id": 2,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Sediq tweeted that special forces had ended the operation after more than six hours does not mean that the operation lasted more than six hours.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Afghan security forces ended the operation after more than six hours.",
+        "summary_start": 681,
+        "summary_end": 750,
+        "source_span": "More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead.",
+        "source_start": 2330,
+        "source_end": 2502
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -338,6 +384,46 @@
         "source_span": "This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. ",
         "source_start": 1548,
         "source_end": 1733
+      },
+      {
+        "annot_id": 298,
+        "sample_id": 3,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Cannot know if there are people killed from the source",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "killing and wounding many.",
+        "summary_start": 102,
+        "summary_end": 128
+      },
+      {
+        "annot_id": 299,
+        "sample_id": 3,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The sentence is confusing. There is no obvious connection between Taliban's deny and government claims in the source",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The Taliban denied involvement, while the government claims to have eliminated IS from some eastern bases but struggles to control mountainous regions.",
+        "summary_start": 632,
+        "summary_end": 783
+      },
+      {
+        "annot_id": 300,
+        "sample_id": 3,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source indicaets no \"growing\" but only assesses that IS has reached a level. Also, \"in coming months\" are missing in the summary.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The attack demonstrates IS's growing capabilities and resources, potentially leading to more assaults on security forces.",
+        "summary_start": 395,
+        "summary_end": 516
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -420,6 +506,52 @@
         "source_span": "IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
         "source_start": 3242,
         "source_end": 3544
+      },
+      {
+        "annot_id": 280,
+        "sample_id": 4,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This is said by the defense ministry and may not be a fact.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "with over 50 others wounded",
+        "summary_start": 255,
+        "summary_end": 282,
+        "source_span": "More than 50 people were also wounded, the defence ministry said.",
+        "source_start": 362,
+        "source_end": 427
+      },
+      {
+        "annot_id": 301,
+        "sample_id": 4,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "requires world knowledge to know the hospital attack was in Kabul.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The passage describes a militant attack on Sardar Daud hospital in Kabul, Afghanistan",
+        "summary_start": 0,
+        "summary_end": 85
+      },
+      {
+        "annot_id": 302,
+        "sample_id": 4,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not \"growing\", but reaching a certain level.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The attack highlights IS's growing capabilities and potential for more assaults.",
+        "summary_start": 438,
+        "summary_end": 518,
+        "source_span": "This suggests they now have the resources and the military training to expand their attacks.",
+        "source_start": 1548,
+        "source_end": 1640
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -438,20 +570,6 @@
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nMilitants affiliated with the Islamic State (IS) attacked the Sardar Daud hospital in Kabul, Afghanistan, detonating explosives at the gate and opening fire on staff and patients. The attack, which began at 09:00 local time, killed four attackers and injured over 50 people. The IS group has claimed responsibility for the attack, which marks a change in approach for the group, as they have previously targeted civilian gatherings and have now engaged directly with security forces in the capital. The Taliban has denied any involvement in the attack. The Afghan government has vowed to avenge the attack and IS has been expanding its attacks in Afghanistan and Pakistan in recent months.",
     "annotations": [
-      {
-        "annot_id": 6,
-        "sample_id": 5,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source said \"IS has stepped up activity in both Afghanistan and Pakistan\", but not \"in recent months\".",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "in recent months",
-        "summary_start": 766,
-        "summary_end": 782
-      },
       {
         "annot_id": 70,
         "sample_id": 5,
@@ -484,6 +602,49 @@
         "source_span": "IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
         "source_start": 3242,
         "source_end": 3544
+      },
+      {
+        "annot_id": 281,
+        "sample_id": 5,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This is said by the defense ministry and may not be an objective fact.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "injured over 50 people",
+        "summary_start": 345,
+        "summary_end": 367,
+        "source_span": "More than 50 people were also wounded, the defence ministry said.",
+        "source_start": 362,
+        "source_end": 427
+      },
+      {
+        "annot_id": 303,
+        "sample_id": 5,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "need world knowledge to know the attack was in Kabul.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Kabul, Afghanistan",
+        "summary_start": 180,
+        "summary_end": 198
+      },
+      {
+        "annot_id": 304,
+        "sample_id": 5,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not found in source",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "in recent months",
+        "summary_start": 766,
+        "summary_end": 782
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -502,20 +663,6 @@
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Here is a concise summary of the passage:\n\nMilitants affiliated with the Islamic State (IS) attacked a 400-bed hospital in Kabul, Afghanistan, killing an unknown number of people and wounding over 50. The attack began at 09:00 local time with explosives and gunfire, and commandos killed all four attackers after several hours of fighting. IS has claimed responsibility for the attack, while the Taliban has denied involvement. The attack marks a change in approach for IS, which has previously targeted civilian gatherings and now appears to have the resources and training to expand its attacks. The Afghan government has condemned the attack, with President Ashraf Ghani stating that it \"trampled all human values\".",
     "annotations": [
-      {
-        "annot_id": 7,
-        "sample_id": 6,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source never said anything about killing, other than the 4 attackers. This statement is simply unnecessary. What if there's no one else getting killed in the attack?",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "killing an unknown number of people",
-        "summary_start": 143,
-        "summary_end": 178
-      },
       {
         "annot_id": 73,
         "sample_id": 6,
@@ -545,6 +692,20 @@
         "source_span": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients.",
         "source_start": 0,
         "source_end": 145
+      },
+      {
+        "annot_id": 282,
+        "sample_id": 6,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source never said anything about killing, other than the 4 attackers. This statement is simply unnecessary. What if there's no one else getting killed in the attack?",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "killing an unknown number of people",
+        "summary_start": 143,
+        "summary_end": 178
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -634,6 +795,19 @@
         "summary_span": "The attack resulted in the deaths of at least 16 people",
         "summary_start": 490,
         "summary_end": 545
+      },
+      {
+        "annot_id": 305,
+        "sample_id": 7,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "need world knowledge",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Kabul, Afghanistan",
+        "summary_start": 83,
+        "summary_end": 101
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -652,20 +826,6 @@
     "source": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients. Commandos who landed on the Sardar Daud hospital roof killed all four attackers after several hours of fighting. The so-called Islamic State (IS) group has claimed the attack. The Taliban has denied any involvement. More than 50 people were also wounded, the defence ministry said. World powers jostle in Afghanistan's new 'Great Game' How successful has IS been in Afghanistan? Stuck between IS and the Taliban President Ashraf Ghani said the attack at the 400-bed hospital \"trampled all human values\". \" In all religions, a hospital is regarded as an immune site and attacking it is attacking the whole of Afghanistan,\" he said. The attack began at 09:00 local time (04:30 GMT). One hospital staff member who was able to get out saw an attacker \"wearing a white coat holding a Kalashnikov and opening fire on everyone, including the guards, patients and doctors\". One employee wrote on Facebook: \"Attackers are inside the hospital. Pray for us.\" The hospital attack marks a change in approach by so-called Islamic State fighters in Afghanistan - it's the first time they have engaged directly with security forces in the capital. Previously they have targeted civilian gatherings, mainly of Shia Muslims, as well as causing carnage at the Supreme Court last month. But at the hospital they used an approach more commonly associated with the Taliban - blowing the gates open to allow gunmen to enter. This suggests they now have the resources and the military training to expand their attacks. If that's the case, the security forces could face more such assaults in the coming months. In the two years since it announced its presence in Afghanistan, IS has mainly engaged with Afghan forces - and more powerful, rival Taliban fighters - in the east, near the Pakistan border. It has failed so far to widen its base in the country - one reason, observers suggest, it may now be mounting more headline-grabbing attacks. The government claims it has rooted out IS militants from a number of bases in the east - but has yet to dislodge them from mountainous areas they control. TV pictures showed people hiding from the gunmen on ledges outside windows on upper floors of the building. More than six hours after the attack began, interior ministry spokesman Sediq Sediqqi tweeted that special forces had ended their operation and all the attackers were dead. The IS-affiliated Amaq news agency shared two images via the Telegram messaging app that appeared to show one of the militants taking part in the assault and a number of dead bodies. Afghanistan's de-facto deputy leader Abdullah Abdullah also condemned the attack on Twitter and vowed to \"avenge the blood of our people\". IS announced it was moving into Afghanistan and Pakistan when it declared its so-called Khorasan Province in 2015 and has since carried out a number of attacks. In July 2016, a suicide bomb attack on a rally in Kabul killed about 80 people. Three months later, two similar attacks during the religious festival of Ashura claimed about 30 lives and in November 2016 an attack at a mosque in Kabul killed more than 30. IS also claimed a suicide attack at Kabul's Supreme Court last month that killed 22 people and has stepped up activity in both Afghanistan and Pakistan. The Taliban has also been carrying out attacks, killing 16 people in Kabul in suicide attacks a week ago, after beginning its Spring offensive early.",
     "summary": "Militants armed with guns and grenades attacked a hospital in Kabul, Afghanistan, killing staff and patients. The attackers were eventually killed by commandos. The Islamic State (IS) group claimed responsibility for the attack, while the Taliban denied involvement. Over 50 people were wounded in the attack. This marks a change in approach for IS in Afghanistan, as they have previously targeted civilian gatherings and engaged with Afghan forces and the Taliban in the east of the country. The government claims to have rooted out IS militants from some bases, but they still control mountainous areas. The attack on the hospital suggests that IS now has the resources and military training to expand their attacks.",
     "annotations": [
-      {
-        "annot_id": 12,
-        "sample_id": 8,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source said \"opened fire on staff and patients\" and did not say anything about killing them. They could have survived the wounds.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "killing staff and patients",
-        "summary_start": 82,
-        "summary_end": 108
-      },
       {
         "annot_id": 79,
         "sample_id": 8,
@@ -695,6 +855,36 @@
         "summary_span": "killing staff and patients.",
         "summary_start": 82,
         "summary_end": 109
+      },
+      {
+        "annot_id": 283,
+        "sample_id": 8,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source said \"opened fire on staff and patients\" and did not say anything about killing them. They could have survived the wounds.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "killing staff and patients",
+        "summary_start": 82,
+        "summary_end": 108,
+        "source_span": "Militants armed with guns and grenades gained entry after one detonated explosives at a hospital gate and then opened fire on staff and patients.",
+        "source_start": 0,
+        "source_end": 145
+      },
+      {
+        "annot_id": 306,
+        "sample_id": 8,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "need world knowledge",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Kabul, Afghanistan",
+        "summary_start": 62,
+        "summary_end": 80
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -751,6 +941,36 @@
         "summary_span": "The attack, condemned by Afghan leaders, highlights IS's growing capability and the ongoing threat to security forces.",
         "summary_start": 644,
         "summary_end": 762
+      },
+      {
+        "annot_id": 307,
+        "sample_id": 9,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "need world knowledge",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Kabul",
+        "summary_start": 72,
+        "summary_end": 77
+      },
+      {
+        "annot_id": 308,
+        "sample_id": 9,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "not growing but to a certain degree. not ongoing threat.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "highlights IS's growing capability and the ongoing threat to security forces.",
+        "summary_start": 685,
+        "summary_end": 762,
+        "source_span": "If that's the case, the security forces could face more such assaults in the coming months.",
+        "source_start": 1641,
+        "source_end": 1732
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -769,34 +989,6 @@
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": " The passage discusses the shortlist for the 46th annual Booker Prize, which is open to all authors writing in English. The favorite to win is Mukherjee's The Lives of Others, set in 1960s Calcutta, followed by Richard Flanagan's The Narrow Road to the Deep North. Other shortlisted authors include former Booker winner Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and David Mitchell. The winner will be announced at London's Guildhall on Tuesday night and will receive £50,000. The passage also mentions that the shortlist has been criticized for being weak and that there may be reluctance to make Howard Jacobson a two-time winner due to Hilary Mantel's recent double win. Each shortlisted author receives £2,500 and a specially bound edition of their book. The ceremony will be covered by the BBC News Channel and BBC Arts.",
     "annotations": [
-      {
-        "annot_id": 15,
-        "sample_id": 10,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Who's David Mitchell?",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "David Mitchell",
-        "summary_start": 385,
-        "summary_end": 399
-      },
-      {
-        "annot_id": 16,
-        "sample_id": 10,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Not found in the source. I wish I will receive £50,000.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "and will receive £50,000",
-        "summary_start": 469,
-        "summary_end": 493
-      },
       {
         "annot_id": 90,
         "sample_id": 10,
@@ -856,6 +1048,53 @@
         "source_span": "This year marks is 46th year of the Booker Prize.",
         "source_start": 3372,
         "source_end": 3421
+      },
+      {
+        "annot_id": 284,
+        "sample_id": 10,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not found in source but can be confirmed by world knowledge",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "will receive £50,000.",
+        "summary_start": 473,
+        "summary_end": 494
+      },
+      {
+        "annot_id": 285,
+        "sample_id": 10,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not David Mitchell, but Richard Fianagan.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "David Mitchell.",
+        "summary_start": 385,
+        "summary_end": 400,
+        "source_span": "Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan",
+        "source_start": 435,
+        "source_end": 519
+      },
+      {
+        "annot_id": 309,
+        "sample_id": 10,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's just the David Brauner's opinion. Not a general criticism.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "the shortlist has been criticized for being weak",
+        "summary_start": 526,
+        "summary_end": 574,
+        "source_span": "It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \"",
+        "source_start": 2594,
+        "source_end": 2790
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -956,6 +1195,19 @@
         "source_span": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1.",
         "source_start": 0,
         "source_end": 555
+      },
+      {
+        "annot_id": 310,
+        "sample_id": 11,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Mukherjee is also on the list. The summary implies that there are only 5 authors on the shortlist",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The shortlist includes Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan",
+        "summary_start": 254,
+        "summary_end": 358
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -974,47 +1226,6 @@
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "Here's a concise summary of the passage:\n\nThe passage discusses the 2014 Man Booker Prize shortlist and its contenders. Key points include:\n\n1. Neel Mukherjee's \"The Lives of Others\" is the bookmakers' favorite to win. \n\n2. This is the first year the prize is open to all English-language authors, regardless of nationality. \n\n3. The shortlist includes six authors: three British, two American, and one Australian. \n\n4. Brief descriptions of each shortlisted novel are provided. \n\n5. Karen Joy Fowler's \"We Are All Completely Beside Ourselves\" is the best-selling shortlisted book. \n\n6. The announcement of the shortlist caused a sales spike for all nominated books. \n\n7. Some controversy surrounds the selection, with a literature professor calling it a \"weak list.\" \n\n8. The winner will be announced at London's Guildhall, with the ceremony covered by BBC. \n\n9. This is the 46th year of the Booker Prize, with each shortlisted author receiving £2,500 and a special edition of their book. \n\nHuman",
     "annotations": [
-      {
-        "annot_id": 18,
-        "sample_id": 12,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The summary didn't finish.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "Human",
-        "summary_start": 992,
-        "summary_end": 997
-      },
-      {
-        "annot_id": 19,
-        "sample_id": 12,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source is about \"Booker Prize\". No \"2014\". No \"Man\".",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "the 2014 Man Booker Prize",
-        "summary_start": 64,
-        "summary_end": 89
-      },
-      {
-        "annot_id": 20,
-        "sample_id": 12,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The first name is not found in the source.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "Neel",
-        "summary_start": 144,
-        "summary_end": 148
-      },
       {
         "annot_id": 102,
         "sample_id": 12,
@@ -1040,6 +1251,32 @@
         "summary_span": "the 2014 Man Booker Prize",
         "summary_start": 64,
         "summary_end": 89
+      },
+      {
+        "annot_id": 286,
+        "sample_id": 12,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not found in the source but can be confirmed by world knowledge.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "the 2014 Man Booker Prize",
+        "summary_start": 64,
+        "summary_end": 89
+      },
+      {
+        "annot_id": 287,
+        "sample_id": 12,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not found in the source but can be confirmed by world knowledge.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Neel Mukherjee",
+        "summary_start": 144,
+        "summary_end": 158
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1086,6 +1323,19 @@
         "source_span": "Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist.",
         "source_start": 308,
         "source_end": 434
+      },
+      {
+        "annot_id": 311,
+        "sample_id": 13,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Mukherjee is also on the list. The summary implies that there are only 5 authors on the shortlist",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The shortlist includes former winner Howard Jacobson, Ali Smith, Joshua Ferris, Karen Joy Fowler, and Richard Flanagan.",
+        "summary_start": 179,
+        "summary_end": 298
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -1104,34 +1354,6 @@
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The passage discusses the shortlist for the 2014 Booker Prize, which is open to all authors writing in English. Key points include:\n\n- Mukherjee's \"The Lives of Others\" is the favorite to win. \n- The prize winner will be announced at London's Guildhall. \n- Authors from Britain, America, and Australia are represented on the shortlist. \n- Notable books include Howard Jacobson's \"J\", Ali Smith's \"How To Be Both\", Joshua Ferris's \"To Rise Again at a Decent Hour\", Karen Joy Fowler's \"We Are All Completely Beside Ourselves\", and Richard Flanagan's \"The Narrow Road to the Deep North\". \n- Sales figures show \"We Are All Completely Beside Ourselves\" is the best-selling book on the list. \n- The prize has been running for 46 years, and last year's winner was Eleanor Catton from New Zealand. \n- The judging panel includes AC Grayling and four other members.",
     "annotations": [
-      {
-        "annot_id": 22,
-        "sample_id": 14,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "\"2014\" is not found in the source.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "2014",
-        "summary_start": 44,
-        "summary_end": 48
-      },
-      {
-        "annot_id": 23,
-        "sample_id": 14,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source said \"Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner\". That's 5 members.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "and four other members.",
-        "summary_start": 832,
-        "summary_end": 855
-      },
       {
         "annot_id": 113,
         "sample_id": 14,
@@ -1161,6 +1383,36 @@
         "source_span": "The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner.",
         "source_start": 3422,
         "source_end": 3557
+      },
+      {
+        "annot_id": 288,
+        "sample_id": 14,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not found in the source but can be confirmed by world knowledge.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "the 2014 Booker Prize",
+        "summary_start": 40,
+        "summary_end": 61
+      },
+      {
+        "annot_id": 289,
+        "sample_id": 14,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "5 instead of 4.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The judging panel includes AC Grayling and four other members.",
+        "summary_start": 793,
+        "summary_end": 855,
+        "source_span": "The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner.",
+        "source_start": 3422,
+        "source_end": 3557
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -1179,20 +1431,6 @@
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe Booker Prize, now in its 46th year, has announced its shortlist for 2014. The shortlisted authors are: Howard Jacobson (J), Ali Smith (How To Be Both), Joshua Ferris (To Rise Again at a Decent Hour), Karen Joy Fowler (We Are All Completely Beside Ourselves), Richard Flanagan (The Narrow Road to the Deep North), and Neel Mukherjee (The Lives of Others). The winner will be announced on Tuesday night at London's Guildhall, with Mukherjee's book currently the favourite to win. The prize is open to all authors writing in English, regardless of nationality, for the first time this year.",
     "annotations": [
-      {
-        "annot_id": 24,
-        "sample_id": 15,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Not found in the source.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "Neel",
-        "summary_start": 415,
-        "summary_end": 419
-      },
       {
         "annot_id": 118,
         "sample_id": 15,
@@ -1218,6 +1456,32 @@
         "summary_span": "Neel Mukherjee",
         "summary_start": 415,
         "summary_end": 429
+      },
+      {
+        "annot_id": 290,
+        "sample_id": 15,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not found in the source but can be confirmed by world knowledge.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Neel Mukherjee",
+        "summary_start": 415,
+        "summary_end": 429
+      },
+      {
+        "annot_id": 312,
+        "sample_id": 15,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "world knowledge",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "for 2014",
+        "summary_start": 162,
+        "summary_end": 170
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -1237,20 +1501,6 @@
     "summary": "Here is a concise summary of the passage, covering the core pieces of information described:\n\nThe Booker Prize shortlist has been announced, with six authors competing for the award. The favourite to win is Neel Mukherjee's \"The Lives Of Others\", a novel set in 1960s Calcutta. The shortlist also includes Howard Jacobson's \"J\", Ali Smith's \"How To Be Both\", Joshua Ferris's \"To Rise Again at a Decent Hour\", Karen Joy Fowler's \"We Are All Completely Beside Ourselves\", and Richard Flanagan's \"The Narrow Road to the Deep North\". This is the first year the prize is open to all authors writing in English, regardless of nationality. The winner will be announced on Tuesday night at London's Guildhall, with each shortlisted author receiving £2,500 and a specially bound edition of their book.",
     "annotations": [
       {
-        "annot_id": 25,
-        "sample_id": 16,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Not found in the source.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "Neel",
-        "summary_start": 207,
-        "summary_end": 211
-      },
-      {
         "annot_id": 121,
         "sample_id": 16,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -1259,6 +1509,19 @@
         ],
         "note": "",
         "annotator_name": "Miaoran",
+        "summary_span": "Neel Mukherjee",
+        "summary_start": 207,
+        "summary_end": 221
+      },
+      {
+        "annot_id": 291,
+        "sample_id": 16,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not found in the source but can be confirmed by world knowledge.",
+        "annotator_name": "Renyi Qu",
         "summary_span": "Neel Mukherjee",
         "summary_start": 207,
         "summary_end": 221
@@ -1280,20 +1543,6 @@
     "source": "Mukherjee's The Lives Of Others, a sweeping account of life in 1960s Calcutta, is 5/2 favourite to win with bookmakers William Hill. It is the first year that the prize is open to all authors writing in English, regardless of nationality. The winner will be announced at London's Guildhall on Tuesday night. Former Booker winner Howard Jacobson is among three British writers, two Americans and an Australian on this year's shortlist. Also on the list are Ali Smith, Joshua Ferris, Karen Joy Fowler and Richard Flanagan, who is next in the betting at 3/1. Jacobson, who won in 2010 for his comic novel The Finkler Question, is nominated for his futuristic love story J. It features two main characters who inhabit a world where the past is not spoken about and is shrouded in suspicion, referred to as \"What Happened, If It Happened\". Mukherjee's The Lives of Others begins in Calcutta in 1967, and which focuses on the secrets and rivalries within a family against a backdrop of political activism. Inverness-born Smith's How To Be Both tells two interlinking stories, one about a renaissance artist in 15th Century Italy, the other about a child of the 1960s - and the reader can decide which half to read first. She has been shortlisted twice before, with 2005's The Accidental and Hotel World in 2001. American Ferris's third novel, To Rise Again at a Decent Hour, looks at atheism through the eyes of a New York dentist, who is puzzled when someone sets up an online Facebook and Twitter account in his name. The other American is Fowler, who is nominated for We Are All Completely Beside Ourselves. The book, narrated by a college student Rosemary, tells the story of her  family: two parents and three children - one of whom turns out to be surprisingly special. Australia's Flanagan is the only non-British representative of the Commonwealth on the shortlist. He is nominated for The Narrow Road to the Deep North, a love story set against the construction of the Thailand-Burma Death Railway in World War Two. Of all the shortlisted novels, Fowler's We Are All Completely Beside Ourselves is by far the best-selling. Since it was published in March it has sold more than 55,000 copies, according to figures from Nielsen. The next closest is Ferris's To Rise Again at a Decent Hour with just over 6,000 sales since it was published at the end of May. The announcement of the final six on 9 September caused a sales spike for all the books on the shortlist.  Mukherjee's The Lives of Others, which sold 97 copies in the week before the announcement saw sales leap to 507 a week later. \" It's a weak list that is more notable for the novels it has omitted than for those that have made the cut,\" said David Brauner, professor of contemporary literature at the University of Reading. \" The strongest book on the list is Howard Jacobson's J, but I fear there may be some reluctance to make him a two-time winner so soon after Hilary Mantel's double win (with Wolf Hall and Bring Up the Bodies). \" John Sutherland's mischievous (or perhaps malicious) nomination of J at the top of his list of The Top 10 Unfinishable Novels in The Guardian last week won't have helped its chances either. \" It revives the perennial debate about whether the prize should be awarded on literary merit alone or whether it should only reward what Stella Rimington called 'readable' books.\" This year marks is 46th year of the Booker Prize. The judging panel, chaired by AC Grayling, consists of Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven and Erica Wagner. Last year, the Booker was won by New Zealand's Eleanor Catton for The Luminaries. At 28, she was the youngest-ever winner. The shortlisted authors each receive £2,500 and a specially bound edition of their book. Coverage from this year's ceremony, where the prize will be presented by the Duchess of Cornwall. will be on the BBC News Channel from 2130 BST and on BBC Arts.",
     "summary": "The 2014 Man Booker Prize shortlist includes six novels: *The Lives of Others* by Jhumpa Lahiri, *J* by Howard Jacobson, *How To Be Both* by Ali Smith, *To Rise Again at a Decent Hour* by Joshua Ferris, *We Are All Completely Beside Ourselves* by Karen Joy Fowler, and *The Narrow Road to the Deep North* by Richard Flanagan. The winner will be announced on Tuesday night at London's Guildhall. The prize is open to all authors writing in English, regardless of nationality. The shortlist includes three British writers, two Americans, and one Australian. The judging panel is chaired by AC Grayling and includes Sarah Churchwell, Jonathan Bate, Daniel Glaser, Alastair Niven, and Erica Wagner. \n",
     "annotations": [
-      {
-        "annot_id": 26,
-        "sample_id": 17,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "\"2014\" and \"Man\" are not found in the source.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "2014 Man Booker Prize",
-        "summary_start": 4,
-        "summary_end": 25
-      },
       {
         "annot_id": 123,
         "sample_id": 17,
@@ -1340,6 +1589,19 @@
         "source_span": "Mukherjee's The Lives Of Others",
         "source_start": 0,
         "source_end": 31
+      },
+      {
+        "annot_id": 292,
+        "sample_id": 17,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "Not found in the source but can be confirmed by world knowledge.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The 2014 Man Booker Prize",
+        "summary_start": 0,
+        "summary_end": 25
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -1431,19 +1693,6 @@
     "summary": " Mark Carney, the Governor of the Bank of England, announced an unexpected one-year extension of his term, which was set to end in 2018. Initially, it was speculated that he would either stay until 2021 or leave as planned. However, Carney chose a third option due to personal reasons. In 2018, one of his daughters will be finishing her A-levels, and another will be completing her GCSEs. He felt that this extension would allow him to return home to Canada and its renowned education system at an appropriate time for his family. The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May. Carney's decision was purely personal, and he will leave after the Article 50 process of decoupling Britain from the EU is complete, allowing a new Governor to plot Britain's economic future.",
     "annotations": [
       {
-        "annot_id": 29,
-        "sample_id": 20,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Benign"
-        ],
-        "note": "This part is a subjective statement by Carney, but not necessarily an objective fact. Politicians lie all the time. This part should have been framed with a \"Carney said ...\"",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May. Carney's decision was purely personal",
-        "summary_start": 532,
-        "summary_end": 715
-      },
-      {
         "annot_id": 262,
         "sample_id": 20,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -1492,6 +1741,40 @@
         "source_span": "It will then be for a new Governor to plot Britain's economic future.",
         "source_start": 4004,
         "source_end": 4073
+      },
+      {
+        "annot_id": 313,
+        "sample_id": 20,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "1. His leaving has no causal relationship with the completion of Article 50.\n2. His leaving has no causal relationship with allowing a new governor to plot Britain's economic future.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "he will leave after the Article 50 process of decoupling Britain from the EU is complete, allowing a new Governor to plot Britain's economic future.",
+        "summary_start": 721,
+        "summary_end": 869,
+        "source_span": "By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
+        "source_start": 3919,
+        "source_end": 4073
+      },
+      {
+        "annot_id": 315,
+        "sample_id": 20,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This part is a subjective statement by Carney, but not necessarily an objective fact. Politicians lie all the time. This part should have been framed with a \"Carney said ...\"\t",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The extension was not influenced by political pressure, Brexit-related economic predictions, or any tension with the Prime Minister, Theresa May. ",
+        "summary_start": 532,
+        "summary_end": 678,
+        "source_span": "\"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021.",
+        "source_start": 3276,
+        "source_end": 3436
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1549,6 +1832,19 @@
         "summary_span": "which were expected to begin in 2018.",
         "summary_start": 445,
         "summary_end": 482
+      },
+      {
+        "annot_id": 293,
+        "sample_id": 21,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Benign"
+        ],
+        "note": "That's what Carney said, not an objective fact.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "Carney's decision was not influenced by political pressure or criticism of the Bank's pre-referendum economic forecasts",
+        "summary_start": 483,
+        "summary_end": 602
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1567,33 +1863,6 @@
     "source": "Share this withEmailFacebookMessengerMessengerTwitterPinterestWhatsAppLinkedInCopy this linkAfter weeks of speculation about whether the Governor of the Bank of England would extend his time as its head in reaction to the referendum result, Mark Carney surprised many people in the City and in government by announcing a decision that few had considered. Although many officials at the Bank believed that Mark Carney had two options before him - stay until 2021 or leave as originally intended in 2018 - the governor proffered a third. Extend, yes, but for just one more year. Superficially, it appeared to be a rather awkward fudge. Did Mr Carney feel under political pressure not to extend until 2021 despite wanting to?Was he so disillusioned by the gloomy economic predictions for the UK that he would rather not stick around to see the full effects of the Brexit vote?Or was there another issue weighing on his mind: how his family would feel about another three years in the UK with a father who is regularly away at some global summit or other one weekend in every two?The third, it appears, was the clincher. When Mr Carney took office in 2013, the notion that Britain would be beginning the difficult process of negotiating its way out of the European Union three years later (a process described by the former head of the World Trade Organisation, Pascal Lamy, as something akin to \"taking an egg out of omelette\"), was a remote one. But that all changed on 23 June. Beyond trying to stabilise the economy, it also created a personal issue for the Governor. If he left in 2018 as originally agreed, it would be right in the middle of Britain's exit negotiations. Should he, therefore, extend his term to the full eight years that governors would usually be expected to serve?That might provide a greater level of certainty for jittery markets. And the Governor certainly understood the challenge of the job had changed, telling those close to him that an extension was an option and he \"wanted to serve\" - discussions which led to predictions in the media he would serve the full eight years. But, a number of weeks ago in far more private discussions, he started talking about a \"third way\" - the short extension. The reasons were personal and unique. In 2018, one of Mr Carney's four daughters will be finishing her A-levels, and another will be completing her GCSEs. Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. For his family, this was the perfect moment to return home to Canada and its much lauded education system. He hinted at how important that was in evidence to the economic affairs committee of the House of Lords last week. \"To be absolutely clear, it is an entirely personal decision,\" he said about whether he would extend his stay. \"No one should read anything into that decision as regards government policy - actual, imagined, potential, past. It is an absolute privilege for me to have this role. I fully recognise that. \"Like everyone, I have personal circumstances that I have to manage. This is a role that requires total attention and devotion. I intend to give that for as long as I can. Those are the only factors. \"Those around Mr Carney dismiss any notion of \"tension\" with the Prime Minister, who was certainly keen for the Governor to extend his period in office to 2021. However, Theresa May was clear that it was up to Mr Carney to make the decision. Neither did criticism from those who believe the Bank's pre-referendum economic forecasts were too gloomy about the effects of a Brexit vote get under his skin, they add. Professionally, Mr Carney was clear that it would difficult to leave in the teeth of the Brexit negotiations. But, with his family leaving in 2018 as originally planned, he only felt able to extend his time in the UK by one year. By then the Article 50 process of decoupling Britain from the EU should be complete. It will then be for a new Governor to plot Britain's economic future.",
     "summary": "Here's a concise summary of the passage:\n\nMark Carney, the Governor of the Bank of England, surprised many by announcing a one-year extension to his term, rather than staying until 2021 or leaving in 2018 as originally planned. This decision was primarily driven by personal reasons, particularly his family's needs. Carney's extension to 2019 allows him to oversee the initial Brexit negotiations while also accommodating his daughters' education plans. The passage emphasizes that this was a personal decision, not influenced by political pressure or criticism of the Bank's economic forecasts. Carney felt it was important not to leave during the Brexit negotiations but also wanted to return to Canada with his family in 2018. The one-year extension was seen as a compromise between his professional responsibilities and personal circumstances.",
     "annotations": [
-      {
-        "annot_id": 30,
-        "sample_id": 22,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Benign"
-        ],
-        "note": "I would argue the word \"particularly\" is unnecessary here. It shifts the weight of importance to family reasons. While family reasons are part of the driving factors for his decision as stated in the source, the source never framed it as a particularly important reason.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "particularly his family's needs",
-        "summary_start": 284,
-        "summary_end": 315
-      },
-      {
-        "annot_id": 31,
-        "sample_id": 22,
-        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source never said Carney wanted to return to Canada. The source only said it was the best moment for his family to return to Canada. It never stated Carney's preference on returning to Canada.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "but also wanted to return to Canada",
-        "summary_start": 670,
-        "summary_end": 705
-      },
       {
         "annot_id": 143,
         "sample_id": 22,
@@ -1652,6 +1921,32 @@
         "summary_span": "The one-year extension was seen as a compromise between his professional responsibilities and personal circumstances.",
         "summary_start": 731,
         "summary_end": 848
+      },
+      {
+        "annot_id": 294,
+        "sample_id": 22,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I would argue the word \"particularly\" is unnecessary here. It shifts the weight of importance to family reasons. While family reasons are part of the driving factors for his decision as stated in the source, the source never framed it as a particularly important reason.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "particularly his family's needs",
+        "summary_start": 284,
+        "summary_end": 315
+      },
+      {
+        "annot_id": 295,
+        "sample_id": 22,
+        "annotator": "2916a8b5713448e09499a4ecc0d5f917",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source never said Carney wanted to return to Canada. The source only said it was the best moment for his family to return to Canada. It never stated Carney's preference on returning to Canada.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "but also wanted to return to Canada with his family in 2018",
+        "summary_start": 670,
+        "summary_end": 729
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2119,19 +2414,6 @@
     "summary": "Mark Carney, the Governor of the Bank of England, announced a surprising decision to extend his term by only one year instead of staying until 2021 or leaving in 2018 as initially planned. This decision was influenced by personal reasons, particularly his family's preference to return to Canada for his daughters' education. Carney's choice came amidst the backdrop of Brexit negotiations, where his continued presence was seen as stabilizing for the economy. Despite speculation about political pressure or disillusionment with economic forecasts, Carney emphasized that his decision was entirely personal and not influenced by government policy or criticism. He acknowledged the importance of his role but felt unable to commit beyond 2019 due to family considerations.",
     "annotations": [
       {
-        "annot_id": 174,
-        "sample_id": 29,
-        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "his continued presence was seen as stabilizing for the economy. ",
-        "summary_start": 397,
-        "summary_end": 461
-      },
-      {
         "annot_id": 256,
         "sample_id": 29,
         "annotator": "08e1b823dd4141b08151e00657b4f5e2",
@@ -2143,6 +2425,23 @@
         "summary_span": "Despite speculation about political pressure or disillusionment with economic forecasts",
         "summary_start": 461,
         "summary_end": 548
+      },
+      {
+        "annot_id": 275,
+        "sample_id": 29,
+        "annotator": "08e1b823dd4141b08151e00657b4f5e2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source does not mention that his extension \"was seen as stabilizing for the economy\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Carney's choice came amidst the backdrop of Brexit negotiations, where his continued presence was seen as stabilizing for the economy.",
+        "summary_start": 326,
+        "summary_end": 460,
+        "source_span": "Beyond trying to stabilise the economy, it also created a personal issue for the Governor.",
+        "source_start": 1477,
+        "source_end": 1567
       }
     ],
     "meta_model": "openai/gpt-4o",

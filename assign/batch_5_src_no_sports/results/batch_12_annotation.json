@@ -5,19 +5,6 @@
     "summary": " A juvenile female Omura's whale, a rare species believed to be restricted to tropical and subtropical waters, was found washed up on a remote Exmouth beach in Western Australia (WA). This is the first sighting of the species in WA and only the second in Australia. The identification was initially challenging for the Department of Parks and Wildlife staff, but DNA profiling confirmed it as an Omura's whale. The discovery is significant for whale scientists as very little is known about the species, which is usually found in Indonesian waters, the Philippines, and the Sea of Japan. The carcass has been buried, and the skeleton will be recovered in a few years for further scientific investigation and potential public display in museums. The Omura's whale has a sleek body shape and unique skeletal features, including 53 vertebrae and four digits on each pectoral fin.",
     "annotations": [
       {
-        "annot_id": 4,
-        "sample_id": 0,
-        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
-        "label": [
-          "Questionable"
-        ],
-        "note": "This is an assumption (although true) that WA refers to Western Australia",
-        "annotator_name": "New User",
-        "summary_span": "was found washed up on a remote Exmouth beach in Western Australia (WA). ",
-        "summary_start": 111,
-        "summary_end": 184
-      },
-      {
         "annot_id": 6,
         "sample_id": 0,
         "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
@@ -25,7 +12,7 @@
           "Benign"
         ],
         "note": "The passage at one place mentions 53 and at another 60 vertebrae",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " including 53 vertebrae and four digits on each pectoral fin.",
         "summary_start": 815,
         "summary_end": 876
@@ -81,7 +68,7 @@
           "Unwanted"
         ],
         "note": "The beach's name is not mentioned.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "washed up on a remote Eighty-Eight Beach in Western Australia",
         "summary_start": 46,
         "summary_end": 107,
@@ -97,7 +84,7 @@
           "Benign"
         ],
         "note": "The passage mentions both 53 and 60 verterbrae",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "as unique features such as 53 vertebrae and four digits on each pectoral fin. ",
         "summary_start": 395,
         "summary_end": 473
@@ -110,7 +97,7 @@
           "Questionable"
         ],
         "note": "The passage mentions both 53 and 60, but doesnt state which one is correct.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "Note: The passage mentions 60 vertebrae, but the correct number is 53. This has been corrected in the summary. \n\nS",
         "summary_start": 696,
         "summary_end": 810
@@ -333,7 +320,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "it was previously thought to be extinct, period. Not just in Western Australia",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " previously thought to be extinct in Western Australia",
         "summary_start": 32,
         "summary_end": 86
@@ -346,7 +333,7 @@
           "Benign"
         ],
         "note": "The passage mentions both 53 and 60 vertebrae.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "53 vertebrae ",
         "summary_start": 803,
         "summary_end": 816
@@ -467,7 +454,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "It was thought to be extinct, not nearly extinct.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "\n\nA rare Omura's whale, thought to be nearly extinct,",
         "summary_start": 41,
         "summary_end": 94,
@@ -484,7 +471,7 @@
           "Benign"
         ],
         "note": "Its clear one is an error, but unclear which one Is 53 wrong or 60?",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "not 60 as mentioned in one sentence, which appears to be an error).",
         "summary_start": 525,
         "summary_end": 592
@@ -672,7 +659,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The minister did not note that.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "nvironment Minister Albert Jacob highlighted the significance of the find, noting the species was first described in 2003 and is typically found in tropical waters like Indonesia, the Philippines, and the Sea of Japan.",
         "summary_start": 334,
         "summary_end": 552,
@@ -782,7 +769,7 @@
           "Benign"
         ],
         "note": "The tattoo was shared, but the passage doesn't explicitly state that he shared the motivation to win as well.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "his strong motivation to win the title have been shared with his Instagram followers.",
         "summary_start": 499,
         "summary_end": 584
@@ -839,7 +826,7 @@
           "Unwanted.Extrinsic"
         ],
         "note": "The passage does not say that he is an MMA fighter.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " a 26-year-old Irish MMA fighter,",
         "summary_start": 57,
         "summary_end": 90
@@ -908,7 +895,7 @@
           "Questionable"
         ],
         "note": "A matter of opinion not explicitly mentioned in the passage.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "the highly anticipated match promises an intense battle for the championship belt.",
         "summary_start": 594,
         "summary_end": 676
@@ -978,7 +965,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "It's Aldso's 8th defense.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "This is McGregor's eighth defense of the title,",
         "summary_start": 312,
         "summary_end": 359
@@ -1026,7 +1013,7 @@
           "Questionable"
         ],
         "note": "Its subejctive whether grabbing the belt meant to demonstrate his confidence.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "and has already demonstrated his confidence by grabbing the belt from Aldo ",
         "summary_start": 364,
         "summary_end": 439
@@ -1129,7 +1116,7 @@
           "Benign"
         ],
         "note": "Subjective, Mcgregor didnt explicitly say that.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "McGregor is determined to win the title and hold it in front of his supporters.",
         "summary_start": 423,
         "summary_end": 502
@@ -1375,7 +1362,7 @@
           "Benign"
         ],
         "note": "Milan is repeated twice.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "he quake was felt in cities such as Milan, Florence, and Milan,",
         "summary_start": 103,
         "summary_end": 166
@@ -1389,7 +1376,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The article says Last May, which may or may not be May 2021",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": ", with a previous incident in May 2021 causing over 20 deaths.",
         "summary_start": 270,
         "summary_end": 332
@@ -1403,7 +1390,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "14:48 GMT is the right time.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "The quake struck at 15:48 GMT ",
         "summary_start": 333,
         "summary_end": 363
@@ -1491,7 +1478,7 @@
           "Questionable"
         ],
         "note": "The power outages were caused by the main quake, not necessarily the aftershocks.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "Several aftershocks were felt, causing power outages and evacuations in the Garfagnana area. ",
         "summary_start": 431,
         "summary_end": 524
@@ -1505,7 +1492,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "This particular quake isn't necessarily mentioned as being a surprise.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " coming as a surprise to the INGV. ",
         "summary_start": 601,
         "summary_end": 636
@@ -1556,6 +1543,19 @@
         "summary_span": "struck northern Italy",
         "summary_start": 69,
         "summary_end": 90
+      },
+      {
+        "annot_id": 124,
+        "sample_id": 32,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source doesnt specify that it was northern italy.",
+        "annotator_name": "Suleman",
+        "summary_span": "struck northern Italy,",
+        "summary_start": 69,
+        "summary_end": 91
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1583,7 +1583,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The passage does not mention the Garfagnana region being in central italy.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "A 4.8-magnitude earthquake hit central Italy,",
         "summary_start": 0,
         "summary_end": 45
@@ -1596,7 +1596,7 @@
           "Questionable"
         ],
         "note": "Article implies the 2009 quake was a surprise.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "The recent tremor caught experts by surprise, ",
         "summary_start": 465,
         "summary_end": 511
@@ -1668,7 +1668,7 @@
           "Questionable"
         ],
         "note": "Only people in Lucca are described as pouring into the streets.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "The quake was felt in nearby cities, including Milan, Florence, and Lucca, where people poured out into the streets.",
         "summary_start": 257,
         "summary_end": 373
@@ -1747,7 +1747,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "The officials were convicted in 2012, the quake happened in 2009.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": " experienced significant quakes in 2009 and 2012,",
         "summary_start": 307,
         "summary_end": 356
@@ -1840,6 +1840,33 @@
         "source_span": "\" attorney christopher brown said . \n\" however , bobbi kristina is presently embarking on a rehabilitation process ,",
         "source_start": 1379,
         "source_end": 1495
+      },
+      {
+        "annot_id": 125,
+        "sample_id": 41,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Statements from relatives, not reports.",
+        "annotator_name": "Suleman",
+        "summary_span": "eports indicate that Brown's condition has improved,",
+        "summary_start": 329,
+        "summary_end": 381
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 41,
+        "annotator": "b6bb5cc6df1d46aeb0e116d6a18cae2a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Attorney stated this, not the father",
+        "annotator_name": "Suleman",
+        "summary_span": " Bobby Brown, her father, stated that she is awake and undergoing a long rehabilitation process. ",
+        "summary_start": 427,
+        "summary_end": 524
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1883,7 +1910,7 @@
           "Unwanted.Instrinsic"
         ],
         "note": "It was not during a performance, but when he was visiting her.",
-        "annotator_name": "New User",
+        "annotator_name": "Suleman",
         "summary_span": "she was awake and watching him during a performance.",
         "summary_start": 386,
         "summary_end": 438

@@ -74,6 +74,33 @@
         "summary_span": "he passage describes",
         "summary_start": 0,
         "summary_end": 20
+      },
+      {
+        "annot_id": 142,
+        "sample_id": 0,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The output is truncated.",
+        "annotator_name": "Weisi",
+        "summary_span": "The passage suggests that the outcome of the Mayweather vs Pacquiao fight will determine its ranking among the most",
+        "summary_start": 995,
+        "summary_end": 1110
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 0,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Based on source, the shock and disbelief seem to have no relation with his heroic and tough fighting style.",
+        "annotator_name": "Weisi",
+        "summary_span": "This event was met with shock and disbelief, as Duran was known for his heroic and tough fighting style.",
+        "summary_start": 570,
+        "summary_end": 674
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -254,6 +281,23 @@
         "source_span": "\njust before the bell duran turned his back and walked to his corner , waving his arms to indicate he was finished and famously telling the referee : ` no mas . '",
         "source_start": 3229,
         "source_end": 3391
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 2,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention \"no mass\" means \"no more\".",
+        "annotator_name": "Weisi",
+        "summary_span": "\"No mas\" (No more).",
+        "summary_start": 516,
+        "summary_end": 535,
+        "source_span": "\njust before the bell duran turned his back and walked to his corner , waving his arms to indicate he was finished and famously telling the referee : ` no mas . '",
+        "source_start": 3229,
+        "source_end": 3391
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -396,6 +440,23 @@
         "source_span": "\nduran became frustrated as leonard danced around him before unleashing his punches\nafter being caught flush in the face in the eighth round , duran turned his back and said ` no mas '\n` the whole fight i was moving .",
         "source_start": 2503,
         "source_end": 2720
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 4,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Based on the source the No Mas fight is the second fight.",
+        "annotator_name": "Weisi",
+        "summary_span": "The third fight, held in New Orleans, ended with Duran's controversial \"No Mas\" gesture, which stunned the world and took years for Duran to recover from both professionally and personally.",
+        "summary_start": 321,
+        "summary_end": 510,
+        "source_span": "come the inevitable rematch eight months later , in the louisana superdome in new orleans on november 25 , 1980 , controversy was to be replaced by disbelief . \nleonard had gambled in the first fight by taking the macho decision to take on the panamanian hard man in a mano-a-mano slug-out . \nsecond time around he wisely chose to use his exceptional ability , especially his speed and movement . \nduran became frustrated as leonard danced around him before unleashing his punches\nafter being caught flush in the face in the eighth round , duran turned his back and said ` no mas '\n` the whole fight i was moving ",
+        "source_start": 2106,
+        "source_end": 2719
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -623,6 +684,20 @@
         "source_span": "\nhe said : ` to me , making roberto duran to quit was better than knocking him out . '",
         "source_start": 4594,
         "source_end": 4680
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 8,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Should be all three fights based on source.",
+        "annotator_name": "Weisi",
+        "summary_span": "It describes their first two fights",
+        "summary_start": 540,
+        "summary_end": 575
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -747,6 +822,56 @@
         "summary_span": "ory McIlroy",
         "summary_start": 0,
         "summary_end": 11
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 10,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Questionable"
+        ],
+        "note": "For some reason it miss the letter \"r\", not sure it the copy paste error or generation error.",
+        "annotator_name": "Weisi",
+        "summary_span": "ory McIlroy",
+        "summary_start": 0,
+        "summary_end": 11,
+        "source_span": "rory mcilroy",
+        "source_start": 0,
+        "source_end": 12
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 10,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention the fact \"taught lesson\".",
+        "annotator_name": "Weisi",
+        "summary_span": "which he considers the most important day of his career as it taught him valuable lessons about himself and his game",
+        "summary_start": 489,
+        "summary_end": 605,
+        "source_span": "\nand the world number one has revealed how his final-round collapse at augusta national in 2011 was the most important day of his career .",
+        "source_start": 127,
+        "source_end": 265
+      },
+      {
+        "annot_id": 150,
+        "sample_id": 10,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "We only know it happened last year from source doc, but we don't know and cannot infer that last year means 2014.",
+        "annotator_name": "Weisi",
+        "summary_span": ", McIlroy had an extraordinary successful year in 2014, winning multiple majors.",
+        "summary_start": 767,
+        "summary_end": 847,
+        "source_span": "\nmcilroy 's extraordinary success last year came despite the distractions of calling off his wedding to caroline wozniacki and a legal dispute with his former management company which cost him millions of pounds when it was finally settled in february .",
+        "source_start": 3323,
+        "source_end": 3576
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -837,6 +962,23 @@
         "summary_span": "but he has since bounced back to win multiple major titles.",
         "summary_start": 526,
         "summary_end": 585
+      },
+      {
+        "annot_id": 151,
+        "sample_id": 11,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Questionable"
+        ],
+        "note": "Miss the letter \"r\" from the name, not sure the reason.",
+        "annotator_name": "Weisi",
+        "summary_span": "ory McIlroy ",
+        "summary_start": 0,
+        "summary_end": 12,
+        "source_span": "rory mcilroy",
+        "source_start": 0,
+        "source_end": 12
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -868,6 +1010,34 @@
         "summary_span": "Here's a concise summary of the core information in the passage:",
         "summary_start": 0,
         "summary_end": 64
+      },
+      {
+        "annot_id": 152,
+        "sample_id": 12,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions it is the most important day of his career. The part taught him lessons is from the winning. The summary kinds of mix two parts and express different meaning with source doc.",
+        "annotator_name": "Weisi",
+        "summary_span": "McIlroy sees his 2011 final-round collapse at Augusta as the most important day of his career, as it taught him valuable lessons",
+        "summary_start": 265,
+        "summary_end": 393
+      },
+      {
+        "annot_id": 153,
+        "sample_id": 12,
+        "annotator": "0a21fc518c094a909873cd12cedb22f3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions he wants to win his first green jacket.",
+        "annotator_name": "Weisi",
+        "summary_span": "He's eager to start playing and hopes to win multiple green jackets in his career",
+        "summary_start": 648,
+        "summary_end": 729
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",

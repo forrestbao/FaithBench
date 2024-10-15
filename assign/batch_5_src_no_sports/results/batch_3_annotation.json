@@ -984,20 +984,6 @@
         "source_end": 141
       },
       {
-        "annot_id": 17,
-        "sample_id": 25,
-        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
-        "label": [],
-        "note": "McManus net once first half\nthen another goal in the second half",
-        "annotator_name": "Rogger",
-        "summary_span": "McManus netting twice",
-        "summary_start": 87,
-        "summary_end": 108,
-        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
-        "source_start": 0,
-        "source_end": 319
-      },
-      {
         "annot_id": 50,
         "sample_id": 25,
         "annotator": "1612324899bf4cdb8108aa6a26aa285c",
@@ -1022,6 +1008,23 @@
         "summary_span": " Morton then scored again in the second half",
         "summary_start": 194,
         "summary_end": 238
+      },
+      {
+        "annot_id": 92,
+        "sample_id": 25,
+        "annotator": "227d8ce4a1cf4e098ed6db7c1cfda021",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "McManus net once first half\nthen another goal in the second half",
+        "annotator_name": "Rogger",
+        "summary_span": "\n\nMorton scored twice in the first half",
+        "summary_start": 41,
+        "summary_end": 80,
+        "source_span": "McManus netted from close range on the quarter-hour mark to open the scoring and Ross Forbes' deflected strike quickly doubled Morton's lead. A shot by Kyle McAusland pulled Alloa back into the game before half-time. But another McManus finish and one by Denny Johnstone late on ensured a comfortable win for the hosts.",
+        "source_start": 0,
+        "source_end": 319
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",

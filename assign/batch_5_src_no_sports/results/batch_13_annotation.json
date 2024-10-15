@@ -5,20 +5,6 @@
     "summary": " L/Bdr Parkinson, a resident of Doncaster, was seriously injured in a bomb attack in Afghanistan in 2006. Despite his injuries, he was chosen to carry the Olympic torch on June 26, 2012. Due to Facebook's limit of 5,000 friends per personal page, he has been unable to accept all the thousands of friend requests he has received. He walked with the torch for nearly half an hour with an assistant. His nomination for the torch relay highlighted his resilience and unchanged intelligence and wit, despite his brain injury. He spends 12 hours a day in the gym and rehab, and the rest of his time raising money for military charities and serving as patron of the Pilgrim Bandits. His mother, Diane, has been overwhelmed by the support and friendship he has received, with over 5,000 friend requests, 19,000 hits on his page, and hundreds of requests to visit places with the torch. Facebook suggested he consider having a page instead of a profile or using the subscribe feature to allow people to see his public updates without becoming a friend. A",
     "annotations": [
       {
-        "annot_id": 1,
-        "sample_id": 0,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source doesn't mention the year is 2012 while most of us know London Olympic is held in 2012.",
-        "annotator_name": "Weisi",
-        "summary_span": "Despite his injuries, he was chosen to carry the Olympic torch on June 26, 2012. ",
-        "summary_start": 106,
-        "summary_end": 187
-      },
-      {
         "annot_id": 2,
         "sample_id": 0,
         "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
@@ -50,22 +36,6 @@
         "source_span": "Doncaster-based",
         "source_start": 103,
         "source_end": 118
-      },
-      {
-        "annot_id": 43,
-        "sample_id": 0,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "resilience is not mentioned in source but can be reasoned\t",
-        "annotator_name": "Erana",
-        "summary_span": "His nomination for the torch relay highlighted his resilience and unchanged intelligence and wit, despite his brain injury.",
-        "summary_start": 398,
-        "summary_end": 521,
-        "source_span": "L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \".",
-        "source_start": 413,
-        "source_end": 936
       },
       {
         "annot_id": 44,
@@ -130,6 +100,32 @@
         "source_span": "L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \"",
         "source_start": 937,
         "source_end": 1226
+      },
+      {
+        "annot_id": 298,
+        "sample_id": 0,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "summary suggests 19000 hits total",
+        "annotator_name": "Erana",
+        "summary_span": "19,000 hits on his page",
+        "summary_start": 797,
+        "summary_end": 820
+      },
+      {
+        "annot_id": 306,
+        "sample_id": 0,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't mention the year is 2012 while most of us know London Olympic is held in 2012.",
+        "annotator_name": "Weisi",
+        "summary_span": "Despite his injuries, he was chosen to carry the Olympic torch on June 26, 2012.",
+        "summary_start": 106,
+        "summary_end": 186
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -197,20 +193,6 @@
         "summary_end": 835
       },
       {
-        "annot_id": 47,
-        "sample_id": 1,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "2012 not from source",
-        "annotator_name": "Erana",
-        "summary_span": "June 26, 2012,",
-        "summary_start": 220,
-        "summary_end": 234
-      },
-      {
         "annot_id": 49,
         "sample_id": 1,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -258,6 +240,22 @@
         "source_span": "L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \"",
         "source_start": 937,
         "source_end": 1337
+      },
+      {
+        "annot_id": 299,
+        "sample_id": 1,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "2012 not in source",
+        "annotator_name": "Erana",
+        "summary_span": "June 26, 2012",
+        "summary_start": 220,
+        "summary_end": 233,
+        "source_span": "26 June",
+        "source_start": 94,
+        "source_end": 101
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -434,22 +432,6 @@
         "summary_end": 32
       },
       {
-        "annot_id": 57,
-        "sample_id": 3,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "perseverance assumed",
-        "annotator_name": "Erana",
-        "summary_span": "has shown incredible determination and perseverance",
-        "summary_start": 132,
-        "summary_end": 183,
-        "source_span": "It said: \"Determined to prove everyone wrong, he fought back every step of the way.",
-        "source_start": 561,
-        "source_end": 644
-      },
-      {
         "annot_id": 59,
         "sample_id": 3,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -479,20 +461,17 @@
         "summary_end": 459
       },
       {
-        "annot_id": 63,
+        "annot_id": 300,
         "sample_id": 3,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
         "label": [
           "Questionable"
         ],
-        "note": "overwhelmed not mentioned in source but can be reasoned\t",
+        "note": "overhelmed not given",
         "annotator_name": "Erana",
         "summary_span": "Ben's family has been overwhelmed by the response",
         "summary_start": 511,
-        "summary_end": 560,
-        "source_span": "She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \"",
-        "source_start": 1452,
-        "source_end": 1717
+        "summary_end": 560
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -865,6 +844,19 @@
         "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
         "source_start": 1770,
         "source_end": 1975
+      },
+      {
+        "annot_id": 301,
+        "sample_id": 7,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "not explicit in source",
+        "annotator_name": "Erana",
+        "summary_span": "Ben Parkinson, a British soldier",
+        "summary_start": 0,
+        "summary_end": 32
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -995,6 +987,22 @@
         "source_span": "A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
         "source_start": 2093,
         "source_end": 2242
+      },
+      {
+        "annot_id": 302,
+        "sample_id": 9,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Benign"
+        ],
+        "note": "not explicit that pilgrim bandits is a military charity",
+        "annotator_name": "Erana",
+        "summary_span": "raises funds for military charities, including Pilgrim Bandits.",
+        "summary_start": 358,
+        "summary_end": 421,
+        "source_span": "raising money for many military charities and as patron of his beloved             Pilgrim Bandits ",
+        "source_start": 835,
+        "source_end": 934
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -1113,22 +1121,6 @@
         "source_end": 2172
       },
       {
-        "annot_id": 107,
-        "sample_id": 11,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "heartthrob = popular",
-        "annotator_name": "Erana",
-        "summary_span": "popular",
-        "summary_start": 570,
-        "summary_end": 577,
-        "source_span": "Sunday night’s latest heartthrob",
-        "source_start": 251,
-        "source_end": 283
-      },
-      {
         "annot_id": 122,
         "sample_id": 11,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -1193,22 +1185,6 @@
         "source_span": " It is reminiscent of the show’s previous pregnancy that saw Elizabeth, another contender for Ross’s affection, go to full term in the gap between two episodes.",
         "source_start": 1813,
         "source_end": 1973
-      },
-      {
-        "annot_id": 110,
-        "sample_id": 12,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "assumes 10 minutes = unrealistically fast for a pregnancy",
-        "annotator_name": "Erana",
-        "summary_span": " unrealistically fast pregnancies",
-        "summary_start": 635,
-        "summary_end": 668,
-        "source_span": "Though if you are pregnant in Poldark times expect to have it in the next 10 minutes.",
-        "source_start": 2086,
-        "source_end": 2171
       },
       {
         "annot_id": 111,
@@ -1649,22 +1625,6 @@
         "source_end": 246
       },
       {
-        "annot_id": 132,
-        "sample_id": 17,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "announcement of pregnancy was in previous episode a week ago, plus there is no mention of how early in the episode so it is unclear how many show minutes are between the two events",
-        "annotator_name": "Erana",
-        "summary_span": "as Demelza goes from announcing her pregnancy to giving birth in a matter of minutes.",
-        "summary_start": 163,
-        "summary_end": 248,
-        "source_span": "With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant. Just minutes after – once again without any nod to the passing of time – she is giving birth, with the last month of her pregnancy passing in less than the blink of an eye.",
-        "source_start": 842,
-        "source_end": 1237
-      },
-      {
         "annot_id": 133,
         "sample_id": 17,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -1680,6 +1640,23 @@
         "source_span": "go to full term in the gap between two episodes. ",
         "source_start": 1925,
         "source_end": 1974
+      },
+      {
+        "annot_id": 303,
+        "sample_id": 17,
+        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "announcement of pregnancy was in previous episode a week ago, plus there is no mention of how early in the episode so it is unclear how many show minutes are between the two events",
+        "annotator_name": "Erana",
+        "summary_span": "mented on the show's fast-paced pregnancies, ",
+        "summary_start": 118,
+        "summary_end": 163,
+        "source_span": "With the climax of the previous episode being the announcement of the pregnancy, it is quite a jump to the start of tomorrow’s instalment where Demelza, played by Eleanor Tomlinson, talks about being eight months pregnant.",
+        "source_start": 842,
+        "source_end": 1064
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2030,38 +2007,6 @@
         "summary_end": 75
       },
       {
-        "annot_id": 147,
-        "sample_id": 21,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "term not from source",
-        "annotator_name": "Erana",
-        "summary_span": "in-utero",
-        "summary_start": 144,
-        "summary_end": 152,
-        "source_span": "in the womb",
-        "source_start": 118,
-        "source_end": 129
-      },
-      {
-        "annot_id": 148,
-        "sample_id": 21,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "term not in source",
-        "annotator_name": "Erana",
-        "summary_span": "prenatal",
-        "summary_start": 373,
-        "summary_end": 381,
-        "source_span": " in the womb",
-        "source_start": 1428,
-        "source_end": 1440
-      },
-      {
         "annot_id": 149,
         "sample_id": 21,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -2076,22 +2021,6 @@
         "source_span": "children born with the syndrome do n't get better",
         "source_start": 1090,
         "source_end": 1139
-      },
-      {
-        "annot_id": 150,
-        "sample_id": 21,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Erana",
-        "summary_span": "in-utero",
-        "summary_start": 862,
-        "summary_end": 870,
-        "source_span": "in the womb ",
-        "source_start": 118,
-        "source_end": 130
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2250,22 +2179,6 @@
         "source_end": 477
       },
       {
-        "annot_id": 158,
-        "sample_id": 23,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "term not in source",
-        "annotator_name": "Erana",
-        "summary_span": "prenatal",
-        "summary_start": 359,
-        "summary_end": 367,
-        "source_span": "in the womb",
-        "source_start": 118,
-        "source_end": 129
-      },
-      {
         "annot_id": 159,
         "sample_id": 23,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -2353,23 +2266,6 @@
         "summary_span": "requires constant assistance",
         "summary_start": 516,
         "summary_end": 544
-      },
-      {
-        "annot_id": 167,
-        "sample_id": 24,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "summary suggests number of hospitalizations are higher, source says number affected only",
-        "annotator_name": "Erana",
-        "summary_span": "Experts warn that the actual number might be much higher,",
-        "summary_start": 195,
-        "summary_end": 252,
-        "source_span": "\nbut the actual number affected by their mother ' s drinking could be far greater , experts have warned .",
-        "source_start": 372,
-        "source_end": 477
       },
       {
         "annot_id": 168,
@@ -2840,22 +2736,6 @@
         "source_end": 454
       },
       {
-        "annot_id": 186,
-        "sample_id": 29,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "severe?",
-        "annotator_name": "Erana",
-        "summary_span": "has severe disabilities",
-        "summary_start": 564,
-        "summary_end": 587,
-        "source_span": " \nshe needs help getting dressed , has no sense of danger and will never be able to live independently",
-        "source_start": 1524,
-        "source_end": 1626
-      },
-      {
         "annot_id": 187,
         "sample_id": 29,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -3176,22 +3056,6 @@
         "summary_span": "Euro 2017 finals.",
         "summary_start": 979,
         "summary_end": 996
-      },
-      {
-        "annot_id": 207,
-        "sample_id": 32,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "can infer?",
-        "annotator_name": "Erana",
-        "summary_span": "a crucial match",
-        "summary_start": 303,
-        "summary_end": 318,
-        "source_span": "would all but secure their place",
-        "source_start": 109,
-        "source_end": 141
       },
       {
         "annot_id": 208,
@@ -3527,22 +3391,6 @@
         "source_span": "all but secure",
         "source_start": 115,
         "source_end": 129
-      },
-      {
-        "annot_id": 230,
-        "sample_id": 34,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "assumes pole = strong",
-        "annotator_name": "Erana",
-        "summary_span": "a strong position",
-        "summary_start": 405,
-        "summary_end": 422,
-        "source_span": "pole position",
-        "source_start": 1150,
-        "source_end": 1163
       },
       {
         "annot_id": 231,
@@ -4171,19 +4019,6 @@
         "summary_end": 80
       },
       {
-        "annot_id": 262,
-        "sample_id": 40,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Benign"
-        ],
-        "note": "not from source",
-        "annotator_name": "Erana",
-        "summary_span": "undercarriage",
-        "summary_start": 266,
-        "summary_end": 279
-      },
-      {
         "annot_id": 263,
         "sample_id": 40,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -4369,19 +4204,6 @@
         "summary_end": 65
       },
       {
-        "annot_id": 271,
-        "sample_id": 43,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "said by video maker ",
-        "annotator_name": "Erana",
-        "summary_span": "causing damage to the propellers",
-        "summary_start": 163,
-        "summary_end": 195
-      },
-      {
         "annot_id": 272,
         "sample_id": 43,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -4431,19 +4253,6 @@
         "source_end": 44
       },
       {
-        "annot_id": 274,
-        "sample_id": 44,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "said by video maker",
-        "annotator_name": "Erana",
-        "summary_span": "causing damage to the propellers",
-        "summary_start": 213,
-        "summary_end": 245
-      },
-      {
         "annot_id": 275,
         "sample_id": 44,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -4484,6 +4293,19 @@
         "summary_span": "The incident highlights the risks of human error in forgetting to lower the landing gear and the potential for mechanical failure.",
         "summary_start": 437,
         "summary_end": 567
+      },
+      {
+        "annot_id": 307,
+        "sample_id": 44,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Questionable"
+        ],
+        "note": "From the source we may not know if the damage is severe.",
+        "annotator_name": "Weisi",
+        "summary_span": "severe damage",
+        "summary_start": 292,
+        "summary_end": 305
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -4551,22 +4373,6 @@
         "source_end": 3207
       },
       {
-        "annot_id": 282,
-        "sample_id": 45,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "said by video maker",
-        "annotator_name": "Erana",
-        "summary_span": "damage to the propellers",
-        "summary_start": 360,
-        "summary_end": 384,
-        "source_span": " damaged propellers ",
-        "source_start": 2453,
-        "source_end": 2473
-      },
-      {
         "annot_id": 283,
         "sample_id": 45,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -4579,6 +4385,23 @@
         "summary_span": "the most common cause of such a \"gear-up landing\" is human error or mechanical fault",
         "summary_start": 551,
         "summary_end": 635
+      },
+      {
+        "annot_id": 312,
+        "sample_id": 45,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions the most common cause is human error, mechanical fault is another cause, but the source doesn't mention it is most common case.",
+        "annotator_name": "Weisi",
+        "summary_span": "and the most common cause of such a \"gear-up landing\" is human error or mechanical fault.",
+        "summary_start": 547,
+        "summary_end": 636,
+        "source_span": ". \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident ",
+        "source_start": 2742,
+        "source_end": 3206
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -4597,22 +4420,6 @@
     "source": "this is the moment an aeroplane touched down on a runway without deploying its landing gear and skidded along the runway on its belly . \ncaptured in fort pierce , florida , the shocking footage shows the light general aviation aircraft approaching the aero acres residential airpark . \ndespite the fact the aerostar plane travels at speed , its descent towards the landing strip appears normal until the video maker makes a startling observation . \nthe light general aviation aircraft approaches the aero acres residential airpark and touches down without its landing gear deployed\nhe states that the landing gear has not been deployed and at that very moment the plane touches down with a bump and scratches along the tarmac . \nits propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact . \nsuddenly the pilot re-engages the engines and rather unceremoniously takes off back into the air . \nthe plane 's propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact\nthe video maker can be heard saying that the plane 's propellers have been damaged in the collision with the runway and that more than likely , the pilot will crash . \nhe later said : ` i was walking down the flight line of aircraft that flew in for the day , which is close to the main runway and noticed this light twin aircraft coming in low . \n` i noticed he did not have his landing gear down and thought he was going to do a fly-by , but then noticed the power was pulled back with the aircraft approaching for a landing with no landing gear . \nthe plane scratches along the runway and the video maker describes the sound as ` one you will not forget '\n` the belly and tips of the propellers impacted the runway ( the sound of the propellers hitting the surface was one sound you will not forget ) . \n` once the pilot realized his mistake , he gave what appeared to be full throttle and both propellers pulled the front of the aircraft down with the propellers making a second impact with the runway . \n` somehow the engines stayed on and running and the pilot was able to regain control while leaving the airport . \nthe video maker noted that once the pilot realized his mistake he began re-engaging the engine\nhe added : ` it 's amazing the aeroplane engines did not get destroyed during the propellers impact and the pilot did not stall during the forced take-off with the high angle of attack and damaged propellers . ' \naccording to wpbf 25 news , the plane 's pilot , chris georgaklis , 85 , managed to fly 100 miles to fort lauderdale after the incident and landed safely . \nmr georgaklis is said to have flown for almost 50 years and was accompanied on the trip by his dog , buddy . \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
     "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nAn Aerostar plane, piloted by 85-year-old Chris Georgaklis, touched down on a runway at Aero Acres Residential Airpark in Fort Pierce, Florida, without deploying its landing gear. The plane skidded along the runway on its belly, damaging its propellers, before the pilot re-engaged the engines and took off again. Despite the damage, Georgaklis managed to fly 100 miles to Fort Lauderdale and land safely. The incident is being investigated by the FAA, and the most common causes of such a \"gear-up landing\" are human error or mechanical fault.",
     "annotations": [
-      {
-        "annot_id": 284,
-        "sample_id": 46,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "said by video maker",
-        "annotator_name": "Erana",
-        "summary_span": "damaging its propellers",
-        "summary_start": 313,
-        "summary_end": 336,
-        "source_span": "the video maker can be heard saying that the plane 's propellers have been damaged",
-        "source_start": 1047,
-        "source_end": 1129
-      },
       {
         "annot_id": 285,
         "sample_id": 46,
@@ -4642,6 +4449,23 @@
         "summary_span": "the most common causes of such a \"gear-up landing\" are human error or mechanical fault.",
         "summary_start": 541,
         "summary_end": 628
+      },
+      {
+        "annot_id": 311,
+        "sample_id": 46,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions the most common cause is human error, mechanical fault is another cause, but the source doesn't mention it is most common case.",
+        "annotator_name": "Weisi",
+        "summary_span": "and the most common causes of such a \"gear-up landing\" are human error or mechanical fault",
+        "summary_start": 537,
+        "summary_end": 627,
+        "source_span": "people look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident ",
+        "source_start": 2745,
+        "source_end": 3206
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -4677,22 +4501,6 @@
         "source_end": 44
       },
       {
-        "annot_id": 288,
-        "sample_id": 47,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "said by video maker, can be assumed by events in video",
-        "annotator_name": "Erana",
-        "summary_span": "realized his mistake",
-        "summary_start": 164,
-        "summary_end": 184,
-        "source_span": "realized his mistake",
-        "source_start": 1871,
-        "source_end": 1891
-      },
-      {
         "annot_id": 289,
         "sample_id": 47,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -4721,6 +4529,23 @@
         "summary_span": "which is most commonly caused by human error or mechanical failure",
         "summary_start": 369,
         "summary_end": 435
+      },
+      {
+        "annot_id": 310,
+        "sample_id": 47,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions the most common cause is human error, mechanical fault is another cause, but the source doesn't mention it is most common case.",
+        "annotator_name": "Weisi",
+        "summary_span": "which is most commonly caused by human error or mechanical failure.",
+        "summary_start": 369,
+        "summary_end": 436,
+        "source_span": " \npeople look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
+        "source_start": 2743,
+        "source_end": 3207
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -4756,22 +4581,6 @@
         "source_end": 44
       },
       {
-        "annot_id": 292,
-        "sample_id": 48,
-        "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
-        "label": [
-          "Questionable"
-        ],
-        "note": "somewhat assumed",
-        "annotator_name": "Erana",
-        "summary_span": "damaging the propellers",
-        "summary_start": 365,
-        "summary_end": 388,
-        "source_span": "its propellers can be heard ricocheting off the ground as the wings bounce up and down from the impact ",
-        "source_start": 729,
-        "source_end": 832
-      },
-      {
         "annot_id": 293,
         "sample_id": 48,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -4800,6 +4609,20 @@
         "source_span": "\nthe faa is said to be investigating the incident .",
         "source_start": 3156,
         "source_end": 3207
+      },
+      {
+        "annot_id": 309,
+        "sample_id": 48,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions the most common cause is human error, mechanical fault is another cause, but the source doesn't mention it is most common case.",
+        "annotator_name": "Weisi",
+        "summary_span": "The most common cause of such incidents is human error or mechanical faults",
+        "summary_start": 620,
+        "summary_end": 695
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -4859,6 +4682,23 @@
         "summary_span": "which is commonly caused by human error or mechanical fault",
         "summary_start": 581,
         "summary_end": 640
+      },
+      {
+        "annot_id": 308,
+        "sample_id": 49,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions the most common cause is human error, mechanical fault is another cause, but the source doesn't mention it is most common case.",
+        "annotator_name": "Weisi",
+        "summary_span": "which is commonly caused by human error or mechanical fault.",
+        "summary_start": 581,
+        "summary_end": 641,
+        "source_span": "people look on as the damaged aircraft takes off from the runway and flies 100 miles to fort lauderdale , where it landed safely\nthe most common cause of a gear-up landing , also known as a belly landing or pancake landing , is human error -- when the pilot simply forgets to deploy the landing gear before touchdown . \nanother cause is mechanical fault , when an electric motor or a hydraulic actuator fails . \nthe faa is said to be investigating the incident .",
+        "source_start": 2745,
+        "source_end": 3207
       }
     ],
     "meta_model": "openai/gpt-4o",

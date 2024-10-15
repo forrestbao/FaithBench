@@ -3509,23 +3509,6 @@
         "summary_end": 203
       },
       {
-        "annot_id": 254,
-        "sample_id": 48,
-        "annotator": "d962446ae5484fac9143abbed2bc8859",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Erana",
-        "summary_span": "alternative routes were established via the A897 Helmsdale to Melvich road",
-        "summary_start": 207,
-        "summary_end": 281,
-        "source_span": "The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road.",
-        "source_start": 140,
-        "source_end": 232
-      },
-      {
         "annot_id": 270,
         "sample_id": 48,
         "annotator": "d962446ae5484fac9143abbed2bc8859",
@@ -3556,6 +3539,23 @@
         "source_span": "Several other people received minor injuries in the crash.",
         "source_start": 81,
         "source_end": 139
+      },
+      {
+        "annot_id": 342,
+        "sample_id": 48,
+        "annotator": "d962446ae5484fac9143abbed2bc8859",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "diversions away from A897, not via it",
+        "annotator_name": "Erana",
+        "summary_span": "alternative routes were established via the A897 Helmsdale to Melvich road.",
+        "summary_start": 207,
+        "summary_end": 282,
+        "source_span": "The road was closed and diversions were put in place via the A897 Helmsdale to Melvich road.",
+        "source_start": 140,
+        "source_end": 232
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
