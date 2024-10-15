@@ -110,7 +110,7 @@ def compute_interannotator_agreement(
     return agreement
 
 class DetectorEvaluator():
-    def __init__(self, result_files, skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}):
+    def __init__(self, result_files, halu_labels=['Unwanted', 'Questionable'], skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}):
         '''
         result_files: the list of files to process
         skip_sample_ids: batch sample id of samples to be skipped when computing the results
@@ -119,16 +119,22 @@ class DetectorEvaluator():
         selected_annotators: selected annotator for each file
             {filename: [selected annotators]}
         '''
-        self.detectors = ["hhemv1", "hhem-2.1", "hhem-2.1-english", "trueteacher", "true_nli", "gpt-3.5-turbo", "gpt-4-turbo", "gpt-4o"]
+        self.detectors = [
+            "HHEMv1", "HHEM-2.1", "HHEM-2.1-English", "HHEM-2.1-Open",
+            "trueteacher", "true_nli", 
+            "gpt-3.5-turbo", "gpt-4-turbo", "gpt-4o", "gpt-4",
+            "minicheck-roberta-large","minicheck-deberta-v3-large","minicheck-flan-t5-large"
+        ]
         self.predictions = {detector: [] for detector in ['human'] + self.detectors}
         self.result_files = result_files
         self.skip_sample_ids = skip_sample_ids
         self.skip_meta_sample_ids = skip_meta_sample_ids
         self.selected_annotators = selected_annotators
+        self.halu_labels = halu_labels
 
     def process_results(self):
+        ref_data = pd.read_csv('examples_to_annotate.csv')
         for file_path in self.result_files:
-            
             data = json.load(open(file_path))
             selected_annotators = None
             if file_path in self.selected_annotators:
@@ -141,7 +147,8 @@ class DetectorEvaluator():
                 meta_sample_id = sample['meta_sample_id']
                 if meta_sample_id in self.skip_meta_sample_ids:
                     continue
-                
+                source = sample['source']
+                llm = sample['meta_model']
                 annotations = sample['annotations']
                 sample_annotations = []
                 for annotation in annotations:
@@ -153,15 +160,40 @@ class DetectorEvaluator():
                         sample_annotations.extend(annotation['label'])
                 sample_annotations = set(sample_annotations)
                 # human annotation
-                if "Unwanted" in sample_annotations or 'Questionable' in sample_annotations:
-                    self.predictions['human'].append(0)
+                # if "Unwanted" in sample_annotations or 'Questionable' in sample_annotations:
+                #     self.predictions['human'].append(0)
+                # else:
+                #     self.predictions['human'].append(1)
+                
+                if "Unwanted" in sample_annotations:
+                    sample_pred = "Unwanted"
+                elif 'Questionable' in sample_annotations:
+                    sample_pred = "Questionable"
+                elif "Benign" in sample_annotations:
+                    sample_pred = "Benign"
                 else:
-                    self.predictions['human'].append(1)
-
+                    sample_pred = "Consistent"
+                if sample_pred in self.halu_labels:
+                    human_label = 0
+                else:
+                    human_label = 1
+                    
+                self.predictions['human'].append(human_label)
+                # row = ref_data.loc[(ref_data['source'] == source) & (ref_data['model'] == llm)]
+                row = ref_data.loc[meta_sample_id]
+                # if row.empty:
+                #     row = ref_data.loc[(ref_data['source'] == '\"'+source+'\"') & (ref_data['model'] == llm)]
+                # if row.empty:
+                if row['model'] != llm:
+                    print(source)
+                    print(llm)
+                # print(row)
                 for detector in self.detectors:
-                    detector_pred = sample[f"meta_{detector}"]
-                    if 'hhem' in detector:
-                        detector_pred = 0 if sample[f"meta_{detector}"] < 0.5 else 1
+                    detector_pred = row[f"{detector}"].astype(int)
+                    if 'HHEM' in detector:
+                        detector_pred = 0 if row[f"{detector}"].astype(float) < 0.5 else 1
+                    elif detector_pred not in [0,1]: # invalid prediction, consider wrong
+                        detector_pred = 1 - human_label
                     self.predictions[detector].append(detector_pred)
         self.pred_df = pd.DataFrame(self.predictions)
         print(self.pred_df.shape)
@@ -203,18 +235,6 @@ class HaluEvaluator():
         self.skip_meta_sample_ids = skip_meta_sample_ids
         self.selected_annotators = selected_annotators
         self.num_annotators = num_annotators
-        self.models = [
-            "openai/GPT-3.5-Turbo",
-            "openai/gpt-4o",
-            "Qwen/Qwen2.5-7B-Instruct",
-            "microsoft/Phi-3-mini-4k-instruct",
-            "cohere/command-r-08-2024",
-            "meta-llama/Meta-Llama-3.1-8B-Instruct",
-            "meta-llama/Meta-Llama-3.1-70B-Instruct",
-            "google/gemini-1.5-flash-001",
-            "Anthropic/claude-3-5-sonnet-20240620",
-            "mistralai/Mistral-7B-Instruct-v0.3"
-        ]
         self.model_map = {
             "openai/GPT-3.5-Turbo": "GPT-3.5-Turbo",
             "openai/gpt-4o": "GPT-4o",
@@ -231,8 +251,8 @@ class HaluEvaluator():
         
 
     def process_results(self):
-        self.model_sourcelen_preds = {model: {'source_len': [], 'summary_len': [], 'preds': [], 'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign', 'Consistent']}} for model in self.models}
-        self.batch_model_sourcelen_preds = {file_path:{model: {'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign']}, 'preds':[], 'avg_source_len': 0, 'avg_summary_len': 0} for model in self.models} for file_path in self.result_files}
+        self.model_preds = {model: {'sample_labels': [], 'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign', 'Consistent']}} for model in self.model_map}
+        self.batch_model_len_preds = {file_path:{model: {'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign']}, 'sample_labels':[], 'avg_source_len': 0, 'avg_summary_len': 0} for model in self.model_map} for file_path in self.result_files}
         # avg_annotation = num of one label / num of annotators
         # i.e., if one annotator made 4 unwanted annotations to a sample and the other annotator marked 2 benign labels, the labels for this sample are 2 unwanted and 1 benign
         for file_path in self.result_files:
@@ -254,10 +274,10 @@ class HaluEvaluator():
                 sample_count += 1
                 model_name = sample['meta_model']
                 annotations = sample['annotations']
-                self.model_sourcelen_preds[model_name]['source_len'].append(len(sample['source'].split()))
-                self.model_sourcelen_preds[model_name]['summary_len'].append(len(sample['summary'].split()))
-                self.batch_model_sourcelen_preds[file_path][model_name]['avg_source_len'] += len(sample['source'].split())
-                self.batch_model_sourcelen_preds[file_path][model_name]['avg_summary_len'] += len(sample['summary'].split())
+                # self.model_preds[model_name]['source_len'].append(len(sample['source'].split()))
+                # self.model_preds[model_name]['summary_len'].append(len(sample['summary'].split()))
+                self.batch_model_len_preds[file_path][model_name]['avg_source_len'] += len(sample['source'].split())
+                self.batch_model_len_preds[file_path][model_name]['avg_summary_len'] += len(sample['summary'].split())
                 
                 
                 sample_annotations = []
@@ -275,11 +295,11 @@ class HaluEvaluator():
                 annotation_counter = dict(Counter(sample_annotations))
                 for l in ['Unwanted','Questionable', 'Benign']:
                     if l in annotation_counter:
-                        self.model_sourcelen_preds[model_name]['avg_annotations'][l] += annotation_counter[l] / num_annotator
-                        self.batch_model_sourcelen_preds[file_path][model_name]['avg_annotations'][l] += annotation_counter[l] / num_annotator
+                        self.model_preds[model_name]['avg_annotations'][l] += annotation_counter[l] / num_annotator
+                        self.batch_model_len_preds[file_path][model_name]['avg_annotations'][l] += annotation_counter[l] / num_annotator
                 
                 if len(occurred_annotators) < num_annotator:
-                    self.model_sourcelen_preds[model_name]['avg_annotations']['Consistent'] += (num_annotator - len(occurred_annotators)) / num_annotator
+                    self.model_preds[model_name]['avg_annotations']['Consistent'] += (num_annotator - len(occurred_annotators)) / num_annotator
                 
                 sample_annotations = set(sample_annotations)
                 # human annotation
@@ -291,36 +311,70 @@ class HaluEvaluator():
                     sample_pred = "Benign"
                 else:
                     sample_pred = "Consistent"
-                self.model_sourcelen_preds[model_name]['preds'].append(sample_pred)
-                self.batch_model_sourcelen_preds[file_path][model_name]['preds'].append(sample_pred)
+                self.model_preds[model_name]['sample_labels'].append(sample_pred)
+                self.batch_model_len_preds[file_path][model_name]['sample_labels'].append(sample_pred)
     
-            for model_name in self.models:
-                self.batch_model_sourcelen_preds[file_path][model_name]['avg_source_len'] /= (sample_count//len(self.models))
-                self.batch_model_sourcelen_preds[file_path][model_name]['avg_summary_len'] /= (sample_count//len(self.models))
+            for model_name in self.model_map:
+                self.batch_model_len_preds[file_path][model_name]['avg_source_len'] /= (sample_count//len(self.model_map))
+                self.batch_model_len_preds[file_path][model_name]['avg_summary_len'] /= (sample_count//len(self.model_map))
 
     def compute_halu_rate(self):
         self.model_results = {}
-        for model in self.model_sourcelen_preds:
-            preds = self.model_sourcelen_preds[model]['preds']
-            print(f'number of records for {model}:',len(preds))
+        for model in self.model_preds:
+            preds = self.model_preds[model]['sample_labels']
+            # print(f'number of records for {model}:',len(preds))
             halu_count = 0
             for pred in preds:
                 if pred in self.halu_labels:
                     halu_count += 1
-            self.model_results[model] = round((halu_count/len(preds))*100,2)
+            self.model_results[self.model_map[model]] = round((halu_count/len(preds))*100,2)
         self.model_results = {k: v for k, v in sorted(self.model_results.items(), key=lambda item: item[1])}
         return self.model_results
     
-    def get_halu_dist(self):
+    def get_sample_dist(self):
         self.model_halu_dist = {}
-        for model in self.model_sourcelen_preds:
+        for model in self.model_preds:
             self.model_halu_dist[model] = {}
-            preds = self.model_sourcelen_preds[model]['avg_annotations']
+            
             # print(preds, sum(list(preds.values())))
+            predictions = self.model_preds[model]['sample_labels']
+            sample_label_count = dict(Counter(predictions))
             for l in ['Unwanted','Questionable','Benign','Consistent']:
-                self.model_halu_dist[model][l] = round(preds[l]/(sum(list(preds.values())))*100, 2)
+                self.model_halu_dist[model][l] = round(sample_label_count[l]/(sum(list(sample_label_count.values())))*100, 2)
+            
 
         halu_dist_df = pd.DataFrame.from_dict(self.model_halu_dist, orient='index') 
+        # Set the model names as index for easier plotting
+        halu_dist_df.index = halu_dist_df.index.map(lambda x: self.model_map[x])
+        # halu_dist_df = halu_dist_df.sort_values(by='Unwanted', ascending=True)
+        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Llama-3.1-70B", "Claude-3.5-Sonnet", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini-4k"])
+        colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
+        
+        # Plot the stacked bar chart
+        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 7), color=colors)
+        # Add numbers on the stacks
+        for container in ax.containers:
+            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=45, color='white', fontsize=10, padding=1)
+
+        # Add labels and title
+        # plt.xlabel('Model')
+        plt.ylabel('Distribution of labels (%)', fontsize=14)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize=14, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=13)
+        plt.tight_layout()
+        plt.show()
+
+    def get_annotation_dist(self):
+        self.model_anno_dist = {}
+        for model in self.model_preds:
+            self.model_anno_dist[model] = {}
+            
+            # print(preds, sum(list(preds.values())))
+            for l in ['Unwanted','Questionable','Benign']:#,'Consistent']:
+                preds = self.model_preds[model]['avg_annotations']
+                self.model_anno_dist[model][l] = round(preds[l]/(sum([preds[lb] for lb in ['Unwanted','Questionable','Benign']]))*100, 2)
+                
+        halu_dist_df = pd.DataFrame.from_dict(self.model_anno_dist, orient='index') 
         # print(halu_dist_df)
         # Set the model names as index for easier plotting
         halu_dist_df.index = halu_dist_df.index.map(lambda x: self.model_map[x])
@@ -333,12 +387,10 @@ class HaluEvaluator():
         # Add numbers on the stacks
         for container in ax.containers:
             ax.bar_label(container, fmt='%.2f', label_type='center', rotation=65, color='white', fontsize=13, padding=1)
-    
-    
+
         # Add labels and title
         # plt.xlabel('Model')
-        plt.ylabel('Distribution of labels (%)', fontsize=14)
-        # plt.title('Distribution of hallucination types')
+        plt.ylabel('Distribution of annotations (%)', fontsize=14)
         plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize=14, title_fontsize='small', frameon=True, ncol=4)
         plt.xticks(rotation=20, ha='right', fontsize=13)
         plt.tight_layout()
@@ -364,8 +416,8 @@ class HaluEvaluator():
         family_models = {}  # Dictionary to track models within each family
         
         # Loop to count models within each family
-        for batch in self.batch_model_sourcelen_preds.keys():
-            for model in self.batch_model_sourcelen_preds[batch].keys():
+        for batch in self.batch_model_len_preds.keys():
+            for model in self.batch_model_len_preds[batch].keys():
                 family = model.split('/')[0]
                 standard_model_name = self.model_map.get(model, model)
                 if family not in family_models:
@@ -374,8 +426,8 @@ class HaluEvaluator():
                     family_models[family].append(standard_model_name)
         
         # Loop over each batch and model to extract data
-        plot_data = {self.model_map[model]: {'halu_rate':[], 'source_len':[], 'summary_len':[]} for model in self.models}
-        for batch, models_data in self.batch_model_sourcelen_preds.items():
+        plot_data = {self.model_map[model]: {'halu_rate':[], 'source_len':[], 'summary_len':[]} for model in self.model_map}
+        for batch, models_data in self.batch_model_len_preds.items():
             for model, data in models_data.items():
                 family = model.split('/')[0]
                 standard_model_name = self.model_map.get(model, model)
@@ -392,7 +444,7 @@ class HaluEvaluator():
                 # Extract source length and hallucination counts
                 source_length = np.array(data['avg_source_len'])
                 summary_length = np.array(data['avg_summary_len'])
-                predictions = data['preds']
+                predictions = data['sample_labels']
                 hallucinated = [1 if pred in self.halu_labels else 0 for pred in predictions]
                 hallucinated = np.array(hallucinated)
                 
@@ -455,8 +507,8 @@ class HaluEvaluator():
         family_models = {}  # Dictionary to track models within each family
         
         # Loop to count models within each family
-        for batch in self.batch_model_sourcelen_preds.keys():
-            for model in self.batch_model_sourcelen_preds[batch].keys():
+        for batch in self.batch_model_len_preds.keys():
+            for model in self.batch_model_len_preds[batch].keys():
                 standard_model_name = self.model_map.get(model, model)
                 family = model.split('/')[0]
                 if family not in family_models:
@@ -468,7 +520,7 @@ class HaluEvaluator():
         plot_data = {label: {} for label in labels}
         
         # Loop over each batch and model to extract data
-        for batch, models_data in self.batch_model_sourcelen_preds.items():
+        for batch, models_data in self.batch_model_len_preds.items():
             for model, data in models_data.items():
                 standard_model_name = self.model_map.get(model, model)
                 # Extract model family
@@ -521,6 +573,8 @@ class HaluEvaluator():
                 axs[i].set_ylabel(f'{label} Count')
                 axs[i].yaxis.get_major_locator().set_params(integer=True)
                 # axs[i].set_title(f'{label} Count vs Source Length')
+            else:
+                    raise Exception("Only \'ratio\' and \'count\' modes are supported")
             
             axs[i].grid(True, linestyle='--', alpha=0.7)
         
