@@ -1,5 +1,6 @@
 import json
 import os
+from typing import Literal 
 import krippendorff
 import itertools
 import numpy as np
@@ -114,7 +115,7 @@ class DetectorEvaluator():
         result_files: the list of files to process
         skip_sample_ids: batch sample id of samples to be skipped when computing the results
             {filename: [sample ids to skip in the file]}
-        skip_meta_sample_ids: meta sample id of samples to be skipped
+        skip_meta_sample_ids: meta samplfhalu) id of samples to be skipped
         selected_annotators: selected annotator for each file
             {filename: [selected annotators]}
         '''
@@ -343,9 +344,9 @@ class HaluEvaluator():
         plt.tight_layout()
         plt.show()
 
-    def halu_vs_length(self):
+    def halu_vs_length(self, length_of: Literal['source', 'summary']):
         # Initialize the plot
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(6, 6))
         
         # Define base colors and line styles for model families with more distinguishable styles
         base_colors = {
@@ -373,7 +374,7 @@ class HaluEvaluator():
                     family_models[family].append(standard_model_name)
         
         # Loop over each batch and model to extract data
-        plot_data = {self.model_map[model]: {'halu_rate':[], 'source_len':[]} for model in self.models}
+        plot_data = {self.model_map[model]: {'halu_rate':[], 'source_len':[], 'summary_len':[]} for model in self.models}
         for batch, models_data in self.batch_model_sourcelen_preds.items():
             for model, data in models_data.items():
                 family = model.split('/')[0]
@@ -390,6 +391,7 @@ class HaluEvaluator():
                 
                 # Extract source length and hallucination counts
                 source_length = np.array(data['avg_source_len'])
+                summary_length = np.array(data['avg_summary_len'])
                 predictions = data['preds']
                 hallucinated = [1 if pred in self.halu_labels else 0 for pred in predictions]
                 hallucinated = np.array(hallucinated)
@@ -397,12 +399,14 @@ class HaluEvaluator():
                 plot_data[standard_model_name]['color'] = color
                 plot_data[standard_model_name]['line_style'] = line_style
                 plot_data[standard_model_name]['halu_rate'].append(round(np.mean(hallucinated) * 100, 2))
-                plot_data[standard_model_name]['source_len'].append(source_length)
+                # plot_data[standard_model_name]['source_len'].append(source_length)
+                plot_data[standard_model_name][length_of + '_len'].append(source_length if length_of == 'source' else summary_length)
                 # Smooth the hallucination rate using a Gaussian filter
                 # hallucination_rates_smooth = gaussian_filter1d(hallucination_rates, sigma=5)
         
         for model, data in plot_data.items():
-            x_vals = np.array(data['source_len'])
+            # x_vals = np.array(data['source_len'])
+            x_vals = np.array(data[length_of+'_len'])
             y_vals = np.array(data['halu_rate'])
             sorted_indices = np.argsort(x_vals)
             x_vals = x_vals[sorted_indices]
@@ -411,24 +415,26 @@ class HaluEvaluator():
             plt.plot(x_vals, y_smooth, label=model, color=data['color'], linestyle=data['line_style'], linewidth=1.5)
 
         # Customize the plot
-        plt.xlabel('Source Length (# words)')
-        plt.ylabel('Hallucination Rate (%)')
-        plt.title('Hallucination Rate vs Source Length')
+        plt.xlabel(("Passage" if length_of == 'source' else "Summary")
+                    + ' Length (# of words)', fontsize=14)
+        plt.ylabel('Hallucination Rate (%)', fontsize=14)
+        # plt.title('Hallucination Rate vs. Source Length', fontsize=16)
+        # plt.xscale('log')
         plt.grid(True, linestyle='--', alpha=0.7)
         plt.gca().yaxis.get_major_locator().set_params(integer=True)
         
         # Add shared legend at the bottom of the figure
-        plt.legend(loc='lower right', fontsize='small', title_fontsize='small', ncol=4, frameon=True)
+        plt.legend(loc='lower right', fontsize=12, title_fontsize='small', ncol=2, frameon=True)
         
         plt.tight_layout(rect=[0, 0.1, 1, 1])  # Adjust layout to fit the legend
         plt.show()
 
-    def label_vs_length(self, mode):
+    def label_vs_length(self, mode, length_of: Literal['source', 'summary']):
         # Define labels to be plotted
         labels = ['Unwanted', 'Questionable', 'Benign']
         
         # Initialize subplots for each label
-        fig, axs = plt.subplots(3, 1, figsize=(6, 18))
+        fig, axs = plt.subplots(1, 3, figsize=(9, 3))
         
         # Ensure axs is iterable by converting it to a list
         axs = list(axs) if isinstance(axs, np.ndarray) else [axs]
@@ -506,20 +512,22 @@ class HaluEvaluator():
         
         # Customize the plots
         for i, label in enumerate(labels):
+            # axs[i].set_xlabel(('Passage' if length_of == 'source' else 'Summary') + ' Length (# of words)')
             if mode == 'ratio':
-                axs[i].set_ylabel(f'{label} Ratio (%)')
-                axs[i].set_title(f'{label} Ratio vs Source Length')
+                # axs[i].set_ylabel(f'Ratio (%) of {label}')
+                # axs[i].set_title(f'{label} Ratio vs Source Length')
+                axs[i].set_title(f'{label}')
             elif mode == 'count':
                 axs[i].set_ylabel(f'{label} Count')
                 axs[i].yaxis.get_major_locator().set_params(integer=True)
-                axs[i].set_title(f'{label} Count vs Source Length')
+                # axs[i].set_title(f'{label} Count vs Source Length')
             
             axs[i].grid(True, linestyle='--', alpha=0.7)
         
         # Add shared legend at the bottom of the figure
         handles, labels = axs[0].get_legend_handles_labels()
         unique_handles_labels = dict(zip(labels, handles))
-        fig.legend(unique_handles_labels.values(), unique_handles_labels.keys(), loc='lower center', fontsize='small', title_fontsize='small', ncol=4, frameon=True)
+        fig.legend(unique_handles_labels.values(), unique_handles_labels.keys(), loc='lower center', fontsize=10, title_fontsize='small', ncol=5, frameon=True, bbox_to_anchor=(0.5, -0.1))
         
         plt.tight_layout(rect=[0, 0.03, 1, 1])  # Adjust layout to fit the legend
         plt.show()

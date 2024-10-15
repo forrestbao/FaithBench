@@ -2559,6 +2559,23 @@
         "source_span": "and took to weibo to post photos of the fire",
         "source_start": 884,
         "source_end": 928
+      },
+      {
+        "annot_id": 299,
+        "sample_id": 21,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reportedly carcinogenic vs carcinogenic is different",
+        "annotator_name": "Vivek",
+        "summary_span": "a carcinogenic chemical ",
+        "summary_start": 188,
+        "summary_end": 212,
+        "source_span": "a reportedly carcinogenic chemical",
+        "source_start": 267,
+        "source_end": 301
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -2592,6 +2609,19 @@
         "source_span": "the zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory",
         "source_start": 1306,
         "source_end": 1542
+      },
+      {
+        "annot_id": 300,
+        "sample_id": 22,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "backlash need not be equal to protests",
+        "annotator_name": "Vivek",
+        "summary_span": "elocated from Xiamen due to pollution concerns and protests in 2007.",
+        "summary_start": 522,
+        "summary_end": 590
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -2652,6 +2682,19 @@
         ],
         "note": "the source doesn't say the protests were due to the previous explosion",
         "annotator_name": "Manveer",
+        "summary_span": "The plant has a history of protests due to pollution concerns, and a previous explosion in 2013.",
+        "summary_start": 394,
+        "summary_end": 490
+      },
+      {
+        "annot_id": 301,
+        "sample_id": 23,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "exact reason for protest unclear",
+        "annotator_name": "Vivek",
         "summary_span": "The plant has a history of protests due to pollution concerns, and a previous explosion in 2013.",
         "summary_start": 394,
         "summary_end": 490
@@ -2785,6 +2828,19 @@
         "source_span": "were no reports of casualties or toxic leaks at the time .",
         "source_start": 1070,
         "source_end": 1128
+      },
+      {
+        "annot_id": 302,
+        "sample_id": 24,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "no casualties at the time",
+        "annotator_name": "Vivek",
+        "summary_span": "explosion in 2013 without casualties",
+        "summary_start": 445,
+        "summary_end": 481
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -2886,6 +2942,34 @@
         "source_span": "it provoked an angry backlash in 2007 ",
         "source_start": 1421,
         "source_end": 1459
+      },
+      {
+        "annot_id": 303,
+        "sample_id": 25,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reportedly carinogenic",
+        "annotator_name": "Vivek",
+        "summary_span": "carcinogenic",
+        "summary_start": 335,
+        "summary_end": 347
+      },
+      {
+        "annot_id": 304,
+        "sample_id": 25,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "relocation did not happen in 2007",
+        "annotator_name": "Vivek",
+        "summary_span": "elocated from a densely populated area in 2007",
+        "summary_start": 407,
+        "summary_end": 453
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -2934,6 +3018,22 @@
         "summary_end": 519,
         "source_span": "an angry backlash in 2007",
         "source_start": 1433,
+        "source_end": 1458
+      },
+      {
+        "annot_id": 305,
+        "sample_id": 26,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "backlash and protests are not the same",
+        "annotator_name": "Vivek",
+        "summary_span": "protests in 2007",
+        "summary_start": 503,
+        "summary_end": 519,
+        "source_span": "angry backlash in 2007",
+        "source_start": 1436,
         "source_end": 1458
       }
     ],
@@ -3000,6 +3100,38 @@
         "source_span": "the fire is now under control ",
         "source_start": 697,
         "source_end": 727
+      },
+      {
+        "annot_id": 306,
+        "sample_id": 27,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "fire was put out by over 600 firefighters",
+        "summary_start": 290,
+        "summary_end": 331,
+        "source_span": "fire is now under control",
+        "source_start": 701,
+        "source_end": 726
+      },
+      {
+        "annot_id": 307,
+        "sample_id": 27,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "backlash is not same as protest",
+        "annotator_name": "Vivek",
+        "summary_span": "protests",
+        "summary_start": 425,
+        "summary_end": 433,
+        "source_span": "backlash",
+        "source_start": 1442,
+        "source_end": 1450
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -3100,6 +3232,34 @@
         "source_span": " current , more remote location ",
         "source_start": 1549,
         "source_end": 1581
+      },
+      {
+        "annot_id": 308,
+        "sample_id": 28,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "current remote location",
+        "summary_start": 419,
+        "summary_end": 442
+      },
+      {
+        "annot_id": 309,
+        "sample_id": 28,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reportedly carcinogenic",
+        "annotator_name": "Vivek",
+        "summary_span": "carcinogenic",
+        "summary_start": 111,
+        "summary_end": 123
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -3200,6 +3360,33 @@
         "source_span": "no reports of casualties or toxic leaks at the time",
         "source_start": 1075,
         "source_end": 1126
+      },
+      {
+        "annot_id": 310,
+        "sample_id": 29,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "carcinogenic",
+        "summary_start": 153,
+        "summary_end": 165
+      },
+      {
+        "annot_id": 311,
+        "sample_id": 29,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": " 2013 without casualties ",
+        "summary_start": 458,
+        "summary_end": 483
       }
     ],
     "meta_model": "openai/gpt-4o",
@@ -3294,6 +3481,20 @@
         "summary_span": "to custody at a male prison",
         "summary_start": 384,
         "summary_end": 411
+      },
+      {
+        "annot_id": 312,
+        "sample_id": 30,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "likely at a male prison",
+        "annotator_name": "Vivek",
+        "summary_span": "has been remanded into custody at a male prison",
+        "summary_start": 364,
+        "summary_end": 411
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -3384,6 +3585,20 @@
         "summary_span": " stating she would likely be held at a male prison due to the risk of self-harm and non-attendance",
         "summary_start": 313,
         "summary_end": 411
+      },
+      {
+        "annot_id": 313,
+        "sample_id": 31,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reason for male prison not clear",
+        "annotator_name": "Vivek",
+        "summary_span": "stating she would likely be held at a male prison",
+        "summary_start": 314,
+        "summary_end": 363
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -3533,6 +3748,19 @@
         "summary_span": "but has not made physical changes or taken medication",
         "summary_start": 368,
         "summary_end": 421
+      },
+      {
+        "annot_id": 314,
+        "sample_id": 32,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not conclusive",
+        "annotator_name": "Vivek",
+        "summary_span": "but was found guilty",
+        "summary_start": 252,
+        "summary_end": 272
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -3689,6 +3917,20 @@
         "source_span": "It will have to be a male prison in Winchester but it will be an issue for the prison service.\"",
         "source_start": 519,
         "source_end": 614
+      },
+      {
+        "annot_id": 315,
+        "sample_id": 33,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "reason for male prison unclear",
+        "annotator_name": "Vivek",
+        "summary_span": "remanded in a male prison due to concerns for their safety ",
+        "summary_start": 466,
+        "summary_end": 525
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -3793,6 +4035,20 @@
         "summary_span": "The victim, who had consumed alcohol, clearly remembered the incident and reported it to a care home worker in 2014.",
         "summary_start": 425,
         "summary_end": 541
+      },
+      {
+        "annot_id": 316,
+        "sample_id": 34,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "male prison in Winchester, due to concerns about her potential risk to herself and non-attendance.",
+        "summary_start": 217,
+        "summary_end": 315
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -3932,6 +4188,20 @@
         "summary_span": " likely to be held in a male prison in Winchester due to concerns about her risk to herself and potential failure to attend court.",
         "summary_start": 343,
         "summary_end": 473
+      },
+      {
+        "annot_id": 317,
+        "sample_id": 36,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "held in a male prison in Winchester due",
+        "summary_start": 357,
+        "summary_end": 396
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -4059,6 +4329,20 @@
         "source_span": "I will therefore have to remand in custody. It will have to be a male prison in Winchester but it will be an issue for the prison service.\" ",
         "source_start": 475,
         "source_end": 615
+      },
+      {
+        "annot_id": 318,
+        "sample_id": 38,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "a male prison due to the risk she poses to herself and the likelihood of her failing to attend court if released on bail.",
+        "summary_start": 305,
+        "summary_end": 426
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
@@ -4077,22 +4361,6 @@
     "source": "The girl, aged 15 at the time, had met a man called David Ayrton in a Portsmouth garage in the autumn of 2004. The defendant, now 34 and called Davina, denied the charge. She will be sentenced on 4 March. Judge Ian Pearson remanded her into custody and said it was likely she would be held at a male prison. He added: \"If I were to release on bail there are substantial grounds to believe she would be a risk to herself and a risk of failing to attend for whatever reason. \" I will therefore have to remand in custody. It will have to be a male prison in Winchester but it will be an issue for the prison service.\" He also told the jury at Portsmouth Crown Court: \"It's been a slightly unusual case and it's not been an easy case.\" The court heard that Ayrton, who has learning difficulties, attempted to commit suicide last summer. Protocols have been put in place for her detention at the prison, a court officer explained. During the trial Ayrton spoke about her sexuality, and said she she had not \"made any physical changes or enhancements\" to her body or taken any medication. She changed her name in 2012. Portsmouth Crown Court was told she raped the teenager while two others were asleep in the garage. The victim said she shouted and swore at Ayrton to stop the attack, but her friends had not woken up. She had \"only drunk a can and a half of Foster's\" and clearly recollected the events. The court heard that in 2014 Ayrton told a worker at the care home where she lived in Fordingbridge, Hampshire, about the attack.",
     "summary": "In the autumn of 2004, a 15-year-old girl met David Ayrton, now known as Davina, in a Portsmouth garage. Davina, now 34, denied charges of raping the teenager while two others were asleep. The victim recalled the events clearly, despite having consumed some alcohol. Ayrton, who has learning difficulties and attempted suicide last summer, will be sentenced on 4 March and is likely to be held in a male prison. Protocols for her detention have been established. Ayrton, who changed her name in 2012 and has not undergone any physical changes or taken medication, disclosed the attack to a care home worker in 2014. Judge Ian Pearson remanded her into custody, citing risks if released on bail.",
     "annotations": [
-      {
-        "annot_id": 208,
-        "sample_id": 39,
-        "annotator": "7f05d723802346528ecae77147cd32cf",
-        "label": [
-          "Questionable"
-        ],
-        "note": "",
-        "annotator_name": "Vivek",
-        "summary_span": "some alcohol",
-        "summary_start": 253,
-        "summary_end": 265,
-        "source_span": "only drunk a can and a half of Foster's",
-        "source_start": 1323,
-        "source_end": 1362
-      },
       {
         "annot_id": 285,
         "sample_id": 39,
@@ -4289,20 +4557,6 @@
         "source_span": "the city of eugene in the united states",
         "source_start": 0,
         "source_end": 39
-      },
-      {
-        "annot_id": 209,
-        "sample_id": 44,
-        "annotator": "7f05d723802346528ecae77147cd32cf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "No mention of Oregon in soruce",
-        "annotator_name": "Vivek",
-        "summary_span": "Oregon",
-        "summary_start": 8,
-        "summary_end": 14
       },
       {
         "annot_id": 288,
@@ -4512,20 +4766,6 @@
         "source_end": 1444
       },
       {
-        "annot_id": 210,
-        "sample_id": 47,
-        "annotator": "7f05d723802346528ecae77147cd32cf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "No mention of Oregon in source",
-        "annotator_name": "Vivek",
-        "summary_span": "Oregon",
-        "summary_start": 86,
-        "summary_end": 92
-      },
-      {
         "annot_id": 293,
         "sample_id": 47,
         "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
@@ -4612,6 +4852,19 @@
         "source_span": "delighted",
         "source_start": 1251,
         "source_end": 1260
+      },
+      {
+        "annot_id": 320,
+        "sample_id": 48,
+        "annotator": "7f05d723802346528ecae77147cd32cf",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "excitement",
+        "summary_start": 427,
+        "summary_end": 437
       }
     ],
     "meta_model": "openai/GPT-3.5-Turbo",
