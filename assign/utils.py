@@ -119,13 +119,22 @@ class DetectorEvaluator():
         selected_annotators: selected annotator for each file
             {filename: [selected annotators]}
         '''
-        self.detectors = [
-            "HHEMv1", "HHEM-2.1", "HHEM-2.1-English", "HHEM-2.1-Open",
-            "trueteacher", "true_nli", 
-            "gpt-3.5-turbo", "gpt-4-turbo", "gpt-4o", "gpt-4",
-            "minicheck-roberta-large","minicheck-deberta-v3-large","minicheck-flan-t5-large"
-        ]
-        self.predictions = {detector: [] for detector in ['human'] + self.detectors}
+        self.detectors = {
+            "HHEMv1":"HHEM-1", 
+            "HHEM-2.1": "HHEM-2.1-Tri" , 
+            "HHEM-2.1-English": "HHEM-2.1-English", 
+            "HHEM-2.1-Open": "HHEM-2.1-Open",
+            "trueteacher": "True-Teacher", 
+            "true_nli": "True-NLI", 
+            "gpt-3.5-turbo": "GPT-3.5-Turbo, zero-shot", 
+            "gpt-4-turbo": "GPT-4-Turbo, zero-shot", 
+            "gpt-4o": "GPT-4o, zero-shot", 
+            "gpt-4": "GPT-4, zero-shot",
+            "minicheck-roberta-large": "Minicheck-Roberta-LG",
+            "minicheck-deberta-v3-large": "Minicheck-Deberta-LG",
+            "minicheck-flan-t5-large": "Minicheck-Flan-T5-LG"
+        }
+        self.predictions = {detector: [] for detector in ['human'] + list(self.detectors.keys())}
         self.result_files = result_files
         self.skip_sample_ids = skip_sample_ids
         self.skip_meta_sample_ids = skip_meta_sample_ids
@@ -133,6 +142,7 @@ class DetectorEvaluator():
         self.halu_labels = halu_labels
 
     def process_results(self):
+        self.batch_predictions = {file_path: {'preds': {detector: [] for detector in list(self.detectors.keys())}, 'avg_source_len': 0, 'avg_summary_len': 0}  for file_path in self.result_files}
         ref_data = pd.read_csv('examples_to_annotate.csv')
         for file_path in self.result_files:
             data = json.load(open(file_path))
@@ -140,6 +150,7 @@ class DetectorEvaluator():
             if file_path in self.selected_annotators:
                 selected_annotators = self.selected_annotators[file_path]
         
+            sample_count = 0
             for sample in data:
                 sample_id = sample['sample_id']
                 if file_path in self.skip_sample_ids and sample_id in self.skip_sample_ids[file_path]:
@@ -147,7 +158,11 @@ class DetectorEvaluator():
                 meta_sample_id = sample['meta_sample_id']
                 if meta_sample_id in self.skip_meta_sample_ids:
                     continue
+                sample_count += 1
                 source = sample['source']
+                summary = sample['summary']
+                self.batch_predictions[file_path]['avg_source_len'] += len(source.split())
+                self.batch_predictions[file_path]['avg_summary_len'] += len(summary.split())
                 llm = sample['meta_model']
                 annotations = sample['annotations']
                 sample_annotations = []
@@ -195,6 +210,11 @@ class DetectorEvaluator():
                     elif detector_pred not in [0,1]: # invalid prediction, consider wrong
                         detector_pred = 1 - human_label
                     self.predictions[detector].append(detector_pred)
+                    self.batch_predictions[file_path]['preds'][detector].append(detector_pred)
+
+            self.batch_predictions[file_path]['avg_source_len'] /= sample_count
+            self.batch_predictions[file_path]['avg_summary_len'] /= sample_count
+
         self.pred_df = pd.DataFrame(self.predictions)
         print(self.pred_df.shape)
 
@@ -207,17 +227,134 @@ class DetectorEvaluator():
             detector_results = {
                 "ba": round(balanced_accuracy_score(self.pred_df['human'], self.pred_df[detector])*100,2),
                 "f1-macro": round(f1_score(self.pred_df['human'], self.pred_df[detector], pos_label=1, average="macro")*100,2),
-                "f1-halu": round(f1_score(self.pred_df['human'], self.pred_df[detector], pos_label=0)*100,2),
-                "pr-halu": round(precision_score(self.pred_df['human'], self.pred_df[detector], pos_label=0)*100,2),
-                're-halu': round(recall_score(self.pred_df['human'], self.pred_df[detector], pos_label=0)*100,2),
-                "f1-cons": round(f1_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2),
-                "pr-cons": round(precision_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2),
-                're-cons': round(recall_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2)
+                # "f1-halu": round(f1_score(self.pred_df['human'], self.pred_df[detector], pos_label=0)*100,2),
+                # "pr-halu": round(precision_score(self.pred_df['human'], self.pred_df[detector], pos_label=0)*100,2),
+                # 're-halu': round(recall_score(self.pred_df['human'], self.pred_df[detector], pos_label=0)*100,2),
+                # "f1-cons": round(f1_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2),
+                # "pr-cons": round(precision_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2),
+                # 're-cons': round(recall_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2)
             }
-            self.performance_results[detector] = detector_results
-        # return self.performance_results
+            self.performance_results[self.detectors[detector]] = detector_results
         return pd.DataFrame.from_dict(self.performance_results, orient='index')
     
+    def disagree_vs_length(self):
+        source_lens = []
+        summary_lens = []
+        disagreement_count = []
+        
+        for _, data in self.batch_predictions.items():
+            preds = data['preds']
+            num_samples = len(next(iter(preds.values())))
+            batch_disagreement = []
+            
+            # Loop through each sample (index)
+            for i in range(num_samples):
+                # Get all predictions for this sample from all models
+                current_predictions = [preds[model][i] for model in preds]
+                
+                # Check if there is disagreement by comparing the set of predictions
+                if len(set(current_predictions)) > 1:
+                    batch_disagreement.append(True)  # There is a disagreement
+                else:
+                    batch_disagreement.append(False)  # No disagreement
+                    
+            disagreement_count.append(sum(batch_disagreement))
+            source_lens.append(data['avg_source_len'])
+            summary_lens.append(data['avg_summary_len'])
+
+        # Create subplots
+        fig, axs = plt.subplots(1, 2, figsize=(9, 4))
+        # Use a color map ("Greys") to better represent disagreement intensity with dark colors for larger counts
+        cmap = plt.cm.get_cmap("Wistia")
+        
+        # Plot source length vs disagreement with color representing disagreement count
+        scatter1 = axs[0].scatter(source_lens, disagreement_count, c=disagreement_count, cmap=cmap, s=60, alpha=0.9)
+        axs[0].set_xlabel("Source Length (words)", fontsize=9)
+        axs[0].set_ylabel("Disagreement Number", fontsize=9)
+        axs[0].set_title('Source Length vs Disagreement', fontsize=10)
+        axs[0].grid(True, linestyle='--', alpha=0.5)
+        
+        # Add disagreement count labels to every data point with rotation and merging close points
+        for i, (src_len, disag) in enumerate(zip(source_lens, disagreement_count)):
+            label_placed = False
+            for j in range(i):
+                # Check if another label is close
+                if abs(src_len - source_lens[j]) < 30 and abs(disag - disagreement_count[j]) < 2:
+                    label_placed = True
+                    break
+            if not label_placed:
+                axs[0].text(src_len, disag, f'{disag}', fontsize=7, ha='right', rotation=45, color='black')
+
+        # Plot summary length vs disagreement with color representing disagreement count
+        scatter2 = axs[1].scatter(summary_lens, disagreement_count, c=disagreement_count, cmap=cmap, s=50, alpha=0.7)
+        axs[1].set_xlabel("Summary Length (words)", fontsize=9)
+        axs[1].set_ylabel("Disagreement Number", fontsize=9)
+        axs[1].set_title('Summary Length vs Disagreement', fontsize=10)
+        axs[1].grid(True, linestyle='--', alpha=0.5)
+        
+        # Add disagreement count labels to every data point with rotation and merging close points
+        for i, (sum_len, disag) in enumerate(zip(summary_lens, disagreement_count)):
+            label_placed = False
+            for j in range(i):
+                # Check if another label is close
+                if abs(sum_len - summary_lens[j]) < 15 and abs(disag - disagreement_count[j]) < 2:
+                    label_placed = True
+                    break
+            if not label_placed:
+                axs[1].text(sum_len, disag, f'{disag}', fontsize=7, ha='right', rotation=45, color='black')
+
+        # Adjust layout for better spacing
+        plt.tight_layout()
+
+        # Add a color bar to represent the disagreement count
+        cbar = fig.colorbar(scatter1, ax=axs, orientation='vertical', fraction=0.02, pad=0.05)
+        cbar.set_label('Disagreement Count', fontsize=9)
+
+        # Show the plot
+        plt.show()
+        
+    def disagree_vs_model(self):
+        num_model_vs_count = {}
+        
+        for _, data in self.batch_predictions.items():
+            preds = data['preds']
+            num_samples = len(next(iter(preds.values())))
+            batch_disagreement = []
+            
+            # Loop through each sample (index)
+            for i in range(num_samples):
+                # Get all predictions for this sample from all models
+                current_predictions = [preds[model][i] for model in preds]
+                
+                # Check if there is disagreement by comparing the set of predictions
+                if len(set(current_predictions)) > 1:
+                    num_disagreed_model = min(list(dict(Counter(current_predictions)).values())) # There is a disagreement
+                    if not num_disagreed_model in num_model_vs_count:
+                        num_model_vs_count[num_disagreed_model] = 0
+                    num_model_vs_count[num_disagreed_model] += 1
+            
+        x_labels = list(num_model_vs_count.keys())
+        y_values = list(num_model_vs_count.values())
+
+        # Create the bar plot
+        plt.figure(figsize=(4, 3))
+        bars = plt.bar(x_labels, y_values, color='skyblue')
+        for bar in bars:
+            yval = bar.get_height()
+            plt.text(bar.get_x() + bar.get_width()/2, yval + 1, f'{yval}', ha='center', fontsize=6)
+
+
+        # Adding labels and title
+        plt.xlabel('Number of Disagreed Models', fontsize=8)
+        plt.ylabel('Disagreement Count', fontsize=8)
+        # plt.title('Disagreement Count by Model', fontsize=10)
+        # plt.xticks(rotation=45, ha='right')
+
+        # Display the plot
+        plt.tight_layout()
+        plt.show()
+                    
+            
 
 class HaluEvaluator():
     def __init__(self, result_files, halu_labels=['Unwanted', 'Questionable'], skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}, num_annotators={}):
@@ -239,7 +376,7 @@ class HaluEvaluator():
             "openai/GPT-3.5-Turbo": "GPT-3.5-Turbo",
             "openai/gpt-4o": "GPT-4o",
             "Qwen/Qwen2.5-7B-Instruct": "Qwen2.5-7B",
-            "microsoft/Phi-3-mini-4k-instruct": "Phi-3-mini-4k",
+            "microsoft/Phi-3-mini-4k-instruct": "Phi-3-mini",
             "cohere/command-r-08-2024": "Command-R",
             "meta-llama/Meta-Llama-3.1-8B-Instruct": "Llama-3.1-8B",
             "meta-llama/Meta-Llama-3.1-70B-Instruct":"Llama-3.1-70B",
@@ -347,20 +484,20 @@ class HaluEvaluator():
         # Set the model names as index for easier plotting
         halu_dist_df.index = halu_dist_df.index.map(lambda x: self.model_map[x])
         # halu_dist_df = halu_dist_df.sort_values(by='Unwanted', ascending=True)
-        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Llama-3.1-70B", "Claude-3.5-Sonnet", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini-4k"])
+        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Llama-3.1-70B", "Claude-3.5-Sonnet", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini"])
         colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
         
         # Plot the stacked bar chart
-        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 7), color=colors)
+        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 4), color=colors)
         # Add numbers on the stacks
         for container in ax.containers:
-            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=45, color='white', fontsize=10, padding=1)
+            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=30, color='black', fontsize=9, padding=1)
 
         # Add labels and title
         # plt.xlabel('Model')
-        plt.ylabel('Distribution of labels (%)', fontsize=14)
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize=14, title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=20, ha='right', fontsize=13)
+        plt.ylabel('Distribution of labels (%)', fontsize=10)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15), fontsize=9, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=9)
         plt.tight_layout()
         plt.show()
 
@@ -379,26 +516,26 @@ class HaluEvaluator():
         # Set the model names as index for easier plotting
         halu_dist_df.index = halu_dist_df.index.map(lambda x: self.model_map[x])
         # halu_dist_df = halu_dist_df.sort_values(by='Unwanted', ascending=True)
-        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Llama-3.1-70B", "Claude-3.5-Sonnet", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini-4k"])
+        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Llama-3.1-70B", "Claude-3.5-Sonnet", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini"])
         colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
         
         # Plot the stacked bar chart
-        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 7), color=colors)
+        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 4), color=colors)
         # Add numbers on the stacks
         for container in ax.containers:
-            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=65, color='white', fontsize=13, padding=1)
+            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=65, color='black', fontsize=10, padding=1)
 
         # Add labels and title
         # plt.xlabel('Model')
-        plt.ylabel('Distribution of annotations (%)', fontsize=14)
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize=14, title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=20, ha='right', fontsize=13)
+        plt.ylabel('Distribution of annotations (%)', fontsize=10)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15), fontsize=9, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=9)
         plt.tight_layout()
         plt.show()
 
     def halu_vs_length(self, length_of: Literal['source', 'summary']):
         # Initialize the plot
-        plt.figure(figsize=(6, 6))
+        plt.figure(figsize=(9, 4))
         
         # Define base colors and line styles for model families with more distinguishable styles
         base_colors = {
@@ -468,17 +605,17 @@ class HaluEvaluator():
 
         # Customize the plot
         plt.xlabel(("Passage" if length_of == 'source' else "Summary")
-                    + ' Length (# of words)', fontsize=14)
-        plt.ylabel('Hallucination Rate (%)', fontsize=14)
+                    + ' Length (# of words)', fontsize=10)
+        plt.ylabel('Hallucination Rate (%)', fontsize=10)
         # plt.title('Hallucination Rate vs. Source Length', fontsize=16)
         # plt.xscale('log')
         plt.grid(True, linestyle='--', alpha=0.7)
         plt.gca().yaxis.get_major_locator().set_params(integer=True)
         
         # Add shared legend at the bottom of the figure
-        plt.legend(loc='lower right', fontsize=12, title_fontsize='small', ncol=2, frameon=True)
+        plt.legend(loc='lower right', fontsize=9, title_fontsize='small', ncol=4, frameon=True) # bbox_to_anchor=(0.5, -0.5), 
         
-        plt.tight_layout(rect=[0, 0.1, 1, 1])  # Adjust layout to fit the legend
+        plt.tight_layout(rect=[0, 0.05, 1, 1])  # Adjust layout to fit the legend
         plt.show()
 
     def label_vs_length(self, mode, length_of: Literal['source', 'summary']):
@@ -581,7 +718,7 @@ class HaluEvaluator():
         # Add shared legend at the bottom of the figure
         handles, labels = axs[0].get_legend_handles_labels()
         unique_handles_labels = dict(zip(labels, handles))
-        fig.legend(unique_handles_labels.values(), unique_handles_labels.keys(), loc='lower center', fontsize=10, title_fontsize='small', ncol=5, frameon=True, bbox_to_anchor=(0.5, -0.1))
+        fig.legend(unique_handles_labels.values(), unique_handles_labels.keys(), loc='lower center', fontsize=9, title_fontsize='small', ncol=5, frameon=True, bbox_to_anchor=(0.5, -0.1))
         
         plt.tight_layout(rect=[0, 0.03, 1, 1])  # Adjust layout to fit the legend
         plt.show()
