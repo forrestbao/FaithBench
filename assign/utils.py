@@ -325,7 +325,7 @@ class HaluEvaluator():
         # Set the model names as index for easier plotting
         halu_dist_df.index = halu_dist_df.index.map(lambda x: self.model_map[x])
         # halu_dist_df = halu_dist_df.sort_values(by='Unwanted', ascending=True)
-        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Llama-3.1-70B", "Claude-3.5-Sonnet", "Gemini-1.5-Flash", 'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini-4k"])
+        halu_dist_df = halu_dist_df.reindex(['GPT-4o', 'GPT-3.5-Turbo', "Gemini-1.5-Flash", "Llama-3.1-70B", "Claude-3.5-Sonnet",  'Llama-3.1-8B', "Qwen2.5-7B", "Command-R", "Mistral-7B", "Phi-3-mini-4k"])
         colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
         
         # Plot the stacked bar chart

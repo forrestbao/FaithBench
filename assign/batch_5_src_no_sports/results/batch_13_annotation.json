@@ -5,23 +5,6 @@
     "summary": " L/Bdr Parkinson, a resident of Doncaster, was seriously injured in a bomb attack in Afghanistan in 2006. Despite his injuries, he was chosen to carry the Olympic torch on June 26, 2012. Due to Facebook's limit of 5,000 friends per personal page, he has been unable to accept all the thousands of friend requests he has received. He walked with the torch for nearly half an hour with an assistant. His nomination for the torch relay highlighted his resilience and unchanged intelligence and wit, despite his brain injury. He spends 12 hours a day in the gym and rehab, and the rest of his time raising money for military charities and serving as patron of the Pilgrim Bandits. His mother, Diane, has been overwhelmed by the support and friendship he has received, with over 5,000 friend requests, 19,000 hits on his page, and hundreds of requests to visit places with the torch. Facebook suggested he consider having a page instead of a profile or using the subscribe feature to allow people to see his public updates without becoming a friend. A",
     "annotations": [
       {
-        "annot_id": 2,
-        "sample_id": 0,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "(1) Overwhelmed is not mentioned in source.\n(2) \"19000 hits on his page\" from summary and \"19000 hits just on an update\" have different meanings.",
-        "annotator_name": "Weisi",
-        "summary_span": "Diane, has been overwhelmed by the support and friendship he has received, with over 5,000 friend requests, 19,000 hits on his page, and hundreds of requests to visit places",
-        "summary_start": 689,
-        "summary_end": 862,
-        "source_span": "She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \"",
-        "source_start": 1094,
-        "source_end": 1717
-      },
-      {
         "annot_id": 39,
         "sample_id": 0,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -126,6 +109,37 @@
         "summary_span": "Despite his injuries, he was chosen to carry the Olympic torch on June 26, 2012.",
         "summary_start": 106,
         "summary_end": 186
+      },
+      {
+        "annot_id": 339,
+        "sample_id": 0,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Overwhelmed is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " Diane, has been overwhelmed by the support and friendship he has received",
+        "summary_start": 688,
+        "summary_end": 762
+      },
+      {
+        "annot_id": 340,
+        "sample_id": 0,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"19000 hits on his page\" from summary and \"19000 hits just on an update\" have different meanings.",
+        "annotator_name": "Weisi",
+        "summary_span": "19,000 hits on his page,",
+        "summary_start": 797,
+        "summary_end": 821,
+        "source_span": "Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\"",
+        "source_start": 1338,
+        "source_end": 1451
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -177,20 +191,6 @@
         "source_span": "He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \".",
         "source_start": 727,
         "source_end": 936
-      },
-      {
-        "annot_id": 5,
-        "sample_id": 1,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The year 2012 is not mentioned in source.",
-        "annotator_name": "Weisi",
-        "summary_span": "A total of 8,000 people will carry the flame during the 8,000-mile, 70-day journey to the opening ceremony of the Olympic Games in London on July 27, 2012",
-        "summary_start": 681,
-        "summary_end": 835
       },
       {
         "annot_id": 49,
@@ -256,6 +256,49 @@
         "source_span": "26 June",
         "source_start": 94,
         "source_end": 101
+      },
+      {
+        "annot_id": 341,
+        "sample_id": 1,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "It's not his mother mentioned, it's Facebook's suggestion.",
+        "annotator_name": "Weisi",
+        "summary_span": "His mother, Diane, expressed gratitude for the overwhelming support and mentioned that Facebook suggested creating a page instead of a profile due to his status as a public figure",
+        "summary_start": 500,
+        "summary_end": 679,
+        "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
+        "source_start": 1770,
+        "source_end": 1975
+      },
+      {
+        "annot_id": 342,
+        "sample_id": 1,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "2012 is not mentioned in soucre",
+        "annotator_name": "Weisi",
+        "summary_span": "A total of 8,000 people will carry the flame during the 8,000-mile, 70-day journey to the opening ceremony of the Olympic Games in London on July 27, 2012.",
+        "summary_start": 681,
+        "summary_end": 836
+      },
+      {
+        "annot_id": 343,
+        "sample_id": 1,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "2012 is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "He carried the Olympic torch on June 26, 2012",
+        "summary_start": 188,
+        "summary_end": 233
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -274,23 +317,6 @@
     "source": "He was seriously injured in a bomb attack in Afghanistan in 2006. Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook. But the site limits friend associations to 5,000 per personal page and he cannot accept all the requests. Flanked by hundreds of people, he walked for nearly half an hour with the Olympic torch with an assistant who supported his arm. L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \". L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend. A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
     "summary": "Here's a concise summary of the passage:\n\nLance Bombardier Ben Parkinson, seriously injured in Afghanistan in 2006, carried the Olympic torch on June 26th. Since then, he has received thousands of friend requests on Facebook, exceeding the 5,000 friend limit for personal pages. Despite his brain injury affecting his speech, Parkinson has maintained his personality and sense of humor. He spends 12 hours daily in rehabilitation and raises money for military charities. His mother, Diane, reports an overwhelming response of support, including numerous friend requests, website hits, and mail. Facebook suggests that Parkinson consider creating a public page or using the subscribe feature due to his newfound public figure status. The Olympic torch relay involves 8,000 people carrying the flame over 8,000 miles in 70 days, concluding at the London Olympics opening ceremony on July 27th.",
     "annotations": [
-      {
-        "annot_id": 6,
-        "sample_id": 2,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The name Lance Bombardier is not mentioned in source.",
-        "annotator_name": "Weisi",
-        "summary_span": "Lance Bombardier Ben Parkinson, seriously injured in Afghanistan in 2006, carried the Olympic torch on June 26th.",
-        "summary_start": 42,
-        "summary_end": 155,
-        "source_span": "Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook.",
-        "source_start": 66,
-        "source_end": 177
-      },
       {
         "annot_id": 7,
         "sample_id": 2,
@@ -369,6 +395,19 @@
         "source_span": "A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey",
         "source_start": 2093,
         "source_end": 2175
+      },
+      {
+        "annot_id": 344,
+        "sample_id": 2,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Lance Bombardier is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Lance Bombardier Ben Parkinson, seriously injured in Afghanistan in 2006, carried the Olympic torch on June 26th",
+        "summary_start": 42,
+        "summary_end": 154
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -387,20 +426,6 @@
     "source": "He was seriously injured in a bomb attack in Afghanistan in 2006. Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook. But the site limits friend associations to 5,000 per personal page and he cannot accept all the requests. Flanked by hundreds of people, he walked for nearly half an hour with the Olympic torch with an assistant who supported his arm. L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \". L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend. A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
     "summary": "Ben Parkinson, a former soldier, suffered a severe brain injury in Afghanistan in 2006, which affected his speech. Despite this, he has shown incredible determination and perseverance, regaining his speech and maintaining his personality and sense of humour. Ben's Olympic torch-carrying moment gained significant attention on Facebook, with thousands of friend requests, but he reached the platform's limit. His story and positive attitude have inspired many, leading to an outpouring of support and messages. Ben's family has been overwhelmed by the response, and he continues to raise funds for military charities, showcasing his resilience and dedication.",
     "annotations": [
-      {
-        "annot_id": 8,
-        "sample_id": 3,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source doesn't mentioned he is a former soldier, even this is very likely after reading source doc.",
-        "annotator_name": "Weisi",
-        "summary_span": "a former soldier",
-        "summary_start": 15,
-        "summary_end": 31
-      },
       {
         "annot_id": 9,
         "sample_id": 3,
@@ -472,6 +497,19 @@
         "summary_span": "Ben's family has been overwhelmed by the response",
         "summary_start": 511,
         "summary_end": 560
+      },
+      {
+        "annot_id": 345,
+        "sample_id": 3,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't mentioned he is a former soldier, even this is very likely after reading source doc.\t",
+        "annotator_name": "Weisi",
+        "summary_span": "a former soldier",
+        "summary_start": 15,
+        "summary_end": 31
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -555,20 +593,6 @@
     "summary": "Here is a concise summary of the passage:\n\nL/Bdr Ben Parkinson, who was seriously injured in a bomb attack in Afghanistan in 2006, carried the Olympic torch in Doncaster, UK. He received thousands of friend requests on Facebook, exceeding the site's limit, but was unable to accept them all. His mother, Diane, reported that the outpouring of support had been \"phenomenal\", with thousands of people joining his charity's website and sending messages of support. As a result, Ben is \"absolutely bouncing\" and has been inspired to continue his charity work.",
     "annotations": [
       {
-        "annot_id": 11,
-        "sample_id": 5,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "From the source it is not mentioned he carried the torch in Doncaster UK.",
-        "annotator_name": "Weisi",
-        "summary_span": "\n\nL/Bdr Ben Parkinson, who was seriously injured in a bomb attack in Afghanistan in 2006, carried the Olympic torch in Doncaster, UK.",
-        "summary_start": 41,
-        "summary_end": 174
-      },
-      {
         "annot_id": 12,
         "sample_id": 5,
         "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
@@ -651,6 +675,33 @@
         "source_span": "Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" ",
         "source_start": 1227,
         "source_end": 1770
+      },
+      {
+        "annot_id": 346,
+        "sample_id": 5,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't mentioned he is a former soldier, even this is very likely after reading source doc.\t",
+        "annotator_name": "Weisi",
+        "summary_span": ":\n\nL/Bdr Ben Parkinson, who was seriously injured in a bomb attack in Afghanistan in 2006, carried the Olympic torch in Doncaster, UK.",
+        "summary_start": 40,
+        "summary_end": 174
+      },
+      {
+        "annot_id": 349,
+        "sample_id": 5,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The part inspired to continue his charity work is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "As a result, Ben is \"absolutely bouncing\" and has been inspired to continue his charity work.",
+        "summary_start": 462,
+        "summary_end": 555
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
@@ -669,20 +720,6 @@
     "source": "He was seriously injured in a bomb attack in Afghanistan in 2006. Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook. But the site limits friend associations to 5,000 per personal page and he cannot accept all the requests. Flanked by hundreds of people, he walked for nearly half an hour with the Olympic torch with an assistant who supported his arm. L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \". L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend. A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
     "summary": "Here is a concise summary of the passage:\n\nLance Bombardier (L/Bdr) Ben Parkinson, a soldier from Doncaster, was seriously injured in a bomb attack in Afghanistan in 2006, resulting in a brain injury that affected his speech. Despite this, he has made a remarkable recovery and was chosen to carry the Olympic torch on June 26. He has since received thousands of friend requests on Facebook, but the site's 5,000-friend limit has been reached. His mother, Diane, reports that the response has been \"phenomenal\", with thousands of people joining the Pilgrim Bandits website and sending messages of support. Ben is now considering alternatives to his personal Facebook profile, such as a public page, to manage the high volume of requests and messages.",
     "annotations": [
-      {
-        "annot_id": 13,
-        "sample_id": 6,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source doc doesn't mention the fact he is a soldier.",
-        "annotator_name": "Weisi",
-        "summary_span": "Lance Bombardier (L/Bdr) Ben Parkinson, a soldier from Doncaster, was seriously injured in a bomb attack in Afghanistan in 2006, resulting in a brain injury that affected his speech",
-        "summary_start": 43,
-        "summary_end": 224
-      },
       {
         "annot_id": 14,
         "sample_id": 6,
@@ -781,6 +818,32 @@
         "source_span": "Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile.",
         "source_start": 1770,
         "source_end": 1975
+      },
+      {
+        "annot_id": 350,
+        "sample_id": 6,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doc doesn't mention the fact he is a soldier.",
+        "annotator_name": "Weisi",
+        "summary_span": "\n\nLance Bombardier (L/Bdr) Ben Parkinson, a soldier from Doncaster,",
+        "summary_start": 41,
+        "summary_end": 108
+      },
+      {
+        "annot_id": 351,
+        "sample_id": 6,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Lance Bombardier (L/Bdr) Ben Parkinson",
+        "summary_start": 43,
+        "summary_end": 81
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -799,20 +862,6 @@
     "source": "He was seriously injured in a bomb attack in Afghanistan in 2006. Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook. But the site limits friend associations to 5,000 per personal page and he cannot accept all the requests. Flanked by hundreds of people, he walked for nearly half an hour with the Olympic torch with an assistant who supported his arm. L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \". L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend. A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
     "summary": "Ben Parkinson, a British soldier who was seriously injured in a bomb attack in Afghanistan in 2006, carried the Olympic torch on June 26th. He has received thousands of friend requests on Facebook, but the site limits friend associations to 5,000 per personal page. Parkinson's mother, Diane, said the responses to his torch carrying had been phenomenal and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said that Ben's Facebook page had received 19,000 hits on an update and that the family had received a lot of mail and emails. Facebook suggested that Parkinson consider having a page instead of a profile or use subscribe so that people can see his public updates without actually becoming a friend. \n",
     "annotations": [
-      {
-        "annot_id": 15,
-        "sample_id": 7,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "It is not mentioned in the source doc that he is a British soldier.",
-        "annotator_name": "Weisi",
-        "summary_span": "Ben Parkinson, a British soldier who was seriously injured in a bomb attack in Afghanistan in 2006, carried the Olympic torch on June 26th",
-        "summary_start": 0,
-        "summary_end": 138
-      },
       {
         "annot_id": 77,
         "sample_id": 7,
@@ -857,6 +906,33 @@
         "summary_span": "Ben Parkinson, a British soldier",
         "summary_start": 0,
         "summary_end": 32
+      },
+      {
+        "annot_id": 352,
+        "sample_id": 7,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "It is not mentioned in the source doc that he is a British soldier.",
+        "annotator_name": "Weisi",
+        "summary_span": "Ben Parkinson, a British soldier who was seriously injured in a bomb attack in Afghanistan in 2006",
+        "summary_start": 0,
+        "summary_end": 98
+      },
+      {
+        "annot_id": 353,
+        "sample_id": 7,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source doesn't mention it is his \"Facebook\" page receiving 19000 hits.",
+        "annotator_name": "Weisi",
+        "summary_span": "She said that Ben's Facebook page had received 19,000 hits",
+        "summary_start": 439,
+        "summary_end": 497
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2220,23 +2296,6 @@
         "source_end": 371
       },
       {
-        "annot_id": 28,
-        "sample_id": 22,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted.Instrinsic",
-          "Questionable"
-        ],
-        "note": "7500 is estimated based on the ration, but not real about 7500.",
-        "annotator_name": "Weisi",
-        "summary_span": "about 7,500 annually",
-        "summary_start": 373,
-        "summary_end": 393,
-        "source_span": "\nthat equates to about 7,500 every year .",
-        "source_start": 935,
-        "source_end": 976
-      },
-      {
         "annot_id": 29,
         "sample_id": 22,
         "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
@@ -2307,6 +2366,19 @@
         "summary_span": "some experts",
         "summary_start": 989,
         "summary_end": 1001
+      },
+      {
+        "annot_id": 354,
+        "sample_id": 22,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Questionable"
+        ],
+        "note": "7500 is estimated based on the ration, but not real about 7500.",
+        "annotator_name": "Weisi",
+        "summary_span": "about 7,500 annually",
+        "summary_start": 373,
+        "summary_end": 393
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -3012,20 +3084,6 @@
         "summary_end": 119
       },
       {
-        "annot_id": 86,
-        "sample_id": 30,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The name Ross is not mentioned in source.",
-        "annotator_name": "Weisi",
-        "summary_span": "Scots have 12 players in their squad who play outside Scotland, including Bayern Munich forward Jane Ross, who recently won the women's Bundesliga in her first season at the club",
-        "summary_start": 435,
-        "summary_end": 613
-      },
-      {
         "annot_id": 192,
         "sample_id": 30,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -3114,6 +3172,19 @@
         "summary_span": " Jane Ross",
         "summary_start": 530,
         "summary_end": 540
+      },
+      {
+        "annot_id": 355,
+        "sample_id": 30,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Ross is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Scots have 12 players in their squad who play outside Scotland, including Bayern Munich forward Jane Ross, who recently won the women's Bundesliga in her first season at the club.",
+        "summary_start": 435,
+        "summary_end": 614
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -3243,48 +3314,6 @@
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "Here's a concise summary of the passage, covering the core pieces of information:\n\nThe Scottish women's national football team is close to qualifying for their first major tournament, the Euro 2017 finals in the Netherlands. They have won all five qualifiers so far and are preparing to host Iceland in a crucial match. Forward Lisa Evans emphasizes the importance of qualifying after previous near-misses. Iceland is also unbeaten in their group, and the upcoming matches between the two teams are likely to determine the group winner. \n\nThe Scottish team includes 12 players who play professionally outside of Scotland, including Evans, who recently won the Bundesliga with Bayern Munich. Evans believes that having players in top international leagues benefits the national team by exposing them to different playing styles and higher levels of competition. The team is hoping for strong fan support at their upcoming match in Falkirk as they aim to secure their place in the Euro 2017 finals.",
     "annotations": [
-      {
-        "annot_id": 88,
-        "sample_id": 32,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "It is not mentioned they are close to qualify the Euro 2017 finals.",
-        "annotator_name": "Weisi",
-        "summary_span": "the Euro 2017 finals in the Netherlands",
-        "summary_start": 184,
-        "summary_end": 223
-      },
-      {
-        "annot_id": 89,
-        "sample_id": 32,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted.Extrinsic",
-          "Benign"
-        ],
-        "note": "The name Lisa is not mentioned in the source.",
-        "annotator_name": "Weisi",
-        "summary_span": " Forward Lisa Evans emphasizes the importance of qualifying after previous near-misses.",
-        "summary_start": 319,
-        "summary_end": 406
-      },
-      {
-        "annot_id": 90,
-        "sample_id": 32,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "It is not mentioned in source.",
-        "annotator_name": "Weisi",
-        "summary_span": "Euro 2017 finals.",
-        "summary_start": 979,
-        "summary_end": 996
-      },
       {
         "annot_id": 208,
         "sample_id": 32,
@@ -3440,6 +3469,45 @@
         "source_span": "But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup.",
         "source_start": 143,
         "source_end": 251
+      },
+      {
+        "annot_id": 356,
+        "sample_id": 32,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "It is not mentioned they are close to qualify the Euro 2017 finals.",
+        "annotator_name": "Weisi",
+        "summary_span": " the Euro 2017 finals in the Netherlands. ",
+        "summary_start": 183,
+        "summary_end": 225
+      },
+      {
+        "annot_id": 357,
+        "sample_id": 32,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Lisa is not mentioned in the source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Lisa Evans",
+        "summary_start": 328,
+        "summary_end": 338
+      },
+      {
+        "annot_id": 358,
+        "sample_id": 32,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The name Lisa is not mentioned in the source.",
+        "annotator_name": "Weisi",
+        "summary_span": " in the Euro 2017 finals.",
+        "summary_start": 971,
+        "summary_end": 996
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -3608,17 +3676,17 @@
         "source_end": 251
       },
       {
-        "annot_id": 320,
+        "annot_id": 359,
         "sample_id": 33,
         "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
         "label": [
-          "Unwanted.Extrinsic",
-          "Questionable"
+          "Unwanted",
+          "Unwanted.Extrinsic"
         ],
         "note": "The source only mentions big crowd, not home crowd.",
         "annotator_name": "Weisi",
-        "summary_span": "The match will be emotional, with a potential large home crowd at Falkirk Stadium.",
-        "summary_start": 388,
+        "summary_span": "S. The match will be emotional, with a potential large home crowd at Falkirk Stadium.",
+        "summary_start": 385,
         "summary_end": 470,
         "source_span": "\"It would be fantastic to have a big crowd at Falkirk.",
         "source_start": 1431,
@@ -3641,20 +3709,6 @@
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "The Scots have won all five qualifiers and will host Iceland at Falkirk Stadium, where a win would almost guarantee their place in the finals. Despite previous play-off losses, the team is determined to avoid another heartbreak. Iceland, ranked 20th in the world, is also undefeated. The match on Friday and the return fixture in Reykjavik on September 20 could determine the group winner. Scotland is in a strong position to qualify for the 2017 Women's European Championship in the Netherlands without needing a play-off. The team includes 12 players from outside Scotland, with many playing in top leagues like England, Sweden, and the United States.",
     "annotations": [
-      {
-        "annot_id": 92,
-        "sample_id": 34,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The 2017 Women's European Championship is not mentioned in source.",
-        "annotator_name": "Weisi",
-        "summary_span": "Scotland is in a strong position to qualify for the 2017 Women's European Championship in the Netherlands without needing a play-off.",
-        "summary_start": 390,
-        "summary_end": 523
-      },
       {
         "annot_id": 228,
         "sample_id": 34,
@@ -3762,6 +3816,19 @@
         "source_span": "Evans is one of 12 players in the current 20-strong squad who play outside Scotland",
         "source_start": 1538,
         "source_end": 1621
+      },
+      {
+        "annot_id": 360,
+        "sample_id": 34,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "The 2017 Women's European Championship is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "Scotland is in a strong position to qualify for the 2017 Women's European Championship in the Netherlands without needing a play-off.",
+        "summary_start": 390,
+        "summary_end": 523
       }
     ],
     "meta_model": "Qwen/Qwen2.5-7B-Instruct",
@@ -3941,20 +4008,6 @@
     "summary": "Here is a concise summary of the passage:\n\nThe Scotland women's national team is on the verge of qualifying for the European Championship finals, with a win over Iceland at Falkirk Stadium on Friday likely to secure their place. Forward Lisa Evans, who plays for Bayern Munich, is desperate to avoid missing out on a major tournament after previous play-off losses. The team is currently top of their group with five wins from five, while Iceland is also unbeaten. The outcome of the two teams' matches against each other will likely decide who tops the group. Evans believes that having players in top leagues abroad, such as herself and Kim Little, has improved the national team's chances of success.",
     "annotations": [
       {
-        "annot_id": 95,
-        "sample_id": 36,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "It is not mentioned the game is European Championship.",
-        "annotator_name": "Weisi",
-        "summary_span": "European Championship finals,",
-        "summary_start": 116,
-        "summary_end": 145
-      },
-      {
         "annot_id": 240,
         "sample_id": 36,
         "annotator": "7e886c8d8b2d4b7ebcc778d00fde9b2e",
@@ -4052,6 +4105,19 @@
         "source_span": "\"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group.",
         "source_start": 467,
         "source_end": 707
+      },
+      {
+        "annot_id": 361,
+        "sample_id": 36,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "It is not mentioned the game is European Championship.\t",
+        "annotator_name": "Weisi",
+        "summary_span": "European Championship finals",
+        "summary_start": 116,
+        "summary_end": 144
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -4070,20 +4136,6 @@
     "source": "The Scots have won all five qualifiers to date and host Iceland at Falkirk Stadium on Friday knowing victory would all but secure their place. But Evans is desperate not to miss out again after play-off losses for Euro 2013 and last year's  World Cup. \"Now that we're in this position, it would be devastating,\" she said. \"We've been so close and fallen at the last hurdle twice now trying to get to major competitions. \"It would be more heartbreak than humiliation. \"Iceland, ranked one place above the Scots at number 20 in the world, are also unbeaten after four wins from four, with the outcome of Friday's contest and the return fixture in Reykjavik on 20 September likely to decide who tops the group. \"Obviously reaching the finals is everyone's aim,\" said 24-year-old Bayern Munich forward Evans. \" It's been my aim since I got into the squad, and [veteran goalkeeper] Gemma Fay has been aiming for it for 15 years. \"I think it's going to be emotional if we do get there, although we're taking it step by step, trying not to think too far ahead. \"With the best six of the eight group runners-up also qualifying automatically, Scotland are in pole position to reach next summer's finals in the Netherlands without the need for a play-off. \"Iceland are top seeds in the group,\" Evans noted. \" They're a really good side and we've always had tough games against them. \"But we know we've got a really good chance to beat them. \"It would be fantastic to have a big crowd at Falkirk. Having the fans behind us makes a huge difference. \"Evans is one of 12 players in the current 20-strong squad who play outside Scotland, with five at English clubs, four in Sweden and two at Seattle Reign in the United States National Women's Soccer League, including newly-crowned BBC Women's Footballer of the Year Kim Little. Perth-born Evans recently celebrated winning the women's Bundesliga in her first season at Bayern, rubbing shoulders with the likes of Franck Ribery and Arjen Robben as they joined the victorious men's squad for a rapturous reception on the balcony at Munich's New Town Hall. \"It was mind-blowing, completely mind-blowing,\" she recalled. \" There were thousands of people cheering when we came out. \"We had a party with the men's team on the Saturday night, having been in their stadium on the Saturday just to get congratulated. \"I actually walked out with Franck Ribery at the Town Hall, but, in the photos, Arjen Robben is in the background. I don't know them very well, but they were all really chatty, really good with us. \"Evans, who won four Scottish Women's Premier League titles and six domestic cups with Glasgow City before moving to Germany with Turbine Potsdam, believes the benefits of having more players in the world's top leagues benefits the national team as they close in on a first major finals. \"Germany has been at the top of women's football for a long time now - it has really developed over there,\" she added. \"The league is good, arguably one of the best in the world for competitiveness, and we have a hard game every week. \"Even within the Bayern set-up, there is such good competition. Just being able to train with those players every day makes you better. I'm really privileged. \"The league in Scotland is improving, but the girls playing abroad bring something different. \"It is a different culture, a new way of playing, and that adds to the national team.\"",
     "summary": "Scotland's women's national football team is on the verge of qualifying for the 2017 European Championship. They have won all five of their qualifying matches and are in a strong position to reach the finals in the Netherlands. The team is led by Bayern Munich forward, Jane Evans, who believes that the experience of playing in top leagues abroad has helped the team improve. Scotland is set to face Iceland in a crucial match on Friday, with the winner likely to top the group. \n",
     "annotations": [
-      {
-        "annot_id": 96,
-        "sample_id": 37,
-        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "2017 European Championship is not mentioned in source.",
-        "annotator_name": "Weisi",
-        "summary_span": "2017 European Championship",
-        "summary_start": 80,
-        "summary_end": 106
-      },
       {
         "annot_id": 97,
         "sample_id": 37,
@@ -4152,6 +4204,19 @@
         "summary_span": "The team is led by Bayern Munich forward,",
         "summary_start": 228,
         "summary_end": 269
+      },
+      {
+        "annot_id": 362,
+        "sample_id": 37,
+        "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
+        "label": [
+          "Benign"
+        ],
+        "note": "2017 European Championship is not mentioned in source.",
+        "annotator_name": "Weisi",
+        "summary_span": " 2017 European Championship.",
+        "summary_start": 79,
+        "summary_end": 107
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -4223,17 +4288,16 @@
         "summary_end": 499
       },
       {
-        "annot_id": 313,
+        "annot_id": 363,
         "sample_id": 38,
         "annotator": "2738d584d9084b7ab54c5b2d6dfb83ea",
         "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
+          "Benign"
         ],
-        "note": "The name Lisa is not mentioned in source.",
+        "note": "The name Lisa is not mentioned in source.\t",
         "annotator_name": "Weisi",
-        "summary_span": "Lisa Evans",
-        "summary_start": 489,
+        "summary_span": ", Lisa Evans",
+        "summary_start": 487,
         "summary_end": 499
       }
     ],

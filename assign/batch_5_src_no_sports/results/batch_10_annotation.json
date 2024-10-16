@@ -2657,23 +2657,6 @@
         "source_end": 1450
       },
       {
-        "annot_id": 77,
-        "sample_id": 23,
-        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "source does not say explicitly there were protests related to the 2013 explosion",
-        "annotator_name": "Erana",
-        "summary_span": "The plant has a history of protests due to pollution concerns, and a previous explosion in 2013",
-        "summary_start": 394,
-        "summary_end": 489,
-        "source_span": "the plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time . \nthough demonstrations are illegal in china , the construction of px plants has sparked protests , which have occasionally turned violent , in several cities in recent years ",
-        "source_start": 1001,
-        "source_end": 1303
-      },
-      {
         "annot_id": 260,
         "sample_id": 23,
         "annotator": "c14f96a6fc094a1dbed4a51ddfb122ec",
@@ -2698,6 +2681,22 @@
         "summary_span": "The plant has a history of protests due to pollution concerns, and a previous explosion in 2013.",
         "summary_start": 394,
         "summary_end": 490
+      },
+      {
+        "annot_id": 321,
+        "sample_id": 23,
+        "annotator": "efd222b8d75d4b0a8efd916c6a4f23dc",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if summary implies there were protests related to the 2013 explosion",
+        "annotator_name": "Erana",
+        "summary_span": "The plant has a history of protests due to pollution concerns, and a previous explosion in 2013.",
+        "summary_start": 394,
+        "summary_end": 490,
+        "source_span": "\nthough demonstrations are illegal in china , the construction of px plants has sparked protests , which have occasionally turned violent , in several cities in recent years .",
+        "source_start": 1129,
+        "source_end": 1304
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
