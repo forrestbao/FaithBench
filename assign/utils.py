@@ -103,9 +103,21 @@ def compute_interannotator_agreement(
     for annotator in annotators:
         print(f"{annotator} {[results[annotator][i] for i in disagree_sample_ids]}")
 
-
     print(f"{level_of_measurement} Krippendorff\'s alpha for label map\n{label_map}")
-    agreement = krippendorff.alpha(np.array(list(results.values()), dtype=np.dtype(float)), level_of_measurement=level_of_measurement)
+    value_domain= sorted(list(set([l for l in label_map.values() if not np.isnan(l)])))
+    # if all annotators only have the same single type of label, the alpha will be nan
+    # to deal with this issue, manually add an extra annotion for the other label for all annotators
+    all_annotations = []
+    for annotator in results:
+        anno = np.array(results[annotator])
+        all_annotations.extend(anno[np.logical_not(np.isnan(anno))])
+    if len(set(all_annotations)) == 1:
+        other_labels = value_domain.copy()
+        other_labels.remove(list(set(all_annotations))[0])
+        for annotator in results:
+            results[annotator].append(other_labels[0])
+    
+    agreement = krippendorff.alpha(np.array(list(results.values()), dtype=np.dtype(float)), level_of_measurement=level_of_measurement, value_domain=value_domain)
     print(round(agreement,3))
     return agreement
 
