@@ -646,6 +646,20 @@
         "source_span": "England made 589-8 declared and 173-1 declared to set up their second biggest win over Pakistan",
         "source_start": 118,
         "source_end": 213
+      },
+      {
+        "annot_id": 300,
+        "sample_id": 0,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Benign",
+          "Questionable"
+        ],
+        "note": "Although true, there is not mention in the passage that this is Michael Vaughan",
+        "annotator_name": "Vivek",
+        "summary_span": "former England captain Michael Vaughan",
+        "summary_start": 452,
+        "summary_end": 490
       }
     ],
     "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
@@ -658,6 +672,461 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 727
+  },
+  {
+    "sample_id": 1,
+    "source": "manuel pellegrini has admitted he is disappointed in yaya toure but vowed to back the manchester city midfielder -- at least until the end of the season . \nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign . \ntoure is determined not to be forced out but the chilean , speaking ahead of sunday 's visit of west ham , acknowledged the midfielder had underperformed and dismissed claims he should be given a rest . \nmanchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini . \n` he does n't need a break . ' \ntoure , who has two years left on a £ 220,000-a-week deal , has come in for criticism amid the collapse of city 's premier league defence . \nbut pellegrini , who faces questions over his own future , said the 31-year-old would be backed . \n` he 's a very important player and he will have my support until the end of the season , ' he said . \ncity , who have taken just 18 points from the last available 39 , take on sam allardyce 's side knowing that defeat will leave fifth-placed liverpool with the chance to close the gap to one point with victory at west brom next weekend . \ncity will also face the hammers without captain vincent kompany , who could miss the rest of the campaign with a muscle injury . \nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances , ' said the england no 1 . \n` we 've let the manager down a few times and we 've baffled ourselves because we feel like we 've got the quality to beat anyone and that 's not been the case . ' \ncity boss pellegrini has vowed to support toure until at least the end of the season\nsportsmail revealed that manchester city will listen to offers for toure in the summer\nhart added that pellegrini retained the backing of the dressing room . \n` he 's been great , ' hart said . \n` he 's hard , he kind of says it how it is and you ca n't ask for much more than that from a manager . ' \npellegrini , however , said : ` the players have responsibility but i choose the players . ' \nmeanwhile sam allardyce has warned aaron cresswell not to make the same mistake as others amid interest from chelsea and manchester city . \nmanchester city want to sign west ham left back aaron cresswell in the summer\nsam allardyce has warned cresswell not to make same mistake as other english players by moving to city\nallardyce believes the 25-year-old is an attractive prospect after a fine season at west ham and because he can help clubs fill homegrown player quotas . \n` jack rodwell and scott sinclair spent time at city but did not play a great deal , ' allardyce wrote in his evening standard column . \n` the decision for a player like sinclair is would he be willing to join another club in a permanent deal if it meant less money ? '",
+    "summary": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season. Pellegrini acknowledges that Toure has underperformed but states that he will continue to support him until the end of the season. It is revealed that Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad. The passage also mentions that Vincent Kompany could miss the rest of the season due to a muscle injury. Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini. Additionally, Sam Allardyce warns Aaron Cresswell, a West Ham left back, not to make the same mistake as other English players by moving to Manchester City.",
+    "annotations": [
+      {
+        "annot_id": 18,
+        "sample_id": 1,
+        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539
+      },
+      {
+        "annot_id": 19,
+        "sample_id": 1,
+        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539,
+        "source_span": "the players have responsibility but i choose the players . '",
+        "source_start": 2322,
+        "source_end": 2382
+      },
+      {
+        "annot_id": 20,
+        "sample_id": 1,
+        "annotator": "ae43b04424504bf2ab76e1a728e70dab",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrin",
+        "summary_start": 455,
+        "summary_end": 575
+      },
+      {
+        "annot_id": 21,
+        "sample_id": 1,
+        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "English players by moving to Manchester City.",
+        "summary_start": 689,
+        "summary_end": 734
+      },
+      {
+        "annot_id": 22,
+        "sample_id": 1,
+        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "English players by moving to Manchester City.",
+        "summary_start": 689,
+        "summary_end": 734,
+        "source_span": "\nmanchester city want to sign west ham left back aaron cresswell in the summer\nsam allardyce has warned cresswell not to make same mistake as other english players by moving to city\nallardyce believes the 25-year-old is an attractive prospect after a fine season at west ham and because he can help clubs fill homegrown player quotas .",
+        "source_start": 2523,
+        "source_end": 2858
+      },
+      {
+        "annot_id": 81,
+        "sample_id": 1,
+        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "for the ivorian not for Toure",
+        "annotator_name": null,
+        "summary_span": "It is revealed that Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad.",
+        "summary_start": 229,
+        "summary_end": 349,
+        "source_span": "\nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign .",
+        "source_start": 155,
+        "source_end": 297
+      },
+      {
+        "annot_id": 82,
+        "sample_id": 1,
+        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not joe hart but the players should take responsibility",
+        "annotator_name": null,
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
+        "summary_start": 455,
+        "summary_end": 577,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 119,
+        "sample_id": 1,
+        "annotator": "aa09166741b04471a71f5b05a2894cb2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "This is false. The source states \"city goalkeeper joe hart insisted the players should take responsibility.\" He acknowledges that the entire team should take responsibility, not just himself.",
+        "annotator_name": null,
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
+        "summary_start": 455,
+        "summary_end": 577
+      },
+      {
+        "annot_id": 139,
+        "sample_id": 1,
+        "annotator": "34774ba81d5c4d0fa91282bf0f660515",
+        "label": [
+          "Questionable"
+        ],
+        "note": "\"the ivorian\" = Toure?",
+        "annotator_name": null,
+        "summary_span": " Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad. ",
+        "summary_start": 248,
+        "summary_end": 350,
+        "source_span": "\nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign .",
+        "source_start": 155,
+        "source_end": 297
+      },
+      {
+        "annot_id": 140,
+        "sample_id": 1,
+        "annotator": "34774ba81d5c4d0fa91282bf0f660515",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Joe insisted the player should take responsibility",
+        "annotator_name": null,
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
+        "summary_start": 455,
+        "summary_end": 577,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 148,
+        "sample_id": 1,
+        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this year but not this season",
+        "annotator_name": null,
+        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
+        "summary_start": 0,
+        "summary_end": 97,
+        "source_span": "\nmanchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini .",
+        "source_start": 502,
+        "source_end": 792
+      },
+      {
+        "annot_id": 158,
+        "sample_id": 1,
+        "annotator": "119f5bd074db405f8047bdf46f079e0c",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 183,
+        "sample_id": 1,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "players should take responsibility",
+        "annotator_name": "Rogger",
+        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
+        "summary_start": 454,
+        "summary_end": 577,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 186,
+        "sample_id": 1,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Not clear if campaign means the same thing as a season.",
+        "annotator_name": "Suleman",
+        "summary_span": "could miss the rest of the season ",
+        "summary_start": 397,
+        "summary_end": 431,
+        "source_span": "\ncity will also face the hammers without captain vincent kompany , who could miss the rest of the campaign with a muscle injury .",
+        "source_start": 1406,
+        "source_end": 1535
+      },
+      {
+        "annot_id": 187,
+        "sample_id": 1,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Joe Hart said players should take responsbitilty not that he takes responsibility.",
+        "annotator_name": "Suleman",
+        "summary_span": "oe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini",
+        "summary_start": 456,
+        "summary_end": 576,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 201,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source does not explicitly say that Pellegrini is unhappy about Toure's performance in \"this season\". But from the context, we can infer that. ",
+        "annotator_name": "forrest",
+        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
+        "summary_start": 0,
+        "summary_end": 97,
+        "source_span": "manchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini . \n",
+        "source_start": 503,
+        "source_end": 794
+      },
+      {
+        "annot_id": 202,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"at least\" was dropped in the summary that causes subtle meaning change. ",
+        "annotator_name": "forrest",
+        "summary_span": "he will continue to support him until the end of the season",
+        "summary_start": 168,
+        "summary_end": 227,
+        "source_span": "vowed to back the manchester city midfielder -- at least until the end of the season ",
+        "source_start": 68,
+        "source_end": 153
+      },
+      {
+        "annot_id": 203,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Questionable"
+        ],
+        "note": "it is unclear whether \"campaign\" == 'season\"",
+        "annotator_name": "forrest",
+        "summary_span": "Vincent Kompany could miss the rest of the season due to a muscle injury",
+        "summary_start": 381,
+        "summary_end": 453,
+        "source_span": "captain vincent kompany , who could miss the rest of the campaign with a muscle injury ",
+        "source_start": 1447,
+        "source_end": 1534
+      },
+      {
+        "annot_id": 204,
+        "sample_id": 1,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source says that Joe Hart insisted that the players take the responsibility whereas the summary says that Joe Hart himself takes responsibility. ",
+        "annotator_name": "forrest",
+        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 454,
+        "summary_end": 539,
+        "source_span": "city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances ,",
+        "source_start": 1575,
+        "source_end": 1710
+      },
+      {
+        "annot_id": 221,
+        "sample_id": 1,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "for the ivorian not for Toure",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "It is revealed that Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad.",
+        "summary_start": 229,
+        "summary_end": 349,
+        "source_span": "\nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign .",
+        "source_start": 155,
+        "source_end": 297
+      },
+      {
+        "annot_id": 222,
+        "sample_id": 1,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not joe hart but the players should take responsibility",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
+        "summary_start": 455,
+        "summary_end": 577,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 223,
+        "sample_id": 1,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "this year but not this season",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
+        "summary_start": 0,
+        "summary_end": 97,
+        "source_span": "\nmanchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini .",
+        "source_start": 502,
+        "source_end": 792
+      },
+      {
+        "annot_id": 276,
+        "sample_id": 1,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Miaoran",
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 281,
+        "sample_id": 1,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini. ",
+        "summary_start": 454,
+        "summary_end": 578,
+        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
+        "source_start": 1536,
+        "source_end": 1649
+      },
+      {
+        "annot_id": 290,
+        "sample_id": 1,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Joe blamed the poor performance on the whole team, not just himself.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539,
+        "source_span": "city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances , '",
+        "source_start": 1575,
+        "source_end": 1712
+      },
+      {
+        "annot_id": 301,
+        "sample_id": 1,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Questionable",
+          "Benign"
+        ],
+        "note": "atleast end of season not same as until end of season",
+        "annotator_name": "Vivek",
+        "summary_span": "continue to support him until the end of the season.",
+        "summary_start": 176,
+        "summary_end": 228,
+        "source_span": "at least until the end of the season ",
+        "source_start": 116,
+        "source_end": 153
+      },
+      {
+        "annot_id": 302,
+        "sample_id": 1,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Players taking responsibility not same as Joe Hart taking responsibility",
+        "annotator_name": "Vivek",
+        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
+        "summary_start": 455,
+        "summary_end": 539,
+        "source_span": "city goalkeeper joe hart insisted the players should take responsibility ",
+        "source_start": 1575,
+        "source_end": 1648
+      }
+    ],
+    "meta_model": "openai/GPT-3.5-Turbo",
+    "meta_hhemv1": 0.43003,
+    "meta_hhem-2.1": 0.97216,
+    "meta_hhem-2.1-english": 0.92742,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1018
   },
   {
     "sample_id": 2,
@@ -1213,6 +1682,38 @@
         "source_span": "\nbut ms mitchell believes the guidance should be changed so that women are advised not to drink at all during pregnancy .",
         "source_start": 2369,
         "source_end": 2490
+      },
+      {
+        "annot_id": 303,
+        "sample_id": 2,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Last year might or might not be same as last 12 months",
+        "annotator_name": "Vivek",
+        "summary_span": "ast year",
+        "summary_start": 284,
+        "summary_end": 292,
+        "source_span": " past 12 months",
+        "source_start": 274,
+        "source_end": 289
+      },
+      {
+        "annot_id": 304,
+        "sample_id": 2,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Consumption is conditional of if they drink. Not same as recommended",
+        "annotator_name": "Vivek",
+        "summary_span": "Current UK government advice allows pregnant women to drink up to two units twice a week, but some experts believe complete abstinence should be recommended.",
+        "summary_start": 895,
+        "summary_end": 1052,
+        "source_span": " \nif they do , the maximum consumption recommended is up to two units no more than twice a week",
+        "source_start": 2271,
+        "source_end": 2366
       }
     ],
     "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
@@ -1225,428 +1726,6 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 301
-  },
-  {
-    "sample_id": 1,
-    "source": "manuel pellegrini has admitted he is disappointed in yaya toure but vowed to back the manchester city midfielder -- at least until the end of the season . \nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign . \ntoure is determined not to be forced out but the chilean , speaking ahead of sunday 's visit of west ham , acknowledged the midfielder had underperformed and dismissed claims he should be given a rest . \nmanchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini . \n` he does n't need a break . ' \ntoure , who has two years left on a £ 220,000-a-week deal , has come in for criticism amid the collapse of city 's premier league defence . \nbut pellegrini , who faces questions over his own future , said the 31-year-old would be backed . \n` he 's a very important player and he will have my support until the end of the season , ' he said . \ncity , who have taken just 18 points from the last available 39 , take on sam allardyce 's side knowing that defeat will leave fifth-placed liverpool with the chance to close the gap to one point with victory at west brom next weekend . \ncity will also face the hammers without captain vincent kompany , who could miss the rest of the campaign with a muscle injury . \nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances , ' said the england no 1 . \n` we 've let the manager down a few times and we 've baffled ourselves because we feel like we 've got the quality to beat anyone and that 's not been the case . ' \ncity boss pellegrini has vowed to support toure until at least the end of the season\nsportsmail revealed that manchester city will listen to offers for toure in the summer\nhart added that pellegrini retained the backing of the dressing room . \n` he 's been great , ' hart said . \n` he 's hard , he kind of says it how it is and you ca n't ask for much more than that from a manager . ' \npellegrini , however , said : ` the players have responsibility but i choose the players . ' \nmeanwhile sam allardyce has warned aaron cresswell not to make the same mistake as others amid interest from chelsea and manchester city . \nmanchester city want to sign west ham left back aaron cresswell in the summer\nsam allardyce has warned cresswell not to make same mistake as other english players by moving to city\nallardyce believes the 25-year-old is an attractive prospect after a fine season at west ham and because he can help clubs fill homegrown player quotas . \n` jack rodwell and scott sinclair spent time at city but did not play a great deal , ' allardyce wrote in his evening standard column . \n` the decision for a player like sinclair is would he be willing to join another club in a permanent deal if it meant less money ? '",
-    "summary": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season. Pellegrini acknowledges that Toure has underperformed but states that he will continue to support him until the end of the season. It is revealed that Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad. The passage also mentions that Vincent Kompany could miss the rest of the season due to a muscle injury. Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini. Additionally, Sam Allardyce warns Aaron Cresswell, a West Ham left back, not to make the same mistake as other English players by moving to Manchester City.",
-    "annotations": [
-      {
-        "annot_id": 18,
-        "sample_id": 1,
-        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
-        "summary_start": 455,
-        "summary_end": 539
-      },
-      {
-        "annot_id": 19,
-        "sample_id": 1,
-        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
-        "summary_start": 455,
-        "summary_end": 539,
-        "source_span": "the players have responsibility but i choose the players . '",
-        "source_start": 2322,
-        "source_end": 2382
-      },
-      {
-        "annot_id": 20,
-        "sample_id": 1,
-        "annotator": "ae43b04424504bf2ab76e1a728e70dab",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrin",
-        "summary_start": 455,
-        "summary_end": 575
-      },
-      {
-        "annot_id": 21,
-        "sample_id": 1,
-        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "English players by moving to Manchester City.",
-        "summary_start": 689,
-        "summary_end": 734
-      },
-      {
-        "annot_id": 22,
-        "sample_id": 1,
-        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "English players by moving to Manchester City.",
-        "summary_start": 689,
-        "summary_end": 734,
-        "source_span": "\nmanchester city want to sign west ham left back aaron cresswell in the summer\nsam allardyce has warned cresswell not to make same mistake as other english players by moving to city\nallardyce believes the 25-year-old is an attractive prospect after a fine season at west ham and because he can help clubs fill homegrown player quotas .",
-        "source_start": 2523,
-        "source_end": 2858
-      },
-      {
-        "annot_id": 81,
-        "sample_id": 1,
-        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "for the ivorian not for Toure",
-        "annotator_name": null,
-        "summary_span": "It is revealed that Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad.",
-        "summary_start": 229,
-        "summary_end": 349,
-        "source_span": "\nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign .",
-        "source_start": 155,
-        "source_end": 297
-      },
-      {
-        "annot_id": 82,
-        "sample_id": 1,
-        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Not joe hart but the players should take responsibility",
-        "annotator_name": null,
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
-        "summary_start": 455,
-        "summary_end": 577,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 119,
-        "sample_id": 1,
-        "annotator": "aa09166741b04471a71f5b05a2894cb2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "This is false. The source states \"city goalkeeper joe hart insisted the players should take responsibility.\" He acknowledges that the entire team should take responsibility, not just himself.",
-        "annotator_name": null,
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
-        "summary_start": 455,
-        "summary_end": 577
-      },
-      {
-        "annot_id": 139,
-        "sample_id": 1,
-        "annotator": "34774ba81d5c4d0fa91282bf0f660515",
-        "label": [
-          "Questionable"
-        ],
-        "note": "\"the ivorian\" = Toure?",
-        "annotator_name": null,
-        "summary_span": " Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad. ",
-        "summary_start": 248,
-        "summary_end": 350,
-        "source_span": "\nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign .",
-        "source_start": 155,
-        "source_end": 297
-      },
-      {
-        "annot_id": 140,
-        "sample_id": 1,
-        "annotator": "34774ba81d5c4d0fa91282bf0f660515",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "Joe insisted the player should take responsibility",
-        "annotator_name": null,
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
-        "summary_start": 455,
-        "summary_end": 577,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 148,
-        "sample_id": 1,
-        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "this year but not this season",
-        "annotator_name": null,
-        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
-        "summary_start": 0,
-        "summary_end": 97,
-        "source_span": "\nmanchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini .",
-        "source_start": 502,
-        "source_end": 792
-      },
-      {
-        "annot_id": 158,
-        "sample_id": 1,
-        "annotator": "119f5bd074db405f8047bdf46f079e0c",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
-        "summary_start": 455,
-        "summary_end": 539,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 183,
-        "sample_id": 1,
-        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "players should take responsibility",
-        "annotator_name": "Rogger",
-        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
-        "summary_start": 454,
-        "summary_end": 577,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 186,
-        "sample_id": 1,
-        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
-        "label": [
-          "Questionable"
-        ],
-        "note": "Not clear if campaign means the same thing as a season.",
-        "annotator_name": "Suleman",
-        "summary_span": "could miss the rest of the season ",
-        "summary_start": 397,
-        "summary_end": 431,
-        "source_span": "\ncity will also face the hammers without captain vincent kompany , who could miss the rest of the campaign with a muscle injury .",
-        "source_start": 1406,
-        "source_end": 1535
-      },
-      {
-        "annot_id": 187,
-        "sample_id": 1,
-        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Joe Hart said players should take responsbitilty not that he takes responsibility.",
-        "annotator_name": "Suleman",
-        "summary_span": "oe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini",
-        "summary_start": 456,
-        "summary_end": 576,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 201,
-        "sample_id": 1,
-        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
-        "label": [
-          "Benign"
-        ],
-        "note": "the source does not explicitly say that Pellegrini is unhappy about Toure's performance in \"this season\". But from the context, we can infer that. ",
-        "annotator_name": "forrest",
-        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
-        "summary_start": 0,
-        "summary_end": 97,
-        "source_span": "manchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini . \n",
-        "source_start": 503,
-        "source_end": 794
-      },
-      {
-        "annot_id": 202,
-        "sample_id": 1,
-        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"at least\" was dropped in the summary that causes subtle meaning change. ",
-        "annotator_name": "forrest",
-        "summary_span": "he will continue to support him until the end of the season",
-        "summary_start": 168,
-        "summary_end": 227,
-        "source_span": "vowed to back the manchester city midfielder -- at least until the end of the season ",
-        "source_start": 68,
-        "source_end": 153
-      },
-      {
-        "annot_id": 203,
-        "sample_id": 1,
-        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
-        "label": [
-          "Questionable"
-        ],
-        "note": "it is unclear whether \"campaign\" == 'season\"",
-        "annotator_name": "forrest",
-        "summary_span": "Vincent Kompany could miss the rest of the season due to a muscle injury",
-        "summary_start": 381,
-        "summary_end": 453,
-        "source_span": "captain vincent kompany , who could miss the rest of the campaign with a muscle injury ",
-        "source_start": 1447,
-        "source_end": 1534
-      },
-      {
-        "annot_id": 204,
-        "sample_id": 1,
-        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "source says that Joe Hart insisted that the players take the responsibility whereas the summary says that Joe Hart himself takes responsibility. ",
-        "annotator_name": "forrest",
-        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
-        "summary_start": 454,
-        "summary_end": 539,
-        "source_span": "city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances ,",
-        "source_start": 1575,
-        "source_end": 1710
-      },
-      {
-        "annot_id": 221,
-        "sample_id": 1,
-        "annotator": "e0bef3902d4942d495849f7cf965250c",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "for the ivorian not for Toure",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "It is revealed that Manchester City would listen to offers for Toure in the summer as they plan to overhaul their squad.",
-        "summary_start": 229,
-        "summary_end": 349,
-        "source_span": "\nsportsmail revealed city would listen to offers for the ivorian as they look to overhaul an ageing squad at the end of a faltering campaign .",
-        "source_start": 155,
-        "source_end": 297
-      },
-      {
-        "annot_id": 222,
-        "sample_id": 1,
-        "annotator": "e0bef3902d4942d495849f7cf965250c",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Not joe hart but the players should take responsibility",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini.",
-        "summary_start": 455,
-        "summary_end": 577,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 223,
-        "sample_id": 1,
-        "annotator": "e0bef3902d4942d495849f7cf965250c",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "this year but not this season",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "The passage discusses Manuel Pellegrini's disappointment in Yaya Toure's performance this season.",
-        "summary_start": 0,
-        "summary_end": 97,
-        "source_span": "\nmanchester city midfielder yaya toure has come in for criticism for his performances this season\nmanuel pellegrini has admitted he has been disappointed by the ivory coast midfielder 's level\n` i do n't think he 's happy with his performance this year -- and nor am i , ' said pellegrini .",
-        "source_start": 502,
-        "source_end": 792
-      },
-      {
-        "annot_id": 276,
-        "sample_id": 1,
-        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Miaoran",
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
-        "summary_start": 455,
-        "summary_end": 539,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 281,
-        "sample_id": 1,
-        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "weisi",
-        "summary_span": " Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances and expresses support for Pellegrini. ",
-        "summary_start": 454,
-        "summary_end": 578,
-        "source_span": "\nwith his manager in the firing line , city goalkeeper joe hart insisted the players should take responsibility .",
-        "source_start": 1536,
-        "source_end": 1649
-      },
-      {
-        "annot_id": 290,
-        "sample_id": 1,
-        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Joe blamed the poor performance on the whole team, not just himself.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "Joe Hart, the City goalkeeper, takes responsibility for the team's poor performances",
-        "summary_start": 455,
-        "summary_end": 539,
-        "source_span": "city goalkeeper joe hart insisted the players should take responsibility . \n` people have been disappointed in their own performances , '",
-        "source_start": 1575,
-        "source_end": 1712
-      }
-    ],
-    "meta_model": "openai/GPT-3.5-Turbo",
-    "meta_hhemv1": 0.43003,
-    "meta_hhem-2.1": 0.97216,
-    "meta_hhem-2.1-english": 0.92742,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 1018
   },
   {
     "sample_id": 3,
@@ -2073,6 +2152,38 @@
         "source_span": "williams will face romania 's simona halep for a place in the final after the third-seed beat sloane stephens 6-1 , 7-5 .",
         "source_start": 1261,
         "source_end": 1382
+      },
+      {
+        "annot_id": 305,
+        "sample_id": 3,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Clost to hometown event does not mean being geographically close to hometown",
+        "annotator_name": "Vivek",
+        "summary_span": "as it is close to her hometown.",
+        "summary_start": 382,
+        "summary_end": 413,
+        "source_span": "what is the nearest thing she has to a hometown event",
+        "source_start": 554,
+        "source_end": 607
+      },
+      {
+        "annot_id": 306,
+        "sample_id": 3,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "Passage might have contradictory information. Passage says will face for a place in final. Summary says that she will face in final",
+        "annotator_name": "Vivek",
+        "summary_span": "Williams will now face Simona Halep in the final, after Halep defeated Sloane Stephens.",
+        "summary_start": 231,
+        "summary_end": 318,
+        "source_span": "williams will face romania 's simona halep for a place in the final after the third-seed beat sloane stephens 6-1 , 7-5",
+        "source_start": 1261,
+        "source_end": 1380
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -2413,6 +2524,347 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 23
+  },
+  {
+    "sample_id": 5,
+    "source": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz . \nmouscron , in belgium 's pro league , had a partnership with lille but the french side are now poised to link up with another belgian club , ostend , leaving room for a new deal and chelsea are the preferred option . \nthe belgian club have been in the top flight for a season since winning promotion via the play-offs last summer . \nthey are 13th in the table , two points above the relegation places . \nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad . \nvitesse currently have chelsea 's josh mceachran , bertrand traore and wallace on their books as they look to seek europa league qualification from the dutch eredivisie . \nmidfielder nemanja matic is the only current regular first-team player in jose mourinho 's squad to have spent time on loan with the dutch club . \nbertrand traore is one of three players currently on loan at vitesse arnhem from chelsea this season\nblues midfielder nemanja matic spent time on loan at vitesse before moving to benfica and then back",
+    "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nChelsea FC is in early discussions with Belgian club Royal Mouscron-Peruwelz about a potential partnership. Mouscron is currently 13th in the Belgian Pro League and had a previous partnership with Lille, which is ending. This partnership would allow Chelsea to develop their squad and follows their existing agreement with Vitesse Arnhem in Holland, where several Chelsea players are currently on loan.",
+    "annotations": [
+      {
+        "annot_id": 56,
+        "sample_id": 5,
+        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "had a previous partnership with Lille, which is ending.",
+        "summary_start": 249,
+        "summary_end": 304
+      },
+      {
+        "annot_id": 57,
+        "sample_id": 5,
+        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": null,
+        "summary_span": "had a previous partnership with Lille, which is ending.",
+        "summary_start": 249,
+        "summary_end": 304,
+        "source_span": "the french side are now poised to link up with another belgian club , ostend , leaving room for a new deal and chelsea are the preferred option . ",
+        "source_start": 177,
+        "source_end": 323
+      },
+      {
+        "annot_id": 94,
+        "sample_id": 5,
+        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
+        "label": [
+          "Benign"
+        ],
+        "note": "Chelsea only, no FC provided",
+        "annotator_name": null,
+        "summary_span": "Chelsea FC is in early discussions with Belgian club Royal Mouscron-Peruwelz about a potential partnership.",
+        "summary_start": 84,
+        "summary_end": 191,
+        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz .",
+        "source_start": 0,
+        "source_end": 104
+      },
+      {
+        "annot_id": 95,
+        "sample_id": 5,
+        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "no clue for 13th in the belgian pro leagure",
+        "annotator_name": null,
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League and had a previous partnership with Lille, which is ending.",
+        "summary_start": 192,
+        "summary_end": 304,
+        "source_span": "\nthey are 13th in the table , two points above the relegation places .",
+        "source_start": 438,
+        "source_end": 508
+      },
+      {
+        "annot_id": 96,
+        "sample_id": 5,
+        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "No information about the partnership",
+        "annotator_name": null,
+        "summary_span": "This partnership would allow Chelsea to develop their squad and follows their existing agreement with Vitesse Arnhem in Holland, where several Chelsea players are currently on loan.",
+        "summary_start": 305,
+        "summary_end": 486,
+        "source_span": "\nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad .",
+        "source_start": 509,
+        "source_end": 969
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 5,
+        "annotator": "34774ba81d5c4d0fa91282bf0f660515",
+        "label": [
+          "Benign"
+        ],
+        "note": "additional \"FC\"",
+        "annotator_name": null,
+        "summary_span": "Chelsea FC",
+        "summary_start": 84,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 143,
+        "sample_id": 5,
+        "annotator": "1c9b134d7f6e435a8eef05d35ce2544c",
+        "label": [
+          "Benign"
+        ],
+        "note": "FC, i.e, Football Club",
+        "annotator_name": null,
+        "summary_span": "Chelsea FC",
+        "summary_start": 84,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 188,
+        "sample_id": 5,
+        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
+        "label": [
+          "Benign"
+        ],
+        "note": "FC, i.e. Football Club",
+        "annotator_name": "Rogger",
+        "summary_span": "Chelsea FC",
+        "summary_start": 84,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 194,
+        "sample_id": 5,
+        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
+        "label": [
+          "Questionable"
+        ],
+        "note": "FC is not mentioned in the passage.",
+        "annotator_name": "Suleman",
+        "summary_span": "Chelsea FC is in early discussions ",
+        "summary_start": 84,
+        "summary_end": 119
+      },
+      {
+        "annot_id": 211,
+        "sample_id": 5,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source says Mouscron are 21 in Belgium's Pro League whereas the summary says Mouscron is 13th in Belgian Pro League. ",
+        "annotator_name": "forrest",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League",
+        "summary_start": 192,
+        "summary_end": 244,
+        "source_span": "mouscron are currently 21th in belgium 's pro league ",
+        "source_start": 718,
+        "source_end": 771
+      },
+      {
+        "annot_id": 232,
+        "sample_id": 5,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted.Instrinsic",
+          "Benign"
+        ],
+        "note": "Chelsea only, no FC provided",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Chelsea FC is in early discussions with Belgian club Royal Mouscron-Peruwelz about a potential partnership.",
+        "summary_start": 84,
+        "summary_end": 191,
+        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz .",
+        "source_start": 0,
+        "source_end": 104
+      },
+      {
+        "annot_id": 233,
+        "sample_id": 5,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Chelsea only, no FC provided",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League and had a previous partnership with Lille, which is ending.",
+        "summary_start": 192,
+        "summary_end": 304,
+        "source_span": "\nthey are 13th in the table , two points above the relegation places .",
+        "source_start": 438,
+        "source_end": 508
+      },
+      {
+        "annot_id": 234,
+        "sample_id": 5,
+        "annotator": "e0bef3902d4942d495849f7cf965250c",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Chelsea only, no FC provided",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "This partnership would allow Chelsea to develop their squad and follows their existing agreement with Vitesse Arnhem in Holland, where several Chelsea players are currently on loan.",
+        "summary_start": 305,
+        "summary_end": 486,
+        "source_span": "\nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad .",
+        "source_start": 509,
+        "source_end": 969
+      },
+      {
+        "annot_id": 258,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It can be inferred that \"Chelsea FC\" = \"Chelsea\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Chelsea FC",
+        "summary_start": 84,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 259,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Questionable"
+        ],
+        "note": "Not sure if \"13th in the table\" means \"13th in the Belgian Pro League\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League",
+        "summary_start": 192,
+        "summary_end": 244,
+        "source_span": "they are 13th in the table ",
+        "source_start": 439,
+        "source_end": 466
+      },
+      {
+        "annot_id": 260,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Benign"
+        ],
+        "note": "It implies that partnership with Lille is ending.",
+        "annotator_name": "Miaoran",
+        "summary_span": "which is ending",
+        "summary_start": 288,
+        "summary_end": 303,
+        "source_span": " the french side are now poised to link up with another belgian club",
+        "source_start": 176,
+        "source_end": 244
+      },
+      {
+        "annot_id": 263,
+        "sample_id": 5,
+        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source only mentions that Chelsea \"have been looking at other link-ups across europe to help develop their squad\" which is a kind of hope or expectation. There is no clue that the partnership will \"allow\" Chelsea to develop their squad",
+        "annotator_name": "Miaoran",
+        "summary_span": "This partnership would allow Chelsea to develop their squad",
+        "summary_start": 305,
+        "summary_end": 364,
+        "source_span": "chelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad ",
+        "source_start": 821,
+        "source_end": 968
+      },
+      {
+        "annot_id": 264,
+        "sample_id": 5,
+        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
+        "label": [
+          "Benign"
+        ],
+        "note": "\"FC\" is not mentioned in the source but it means \"football club\".",
+        "annotator_name": "forrest",
+        "summary_span": "FC",
+        "summary_start": 92,
+        "summary_end": 94
+      },
+      {
+        "annot_id": 285,
+        "sample_id": 5,
+        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "weisi",
+        "summary_span": "Mouscron is currently 13th in the Belgian Pro League ",
+        "summary_start": 192,
+        "summary_end": 245,
+        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad ",
+        "source_start": 510,
+        "source_end": 968
+      },
+      {
+        "annot_id": 295,
+        "sample_id": 5,
+        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Lille is linking up with a new club. However this doesn't necessarily mean that the existing partnership will end.",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "had a previous partnership with Lille, which is ending.",
+        "summary_start": 249,
+        "summary_end": 304,
+        "source_span": "had a partnership with lille but the french side are now poised to link up with another belgian club",
+        "source_start": 144,
+        "source_end": 244
+      },
+      {
+        "annot_id": 307,
+        "sample_id": 5,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "13th in the Belgian Pro ",
+        "summary_start": 214,
+        "summary_end": 238,
+        "source_span": "21th in belgium 's pro league",
+        "source_start": 741,
+        "source_end": 770
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.87046,
+    "meta_hhem-2.1": 0.75486,
+    "meta_hhem-2.1-english": 0.69742,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 796
   },
   {
     "sample_id": 6,
@@ -2896,6 +3348,23 @@
         "source_span": "\n\nnicklaus became the youngest person to wear a green jacket in 1963",
         "source_start": 1368,
         "source_end": 1436
+      },
+      {
+        "annot_id": 308,
+        "sample_id": 6,
+        "annotator": "17efd3e8e0794d71941eb5922794b19b",
+        "label": [
+          "Questionable",
+          "Benign"
+        ],
+        "note": "One if five men is not same as 1 of 5 golfers",
+        "annotator_name": "Vivek",
+        "summary_span": "He is one of five golfers to complete the career grand slam",
+        "summary_start": 387,
+        "summary_end": 446,
+        "source_span": " \nhe is one of five men to complete the career grand slam",
+        "source_start": 1472,
+        "source_end": 1529
       }
     ],
     "meta_model": "google/gemini-1.5-flash-001",
@@ -2910,329 +3379,69 @@
     "meta_sample_id": 871
   },
   {
-    "sample_id": 5,
-    "source": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz . \nmouscron , in belgium 's pro league , had a partnership with lille but the french side are now poised to link up with another belgian club , ostend , leaving room for a new deal and chelsea are the preferred option . \nthe belgian club have been in the top flight for a season since winning promotion via the play-offs last summer . \nthey are 13th in the table , two points above the relegation places . \nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad . \nvitesse currently have chelsea 's josh mceachran , bertrand traore and wallace on their books as they look to seek europa league qualification from the dutch eredivisie . \nmidfielder nemanja matic is the only current regular first-team player in jose mourinho 's squad to have spent time on loan with the dutch club . \nbertrand traore is one of three players currently on loan at vitesse arnhem from chelsea this season\nblues midfielder nemanja matic spent time on loan at vitesse before moving to benfica and then back",
-    "summary": "Here is a concise summary of the passage, covering the core pieces of information:\n\nChelsea FC is in early discussions with Belgian club Royal Mouscron-Peruwelz about a potential partnership. Mouscron is currently 13th in the Belgian Pro League and had a previous partnership with Lille, which is ending. This partnership would allow Chelsea to develop their squad and follows their existing agreement with Vitesse Arnhem in Holland, where several Chelsea players are currently on loan.",
+    "sample_id": 7,
+    "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
+    "summary": "Here is a concise summary of the passage:\n\nThe city of Eugene in the United States has been awarded the rights to host the 2021 IAAF World Championships. The IAAF Council made this decision without a bidding process, citing a \"unique strategic opportunity\" to host the event in the USA for the first time. This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
     "annotations": [
       {
-        "annot_id": 56,
-        "sample_id": 5,
-        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "had a previous partnership with Lille, which is ending.",
-        "summary_start": 249,
-        "summary_end": 304
-      },
-      {
-        "annot_id": 57,
-        "sample_id": 5,
-        "annotator": "0462cd874b254dd5b7163d1b6acf0b21",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": null,
-        "summary_span": "had a previous partnership with Lille, which is ending.",
-        "summary_start": 249,
-        "summary_end": 304,
-        "source_span": "the french side are now poised to link up with another belgian club , ostend , leaving room for a new deal and chelsea are the preferred option . ",
-        "source_start": 177,
-        "source_end": 323
-      },
-      {
-        "annot_id": 94,
-        "sample_id": 5,
+        "annot_id": 101,
+        "sample_id": 7,
         "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
         "label": [
           "Benign"
         ],
-        "note": "Chelsea only, no FC provided",
+        "note": "world knowledge to infer doha in Qatar",
         "annotator_name": null,
-        "summary_span": "Chelsea FC is in early discussions with Belgian club Royal Mouscron-Peruwelz about a potential partnership.",
-        "summary_start": 84,
-        "summary_end": 191,
-        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz .",
-        "source_start": 0,
-        "source_end": 104
+        "summary_span": "This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
+        "summary_start": 306,
+        "summary_end": 405,
+        "source_span": "\neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships .",
+        "source_start": 382,
+        "source_end": 609
       },
       {
-        "annot_id": 95,
-        "sample_id": 5,
-        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "no clue for 13th in the belgian pro leagure",
-        "annotator_name": null,
-        "summary_span": "Mouscron is currently 13th in the Belgian Pro League and had a previous partnership with Lille, which is ending.",
-        "summary_start": 192,
-        "summary_end": 304,
-        "source_span": "\nthey are 13th in the table , two points above the relegation places .",
-        "source_start": 438,
-        "source_end": 508
-      },
-      {
-        "annot_id": 96,
-        "sample_id": 5,
-        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "No information about the partnership",
-        "annotator_name": null,
-        "summary_span": "This partnership would allow Chelsea to develop their squad and follows their existing agreement with Vitesse Arnhem in Holland, where several Chelsea players are currently on loan.",
-        "summary_start": 305,
-        "summary_end": 486,
-        "source_span": "\nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad .",
-        "source_start": 509,
-        "source_end": 969
-      },
-      {
-        "annot_id": 131,
-        "sample_id": 5,
+        "annot_id": 142,
+        "sample_id": 7,
         "annotator": "34774ba81d5c4d0fa91282bf0f660515",
         "label": [
-          "Benign"
+          "Questionable"
         ],
-        "note": "additional \"FC\"",
+        "note": "\"follows\"?",
         "annotator_name": null,
-        "summary_span": "Chelsea FC",
-        "summary_start": 84,
-        "summary_end": 94
+        "summary_span": "This decision follows Eugene's failed bid to host the 2019 event,",
+        "summary_start": 306,
+        "summary_end": 371,
+        "source_span": "eugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships ",
+        "source_start": 383,
+        "source_end": 608
       },
       {
-        "annot_id": 143,
-        "sample_id": 5,
-        "annotator": "1c9b134d7f6e435a8eef05d35ce2544c",
-        "label": [
-          "Benign"
-        ],
-        "note": "FC, i.e, Football Club",
-        "annotator_name": null,
-        "summary_span": "Chelsea FC",
-        "summary_start": 84,
-        "summary_end": 94
-      },
-      {
-        "annot_id": 188,
-        "sample_id": 5,
-        "annotator": "7eb1cae416bd4dcebaf78f7929ddfa61",
-        "label": [
-          "Benign"
-        ],
-        "note": "FC, i.e. Football Club",
-        "annotator_name": "Rogger",
-        "summary_span": "Chelsea FC",
-        "summary_start": 84,
-        "summary_end": 94
-      },
-      {
-        "annot_id": 194,
-        "sample_id": 5,
-        "annotator": "6b6fbd837add4a9f89ec51eef9949ead",
-        "label": [
-          "Questionable"
-        ],
-        "note": "FC is not mentioned in the passage.",
-        "annotator_name": "Suleman",
-        "summary_span": "Chelsea FC is in early discussions ",
-        "summary_start": 84,
-        "summary_end": 119
-      },
-      {
-        "annot_id": 211,
-        "sample_id": 5,
-        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source says Mouscron are 21 in Belgium's Pro League whereas the summary says Mouscron is 13th in Belgian Pro League. ",
-        "annotator_name": "forrest",
-        "summary_span": "Mouscron is currently 13th in the Belgian Pro League",
-        "summary_start": 192,
-        "summary_end": 244,
-        "source_span": "mouscron are currently 21th in belgium 's pro league ",
-        "source_start": 718,
-        "source_end": 771
-      },
-      {
-        "annot_id": 232,
-        "sample_id": 5,
+        "annot_id": 239,
+        "sample_id": 7,
         "annotator": "e0bef3902d4942d495849f7cf965250c",
         "label": [
-          "Unwanted.Instrinsic",
           "Benign"
         ],
-        "note": "Chelsea only, no FC provided",
+        "note": "world knowledge to infer doha in Qatar",
         "annotator_name": "Yujia Tang",
-        "summary_span": "Chelsea FC is in early discussions with Belgian club Royal Mouscron-Peruwelz about a potential partnership.",
-        "summary_start": 84,
-        "summary_end": 191,
-        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz .",
-        "source_start": 0,
-        "source_end": 104
-      },
-      {
-        "annot_id": 233,
-        "sample_id": 5,
-        "annotator": "e0bef3902d4942d495849f7cf965250c",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Chelsea only, no FC provided",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "Mouscron is currently 13th in the Belgian Pro League and had a previous partnership with Lille, which is ending.",
-        "summary_start": 192,
-        "summary_end": 304,
-        "source_span": "\nthey are 13th in the table , two points above the relegation places .",
-        "source_start": 438,
-        "source_end": 508
-      },
-      {
-        "annot_id": 234,
-        "sample_id": 5,
-        "annotator": "e0bef3902d4942d495849f7cf965250c",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Chelsea only, no FC provided",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "This partnership would allow Chelsea to develop their squad and follows their existing agreement with Vitesse Arnhem in Holland, where several Chelsea players are currently on loan.",
-        "summary_start": 305,
-        "summary_end": 486,
-        "source_span": "\nchelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad .",
-        "source_start": 509,
-        "source_end": 969
-      },
-      {
-        "annot_id": 258,
-        "sample_id": 5,
-        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
-        "label": [
-          "Benign"
-        ],
-        "note": "It can be inferred that \"Chelsea FC\" = \"Chelsea\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "Chelsea FC",
-        "summary_start": 84,
-        "summary_end": 94
-      },
-      {
-        "annot_id": 259,
-        "sample_id": 5,
-        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
-        "label": [
-          "Unwanted",
-          "Questionable"
-        ],
-        "note": "Not sure if \"13th in the table\" means \"13th in the Belgian Pro League\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "Mouscron is currently 13th in the Belgian Pro League",
-        "summary_start": 192,
-        "summary_end": 244,
-        "source_span": "they are 13th in the table ",
-        "source_start": 439,
-        "source_end": 466
-      },
-      {
-        "annot_id": 260,
-        "sample_id": 5,
-        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
-        "label": [
-          "Benign"
-        ],
-        "note": "It implies that partnership with Lille is ending.",
-        "annotator_name": "Miaoran",
-        "summary_span": "which is ending",
-        "summary_start": 288,
-        "summary_end": 303,
-        "source_span": " the french side are now poised to link up with another belgian club",
-        "source_start": 176,
-        "source_end": 244
-      },
-      {
-        "annot_id": 263,
-        "sample_id": 5,
-        "annotator": "2aef9c94e7a74f429936d14a18d122d2",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source only mentions that Chelsea \"have been looking at other link-ups across europe to help develop their squad\" which is a kind of hope or expectation. There is no clue that the partnership will \"allow\" Chelsea to develop their squad",
-        "annotator_name": "Miaoran",
-        "summary_span": "This partnership would allow Chelsea to develop their squad",
-        "summary_start": 305,
-        "summary_end": 364,
-        "source_span": "chelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad ",
-        "source_start": 821,
-        "source_end": 968
-      },
-      {
-        "annot_id": 264,
-        "sample_id": 5,
-        "annotator": "62d28e79613e40aa9d4c07270e44a42a",
-        "label": [
-          "Benign"
-        ],
-        "note": "\"FC\" is not mentioned in the source but it means \"football club\".",
-        "annotator_name": "forrest",
-        "summary_span": "FC",
-        "summary_start": 92,
-        "summary_end": 94
-      },
-      {
-        "annot_id": 285,
-        "sample_id": 5,
-        "annotator": "8755a740dfc245e3914fc3bcb9c54a22",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "weisi",
-        "summary_span": "Mouscron is currently 13th in the Belgian Pro League ",
-        "summary_start": 192,
-        "summary_end": 245,
-        "source_span": "chelsea are in early discussions over a possible partnership with belgian club royal mouscron-peruwelz\nmouscron had a partnership with lille but that is now set to end meaning there is to be room for chelsea\nmouscron are currently 21th in belgium 's pro league , with players including tristan dingome ( left )\nchelsea already have an agreement with vitesse arnhem in holland and have been looking at other link-ups across europe to help develop their squad ",
-        "source_start": 510,
-        "source_end": 968
-      },
-      {
-        "annot_id": 295,
-        "sample_id": 5,
-        "annotator": "f6a478ed92974add981e9ab8e65db4c8",
-        "label": [
-          "Questionable"
-        ],
-        "note": "Lille is linking up with a new club. However this doesn't necessarily mean that the existing partnership will end.",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "had a previous partnership with Lille, which is ending.",
-        "summary_start": 249,
-        "summary_end": 304,
-        "source_span": "had a partnership with lille but the french side are now poised to link up with another belgian club",
-        "source_start": 144,
-        "source_end": 244
+        "summary_span": "This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
+        "summary_start": 306,
+        "summary_end": 405,
+        "source_span": "\neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships .",
+        "source_start": 382,
+        "source_end": 609
       }
     ],
-    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-    "meta_hhemv1": 0.87046,
-    "meta_hhem-2.1": 0.75486,
-    "meta_hhem-2.1-english": 0.69742,
-    "meta_trueteacher": 1,
+    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "meta_hhemv1": 0.28625,
+    "meta_hhem-2.1": 0.98398,
+    "meta_hhem-2.1-english": 0.99236,
+    "meta_trueteacher": 0,
     "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 0,
+    "meta_gpt-3.5-turbo": 1,
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
-    "meta_sample_id": 796
+    "meta_sample_id": 651
   },
   {
     "sample_id": 8,
@@ -4042,70 +4251,5 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 483
-  },
-  {
-    "sample_id": 7,
-    "source": "the city of eugene in the united states has been awarded the rights to host the 2021 iaaf world championships . \nthe decision was taken by the international association of athletics federations council , who decided to bypass the usual bidding process because of what it saw as a ` unique strategic opportunity to host the iaaf world championships for the first time in the usa ' . \neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships . \neugene in the united states has been awarded the rights to host the 2021 iaaf world championships\nqatar captial doha , home to the aspire dome , beat eugene to host the 2019 event\n` in granting the championships to eugene the iaaf council have made a clear choice on a strategic decision that enables us to take advantage of a unique opportunity that may never arise again , whereby public authorities , the private sector , the national olympic committee , nbc and a particularly enthusiastic public are joining forces , ' iaaf president lamine diack said in a statement . \n` although this decision departs from the usual procedure , i am delighted that my council colleagues understood the enormous opportunity presented to us to access a key market and have taken a decision in the interest of the global development of our sport . ' \nthe 2007 world championships held in osaka , japan was also awarded without a bidding process . \nmo farah won gold in the men 's 10000 metres during the 2019 iaaf world athletics championships in moscow",
-    "summary": "Here is a concise summary of the passage:\n\nThe city of Eugene in the United States has been awarded the rights to host the 2021 IAAF World Championships. The IAAF Council made this decision without a bidding process, citing a \"unique strategic opportunity\" to host the event in the USA for the first time. This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
-    "annotations": [
-      {
-        "annot_id": 101,
-        "sample_id": 7,
-        "annotator": "b2328ce7016c44bdabf19ec8ecfd720a",
-        "label": [
-          "Benign"
-        ],
-        "note": "world knowledge to infer doha in Qatar",
-        "annotator_name": null,
-        "summary_span": "This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
-        "summary_start": 306,
-        "summary_end": 405,
-        "source_span": "\neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships .",
-        "source_start": 382,
-        "source_end": 609
-      },
-      {
-        "annot_id": 142,
-        "sample_id": 7,
-        "annotator": "34774ba81d5c4d0fa91282bf0f660515",
-        "label": [
-          "Questionable"
-        ],
-        "note": "\"follows\"?",
-        "annotator_name": null,
-        "summary_span": "This decision follows Eugene's failed bid to host the 2019 event,",
-        "summary_start": 306,
-        "summary_end": 371,
-        "source_span": "eugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships ",
-        "source_start": 383,
-        "source_end": 608
-      },
-      {
-        "annot_id": 239,
-        "sample_id": 7,
-        "annotator": "e0bef3902d4942d495849f7cf965250c",
-        "label": [
-          "Benign"
-        ],
-        "note": "world knowledge to infer doha in Qatar",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "This decision follows Eugene's failed bid to host the 2019 event, which was awarded to Doha, Qatar.",
-        "summary_start": 306,
-        "summary_end": 405,
-        "source_span": "\neugene failed last november in its bid to host the 2019 event , which was instead awarded to doha , but a recent presentation to the iaaf persuaded the governing body the city has what it takes to stage a world championships .",
-        "source_start": 382,
-        "source_end": 609
-      }
-    ],
-    "meta_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "meta_hhemv1": 0.28625,
-    "meta_hhem-2.1": 0.98398,
-    "meta_hhem-2.1-english": 0.99236,
-    "meta_trueteacher": 0,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 651
   }
 ]

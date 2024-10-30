@@ -161,6 +161,32 @@
         "source_span": "Still's side have also struggled in attack, with 40-year-old striker Jamie Cureton netting nine goals, compared to the 20 he scored as Dagenham finished 14th in the 2014-15 campaign.",
         "source_start": 663,
         "source_end": 845
+      },
+      {
+        "annot_id": 192,
+        "sample_id": 0,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the attacking is mentioned only for the striker who scored 9 goals instead of 20 and is not mentioning clearly about the whole team. It also says previous \"years\" instead of previous \"year\" as supported buy the text ",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "with a poor goal difference and a less productive attack compared to previous years",
+        "summary_start": 586,
+        "summary_end": 669
+      },
+      {
+        "annot_id": 193,
+        "sample_id": 0,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Benign"
+        ],
+        "note": "He's speaking for the team but this is not directly mentioned, it is implied form the passage.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "team's professionalism and dedication to winning for their fans.",
+        "summary_start": 938,
+        "summary_end": 1002
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -173,408 +199,6 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 384
-  },
-  {
-    "sample_id": 4,
-    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
-    "summary": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia, was discovered washed up on a remote Exmouth beach after a tropical cyclone. This is the first sighting of the species in Western Australia and only the second in Australia. The whale's identification was confirmed through DNA profiling. The discovery is considered highly significant for whale scientists due to the limited knowledge about this species, which was only described scientifically in 2003. The carcass has been buried, and the skeleton will be recovered later for further scientific study and potential museum display. Omura's whales are typically found in Indonesian waters, the Philippines, and the Sea of Japan, and are characterized by their sleek body shape and unique skeletal features, such as 53 vertebrae and four digits on each pectoral fin.",
-    "annotations": [
-      {
-        "annot_id": 4,
-        "sample_id": 4,
-        "annotator": "aa4665a09e3040cc92f79c7d32b14d50",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "This whale species was indeed \"feared to be extinct\", but not \"feared to be extinct in Western Australia\". The source text implies that this species was thought to be extinct in the entire world, but the summary text implies that this species might have existed elsewhere in the world.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86
-      },
-      {
-        "annot_id": 11,
-        "sample_id": 4,
-        "annotator": "512de1f92f454053822942128d642ab5",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "extinct in WA or Extinct world wise?\n",
-        "annotator_name": "rogger",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86
-      },
-      {
-        "annot_id": 21,
-        "sample_id": 4,
-        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "There is also a statement that states 53 vertebrate",
-        "annotator_name": "Vivek",
-        "summary_span": "53 vertebrae and four digits on each pectoral fin.",
-        "summary_start": 803,
-        "summary_end": 853
-      },
-      {
-        "annot_id": 50,
-        "sample_id": 4,
-        "annotator": "acb12563bd6541918a45dbcebd1161fe",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The whale was not thought to be extinct in Western Australia, but rather the whale was thought to be extinct but then was found washed up on a beach in Western Australia. Big difference.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "thought to be extinct in Western Australia",
-        "summary_start": 44,
-        "summary_end": 86,
-        "source_span": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal",
-        "source_start": 0,
-        "source_end": 166
-      },
-      {
-        "annot_id": 71,
-        "sample_id": 4,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Questionable"
-        ],
-        "note": "previously mentioned 53 vertebrae",
-        "annotator_name": "Miaoran",
-        "summary_span": "53 vertebrae",
-        "summary_start": 803,
-        "summary_end": 815,
-        "source_span": "including 60 vertebrae",
-        "source_start": 1779,
-        "source_end": 1801
-      },
-      {
-        "annot_id": 87,
-        "sample_id": 4,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"feared\" != \"thought\"",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86,
-        "source_span": "feared to be extinct has been found washed up on a west australian beach",
-        "source_start": 28,
-        "source_end": 100
-      },
-      {
-        "annot_id": 100,
-        "sample_id": 4,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "1. the species was \"feared to be extinct\" not \"thought to be extinct\". \n2. The whale's endangered status is not limited to \"Western Australia.\" The whale was washed up in west Australia. ",
-        "annotator_name": "forrest",
-        "summary_span": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia,",
-        "summary_start": 0,
-        "summary_end": 87
-      },
-      {
-        "annot_id": 116,
-        "sample_id": 4,
-        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source text both mentions 53 and 60 vertebrae for omura's whales, it is not clear which one is correct.",
-        "annotator_name": "Sahel",
-        "summary_span": "53 vertebrae ",
-        "summary_start": 803,
-        "summary_end": 816
-      },
-      {
-        "annot_id": 130,
-        "sample_id": 4,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Extinct in Western Australia? The source doesn't explicitly mention it.",
-        "annotator_name": "Weisi",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86
-      },
-      {
-        "annot_id": 134,
-        "sample_id": 4,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source does not mention that the Omura's whale was extinct \"in Western Australia\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "previously thought to be extinct in Western Australia",
-        "summary_start": 33,
-        "summary_end": 86,
-        "source_span": "a species of whale that was feared to be extinct",
-        "source_start": 0,
-        "source_end": 48
-      }
-    ],
-    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
-    "meta_hhemv1": 0.9973,
-    "meta_hhem-2.1": 0.92952,
-    "meta_hhem-2.1-english": 0.96633,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 0,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 551
-  },
-  {
-    "sample_id": 6,
-    "source": "hong kong ( cnn ) six people were hurt after an explosion at a controversial chemical plant in china 's southeastern fujian province sparked a huge fire , provincial authorities told state media . \nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics . \nthe blast occurred at an oil storage facility monday night after an oil leak , though local media has not reported any toxic chemical spill . \nfive out of six people were injured by broken glass and have been sent to the hospital for treatment , xinhua news agency reported . \nmore than 600 firefighters were sent to battle the blaze and the fire is now under control , the zhangzhou fire department wrote on their official microblogging account tuesday morning . \nresidents living close to the plant had heard the explosion and took to weibo to post photos of the fire . \none user wrote that he heard a loud blast and felt slight tremors . \nthe plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time . \nthough demonstrations are illegal in china , the construction of px plants has sparked protests , which have occasionally turned violent , in several cities in recent years . \nthe zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
-    "summary": "An explosion at a chemical plant in Zhangzhou, Fujian province, China, injured six people and caused a large fire. The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production. The blast occurred at an oil storage facility due to an oil leak, but no toxic chemical spill was reported. Five of the injured were hurt by broken glass and hospitalized. Over 600 firefighters controlled the blaze. The plant had a previous explosion in 2013 without casualties or toxic leaks. The construction of PX plants has led to protests in China, and this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
-    "annotations": [
-      {
-        "annot_id": 5,
-        "sample_id": 6,
-        "annotator": "aa4665a09e3040cc92f79c7d32b14d50",
-        "label": [
-          "Questionable"
-        ],
-        "note": "I think it's better to include the word \"reportedly\" here from the source text. The source text used the word \"reportedly\" to add a layer of uncertainty, whereas the summary text got rid of this word, indicating certainty.",
-        "annotator_name": "Renyi Qu",
-        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production.",
-        "summary_start": 115,
-        "summary_end": 204
-      },
-      {
-        "annot_id": 13,
-        "sample_id": 6,
-        "annotator": "512de1f92f454053822942128d642ab5",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Omit some information, changed meaning a bit.",
-        "annotator_name": "rogger",
-        "summary_span": "relocated from Xiamen to a more remote",
-        "summary_start": 578,
-        "summary_end": 616,
-        "source_span": "the zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
-        "source_start": 1306,
-        "source_end": 1582
-      },
-      {
-        "annot_id": 24,
-        "sample_id": 6,
-        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Vivek",
-        "summary_span": "this plant was relocated from Xiamen to a more remote area due to pollution concerns",
-        "summary_start": 563,
-        "summary_end": 647
-      },
-      {
-        "annot_id": 51,
-        "sample_id": 6,
-        "annotator": "acb12563bd6541918a45dbcebd1161fe",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The summary makes it sound like the plant was originally in Xiamen, and was then relocated. In reality, it was originally slated for construction in Xiamen and was then relocated to Zhangzhou.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
-        "summary_start": 563,
-        "summary_end": 648,
-        "source_span": "\nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
-        "source_start": 1410,
-        "source_end": 1582
-      },
-      {
-        "annot_id": 91,
-        "sample_id": 6,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Benign"
-        ],
-        "note": "polyester production >= polyester films and fabrics",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "polyester production",
-        "summary_start": 183,
-        "summary_end": 203,
-        "source_span": "polyester films and fabrics",
-        "source_start": 328,
-        "source_end": 355
-      },
-      {
-        "annot_id": 101,
-        "sample_id": 6,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "over-generalization",
-        "annotator_name": "forrest",
-        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production.",
-        "summary_start": 115,
-        "summary_end": 204,
-        "source_span": "\nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics .",
-        "source_start": 197,
-        "source_end": 357
-      },
-      {
-        "annot_id": 117,
-        "sample_id": 6,
-        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the source states production of polyester films and fabrics vs the polyester production.",
-        "annotator_name": "Sahel",
-        "summary_span": "in polyester production",
-        "summary_start": 180,
-        "summary_end": 203
-      },
-      {
-        "annot_id": 118,
-        "sample_id": 6,
-        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source says the injured were sent to the hospital for treatment, this doesn't necessarily imply hospitalization.",
-        "annotator_name": "Sahel",
-        "summary_span": "hospitalized",
-        "summary_start": 363,
-        "summary_end": 375
-      },
-      {
-        "annot_id": 132,
-        "sample_id": 6,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Weisi",
-        "summary_span": "and this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
-        "summary_start": 559,
-        "summary_end": 648
-      },
-      {
-        "annot_id": 137,
-        "sample_id": 6,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source mentions that PX is used for the production of \"polyester films and fabrics\", but the summary generalizes it to \"polyester production\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production. ",
-        "summary_start": 115,
-        "summary_end": 205,
-        "source_span": "\nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics .",
-        "source_start": 197,
-        "source_end": 357
-      },
-      {
-        "annot_id": 138,
-        "sample_id": 6,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"no reports of casualities or toxic leaks\" does not mean \"no casualities or toxic leaks\"",
-        "annotator_name": "Miaoran",
-        "summary_span": "The plant had a previous explosion in 2013 without casualties or toxic leaks.",
-        "summary_start": 421,
-        "summary_end": 498,
-        "source_span": "\nthe plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time .",
-        "source_start": 1000,
-        "source_end": 1128
-      },
-      {
-        "annot_id": 144,
-        "sample_id": 6,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The source mentions the plant was \"slated for Xiamen\" and \"relocated to Zhangzhou\", but does not mention that the plant was in Xiamen previously\t",
-        "annotator_name": "Miaoran",
-        "summary_span": "this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
-        "summary_start": 563,
-        "summary_end": 648,
-        "source_span": "the zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
-        "source_start": 1306,
-        "source_end": 1582
-      },
-      {
-        "annot_id": 162,
-        "sample_id": 6,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"relocated from xiamen\" in the summary implies the plant was built in xiamen but \"slated for Xiamen\" in the summary implies that the plant was never built in Xiamen but planned for. ",
-        "annotator_name": "forrest",
-        "summary_span": " this plant was relocated from Xiamen ",
-        "summary_start": 562,
-        "summary_end": 600,
-        "source_span": "the zhangzhou plant was slated for xiamen ",
-        "source_start": 1306,
-        "source_end": 1348
-      },
-      {
-        "annot_id": 163,
-        "sample_id": 6,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "\"no reports\" and \"at the time\" are missing in the summary. ",
-        "annotator_name": "forrest",
-        "summary_span": " without casualties or toxic leaks",
-        "summary_start": 463,
-        "summary_end": 497,
-        "source_span": "there were no reports of casualties or toxic leaks at the time . ",
-        "source_start": 1064,
-        "source_end": 1129
-      }
-    ],
-    "meta_model": "openai/gpt-4o",
-    "meta_hhemv1": 0.39773,
-    "meta_hhem-2.1": 0.96093,
-    "meta_hhem-2.1-english": 0.98348,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 1123
   },
   {
     "sample_id": 1,
@@ -908,6 +532,46 @@
         "summary_span": "a potential large home crowd ",
         "summary_start": 422,
         "summary_end": 451
+      },
+      {
+        "annot_id": 194,
+        "sample_id": 1,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Questionable"
+        ],
+        "note": "this is not clear, \"victory would all but secure their place\" means there are other factors such as how other teams play etc. it is not explicitly clear from the passage that a win against iceland will secure their spot",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "needing a win against Iceland to secure their spot.",
+        "summary_start": 88,
+        "summary_end": 139
+      },
+      {
+        "annot_id": 195,
+        "sample_id": 1,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Benign",
+          "Questionable"
+        ],
+        "note": "The player was referring to qualifying for the tournament and not about the match as the summary implies",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "The match will be emotional, with a potential large home crowd at Falkirk Stadium. ",
+        "summary_start": 388,
+        "summary_end": 471
+      },
+      {
+        "annot_id": 196,
+        "sample_id": 1,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Benign"
+        ],
+        "note": "it is not explicitly stated that football is growing in Scotland though it is implied by the statements in the passage.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "s seen as a boost to their competitiveness and a sign of the sport's growth in Scotland.",
+        "summary_start": 542,
+        "summary_end": 630
       }
     ],
     "meta_model": "cohere/command-r-08-2024",
@@ -920,6 +584,1072 @@
     "meta_gpt-4-turbo": 1,
     "meta_gpt-4o": 1,
     "meta_sample_id": 406
+  },
+  {
+    "sample_id": 2,
+    "source": "The \"black box\" of the Su-24 jet was officially opened in Moscow on Friday in front of journalists and diplomats. Nikolai Primak, head of the Russian investigation, said flight information appeared to be missing. Data from the box could help resolve the dispute over the jet's location when it was hit. An analysis is expected to be released next week. The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response. Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. Russia says it was shot down within Syrian airspace and President Vladimir Putin vented his anger at Turkey's government again on Thursday, accusing it of subservience to the US and of \"creeping Islamisation\". What we know about how the Su-24 was downedHow Russia's sanctions could hit TurkeyThe war of words as it eruptedThe two countries are heavily involved in Syria but take radically different positions despite both being ostensibly opposed to the Islamic State (IS) militant group. The Su-24 was shot down by F-16 fighters on 24 November. Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued. A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground. Russia has demanded an apology from Turkey and in the meantime has imposed sanctions including a ban on package holidays, which could cost Turkey billions of dollars.",
+    "summary": "Here is a concise summary of the passage:\n\nThe \"black box\" of the downed Su-24 jet was opened in Moscow, with initial findings suggesting missing flight information. The data analysis is expected next week and may help resolve the dispute over the jet's location when it was hit. The incident has strained relations between Russia and Turkey, with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace. Russia maintains the jet was shot down in Syrian airspace. The incident occurred on November 24, resulting in the death of the pilot and a Russian marine, and has led to a war of words between the two countries.",
+    "annotations": [
+      {
+        "annot_id": 9,
+        "sample_id": 2,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The incident is not a direct cause for the death of pilot and the marine. Pilots were killed by ground forces.",
+        "annotator_name": "rogger",
+        "summary_span": "resulting in the death of the pilot and a Russian marine",
+        "summary_start": 554,
+        "summary_end": 610
+      },
+      {
+        "annot_id": 18,
+        "sample_id": 2,
+        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "resulting in the death of the pilot and a Russian marine",
+        "summary_start": 554,
+        "summary_end": 610,
+        "source_span": "A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground.",
+        "source_start": 1306,
+        "source_end": 1404
+      },
+      {
+        "annot_id": 33,
+        "sample_id": 2,
+        "annotator": "a6b68addc8cf49f6aaa94510a4b4bff9",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "imposing sanctions in response to the downing of the jet",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "The incident has strained relations between Russia and Turkey, with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace.",
+        "summary_start": 280,
+        "summary_end": 456,
+        "source_span": "The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response.",
+        "source_start": 353,
+        "source_end": 476
+      },
+      {
+        "annot_id": 48,
+        "sample_id": 2,
+        "annotator": "acb12563bd6541918a45dbcebd1161fe",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The way this is written suggests that the sanctions were imposed due to Turkey's claim that the jet ignored warnings to leave its airspace. What is elided in this summary, is that the ignored warnings led to the jet being shot down, and that is the reason for the sanctions.\n\nWhile this may be considered \"literary license\" by some, to me it renders the statement inaccurate.",
+        "annotator_name": "Amin Ahmad",
+        "summary_span": "Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace",
+        "summary_start": 348,
+        "summary_end": 455
+      },
+      {
+        "annot_id": 49,
+        "sample_id": 2,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The summary is inconsistent with the fact from source",
+        "annotator_name": "Weisi",
+        "summary_span": "with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace.",
+        "summary_start": 343,
+        "summary_end": 456,
+        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace.",
+        "source_start": 477,
+        "source_end": 636
+      },
+      {
+        "annot_id": 66,
+        "sample_id": 2,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "the source does not mention that the sanctions are response to the Turkey's claim",
+        "annotator_name": "Miaoran",
+        "summary_span": "with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace.",
+        "summary_start": 343,
+        "summary_end": 456,
+        "source_span": " The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response. Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. ",
+        "source_start": 352,
+        "source_end": 637
+      },
+      {
+        "annot_id": 89,
+        "sample_id": 2,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source says \"the analysis is expected to be release next week\" while the summary says \"data analysis is expected next week\". In the summary, it is unclear whether or when the analysis results will be released. ",
+        "annotator_name": "forrest",
+        "summary_span": "The data analysis is expected next week",
+        "summary_start": 166,
+        "summary_end": 205,
+        "source_span": "An analysis is expected to be released next week.",
+        "source_start": 303,
+        "source_end": 352
+      },
+      {
+        "annot_id": 126,
+        "sample_id": 2,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The death of pilot is not caused by incident.",
+        "annotator_name": "Weisi",
+        "summary_span": "resulting in the death of the pilot and a Russian marine, and has led to a war of words between the two countries.",
+        "summary_start": 554,
+        "summary_end": 668
+      },
+      {
+        "annot_id": 149,
+        "sample_id": 2,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "the source does not mention the causal relation",
+        "annotator_name": "Miaoran",
+        "summary_span": " The incident occurred on November 24, resulting in the death of the pilot and a Russian marine",
+        "summary_start": 515,
+        "summary_end": 610,
+        "source_span": "A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground.",
+        "source_start": 1306,
+        "source_end": 1404
+      },
+      {
+        "annot_id": 168,
+        "sample_id": 2,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source: Russia impose sanctions in response to the downing of the jet\nSummary: Russia impose sanctions in response to Turkey's claim that xxx",
+        "annotator_name": "forrest",
+        "summary_span": "Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace",
+        "summary_start": 348,
+        "summary_end": 455,
+        "source_span": "The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response.",
+        "source_start": 353,
+        "source_end": 476
+      },
+      {
+        "annot_id": 172,
+        "sample_id": 2,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source never says it was directly in response",
+        "annotator_name": "Manveer",
+        "summary_span": " in response to ",
+        "summary_start": 373,
+        "summary_end": 389
+      },
+      {
+        "annot_id": 173,
+        "sample_id": 2,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "the incident didn't directly result in the death of the marine",
+        "annotator_name": "Manveer",
+        "summary_span": "nd a Russian marine",
+        "summary_start": 591,
+        "summary_end": 610
+      }
+    ],
+    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta_hhemv1": 0.97473,
+    "meta_hhem-2.1": 0.91686,
+    "meta_hhem-2.1-english": 0.97573,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 750
+  },
+  {
+    "sample_id": 3,
+    "source": "He was seriously injured in a bomb attack in Afghanistan in 2006. Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook. But the site limits friend associations to 5,000 per personal page and he cannot accept all the requests. Flanked by hundreds of people, he walked for nearly half an hour with the Olympic torch with an assistant who supported his arm. L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \". L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend. A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
+    "summary": "Ben Parkinson, a former soldier, suffered a severe brain injury in Afghanistan in 2006, which affected his speech. Despite this, he has shown incredible determination and perseverance, regaining his speech and maintaining his personality and sense of humour. Ben's Olympic torch-carrying moment gained significant attention on Facebook, with thousands of friend requests, but he reached the platform's limit. His story and positive attitude have inspired many, leading to an outpouring of support and messages. Ben's family has been overwhelmed by the response, and he continues to raise funds for military charities, showcasing his resilience and dedication.",
+    "annotations": [
+      {
+        "annot_id": 10,
+        "sample_id": 3,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "Not explicitly mentioned ",
+        "annotator_name": "rogger",
+        "summary_span": "soldier",
+        "summary_start": 24,
+        "summary_end": 31
+      },
+      {
+        "annot_id": 20,
+        "sample_id": 3,
+        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "suffered a severe brain injury in Afghanistan in 2006",
+        "summary_start": 33,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 34,
+        "sample_id": 3,
+        "annotator": "a6b68addc8cf49f6aaa94510a4b4bff9",
+        "label": [
+          "Benign"
+        ],
+        "note": "no information about a former soldier",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Ben Parkinson, a former soldier, suffered a severe brain injury in Afghanistan in 2006, which affected his speech.",
+        "summary_start": 0,
+        "summary_end": 114,
+        "source_span": "L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided.",
+        "source_start": 413,
+        "source_end": 560
+      },
+      {
+        "annot_id": 52,
+        "sample_id": 3,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source doesn't mention this part even this can be reasoned from source",
+        "annotator_name": "Weisi",
+        "summary_span": "showcasing his resilience and dedication",
+        "summary_start": 618,
+        "summary_end": 658
+      },
+      {
+        "annot_id": 85,
+        "sample_id": 3,
+        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "he reached the platform's limit.",
+        "summary_start": 376,
+        "summary_end": 408,
+        "source_span": "Facebook won't let him have more than that number. ",
+        "source_start": 1174,
+        "source_end": 1225
+      },
+      {
+        "annot_id": 99,
+        "sample_id": 3,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Benign"
+        ],
+        "note": "The source does not say that Ben Parkinson inspired people. But this sounds reasonable by common sense. ",
+        "annotator_name": "forrest",
+        "summary_span": " His story and positive attitude have inspired many",
+        "summary_start": 408,
+        "summary_end": 459
+      },
+      {
+        "annot_id": 115,
+        "sample_id": 3,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "seriously injured vs severe brain injury, from the text (arm support, walking with crutches, etc) it seems like the injuries were not limited to the brain.",
+        "annotator_name": "Sahel",
+        "summary_span": "suffered a severe brain injury",
+        "summary_start": 33,
+        "summary_end": 63
+      },
+      {
+        "annot_id": 128,
+        "sample_id": 3,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Not mentioned as a former soldier in source.",
+        "annotator_name": "Weisi",
+        "summary_span": "a former soldier",
+        "summary_start": 15,
+        "summary_end": 31
+      },
+      {
+        "annot_id": 145,
+        "sample_id": 3,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not explicitly mention that Ben was a soldier",
+        "annotator_name": "Miaoran",
+        "summary_span": "a former soldier,",
+        "summary_start": 15,
+        "summary_end": 32,
+        "source_span": "He was seriously injured in a bomb attack in Afghanistan in 2006.",
+        "source_start": 0,
+        "source_end": 65
+      },
+      {
+        "annot_id": 146,
+        "sample_id": 3,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Benign"
+        ],
+        "note": "\"leading to\" is not explicitly mentioned, but it can be inferred.",
+        "annotator_name": "Miaoran",
+        "summary_span": "His story and positive attitude have inspired many, leading to an outpouring of support and messages.",
+        "summary_start": 409,
+        "summary_end": 510
+      },
+      {
+        "annot_id": 147,
+        "sample_id": 3,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Benign"
+        ],
+        "note": "This is not mentioned but can be reasoned from the source",
+        "annotator_name": "Miaoran",
+        "summary_span": "showcasing his resilience and dedication.",
+        "summary_start": 618,
+        "summary_end": 659
+      },
+      {
+        "annot_id": 169,
+        "sample_id": 3,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Benign"
+        ],
+        "note": "A title \"L/Bdr\" hints he may be a soldier. But for people who are not familiar with that, such implying may not be clear ",
+        "annotator_name": "forrest",
+        "summary_span": "a former soldier",
+        "summary_start": 15,
+        "summary_end": 31
+      },
+      {
+        "annot_id": 197,
+        "sample_id": 3,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Questionable",
+          "Benign"
+        ],
+        "note": "The passage says that Ben has lost his speech. He might have regained it but the source does not explicitly state so.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": " regaining his speech",
+        "summary_start": 184,
+        "summary_end": 205
+      }
+    ],
+    "meta_model": "cohere/command-r-08-2024",
+    "meta_hhemv1": 0.46471,
+    "meta_hhem-2.1": 0.71239,
+    "meta_hhem-2.1-english": 0.89332,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 391
+  },
+  {
+    "sample_id": 4,
+    "source": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal . \nthe omura 's whale was discovered on a remote exmouth beach , at the tip of the state 's north west cape , after tropical cyclone olwyn tore through the area last month . \nit is the first sighting of the species in wa and only the second in australia . \nidentifying the 5.68 m juvenile female was at first difficult for department of parks and wildlife staff , who eventually confirmed it was an omura 's whale with dna profiling . \nan omura 's whale was discovered on a remote exmouth beach in wa ( pictured ) . \nit left authorities confused as they struggled to identify the rare species\nenvironment minister albert jacob said the find was ` highly significant ' for whale scientists because very little was known about the species . \n` omura 's whale was only described in scientific journals for the first time in 2003 and is apparently restricted to tropical and subtropical waters , ' he said . \n` the knowledge we gain from this whale will help to improve field identification guides to better understand the whale 's regional distribution . ' \nthe species is usually found in indonesian waters , the philippines and the sea of japan . \nomura 's whales have a sleek body shape and several unique skeletal features , including 53 vertebrae and four digits on each pectoral fin . \nthe carcass has been buried and the skeleton will be recovered in a few years for further scientific investigation and possibly for public display in museums . \nthe omura 's is usually found in indonesian waters , the philippines and the sea of japan\nthe whale has a sleek body shape and several unique skeletal features , including 60 vertebrae",
+    "summary": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia, was discovered washed up on a remote Exmouth beach after a tropical cyclone. This is the first sighting of the species in Western Australia and only the second in Australia. The whale's identification was confirmed through DNA profiling. The discovery is considered highly significant for whale scientists due to the limited knowledge about this species, which was only described scientifically in 2003. The carcass has been buried, and the skeleton will be recovered later for further scientific study and potential museum display. Omura's whales are typically found in Indonesian waters, the Philippines, and the Sea of Japan, and are characterized by their sleek body shape and unique skeletal features, such as 53 vertebrae and four digits on each pectoral fin.",
+    "annotations": [
+      {
+        "annot_id": 4,
+        "sample_id": 4,
+        "annotator": "aa4665a09e3040cc92f79c7d32b14d50",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "This whale species was indeed \"feared to be extinct\", but not \"feared to be extinct in Western Australia\". The source text implies that this species was thought to be extinct in the entire world, but the summary text implies that this species might have existed elsewhere in the world.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 11,
+        "sample_id": 4,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "extinct in WA or Extinct world wise?\n",
+        "annotator_name": "rogger",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 21,
+        "sample_id": 4,
+        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
+        "label": [
+          "Unwanted"
+        ],
+        "note": "There is also a statement that states 53 vertebrate",
+        "annotator_name": "Vivek",
+        "summary_span": "53 vertebrae and four digits on each pectoral fin.",
+        "summary_start": 803,
+        "summary_end": 853
+      },
+      {
+        "annot_id": 50,
+        "sample_id": 4,
+        "annotator": "acb12563bd6541918a45dbcebd1161fe",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The whale was not thought to be extinct in Western Australia, but rather the whale was thought to be extinct but then was found washed up on a beach in Western Australia. Big difference.",
+        "annotator_name": "Amin Ahmad",
+        "summary_span": "thought to be extinct in Western Australia",
+        "summary_start": 44,
+        "summary_end": 86,
+        "source_span": "a species of whale that was feared to be extinct has been found washed up on a west australian beach , giving scientists an opportunity to learn more about the mammal",
+        "source_start": 0,
+        "source_end": 166
+      },
+      {
+        "annot_id": 71,
+        "sample_id": 4,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Questionable"
+        ],
+        "note": "previously mentioned 53 vertebrae",
+        "annotator_name": "Miaoran",
+        "summary_span": "53 vertebrae",
+        "summary_start": 803,
+        "summary_end": 815,
+        "source_span": "including 60 vertebrae",
+        "source_start": 1779,
+        "source_end": 1801
+      },
+      {
+        "annot_id": 87,
+        "sample_id": 4,
+        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"feared\" != \"thought\"",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86,
+        "source_span": "feared to be extinct has been found washed up on a west australian beach",
+        "source_start": 28,
+        "source_end": 100
+      },
+      {
+        "annot_id": 100,
+        "sample_id": 4,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "1. the species was \"feared to be extinct\" not \"thought to be extinct\". \n2. The whale's endangered status is not limited to \"Western Australia.\" The whale was washed up in west Australia. ",
+        "annotator_name": "forrest",
+        "summary_span": "A juvenile female Omura's whale, previously thought to be extinct in Western Australia,",
+        "summary_start": 0,
+        "summary_end": 87
+      },
+      {
+        "annot_id": 116,
+        "sample_id": 4,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The source text both mentions 53 and 60 vertebrae for omura's whales, it is not clear which one is correct.",
+        "annotator_name": "Sahel",
+        "summary_span": "53 vertebrae ",
+        "summary_start": 803,
+        "summary_end": 816
+      },
+      {
+        "annot_id": 130,
+        "sample_id": 4,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Extinct in Western Australia? The source doesn't explicitly mention it.",
+        "annotator_name": "Weisi",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86
+      },
+      {
+        "annot_id": 134,
+        "sample_id": 4,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "The source does not mention that the Omura's whale was extinct \"in Western Australia\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "previously thought to be extinct in Western Australia",
+        "summary_start": 33,
+        "summary_end": 86,
+        "source_span": "a species of whale that was feared to be extinct",
+        "source_start": 0,
+        "source_end": 48
+      },
+      {
+        "annot_id": 174,
+        "sample_id": 4,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says feared to be extinct, might not imply thought to be extinct",
+        "annotator_name": "Manveer",
+        "summary_span": "previously thought to be extinct",
+        "summary_start": 33,
+        "summary_end": 65
+      },
+      {
+        "annot_id": 175,
+        "sample_id": 4,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "the tropical cyclone might not have caused this, but the summary seems to imply this",
+        "annotator_name": "Manveer",
+        "summary_span": " after a tropical cyclone",
+        "summary_start": 138,
+        "summary_end": 163
+      },
+      {
+        "annot_id": 176,
+        "sample_id": 4,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the source says first sighting in wa. wa is probably western australia",
+        "annotator_name": "Manveer",
+        "summary_span": "This is the first sighting of the species in Western Australia ",
+        "summary_start": 165,
+        "summary_end": 228
+      },
+      {
+        "annot_id": 177,
+        "sample_id": 4,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "source says only described for the first time in 2003. It might have been described later. ",
+        "annotator_name": "Manveer",
+        "summary_span": "which was only described scientifically in 2003",
+        "summary_start": 443,
+        "summary_end": 490
+      },
+      {
+        "annot_id": 198,
+        "sample_id": 4,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Benign"
+        ],
+        "note": "WA probably means Western Australia but it was not in the passage",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "Western Australi",
+        "summary_start": 210,
+        "summary_end": 226
+      },
+      {
+        "annot_id": 199,
+        "sample_id": 4,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The passage has conflicting arguments on this. one sentence states there are 53 vertebrae and one states there are 60.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "53 vertebrae and four digits on each pectoral fin.",
+        "summary_start": 803,
+        "summary_end": 853
+      }
+    ],
+    "meta_model": "Qwen/Qwen2.5-7B-Instruct",
+    "meta_hhemv1": 0.9973,
+    "meta_hhem-2.1": 0.92952,
+    "meta_hhem-2.1-english": 0.96633,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 0,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 551
+  },
+  {
+    "sample_id": 5,
+    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
+    "summary": "Here's a concise summary of the passage:\n\nDuring the inaugural IndyCar Grand Prix of Louisiana on Sunday, a pit crew member named Todd Phillips was injured. Phillips, a front-outside tire changer for Dale Coyne Racing, was hit by Francesco Dracone's car as it spun while exiting the pit box on lap 25. Phillips received stitches for a leg injury at the infield care center and was released. The incident occurred amid challenging track conditions due to pre-race rainfall, which caused traction issues for many drivers. Dracone did not finish the race, placing 23rd.",
+    "annotations": [
+      {
+        "annot_id": 22,
+        "sample_id": 5,
+        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall",
+        "summary_start": 391,
+        "summary_end": 471
+      },
+      {
+        "annot_id": 35,
+        "sample_id": 5,
+        "annotator": "a6b68addc8cf49f6aaa94510a4b4bff9",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the put box but not pit box",
+        "annotator_name": "Yujia Tang",
+        "summary_span": "Phillips, a front-outside tire changer for Dale Coyne Racing, was hit by Francesco Dracone's car as it spun while exiting the pit box on lap 25.",
+        "summary_start": 157,
+        "summary_end": 301,
+        "source_span": "todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg .",
+        "source_start": 101,
+        "source_end": 351
+      },
+      {
+        "annot_id": 131,
+        "sample_id": 5,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall,",
+        "summary_start": 391,
+        "summary_end": 472,
+        "source_span": "\nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag .",
+        "source_start": 683,
+        "source_end": 796
+      },
+      {
+        "annot_id": 135,
+        "sample_id": 5,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Benign"
+        ],
+        "note": "source does not explicitly state the causal relation \"due to, \"but it can be inferred.",
+        "annotator_name": "Miaoran",
+        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall, which caused traction issues for many drivers. ",
+        "summary_start": 391,
+        "summary_end": 520,
+        "source_span": "\nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag .",
+        "source_start": 683,
+        "source_end": 796
+      },
+      {
+        "annot_id": 178,
+        "sample_id": 5,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "dale should by dayle.",
+        "annotator_name": "Manveer",
+        "summary_span": "Dale",
+        "summary_start": 200,
+        "summary_end": 204
+      },
+      {
+        "annot_id": 179,
+        "sample_id": 5,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "source says put box, not pit",
+        "annotator_name": "Manveer",
+        "summary_span": "pit",
+        "summary_start": 283,
+        "summary_end": 286
+      },
+      {
+        "annot_id": 180,
+        "sample_id": 5,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "the article says issues for many cars, not drivers",
+        "annotator_name": "Manveer",
+        "summary_span": " issues for many drivers",
+        "summary_start": 494,
+        "summary_end": 518
+      },
+      {
+        "annot_id": 200,
+        "sample_id": 5,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Unwanted",
+          "Unwanted.Extrinsic"
+        ],
+        "note": "I think we can do without this. Unsure of how to feel about this.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "Here's a concise summary of the passage:",
+        "summary_start": 0,
+        "summary_end": 40
+      }
+    ],
+    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
+    "meta_hhemv1": 0.02931,
+    "meta_hhem-2.1": 0.84015,
+    "meta_hhem-2.1-english": 0.93123,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 309
+  },
+  {
+    "sample_id": 6,
+    "source": "hong kong ( cnn ) six people were hurt after an explosion at a controversial chemical plant in china 's southeastern fujian province sparked a huge fire , provincial authorities told state media . \nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics . \nthe blast occurred at an oil storage facility monday night after an oil leak , though local media has not reported any toxic chemical spill . \nfive out of six people were injured by broken glass and have been sent to the hospital for treatment , xinhua news agency reported . \nmore than 600 firefighters were sent to battle the blaze and the fire is now under control , the zhangzhou fire department wrote on their official microblogging account tuesday morning . \nresidents living close to the plant had heard the explosion and took to weibo to post photos of the fire . \none user wrote that he heard a loud blast and felt slight tremors . \nthe plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time . \nthough demonstrations are illegal in china , the construction of px plants has sparked protests , which have occasionally turned violent , in several cities in recent years . \nthe zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
+    "summary": "An explosion at a chemical plant in Zhangzhou, Fujian province, China, injured six people and caused a large fire. The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production. The blast occurred at an oil storage facility due to an oil leak, but no toxic chemical spill was reported. Five of the injured were hurt by broken glass and hospitalized. Over 600 firefighters controlled the blaze. The plant had a previous explosion in 2013 without casualties or toxic leaks. The construction of PX plants has led to protests in China, and this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
+    "annotations": [
+      {
+        "annot_id": 5,
+        "sample_id": 6,
+        "annotator": "aa4665a09e3040cc92f79c7d32b14d50",
+        "label": [
+          "Questionable"
+        ],
+        "note": "I think it's better to include the word \"reportedly\" here from the source text. The source text used the word \"reportedly\" to add a layer of uncertainty, whereas the summary text got rid of this word, indicating certainty.",
+        "annotator_name": "Renyi Qu",
+        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production.",
+        "summary_start": 115,
+        "summary_end": 204
+      },
+      {
+        "annot_id": 13,
+        "sample_id": 6,
+        "annotator": "512de1f92f454053822942128d642ab5",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "Omit some information, changed meaning a bit.",
+        "annotator_name": "rogger",
+        "summary_span": "relocated from Xiamen to a more remote",
+        "summary_start": 578,
+        "summary_end": 616,
+        "source_span": "the zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
+        "source_start": 1306,
+        "source_end": 1582
+      },
+      {
+        "annot_id": 24,
+        "sample_id": 6,
+        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
+        "label": [
+          "Benign"
+        ],
+        "note": "",
+        "annotator_name": "Vivek",
+        "summary_span": "this plant was relocated from Xiamen to a more remote area due to pollution concerns",
+        "summary_start": 563,
+        "summary_end": 647
+      },
+      {
+        "annot_id": 51,
+        "sample_id": 6,
+        "annotator": "acb12563bd6541918a45dbcebd1161fe",
+        "label": [
+          "Questionable"
+        ],
+        "note": "The summary makes it sound like the plant was originally in Xiamen, and was then relocated. In reality, it was originally slated for construction in Xiamen and was then relocated to Zhangzhou.",
+        "annotator_name": "Amin Ahmad",
+        "summary_span": "this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
+        "summary_start": 563,
+        "summary_end": 648,
+        "source_span": "\nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
+        "source_start": 1410,
+        "source_end": 1582
+      },
+      {
+        "annot_id": 91,
+        "sample_id": 6,
+        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
+        "label": [
+          "Benign"
+        ],
+        "note": "polyester production >= polyester films and fabrics",
+        "annotator_name": "Chenyu Xu",
+        "summary_span": "polyester production",
+        "summary_start": 183,
+        "summary_end": 203,
+        "source_span": "polyester films and fabrics",
+        "source_start": 328,
+        "source_end": 355
+      },
+      {
+        "annot_id": 101,
+        "sample_id": 6,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "over-generalization",
+        "annotator_name": "forrest",
+        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production.",
+        "summary_start": 115,
+        "summary_end": 204,
+        "source_span": "\nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics .",
+        "source_start": 197,
+        "source_end": 357
+      },
+      {
+        "annot_id": 117,
+        "sample_id": 6,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source states production of polyester films and fabrics vs the polyester production.",
+        "annotator_name": "Sahel",
+        "summary_span": "in polyester production",
+        "summary_start": 180,
+        "summary_end": 203
+      },
+      {
+        "annot_id": 118,
+        "sample_id": 6,
+        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source says the injured were sent to the hospital for treatment, this doesn't necessarily imply hospitalization.",
+        "annotator_name": "Sahel",
+        "summary_span": "hospitalized",
+        "summary_start": 363,
+        "summary_end": 375
+      },
+      {
+        "annot_id": 132,
+        "sample_id": 6,
+        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "",
+        "annotator_name": "Weisi",
+        "summary_span": "and this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
+        "summary_start": 559,
+        "summary_end": 648
+      },
+      {
+        "annot_id": 137,
+        "sample_id": 6,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions that PX is used for the production of \"polyester films and fabrics\", but the summary generalizes it to \"polyester production\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "The plant produces paraxylene (PX), a carcinogenic chemical used in polyester production. ",
+        "summary_start": 115,
+        "summary_end": 205,
+        "source_span": "\nthe plant , located in zhangzhou city , produces paraxylene ( px ) , a reportedly carcinogenic chemical used in the production of polyester films and fabrics .",
+        "source_start": 197,
+        "source_end": 357
+      },
+      {
+        "annot_id": 138,
+        "sample_id": 6,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"no reports of casualities or toxic leaks\" does not mean \"no casualities or toxic leaks\"",
+        "annotator_name": "Miaoran",
+        "summary_span": "The plant had a previous explosion in 2013 without casualties or toxic leaks.",
+        "summary_start": 421,
+        "summary_end": 498,
+        "source_span": "\nthe plant was hit by another explosion in july 2013 , although there were no reports of casualties or toxic leaks at the time .",
+        "source_start": 1000,
+        "source_end": 1128
+      },
+      {
+        "annot_id": 144,
+        "sample_id": 6,
+        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "The source mentions the plant was \"slated for Xiamen\" and \"relocated to Zhangzhou\", but does not mention that the plant was in Xiamen previously\t",
+        "annotator_name": "Miaoran",
+        "summary_span": "this plant was relocated from Xiamen to a more remote area due to pollution concerns.",
+        "summary_start": 563,
+        "summary_end": 648,
+        "source_span": "the zhangzhou plant was slated for xiamen -- a densely populated city in the southeast of the country . \nhowever , it provoked an angry backlash in 2007 due to pollution concerns and prompted the local government to relocate the factory to its current , more remote location .",
+        "source_start": 1306,
+        "source_end": 1582
+      },
+      {
+        "annot_id": 162,
+        "sample_id": 6,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"relocated from xiamen\" in the summary implies the plant was built in xiamen but \"slated for Xiamen\" in the summary implies that the plant was never built in Xiamen but planned for. ",
+        "annotator_name": "forrest",
+        "summary_span": " this plant was relocated from Xiamen ",
+        "summary_start": 562,
+        "summary_end": 600,
+        "source_span": "the zhangzhou plant was slated for xiamen ",
+        "source_start": 1306,
+        "source_end": 1348
+      },
+      {
+        "annot_id": 163,
+        "sample_id": 6,
+        "annotator": "b81826fd26f346188891ba1c3979adcf",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "\"no reports\" and \"at the time\" are missing in the summary. ",
+        "annotator_name": "forrest",
+        "summary_span": " without casualties or toxic leaks",
+        "summary_start": 463,
+        "summary_end": 497,
+        "source_span": "there were no reports of casualties or toxic leaks at the time . ",
+        "source_start": 1064,
+        "source_end": 1129
+      },
+      {
+        "annot_id": 181,
+        "sample_id": 6,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "is this equivalent to product of polyester films and fabrics?",
+        "annotator_name": "Manveer",
+        "summary_span": "used in polyester production",
+        "summary_start": 175,
+        "summary_end": 203
+      },
+      {
+        "annot_id": 182,
+        "sample_id": 6,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "the article says after an oil leak, not due to it",
+        "annotator_name": "Manveer",
+        "summary_span": " due to an oil leak",
+        "summary_start": 250,
+        "summary_end": 269
+      },
+      {
+        "annot_id": 183,
+        "sample_id": 6,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source says the plant was relocated prompted by the protests",
+        "annotator_name": "Manveer",
+        "summary_span": "nd this plant was relocated from Xiamen to a more remote area due to pollution concerns",
+        "summary_start": 560,
+        "summary_end": 647
+      },
+      {
+        "annot_id": 201,
+        "sample_id": 6,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Benign",
+          "Questionable"
+        ],
+        "note": "we do not know if it used in general polyester production or just in polyester films and fabrics as mentioned by the passage.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "a carcinogenic chemical used in polyester production",
+        "summary_start": 151,
+        "summary_end": 203
+      }
+    ],
+    "meta_model": "openai/gpt-4o",
+    "meta_hhemv1": 0.39773,
+    "meta_hhem-2.1": 0.96093,
+    "meta_hhem-2.1-english": 0.98348,
+    "meta_trueteacher": 1,
+    "meta_true_nli": 1,
+    "meta_gpt-3.5-turbo": 1,
+    "meta_gpt-4-turbo": 1,
+    "meta_gpt-4o": 1,
+    "meta_sample_id": 1123
   },
   {
     "sample_id": 7,
@@ -1119,6 +1849,76 @@
         "source_span": "\nthe advertising standards authority has also received more than 200 complaints from people saying that the adverts promote an unhealthy body image .",
         "source_start": 832,
         "source_end": 981
+      },
+      {
+        "annot_id": 184,
+        "sample_id": 7,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "should be The not he",
+        "annotator_name": "Manveer",
+        "summary_span": "he passage ",
+        "summary_start": 0,
+        "summary_end": 11,
+        "source_span": "\none of the many protein world posters on the london underground that have been defaced\nseveral of the images have also been defaced by bloggers , angry at the perceived insinuation that only women who look like renee are ready to go to the beach .",
+        "source_start": 583,
+        "source_end": 831
+      },
+      {
+        "annot_id": 185,
+        "sample_id": 7,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Should social media users be kept seperate from the first two groups? The article says feminists and body image campaigners",
+        "annotator_name": "Manveer",
+        "summary_span": "feminists, body image campaigners, and social media users",
+        "summary_start": 265,
+        "summary_end": 322
+      },
+      {
+        "annot_id": 186,
+        "sample_id": 7,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "this is from a tweet from one user, not the message of a group of people",
+        "annotator_name": "Manveer",
+        "summary_span": "who find the campaign offensive, unrealistic, and sexist",
+        "summary_start": 323,
+        "summary_end": 379
+      },
+      {
+        "annot_id": 187,
+        "sample_id": 7,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "cut off at end",
+        "annotator_name": "Manveer",
+        "summary_span": "who described the campaign as \"anxiety-inducing\" during",
+        "summary_start": 1076,
+        "summary_end": 1131
+      },
+      {
+        "annot_id": 202,
+        "sample_id": 7,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Questionable"
+        ],
+        "note": "Unsure what to mark it as since the sentences is not complete here.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "he controversy has also attracted the attention of TV personalities such as Susanna Reid, who described the campaign as \"anxiety-inducing\" during",
+        "summary_start": 986,
+        "summary_end": 1131
       }
     ],
     "meta_model": "mistralai/Mistral-7B-Instruct-v0.3",
@@ -1416,6 +2216,87 @@
         "source_span": "christian haug ",
         "source_start": 1003,
         "source_end": 1018
+      },
+      {
+        "annot_id": 188,
+        "sample_id": 8,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "the source doesn't say this. ",
+        "annotator_name": "Manveer",
+        "summary_span": "Manchester Youth Cup Final ",
+        "summary_start": 17,
+        "summary_end": 44
+      },
+      {
+        "annot_id": 189,
+        "sample_id": 8,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Questionable"
+        ],
+        "note": "not sure if this is true? The source says gloss on the scoreline",
+        "annotator_name": "Manveer",
+        "summary_span": " scored a late goal to level the game",
+        "summary_start": 152,
+        "summary_end": 189
+      },
+      {
+        "annot_id": 190,
+        "sample_id": 8,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Benign"
+        ],
+        "note": "the source doesn't say he's the captain",
+        "annotator_name": "Manveer",
+        "summary_span": "Manchester City's captain, Kjetil Haug",
+        "summary_start": 191,
+        "summary_end": 229
+      },
+      {
+        "annot_id": 191,
+        "sample_id": 8,
+        "annotator": "2485ac86992844ac889e004ed0fa6e7e",
+        "label": [
+          "Unwanted",
+          "Unwanted.Instrinsic"
+        ],
+        "note": "source spells it as haug not haag",
+        "annotator_name": "Manveer",
+        "summary_span": "Haag",
+        "summary_start": 296,
+        "summary_end": 300
+      },
+      {
+        "annot_id": 203,
+        "sample_id": 8,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Questionable"
+        ],
+        "note": "This is incorrect. The game was never \"leveled\" due to this goal which means the two teams had an equal score. ",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": "while Dominic Solanke scored a late goal to level the game.",
+        "summary_start": 131,
+        "summary_end": 190
+      },
+      {
+        "annot_id": 204,
+        "sample_id": 8,
+        "annotator": "a2ceec6763ce4984aa40aa8ddb4c5bac",
+        "label": [
+          "Benign",
+          "Questionable"
+        ],
+        "note": "It is not clearly implied they are machester city players but can be inferred because the article seems to talk about mostly Manchester City's players.",
+        "annotator_name": "Vedant Jhaveri",
+        "summary_span": " Manchester City's captain, Kjetil Haug, and other players like Pablo Maffeo, Tosin Adarabioyo, Christian Haag, Kean Bryan, Aaron Nemane, Manu Garcia, Brandon Barker, Bradley Collins, Fikayo Tomori, Isaac Buckley-Ricketts, Ola Aina, Jake Clarke-Salter, Jay Dasilva, Ruben Sammut, and Charlie Colkett also contributed to the match.",
+        "summary_start": 190,
+        "summary_end": 520
       }
     ],
     "meta_model": "microsoft/Phi-3-mini-4k-instruct",
@@ -1428,445 +2309,6 @@
     "meta_gpt-4-turbo": 0,
     "meta_gpt-4o": 0,
     "meta_sample_id": 223
-  },
-  {
-    "sample_id": 2,
-    "source": "The \"black box\" of the Su-24 jet was officially opened in Moscow on Friday in front of journalists and diplomats. Nikolai Primak, head of the Russian investigation, said flight information appeared to be missing. Data from the box could help resolve the dispute over the jet's location when it was hit. An analysis is expected to be released next week. The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response. Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. Russia says it was shot down within Syrian airspace and President Vladimir Putin vented his anger at Turkey's government again on Thursday, accusing it of subservience to the US and of \"creeping Islamisation\". What we know about how the Su-24 was downedHow Russia's sanctions could hit TurkeyThe war of words as it eruptedThe two countries are heavily involved in Syria but take radically different positions despite both being ostensibly opposed to the Islamic State (IS) militant group. The Su-24 was shot down by F-16 fighters on 24 November. Both crew members ejected but the pilot was killed, apparently by militants on the ground while the navigator was rescued. A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground. Russia has demanded an apology from Turkey and in the meantime has imposed sanctions including a ban on package holidays, which could cost Turkey billions of dollars.",
-    "summary": "Here is a concise summary of the passage:\n\nThe \"black box\" of the downed Su-24 jet was opened in Moscow, with initial findings suggesting missing flight information. The data analysis is expected next week and may help resolve the dispute over the jet's location when it was hit. The incident has strained relations between Russia and Turkey, with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace. Russia maintains the jet was shot down in Syrian airspace. The incident occurred on November 24, resulting in the death of the pilot and a Russian marine, and has led to a war of words between the two countries.",
-    "annotations": [
-      {
-        "annot_id": 9,
-        "sample_id": 2,
-        "annotator": "512de1f92f454053822942128d642ab5",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The incident is not a direct cause for the death of pilot and the marine. Pilots were killed by ground forces.",
-        "annotator_name": "rogger",
-        "summary_span": "resulting in the death of the pilot and a Russian marine",
-        "summary_start": 554,
-        "summary_end": 610
-      },
-      {
-        "annot_id": 18,
-        "sample_id": 2,
-        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "",
-        "annotator_name": "Vivek",
-        "summary_span": "resulting in the death of the pilot and a Russian marine",
-        "summary_start": 554,
-        "summary_end": 610,
-        "source_span": "A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground.",
-        "source_start": 1306,
-        "source_end": 1404
-      },
-      {
-        "annot_id": 33,
-        "sample_id": 2,
-        "annotator": "a6b68addc8cf49f6aaa94510a4b4bff9",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "imposing sanctions in response to the downing of the jet",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "The incident has strained relations between Russia and Turkey, with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace.",
-        "summary_start": 280,
-        "summary_end": 456,
-        "source_span": "The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response.",
-        "source_start": 353,
-        "source_end": 476
-      },
-      {
-        "annot_id": 48,
-        "sample_id": 2,
-        "annotator": "acb12563bd6541918a45dbcebd1161fe",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The way this is written suggests that the sanctions were imposed due to Turkey's claim that the jet ignored warnings to leave its airspace. What is elided in this summary, is that the ignored warnings led to the jet being shot down, and that is the reason for the sanctions.\n\nWhile this may be considered \"literary license\" by some, to me it renders the statement inaccurate.",
-        "annotator_name": "Amin Ahmad",
-        "summary_span": "Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace",
-        "summary_start": 348,
-        "summary_end": 455
-      },
-      {
-        "annot_id": 49,
-        "sample_id": 2,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The summary is inconsistent with the fact from source",
-        "annotator_name": "Weisi",
-        "summary_span": "with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace.",
-        "summary_start": 343,
-        "summary_end": 456,
-        "source_span": "Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace.",
-        "source_start": 477,
-        "source_end": 636
-      },
-      {
-        "annot_id": 66,
-        "sample_id": 2,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "the source does not mention that the sanctions are response to the Turkey's claim",
-        "annotator_name": "Miaoran",
-        "summary_span": "with Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace.",
-        "summary_start": 343,
-        "summary_end": 456,
-        "source_span": " The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response. Turkey insists that the jet, from the Russian air contingent deployed in Syria in support of President Bashar al-Assad, ignored warnings to leave its airspace. ",
-        "source_start": 352,
-        "source_end": 637
-      },
-      {
-        "annot_id": 89,
-        "sample_id": 2,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Questionable"
-        ],
-        "note": "The source says \"the analysis is expected to be release next week\" while the summary says \"data analysis is expected next week\". In the summary, it is unclear whether or when the analysis results will be released. ",
-        "annotator_name": "forrest",
-        "summary_span": "The data analysis is expected next week",
-        "summary_start": 166,
-        "summary_end": 205,
-        "source_span": "An analysis is expected to be released next week.",
-        "source_start": 303,
-        "source_end": 352
-      },
-      {
-        "annot_id": 126,
-        "sample_id": 2,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "The death of pilot is not caused by incident.",
-        "annotator_name": "Weisi",
-        "summary_span": "resulting in the death of the pilot and a Russian marine, and has led to a war of words between the two countries.",
-        "summary_start": 554,
-        "summary_end": 668
-      },
-      {
-        "annot_id": 149,
-        "sample_id": 2,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted"
-        ],
-        "note": "the source does not mention the causal relation",
-        "annotator_name": "Miaoran",
-        "summary_span": " The incident occurred on November 24, resulting in the death of the pilot and a Russian marine",
-        "summary_start": 515,
-        "summary_end": 610,
-        "source_span": "A Russian marine sent to rescue the crew was also killed and a helicopter destroyed on the ground.",
-        "source_start": 1306,
-        "source_end": 1404
-      },
-      {
-        "annot_id": 168,
-        "sample_id": 2,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "source: Russia impose sanctions in response to the downing of the jet\nSummary: Russia impose sanctions in response to Turkey's claim that xxx",
-        "annotator_name": "forrest",
-        "summary_span": "Russia imposing sanctions in response to Turkey's claim that the jet ignored warnings to leave its airspace",
-        "summary_start": 348,
-        "summary_end": 455,
-        "source_span": "The downing of the jet plunged relations between Russia and Turkey into crisis, with Moscow imposing sanctions in response.",
-        "source_start": 353,
-        "source_end": 476
-      }
-    ],
-    "meta_model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-    "meta_hhemv1": 0.97473,
-    "meta_hhem-2.1": 0.91686,
-    "meta_hhem-2.1-english": 0.97573,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 750
-  },
-  {
-    "sample_id": 3,
-    "source": "He was seriously injured in a bomb attack in Afghanistan in 2006. Since carrying the torch on 26 June, Doncaster-based L/Bdr Parkinson has had thousands of requests on Facebook. But the site limits friend associations to 5,000 per personal page and he cannot accept all the requests. Flanked by hundreds of people, he walked for nearly half an hour with the Olympic torch with an assistant who supported his arm. L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided. It said: \"Determined to prove everyone wrong, he fought back every step of the way. Ben's intelligence and wit [are] unchanged. Still the same funny and caring Ben.\" He spends 12 hours a day in the gym and rehab and walks with crutches, spending \"the rest of his time spent raising money for many military charities and as patron of his beloved             Pilgrim Bandits \". L/Bdr Parkinson's mother Diane said the responses had \"been phenomenal\" and that Ben was really \"buoyed up\" by the support and friendship he had been shown. She said: \"It's just unbelievable, Ben's had way over 5,000 friend requests but Facebook won't let him have more than that number. \" Thousands of people have joined the Pilgrim Bandits website and the messages of support we've had are great. \" Ben's page has had 19,000 hits just on an update, I don't understand how these things work, but it's phenomenal.\" She said the amount of post the family had received had also increased. She added: \"Some mail has just been addressed to Ben, please Mr Postie. \" E-mail traffic has gone through the roof and Ben's had hundreds of requests to visit places with the [Olympic] torch. \" He's absolutely bouncing and buoyed up and elated.\" Facebook would not comment on the issue but their guidance was that if people were receiving this many requests then they have become a public figure, so should consider having a page instead of a profile. Alternatively, Ben could use subscribe so that people can see his public updates without actually becoming a friend. A total of 8,000 people will carry the flame during its 8,000 mile, 70-day journey to the opening ceremony of the Olympic Games in London on 27 July.",
-    "summary": "Ben Parkinson, a former soldier, suffered a severe brain injury in Afghanistan in 2006, which affected his speech. Despite this, he has shown incredible determination and perseverance, regaining his speech and maintaining his personality and sense of humour. Ben's Olympic torch-carrying moment gained significant attention on Facebook, with thousands of friend requests, but he reached the platform's limit. His story and positive attitude have inspired many, leading to an outpouring of support and messages. Ben's family has been overwhelmed by the response, and he continues to raise funds for military charities, showcasing his resilience and dedication.",
-    "annotations": [
-      {
-        "annot_id": 10,
-        "sample_id": 3,
-        "annotator": "512de1f92f454053822942128d642ab5",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "Not explicitly mentioned ",
-        "annotator_name": "rogger",
-        "summary_span": "soldier",
-        "summary_start": 24,
-        "summary_end": 31
-      },
-      {
-        "annot_id": 20,
-        "sample_id": 3,
-        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Vivek",
-        "summary_span": "suffered a severe brain injury in Afghanistan in 2006",
-        "summary_start": 33,
-        "summary_end": 86
-      },
-      {
-        "annot_id": 34,
-        "sample_id": 3,
-        "annotator": "a6b68addc8cf49f6aaa94510a4b4bff9",
-        "label": [
-          "Benign"
-        ],
-        "note": "no information about a former soldier",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "Ben Parkinson, a former soldier, suffered a severe brain injury in Afghanistan in 2006, which affected his speech.",
-        "summary_start": 0,
-        "summary_end": 114,
-        "source_span": "L/Bdr Parkinson's nomination stated: \"The brain injury took his speech, but not his personality and sense of humour,\" adding he now speaks unaided.",
-        "source_start": 413,
-        "source_end": 560
-      },
-      {
-        "annot_id": 52,
-        "sample_id": 3,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Benign"
-        ],
-        "note": "The source doesn't mention this part even this can be reasoned from source",
-        "annotator_name": "Weisi",
-        "summary_span": "showcasing his resilience and dedication",
-        "summary_start": 618,
-        "summary_end": 658
-      },
-      {
-        "annot_id": 85,
-        "sample_id": 3,
-        "annotator": "3acf750da86c49dca7c7f55d8ebcc439",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Chenyu Xu",
-        "summary_span": "he reached the platform's limit.",
-        "summary_start": 376,
-        "summary_end": 408,
-        "source_span": "Facebook won't let him have more than that number. ",
-        "source_start": 1174,
-        "source_end": 1225
-      },
-      {
-        "annot_id": 99,
-        "sample_id": 3,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Benign"
-        ],
-        "note": "The source does not say that Ben Parkinson inspired people. But this sounds reasonable by common sense. ",
-        "annotator_name": "forrest",
-        "summary_span": " His story and positive attitude have inspired many",
-        "summary_start": 408,
-        "summary_end": 459
-      },
-      {
-        "annot_id": 115,
-        "sample_id": 3,
-        "annotator": "0b7f6e01d221464688a52b64d22e01b3",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "seriously injured vs severe brain injury, from the text (arm support, walking with crutches, etc) it seems like the injuries were not limited to the brain.",
-        "annotator_name": "Sahel",
-        "summary_span": "suffered a severe brain injury",
-        "summary_start": 33,
-        "summary_end": 63
-      },
-      {
-        "annot_id": 128,
-        "sample_id": 3,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "Not mentioned as a former soldier in source.",
-        "annotator_name": "Weisi",
-        "summary_span": "a former soldier",
-        "summary_start": 15,
-        "summary_end": 31
-      },
-      {
-        "annot_id": 145,
-        "sample_id": 3,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Unwanted",
-          "Unwanted.Extrinsic"
-        ],
-        "note": "The source does not explicitly mention that Ben was a soldier",
-        "annotator_name": "Miaoran",
-        "summary_span": "a former soldier,",
-        "summary_start": 15,
-        "summary_end": 32,
-        "source_span": "He was seriously injured in a bomb attack in Afghanistan in 2006.",
-        "source_start": 0,
-        "source_end": 65
-      },
-      {
-        "annot_id": 146,
-        "sample_id": 3,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Benign"
-        ],
-        "note": "\"leading to\" is not explicitly mentioned, but it can be inferred.",
-        "annotator_name": "Miaoran",
-        "summary_span": "His story and positive attitude have inspired many, leading to an outpouring of support and messages.",
-        "summary_start": 409,
-        "summary_end": 510
-      },
-      {
-        "annot_id": 147,
-        "sample_id": 3,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Benign"
-        ],
-        "note": "This is not mentioned but can be reasoned from the source",
-        "annotator_name": "Miaoran",
-        "summary_span": "showcasing his resilience and dedication.",
-        "summary_start": 618,
-        "summary_end": 659
-      },
-      {
-        "annot_id": 169,
-        "sample_id": 3,
-        "annotator": "b81826fd26f346188891ba1c3979adcf",
-        "label": [
-          "Benign"
-        ],
-        "note": "A title \"L/Bdr\" hints he may be a soldier. But for people who are not familiar with that, such implying may not be clear ",
-        "annotator_name": "forrest",
-        "summary_span": "a former soldier",
-        "summary_start": 15,
-        "summary_end": 31
-      }
-    ],
-    "meta_model": "cohere/command-r-08-2024",
-    "meta_hhemv1": 0.46471,
-    "meta_hhem-2.1": 0.71239,
-    "meta_hhem-2.1-english": 0.89332,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 391
-  },
-  {
-    "sample_id": 5,
-    "source": "a pit crew member was hit by a car on sunday during the inaugural indycar grand prix of louisiana . \ntodd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg . \ntire changer todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel\nphillips was taken to the infield care center for treatment where he has received stitches for a cut on his leg and has been released . \nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag . \ndracone did not finish the race and wound up 23rd . \nfrancesco dracone ( 19 ) , of italy , spins out on turn one during the indycar grand prix of louisiana auto race in avondale on sunday",
-    "summary": "Here's a concise summary of the passage:\n\nDuring the inaugural IndyCar Grand Prix of Louisiana on Sunday, a pit crew member named Todd Phillips was injured. Phillips, a front-outside tire changer for Dale Coyne Racing, was hit by Francesco Dracone's car as it spun while exiting the pit box on lap 25. Phillips received stitches for a leg injury at the infield care center and was released. The incident occurred amid challenging track conditions due to pre-race rainfall, which caused traction issues for many drivers. Dracone did not finish the race, placing 23rd.",
-    "annotations": [
-      {
-        "annot_id": 22,
-        "sample_id": 5,
-        "annotator": "8883c06b9cc94bfe88a5c98259c3ed88",
-        "label": [
-          "Benign"
-        ],
-        "note": "",
-        "annotator_name": "Vivek",
-        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall",
-        "summary_start": 391,
-        "summary_end": 471
-      },
-      {
-        "annot_id": 35,
-        "sample_id": 5,
-        "annotator": "a6b68addc8cf49f6aaa94510a4b4bff9",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "the put box but not pit box",
-        "annotator_name": "Yujia Tang",
-        "summary_span": "Phillips, a front-outside tire changer for Dale Coyne Racing, was hit by Francesco Dracone's car as it spun while exiting the pit box on lap 25.",
-        "summary_start": 157,
-        "summary_end": 301,
-        "source_span": "todd phillips , a front-outside tire changer for dayle coyne racing , was injuried when he was struck by the car of francesco dracone , who had come in on lap 25 for tires and fuel . \ndracone spun while exiting his put box , clipping phillips ' leg .",
-        "source_start": 101,
-        "source_end": 351
-      },
-      {
-        "annot_id": 131,
-        "sample_id": 5,
-        "annotator": "f65a4e5fc2a748439f2a276ae395281f",
-        "label": [
-          "Unwanted",
-          "Unwanted.Instrinsic"
-        ],
-        "note": "",
-        "annotator_name": "Weisi",
-        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall,",
-        "summary_start": 391,
-        "summary_end": 472,
-        "source_span": "\nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag .",
-        "source_start": 683,
-        "source_end": 796
-      },
-      {
-        "annot_id": 135,
-        "sample_id": 5,
-        "annotator": "c95478fb4b954880a7cdd269e8e0d933",
-        "label": [
-          "Benign"
-        ],
-        "note": "source does not explicitly state the causal relation \"due to, \"but it can be inferred.",
-        "annotator_name": "Miaoran",
-        "summary_span": "The incident occurred amid challenging track conditions due to pre-race rainfall, which caused traction issues for many drivers. ",
-        "summary_start": 391,
-        "summary_end": 520,
-        "source_span": "\nmany cars struggled with traction during the race after rain had fallen for hours leading up to the green flag .",
-        "source_start": 683,
-        "source_end": 796
-      }
-    ],
-    "meta_model": "Anthropic/claude-3-5-sonnet-20240620",
-    "meta_hhemv1": 0.02931,
-    "meta_hhem-2.1": 0.84015,
-    "meta_hhem-2.1-english": 0.93123,
-    "meta_trueteacher": 1,
-    "meta_true_nli": 1,
-    "meta_gpt-3.5-turbo": 1,
-    "meta_gpt-4-turbo": 1,
-    "meta_gpt-4o": 1,
-    "meta_sample_id": 309
   },
   {
     "sample_id": 9,
