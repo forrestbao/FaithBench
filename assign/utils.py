@@ -144,9 +144,11 @@ class DetectorEvaluator():
             "gpt-4": "GPT-4, zero-shot",
             "minicheck-roberta-large": "Minicheck-Roberta-LG",
             "minicheck-deberta-v3-large": "Minicheck-Deberta-LG",
-            "minicheck-flan-t5-large": "Minicheck-Flan-T5-LG"
+            "minicheck-flan-t5-large": "Minicheck-Flan-T5-LG",
+            "Ragas_gpt-4o": "Ragas-GPT-4o",
+            "Trulens_gpt-4o_scores": "Trulens-GPT-4o"
         }
-        self.predictions = {detector: [] for detector in ['human'] + list(self.detectors.keys())}
+        self.predictions = {detector: [] for detector in ['human'] + list(self.detectors.values())}
         self.result_files = result_files
         self.skip_sample_ids = skip_sample_ids
         self.skip_meta_sample_ids = skip_meta_sample_ids
@@ -154,7 +156,7 @@ class DetectorEvaluator():
         self.halu_labels = halu_labels
 
     def process_results(self):
-        self.batch_predictions = {file_path: {'preds': {detector: [] for detector in list(self.detectors.keys())}, 'avg_source_len': 0, 'avg_summary_len': 0}  for file_path in self.result_files}
+        self.batch_predictions = {file_path: {'preds': {detector: [] for detector in list(self.detectors.values())}, 'avg_source_len': 0, 'avg_summary_len': 0}  for file_path in self.result_files}
         ref_data = pd.read_csv('examples_to_annotate.csv')
         for file_path in self.result_files:
             data = json.load(open(file_path))
@@ -219,10 +221,12 @@ class DetectorEvaluator():
                     detector_pred = row[f"{detector}"].astype(int)
                     if 'HHEM' in detector:
                         detector_pred = 0 if row[f"{detector}"].astype(float) < 0.5 else 1
+                    elif 'Ragas' in detector or 'Trulens' in detector:
+                        detector_pred = 1 if row[f"{detector}"] == 1 else 0
                     elif detector_pred not in [0,1]: # invalid prediction, consider wrong
                         detector_pred = 1 - human_label
-                    self.predictions[detector].append(detector_pred)
-                    self.batch_predictions[file_path]['preds'][detector].append(detector_pred)
+                    self.predictions[self.detectors[detector]].append(detector_pred)
+                    self.batch_predictions[file_path]['preds'][self.detectors[detector]].append(detector_pred)
 
             self.batch_predictions[file_path]['avg_source_len'] /= sample_count
             self.batch_predictions[file_path]['avg_summary_len'] /= sample_count
@@ -231,11 +235,11 @@ class DetectorEvaluator():
         print(self.pred_df.shape)
 
     def compute_correlation(self, correlation_method):
-        return self.pred_df.corr(method=correlation_method)
+        return self.pred_df.corr(method=correlation_method).round(2)
     
     def compute_performance(self):
         self.performance_results = {}
-        for detector in self.detectors:
+        for detector in list(self.detectors.values()):
             detector_results = {
                 "ba": round(balanced_accuracy_score(self.pred_df['human'], self.pred_df[detector])*100,2),
                 "f1-macro": round(f1_score(self.pred_df['human'], self.pred_df[detector], pos_label=1, average="macro")*100,2),
@@ -246,7 +250,7 @@ class DetectorEvaluator():
                 # "pr-cons": round(precision_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2),
                 # 're-cons': round(recall_score(self.pred_df['human'], self.pred_df[detector], pos_label=1)*100,2)
             }
-            self.performance_results[self.detectors[detector]] = detector_results
+            self.performance_results[detector] = detector_results
         return pd.DataFrame.from_dict(self.performance_results, orient='index')
     
     def disagree_vs_length(self):
@@ -369,7 +373,7 @@ class DetectorEvaluator():
             
 
 class HaluEvaluator():
-    def __init__(self, result_files, halu_labels=['Unwanted', 'Questionable'], skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}, num_annotators={}):
+    def __init__(self, result_files, sample_pooling, halu_labels=['Unwanted', 'Questionable'], skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}, num_annotators={}):
         '''
         result_files: the list of files to process
         skip_sample_ids: batch sample id of samples to be skipped when computing the results
@@ -397,6 +401,8 @@ class HaluEvaluator():
             "mistralai/Mistral-7B-Instruct-v0.3": "Mistral-7B"
         }
         self.halu_labels=halu_labels
+        assert sample_pooling in ['worst-pooling', 'best-pooling'], "only `worst-pooling` and `best-pooling` are supported"
+        self.sample_pooling = sample_pooling
         
 
     def process_results(self):
@@ -449,17 +455,27 @@ class HaluEvaluator():
                 
                 if len(occurred_annotators) < num_annotator:
                     self.model_preds[model_name]['avg_annotations']['Consistent'] += (num_annotator - len(occurred_annotators)) / num_annotator
-                
+                    sample_annotations.extend(['Consistent']* (num_annotator - len(occurred_annotators)))
                 sample_annotations = set(sample_annotations)
                 # human annotation
-                if "Unwanted" in sample_annotations:
-                    sample_pred = "Unwanted"
-                elif 'Questionable' in sample_annotations:
-                    sample_pred = "Questionable"
-                elif "Benign" in sample_annotations:
-                    sample_pred = "Benign"
+                if self.sample_pooling == 'worst-pooling':
+                    if "Unwanted" in sample_annotations:
+                        sample_pred = "Unwanted"
+                    elif 'Questionable' in sample_annotations:
+                        sample_pred = "Questionable"
+                    elif "Benign" in sample_annotations:
+                        sample_pred = "Benign"
+                    else:
+                        sample_pred = "Consistent"
                 else:
-                    sample_pred = "Consistent"
+                    if "Consistent" in sample_annotations:
+                        sample_pred = "Consistent"
+                    elif "Benign" in sample_annotations:
+                        sample_pred = "Benign"
+                    elif 'Questionable' in sample_annotations:
+                        sample_pred = "Questionable"
+                    else:
+                        sample_pred = "Unwanted"
                 self.model_preds[model_name]['sample_labels'].append(sample_pred)
                 self.batch_model_len_preds[file_path][model_name]['sample_labels'].append(sample_pred)
     
