@@ -122,14 +122,16 @@ def compute_interannotator_agreement(
     return agreement
 
 class DetectorEvaluator():
-    def __init__(self, result_files, halu_labels=['Unwanted', 'Questionable'], skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}):
+    def __init__(self, result_files, sample_pooling, halu_labels=['Unwanted', 'Questionable'], skip_sample_ids={}, skip_meta_sample_ids=[], selected_annotators={}, num_annotators={}):
         '''
         result_files: the list of files to process
+        sample_pooling: sample pooling method
         skip_sample_ids: batch sample id of samples to be skipped when computing the results
             {filename: [sample ids to skip in the file]}
         skip_meta_sample_ids: meta samplfhalu) id of samples to be skipped
         selected_annotators: selected annotator for each file
             {filename: [selected annotators]}
+        num_annotators: number of annotators for each file
         '''
         self.detectors = {
             "HHEMv1":"HHEM-1", 
@@ -148,12 +150,18 @@ class DetectorEvaluator():
             "Ragas_gpt-4o": "Ragas-GPT-4o",
             "Trulens_gpt-4o_scores": "Trulens-GPT-4o"
         }
-        self.predictions = {detector: [] for detector in ['human'] + list(self.detectors.values())}
+        self.predictions = {detector: [] for detector in ['human', 'human_4labels'] + list(self.detectors.values())}
         self.result_files = result_files
         self.skip_sample_ids = skip_sample_ids
         self.skip_meta_sample_ids = skip_meta_sample_ids
         self.selected_annotators = selected_annotators
         self.halu_labels = halu_labels
+        self.num_annotators = num_annotators
+        assert sample_pooling in ['worst-pooling', 'best-pooling'], "only `worst-pooling` and `best-pooling` are supported"
+        self.sample_pooling = sample_pooling
+        self.human_mapped_labels = {label: 0 if label in self.halu_labels else 1
+                               for label in ['Consistent', 'Benign', 'Questionable', 'Unwanted']}
+        
 
     def process_results(self):
         self.batch_predictions = {file_path: {'preds': {detector: [] for detector in list(self.detectors.values())}, 'avg_source_len': 0, 'avg_summary_len': 0}  for file_path in self.result_files}
@@ -161,6 +169,7 @@ class DetectorEvaluator():
         for file_path in self.result_files:
             data = json.load(open(file_path))
             selected_annotators = None
+            num_annotator = self.num_annotators[file_path]
             if file_path in self.selected_annotators:
                 selected_annotators = self.selected_annotators[file_path]
         
@@ -180,34 +189,52 @@ class DetectorEvaluator():
                 llm = sample['meta_model']
                 annotations = sample['annotations']
                 sample_annotations = []
+                occurred_annotators = set()
                 for annotation in annotations:
+                    annotator = annotation['annotator'] if not annotation['annotator_name'] else annotation['annotator_name'].split()[0].lower()
                     if selected_annotators:
-                        annotator = annotation['annotator'] if not annotation['annotator_name'] else annotation['annotator_name'].split()[0].lower()
                         if annotator in selected_annotators:
                             sample_annotations.extend(annotation['label'])
+                            occurred_annotators.add(annotator)
                     else:
                         sample_annotations.extend(annotation['label'])
+                        occurred_annotators.add(annotator)
+                    
+                if len(occurred_annotators) < num_annotator:
+                    sample_annotations.extend(['Consistent']* (num_annotator - len(occurred_annotators)))
+                
                 sample_annotations = set(sample_annotations)
                 # human annotation
                 # if "Unwanted" in sample_annotations or 'Questionable' in sample_annotations:
                 #     self.predictions['human'].append(0)
                 # else:
                 #     self.predictions['human'].append(1)
-                
-                if "Unwanted" in sample_annotations:
-                    sample_pred = "Unwanted"
-                elif 'Questionable' in sample_annotations:
-                    sample_pred = "Questionable"
-                elif "Benign" in sample_annotations:
-                    sample_pred = "Benign"
+                if self.sample_pooling == 'worst-pooling':
+                    if "Unwanted" in sample_annotations:
+                        sample_pred = "Unwanted"
+                    elif 'Questionable' in sample_annotations:
+                        sample_pred = "Questionable"
+                    elif "Benign" in sample_annotations:
+                        sample_pred = "Benign"
+                    else:
+                        sample_pred = "Consistent"
                 else:
-                    sample_pred = "Consistent"
+                    if "Consistent" in sample_annotations:
+                        sample_pred = "Consistent"
+                    elif "Benign" in sample_annotations:
+                        sample_pred = "Benign"
+                    elif 'Questionable' in sample_annotations:
+                        sample_pred = "Questionable"
+                    else:
+                        sample_pred = "Unwanted"
+
                 if sample_pred in self.halu_labels:
                     human_label = 0
                 else:
                     human_label = 1
                     
                 self.predictions['human'].append(human_label)
+                self.predictions['human_4labels'].append(sample_pred)
                 # row = ref_data.loc[(ref_data['source'] == source) & (ref_data['model'] == llm)]
                 row = ref_data.loc[meta_sample_id]
                 # if row.empty:
@@ -232,10 +259,10 @@ class DetectorEvaluator():
             self.batch_predictions[file_path]['avg_summary_len'] /= sample_count
 
         self.pred_df = pd.DataFrame(self.predictions)
-        print(self.pred_df.shape)
+        # print(self.pred_df.shape)
 
     def compute_correlation(self, correlation_method):
-        return self.pred_df.corr(method=correlation_method).round(2)
+        return self.pred_df.loc[:, self.pred_df.columns!='human_4labels'].corr(method=correlation_method).round(2)
     
     def compute_performance(self):
         self.performance_results = {}
@@ -253,6 +280,53 @@ class DetectorEvaluator():
             self.performance_results[detector] = detector_results
         return pd.DataFrame.from_dict(self.performance_results, orient='index')
     
+    def get_error_distribution(self):
+        # Initialize a dictionary to hold error counts for each model and each label category
+        self.error_distribution = {model: {'Unwanted': 0, 'Questionable': 0, 'Benign': 0, 'Consistent': 0}
+                              for model in self.predictions if 'human' not in model}
+        
+        # Extract the human ground truth labels
+        human_01labels = self.predictions['human']
+        human_4labels = self.predictions['human_4labels']
+        
+        # Iterate over each model's predictions (excluding the 'human' entry)
+        for model, model_predictions in self.predictions.items():
+            if 'human' in model:
+                continue
+            # Compare each prediction with the mapped ground truth
+            for idx, pred in enumerate(model_predictions):
+                if human_01labels[idx] != pred:
+                    self.error_distribution[model][human_4labels[idx]] += 1
+        
+        for model in self.error_distribution:
+            total = sum(list(self.error_distribution[model].values()))
+            for l in self.error_distribution[model]:
+                self.error_distribution[model][l] = round(self.error_distribution[model][l]/total*100, 2)
+
+        # return self.error_distribution
+        # colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(2), plt.cm.tab10(0), plt.cm.tab10(1), plt.cm.tab10(3)]]  # Red, Orange, Blue, Green,  for each category respectively
+        colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
+        
+        error_distribution_df = pd.DataFrame.from_dict(self.error_distribution, orient='index')
+        
+        # Plotting the stacked bar plot
+        ax = error_distribution_df.plot(kind='bar', stacked=True, figsize=(12, 8), color=colors)
+        # fig, ax = plt.subplots(figsize=(12, 8))
+        for container in ax.containers:
+            # ax.bar_label(container, fmt='%.2f', label_type='center', rotation=45, color='black', fontsize=9, padding=1)
+            labels = [f"{v:.2f}" if v >= 0.5 else "" for v in container.datavalues]
+            ax.bar_label(container, labels=labels, label_type='center', rotation=0, color='black', fontsize=7, padding=0)
+
+
+
+        # Add labels and title
+        # plt.xlabel('Model')
+        plt.ylabel('Distribution of labels (%)', fontsize=10)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05), fontsize=9, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=9)
+        plt.tight_layout()
+        plt.show()
+
     def disagree_vs_length(self):
         source_lens = []
         summary_lens = []
