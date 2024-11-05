@@ -148,7 +148,9 @@ class DetectorEvaluator():
             "minicheck-deberta-v3-large": "Minicheck-Deberta-LG",
             "minicheck-flan-t5-large": "Minicheck-Flan-T5-LG",
             "Ragas_gpt-4o": "Ragas-GPT-4o",
-            "Trulens_gpt-4o_scores": "Trulens-GPT-4o"
+            "Trulens_gpt-4o_scores": "Trulens-GPT-4o",
+            "alignscore-base": "AlignScore-BS",
+            "alignscore-large": "AlignScore-LG",
         }
         self.predictions = {detector: [] for detector in ['human', 'human_4labels'] + list(self.detectors.values())}
         self.result_files = result_files
@@ -246,7 +248,7 @@ class DetectorEvaluator():
                 # print(row)
                 for detector in self.detectors:
                     detector_pred = row[f"{detector}"].astype(int)
-                    if 'HHEM' in detector:
+                    if 'HHEM' in detector or 'alignscore' in detector.lower():
                         detector_pred = 0 if row[f"{detector}"].astype(float) < 0.5 else 1
                     elif 'Ragas' in detector or 'Trulens' in detector:
                         detector_pred = 1 if row[f"{detector}"] == 1 else 0
