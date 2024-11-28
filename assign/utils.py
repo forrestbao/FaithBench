@@ -1,8 +1,11 @@
 import json
+import re
 import os
 from typing import Literal 
 import krippendorff
+import nltk
 import itertools
+import jsonlines
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,12 +14,50 @@ import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 from collections import Counter
 from sklearn.metrics import balanced_accuracy_score, f1_score, precision_score, recall_score
+ 
 
-def read_annotation(file_path, skip_sample_ids=[], skip_meta_sample_ids=[]):
+# define the function to find the union of two or more lists
+def union_lists(lst_of_lists):
+    if not lst_of_lists:
+        return []
+    result = lst_of_lists[0]
+    for lst in lst_of_lists[1:]:
+        result.extend(lst)
+    return result
+
+def find_annotation_sentence(annotation_spans, sentences_with_indices):
+    # Check which sentence each annotation span belongs to
+    annotation_to_sentence = {sent: [] for sent, _, _ in sentences_with_indices}
+    for annotation, start, end in annotation_spans:
+        for sent, sent_start, sent_end in sentences_with_indices:
+            intersection_start = max(start, sent_start)
+            intersection_end = min(end, sent_end)
+            if intersection_end >= intersection_start:
+                intersection_length = intersection_end - intersection_start + 1
+                if intersection_length > 3:
+                    annotation_to_sentence[sent].extend(annotation)
+    for sent in annotation_to_sentence:
+        if len(annotation_to_sentence[sent]) == 0: # no annotation -> consistent
+            annotation_to_sentence[sent] = ['Consistent']
+        else:
+            annotation_to_sentence[sent] = list(set(annotation_to_sentence[sent]))
+    return annotation_to_sentence
+
+
+def read_annotation(file_path, summary_sent_file, skip_sample_ids=[], skip_meta_sample_ids=[]):
+    split_text_to_sentences_with_indices = {}
+    with open(summary_sent_file) as reader:
+        for record in jsonlines.Reader(reader):
+            record = record[0]
+            split_text_to_sentences_with_indices[record['meta_id']] = record['sent_list']
     annotators_records = {} # annotator: {sample1: [label], sample2: [label], ...}
+    annotators_sents_records = {} # annotator: {sample1_sent1: [label], sample1_sent2: [label], ...}
+    sent_level_labels = {}
     data = json.load(open(file_path))
     # meta_sample_ids = []
     sample_ids = []
+    annotators = set([a['annotator'] if not a['annotator_name'] else a['annotator_name'].split()[0].lower() for sample in data for a in sample['annotations']])
+    # print(annotators)
     for sample in data:
         annotations = sample['annotations']
         # skip certain samples
@@ -27,9 +68,16 @@ def read_annotation(file_path, skip_sample_ids=[], skip_meta_sample_ids=[]):
         if skip_meta_sample_ids and meta_sample_id in skip_meta_sample_ids:
             continue
         # meta_sample_ids.append(meta_sample_id)
+        summary = sample['summary']
+        summary_sents = split_text_to_sentences_with_indices[meta_sample_id]
+        # print(summary_sents)
+
         sample_ids.append(sample_id)
+        annotation_spans = {}
         for annotation in annotations:
             annotator = annotation['annotator'] if not annotation['annotator_name'] else annotation['annotator_name'].split()[0].lower()
+            if 'summary_start' not in annotation or len(annotation['label']) < 1: # no selected summary span / no label assigned -> invalid annotation, ignore
+                continue
             if annotator not in annotators_records:
                 annotators_records[annotator] = {}
             # if meta_sample_id not in annotators_records[annotator]:
@@ -38,22 +86,112 @@ def read_annotation(file_path, skip_sample_ids=[], skip_meta_sample_ids=[]):
             if sample_id not in annotators_records[annotator]:
                 annotators_records[annotator][sample_id] = []
             annotators_records[annotator][sample_id] += annotation['label']
-        
-    # return meta_sample_ids, annotators_records
-    return sample_ids, annotators_records
 
-def compute_interannotator_agreement(
+            if annotator not in annotation_spans:
+                annotation_spans[annotator] = []
+            annotation_spans[annotator].append([annotation['label'], annotation['summary_start'], annotation['summary_end']])
+            
+        for annotator in annotators:
+            if annotator not in annotators_sents_records:
+                annotators_sents_records[annotator] = {}
+            # if annotator in annotation_spans:
+            annotators_sents_records[annotator].update(find_annotation_sentence(annotation_spans.get(annotator, []), summary_sents))
+        sent_level_labels[meta_sample_id] = find_annotation_sentence(union_lists(list(annotation_spans.values())), summary_sents)
+    # print(annotators_sents_records)
+        # sample_sents_annotations = find_annotation_sentence(annotation_spans, summary_sents)
+        # print(sample_sents_annotations)
+    # return meta_sample_ids, annotators_records
+    return sample_ids, annotators_records, annotators_sents_records, sent_level_labels
+
+def compute_span_level_interannotator_agreement(
         file_path, 
         label_map, 
+        summary_sent_file,
         level_of_measurement='interval', 
         selected_annotators = None, 
         skip_sample_ids=[], 
         skip_meta_sample_ids=[]
     ):
-    sample_ids, annotators_records = read_annotation(file_path, skip_sample_ids=skip_sample_ids, skip_meta_sample_ids=skip_meta_sample_ids)
+    _, _, annotators_sents_records, _ = read_annotation(file_path, summary_sent_file, skip_sample_ids=skip_sample_ids, skip_meta_sample_ids=skip_meta_sample_ids)
+    # print(sample_ids)
+    print('compute span level interannotator agreement')
+    print(file_path)
+    
+    if selected_annotators:
+        annotators = []
+        for annotator in selected_annotators:
+            if annotator not in annotators_sents_records:
+                print(f"No records from annotator {annotator}")
+            else:
+                annotators.append(annotator)
+    else:
+        annotators = list(annotators_sents_records.keys())
+    if not annotators:
+        return
+    print('annotator for span level agreement computation:', annotators)
+    results= {annotator: [] for annotator in annotators} # annotator 1: [label for sample1_sent1, label for sample1_sent2 ....] # either consistent or hallucinated
+    # those are annotated examples
+    for annotator in annotators:
+        print(len(annotators_sents_records[annotator].values()))
+        for sent in annotators_sents_records[annotator]:
+            # consider the worst label
+            sent_label = annotators_sents_records[annotator][sent]
+            if 'Unwanted' in sent_label:
+                label = label_map['unwanted']
+            elif label_map['questionable'] > label_map['benign']:
+                if 'Benign' in sent_label:
+                    label = label_map['benign']
+                else:
+                    label = label_map['questionable']
+            else:   
+                if 'Questionable' in sent_label:
+                    label = label_map['questionable']
+                else:
+                    label = label_map['benign']
+
+            results[annotator].append(label)
+    print(results)
+    # print(sample_ids)
+    # annotation_labels = list(results.values())
+    disagree_sent_ids = []
+    for i in range(len(results[annotator])):
+        if len(set([labels[i] for _, labels in results.items()])) > 1: 
+            disagree_sent_ids.append(i)
+    print('disagreed sent ids:', disagree_sent_ids)
+    for annotator in annotators:
+        print(f"{annotator} {[results[annotator][i] for i in disagree_sent_ids]}")
+
+    print(f"{level_of_measurement} Krippendorff\'s alpha for label map\n{label_map}")
+    value_domain= sorted(list(set([l for l in label_map.values() if not np.isnan(l)])))
+    # if all annotators only have the same single type of label, the alpha will be nan
+    # to deal with this issue, manually add an extra annotion for the other label for all annotators
+    all_annotations = []
+    for annotator in results:
+        anno = np.array(results[annotator])
+        all_annotations.extend(anno[np.logical_not(np.isnan(anno))])
+    if len(set(all_annotations)) == 1:
+        other_labels = value_domain.copy()
+        other_labels.remove(list(set(all_annotations))[0])
+        for annotator in results:
+            results[annotator].append(other_labels[0])
+    
+    agreement = krippendorff.alpha(np.array(list(results.values()), dtype=np.dtype(float)), level_of_measurement=level_of_measurement, value_domain=value_domain)
+    print(round(agreement,3))
+    return agreement
+
+def compute_interannotator_agreement(
+        file_path, 
+        label_map, 
+        summary_sent_file,
+        level_of_measurement='interval', 
+        selected_annotators = None, 
+        skip_sample_ids=[], 
+        skip_meta_sample_ids=[]
+    ):
+    sample_ids, annotators_records, _, _ = read_annotation(file_path, summary_sent_file, skip_sample_ids=skip_sample_ids, skip_meta_sample_ids=skip_meta_sample_ids)
     sample_ids = sorted(sample_ids)
     # print(sample_ids)
-    print(file_path)
+    # print(file_path)
     
     if selected_annotators:
         annotators = []
@@ -138,6 +276,8 @@ class DetectorEvaluator():
             "HHEM-2.1": "HHEM-2.1-Tri" , 
             "HHEM-2.1-English": "HHEM-2.1-English", 
             "HHEM-2.1-Open": "HHEM-2.1-Open",
+            "alignscore-base": "AlignScore-BS",
+            "alignscore-large": "AlignScore-LG",
             "trueteacher": "True-Teacher", 
             "true_nli": "True-NLI", 
             "gpt-3.5-turbo": "GPT-3.5-Turbo, zero-shot", 
@@ -149,8 +289,6 @@ class DetectorEvaluator():
             "minicheck-flan-t5-large": "Minicheck-Flan-T5-LG",
             "Ragas_gpt-4o": "Ragas-GPT-4o",
             "Trulens_gpt-4o_scores": "Trulens-GPT-4o",
-            "alignscore-base": "AlignScore-BS",
-            "alignscore-large": "AlignScore-LG",
         }
         self.predictions = {detector: [] for detector in ['human', 'human_4labels'] + list(self.detectors.values())}
         self.result_files = result_files
@@ -261,7 +399,7 @@ class DetectorEvaluator():
             self.batch_predictions[file_path]['avg_summary_len'] /= sample_count
 
         self.pred_df = pd.DataFrame(self.predictions)
-        # print(self.pred_df.shape)
+        print(self.pred_df.shape)
 
     def compute_correlation(self, correlation_method):
         return self.pred_df.loc[:, self.pred_df.columns!='human_4labels'].corr(method=correlation_method).round(2)
@@ -312,20 +450,20 @@ class DetectorEvaluator():
         error_distribution_df = pd.DataFrame.from_dict(self.error_distribution, orient='index')
         
         # Plotting the stacked bar plot
-        ax = error_distribution_df.plot(kind='bar', stacked=True, figsize=(12, 8), color=colors)
+        ax = error_distribution_df.plot(kind='bar', stacked=True, figsize=(12, 6), color=colors)
         # fig, ax = plt.subplots(figsize=(12, 8))
         for container in ax.containers:
             # ax.bar_label(container, fmt='%.2f', label_type='center', rotation=45, color='black', fontsize=9, padding=1)
-            labels = [f"{v:.2f}" if v >= 0.5 else "" for v in container.datavalues]
-            ax.bar_label(container, labels=labels, label_type='center', rotation=0, color='black', fontsize=7, padding=0)
+            labels = [f"{v:.2f}" if v >= 2 else "" for v in container.datavalues]
+            ax.bar_label(container, labels=labels, label_type='center', rotation=30, color='black', fontsize=9, padding=0)
 
 
 
         # Add labels and title
         # plt.xlabel('Model')
-        plt.ylabel('Distribution of labels (%)', fontsize=10)
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05), fontsize=9, title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=20, ha='right', fontsize=9)
+        plt.ylabel('Distribution of labels (%)', fontsize=12)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize=10, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=10)
         plt.tight_layout()
         plt.show()
 
