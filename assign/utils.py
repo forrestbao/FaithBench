@@ -48,7 +48,7 @@ def read_annotation(file_path, summary_sent_file, skip_sample_ids=[], skip_meta_
     split_text_to_sentences_with_indices = {}
     with open(summary_sent_file) as reader:
         for record in jsonlines.Reader(reader):
-            record = record[0]
+            # record = record[0]
             split_text_to_sentences_with_indices[record['meta_id']] = record['sent_list']
     annotators_records = {} # annotator: {sample1: [label], sample2: [label], ...}
     annotators_sents_records = {} # annotator: {sample1_sent1: [label], sample1_sent2: [label], ...}
