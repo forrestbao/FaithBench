@@ -1,10 +1,11 @@
 import jsonlines
 import json
+import numpy as np
 from sklearn.metrics import balanced_accuracy_score, f1_score
 
 labels = []
 preds = []
-with open('processed_ragas_claim_level_preds.jsonl') as reader:
+with open('processed_trulens_claim_level_preds.jsonl') as reader:
     for record in jsonlines.Reader(reader):
             for sent, sent_result in record['results'].items():
                 ## Worst-pooling
@@ -19,9 +20,8 @@ with open('processed_ragas_claim_level_preds.jsonl') as reader:
                     label = 0
                 labels.append(label)
                 if len(sent_result['claims']) < 1: # no prediction
-                     print()
                      preds.append(1)
-                elif 0 in sent_result['claim_preds']:
+                elif np.mean(sent_result['claim_preds']) < 1:
                     preds.append(0)
                 else:
                     preds.append(1)
