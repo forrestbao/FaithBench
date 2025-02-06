@@ -359,7 +359,7 @@ class DetectorEvaluator():
             sample_count = 0
             for sample in data:
                 sample_id = sample['sample_id']
-                if file_path in self.skip_sample_ids and sample_id in self.skip_sample_ids[file_path]:
+                if file_path in self.skip_sample_ids and str(sample_id) in self.skip_sample_ids[file_path]:
                     continue
                 meta_sample_id = sample['meta_sample_id']
                 if meta_sample_id in self.skip_meta_sample_ids:
@@ -476,18 +476,18 @@ class DetectorEvaluator():
         error_distribution_df = pd.DataFrame.from_dict(self.error_distribution, orient='index')
         
         # Plotting the stacked bar plot
-        ax = error_distribution_df.plot(kind='bar', stacked=True, figsize=(12, 6), color=colors)
+        ax = error_distribution_df.plot(kind='bar', stacked=True, figsize=(16,6), color=colors)
         # fig, ax = plt.subplots(figsize=(12, 8))
         for container in ax.containers:
             # ax.bar_label(container, fmt='%.2f', label_type='center', rotation=45, color='black', fontsize=9, padding=1)
-            labels = [f"{v:.2f}" if v >= 2 else "" for v in container.datavalues]
-            ax.bar_label(container, labels=labels, label_type='center', rotation=30, color='black', fontsize=9, padding=0)
+            labels = [f"{v:.2f}" if v >= 4 else "" for v in container.datavalues]
+            ax.bar_label(container, labels=labels, label_type='center', rotation=20, color='black', fontsize=13, padding=0)
 
         # Add labels and title
         # plt.xlabel('Model')
-        plt.ylabel('Distribution of labels (%)', fontsize=12)
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), fontsize=10, title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=20, ha='right', fontsize=10)
+        plt.ylabel('Distribution of labels (%)', fontsize=15)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15), fontsize=15, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=15)
         plt.tight_layout()
         plt.show()
 
@@ -723,8 +723,9 @@ class HaluEvaluator():
         self.batch_model_len_preds = {file_path:{model: {'avg_annotations': {l:0 for l in ['Unwanted','Questionable', 'Benign']}, 'sample_labels':[], 'avg_source_len': 0, 'avg_summary_len': 0} for model in self.model_map} for file_path in self.result_files}
         # avg_annotation = num of one label / num of annotators
         # i.e., if one annotator made 4 unwanted annotations to a sample and the other annotator marked 2 benign labels, the labels for this sample are 2 unwanted and 1 benign
+        total_sample_count = 0
         for file_path in self.result_files:
-            
+            # print("file_path:", file_path)
             data = json.load(open(file_path))
             selected_annotators = None
             num_annotator = self.num_annotators[file_path]
@@ -734,7 +735,9 @@ class HaluEvaluator():
             sample_count = 0
             for sample in data:
                 sample_id = sample['sample_id']
-                if file_path in self.skip_sample_ids and sample_id in self.skip_sample_ids[file_path]:
+                # print("sample_id:", sample_id)
+                if file_path in self.skip_sample_ids and str(sample_id) in self.skip_sample_ids[file_path]:
+                    # print('skip')
                     continue
                 meta_sample_id = sample['meta_sample_id']
                 if meta_sample_id in self.skip_meta_sample_ids:
@@ -783,6 +786,8 @@ class HaluEvaluator():
             for model_name in self.model_map:
                 self.batch_model_len_preds[file_path][model_name]['avg_source_len'] /= (sample_count//len(self.model_map))
                 self.batch_model_len_preds[file_path][model_name]['avg_summary_len'] /= (sample_count//len(self.model_map))
+            total_sample_count += sample_count
+        print("total_sample_count", total_sample_count)
 
     def compute_halu_rate(self):
         self.model_results = {}
@@ -817,16 +822,16 @@ class HaluEvaluator():
         colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
         
         # Plot the stacked bar chart
-        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 4), color=colors)
+        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(12, 4), color=colors)
         # Add numbers on the stacks
         for container in ax.containers:
-            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=30, color='black', fontsize=9, padding=1)
+            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=30, color='black', fontsize=10, padding=1)
 
         # Add labels and title
         # plt.xlabel('Model')
-        plt.ylabel('Distribution of labels (%)', fontsize=10)
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15), fontsize=9, title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=20, ha='right', fontsize=9)
+        plt.ylabel('Distribution of labels (%)', fontsize=12)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.2), fontsize=12, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=12)
         plt.tight_layout()
         plt.show()
 
@@ -852,13 +857,13 @@ class HaluEvaluator():
         ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(9, 4), color=colors)
         # Add numbers on the stacks
         for container in ax.containers:
-            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=65, color='black', fontsize=10, padding=1)
+            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=65, color='black', fontsize=12, padding=1)
 
         # Add labels and title
         # plt.xlabel('Model')
-        plt.ylabel('Distribution of annotations (%)', fontsize=10)
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.15), fontsize=9, title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=20, ha='right', fontsize=9)
+        plt.ylabel('Share of annotations (%)', fontsize=14)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.2), fontsize=14, title_fontsize='small', frameon=True, ncol=4)
+        plt.xticks(rotation=20, ha='right', fontsize=14)
         plt.tight_layout()
         plt.show()
 
