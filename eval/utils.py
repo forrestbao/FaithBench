@@ -629,7 +629,7 @@ class SentLevelDetectorEvaluator(DetectorEvaluator):
     def process_results(self):
         self.predictions = {detector: [] for detector in ['human', 'human_4labels'] + list(self.detectors.values())}
         for detector in ['human', 'human_4labels']:
-            with open('sent_level_results/detectors_sent_level_preds.json') as f:
+            with open('sent_level_results/detectors_sent_level_preds_merged.json') as f:
                 data = json.load(f)
                 for meta_id in data:
                     record = data[meta_id]
@@ -668,11 +668,13 @@ class SentLevelDetectorEvaluator(DetectorEvaluator):
                                 else:
                                     self.predictions[self.detectors[detector]].append(1)
             else:
-                with open('sent_level_results/detectors_sent_level_preds.json') as f:
+                with open('sent_level_results/detectors_sent_level_preds_merged.json') as f:
                     data = json.load(f)
                     for meta_id in data:
                         record = data[meta_id]
                         for _, results in record.items():
+                            if detector not in results:
+                                continue
                             if results[detector] is not None:
                                 self.predictions[self.detectors[detector]].append(int(results[detector] > 0.5))
                             else: # prediction is None. may occur for trueteacher/truenli
@@ -680,7 +682,8 @@ class SentLevelDetectorEvaluator(DetectorEvaluator):
                                     self.predictions[self.detectors[detector]].append(1-best_pooling_01label(results['labels']))
                                 else:
                                     self.predictions[self.detectors[detector]].append(1-worst_pooling_01label(results['labels']))
-                             
+        for detector, results in self.predictions.items():
+            print(detector, len(results))                
         self.pred_df = pd.DataFrame(self.predictions)
         # return self.predictions
 
@@ -822,16 +825,16 @@ class HaluEvaluator():
         colors = [mcolors.to_rgba(c, alpha=0.7) for c in [plt.cm.tab10(3), plt.cm.tab10(1), plt.cm.tab10(0), plt.cm.tab10(2)]]
         
         # Plot the stacked bar chart
-        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(12, 4), color=colors)
+        ax = halu_dist_df.plot(kind='bar', stacked=True, figsize=(12, 3), color=colors)
         # Add numbers on the stacks
         for container in ax.containers:
-            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=30, color='black', fontsize=10, padding=1)
+            ax.bar_label(container, fmt='%.2f', label_type='center', rotation=10, color='black', fontsize=10, padding=1)
 
         # Add labels and title
         # plt.xlabel('Model')
         plt.ylabel('Distribution of labels (%)', fontsize=12)
         plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.2), fontsize=12, title_fontsize='small', frameon=True, ncol=4)
-        plt.xticks(rotation=20, ha='right', fontsize=12)
+        plt.xticks(rotation=10, ha='right', fontsize=12)
         plt.tight_layout()
         plt.show()
 
