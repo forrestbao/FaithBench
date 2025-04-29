@@ -1,4 +1,4 @@
-# FaithBench: a human-annotated benchmark for summarization hallucinations of modern LLMs
+# FaithBench: a human-annotated benchmark on challenging summarization hallucinations of modern LLMs
 
 FaithBench is a benchmark 
 for summarization hallucinations, featuring human-annotated hallucinations in summaries generated 
@@ -8,13 +8,13 @@ by 10 modern LLMs across 8 different model families. The ten LLMs are:
 * Llama-3.1-70B
 * Gemini-1.5-Flash
 * Llama-3.1-8B
-* Claude-43.5-Sonnet
+* Claude-3.5-Sonnet
 * Qwen-2.5-7B
 * Phi-3-mini-4k
 * Command-R
 * Mistral-7B
 
-As of November 2024, FaithBench contain 750 samples. 
+As of November 2024, FaithBench contains 750 samples. 
 
 ## Annotations
 
